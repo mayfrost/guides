@@ -1,2 +1,2 @@
 # guides
-Looking for a guide? You came to the right place. Here you can find documentation.
+Documentation is being created here for all purposes.
