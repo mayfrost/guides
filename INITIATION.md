@@ -7,27 +7,27 @@ This guide is for those wanting one of the two most beautiful source based distr
 
 ## TOC
 1. [START](#start)  
-2. [PARTITIONING](#partitioning) 
-3. [SETUP](#setup) 
-3.1. [Chroot](#chroot) 
-3.2. [Change network interfaces](#change-network-interfaces) 
-3.3. [Edit fstab](#edit-fstab) 
-3.4. [Edit the environment](#edit-the-environment) 
-4. [KERNEL](#kernel) 
-5. [BOOTLOADER](#bootloader) 
-5.1. [LILO](#lilo) 
-5.2. [SYSLINUX](#syslinux) 
-5.3. [GRUB Legacy](#grub-legacy) 
-5.4. [GRUB 2](#grub-2) 
-6. [THE END](#the-end) 
-7. [CONFIGURATION ON CRUX](#configuration-on-crux) 
-7.1. [ENABLE CONTRIB REPO](#enable-contrib-repo) 
-7.2. [ADD EXTERNAL REPOS](#add-external-repos) 
-8. [CRUX COMMANDS](#crux-commands) 
-8.1. [Automated installation of ports](#automated-installation-of-ports) 
-8.2. [Manual download and installation](#manual-download-and-installation) 
-9. [SOURCE MAGE GNU/LINUX COMMANDS](#source-mage-gnu/linu-commands) 
-
+2. [PARTITIONING](#partitioning)  
+3. [SETUP](#setup)  
+3.1. [CHROOT](#chroot)  
+3.2. [CHANGE NETWORK INTERFACES](#change-network-interfaces)  
+3.3. [EDIT FSTAB](#edit-fstab)  
+3.4. [SETUP THE ENVIRONMENT](#setup-the-environment)  
+4. [KERNEL](#kernel)  
+5. [BOOTLOADER](#bootloader)  
+5.1. [LILO](#lilo)  
+5.2. [SYSLINUX](#syslinux)  
+5.3. [GRUB Legacy](#grub-legacy)  
+5.4. [GRUB 2](#grub-2)  
+6. [THE END](#the-end)  
+7. [CONFIGURATION ON CRUX](#configuration-on-crux)  
+7.1. [ENABLE CONTRIB REPO](#enable-contrib-repo)  
+7.2. [ADD EXTERNAL REPOS](#add-external-repos)  
+7.3. [INSTALL XORG](#install-xorg)  
+8. [CRUX COMMANDS](#crux-commands)  
+8.1. [AUTOMATED INSTALLATION OF PORTS](#automated-installation-of-ports)  
+8.2. [MANUAL DOWNLOAD AND INSTALLATION](#manual-download-and-installation)  
+9. [SOURCE MAGE GNU/LINUX COMMANDS](#source-mage-gnu/linu-commands)  
 
 ## START
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
@@ -81,13 +81,13 @@ In these examples we make only two partitions but you can extend this if you kno
 `wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"`  
 `tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`
 
-### Chroot
+### CHROOT
 * Chroot specifying Bash in case live media has another shell  
 `chroot /mnt/drive /bin/bash`
 * Change root password in chroot (TEST IF YOUR KEYBOARD HAS ALL THE CORRECT MAPPINGS before you change the password)  
 `passwd root`
 
-### Change network interfaces
+### CHANGE NETWORK INTERFACES
 * On __CRUX__ modify "_/etc/rc.d/net_" with the rules you want (IP, gateway, domain, etc)
 * On __Source Mage GNU/Linux__ add preferred interfaces to "_/etc/network/interfaces_" for example  
 `auto eth0`  
@@ -97,14 +97,14 @@ In these examples we make only two partitions but you can extend this if you kno
 `nameserver 193.41.79.236`
 * Or copy "_/etc/resolv.conf_" to "_/mnt/etc/resolv.conf_" __BEFORE__ chrooting
 
-### Edit fstab
+### EDIT FSTAB
 * Change the "_/etc/fstab_" file with appropriate filesystems  
 `/dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults    0 2`  
 `/dev/sda2    /    <ROOT_FILESYSTEM>    noatime    0 1`
 * On __CRUX__ uncomment the lines referring to devpts, tmp, and shm as some programs require it (Firefox), also USB and or cdrom if using those
 * If on UEFI replace "_/boot_" with "_/boot/efi_"
 
-### Edit the environment
+### SETUP THE ENVIRONMENT
 * On __CRUX__ change the font, keyboard, timezone, hostname and services on the "_/etc/rc.conf_" file  
 `ls /usr/share/kbd/keymaps/`
 * On __Source Mage GNU/Linux__ change keymaps on the "_/etc/sysconfig/keymap_" file  
@@ -287,9 +287,14 @@ And done.
 `nano /etc/pkgmk.conf`
 * Set line "_PKGMK_IGNORE_NEW="yes"_"
 
+### INSTALL XORG
+* Install a minimal set of xorg and xorg dependent tools one by one
+prtget depinst xorg-server xorg-xf86-video-<DRIVER> xorg-font-<FONT> xkeyboard-config xorg-xinit
+* Alternatively just install the metapackage "_xorg_"
+
 
 ## CRUX COMMANDS
-### Automated installation of ports
+### AUTOMATED INSTALLATION OF PORTS
 * Populate ports tree (is empty by default)  
 `ports -u`
 * Automatically download and build a package with its required dependencies ignoring signature mismatch  
@@ -307,7 +312,7 @@ And done.
 * List all installed packages  
 `pkginfo -i`
 
-### Manual download and installation
+### MANUAL DOWNLOAD AND INSTALLATION
 * Go to apropriate directory for all these tasks  
 `cd to /usr/ports/<REPO>/<PORT>`
 * To download a package  
