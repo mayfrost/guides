@@ -157,7 +157,8 @@ In these examples we make only two partitions but you can extend this if you kno
 `     Label = FreeDos`  
 `other = /dev/sda<PARTITION_NUMBER_OF_WINDOWS>`  
 `     table = /dev/sda`  
-`     Label = Windows7`
+`     Label = Windows7`  
+* Set boot entry  
 `lilo -A /dev/sda 1`  
 `lilo`
 * Prevent anyone but root of reading the config file (in case you used a password)  
