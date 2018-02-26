@@ -1,8 +1,9 @@
 # Initiation Rite
 
 This guide is for those wanting one of the two most beautiful source based distros, either __CRUX__ or __Source Mage GNU/Linux__. It was written so it can be used by both, only diverging on particular details.
-* __CRUX__: A ports based, BSD style init scripts, distro following true KISS principles (Keep It Simple).
-* __Source Mage GNU/Linux__: Without 3rd party patches, sensible defaults or masked packages, free from obfuscated and pre-configured code, use clean dependencies as they came from upstream developers and can also use flags. 
+* __CRUX__: A ports based, BSD style init scripts, distro following true KISS principles (Keep It Simple).  
+* __Source Mage GNU/Linux__: Without 3rd party patches, sensible defaults or masked packages, free from obfuscated and pre-configured code, use clean dependencies as they came from upstream developers and can also use flags.  
+__NOTE__: This guide attempts to describe __UEFI__ in detail side by side with __BIOS__. Also describes dualbooting (and triple booting) with the bootloader. If you feel overwhelmed for the amount of information don't be afraid, most of it is __OPTIONAL__, like password protection of the bootloader and the different filesystems the bootloaders can use.
 
 
 ## TOC
