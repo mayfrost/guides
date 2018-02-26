@@ -147,7 +147,7 @@ In these examples we make only two partitions but you can extend this if you kno
 ### LILO
 * If on UEFI use __elilo__ and change names to "_/etc/elilo.conf_" instead of "_/etc/lilo.conf_" and "_elilo_" instead of "_lilo_" in commands  
 `nano /etc/lilo.conf`
-* Inserting "_password=<PASSWORD>_" inside an OS stanza will protect with a password that OS, but inserting "_password=<PASSWORD>_" just before the stanzas and outside any of them will protect with a password the bootloader itself (notice the space inside stanzas)  
+* Inserting "_password=<PASSWORD>_" inside an OS stanza will protect with a password that OS, but inserting "_password=\<PASSWORD>_" just before the stanzas and outside any of them will protect with a password the bootloader itself (notice the space inside stanzas)  
 `boot = /dev/sda`  
 `image = /boot/vmlinuz`  
 `     Label = <DISTRO_NAME>`  
@@ -260,9 +260,7 @@ grub-install /dev/sda`
 
 And done.
 
-
 ## CONFIGURATION ON CRUX
-
 ### ENABLE CONTRIB REPO
 * Enable contrib for ports  
 `cd /etc/ports`  
@@ -293,7 +291,6 @@ And done.
 * Install a minimal set of xorg and xorg dependent tools one by one
 prtget depinst xorg-server xorg-xf86-video-<DRIVER> xorg-font-<FONT> xkeyboard-config xorg-xinit
 * Alternatively just install the metapackage "_xorg_"
-
 
 ## CRUX COMMANDS
 ### AUTOMATED INSTALLATION OF PORTS
@@ -327,7 +324,6 @@ prtget depinst xorg-server xorg-xf86-video-<DRIVER> xorg-font-<FONT> xkeyboard-c
 `pkgadd -c <PORT>`
 * To remove installed package  
 `pkgrm <PORT>`
-
 
 ## SOURCE MAGE GNU/LINUX COMMANDS
 * To get a manual
