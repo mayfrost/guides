@@ -208,3 +208,29 @@ ntldr /bootmgr
 }`
 * Update config file  
 `grub-mkconfig -o /boot/grub/grub.cfg`
+
+
+
+## KERNEL
+* Include the filesystem support the boot partition is format in.
+* Include UEFI options if on UEFI.
+* Include device drivers you need, build the rest as modules.
+
+* On __CRUX__
+`cd /usr/src/linux-<VERSION>
+make menuconfig
+make all
+make modules_install
+cp arch/x86/boot/bzImage /boot/vmlinuz
+cp System.map /boot`
+
+* On __Source Mage GNU/Linux__ (__OPTIONAL__)
+`cast -r linux`
+
+## THE END
+* Exit the chroot
+`exit`
+* Shutdown the machine
+`shutdown -h now`
+
+And done.
