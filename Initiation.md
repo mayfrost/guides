@@ -229,7 +229,8 @@ grub-install /dev/sda`
 * Exit the chroot  
 `exit`
 * Shutdown the machine  
-`shutdown -h now`
+`shutdown -h now`  
+
 And done.
 
 
