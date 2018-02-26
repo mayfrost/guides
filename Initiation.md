@@ -23,38 +23,38 @@ In these examples we make only two partitions but you can extend this if you kno
 * Use parted  
 `parted /dev/sda`
 * Inside parted, if on UEFI label the disk "_gpt_", but if on BIOS label it "_msdos_"  
-`mklabel <LABEL>  
-unit mb
-mkpart primary 0g 128
-mkpart primary 128 -1
-toggle 1 boot
-p free
-quit`
+`mklabel <LABEL>`  
+`unit mb`  
+`mkpart primary 0g 128`  
+`mkpart primary 128 -1`  
+`toggle 1 boot`  
+`p free`  
+`quit`  
 
 * Make root filesystem according to your personal preference  
-`mkfs.<ROOT_FILESYSTEM> /dev/sda2
-mkdir /mnt/drive
-mount /dev/sda2 /mnt/drive`
+`mkfs.<ROOT_FILESYSTEM> /dev/sda2`  
+`mkdir /mnt/drive`  
+`mount /dev/sda2 /mnt/drive`
 * Make boot filesystem according to supported bootloader or just "_mkfs.vfat_" if on UEFI  
 `mkfs.<BOOTLOADER_FILESYSTEM> /dev/sda1`
 * If on BIOS make directory and mount  
-`mkdir /mnt/drive/boot
-mount /dev/sda1 /mnt/drive/boot`
+`mkdir /mnt/drive/boot`  
+`mount /dev/sda1 /mnt/drive/boot`
 * If on UEFI make directory and mount  
-`mkdir -p /mnt/drive/boot/efi
-mount /dev/sda1 /mnt/drive/boot/efi
-cd /mnt/drive
-mount --bind /dev /mnt/drive/dev
-mount --bind /sys /mnt/drive/sys
-mount -t proc none /mnt/drive/proc
-mount -t devpts none /mnt/drive/dev/pts`
+`mkdir -p /mnt/drive/boot/efi`  
+`mount /dev/sda1 /mnt/drive/boot/efi`  
+`cd /mnt/drive`  
+`mount --bind /dev /mnt/drive/dev`  
+`mount --bind /sys /mnt/drive/sys`  
+`mount -t proc none /mnt/drive/proc`  
+`mount -t devpts none /mnt/drive/dev/pts`
 
 ## SETUP
 * On __CRUX__ run "_setup_", and if on UEFI select on setup grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.
 * On __Source Mage GNU/Linux__ get the tarball  
-`cd /mnt/drive
-wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"
-tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`
+`cd /mnt/drive`  
+`wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"`  
+`tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`
 
 ### Chroot
 * Chroot specifying Bash in case live media has another shell  
@@ -65,17 +65,17 @@ tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`
 ### Change the network interfaces
 * On __CRUX__ modify "_/etc/rc.d/net_" with the rules you want (IP, gateway, domain, etc)
 * On __Source Mage GNU/Linux__ add preferred interfaces to "_/etc/network/interfaces_" for example  
-`auto eth0
-allow-hotplug eth0
-iface eth0 inet dhcp`
+`auto eth0`  
+`allow-hotplug eth0`  
+`iface eth0 inet dhcp`
 * On the "_/etc/resolv.conf.head_" file set your preferred DNS provider (this example is from OpenNIC)  
 `nameserver 193.41.79.236`
 * Or copy "_/etc/resolv.conf_" to "_/mnt/etc/resolv.conf_" __BEFORE__ chrooting
 
 ### Edit fstab
 * Change the "_/etc/fstab_" file with appropriate filesystems  
-`/dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults    0 2
-/dev/sda2    /    <ROOT_FILESYSTEM>    noatime    0 1`
+`/dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults    0 2`  
+`/dev/sda2    /    <ROOT_FILESYSTEM>    noatime    0 1`
 * On __CRUX__ uncomment the lines referring to devpts, tmp, and shm as some programs require it (Firefox), also USB and or cdrom if using those
 * If on UEFI replace "_/boot_" with "_/boot/efi_"
 
@@ -95,12 +95,12 @@ iface eth0 inet dhcp`
 * Include device drivers you need, build the rest as modules.
 
 * On __CRUX__  
-`cd /usr/src/linux-<VERSION>
-make menuconfig
-make all
-make modules_install
-cp arch/x86/boot/bzImage /boot/vmlinuz
-cp System.map /boot`
+`cd /usr/src/linux-<VERSION>`  
+`make menuconfig`  
+`make all`  
+`make modules_install`  
+`cp arch/x86/boot/bzImage /boot/vmlinuz`  
+`cp System.map /boot`
 
 * On __Source Mage GNU/Linux__ (__OPTIONAL__)  
 `cast -r linux`
@@ -121,107 +121,107 @@ cp System.map /boot`
 * If on UEFI use __elilo__ and change names to "_/etc/elilo.conf_" instead of "_/etc/lilo.conf_" and "_elilo_" instead of "_lilo_" in commands  
 `nano /etc/lilo.conf`
 * Inserting "_password=<PASSWORD>_" inside an OS stanza will protect with a password that OS, but inserting "_password=<PASSWORD>_" just before the stanzas and outside any of them will protect with a password the bootloader itself (notice the space inside stanzas)  
-`boot = /dev/sda
-image = /boot/vmlinuz
-     Label = <DISTRO_NAME>
-     root = /dev/sda<PARTITION_NUMBER_OF_DISTRO>
-other = /dev/sda<PARTITION_NUMBER_OF_FREEDOS>
-     table = /dev/sda
-     Label = FreeDos
-other = /dev/sda<PARTITION_NUMBER_OF_WINDOWS>
-     table = /dev/sda
-     Label = Windows7`
-`lilo -A /dev/sda 1
-lilo`
+`boot = /dev/sda`  
+`image = /boot/vmlinuz`  
+`     Label = <DISTRO_NAME>`  
+`     root = /dev/sda<PARTITION_NUMBER_OF_DISTRO>`  
+`other = /dev/sda<PARTITION_NUMBER_OF_FREEDOS>`  
+`     table = /dev/sda`  
+`     Label = FreeDos`  
+`other = /dev/sda<PARTITION_NUMBER_OF_WINDOWS>`  
+`     table = /dev/sda`  
+`     Label = Windows7`
+`lilo -A /dev/sda 1`  
+`lilo`
 * Prevent anyone but root of reading the config file (in case you used a password)  
 `chmod 600 /etc/lilo.conf`
 
 ### SYSLINUX
 * If on BIOS make directory and copy files accordingly  
-`mkdir -p /boot/syslinux
-cp /usr/lib/syslinux/bios/*.c32 /boot/syslinux/`
+`mkdir -p /boot/syslinux`  
+`cp /usr/lib/syslinux/bios/*.c32 /boot/syslinux/`
 * If on UEFI make directory and copy files accordingly  
-`mkdir -p /boot/efi/EFI/syslinux
-cp -r /usr/lib/syslinux/efi64/* /boot/efi/EFI/syslinux/`
+`mkdir -p /boot/efi/EFI/syslinux`  
+`cp -r /usr/lib/syslinux/efi64/* /boot/efi/EFI/syslinux/`
 * If on BIOS setup boot entry  
-`umount /dev/sda1
-syslinux --directory syslinux --install /dev/sda1
-mount /dev/sda1 /boot`
+`umount /dev/sda1`  
+`syslinux --directory syslinux --install /dev/sda1`  
+`mount /dev/sda1 /boot`
 * If on UEFI setup boot entry using "_efibootmgr_"  
-`umount /dev/sda1
-efibootmgr -c -d /dev/sda -p 1 -l /boot/efi/EFI/syslinux/syslinux.efi -L Syslinux
-mount /dev/sda1 /boot/efi`
+`umount /dev/sda1`  
+`efibootmgr -c -d /dev/sda -p 1 -l /boot/efi/EFI/syslinux/syslinux.efi -L Syslinux`  
+`mount /dev/sda1 /boot/efi`
 * Edit "_/boot/syslinux/syslinux.cfg_" if on BIOS or "_/boot/efi/EFI/syslinux/syslinux.cfg_" if on UEFI
 * "_splash.png_" is the splash screen image located in "_/boot/syslinux/_" if on BIOS or "_/boot/efi/EFI/syslinux/_" if on UEFI  
-`PROMPT 1
-TIMEOUT 50
-MENU BACKGROUND splash.png
-DEFAULT <DISTRO_NAME>
-LABEL <DISTRO_NAME>
-      MENU LABEL <DISTRO_NAME>
-      LINUX /boot/vmlinuz
-      INITRD /boot/initramfs.img
-LABEL FreeDOS
-      MENU LABEL FreeDOS
-      KERNEL chain.c32
-      APPEND sda <PARTITION_NUMBER_OF_FREEDOS>
-LABEL Windows7
-      MENU LABEL Windows7
-      KERNEL chain.c32
-      APPEND sda <PARTITION_NUMBER_OF_WINDOWS>`
+`PROMPT 1`  
+`TIMEOUT 50`  
+`MENU BACKGROUND splash.png`  
+`DEFAULT <DISTRO_NAME>`  
+`LABEL <DISTRO_NAME>`  
+`      MENU LABEL <DISTRO_NAME>`  
+`      LINUX /boot/vmlinuz`  
+`      INITRD /boot/initramfs.img`  
+`LABEL FreeDOS`  
+`      MENU LABEL FreeDOS`  
+`      KERNEL chain.c32`  
+`      APPEND sda <PARTITION_NUMBER_OF_FREEDOS>`  
+`LABEL Windows7`  
+`      MENU LABEL Windows7`  
+`      KERNEL chain.c32`  
+`      APPEND sda <PARTITION_NUMBER_OF_WINDOWS>`
 
 ### GRUB Legacy
 * If on BIOS setup boot entry (boot partition must be mounted)  
-`mount /dev/sda1 /boot
-grub-install /dev/sda`
+`mount /dev/sda1 /boot`  
+`grub-install /dev/sda`
 * If on UEFI setup boot entry (boot partition must be mounted)  
-`mount /dev/sda1 /boot/efi
+`mount /dev/sda1 /boot/efi`  
 grub-install /boot/efi`
 * Edit configuration file "_/boot/grub/menu.lst_"  
-`default=0
-timeout=10
-splashimage=(hd0,0)/grub/splash.xpm.gz
-#hiddenmenu
-title <DISTRO_NAME> (<KERNEL_VERSION>)
-        root (hd0,<PARTITION_NUMBER_OF_DISTRO>)
-        kernel /vmlinuz-<KERNEL_VERSION> ro root=/dev/sda5 rhgb quiet
-        initrd /initramfs-<KERNEL_VERSION>.img
-title <DISTRO_NAME_alternative_kernel> (<ANOTHER_KERNEL_VERSION>)
-        root (hd0,<PARTITION_NUMBER_OF_DISTRO>)
-        kernel /vmlinuz-<ANOTHER_KERNEL_VERSION> ro root=/dev/sda5 rhgb quiet
-        initrd /initramfs-<ANOTHER_KERNEL_VERSION>.img
-title FreeDOS
-        root (hd0,<PARTITION_NUMBER_OF_FREEDOS>)
-        kernel /memdisk
-        initrd (hd0,<PARTITION_NUMBER_OF_FREEDOS>)/fdboot.img
-title Windows 7
-        root (hd0,<PARTITION_NUMBER_OF_WINDOWS>)
-        chainloader /EFI/Microsoft/Boot/bootmgfw.efi`
+`default=0`  
+`timeout=10`  
+`splashimage=(hd0,0)/grub/splash.xpm.gz`  
+`#hiddenmenu`  
+`title <DISTRO_NAME> (<KERNEL_VERSION>)`  
+`        root (hd0,<PARTITION_NUMBER_OF_DISTRO>)`  
+`        kernel /vmlinuz-<KERNEL_VERSION> ro root=/dev/sda5 rhgb quiet`  
+`        initrd /initramfs-<KERNEL_VERSION>.img`  
+`title <DISTRO_NAME_alternative_kernel> (<ANOTHER_KERNEL_VERSION>)`  
+`        root (hd0,<PARTITION_NUMBER_OF_DISTRO>)`  
+`        kernel /vmlinuz-<ANOTHER_KERNEL_VERSION> ro root=/dev/sda5 rhgb quiet`  
+`        initrd /initramfs-<ANOTHER_KERNEL_VERSION>.img`  
+`title FreeDOS`  
+`        root (hd0,<PARTITION_NUMBER_OF_FREEDOS>)`  
+`        kernel /memdisk`  
+`        initrd (hd0,<PARTITION_NUMBER_OF_FREEDOS>)/fdboot.img`  
+`title Windows 7`  
+`        root (hd0,<PARTITION_NUMBER_OF_WINDOWS>)`  
+`        chainloader /EFI/Microsoft/Boot/bootmgfw.efi`
 
 ### GRUB 2
 * If on BIOS setup boot entry (boot partition must be mounted)  
-`mount /dev/sda1 /boot
+`mount /dev/sda1 /boot`  
 grub-install /dev/sda`
 * If on UEFI setup boot entry (boot partition must be mounted)  
-`mount /dev/sda1 /boot/efi
-grub-install /boot/efi`
+`mount /dev/sda1 /boot/efi`  
+`grub-install /boot/efi`
 * If Grub does not detect your OS run "os-prober" followed by "update-grub"
 * Or add the OS manually to the Grub config file "_/etc/grub.d/40_custom_"  
-`menuentry "FreeDOS" {
-set root='(hd0,msdos2)'
-linux16 /memdisk
-initrd16 /fdboot.img
-chainloader +1
-}
-menuentry "Windows 7" {
-insmod part_msdos
-insmod ntfs
-insmod search_fs_uuid
-insmod ntldr
-search --fs-uuid --no-floppy --set=root 3482FBC382FB879E
-chainloader +1
-ntldr /bootmgr
-}`
+`menuentry "FreeDOS" {`  
+`set root='(hd0,msdos2)'`  
+`linux16 /memdisk`  
+`initrd16 /fdboot.img`  
+`chainloader +1`  
+`}`  
+`menuentry "Windows 7" {`  
+`insmod part_msdos`  
+`insmod ntfs`  
+`insmod search_fs_uuid`  
+`insmod ntldr`  
+`search --fs-uuid --no-floppy --set=root 3482FBC382FB879E`  
+`chainloader +1`  
+`ntldr /bootmgr`  
+`}`
 * Update config file  
 `grub-mkconfig -o /boot/grub/grub.cfg`
 
@@ -230,7 +230,6 @@ ntldr /bootmgr
 `exit`
 * Shutdown the machine  
 `shutdown -h now`
-
 And done.
 
 
@@ -238,13 +237,13 @@ And done.
 
 ### ENABLE CONTRIB
 * Enable contrib for ports  
-`cd /etc/ports
-mv contrib.rsync.inactive contrib.rsync`
+`cd /etc/ports`  
+`mv contrib.rsync.inactive contrib.rsync`
 * Enable contrib for prt-get  
 `nano /etc/prt-get.conf`
 * Uncomment line "_prtdir /usr/ports/contrib_"
 
-### ADD EXTERNAL REPOS  
+### ADD EXTERNAL REPOS ON CRUX
 `cd /etc/ports/`
 * download httpup/rsync file and pub file  
 `wget -c <URL>`
@@ -253,7 +252,6 @@ mv contrib.rsync.inactive contrib.rsync`
 * Add "prtdir /usr/ports/<REPO>"
 * Populate repo  
 `ports -u <REPO>`
-
 
 * Enable pre-/post-install scripts in "_/etc/prt-get.conf_" (usually safe to run repeatedly, usually used to rebuild caches and add system users when installing certain software)  
 `nano /etc/prt-get.conf`
