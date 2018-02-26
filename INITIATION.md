@@ -7,26 +7,26 @@ This guide is for those wanting one of the two most beautiful source based distr
 
 ## TOC
 1. [START](#start)  
-1. [PARTITIONING](#partitioning) 
-1. [SETUP](#setup) 
-1. [Chroot](#chroot) 
-1. [Change network interfaces](#change-network-interfaces) 
-1. [Edit fstab](#edit-fstab) 
-1. [Edit the environment](#edit-the-environment) 
-1. [KERNEL](#kernel) 
-1. [BOOTLOADER](#bootloader) 
-1. [LILO](#lilo) 
-1. [SYSLINUX](#syslinux) 
-1. [GRUB Legacy](#grub-legacy) 
-1. [GRUB 2](#grub-2) 
-1. [THE END](#the-end) 
-1. [CONFIGURATION ON CRUX](#configuration-on-crux) 
-1. [ENABLE CONTRIB REPO](#enable-contrib-repo) 
-1. [ADD EXTERNAL REPOS](#add-external-repos) 
-1. [CRUX COMMANDS](#crux-commands) 
-1. [Automated installation of ports](#automated-installation-of-ports) 
-1. [Manual dowload and installation](#manual-download-and-installation) 
-1. [SOURCE MAGE GNU/LINUX COMMANDS](#source-mage-gnu/linu-commands) 
+2. [PARTITIONING](#partitioning) 
+3. [SETUP](#setup) 
+3.1. [Chroot](#chroot) 
+3.2. [Change network interfaces](#change-network-interfaces) 
+3.3. [Edit fstab](#edit-fstab) 
+3.4. [Edit the environment](#edit-the-environment) 
+4. [KERNEL](#kernel) 
+5. [BOOTLOADER](#bootloader) 
+5.1. [LILO](#lilo) 
+5.2. [SYSLINUX](#syslinux) 
+5.3. [GRUB Legacy](#grub-legacy) 
+5.4. [GRUB 2](#grub-2) 
+6. [THE END](#the-end) 
+7. [CONFIGURATION ON CRUX](#configuration-on-crux) 
+7.1. [ENABLE CONTRIB REPO](#enable-contrib-repo) 
+7.2. [ADD EXTERNAL REPOS](#add-external-repos) 
+8. [CRUX COMMANDS](#crux-commands) 
+8.1. [Automated installation of ports](#automated-installation-of-ports) 
+8.2. [Manual download and installation](#manual-download-and-installation) 
+9. [SOURCE MAGE GNU/LINUX COMMANDS](#source-mage-gnu/linu-commands) 
 
 
 ## START
@@ -307,7 +307,7 @@ And done.
 * List all installed packages  
 `pkginfo -i`
 
-### Manual dowload and installation
+### Manual download and installation
 * Go to apropriate directory for all these tasks  
 `cd to /usr/ports/<REPO>/<PORT>`
 * To download a package  
