@@ -1,6 +1,6 @@
 # Initiation Rite
 
-This guide is for those who want to install either CRUX or Source Mage GNU/Linux. It was written so it can be used by both, only diverging on the particular details.
+This guide is for those who want to install either CRUX or __Source Mage GNU/Linux__. It was written so it can be used by both, only diverging on the particular details.
 * __CRUX__: A ports based, BSD style init scripts, distro following true KISS principles (Keep It Simple, Stupid).
 * __Source Mage GNU/Linux__: Without 3rd party patches, sensible defaults or masked packages, free from obfuscated and pre-configured code, use clean dependencies as they came from upstream developers and can also use flags. 
 
@@ -216,7 +216,7 @@ ntldr /bootmgr
 * Include UEFI options if on UEFI.
 * Include device drivers you need, build the rest as modules.
 
-* On __CRUX__
+* On __CRUX__  
 `cd /usr/src/linux-<VERSION>
 make menuconfig
 make all
@@ -224,13 +224,123 @@ make modules_install
 cp arch/x86/boot/bzImage /boot/vmlinuz
 cp System.map /boot`
 
-* On __Source Mage GNU/Linux__ (__OPTIONAL__)
+* On __Source Mage GNU/Linux__ (__OPTIONAL__)  
 `cast -r linux`
 
 ## THE END
-* Exit the chroot
+* Exit the chroot  
 `exit`
-* Shutdown the machine
+* Shutdown the machine  
 `shutdown -h now`
 
 And done.
+
+
+## CONFIGURATION ON CRUX
+
+### ENABLE CONTRIB
+* Enable contrib for ports  
+`cd /etc/ports
+mv contrib.rsync.inactive contrib.rsync`
+* Enable contrib for prt-get  
+`nano /etc/prt-get.conf`
+* Uncomment line "_prtdir /usr/ports/contrib_"
+
+### ADD EXTERNAL REPOS  
+`cd /etc/ports/`
+* download httpup/rsync file and pub file  
+`wget -c <URL>`
+* Add repo location to /etc/prt-get.conf (order sets precedence)  
+`nano /etc/prt-get.conf`
+* Add "prtdir /usr/ports/<REPO>"
+* Populate repo  
+`ports -u <REPO>`
+
+
+* Enable pre-/post-install scripts in "_/etc/prt-get.conf_" (usually safe to run repeatedly, usually used to rebuild caches and add system users when installing certain software)  
+`nano /etc/prt-get.conf`
+* uncomment line "_runscripts yes_"
+
+* Ignore footprint mismatches due to new files (usually not a bad thing)  
+`nano /etc/pkgmk.conf`
+* Set line "_PKGMK_IGNORE_NEW="yes"_"
+
+
+## CRUX COMMANDS
+### Automated installation of ports
+* Populate ports tree (is empty by default)  
+`ports -u`
+* Automatically download and build a package with its required dependencies ignoring signature mismatch  
+`prt-get -in depinst <PORT>`
+* Remove a package  
+`prt-get remove <PORT>`
+* Search package  
+`prt-get search <PORT>`
+* Get info from package  
+`prt-get info <PORT>`
+* Get dependency info from package  
+`prt-get depends <PORT>`
+* Update all packages  
+`prt-get sysup`
+* List all installed packages  
+`pkginfo -i`
+
+### Manually dowloading and installing
+* Go to apropriate directory for all these tasks  
+`cd to /usr/ports/<REPO>/<PORT>`
+* To download a package  
+`pkgmk -d <PORT>`
+* To install a downloaded package  
+`pkgmk -i <PORT>`
+* In case of signature mismatch  
+`pkgadd -f <PORT>`
+* To clean directory from downloaded package and build  
+`pkgadd -c <PORT>`
+* To remove installed package  
+`pkgrm <PORT>`
+
+
+## SOURCE MAGE GNU/LINUX COMMANDS
+* To get a manual
+`cast smgl-setup`
+`man smgl-setup`
+* To change general things like the color scheme
+`sorcery`
+* To update the package manager
+`sorcery update`
+* To update the package list
+`scribe update`
+* To check for any changes in the architecture specs
+`cast smgl-archspecs`
+* To rebuild everything from source
+`sorcery rebuild`
+* To recompile the kernel
+`cast -r linux`
+* To get a list of spells needing upgrade
+`sorcery -q`
+* To upgrade the spells themselves known to be available for upgrade
+`cast --queue`
+* To check for broken installations
+`cleanse --fix`
+* After casting new spells you need this to have apropos, man -k, and whatis
+` makewhatis`
+* To install new packages
+`cast <spell>`
+* To update an existing package
+`cast <spell>`
+* To search for packages
+`gaze search <spell>`
+* To search by package name
+`gaze search -name  <spell>`
+* To list installed packages
+`gaze installed`
+* To remove a spell
+`dispel <spell>`
+* To delete completely a package
+`dispel --nosustain <spell>`
+* To list repositories
+`scribe index`
+* To add a repository
+`scribe add <grimoire>`
+* To remove a repository
+`scribe remove <grimoire>`
