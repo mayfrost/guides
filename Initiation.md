@@ -6,9 +6,9 @@ This guide is for those who want to install either CRUX or Source Mage GNU/Linux
 
 ## START
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
-* Make sure your network is up (OPTIONAL)
+* Make sure your network is up (OPTIONAL)  
 `dhcpcd <NIC>`
-* Temporarily change keyboard (available configurations can be found in /usr/share/keymaps/i386/qwerty)
+* Temporarily change keyboard (available configurations can be found in /usr/share/keymaps/i386/qwerty)  
 `loadkeys <KEYMAP>`
 
 ## PARTITIONING
@@ -31,12 +31,12 @@ toggle 1 boot
 p free
 quit`
 
-* Make boot filesystem according to supported bootloader or just "mkfs.vfat" if on UEFI  
-`mkfs.<BOOTLOADER_FILESYSTEM> /dev/sda1`
 * Make root filesystem according to your personal preference  
 `mkfs.<ROOT_FILESYSTEM> /dev/sda2
 mkdir /mnt/drive
 mount /dev/sda2 /mnt/drive`
+* Make boot filesystem according to supported bootloader or just "mkfs.vfat" if on UEFI  
+`mkfs.<BOOTLOADER_FILESYSTEM> /dev/sda1`
 * If on BIOS make directory and mount  
 `mkdir /mnt/drive/boot
 mount /dev/sda1 /mnt/drive/boot`
@@ -50,39 +50,36 @@ mount -t proc none /mnt/drive/proc
 mount -t devpts none /mnt/drive/dev/pts`
 
 ## SETUP
-
-* On CRUX run setup, and if on UEFI select on setup grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.
+* On CRUX run `setup`, and if on UEFI select on setup grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.
 * On Source Mage GNU/Linux get the tarball  
 `cd /mnt/drive
 wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"
 tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`
 
+### Chroot
 * Chroot specifying Bash in case live media has another shell  
 `chroot /mnt/drive /bin/bash`
-
 * Change root password in chroot (TEST IF YOUR KEYBOARD HAS ALL THE CORRECT MAPPINGS before you change the password)  
 `passwd root`
 
 ### Change the network interfaces
-* On CRUX modify /etc/rc.d/net with the rules you want (IP, gateway, domain, etc)  
-`nano /etc/rc.d/net`
-* On Source Mage GNU/Linux add preferred interfaces for example  
-`nano /etc/network/interfaces`
+* On CRUX modify `/etc/rc.d/net` with the rules you want (IP, gateway, domain, etc)
+* On Source Mage GNU/Linux add preferred interfaces to `/etc/network/interfaces` for example  
 `auto eth0
 allow-hotplug eth0
 iface eth0 inet dhcp`
-* On /etc/resolv.conf.head set your preferred DNS provider (this example is from OpenNIC)  
-`nano /etc/resolv.conf.head`
+* On the `/etc/resolv.conf.head` file set your preferred DNS provider (this example is from OpenNIC)  
 `nameserver 193.41.79.236`
 * Or copy the resolv.conf file from /etc to /mnt/etc BEFORE chrooting
 
-* Change the fstab with appropriate filesystems  
-`nano /etc/fstab`
+### Edit fstab
+* Change the `/etc/fstab` file with appropriate filesystems  
 `/dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults    0 2
 /dev/sda2    /    <ROOT_FILESYSTEM>    noatime    0 1`
 * On CRUX uncomment the lines referring to devpts, tmp, and shm as some programs require it (Firefox), also USB and or cdrom if using those
 * If on UEFI replace /boot with /boot/efi
 
+### Edit environment
 * On CRUX change the font, keyboard, timezone, hostname and services  
 `ls /usr/share/kbd/keymaps/
 nano /etc/rc.conf`
