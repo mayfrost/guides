@@ -12,7 +12,7 @@ This guide is for those wanting one of the two most beautiful source based distr
 3.1. [CHROOT](#chroot)  
 3.2. [CHANGE NETWORK INTERFACES](#change-network-interfaces)  
 3.3. [EDIT FSTAB](#edit-fstab)  
-3.4. [SETUP THE ENVIRONMENT](#setup-the-environment)  
+3.4. [SET THE ENVIRONMENT](#setup-the-environment)  
 4. [KERNEL](#kernel)  
 5. [BOOTLOADER](#bootloader)  
 5.1. [LILO](#lilo)  
@@ -104,7 +104,7 @@ In these examples we make only two partitions but you can extend this if you kno
 * On __CRUX__ uncomment the lines referring to devpts, tmp, and shm as some programs require it (Firefox), also USB and or cdrom if using those
 * If on UEFI replace "_/boot_" with "_/boot/efi_"
 
-### SETUP THE ENVIRONMENT
+### SET THE ENVIRONMENT
 * On __CRUX__ change the font, keyboard, timezone, hostname and services on the "_/etc/rc.conf_" file  
 `ls /usr/share/kbd/keymaps/`
 * On __Source Mage GNU/Linux__ change keymaps on the "_/etc/sysconfig/keymap_" file  
