@@ -154,7 +154,7 @@ In these examples we make only two partitions but you can extend this if you kno
 `     root = /dev/sda<PARTITION_NUMBER_OF_DISTRO>`  
 `other = /dev/sda<PARTITION_NUMBER_OF_FREEDOS>`  
 `     table = /dev/sda`  
-`     Label = FreeDos`  
+`     Label = FreeDOS`  
 `other = /dev/sda<PARTITION_NUMBER_OF_WINDOWS>`  
 `     table = /dev/sda`  
 `     Label = Windows7`  
