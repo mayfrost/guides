@@ -23,7 +23,7 @@ In these examples we make only two partitions but you can extend this if you kno
 * Use parted  
 `parted /dev/sda`
 * Inside parted, if on UEFI label the disk "_gpt_", but if on BIOS label it "_msdos_"  
-`mklabel <LABEL>
+`mklabel <LABEL>  
 unit mb
 mkpart primary 0g 128
 mkpart primary 128 -1
