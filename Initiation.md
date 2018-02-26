@@ -8,7 +8,7 @@ This guide is for those who want to install either CRUX or Source Mage GNU/Linux
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
 * Make sure your network is up (OPTIONAL)  
 `dhcpcd <NIC>`
-* Temporarily change keyboard (available configurations can be found in /usr/share/keymaps/i386/qwerty)  
+* Temporarily change keyboard (available configurations can be found in the directories /usr/share/kbd/keymaps/ for CRUX and /usr/share/keymaps/i386/qwerty for Source Mage GNU/Linux)  
 `loadkeys <KEYMAP>`
 
 ## PARTITIONING
