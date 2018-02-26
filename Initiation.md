@@ -8,21 +8,21 @@ This guide is for those who want to install either CRUX or Source Mage GNU/Linux
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
 * Make sure your network is up (OPTIONAL)  
 `dhcpcd <NIC>`
-* Temporarily change keyboard (available configurations can be found in the directories /usr/share/kbd/keymaps/ for CRUX and /usr/share/keymaps/i386/qwerty for Source Mage GNU/Linux)  
+* Temporarily change keyboard (available configurations can be found in the directories __/usr/share/kbd/keymaps/__ for __CRUX__ and __/usr/share/keymaps/i386/qwerty__ for __Source Mage GNU/Linux__)  
 `loadkeys <KEYMAP>`
 
 ## PARTITIONING
 Supported filesystems by bootloaders are (if on UEFI ignore this as it only supports FAT):
-* LILO: indifferent (anything?)
-* SYSLINUX: ext2, ext3, ext4, btrfs, ufs 1/2, FAT16, FAT32, iso9660, udf, NTFS
-* GRUB Legacy: FAT16, FAT32, minix, ext2, ext3, ext4, ReiserFS, JFS, XFS, VSTa fs, Btrfs
-* GRUB 2: ext2, ext3, ext4, btrfs, zfs, ufs, minix, iso9660, udf, jfs, hfs, hfs+, afs, affs, sfs, xfs, reiserfs, tar, cpio, NTFS, FAT16, FAT32
+* __LILO__: indifferent (anything?)
+* __SYSLINUX__: ext2, ext3, ext4, btrfs, ufs 1/2, FAT16, FAT32, iso9660, udf, NTFS
+* __GRUB Legacy__: FAT16, FAT32, minix, ext2, ext3, ext4, ReiserFS, JFS, XFS, VSTa fs, Btrfs
+* __GRUB 2__: ext2, ext3, ext4, btrfs, zfs, ufs, minix, iso9660, udf, jfs, hfs, hfs+, afs, affs, sfs, xfs, reiserfs, tar, cpio, NTFS, FAT16, FAT32
 
-In these examples we make only two partitions but you can extend this if you know how. The partitions are one root partition, later mounted to /mnt/drive format with mkfs.<ROOT_FILESYSTEM>, and one boot partition, later mounted to /mnt/drive/boot and format with mkfs.<BOOTLOADER_FILESYSTEM> unless is UEFI in which case mkfs.vfat is the only format available and will be mounted to /mnt/drive/boot/efi.
+In these examples we make only two partitions but you can extend this if you know how. The partitions are one root partition, later mounted to __/mnt/drive format__ with __mkfs.<ROOT_FILESYSTEM>__, and one boot partition, later mounted to __/mnt/drive/boot__ and format with __mkfs.<BOOTLOADER_FILESYSTEM>__ unless is __UEFI__ in which case __mkfs.vfat__ is the only format available and will be mounted to __/mnt/drive/boot/efi__.
 
 * Use parted  
 `parted /dev/sda`
-* Inside parted, if on UEFI label the disk "gpt", but if on BIOS label it "msdos"  
+* Inside parted, if on UEFI label the disk "__gpt__", but if on BIOS label it "__msdos__"  
 `mklabel <LABEL>
 unit mb
 mkpart primary 0g 128
@@ -35,7 +35,7 @@ quit`
 `mkfs.<ROOT_FILESYSTEM> /dev/sda2
 mkdir /mnt/drive
 mount /dev/sda2 /mnt/drive`
-* Make boot filesystem according to supported bootloader or just "mkfs.vfat" if on UEFI  
+* Make boot filesystem according to supported bootloader or just "__mkfs.vfat__" if on UEFI  
 `mkfs.<BOOTLOADER_FILESYSTEM> /dev/sda1`
 * If on BIOS make directory and mount  
 `mkdir /mnt/drive/boot
@@ -50,7 +50,7 @@ mount -t proc none /mnt/drive/proc
 mount -t devpts none /mnt/drive/dev/pts`
 
 ## SETUP
-* On CRUX run `setup`, and if on UEFI select on setup grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.
+* On CRUX run __setup__, and if on UEFI select on setup grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.
 * On Source Mage GNU/Linux get the tarball  
 `cd /mnt/drive
 wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"
