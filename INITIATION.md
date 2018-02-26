@@ -270,8 +270,8 @@ And done.
 * Uncomment line "_prtdir /usr/ports/contrib_"
 
 ### ADD EXTERNAL REPOS
-`cd /etc/ports/`
 * download httpup/rsync file and pub file  
+`cd /etc/ports/`  
 `wget -c <URL>`
 * Add repo location to "_/etc/prt-get.conf_" (order sets precedence)  
 `nano /etc/prt-get.conf`
