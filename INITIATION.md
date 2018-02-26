@@ -326,46 +326,46 @@ prtget depinst xorg-server xorg-xf86-video-<DRIVER> xorg-font-<FONT> xkeyboard-c
 `pkgrm <PORT>`
 
 ## SOURCE MAGE GNU/LINUX COMMANDS
-* To get a manual
-`cast smgl-setup`
+* To get a manual  
+`cast smgl-setup`  
 `man smgl-setup`
-* To change general things like the color scheme
+* To change general things like the color scheme  
 `sorcery`
-* To update the package manager
+* To update the package manager  
 `sorcery update`
-* To update the package list
+* To update the package list  
 `scribe update`
-* To check for any changes in the architecture specs
+* To check for any changes in the architecture specs  
 `cast smgl-archspecs`
-* To rebuild everything from source
+* To rebuild everything from source  
 `sorcery rebuild`
-* To recompile the kernel
+* To recompile the kernel  
 `cast -r linux`
-* To get a list of spells needing upgrade
+* To get a list of spells needing upgrade  
 `sorcery -q`
-* To upgrade the spells themselves known to be available for upgrade
+* To upgrade the spells themselves known to be available for upgrade  
 `cast --queue`
-* To check for broken installations
+* To check for broken installations  
 `cleanse --fix`
-* After casting new spells you need this to have apropos, man -k, and whatis
+* After casting new spells you need this to have apropos, man -k, and whatis  
 ` makewhatis`
-* To install new packages
+* To install new packages  
 `cast <spell>`
-* To update an existing package
+* To update an existing package  
 `cast <spell>`
-* To search for packages
+* To search for packages  
 `gaze search <spell>`
-* To search by package name
+* To search by package name  
 `gaze search -name  <spell>`
-* To list installed packages
+* To list installed packages  
 `gaze installed`
-* To remove a spell
+* To remove a spell  
 `dispel <spell>`
-* To delete completely a package
+* To delete completely a package  
 `dispel --nosustain <spell>`
-* To list repositories
+* To list repositories  
 `scribe index`
-* To add a repository
+* To add a repository  
 `scribe add <grimoire>`
-* To remove a repository
+* To remove a repository  
 `scribe remove <grimoire>`
