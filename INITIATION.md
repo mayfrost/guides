@@ -168,11 +168,11 @@ In these examples we make only two partitions but you can extend this if you kno
 * If on UEFI make directory and copy files accordingly  
 `mkdir -p /boot/efi/EFI/syslinux`  
 `cp -r /usr/lib/syslinux/efi64/* /boot/efi/EFI/syslinux/`
-* If on BIOS setup boot entry  
+* If on BIOS set boot entry  
 `umount /dev/sda1`  
 `syslinux --directory syslinux --install /dev/sda1`  
 `mount /dev/sda1 /boot`
-* If on UEFI setup boot entry using "_efibootmgr_"  
+* If on UEFI set boot entry using "_efibootmgr_"  
 `umount /dev/sda1`  
 `efibootmgr -c -d /dev/sda -p 1 -l /boot/efi/EFI/syslinux/syslinux.efi -L Syslinux`  
 `mount /dev/sda1 /boot/efi`
@@ -196,10 +196,10 @@ In these examples we make only two partitions but you can extend this if you kno
 `      APPEND sda <PARTITION_NUMBER_OF_WINDOWS>`
 
 ### GRUB Legacy
-* If on BIOS setup boot entry (boot partition must be mounted)  
+* If on BIOS set boot entry (boot partition must be mounted)  
 `mount /dev/sda1 /boot`  
 `grub-install /dev/sda`
-* If on UEFI setup boot entry (boot partition must be mounted)  
+* If on UEFI set boot entry (boot partition must be mounted)  
 `mount /dev/sda1 /boot/efi`  
 grub-install /boot/efi`
 * Edit configuration file "_/boot/grub/menu.lst_"  
@@ -224,10 +224,10 @@ grub-install /boot/efi`
 `        chainloader /EFI/Microsoft/Boot/bootmgfw.efi`
 
 ### GRUB 2
-* If on BIOS setup boot entry (boot partition must be mounted)  
+* If on BIOS set boot entry (boot partition must be mounted)  
 `mount /dev/sda1 /boot`  
 grub-install /dev/sda`
-* If on UEFI setup boot entry (boot partition must be mounted)  
+* If on UEFI set boot entry (boot partition must be mounted)  
 `mount /dev/sda1 /boot/efi`  
 `grub-install /boot/efi`
 * If Grub does not detect your OS run "os-prober" followed by "update-grub"
