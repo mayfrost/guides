@@ -271,18 +271,18 @@ And done.
 * Uncomment line "_prtdir /usr/ports/contrib_"
 
 ### ADD EXTERNAL REPOS
-* download httpup/rsync file and pub file  
+* Download httpup/rsync file and pub file  
 `cd /etc/ports/`  
 `wget -c <URL>`
 * Add repo location to "_/etc/prt-get.conf_" (order sets precedence)  
 `nano /etc/prt-get.conf`
-* Add "_prtdir /usr/ports/\<REPO>_"
+* Add line "_prtdir /usr/ports/\<REPO>_"
 * Populate repo  
 `ports -u <REPO>`
 
 * Enable pre-/post-install scripts in "_/etc/prt-get.conf_" (usually safe to run repeatedly, usually used to rebuild caches and add system users when installing certain software)  
 `nano /etc/prt-get.conf`
-* uncomment line "_runscripts yes_"
+* Uncomment line "_runscripts yes_"
 
 * Ignore footprint mismatches due to new files (usually not a bad thing)  
 `nano /etc/pkgmk.conf`
