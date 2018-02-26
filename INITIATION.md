@@ -273,9 +273,9 @@ And done.
 `cd /etc/ports/`
 * download httpup/rsync file and pub file  
 `wget -c <URL>`
-* Add repo location to /etc/prt-get.conf (order sets precedence)  
+* Add repo location to "_/etc/prt-get.conf_" (order sets precedence)  
 `nano /etc/prt-get.conf`
-* Add "prtdir /usr/ports/<REPO>"
+* Add "_prtdir /usr/ports/\<REPO>_"
 * Populate repo  
 `ports -u <REPO>`
 
@@ -289,7 +289,7 @@ And done.
 
 ### INSTALL XORG
 * Install a minimal set of xorg and xorg dependent tools one by one
-prtget depinst xorg-server xorg-xf86-video-<DRIVER> xorg-font-<FONT> xkeyboard-config xorg-xinit
+`prtget depinst xorg-server xorg-xf86-video-<DRIVER> xorg-font-<FONT> xkeyboard-config xorg-xinit`
 * Alternatively just install the metapackage "_xorg_"
 
 ## CRUX COMMANDS
