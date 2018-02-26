@@ -1,8 +1,33 @@
 # Initiation Rite
 
-This guide is for those who want to install either CRUX or __Source Mage GNU/Linux__. It was written so it can be used by both, only diverging on the particular details.
+This guide is for those wanting one of the two most beautiful source based distros, either __CRUX__ or __Source Mage GNU/Linux__. The was written so it can be used by both, only diverging on particular details.
 * __CRUX__: A ports based, BSD style init scripts, distro following true KISS principles (Keep It Simple, Stupid).
 * __Source Mage GNU/Linux__: Without 3rd party patches, sensible defaults or masked packages, free from obfuscated and pre-configured code, use clean dependencies as they came from upstream developers and can also use flags. 
+
+
+## TOC
+1. [START](#start)  
+1. [PARTITIONING](#partitioning) 
+1. [SETUP](#setup) 
+1. [Chroot](#chroot) 
+1. [Change network interfaces](#change-network-interfaces) 
+1. [Edit fstab](#edit-fstab) 
+1. [Edit the environment](#edit-the-environment) 
+1. [KERNEL](#kernel) 
+1. [BOOTLOADER](#bootloader) 
+1. [LILO](#lilo) 
+1. [SYSLINUX](#syslinux) 
+1. [GRUB Legacy](#grub-legacy) 
+1. [GRUB 2](#grub-2) 
+1. [THE END](#the-end) 
+1. [CONFIGURATION ON CRUX](#configuration-on-crux) 
+1. [ENABLE CONTRIB REPO](#enable-contrib-repo) 
+1. [ADD EXTERNAL REPOS](#add-external-repos) 
+1. [CRUX COMMANDS](#crux-commands) 
+1. [Automated installation of ports](#automated-installation-of-ports) 
+1. [Manual dowload and installation](#manual-download-and-installation) 
+1. [SOURCE MAGE GNU/LINUX COMMANDS](#source-mage-gnu/linu-commands) 
+
 
 ## START
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
@@ -62,7 +87,7 @@ In these examples we make only two partitions but you can extend this if you kno
 * Change root password in chroot (TEST IF YOUR KEYBOARD HAS ALL THE CORRECT MAPPINGS before you change the password)  
 `passwd root`
 
-### Change the network interfaces
+### Change network interfaces
 * On __CRUX__ modify "_/etc/rc.d/net_" with the rules you want (IP, gateway, domain, etc)
 * On __Source Mage GNU/Linux__ add preferred interfaces to "_/etc/network/interfaces_" for example  
 `auto eth0`  
@@ -79,7 +104,7 @@ In these examples we make only two partitions but you can extend this if you kno
 * On __CRUX__ uncomment the lines referring to devpts, tmp, and shm as some programs require it (Firefox), also USB and or cdrom if using those
 * If on UEFI replace "_/boot_" with "_/boot/efi_"
 
-### Edit environment
+### Edit the environment
 * On __CRUX__ change the font, keyboard, timezone, hostname and services on the "_/etc/rc.conf_" file  
 `ls /usr/share/kbd/keymaps/`
 * On __Source Mage GNU/Linux__ change keymaps on the "_/etc/sysconfig/keymap_" file  
@@ -236,7 +261,7 @@ And done.
 
 ## CONFIGURATION ON CRUX
 
-### ENABLE CONTRIB
+### ENABLE CONTRIB REPO
 * Enable contrib for ports  
 `cd /etc/ports`  
 `mv contrib.rsync.inactive contrib.rsync`
@@ -244,7 +269,7 @@ And done.
 `nano /etc/prt-get.conf`
 * Uncomment line "_prtdir /usr/ports/contrib_"
 
-### ADD EXTERNAL REPOS ON CRUX
+### ADD EXTERNAL REPOS
 `cd /etc/ports/`
 * download httpup/rsync file and pub file  
 `wget -c <URL>`
@@ -282,7 +307,7 @@ And done.
 * List all installed packages  
 `pkginfo -i`
 
-### Manually dowloading and installing
+### Manual dowload and installation
 * Go to apropriate directory for all these tasks  
 `cd to /usr/ports/<REPO>/<PORT>`
 * To download a package  
