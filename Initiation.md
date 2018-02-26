@@ -20,9 +20,9 @@ Supported filesystems by bootloaders are (if on UEFI ignore this as it only supp
 
 In these examples we make only two partitions but you can extend this if you know how. The partitions are one root partition, later mounted to /mnt/drive format with mkfs.<ROOT_FILESYSTEM>, and one boot partition, later mounted to /mnt/drive/boot and format with mkfs.<BOOTLOADER_FILESYSTEM> unless is UEFI in which case mkfs.vfat is the only format available and will be mounted to /mnt/drive/boot/efi.
 
-* Use parted
+* Use parted  
 `parted /dev/sda`
-* Inside parted, if on UEFI label the disk "gpt", but if on BIOS label it "msdos"
+* Inside parted, if on UEFI label the disk "gpt", but if on BIOS label it "msdos"  
 `mklabel <LABEL>
 unit mb
 mkpart primary 0g 128
@@ -31,16 +31,16 @@ toggle 1 boot
 p free
 quit`
 
-* Make boot filesystem according to supported bootloader or just "mkfs.vfat" if on UEFI
+* Make boot filesystem according to supported bootloader or just "mkfs.vfat" if on UEFI  
 `mkfs.<BOOTLOADER_FILESYSTEM> /dev/sda1`
-* Make root filesystem according to your personal preference
+* Make root filesystem according to your personal preference  
 `mkfs.<ROOT_FILESYSTEM> /dev/sda2
 mkdir /mnt/drive
 mount /dev/sda2 /mnt/drive`
-* If on BIOS make directory and mount
+* If on BIOS make directory and mount  
 `mkdir /mnt/drive/boot
 mount /dev/sda1 /mnt/drive/boot`
-* If on UEFI make directory and mount
+* If on UEFI make directory and mount  
 `mkdir -p /mnt/drive/boot/efi
 mount /dev/sda1 /mnt/drive/boot/efi
 cd /mnt/drive
@@ -52,46 +52,46 @@ mount -t devpts none /mnt/drive/dev/pts`
 ## SETUP
 
 * On CRUX run setup, and if on UEFI select on setup grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.
-* On Source Mage GNU/Linux get the tarball
+* On Source Mage GNU/Linux get the tarball  
 `cd /mnt/drive
 wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"
 tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`
 
-* Chroot specifying Bash in case live media has another shell
+* Chroot specifying Bash in case live media has another shell  
 `chroot /mnt/drive /bin/bash`
 
-* Change root password in chroot (TEST IF YOUR KEYBOARD HAS ALL THE CORRECT MAPPINGS before you change the password)
+* Change root password in chroot (TEST IF YOUR KEYBOARD HAS ALL THE CORRECT MAPPINGS before you change the password)  
 `passwd root`
 
 ### Change the network interfaces
-* On CRUX modify /etc/rc.d/net with the rules you want (IP, gateway, domain, etc)
+* On CRUX modify /etc/rc.d/net with the rules you want (IP, gateway, domain, etc)  
 `nano /etc/rc.d/net`
-* On Source Mage GNU/Linux add preferred interfaces for example
+* On Source Mage GNU/Linux add preferred interfaces for example  
 `nano /etc/network/interfaces`
 `auto eth0
 allow-hotplug eth0
 iface eth0 inet dhcp`
-* On /etc/resolv.conf.head set your preferred DNS provider (this example is from OpenNIC)
+* On /etc/resolv.conf.head set your preferred DNS provider (this example is from OpenNIC)  
 `nano /etc/resolv.conf.head`
 `nameserver 193.41.79.236`
 * Or copy the resolv.conf file from /etc to /mnt/etc BEFORE chrooting
 
-* Change the fstab with appropriate filesystems
+* Change the fstab with appropriate filesystems  
 `nano /etc/fstab`
 `/dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults    0 2
 /dev/sda2    /    <ROOT_FILESYSTEM>    noatime    0 1`
 * On CRUX uncomment the lines referring to devpts, tmp, and shm as some programs require it (Firefox), also USB and or cdrom if using those
 * If on UEFI replace /boot with /boot/efi
 
-* On CRUX change the font, keyboard, timezone, hostname and services
+* On CRUX change the font, keyboard, timezone, hostname and services  
 `ls /usr/share/kbd/keymaps/
 nano /etc/rc.conf`
-* On Source Mage GNU/Linux change the keymaps
+* On Source Mage GNU/Linux change the keymaps  
 `ls /usr/share/keymaps/i386/qwerty
 nano /etc/sysconfig/keymap`
-* On CRUX generate locales (change interface language)
+* On CRUX generate locales (change interface language)  
 `localedef -i <LOCALE> -f ISO-<CODE> <LOCALE>`
-* On Source Mage GNU/Linux generate locales (change interface language)
+* On Source Mage GNU/Linux generate locales (change interface language)  
 `cast -r locale`
 
 ## BOOTLOADER
@@ -106,9 +106,9 @@ nano /etc/sysconfig/keymap`
 * On Source Mage GNU/Linux do `cast <BOOTLOADER>` to install the preferred bootloader.
 
 ### LILO
-* If on UEFI use elilo and change names to /etc/elilo.conf instead of /etc/lilo.conf and elilo instead of lilo in commands
+* If on UEFI use elilo and change names to /etc/elilo.conf instead of /etc/lilo.conf and elilo instead of lilo in commands  
 `nano /etc/lilo.conf`
-* Inserting password=<PASSWORD> inside an OS stanza will protect with a password the that OS, but inserting password=<PASSWORD> just before the stanzas will protect with a password the bootloader instead (notice the space inside stanzas)
+* Inserting password=<PASSWORD> inside an OS stanza will protect with a password the that OS, but inserting password=<PASSWORD> just before the stanzas will protect with a password the bootloader instead (notice the space inside stanzas)  
 `boot = /dev/sda
 image = /boot/vmlinuz
      Label = CRUX
@@ -121,26 +121,26 @@ other = /dev/sda<PARTITION_NUMBER_OF_WINDOWS>
      Label = Windows7`
 `lilo -A /dev/sda 1
 lilo`
-* In case you used a password prevent anyone but root of reading the config file
+* In case you used a password prevent anyone but root of reading the config file  
 `chmod 600 /etc/lilo.conf`
 
 ### SYSLINUX
-* If on BIOS make directory and copy files accordingly
+* If on BIOS make directory and copy files accordingly  
 `mkdir -p /boot/syslinux
 cp /usr/lib/syslinux/bios/*.c32 /boot/syslinux/`
-* If on UEFI make directory and copy files accordingly
+* If on UEFI make directory and copy files accordingly  
 `mkdir -p /boot/efi/EFI/syslinux
 cp -r /usr/lib/syslinux/efi64/* /boot/efi/EFI/syslinux/`
-* If on BIOS setup boot entry
+* If on BIOS setup boot entry  
 `umount /dev/sda1
 syslinux --directory syslinux --install /dev/sda1
 mount /dev/sda1 /boot`
-* If on UEFI setup boot entry using efibootmgr
+* If on UEFI setup boot entry using efibootmgr  
 `umount /dev/sda1
 efibootmgr -c -d /dev/sda -p 1 -l /boot/efi/EFI/syslinux/syslinux.efi -L Syslinux
 mount /dev/sda1 /boot/efi`
 * Edit /boot/syslinux/syslinux.cfg if on BIOS or /boot/efi/EFI/syslinux/syslinux.cfg if on UEFI
-* splash.png is the splash screen image located in /boot/syslinux/ if on BIOS or /boot/efi/EFI/syslinux/ if on UEFI
+* splash.png is the splash screen image located in /boot/syslinux/ if on BIOS or /boot/efi/EFI/syslinux/ if on UEFI  
 `PROMPT 1
 TIMEOUT 50
 MENU BACKGROUND splash.png
@@ -159,13 +159,13 @@ LABEL Windows7
       APPEND sda <PARTITION_NUMBER_OF_WINDOWS>`
 
 ### GRUB Legacy
-* If on BIOS setup boot entry (boot partition must be mounted)
+* If on BIOS setup boot entry (boot partition must be mounted)  
 `mount /dev/sda1 /boot
 grub-install /dev/sda`
-* If on UEFI setup boot entry (boot partition must be mounted)
+* If on UEFI setup boot entry (boot partition must be mounted)  
 `mount /dev/sda1 /boot/efi
 grub-install /boot/efi`
-* Edit configuration file
+* Edit configuration file  
 `nano /boot/grub/menu.lst`
 `default=0
 timeout=10
@@ -188,13 +188,13 @@ title Windows 7
         chainloader /EFI/Microsoft/Boot/bootmgfw.efi`
 
 ### GRUB 2
-* If on BIOS setup boot entry (boot partition must be mounted)
+* If on BIOS setup boot entry (boot partition must be mounted)  
 `mount /dev/sda1 /boot
 grub-install /dev/sda`
-* If on UEFI setup boot entry (boot partition must be mounted)
+* If on UEFI setup boot entry (boot partition must be mounted)  
 `mount /dev/sda1 /boot/efi
 grub-install /boot/efi`
-* If Grub does not detect your OS run "os-prober" followed by "update-grub", or add the OS manually to the Grub config file
+* If Grub does not detect your OS run "os-prober" followed by "update-grub", or add the OS manually to the Grub config file  
 `nano /etc/grub.d/40_custom`
 `menuentry "FreeDOS" {
 set root='(hd0,msdos2)'
@@ -211,5 +211,5 @@ search --fs-uuid --no-floppy --set=root 3482FBC382FB879E
 chainloader +1
 ntldr /bootmgr
 }`
-* Update config file
+* Update config file  
 `grub-mkconfig -o /boot/grub/grub.cfg`
