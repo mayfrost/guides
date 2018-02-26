@@ -229,11 +229,11 @@ grub-install /boot/efi`
 ### GRUB 2
 * If on BIOS set boot entry (boot partition must be mounted)  
 `mount /dev/sda1 /boot`  
-grub-install /dev/sda`
+`grub-install /dev/sda`
 * If on UEFI set boot entry (boot partition must be mounted)  
 `mount /dev/sda1 /boot/efi`  
 `grub-install /boot/efi`
-* If Grub does not detect your OS run "os-prober" followed by "update-grub"
+* If Grub does not detect your OS run "_os-prober_" followed by "_update-grub_"
 * Or add the OS manually to the Grub config file "_/etc/grub.d/40_custom_"  
 `menuentry "FreeDOS" {`  
 `set root='(hd0,msdos2)'`  
