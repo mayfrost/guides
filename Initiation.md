@@ -8,7 +8,7 @@ This guide is for those who want to install either CRUX or Source Mage GNU/Linux
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
 * Make sure your network is up (OPTIONAL)  
 `dhcpcd <NIC>`
-* Temporarily change keyboard (available configurations can be found in the directories __/usr/share/kbd/keymaps/__ for __CRUX__ and __/usr/share/keymaps/i386/qwerty__ for __Source Mage GNU/Linux__)  
+* Temporarily change keyboard (available configurations can be found in the directories _/usr/share/kbd/keymaps/_ for __CRUX__ and _/usr/share/keymaps/i386/qwerty_ for __Source Mage GNU/Linux__)  
 `loadkeys <KEYMAP>`
 
 ## PARTITIONING
@@ -18,11 +18,11 @@ Supported filesystems by bootloaders are (if on UEFI ignore this as it only supp
 * __GRUB Legacy__: FAT16, FAT32, minix, ext2, ext3, ext4, ReiserFS, JFS, XFS, VSTa fs, Btrfs
 * __GRUB 2__: ext2, ext3, ext4, btrfs, zfs, ufs, minix, iso9660, udf, jfs, hfs, hfs+, afs, affs, sfs, xfs, reiserfs, tar, cpio, NTFS, FAT16, FAT32
 
-In these examples we make only two partitions but you can extend this if you know how. The partitions are one root partition, later mounted to __/mnt/drive format__ with __mkfs.<ROOT_FILESYSTEM>__, and one boot partition, later mounted to __/mnt/drive/boot__ and format with __mkfs.<BOOTLOADER_FILESYSTEM>__ unless is __UEFI__ in which case __mkfs.vfat__ is the only format available and will be mounted to __/mnt/drive/boot/efi__.
+In these examples we make only two partitions but you can extend this if you know how. The partitions are one root partition, later mounted to _/mnt/drive format_ with _mkfs.<ROOT_FILESYSTEM>_, and one boot partition, later mounted to _/mnt/drive/boot_ and format with _mkfs.<BOOTLOADER_FILESYSTEM>_ unless is __UEFI__ in which case _mkfs.vfat_ is the only format available and will be mounted to _/mnt/drive/boot/efi_.
 
 * Use parted  
 `parted /dev/sda`
-* Inside parted, if on UEFI label the disk "__gpt__", but if on BIOS label it "__msdos__"  
+* Inside parted, if on UEFI label the disk "_gpt_", but if on BIOS label it "_msdos_"  
 `mklabel <LABEL>
 unit mb
 mkpart primary 0g 128
@@ -35,7 +35,7 @@ quit`
 `mkfs.<ROOT_FILESYSTEM> /dev/sda2
 mkdir /mnt/drive
 mount /dev/sda2 /mnt/drive`
-* Make boot filesystem according to supported bootloader or just "__mkfs.vfat__" if on UEFI  
+* Make boot filesystem according to supported bootloader or just "_mkfs.vfat_" if on UEFI  
 `mkfs.<BOOTLOADER_FILESYSTEM> /dev/sda1`
 * If on BIOS make directory and mount  
 `mkdir /mnt/drive/boot
@@ -50,7 +50,7 @@ mount -t proc none /mnt/drive/proc
 mount -t devpts none /mnt/drive/dev/pts`
 
 ## SETUP
-* On CRUX run __setup__, and if on UEFI select on setup grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.
+* On CRUX run "_setup_", and if on UEFI select on setup grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.
 * On Source Mage GNU/Linux get the tarball  
 `cd /mnt/drive
 wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"
@@ -63,49 +63,47 @@ tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`
 `passwd root`
 
 ### Change the network interfaces
-* On CRUX modify `/etc/rc.d/net` with the rules you want (IP, gateway, domain, etc)
-* On Source Mage GNU/Linux add preferred interfaces to `/etc/network/interfaces` for example  
+* On CRUX modify "_/etc/rc.d/net_" with the rules you want (IP, gateway, domain, etc)
+* On Source Mage GNU/Linux add preferred interfaces to "_/etc/network/interfaces_" for example  
 `auto eth0
 allow-hotplug eth0
 iface eth0 inet dhcp`
-* On the `/etc/resolv.conf.head` file set your preferred DNS provider (this example is from OpenNIC)  
+* On the "_/etc/resolv.conf.head_" file set your preferred DNS provider (this example is from OpenNIC)  
 `nameserver 193.41.79.236`
-* Or copy the resolv.conf file from /etc to /mnt/etc BEFORE chrooting
+* Or copy "_/etc/resolv.conf_" to "_/mnt/etc/resolv.conf_" __BEFORE__ chrooting
 
 ### Edit fstab
-* Change the `/etc/fstab` file with appropriate filesystems  
+* Change the "_/etc/fstab_" file with appropriate filesystems  
 `/dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults    0 2
 /dev/sda2    /    <ROOT_FILESYSTEM>    noatime    0 1`
 * On CRUX uncomment the lines referring to devpts, tmp, and shm as some programs require it (Firefox), also USB and or cdrom if using those
-* If on UEFI replace /boot with /boot/efi
+* If on UEFI replace "_/boot_" with "_/boot/efi_"
 
 ### Edit environment
-* On CRUX change the font, keyboard, timezone, hostname and services  
-`ls /usr/share/kbd/keymaps/
-nano /etc/rc.conf`
-* On Source Mage GNU/Linux change the keymaps  
-`ls /usr/share/keymaps/i386/qwerty
-nano /etc/sysconfig/keymap`
+* On CRUX change the font, keyboard, timezone, hostname and services on the "_/etc/rc.conf_" file  
+`ls /usr/share/kbd/keymaps/`
+* On Source Mage GNU/Linux change keymaps on the "_/etc/sysconfig/keymap_" file  
+`ls /usr/share/keymaps/i386/qwerty`
 * On CRUX generate locales (change interface language)  
 `localedef -i <LOCALE> -f ISO-<CODE> <LOCALE>`
 * On Source Mage GNU/Linux generate locales (change interface language)  
 `cast -r locale`
 
 ## BOOTLOADER
-* The drive where bootloaders and OSes are installed on these examples is /dev/sda, bu could be anywhere.
-* The bootloader installation IS inside chroot AND with drives mounted, so this guides assumes you are inside "/mnt/drive".
-* The "vmlinuz" makes reference to the kernel image, you can rename it or simlink to it in all cases, the only rule is you have to make sure the name is referenced correctly in the bootloader. By default it can have names like vmlinuz-linux, vmlinuz-<KERNEL_VERSION> and so on. The same with initramfs.img, it can be initramfs-<KERNEL_VERSION>.img and such.
-* All bootloader examples have included other OS inside what is called "stanzas".
-* FreeDOS and Windows stanzas are OPTIONAL.
+* The drive where bootloaders and OSes are installed on these examples is "_/dev/sda_", but could be anywhere.
+* The bootloader installation __IS__ inside chroot AND with drives mounted, so this guides assumes you are inside "_/mnt/drive_".
+* The "_vmlinuz_" file makes reference to the kernel image, you can rename it or simlink to it in all cases, the only rule is you have to make sure the name is referenced correctly in the bootloader. By default it can have names like "_vmlinuz-linux_", "_vmlinuz-<KERNEL_VERSION>_" and so on. The same with "_initramfs.img_", it can be "_initramfs-<KERNEL_VERSION>.img_" and such.
+* All bootloader examples have included other OS inside what is called "_stanzas_".
+* FreeDOS and Windows stanzas are __OPTIONAL__.
 * If dualbooting with Windows remember that it likes to be in the first partition.
-* If on UEFI check if module is loaded by issuing `modprobe efivars`.
-* On CRUX do `prt-get remove lilo` if you dont use LILO.
-* On Source Mage GNU/Linux do `cast <BOOTLOADER>` to install the preferred bootloader.
+* If on UEFI check if module is loaded by issuing "_modprobe efivars_".
+* On CRUX do "_prt-get remove lilo_" if you dont use LILO.
+* On Source Mage GNU/Linux do "_cast <BOOTLOADER>_" to install the preferred bootloader.
 
 ### LILO
-* If on UEFI use elilo and change names to /etc/elilo.conf instead of /etc/lilo.conf and elilo instead of lilo in commands  
+* If on UEFI use __elilo__ and change names to "_/etc/elilo.conf_" instead of "_/etc/lilo.conf_" and "_elilo_" instead of "_lilo_" in commands  
 `nano /etc/lilo.conf`
-* Inserting password=<PASSWORD> inside an OS stanza will protect with a password the that OS, but inserting password=<PASSWORD> just before the stanzas will protect with a password the bootloader instead (notice the space inside stanzas)  
+* Inserting "_password=<PASSWORD>_" inside an OS stanza will protect with a password that OS, but inserting "_password=<PASSWORD>_" just before the stanzas and outside any of them will protect with a password the bootloader itself (notice the space inside stanzas)  
 `boot = /dev/sda
 image = /boot/vmlinuz
      Label = CRUX
@@ -118,7 +116,7 @@ other = /dev/sda<PARTITION_NUMBER_OF_WINDOWS>
      Label = Windows7`
 `lilo -A /dev/sda 1
 lilo`
-* In case you used a password prevent anyone but root of reading the config file  
+* Prevent anyone but root of reading the config file (in case you used a password)  
 `chmod 600 /etc/lilo.conf`
 
 ### SYSLINUX
@@ -132,12 +130,12 @@ cp -r /usr/lib/syslinux/efi64/* /boot/efi/EFI/syslinux/`
 `umount /dev/sda1
 syslinux --directory syslinux --install /dev/sda1
 mount /dev/sda1 /boot`
-* If on UEFI setup boot entry using efibootmgr  
+* If on UEFI setup boot entry using "_efibootmgr_"  
 `umount /dev/sda1
 efibootmgr -c -d /dev/sda -p 1 -l /boot/efi/EFI/syslinux/syslinux.efi -L Syslinux
 mount /dev/sda1 /boot/efi`
-* Edit /boot/syslinux/syslinux.cfg if on BIOS or /boot/efi/EFI/syslinux/syslinux.cfg if on UEFI
-* splash.png is the splash screen image located in /boot/syslinux/ if on BIOS or /boot/efi/EFI/syslinux/ if on UEFI  
+* Edit "_/boot/syslinux/syslinux.cfg_" if on BIOS or "_/boot/efi/EFI/syslinux/syslinux.cfg_" if on UEFI
+* "_splash.png_" is the splash screen image located in "_/boot/syslinux/_" if on BIOS or "_/boot/efi/EFI/syslinux/_" if on UEFI  
 `PROMPT 1
 TIMEOUT 50
 MENU BACKGROUND splash.png
@@ -162,8 +160,7 @@ grub-install /dev/sda`
 * If on UEFI setup boot entry (boot partition must be mounted)  
 `mount /dev/sda1 /boot/efi
 grub-install /boot/efi`
-* Edit configuration file  
-`nano /boot/grub/menu.lst`
+* Edit configuration file "_/boot/grub/menu.lst_"  
 `default=0
 timeout=10
 splashimage=(hd0,0)/grub/splash.xpm.gz
@@ -191,8 +188,8 @@ grub-install /dev/sda`
 * If on UEFI setup boot entry (boot partition must be mounted)  
 `mount /dev/sda1 /boot/efi
 grub-install /boot/efi`
-* If Grub does not detect your OS run "os-prober" followed by "update-grub", or add the OS manually to the Grub config file  
-`nano /etc/grub.d/40_custom`
+* If Grub does not detect your OS run "os-prober" followed by "update-grub"
+* Or add the OS manually to the Grub config file "_/etc/grub.d/40_custom_"  
 `menuentry "FreeDOS" {
 set root='(hd0,msdos2)'
 linux16 /memdisk
