@@ -132,7 +132,7 @@ In these examples we make only two partitions but you can extend this if you kno
 
 ## BOOTLOADER
 * The drive where bootloaders and OSes are installed on these examples is "_/dev/sda_", but could be anywhere.
-* The bootloader installation __IS__ inside chroot AND with drives mounted, so this guides assumes you are inside "_/mnt/drive_".
+* The bootloader installation __IS__ inside chroot AND with drives mounted, so this guide assumes you are inside "_/mnt/drive_".
 * "_<PARTITION_NUMBER_OF_DISTRO>_", "_<PARTITION_NUMBER_OF_FREEDOS>_" and "_<PARTITION_NUMBER_OF_WINDOWS>_" are just the numbers of partitions.
 * The "_vmlinuz_" file makes reference to the kernel image, you can rename it or simlink to it in all cases, the only rule is you have to make sure the name is referenced correctly in the bootloader. By default it can have names like "_vmlinuz-linux_", "_vmlinuz-<KERNEL_VERSION>_" and so on. The same with "_initramfs.img_", it can be "_initramfs-<KERNEL_VERSION>.img_" and such.
 * All bootloader examples have included other OS inside what is called "_stanzas_".
