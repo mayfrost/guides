@@ -4,6 +4,7 @@ This guide is for those who want to install either CRUX or Source Mage GNU/Linux
 * CRUX: A ports based, BSD style init scripts, distro following true KISS principles (Keep It Simple, Stupid).
 * Source Mage GNU/Linux: Without 3rd party patches, sensible defaults or masked packages, free from obfuscated and pre-configured code, use clean dependencies as they came from upstream developers and can also use flags.
 
+
 == START
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
 # Make sure your network is up (OPTIONAL)
