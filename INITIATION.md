@@ -142,7 +142,7 @@ In these examples we make only two partitions but you can extend this if you kno
 * If dualbooting with Windows remember that it likes to be in the first partition.
 * If on UEFI check if module is loaded by issuing "_modprobe efivars_".
 * On __CRUX__ do "_prt-get remove lilo_" if you dont use LILO.
-* On __Source Mage GNU/Linux__ do "_cast <BOOTLOADER>_" to install the preferred bootloader.
+* On __Source Mage GNU/Linux__ do "_cast \<BOOTLOADER>_" to install the preferred bootloader.
 
 ### LILO
 * If on UEFI use __elilo__ and change names to "_/etc/elilo.conf_" instead of "_/etc/lilo.conf_" and "_elilo_" instead of "_lilo_" in commands  
