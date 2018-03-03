@@ -219,7 +219,7 @@ Git can be used to fallback from the patch and revert to the upatched source.
 `patch -p1 < <PATCH_FILE>`  
 
 ### OPTION 3: Patch with zcat
-To use the uncrompressed file directly.  
+* To use the uncrompressed file directly.  
 `zcat <PATCH_FILE>.gz | patch -p1`  
 
-Compile kernel with the patch now included.
+Compile the kernel with the patch now included.
