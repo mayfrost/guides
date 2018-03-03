@@ -8,7 +8,7 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 
 1. [PREPARATIONS](#preparations)  
 2. [GETTING THE KERNEL SOURCE](#getting-the-kernel-source)  
-2.1. [OPTIONAL](#optional)  
+2.1. [OPTIONAL: Symlink](#optional-symlink)  
 2.2. [DOWNLOAD THE KERNEL SOURCE](#download-the-kernel-source)  
 3. [GENERATING A CONFIGURATION FILE](#generation-a-configuration-file)  
 4. [CHANGING THE CONFIGURATION (OPTIONAL)](#changing-the-configuration-optional)  
@@ -39,9 +39,11 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 
 ## GETTING THE KERNEL SOURCE
 
-### OPTIONAL:
+### OPTIONAL: Symlink
 Is standard to download Linux sources under __/usr/src/__, to link the downloaded kernel tree to __/usr/src/linux-<VERSION_NUMBER>__ and work there, but is not a requirement.  
+* Change to __/usr/src/__.  
 `cd /usr/src/`  
+* Symlink.
 `ln -s linux-<VERSION_NUMBER> linux`  
 
 ### DOWNLOAD THE KERNEL SOURCE
