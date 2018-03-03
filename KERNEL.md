@@ -195,7 +195,7 @@ This section is also optional. There are cool patches for the kernel out there a
 * Go to kernel source tree.  
 `cd /usr/src/linux-<VERSION_NUMBER>`  
 * Download the patch file there.
-* Following options assume is __gzipped__.
+* Following instructions assume is __gzipped__.
 
 You have three options to patch the kernel.
 
