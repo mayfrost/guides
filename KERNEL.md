@@ -4,7 +4,7 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 * You need the kernel source, build tools, the kernel configuration file (__optional__), and __root__ or __sudo__ privileges for the final stages of the process.
 * Back up all of your files.
 * Have a distro in a Live CD or USB at hand just in case.
-* Give yourself a cup of tea or coffee while you wait to compile.
+* Have a cup of tea or coffee while you wait to compile.
 
 1. [PREPARATIONS](#preparations)  
 2. [GETTING THE KERNEL SOURCE](#getting-the-kernel-source)  
