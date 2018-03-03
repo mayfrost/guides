@@ -5,6 +5,9 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 * Back up all of your files.
 * Have a distro in a Live CD or USB at hand just in case.
 
+---
+
+## TOC
 1. [PREPARATIONS](#preparations)  
 2. [GETTING THE KERNEL SOURCE](#getting-the-kernel-source)  
 2.1. [OPTIONAL: Symlink](#optional-symlink)  
@@ -20,9 +23,12 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 7.1. [COMPILE A SINGLE MODULE](#compile-a-single-module)  
 7.2. [DKMS](#dkms)  
 8. [KERNEL PATCH](#kernel-patch)  
-8.1. [OPTION 1: Git](#option-1-git)  
-8.2. [OPTION 2: Patch command](#option-2-patch-command)  
-8.3. [OPTION 3: Patch with zcat](#option-2-patch-with-zcat)  
+8.1. [PRELIMINARY STEPS](#preliminary-steps)  
+8.2. [OPTION 1: Git](#option-1-git)  
+8.3. [OPTION 2: Patch command](#option-2-patch-command)  
+8.4. [OPTION 3: Patch with zcat](#option-2-patch-with-zcat)  
+
+---
 
 ## PREPARATIONS
 * To see which version the new kernel source is.  
@@ -136,8 +142,13 @@ The __initrd__ is used only while booting, unless you compile the kernel with th
 * __OPTION 3__: Use __initramfs__.  
 `update-initramfs -u`  
 
+After this you'll only need to reboot to test your new kernel.
+
+---
 
 ## MODULES
+This section is optional. It shows how to get individual modules and what you can do with them,, how to install news, update them and automatize the process.
+
 ### COMPILE A SINGLE MODULE
 * Only compile a module.  
 `cd linux-<VERSION_NUMBER>/`  
@@ -174,10 +185,12 @@ To update modules automatically when changing a kernel use __DKMS__. Requires th
 * Install the module with __DKMS__.  
 `dkms install -m <MODULE> -v <MODULE_VERSION>`  
 
+---
 
 ## KERNEL PATCH
-You can find patch files on the Linux Kernel Mailing List https://lkml.org/.
+This section is also optional. There are cool patches for the kernel out there and here you'll find how to install them. You can find patch files on the Linux Kernel Mailing List https://lkml.org/. Other patches are provided in more places.
 
+### PRELIMINARY STEPS
 * Go to kernel source tree.  
 `cd /usr/src/linux-<VERSION_NUMBER>`  
 * Download the patch file there.
