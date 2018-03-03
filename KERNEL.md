@@ -122,7 +122,7 @@ Compile and move everything to its place. The "__all__" flag makes modules AND t
 __NOTE__: The __vmlinuz__ can be any name but that exact name has to be added to the configuration file of your bootloader of choice. Usually a version number is appended to the new kernel image. This has the advantage to avoid replacing a current kernel and having a fallback as backup to boot. You can set to boot from any image in the bootloader once you configure them in the bootloader.  
 
 ### BUILD MODULES
-Modules end with __.ko__. They are individual files for each question you answered __M__ during kernel configuration. The object code is linked against your freshly built kernel as separate modules. Questions answered __Y__ were integrated into the kernel (__vmlinuz__), and for questions answered __N__ they were skipped (not compiled).  
+Module files end with the __.ko__ file extension. They are individual files for each question you answered __M__ during kernel configuration. The object code is linked against your freshly built kernel as separate modules. Questions answered __Y__ were integrated into the kernel (__vmlinuz__), and for questions answered __N__ they were skipped (not compiled).  
 * To compile modules.  
 `make -j<X> modules`  
 * Copy generated kernel modules to __/lib/modules/<KERNEL_VERSION>/__.  
