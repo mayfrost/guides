@@ -102,7 +102,7 @@ __NOTE__: The __-j\<X>__ flag, where __\<X>__ is the number of cores +1, __IS OP
 And with ccache  
 `make -j<X> CC="ccache gcc" <OTHER_FLAGS>`  
 
-For compilation you have two options, __OPTION A__ is the easiest and is a single command. __OPTION B__ is here for teaching purposes.
+For compilation you have two options, __OPTION A__ is the easiest and is a single command. __OPTION B__ is here for didactic purposes.
 
 ### OPTION A: One command
 Compile and move everything to its place. The "__all__" flag makes modules AND the __bzImage__ at the same time (replaces "__bzImage__" and "__modules__" flags).  
