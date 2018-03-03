@@ -97,7 +97,7 @@ This process makes a "__.config__" file in the kernel source directory, this fil
 
 ## COMPILATION
 Can take minutes to hours.
-__NOTE__: The __-j<X>__ flag, where __<X>__ is the number of cores +1, __IS OPTIONAL__ and only goes if you have a processor with multiple cores. If you install __ccache__ (__THIS IS OPTIONAL__) you can speed up subsequent compilations by including __CC="ccache gcc"__ after the __-j<X>__ flag.  
+__NOTE__: The __-j\<X>__ flag, where __\<X>__ is the number of cores +1, __IS OPTIONAL__ and only goes if you have a processor with multiple cores. If you install __ccache__ (__THIS IS OPTIONAL__) you can speed up subsequent compilations by including __CC="ccache gcc"__ after the __-j\<X>__ flag.  
 `make -j<X> <OTHER_FLAGS>`  
 And with ccache  
 `make -j<X> CC="ccache gcc" <OTHER_FLAGS>`  
