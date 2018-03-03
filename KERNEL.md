@@ -6,6 +6,25 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 * Have a distro in a Live CD or USB at hand just in case.
 * Give yourself a cup of tea or coffee while you wait to compile.
 
+1. [PREPARATIONS](#preparations)  
+1. [GETTING THE KERNEL SOURCE](#getting-the-kernel-source)  
+1. [OPTIONAL](#optional)  
+1. [DOWNLOAD THE KERNEL SOURCE](#download-the-kernel-source)  
+1. [GENERATING A CONFIGURATION FILE](#generation-a-configuration-file)  
+1. [CHANGING THE CONFIGURATION (OPTIONAL)](#changing-the-configuration-optional)  
+1. [COMPILATION](#compilation)  
+1. [OPTION A: One command](#option-a-one-command)  
+1. [OPTION B: One by one](#option-b-one-by-one)  
+1. [BUILD MODULES](#build-modules)  
+1. [INITRD](#initrd)  
+1. [MODULES](#modules)  
+1. [COMPILE A SINGLE MODULE](#compile-a-single-module)  
+1. [DKMS](#dkms)  
+1. [KERNEL PATCH](#kernel-patch)  
+1. [OPTION 1: Git](#option-1-git)  
+1. [OPTION 2: Patch command](#option-2-patch-command)  
+1. [OPTION 3: Patch with zcat](#option-2-patch-with-zcat)  
+
 ## PREPARATIONS
 * To see which version the new kernel source is.  
 `head /usr/src/linux/Makefile`  
@@ -25,7 +44,8 @@ Is standard to download Linux sources under __/usr/src/__, to link the downloade
 `cd /usr/src/`  
 `ln -s linux-<VERSION_NUMBER> linux`  
 
-### Download the latest kernel from kernel.org
+### DOWNLOAD THE KERNEL SOURCE
+Get latest kernel from kernel.org
 * Get tarball.  
 `wget https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git/snapshot/linux-stable-rc-<VERSION>.tar.gz`  
 * Uncompress.  
@@ -108,11 +128,11 @@ Compile and move everything to its place. The "__all__" flag makes modules AND t
 __NOTE__: The __vmlinuz__ can be any name but that exact name has to be added to the configuration file of your bootloader of choice. Usually a version number is appended to the new kernel image. This has the advantage to avoid replacing a current kernel and having a fallback as backup to boot. You can set to boot from any image in the bootloader once you configure them in the bootloader.
 
 ## INITRD
-* The __initrd__ is used only while booting, unless you compile the kernel with the filesystem it resides on (__initfs__)
-* OPTION 1: Compile the kernel with support for the filesystem used in the __/boot__ partition (__initfs__).
-* OPTION 2: Use __mkinitrd__.  
+The __initrd__ is used only while booting, unless you compile the kernel with the filesystem it resides on (__initfs__). There are three options.
+* __OPTION 1__: Compile the kernel with support for the filesystem used in the __/boot__ partition (__initfs__).
+* __OPTION 2__: Use __mkinitrd__.  
 `mkinitrd -o /boot/initrd.img`  
-* OPTION 3: Use __initramfs__.  
+* __OPTION 3__: Use __initramfs__.  
 `update-initramfs -u`  
 
 
@@ -183,8 +203,8 @@ Git can be used to fallback from the patch and revert to the upatched source.
 * The __-p__ flag specifies a number of leading directories to remove, location is at the top of the patch file filename and is relative to the current directory.  
 `patch -p1 < <PATCH_FILE>`  
 
-### OPTION 3: Patch with __zcat__ to use the uncrompressed file directly.  
+### OPTION 3: Patch with zcat
+To use the uncrompressed file directly.  
 `zcat <PATCH_FILE>.gz | patch -p1`  
-
 
 Compile kernel with the patch now included.
