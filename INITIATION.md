@@ -123,11 +123,7 @@ In these examples we make only two partitions but you can extend this if you kno
 
 * On __CRUX__  
 `cd /usr/src/linux-<VERSION>`  
-`make menuconfig`  
-`make all`  
-`make modules_install`  
-`cp arch/x86/boot/bzImage /boot/vmlinuz`  
-`cp System.map /boot`
+`make all modules_install install`  
 
 * On __Source Mage GNU/Linux__ (__OPTIONAL__)  
 `cast -r linux`
@@ -163,95 +159,6 @@ In these examples we make only two partitions but you can extend this if you kno
 `lilo`
 * Prevent anyone but root of reading the config file (in case you used a password)  
 `chmod 600 /etc/lilo.conf`
-
-### SYSLINUX
-* If on BIOS make directory and copy files accordingly  
-`mkdir -p /boot/syslinux`  
-`cp /usr/lib/syslinux/bios/*.c32 /boot/syslinux/`
-* If on UEFI make directory and copy files accordingly  
-`mkdir -p /boot/efi/EFI/syslinux`  
-`cp -r /usr/lib/syslinux/efi64/* /boot/efi/EFI/syslinux/`
-* If on BIOS set boot entry  
-`umount /dev/sda1`  
-`syslinux --directory syslinux --install /dev/sda1`  
-`mount /dev/sda1 /boot`
-* If on UEFI set boot entry using "_efibootmgr_"  
-`umount /dev/sda1`  
-`efibootmgr -c -d /dev/sda -p 1 -l /boot/efi/EFI/syslinux/syslinux.efi -L Syslinux`  
-`mount /dev/sda1 /boot/efi`
-* Edit "_/boot/syslinux/syslinux.cfg_" if on BIOS or "_/boot/efi/EFI/syslinux/syslinux.cfg_" if on UEFI
-* "_splash.png_" is the splash screen image located in "_/boot/syslinux/_" if on BIOS or "_/boot/efi/EFI/syslinux/_" if on UEFI  
-`PROMPT 1`  
-`TIMEOUT 50`  
-`MENU BACKGROUND splash.png`  
-`DEFAULT <DISTRO_NAME>`  
-`LABEL <DISTRO_NAME>`  
-`      MENU LABEL <DISTRO_NAME>`  
-`      LINUX /boot/vmlinuz`  
-`      INITRD /boot/initramfs.img`  
-`LABEL FreeDOS`  
-`      MENU LABEL FreeDOS`  
-`      KERNEL chain.c32`  
-`      APPEND sda <PARTITION_NUMBER_OF_FREEDOS>`  
-`LABEL Windows7`  
-`      MENU LABEL Windows7`  
-`      KERNEL chain.c32`  
-`      APPEND sda <PARTITION_NUMBER_OF_WINDOWS>`
-
-### GRUB Legacy
-* If on BIOS set boot entry (boot partition must be mounted)  
-`mount /dev/sda1 /boot`  
-`grub-install /dev/sda`
-* If on UEFI set boot entry (boot partition must be mounted)  
-`mount /dev/sda1 /boot/efi`  
-grub-install /boot/efi`
-* Edit configuration file "_/boot/grub/menu.lst_"  
-`default=0`  
-`timeout=10`  
-`splashimage=(hd0,0)/grub/splash.xpm.gz`  
-`#hiddenmenu`  
-`title <DISTRO_NAME> (<KERNEL_VERSION>)`  
-`        root (hd0,<PARTITION_NUMBER_OF_DISTRO>)`  
-`        kernel /vmlinuz-<KERNEL_VERSION> ro root=/dev/sda5 rhgb quiet`  
-`        initrd /initramfs-<KERNEL_VERSION>.img`  
-`title <DISTRO_NAME_alternative_kernel> (<ANOTHER_KERNEL_VERSION>)`  
-`        root (hd0,<PARTITION_NUMBER_OF_DISTRO>)`  
-`        kernel /vmlinuz-<ANOTHER_KERNEL_VERSION> ro root=/dev/sda5 rhgb quiet`  
-`        initrd /initramfs-<ANOTHER_KERNEL_VERSION>.img`  
-`title FreeDOS`  
-`        root (hd0,<PARTITION_NUMBER_OF_FREEDOS>)`  
-`        kernel /memdisk`  
-`        initrd (hd0,<PARTITION_NUMBER_OF_FREEDOS>)/fdboot.img`  
-`title Windows 7`  
-`        root (hd0,<PARTITION_NUMBER_OF_WINDOWS>)`  
-`        chainloader /EFI/Microsoft/Boot/bootmgfw.efi`
-
-### GRUB 2
-* If on BIOS set boot entry (boot partition must be mounted)  
-`mount /dev/sda1 /boot`  
-`grub-install /dev/sda`
-* If on UEFI set boot entry (boot partition must be mounted)  
-`mount /dev/sda1 /boot/efi`  
-`grub-install /boot/efi`
-* If Grub does not detect your OS run "_os-prober_" followed by "_update-grub_"
-* Or add the OS manually to the Grub config file "_/etc/grub.d/40_custom_"  
-`menuentry "FreeDOS" {`  
-`set root='(hd0,msdos2)'`  
-`linux16 /memdisk`  
-`initrd16 /fdboot.img`  
-`chainloader +1`  
-`}`  
-`menuentry "Windows 7" {`  
-`insmod part_msdos`  
-`insmod ntfs`  
-`insmod search_fs_uuid`  
-`insmod ntldr`  
-`search --fs-uuid --no-floppy --set=root 3482FBC382FB879E`  
-`chainloader +1`  
-`ntldr /bootmgr`  
-`}`
-* Update config file  
-`grub-mkconfig -o /boot/grub/grub.cfg`
 
 ## THE END
 * Exit the chroot  
