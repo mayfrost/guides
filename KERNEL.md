@@ -4,7 +4,6 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 * You need the kernel source, build tools, the kernel configuration file (__optional__), and __root__ or __sudo__ privileges for the final stages of the process.
 * Back up all of your files.
 * Have a distro in a Live CD or USB at hand just in case.
-* Have a cup of tea or coffee while you wait to compile.
 
 1. [PREPARATIONS](#preparations)  
 2. [GETTING THE KERNEL SOURCE](#getting-the-kernel-source)  
@@ -96,7 +95,7 @@ This process makes a "__.config__" file in the kernel source directory, this fil
 
 
 ## COMPILATION
-Can take minutes to hours.
+Can take minutes to hours. Have a cup of tea or coffee while you wait to compile.  
 __NOTE__: The __-j\<X>__ flag, where __\<X>__ is the number of cores +1, __IS OPTIONAL__ and only goes if you have a processor with multiple cores. If you install __ccache__ (__THIS IS OPTIONAL__) you can speed up subsequent compilations by including __CC="ccache gcc"__ after the __-j\<X>__ flag.  
 `make -j<X> <OTHER_FLAGS>`  
 And with ccache.  
