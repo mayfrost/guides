@@ -40,7 +40,7 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 ## GETTING THE KERNEL SOURCE
 
 ### OPTIONAL: Symlink
-Is standard to download Linux sources under __/usr/src/__, to link the downloaded kernel tree to __/usr/src/linux-<VERSION_NUMBER>__ and work there, but is not a requirement.  
+Is standard to download Linux sources under __/usr/src/__, then link the downloaded kernel tree to __/usr/src/linux-<VERSION_NUMBER>__ and work there, but is not a requirement.  
 * Change to __/usr/src/__.  
 `cd /usr/src/`  
 * Symlink.
