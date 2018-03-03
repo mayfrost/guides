@@ -1,16 +1,18 @@
 # DISTROS
 
-* __CRUX__: A ports based, BSD style init scripts, distro following true KISS principles (Keep It Simple).  
-* __Source Mage GNU/Linux__: Without 3rd party patches, sensible defaults or masked packages, free from obfuscated and pre-configured code, use clean dependencies as they came from upstream developers and can also use flags.  
+* __CRUX__ (https://crux.nu): With a ports based system for installing software, BSD style init scripts favoring native configurations over configuration abstraction layers, follows true KISS principles (Keep It Simple) applied to the system and the development process. Simplicity over automation makes it easy to extend the system by yourself.  
+* __Source Mage GNU/Linux__ (http://sourcemage.org): Without 3rd party patches, sensible defaults or masked packages, is free from obfuscated and pre-configured code, use clean dependencies as they came from upstream developers which provides immediate updates. With the package manager made in bash doesn't need obfuscated python libraries, can also use flags and heal broken installs.  
+* __Harvey OS__ (https://harvey-os.org/):  With the Plan 9 file-sharing protocol can mount file name space from one computer to the other and act as a distributed service. Everything is a file, the hardware, environment variables, and settings are presented as "files". Distributed under GPL, is a member of Software Freedom Conservancy.  
+* __FreeDOS__ (https://www.freedos.org): DOS-compatible, can play classic games and run legacy business software.
 
-7. [CONFIGURATION ON CRUX](#configuration-on-crux)  
-7.1. [ENABLE CONTRIB REPO](#enable-contrib-repo)  
-7.2. [ADD EXTERNAL REPOS](#add-external-repos)  
-7.3. [INSTALL XORG](#install-xorg)  
-8. [CRUX COMMANDS](#crux-commands)  
-8.1. [AUTOMATED INSTALLATION OF PORTS](#automated-installation-of-ports)  
-8.2. [MANUAL DOWNLOAD AND INSTALLATION](#manual-download-and-installation)  
-9. [SOURCE MAGE GNU/LINUX COMMANDS](#source-mage-gnu/linu-commands)  
+1. [CONFIGURATION ON CRUX](#configuration-on-crux)  
+2.1. [ENABLE CONTRIB REPO](#enable-contrib-repo)  
+2.2. [ADD EXTERNAL REPOS](#add-external-repos)  
+2.3. [INSTALL XORG](#install-xorg)  
+3. [CRUX COMMANDS](#crux-commands)  
+3.1. [AUTOMATED INSTALLATION OF PORTS](#automated-installation-of-ports)  
+3.2. [MANUAL DOWNLOAD AND INSTALLATION](#manual-download-and-installation)  
+4. [SOURCE MAGE GNU/LINUX COMMANDS](#source-mage-gnu/linu-commands)  
 
 ## CONFIGURATION ON CRUX
 ### ENABLE CONTRIB REPO
