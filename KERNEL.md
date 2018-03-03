@@ -188,7 +188,8 @@ To update modules automatically when changing a kernel use __DKMS__. Requires th
 ---
 
 ## KERNEL PATCH
-This section is also optional. There are cool patches for the kernel out there and here you'll find how to install them. You can find patch files on the Linux Kernel Mailing List https://lkml.org/. Other patches are provided in more places.
+This section is also optional. There are cool patches for the kernel out there and here you'll find how to install them. You can find patch files on the Linux Kernel Mailing List https://lkml.org/. More patches are provided in other places. One such patches is:
+* Enable gcc optimizations for additional CPUs: https://github.com/graysky2/kernel_gcc_patch
 
 ### PRELIMINARY STEPS
 * Go to kernel source tree.  
