@@ -10,7 +10,7 @@
 * On __CRUX__ do "_prt-get remove lilo_" if you dont use LILO.
 * On __Source Mage GNU/Linux__ do "_cast \<BOOTLOADER>_" to install the preferred bootloader.
 
-Supported filesystems by bootloaders, they will boot if they /boot partition has a supported filesystem. If on UEFI ignore this as it only supports FAT.:
+Supported filesystems by bootloaders, they will boot the OS only if the "_/boot_" partition has a supported filesystem. If on "_UEFI_" ignore this as it only supports "_FAT_".:
 * __LILO__: indifferent (anything?)
 * __SYSLINUX__: ext2, ext3, ext4, btrfs, ufs 1/2, FAT16, FAT32, iso9660, udf, NTFS.
 * __GRUB Legacy__: FAT16, FAT32, minix, ext2, ext3, ext4, ReiserFS, JFS, XFS, VSTa fs, Btrfs.
