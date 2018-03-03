@@ -1,7 +1,7 @@
 # DISTROS
 
 * __CRUX__ (https://crux.nu): With a ports based system for installing software, BSD style init scripts favoring native configurations over configuration abstraction layers, follows true KISS principles (Keep It Simple) applied to the system and the development process. Simplicity over automation makes it easy to extend the system by yourself.  
-* __Source Mage GNU/Linux__ (http://sourcemage.org): Without 3rd party patches, sensible defaults or masked packages, is free from obfuscated and pre-configured code, use clean dependencies as they came from upstream developers which provides immediate updates. With the package manager made in bash doesn't need obfuscated python libraries, can also use flags and heal broken installs.  
+* __Source Mage GNU/Linux__ (http://sourcemage.org): Without 3rd party patches, sensible defaults or masked packages, is free from obfuscated and pre-configured code, use clean dependencies as they came from upstream developers which provides immediate updates. With the package manager made in bash doesn't need obfuscated python libraries, can also use flags and heal broken installs. Fully committed to GPL, uses only free software (as in freedom) in their main package. With even the documentation licensed as FDL.  
 * __Harvey OS__ (https://harvey-os.org/):  With the Plan 9 file-sharing protocol can mount file name space from one computer to the other and act as a distributed service. Everything is a file, the hardware, environment variables, and settings are presented as "files". Distributed under GPL, is a member of Software Freedom Conservancy.  
 * __FreeDOS__ (https://www.freedos.org): DOS-compatible, can play classic games and run legacy business software.
 
