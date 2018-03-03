@@ -81,7 +81,7 @@ This process makes a "__.config__" file in the kernel source directory, this fil
 
 ## CHANGING THE CONFIGURATION (OPTIONAL)
 * Depending on your tastes this part can take minutes, hours, or days to enable proper options.
-* The __Y__ (or "__*__" in __menuconfig__) flag in kernel configuration compiles options as part of __vmlinuz__.
+* The __Y__ (or "__*__" in __menuconfig__) flag in kernel configuration compiles options to be integrated into the kernel.
 * The __M__ flag in kernel configuration compiles options as separate modules.
 * The __N__ (or a blank space in __menuconfig__) flag in kernel configuration will not build selected option.
 
