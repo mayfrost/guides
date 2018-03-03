@@ -101,10 +101,6 @@ In these examples we make only two partitions but you can extend this if you kno
 `cast -r locale`
 
 ## KERNEL
-* Include the filesystem support the boot partition is format in.
-* Include UEFI options if on UEFI.
-* Include device drivers you need, build the rest as modules.
-
 * On __CRUX__  
 `cd /usr/src/linux-<VERSION>`  
 `make all modules_install install`  
