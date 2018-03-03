@@ -81,9 +81,9 @@ This process makes a "__.config__" file in the kernel source directory, this fil
 
 ## CHANGING THE CONFIGURATION (OPTIONAL)
 * Depending on your tastes this part can take minutes, hours, or days to enable proper options.
-* The Y (or "__*__" in __menuconfig__) flag in kernel configuration compiles options as part of __vmlinuz__.
-* The M flag in kernel configuration compiles options as separate modules.
-* The N (or a blank space in __menuconfig__) flag in kernel configuration will not build selected option.
+* The __Y__ (or "__*__" in __menuconfig__) flag in kernel configuration compiles options as part of __vmlinuz__.
+* The __M__ flag in kernel configuration compiles options as separate modules.
+* The __N__ (or a blank space in __menuconfig__) flag in kernel configuration will not build selected option.
 
 * __OPTION 1__: Start a menu and browse options. Requires curses library but likely is already on your computer. Press "__H__" or "__?__" to see help. You can use the space bar to cycle between the available choices or press the appropriate key mentioned above. Pressing "__/__" to search for keywords.  
 `make menuconfig`  
