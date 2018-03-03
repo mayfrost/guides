@@ -119,14 +119,13 @@ Compile and move everything to its place. The "__all__" flag makes modules AND t
 * __OPTION B2__: Automatically move kernel to __/boot__ (and in certain distros, symlink the new kernel to __/boot/vmlinuz__ and update the bootloader configuration).  
 `make install`  
 
+__NOTE__: The __vmlinuz__ can be any name but that exact name has to be added to the configuration file of your bootloader of choice. Usually a version number is appended to the new kernel image. This has the advantage to avoid replacing a current kernel and having a fallback as backup to boot. You can set to boot from any image in the bootloader once you configure them in the bootloader.  
 
-### BUILD MODULES
-* Compile individual files for each question you answered M during kernel config. The object code is linked against your freshly built kernel. (For questions answered __Y__, these are already part of __vmlinuz__, and for questions answered __N__ they are skipped). Modules end with __.ko__.  
+### BUILDING MODULES
+Compile individual files for each question you answered M during kernel config. The object code is linked against your freshly built kernel. (For questions answered __Y__, these are already part of __vmlinuz__, and for questions answered __N__ they are skipped). Modules end with __.ko__.  
 `make -j<X> modules`  
 * Copy generated kernel modules to __/lib/modules/<KERNEL_VERSION>/__.  
 `make modules_install`  
-
-__NOTE__: The __vmlinuz__ can be any name but that exact name has to be added to the configuration file of your bootloader of choice. Usually a version number is appended to the new kernel image. This has the advantage to avoid replacing a current kernel and having a fallback as backup to boot. You can set to boot from any image in the bootloader once you configure them in the bootloader.
 
 ## INITRD
 The __initrd__ is used only while booting, unless you compile the kernel with the filesystem it resides on (__initfs__). There are three options.
