@@ -192,7 +192,7 @@ This section is also optional. There are cool patches for the kernel out there a
 Some available patches are:
 * __Kernel_gcc_patch__, enable gcc optimizations for additional CPUs: https://github.com/graysky2/kernel_gcc_patch  
 * __Liquorix__, kernel for desktop, multimedia, and gaming workloads: https://liquorix.net/sources/  
-* __linux-tiny__, reduce the memory and disk footprint: https://elinux.org/Linux_Tiny  
+* __linux-tiny__, reduce the memory and disk footprint (only for 2.6 and down, not updated): https://elinux.org/Linux_Tiny  
 * __Linux-libre__, remove non-free, obfuscated or obscured software included without source code:  http://linux-libre.fsfla.org/pub/linux-libre/releases/  
 * __pf-kernel__, patch set improving interactiveness and performance, includes __Kernel_gcc_patch__, __BFQ__ and others: https://pfactum.github.io/pf-kernel/  
 
