@@ -62,7 +62,7 @@ Get latest kernel from kernel.org
 
 
 ## GENERATING A CONFIGURATION FILE
-This process makes a "__.config__" file in the kernel source directory determines which drivers are built and other support. There are three options here, turn on only the minimal set of options you need.
+This process makes a "__.config__" file in the kernel source directory, this file determines which drivers are built and other support. There are three options here, you can turn on only the minimal set of options you need.
 
 * __OPTION 1__: Use the config file of another kernel or the current system.  
 `cp -v /boot/config-$(uname -r) .config`  
