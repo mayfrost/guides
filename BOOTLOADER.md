@@ -10,8 +10,14 @@
 * On __CRUX__ do "_prt-get remove lilo_" if you dont use LILO.
 * On __Source Mage GNU/Linux__ do "_cast \<BOOTLOADER>_" to install the preferred bootloader.
 
+Supported filesystems by bootloaders, they will boot if they /boot partition has a supported filesystem. If on UEFI ignore this as it only supports FAT.:
+* __LILO__: indifferent (anything?)
+* __SYSLINUX__: ext2, ext3, ext4, btrfs, ufs 1/2, FAT16, FAT32, iso9660, udf, NTFS.
+* __GRUB Legacy__: FAT16, FAT32, minix, ext2, ext3, ext4, ReiserFS, JFS, XFS, VSTa fs, Btrfs.
+* __GRUB 2__: ext2, ext3, ext4, btrfs, zfs, ufs, minix, iso9660, udf, jfs, hfs, hfs+, afs, affs, sfs, xfs, reiserfs, tar, cpio, NTFS, FAT16, FAT32.
+
 ## LILO
-* If on UEFI use __elilo__ and change names to "_/etc/elilo.conf_" instead of "_/etc/lilo.conf_" and "_elilo_" instead of "_lilo_" in commands  
+* If on UEFI use __elilo__ and change names to "_/etc/elilo.conf_" instead of "_/etc/lilo.conf_" and "_elilo_" instead of "_lilo_" in commands.  
 `nano /etc/lilo.conf`
 * Inserting "_password=\<PASSWORD>_" inside an OS stanza will protect with a password that OS, but inserting "_password=\<PASSWORD>_" just before the stanzas and outside any of them will protect with a password the bootloader itself (notice the space inside stanzas)  
 `boot = /dev/sda`  
