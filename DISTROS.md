@@ -1,4 +1,7 @@
-#DISTROS
+# DISTROS
+
+* __CRUX__: A ports based, BSD style init scripts, distro following true KISS principles (Keep It Simple).  
+* __Source Mage GNU/Linux__: Without 3rd party patches, sensible defaults or masked packages, free from obfuscated and pre-configured code, use clean dependencies as they came from upstream developers and can also use flags.  
 
 7. [CONFIGURATION ON CRUX](#configuration-on-crux)  
 7.1. [ENABLE CONTRIB REPO](#enable-contrib-repo)  
