@@ -184,7 +184,7 @@ You can find patch files on the Linux Kernel Mailing List https://lkml.org/.
 * Download the patch file there.
 * Following options assume is __gzipped__.
 
-You have threee options to patch the kernel.
+You have three options to patch the kernel.
 
 ### OPTION 1: Git
 Git can be used to fallback from the patch and revert to the upatched source.
