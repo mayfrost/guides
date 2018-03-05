@@ -191,6 +191,7 @@ To update modules automatically when changing a kernel use __DKMS__. Requires th
 This section is also optional. There are cool patches for the kernel out there and here you'll find how to install them. You can find patch files on the Linux Kernel Mailing List https://lkml.org/. More patches are provided in other places.  
 Some available patches are:
 * __Kernel_gcc_patch__, enable gcc optimizations for additional CPUs: https://github.com/graysky2/kernel_gcc_patch  
+* __Linux-rt__,	maximum latency and responsiveness, users claim avoids any hiccups and stalls https://wiki.linuxfoundation.org/realtime/preempt_rt_versions  
 * __Liquorix__, kernel for desktop, multimedia, and gaming workloads: https://liquorix.net/sources/  
 * __linux-tiny__, reduce the memory and disk footprint (only for 2.6 and down, not updated): https://elinux.org/Linux_Tiny  
 * __Linux-libre__, remove non-free, obfuscated or obscured software included without source code:  http://linux-libre.fsfla.org/pub/linux-libre/releases/  
