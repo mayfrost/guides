@@ -67,14 +67,14 @@ Get latest kernel from kernel.org
 
 
 ## GENERATING A CONFIGURATION FILE
-This process makes a "__.config__" file in the kernel source directory, this file determines which drivers are built and other support. There are three options here, you can turn on only the minimal set of options you need.
+This process makes a "__.config__" file in the kernel source directory, this file determine which drivers are built and other support. There are three options here, you can turn on only the minimal set of options you need.
 
 * __OPTION 1__: Use the config file of another kernel or the current system.  
 `cp -v /boot/config-$(uname -r) .config`  
 * Or in some distros you can take it from the running kernel.  
 `zcat /proc/config.gz > .config`  
 
-* __OPTION 2__: Make a default config file (may or may not not have the options you are currently using).  
+* __OPTION 2__: Make a default config file (may or may not have the options you are currently using).  
 `make defconfig`  
 
 * __OPTION 3__: Generate a config file disabling all options not loaded by the currently running kernel and will make questions on what kernel options to support when it finds new kernel options. Could have problems with peripherals not in use at that time unless you plug all devices like __USBs__. Attach devices you use or insert modules manually with the insmod command before using this option. Available from kernel version 2.6.32 and up.  
