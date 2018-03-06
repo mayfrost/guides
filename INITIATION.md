@@ -54,6 +54,7 @@ In these examples we make only two partitions but you can extend this if you kno
 * If on UEFI make directory and mount  
 `mkdir -p /mnt/drive/boot/efi`  
 `mount /dev/sda1 /mnt/drive/boot/efi`  
+* Mount everything else
 `cd /mnt/drive`  
 `mount --bind /dev /mnt/drive/dev`  
 `mount --bind /sys /mnt/drive/sys`  
