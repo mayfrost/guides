@@ -55,7 +55,7 @@ In these examples we make only two partitions but you can extend this if you kno
 `mkdir -p /mnt/drive/boot/efi`  
 `mount /dev/sda1 /mnt/drive/boot/efi`  
 * Mount everything else  
-`mkdir /mnt/drive/{dev,sys,proc,tmp,usr/src,var}`  
+`mkdir -p /mnt/drive/{dev,sys,proc,tmp,usr/src,var}`  
 `cd /mnt/drive`  
 `mount --bind /dev /mnt/drive/dev`  
 `mount --bind /tmp /mnt/drive/tmp`  
