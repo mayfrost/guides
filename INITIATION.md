@@ -54,13 +54,13 @@ In these examples we make only two partitions but you can extend this if you kno
 * If on UEFI make directory and mount  
 `mkdir -p /mnt/drive/boot/efi`  
 `mount /dev/sda1 /mnt/drive/boot/efi`  
-* Mount everything else
+* Mount everything else  
 `mkdir /mnt/drive/{dev,sys,proc,tmp,usr,var}`  
 `cd /mnt/drive`  
 `mount --bind /dev /mnt/drive/dev`  
 `mount --bind /sys /mnt/drive/sys`  
 `mount -t proc none /mnt/drive/proc`  
-`mount -t devpts none /mnt/drive/dev/pts`
+`mount -t devpts none /mnt/drive/dev/pts`  
 
 ## SETUP
 * On __CRUX__ run "_setup_", and if on UEFI select on setup grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.
