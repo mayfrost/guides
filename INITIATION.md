@@ -114,16 +114,6 @@ Next are simple examples of compiling the kernel, for a more in depth view see h
 
 ## BOOTLOADER
 Next is a simple example of setting the bootloader, for a more in depth view see https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md  
-* The drive where bootloaders and OSes are installed on these examples is "_/dev/sda_", but could be anywhere.
-* The bootloader installation __IS__ inside chroot AND with drives mounted, so this guide assumes you are inside "_/mnt/drive_".
-* "_<PARTITION_NUMBER_OF_DISTRO>_", "_<PARTITION_NUMBER_OF_FREEDOS>_" and "_<PARTITION_NUMBER_OF_WINDOWS>_" are just the numbers of partitions.
-* The "_vmlinuz_" file makes reference to the kernel image, you can rename it or simlink to it in all cases, the only rule is you have to make sure the name is referenced correctly in the bootloader. By default it can have names like "_vmlinuz-linux_", "_vmlinuz-<KERNEL_VERSION>_" and so on. The same with "_initramfs.img_", it can be "_initramfs-<KERNEL_VERSION>.img_" and such.
-* All bootloader examples have included other OS inside what is called "_stanzas_".
-* FreeDOS and Windows stanzas are __OPTIONAL__.
-* If dualbooting with Windows remember that it likes to be in the first partition.
-* If on UEFI check if module is loaded by issuing "_modprobe efivars_".
-* On __CRUX__ do "_prt-get remove lilo_" if you dont use LILO.
-* On __Source Mage GNU/Linux__ do "_cast \<BOOTLOADER>_" to install the preferred bootloader.
 
 ### LILO
 * If on UEFI use __elilo__ and change names to "_/etc/elilo.conf_" instead of "_/etc/lilo.conf_" and "_elilo_" instead of "_lilo_" in commands  
