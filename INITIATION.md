@@ -104,6 +104,7 @@ In these examples we make only two partitions but you can extend this if you kno
 `cast -r locale`
 
 ## KERNEL
+Next are simple examples of compiling the kernel, for a more in depth view see https://github.com/mayfrost/guides/blob/master/KERNEL.md  
 * On __CRUX__  
 `cd /usr/src/linux-<VERSION>`  
 `make all modules_install install`  
@@ -112,6 +113,7 @@ In these examples we make only two partitions but you can extend this if you kno
 `cast -r linux`
 
 ## BOOTLOADER
+Next is a simple example of setting the bootloader, for a more in depth view see https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md  
 * The drive where bootloaders and OSes are installed on these examples is "_/dev/sda_", but could be anywhere.
 * The bootloader installation __IS__ inside chroot AND with drives mounted, so this guide assumes you are inside "_/mnt/drive_".
 * "_<PARTITION_NUMBER_OF_DISTRO>_", "_<PARTITION_NUMBER_OF_FREEDOS>_" and "_<PARTITION_NUMBER_OF_WINDOWS>_" are just the numbers of partitions.
@@ -149,4 +151,4 @@ In these examples we make only two partitions but you can extend this if you kno
 * Shutdown the machine  
 `shutdown -h now`  
 
-And done.
+And done. For more information on both distros see https://github.com/mayfrost/guides/blob/master/DISTROS.md
