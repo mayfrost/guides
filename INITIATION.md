@@ -151,4 +151,4 @@ Next is a simple example of setting the bootloader, for a more in depth view see
 * Shutdown the machine  
 `shutdown -h now`  
 
-And done. For more information on both distros see https://github.com/mayfrost/guides/blob/master/DISTROS.md
+And done. For more information on both distros and what to do next see https://github.com/mayfrost/guides/blob/master/DISTROS.md
