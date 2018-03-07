@@ -4,7 +4,10 @@ This guide is for those wanting one of the two most beautiful source based distr
 * __CRUX__: A ports based, BSD style init scripts, distro following true KISS principles (Keep It Simple).  
 * __Source Mage GNU/Linux__: Without 3rd party patches, sensible defaults or masked packages, free from obfuscated and pre-configured code, use clean dependencies as they came from upstream developers and can also use flags.  
 
-__NOTE__: This guide attempts to describe __UEFI__ in detail side by side with __BIOS__. Also describes dualbooting (and triple booting) with the bootloader. If you feel overwhelmed for the amount of information don't be afraid, most of it is __OPTIONAL__, like password protection of the bootloader and the different filesystems the bootloaders can use.
+__NOTE__:
+* This guide attempts to describe __UEFI__ in detail side by side with __BIOS__. Also describes dualbooting (and triple booting) with the bootloader. If you feel overwhelmed for the amount of information don't be afraid, most of it is __OPTIONAL__, like password protection of the bootloader and the different filesystems the bootloaders can use.  
+* For __CRUX__ you should be using their "_iso_".  
+* For __Source Mage GNU/Linux__ you can use any "_iso_" provided they have the commands here mentioned.  
 
 
 ## TOC
@@ -22,18 +25,18 @@ __NOTE__: This guide attempts to describe __UEFI__ in detail side by side with _
 
 ## START
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
-* Make sure your network is up (OPTIONAL)  
+* Make sure your network is up (OPTIONAL).  
 `dhcpcd <NIC>`
-* Temporarily change keyboard (available configurations can be found in the directories "_/usr/share/kbd/keymaps/_" for __CRUX__ and "_/usr/share/keymaps/i386/qwerty_" for __Source Mage GNU/Linux__)  
+* Temporarily change keyboard (available configurations can be found in the directories "_/usr/share/kbd/keymaps/_" for __CRUX__ and "_/usr/share/keymaps/i386/qwerty_" for __Source Mage GNU/Linux__).  
 `loadkeys <KEYMAP>`
 
 ## PARTITIONING
 
 In these examples we make only two partitions but you can extend this if you know how. The partitions are one root partition, later mounted to "_/mnt/drive_" with "_mkfs.<ROOT_FILESYSTEM>_" format, and one boot partition, later mounted to "_/mnt/drive/boot_" and with "_mkfs.<BOOTLOADER_FILESYSTEM>_" format unless is __UEFI__ in which case "_mkfs.vfat_" is the only format available and will be mounted to "_/mnt/drive/boot/efi_" instead.
 
-* Use parted  
+* Use parted.  
 `parted /dev/sda`
-* Inside parted, if on UEFI label the disk "_gpt_", but if on BIOS label it "_msdos_"  
+* Inside parted, if on UEFI label the disk "_gpt_", but if on BIOS label it "_msdos_".  
 `mklabel <LABEL>`  
 `unit mb`  
 `mkpart primary 0g 128`  
@@ -42,87 +45,87 @@ In these examples we make only two partitions but you can extend this if you kno
 `p free`  
 `quit`  
 
-* Make root filesystem according to your personal preference  
+* Make root filesystem according to your personal preference.  
 `mkfs.<ROOT_FILESYSTEM> /dev/sda2`  
 `mkdir /mnt/drive`  
 `mount /dev/sda2 /mnt/drive`
-* Make boot filesystem according to supported bootloader or just "_mkfs.vfat_" if on UEFI  
+* Make boot filesystem according to supported bootloader or just "_mkfs.vfat_" if on UEFI.  
 `mkfs.<BOOTLOADER_FILESYSTEM> /dev/sda1`
-* If on BIOS make directory and mount  
+* If on BIOS make directory and mount.  
 `mkdir /mnt/drive/boot`  
 `mount /dev/sda1 /mnt/drive/boot`
-* If on UEFI make directory and mount  
+* If on UEFI make directory and mount.  
 `mkdir -p /mnt/drive/boot/efi`  
 `mount /dev/sda1 /mnt/drive/boot/efi`  
 
 ## SETUP
-* Create directories  
+* Create directories.  
 `mkdir -p /mnt/drive/{dev,sys,proc,tmp,usr/src,var}`  
 * On __CRUX__ run "_setup_", and if on UEFI during the setup select grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.  
 `setup`  
-* On __Source Mage GNU/Linux__ get the tarball  
+* On __Source Mage GNU/Linux__ get the tarball.  
 `cd /mnt/drive`  
 `wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"`  
 `tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`  
 
 ### CHROOT
-* On CRUX you can issue the next command to mount everything and chroot automatically  
+* On CRUX you can issue the next command to mount everything else and chroot automatically.  
 `setup-chroot`  
-* On __Source Mage GNU/Linux__ mount everything else manually  
+* On __Source Mage GNU/Linux__ mount everything else manually.  
 `mount --bind /dev /mnt/drive/dev`  
 `mount --bind /tmp /mnt/drive/tmp`  
 `mount --bind /sys /mnt/drive/sys`  
 `mount -t proc none /mnt/drive/proc`  
 `mount -t devpts none /mnt/drive/dev/pts`  
-* On __Source Mage GNU/Linux__ chroot manually specifying Bash in case live media has another shell  
+* On __Source Mage GNU/Linux__ chroot manually specifying Bash in case live media has another shell.  
 `chroot /mnt/drive /bin/bash`  
-* Change root password in chroot (TEST IF YOUR KEYBOARD HAS ALL THE CORRECT MAPPINGS before you change the password)  
+* Change root password in chroot (TEST IF YOUR KEYBOARD HAS ALL THE CORRECT MAPPINGS before you change the password).  
 `passwd root`  
 
 ### CHANGE NETWORK INTERFACES
-* On __CRUX__ modify "_/etc/rc.d/net_" with the rules you want (IP, gateway, domain, etc)  
-* On __Source Mage GNU/Linux__ add preferred interfaces to "_/etc/network/interfaces_" for example  
+* On __CRUX__ modify "_/etc/rc.d/net_" with the rules you want (IP, gateway, domain, etc).  
+* On __Source Mage GNU/Linux__ add preferred interfaces to "_/etc/network/interfaces_" for example.  
 `auto eth0`  
 `allow-hotplug eth0`  
 `iface eth0 inet dhcp`  
-* On the "_/etc/resolv.conf.head_" file set your preferred DNS provider (this example is from OpenNIC)  
+* On the "_/etc/resolv.conf.head_" file set your preferred DNS provider (this example is from OpenNIC).  
 `nameserver 193.41.79.236`  
-* Or copy "_/etc/resolv.conf_" to "_/mnt/etc/resolv.conf_" __BEFORE__ chrooting  
+* Or copy "_/etc/resolv.conf_" to "_/mnt/etc/resolv.conf_" __BEFORE__ chrooting.  
 
 ### EDIT FSTAB
-* Change the "_/etc/fstab_" file with appropriate filesystems  
+* Change the "_/etc/fstab_" file with appropriate filesystems.  
 `/dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults    0 2`  
 `/dev/sda2    /    <ROOT_FILESYSTEM>    noatime    0 1`  
-* On __CRUX__ uncomment the lines referring to "_devpts_", "_tmp_", and "_shm_" as some programs require it (Firefox), also "_USB_" and or "_cdrom_" if using those  
-* If on UEFI replace "_/boot_" with "_/boot/efi_"  
+* On __CRUX__ uncomment the lines referring to "_devpts_", "_tmp_", and "_shm_" as some programs require it (Firefox), also "_USB_" and or "_cdrom_" if using those.  
+* If on UEFI replace "_/boot_" with "_/boot/efi_".  
 
 ### SET THE ENVIRONMENT
-* On __CRUX__ change the font, keyboard, timezone, hostname and services on the "_/etc/rc.conf_" file  
+* On __CRUX__ change the font, keyboard, timezone, hostname and services on the "_/etc/rc.conf_" file.  
 `ls /usr/share/kbd/keymaps/`  
-* On __Source Mage GNU/Linux__ change keymaps on the "_/etc/sysconfig/keymap_" file  
+* On __Source Mage GNU/Linux__ change keymaps on the "_/etc/sysconfig/keymap_" file.  
 `ls /usr/share/keymaps/i386/qwerty`  
-* On __CRUX__ generate locales (change interface language)  
+* On __CRUX__ generate locales (change interface language).  
 `localedef -i <LOCALE> -f ISO-<CODE> <LOCALE>`  
-* On __Source Mage GNU/Linux__ generate locales (change interface language)  
+* On __Source Mage GNU/Linux__ generate locales (change interface language).  
 `cast -r locale`  
 
 ## KERNEL
-Next are simple examples of compiling the kernel, for a more in depth view see https://github.com/mayfrost/guides/blob/master/KERNEL.md  
-* On __CRUX__  
+Next are simple examples of compiling the kernel, for a more in depth view see: https://github.com/mayfrost/guides/blob/master/KERNEL.md  
+* On __CRUX__.  
 `cd /usr/src/linux-<VERSION>`  
 `make all modules_install install`  
 
-* On __Source Mage GNU/Linux__ (__OPTIONAL__)  
+* On __Source Mage GNU/Linux__ (__OPTIONAL__).  
 `cast -r linux`
 
 ## BOOTLOADER
-Next is a simple example of setting the bootloader, for a more in depth view see https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md  
+Next is a simple example of setting the bootloader, for a more in depth view see: https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md  
 
 ### LILO
 * On __Source Mage GNU/Linux__ do "_cast \<BOOTLOADER>_" to install lilo or elilo.  
-* If on UEFI use __elilo__ and change names to "_/etc/elilo.conf_" instead of "_/etc/lilo.conf_" and "_elilo_" instead of "_lilo_" in commands  
+* If on UEFI use __elilo__ and change names to "_/etc/elilo.conf_" instead of "_/etc/lilo.conf_" and "_elilo_" instead of "_lilo_" in commands.  
 `nano /etc/lilo.conf`
-* Inserting "_password=\<PASSWORD>_" inside an OS stanza will protect with a password that OS, but inserting "_password=\<PASSWORD>_" just before the stanzas and outside any of them will protect with a password the bootloader itself (notice the space inside stanzas)  
+* Inserting "_password=\<PASSWORD>_" inside an OS stanza will protect with a password that OS, but inserting "_password=\<PASSWORD>_" just before the stanzas and outside any of them will protect with a password the bootloader itself (notice the space inside stanzas).  
 `boot = /dev/sda`  
 `image = /boot/vmlinuz`  
 `     Label = <DISTRO_NAME>`  
@@ -133,16 +136,16 @@ Next is a simple example of setting the bootloader, for a more in depth view see
 `other = /dev/sda<PARTITION_NUMBER_OF_WINDOWS>`  
 `     table = /dev/sda`  
 `     Label = Windows7`  
-* Set boot entry  
+* Set boot entry.  
 `lilo -A /dev/sda 1`  
 `lilo`
-* Prevent anyone but root of reading the config file (in case you used a password)  
+* Prevent anyone but root of reading the config file (in case you used a password).  
 `chmod 600 /etc/lilo.conf`
 
 ## THE END
-* Exit the chroot  
+* Exit the chroot.  
 `exit`
-* Shutdown the machine  
+* Shutdown the machine.  
 `shutdown -h now`  
 
-And done. For more information on both distros and what to do next see https://github.com/mayfrost/guides/blob/master/DISTROS.md
+And done. For more information on both distros and what to do next see: https://github.com/mayfrost/guides/blob/master/DISTROS.md
