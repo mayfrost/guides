@@ -56,17 +56,17 @@ In these examples we make only two partitions but you can extend this if you kno
 `mount /dev/sda1 /mnt/drive/boot/efi`  
 
 ## SETUP
-* Create directories
+* Create directories  
 `mkdir -p /mnt/drive/{dev,sys,proc,tmp,usr/src,var}`  
-* On __CRUX__ run "_setup_", and if on UEFI during the setup select grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.  
+* On __CRUX__ run "_setup_", and if on UEFI during the setup select grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.  
 `setup`  
-* On __Source Mage GNU/Linux__ get the tarball  
+* On __Source Mage GNU/Linux__ get the tarball  
 `cd /mnt/drive`  
 `wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"`  
 `tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`  
 
 ### CHROOT
-* On CRUX you can issue the next command to mount everything and chroot automatically
+* On CRUX you can issue the next command to mount everything and chroot automatically  
 `setup-chroot`  
 * On __Source Mage GNU/Linux__ mount everything else manually  
 `mount --bind /dev /mnt/drive/dev`  
@@ -80,31 +80,31 @@ In these examples we make only two partitions but you can extend this if you kno
 `passwd root`  
 
 ### CHANGE NETWORK INTERFACES
-* On __CRUX__ modify "_/etc/rc.d/net_" with the rules you want (IP, gateway, domain, etc)
+* On __CRUX__ modify "_/etc/rc.d/net_" with the rules you want (IP, gateway, domain, etc)  
 * On __Source Mage GNU/Linux__ add preferred interfaces to "_/etc/network/interfaces_" for example  
 `auto eth0`  
 `allow-hotplug eth0`  
-`iface eth0 inet dhcp`
+`iface eth0 inet dhcp`  
 * On the "_/etc/resolv.conf.head_" file set your preferred DNS provider (this example is from OpenNIC)  
-`nameserver 193.41.79.236`
-* Or copy "_/etc/resolv.conf_" to "_/mnt/etc/resolv.conf_" __BEFORE__ chrooting
+`nameserver 193.41.79.236`  
+* Or copy "_/etc/resolv.conf_" to "_/mnt/etc/resolv.conf_" __BEFORE__ chrooting  
 
 ### EDIT FSTAB
 * Change the "_/etc/fstab_" file with appropriate filesystems  
 `/dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults    0 2`  
-`/dev/sda2    /    <ROOT_FILESYSTEM>    noatime    0 1`
-* On __CRUX__ uncomment the lines referring to "_devpts_", "_tmp_", and "_shm_" as some programs require it (Firefox), also "_USB_" and or "_cdrom_" if using those
-* If on UEFI replace "_/boot_" with "_/boot/efi_"
+`/dev/sda2    /    <ROOT_FILESYSTEM>    noatime    0 1`  
+* On __CRUX__ uncomment the lines referring to "_devpts_", "_tmp_", and "_shm_" as some programs require it (Firefox), also "_USB_" and or "_cdrom_" if using those  
+* If on UEFI replace "_/boot_" with "_/boot/efi_"  
 
 ### SET THE ENVIRONMENT
 * On __CRUX__ change the font, keyboard, timezone, hostname and services on the "_/etc/rc.conf_" file  
-`ls /usr/share/kbd/keymaps/`
+`ls /usr/share/kbd/keymaps/`  
 * On __Source Mage GNU/Linux__ change keymaps on the "_/etc/sysconfig/keymap_" file  
-`ls /usr/share/keymaps/i386/qwerty`
+`ls /usr/share/keymaps/i386/qwerty`  
 * On __CRUX__ generate locales (change interface language)  
-`localedef -i <LOCALE> -f ISO-<CODE> <LOCALE>`
+`localedef -i <LOCALE> -f ISO-<CODE> <LOCALE>`  
 * On __Source Mage GNU/Linux__ generate locales (change interface language)  
-`cast -r locale`
+`cast -r locale`  
 
 ## KERNEL
 Next are simple examples of compiling the kernel, for a more in depth view see https://github.com/mayfrost/guides/blob/master/KERNEL.md  
