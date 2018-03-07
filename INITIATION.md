@@ -89,7 +89,7 @@ In these examples we make only two partitions but you can extend this if you kno
 * Change the "_/etc/fstab_" file with appropriate filesystems  
 `/dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults    0 2`  
 `/dev/sda2    /    <ROOT_FILESYSTEM>    noatime    0 1`
-* On __CRUX__ uncomment the lines referring to devpts, tmp, and shm as some programs require it (Firefox), also USB and or cdrom if using those
+* On __CRUX__ uncomment the lines referring to "_devpts_", "_tmp_", and "_shm_" as some programs require it (Firefox), also "_USB_" and or "_cdrom_" if using those
 * If on UEFI replace "_/boot_" with "_/boot/efi_"
 
 ### SET THE ENVIRONMENT
