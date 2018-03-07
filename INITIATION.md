@@ -54,26 +54,30 @@ In these examples we make only two partitions but you can extend this if you kno
 * If on UEFI make directory and mount  
 `mkdir -p /mnt/drive/boot/efi`  
 `mount /dev/sda1 /mnt/drive/boot/efi`  
-* Mount everything else  
+
+## SETUP
+* Create directories
 `mkdir -p /mnt/drive/{dev,sys,proc,tmp,usr/src,var}`  
+* On __CRUX__ run "_setup_", and if on UEFI during the setup select grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.  
+`setup`  
+* On __Source Mage GNU/Linux__ get the tarball  
+`cd /mnt/drive`  
+`wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"`  
+`tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`  
+
+### CHROOT
+* On CRUX you can issue the next command to mount everything and chroot automatically
+`setup-chroot`  
+* On __Source Mage GNU/Linux__ mount everything else manually  
 `mount --bind /dev /mnt/drive/dev`  
 `mount --bind /tmp /mnt/drive/tmp`  
 `mount --bind /sys /mnt/drive/sys`  
 `mount -t proc none /mnt/drive/proc`  
 `mount -t devpts none /mnt/drive/dev/pts`  
-
-## SETUP
-* On __CRUX__ run "_setup_", and if on UEFI select on setup grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.
-* On __Source Mage GNU/Linux__ get the tarball  
-`cd /mnt/drive`  
-`wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"`  
-`tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`
-
-### CHROOT
-* Chroot specifying Bash in case live media has another shell  
-`chroot /mnt/drive /bin/bash`
+* On __Source Mage GNU/Linux__ chroot manually specifying Bash in case live media has another shell  
+`chroot /mnt/drive /bin/bash`  
 * Change root password in chroot (TEST IF YOUR KEYBOARD HAS ALL THE CORRECT MAPPINGS before you change the password)  
-`passwd root`
+`passwd root`  
 
 ### CHANGE NETWORK INTERFACES
 * On __CRUX__ modify "_/etc/rc.d/net_" with the rules you want (IP, gateway, domain, etc)
@@ -115,6 +119,7 @@ Next are simple examples of compiling the kernel, for a more in depth view see h
 Next is a simple example of setting the bootloader, for a more in depth view see https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md  
 
 ### LILO
+* On __Source Mage GNU/Linux__ do "_cast \<BOOTLOADER>_" to install lilo or elilo.  
 * If on UEFI use __elilo__ and change names to "_/etc/elilo.conf_" instead of "_/etc/lilo.conf_" and "_elilo_" instead of "_lilo_" in commands  
 `nano /etc/lilo.conf`
 * Inserting "_password=\<PASSWORD>_" inside an OS stanza will protect with a password that OS, but inserting "_password=\<PASSWORD>_" just before the stanzas and outside any of them will protect with a password the bootloader itself (notice the space inside stanzas)  
