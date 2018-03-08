@@ -1,7 +1,7 @@
 # WiFi
 
 Use WiFi without a separate network manager with this simple guide. Needs "_dhcpcd_" (or "_dhcpclient_"), "_wpa\_supplicant_", "_iproute2_" and wifi firmware (like "_iwlwifi_").  
-The "_\<DEVICE_NAME>_" can be either "_wlp3s0_" or "_wlan0_". Change accordingly the following commands to suit your needs.
+__NOTE__: The "_\<DEVICE_NAME>_" can be either "_wlp3s0_" or "_wlan0_". Change accordingly the following commands to suit your needs.
 
 * Create the configuration file (as "_root_", not "_sudo_"):  
 `wpa_passphrase <NETWORK_NAME> <PASSWORD> > /etc/wpa_supplicant.conf`  
