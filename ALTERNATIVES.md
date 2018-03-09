@@ -61,7 +61,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Configuration Management__: Puppet -> CFEngine -> cdist
 
 * __CAD__: AutoCAD -> FreeCAD -> OpenSCAD
-* __Graphing Calculato__r: KAlgebra -> GraphMonkey -> Maxima + PLplot
+* __Graphing Calculator__: KAlgebra -> GraphMonkey -> Maxima + PLplot
 
 * __Firewall__: gufw -> ufw -> iptables -> nftables
 
