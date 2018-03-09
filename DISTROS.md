@@ -25,7 +25,7 @@
 * Uncomment line "_prtdir /usr/ports/contrib_"
 
 ### ADD EXTERNAL REPOS
-* Download httpup/rsync file and pub file  
+* Download httpup/rsync file and pub file from https://crux.nu/portdb/index.php?a=index  
 `cd /etc/ports/`  
 `wget -c <URL>`
 * Add repo location to "_/etc/prt-get.conf_" (order sets precedence)  
