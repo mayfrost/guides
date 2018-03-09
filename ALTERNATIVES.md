@@ -37,7 +37,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Disk Usage__: QDirStat -> Baobab -> Ncdu -> df
 * __System Monitor__: gnome-system-monitor -> Conky -> htop -> nmon -> top
 
-* __Multiple Streams__: pulseaudio -> apulse
+* __Multiple Audio Streams__: pulseaudio -> apulse
 * __Audio Editing__: Audacity -> SoX
 * __Audio Mixer and Equalizer__: pavucontrol -> Qastools -> alsa-utils + Alsaequal
 * __Metadata__: Easytag -> Beets -> ExifTool
