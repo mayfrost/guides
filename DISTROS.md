@@ -8,7 +8,8 @@
 1. [CONFIGURATION ON CRUX](#configuration-on-crux)  
 2.1. [ENABLE CONTRIB REPO](#enable-contrib-repo)  
 2.2. [ADD EXTERNAL REPOS](#add-external-repos)  
-2.3. [INSTALL XORG](#install-xorg)  
+2.3. [FINALIZING REPO CONFIGURATION](#finalizing-repo-configuration)  
+2.4. [INSTALLING XORG](#installing-xorg)  
 3. [CRUX COMMANDS](#crux-commands)  
 3.1. [AUTOMATED INSTALLATION OF PORTS](#automated-installation-of-ports)  
 3.2. [MANUAL DOWNLOAD AND INSTALLATION](#manual-download-and-installation)  
@@ -30,18 +31,20 @@
 * Add repo location to "_/etc/prt-get.conf_" (order sets precedence)  
 `nano /etc/prt-get.conf`
 * Add line "_prtdir /usr/ports/\<REPO>_"
-* Populate repo  
-`ports -u <REPO>`
 
+### FINALIZING REPO CONFIGURATION
 * Enable pre-/post-install scripts in "_/etc/prt-get.conf_" (usually safe to run repeatedly, usually used to rebuild caches and add system users when installing certain software)  
 `nano /etc/prt-get.conf`
-* Uncomment line "_runscripts yes_"
+* Uncomment line "_runscripts yes_"  
 
 * Ignore footprint mismatches due to new files (usually not a bad thing)  
 `nano /etc/pkgmk.conf`
-* Set line "_PKGMK_IGNORE_NEW="yes"_"
+* Set line "_PKGMK_IGNORE_NEW="yes"_"  
 
-### INSTALL XORG
+* Populate repo  
+`ports -u <REPO>`
+
+### INSTALLING XORG
 * Install a minimal set of xorg and xorg dependent tools one by one
 `prtget depinst xorg-server xorg-xf86-video-<DRIVER> xorg-font-<FONT> xkeyboard-config xorg-xinit`
 * Alternatively just install the metapackage "_xorg_"
