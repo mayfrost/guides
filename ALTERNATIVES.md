@@ -2,79 +2,79 @@ The list is built pointing to software that have alternatives with less dependen
 
 Certainly it would be great to have a comparative on resource usage tho. Wanna help?
 
-*__Terminal Pager__: less -> most
+* __Terminal Pager__: less -> most
 
-*__Chat Client__: Pidgin -> Finch (+ irssi mode) -> Centerim -> Bitlbee
-*__E-Mail Client__: Thunderbird -> Alpine -> Mutt
-*__RSS Feed and Podcast__: Liferea -> Newsbeuter -> Newsboat
-*__IRC Client__: HexChat -> Weechat -> Irssi
-*__VoIP__: Skype -> Mumble -> Linphone -> sscall
+* __Chat Client__: Pidgin -> Finch (+ irssi mode) -> Centerim -> Bitlbee
+* __E-Mail Client__: Thunderbird -> Alpine -> Mutt
+* __RSS Feed and Podcast__: Liferea -> Newsbeuter -> Newsboat
+* __IRC Client__: HexChat -> Weechat -> Irssi
+* __VoIP__: Skype -> Mumble -> Linphone -> sscall
 
-*__Application Launcher__: GNOME Do -> ratmenu -> dmenu -> pdmenu -> slmenu
-*__Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
-*__Display Color Temperature__: flux -> Redshift -> sct
-*__Graphical Settings__: Wpgtk -> LxAppearance -> GSettings -> xsettings
-*__Keybinding__: Xbindkeys -> sxhkd -> loadkeys (+ keymaps)
-*__Wallpaper Changer__: FEH -> hsetroot -> xsetroot -> imagemagick (but use 10MB more RAM than the others)
+* __Application Launcher__: GNOME Do -> ratmenu -> dmenu -> pdmenu -> slmenu
+* __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
+* __Display Color Temperature__: flux -> Redshift -> sct
+* __Graphical Settings__: Wpgtk -> LxAppearance -> GSettings -> xsettings
+* __Keybinding__: Xbindkeys -> sxhkd -> loadkeys (+ keymaps)
+* __Wallpaper Changer__: FEH -> hsetroot -> xsetroot -> imagemagick (but use 10MB more RAM than the others)
 
-*__CD-DVD Burn and Copy__: K3b -> Brasero -> cdw
-*__Device Management__: Udisks (+ udevil) -> pmount -> bashmount
+* __CD-DVD Burn and Copy__: K3b -> Brasero -> cdw
+* __Device Management__: Udisks (+ udevil) -> pmount -> bashmount
 
-*__Virtual Machine__: VirtualBox -> AQEMU + kvm -> Qemu + kvm
+* __Virtual Machine__: VirtualBox -> AQEMU + kvm -> Qemu + kvm
 
-*__Batch Renamer__: GPRename -> qmv (renameutils)
-*__Duplicate Files Removal__: dupeGuru -> Fdupes
-*__File Archiver__: PeaZip -> Xarchiver -> Atool
-*__File Manager__: SpaceFM -> Ranger -> Midnight Commander -> noice
+* __Batch Renamer__: GPRename -> qmv (renameutils)
+* __Duplicate Files Removal__: dupeGuru -> Fdupes
+* __File Archiver__: PeaZip -> Xarchiver -> Atool
+* __File Manager__: SpaceFM -> Ranger -> Midnight Commander -> noice
 
-*__File Scraper__: JDownloader -> youtube-dl -> cclive -> Plowshare
-*__FTP Client__: FileZilla -> lftp
-*__Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (+ transmission-remote-cli, or use the web interface that comes with transmission-daemon)
+* __File Scraper__: JDownloader -> youtube-dl -> cclive -> Plowshare
+* __FTP Client__: FileZilla -> lftp
+* __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (+ transmission-remote-cli, or use the web interface that comes with transmission-daemon)
 
-*__System Information__: zCI -> screenfetch -> inxi
-*__Disk Usage__: QDirStat -> Baobab -> Ncdu -> df
-*__System Monitor__: gnome-system-monitor -> Conky -> htop -> nmon -> top
+* __System Information__: zCI -> screenfetch -> inxi
+* __Disk Usage__: QDirStat -> Baobab -> Ncdu -> df
+* __System Monitor__: gnome-system-monitor -> Conky -> htop -> nmon -> top
 
-*__Multiple Streams__: pulseaudio -> apulse
-*__Audio Editing__: Audacity -> SoX
-*__Audio Mixer and Equalizer__: pavucontrol -> Qastools -> alsa-utils + Alsaequal
-*__Metadata__: Easytag -> Beets -> ExifTool
-*__Screenshots__: Shutter -> scrot -> maim -> ImageMagick
-*__Screencasting__: Open Broadcaster Studio -> SimpleScreenRecorder -> FFmpeg
-*__Video Transcoding__: HandBrake -> WinFF -> FFmpeg
+* __Multiple Streams__: pulseaudio -> apulse
+* __Audio Editing__: Audacity -> SoX
+* __Audio Mixer and Equalizer__: pavucontrol -> Qastools -> alsa-utils + Alsaequal
+* __Metadata__: Easytag -> Beets -> ExifTool
+* __Screenshots__: Shutter -> scrot -> maim -> ImageMagick
+* __Screencasting__: Open Broadcaster Studio -> SimpleScreenRecorder -> FFmpeg
+* __Video Transcoding__: HandBrake -> WinFF -> FFmpeg
 
-*__DNS Resolution__: Unbound + NDS -> BIND9
-*__Network Manager__: Wicd -> NetworkManager -> ConnMan -> SetNet
+* __DNS Resolution__: Unbound + NDS -> BIND9
+* __Network Manager__: Wicd -> NetworkManager -> ConnMan -> SetNet
 
-*__Ebook Viewer__: Calibre -> Zathura
-*__Printers__: CUPS -> LPR
-*__Word Processor__: Libreoffice Writter -> Abiword -> WordGrinder + pandoc
-*__Spreadsheets__: Libreoffice Calc -> Gnumeric -> SC-IM + pandoc
-*__Text Editor (and IDE)__: Emacs (nox) -> Vim -> Nano -> Vile -> xwpe -> GNU Zile
+* __Ebook Viewer__: Calibre -> Zathura
+* __Printers__: CUPS -> LPR
+* __Word Processor__: Libreoffice Writter -> Abiword -> WordGrinder + pandoc
+* __Spreadsheets__: Libreoffice Calc -> Gnumeric -> SC-IM + pandoc
+* __Text Editor (and IDE)__: Emacs (nox) -> Vim -> Nano -> Vile -> xwpe -> GNU Zile
 
-*__Disk Cleaner__: BleachBit -> bleachbit_cli -> shred
-*__Storage Encryption__: VeraCrypt -> tcplay (TrueCrypt implementation) -> Keyringer -> Tomb
-*__Password Manager__: KeePassX -> kpcli / pass (+ pass-tomb)
+* __Disk Cleaner__: BleachBit -> bleachbit_cli -> shred
+* __Storage Encryption__: VeraCrypt -> tcplay (TrueCrypt implementation) -> Keyringer -> Tomb
+* __Password Manager__: KeePassX -> kpcli / pass (+ pass-tomb)
 
-*__Version Control__: Git (+ tig) -> Fossil -> RCS
+* __Version Control__: Git (+ tig) -> Fossil -> RCS
 
-*__Configuration Management__: Puppet -> CFEngine -> cdist
+* __Configuration Management__: Puppet -> CFEngine -> cdist
 
-*__CAD__: AutoCAD -> FreeCAD -> OpenSCAD
-*__Graphing Calculato__r: KAlgebra -> GraphMonkey -> Maxima + PLplot
+* __CAD__: AutoCAD -> FreeCAD -> OpenSCAD
+* __Graphing Calculato__r: KAlgebra -> GraphMonkey -> Maxima + PLplot
 
-*__Firewall__: gufw -> ufw -> iptables -> nftables
+* __Firewall__: gufw -> ufw -> iptables -> nftables
 
-*__Cloud__: Google Drive -> Nextcloud -> vsftpd -> sftp
-*__E-Mail Filtering (LDA)__: Dovecot -> procmail
-*__E-Mail Server (MTA)__: Postfix -> Exim -> cmail
-*__E-Mail Spam Filter__: DSPAM -> SpamAssassin
-*__VPN__: OpenVPN -> WireGuard
-*__Web Caching__: Decentraleyes on a web browser -> Squid
-*__Web Filtering__: Ad blocker on a web browser -> Pi-hole -> Privoxy
-*__Web Server__: Apache -> Nginx -> lighttpd -> darkhttpd -> Bucktooth (+ Bucky)
+* __Cloud__: Google Drive -> Nextcloud -> vsftpd -> sftp
+* __E-Mail Filtering (LDA)__: Dovecot -> procmail
+* __E-Mail Server (MTA)__: Postfix -> Exim -> cmail
+* __E-Mail Spam Filter__: DSPAM -> SpamAssassin
+* __VPN__: OpenVPN -> WireGuard
+* __Web Caching__: Decentraleyes on a web browser -> Squid
+* __Web Filtering__: Ad blocker on a web browser -> Pi-hole -> Privoxy
+* __Web Server__: Apache -> Nginx -> lighttpd -> darkhttpd -> Bucktooth (+ Bucky)
 
-*__BIOS__: Coreboot -> Libreboot
-*__Boot Loader__: GRUB 2 -> GRUB Legacy -> SYSLINUX -> LILO (or ELILO for UEFI)
-*__Service Manager__: SysVinit + bum -> SysVinit + OpenRC -> sinit (+ daemontools-encore or perp)
-*__IPC__: DBus -> ipcs
+* __BIOS__: Coreboot -> Libreboot
+* __Boot Loader__: GRUB 2 -> GRUB Legacy -> SYSLINUX -> LILO (or ELILO for UEFI)
+* __Service Manager__: SysVinit + bum -> SysVinit + OpenRC -> sinit (+ daemontools-encore or perp)
+* __IPC__: DBus -> ipcs
