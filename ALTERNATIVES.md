@@ -1,3 +1,5 @@
+# ALTERNATIVE TO BLOATWARE
+
 The list is built pointing to software that have alternatives with less dependencies, and addressing dependencies was the easy thing to do. One thing tho, some particular tools were included because they add less dependencies overall while keeping a system functional. One such example is imagemagick and ffmpeg, by which you can do a lot of work and replace many tools by just using those with scripts and replace something like a screenshot utility. TL;DR is about the unix principle and you can have a fully functional system pretty damn minimal with that.
 
 Certainly it would be great to have a comparative on resource usage tho. Wanna help?
@@ -78,3 +80,15 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Boot Loader__: GRUB 2 -> GRUB Legacy -> SYSLINUX -> LILO (or ELILO for UEFI)
 * __Service Manager__: SysVinit + bum -> SysVinit + OpenRC -> sinit (+ daemontools-encore or perp)
 * __IPC__: DBus -> ipcs
+
+
+## ANDROID APPS
+
+* __Launcher__: Silverfish
+* __Facebook__: Tinfoil for Facebook
+* __Twitter__*: Tinfoil for Twitter
+* __YouTube__: NewPipe
+* __E-Books__: Document Viewer
+* __Notes__: miniNoteViewer
+
+All apps are from F-Droid, may not be much but is a start.
