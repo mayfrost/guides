@@ -13,15 +13,16 @@ __NOTE__:
 ## TOC
 1. [START](#start)  
 2. [PARTITIONING](#partitioning)  
-3. [SETUP](#setup)  
-3.1. [CHROOT](#chroot)  
-3.2. [CHANGE NETWORK INTERFACES](#change-network-interfaces)  
-3.3. [EDIT FSTAB](#edit-fstab)  
-3.4. [SET THE ENVIRONMENT](#setup-the-environment)  
-4. [KERNEL](#kernel)  
-5. [BOOTLOADER](#bootloader)  
-5.1. [LILO](#lilo)  
-6. [THE END](#the-end)  
+3. [FILESYSTEM](#filesystem)  
+4. [SETUP](#setup)  
+4.1. [CHROOT](#chroot)  
+4.2. [CHANGE NETWORK INTERFACES](#change-network-interfaces)  
+4.3. [EDIT FSTAB](#edit-fstab)  
+4.4. [SET THE ENVIRONMENT](#setup-the-environment)  
+5. [KERNEL](#kernel)  
+6. [BOOTLOADER](#bootloader)  
+6.1. [LILO](#lilo)  
+7. [THE END](#the-end)  
 
 ## START
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
@@ -45,25 +46,37 @@ In these examples we make only two partitions but you can extend this if you kno
 `p free`  
 `quit`  
 
+## FILESYSTEM
+
+Choose your preferred filesystem. Common filesystem types are:  
+* __JFS__: Good journaling and with crash recovery, is reliable for low end computers like laptops and old computers.  
+* __VFAT__: Most recent version of the filesystem from the time of DOS, most suitable for EFI partitions than anything else.  
+* __Reiser4__: High performance filesystem for use performance intensive environments like multimedia workstations and gaming rigs.  
+* __EXT4__: The newest version of the classic Linux filesystem and the one with most support, excels at a high quantity of files and nested directories. Ideal for FTP and fileservers.  
+* __XFS__: Popular for its good handling of large files, its best use is in big, enterprise level databases.  
+
+Look into each one and decide for your use case. Next are the commands used for installation, remember to install the appropiate tools for your filesystem, like "_jfsutils_" for __JFS__.  
 * Make root filesystem according to your personal preference.  
 `mkfs.<ROOT_FILESYSTEM> /dev/sda2`  
-`mkdir /mnt/drive`  
-`mount /dev/sda2 /mnt/drive`
 * Make boot filesystem according to supported bootloader or just "_mkfs.vfat_" if on UEFI.  
-`mkfs.<BOOTLOADER_FILESYSTEM> /dev/sda1`
-* If on BIOS make directory and mount.  
-`mkdir /mnt/drive/boot`  
-`mount /dev/sda1 /mnt/drive/boot`
-* If on UEFI make directory and mount.  
-`mkdir -p /mnt/drive/boot/efi`  
-`mount /dev/sda1 /mnt/drive/boot/efi`  
+`mkfs.<BOOTLOADER_FILESYSTEM> /dev/sda1`  
 
 ## SETUP
-* Create directories.  
+* Make a directory for the new root directory.  
+`mkdir /mnt/drive`  
+* Mount the new root directory.  
+`mount /dev/sda2 /mnt/drive`  
+* If on BIOS make boot directory and mount.  
+`mkdir /mnt/drive/boot`  
+`mount /dev/sda1 /mnt/drive/boot`
+* If on UEFI make boot directory and mount.  
+`mkdir -p /mnt/drive/boot/efi`  
+`mount /dev/sda1 /mnt/drive/boot/efi`  
+* Create other directories under the new root directory.  
 `mkdir -p /mnt/drive/{dev,sys,proc,tmp,usr/src,var}`  
 * On __CRUX__ run "_setup_", and if on UEFI during the setup select grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.  
 `setup`  
-* On __Source Mage GNU/Linux__ get the tarball.  
+* On __Source Mage GNU/Linux__ download and uncompress the tarball inside the new root directory.  
 `cd /mnt/drive`  
 `wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"`  
 `tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`  
