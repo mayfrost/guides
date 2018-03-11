@@ -50,10 +50,10 @@ In these examples we make only two partitions but you can extend this if you kno
 
 Choose your preferred filesystem. Common filesystem types are:  
 * __JFS__: Good read/write performance and crash recovery, reliable for low end computers like laptops and old computers.  
-* __VFAT__: Most recent version of the filesystem from the time of DOS, most suitable for EFI partitions than anything else.  
 * __Reiser4__: High performance filesystem for use in performance intensive environments like multimedia workstations and gaming rigs.  
 * __EXT4__: The newest version of the classic Linux filesystem and the one with most support, excels at a high quantity of files and nested directories. Ideal for FTP and fileservers.  
 * __XFS__: Popular for its good handling of large files, its best use is in big, enterprise level databases.  
+* __VFAT__: Most recent version of the filesystem from the time of DOS, most suitable for EFI partitions than anything else.  
 
 Look into each one and decide for your use case. Next are the commands used for installation, remember to install the appropiate tools for your filesystem, like "_jfsutils_" for __JFS__.  
 * Make root filesystem according to your personal preference.  
