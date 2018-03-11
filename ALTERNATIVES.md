@@ -34,7 +34,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (+ transmission-remote-cli, or use the web interface that comes with transmission-daemon)
 
 * __System Information__: zCI -> screenfetch -> inxi
-* __Disk Usage__: QDirStat -> Baobab -> Ncdu -> df
+* __Disk Usage__: QDirStat -> Baobab -> xdiskusage -> Ncdu -> df
 * __System Monitor__: gnome-system-monitor -> Conky -> htop -> nmon -> top
 
 * __Multiple Audio Streams__: pulseaudio -> apulse
