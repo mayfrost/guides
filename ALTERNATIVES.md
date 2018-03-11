@@ -50,7 +50,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 
 * __Ebook Viewer__: Calibre -> Zathura
 * __Printers__: CUPS -> LPR
-* __Word Processor__: Libreoffice Writter -> Abiword -> WordGrinder + pandoc
+* __Word Processor__: Libreoffice Writter -> Abiword -> MinEd -> WordGrinder + pandoc
 * __Spreadsheets__: Libreoffice Calc -> Gnumeric -> SC-IM + pandoc
 * __Text Editor (and IDE)__: Emacs (nox) -> Vim -> Nano -> Vile -> xwpe -> GNU Zile
 
