@@ -49,9 +49,9 @@ In these examples we make only two partitions but you can extend this if you kno
 ## FILESYSTEM
 
 Choose your preferred filesystem. Common filesystem types are:  
-* __JFS__: Good journaling and with crash recovery, is reliable for low end computers like laptops and old computers.  
+* __JFS__: Good journaling, good crash recovery, and good read/write performance, is reliable for low end computers like laptops and old computers.  
 * __VFAT__: Most recent version of the filesystem from the time of DOS, most suitable for EFI partitions than anything else.  
-* __Reiser4__: High performance filesystem for use performance intensive environments like multimedia workstations and gaming rigs.  
+* __Reiser4__: High performance filesystem for use in performance intensive environments like multimedia workstations and gaming rigs.  
 * __EXT4__: The newest version of the classic Linux filesystem and the one with most support, excels at a high quantity of files and nested directories. Ideal for FTP and fileservers.  
 * __XFS__: Popular for its good handling of large files, its best use is in big, enterprise level databases.  
 
