@@ -308,6 +308,16 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Universal Package Managers__: pkgsrc -> GNU Guix
 
 ## Pentesting
+### Exploitables
+* __Distros__: Security Scenario Generator (SecGen) -> Damn Vulnerable Linux -> Metasploitable -> Kioptrix
+* __Web Apps__: Mutillidae -> hackxor -> WebGoat
+
+### Network Scanner
+* __DNS Client__: nslookup, whois, host, dig, dnsenum, dnstracer
+* __Link Scanner__: Metagoofil -> Linklint (+ linklint2dot)
+* __Network Enumeration__: SSLScan, p0f, PRADS
+* __Network File Retrieval__: tcpxtract -> Driftnet
+
 
 ## Privacy
 * __Disk Cleaner__: BleachBit -> bleachbit_cli -> shred
