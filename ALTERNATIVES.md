@@ -120,7 +120,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Invoice__: Simple Invoices
 * __Project Management__: GanttProject -> ProjectLibre
 
-# File Utilities
+## File Utilities
 * __Batch Renamer__: GPRename -> qmv (renameutils)
 * __Duplicate Files Removal__: dupeGuru -> Fdupes
 * __File Archiver__: PeaZip -> Xarchiver -> Atool
@@ -164,10 +164,42 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Steganalysis__: Virtual Steganographic Laboratory -> Stegdetect
 
 ## Monitoring
-* __System Information__: zCI -> screenfetch -> inxi
-* __Disk Usage__: QDirStat -> Baobab -> xdiskusage -> Ncdu -> df
-* __System Monitor__: gnome-system-monitor -> Conky -> htop -> nmon -> top
+### Benchmarking
+* __Drive Profiling__: hdparm -> Smartmontools
+* __Filesystem Benchmark__: IOzone -> Bonnie -> MBW
+* __General Benchmarking__: Phoronix Test Suite ->ProcBench -> Sysbench -> HPC Challenge Benchmark (hpcc)
+* __Network Profiling__: iperf
+* __Power Management__: apcupsd -> tpfancontrol -> thinkfan -> TLP -> PowerTOP
+* __Server Benchmark__: Siege
+* __System Tracing__: OProfile -> Sysdig -> dtrace -> perf -> strace -> ftrace (+ trace-cmd)
+* __Undevolting and Power Saving__: cpufrequtils -> cpupower -> Linux-PHC (+ phc2sys)
 
+### System Information
+* __General Information__: zCI -> inxi
+* __Screenshot Information__: Linux_Logo -> Neofetch -> screenFetch -> envee
+* __Hardware Information__: blkid -> lsblk -> lspci -> lshw -> dmesg -> dmidecode
+* __Software Information__: file -> ldd -> vrms -> lsb_release -> uname
+
+### System Monitoring
+* __Database Monitoring__: Mytop
+* __Disk Usage__: QDirStat -> Baobab -> xdiskusage -> Ncdu -> df
+* __Geolocation__: Prey
+* __Hardware Monitoring__: acpiclient -> Hddtemp -> lm-sensors (psensor for a GUI)
+* __Log Monitoring__: lnav -> multiTail -> Logcheck
+* __Log Visualizer__: glTail -> Logstalgia
+* __Network Flow__: Argos -> HFlow -> nfdump (nfsen)
+* __Network Latency__: SmokePing -> bmon
+* __Network Monitoring__: IPTraf -> NetHogs -> iftop -> vnStat -> tcptrack -> NCMatrix
+* __Port Monitoring__: psad
+* __Process Monitoring__: lsof
+* __Serial Monitoring__: ttylog -> slsnif
+* __System Latency__: LatencyTOP
+* __System Monitor__: gnome-system-monitor -> psDooM -> Conky -> htop -> nmon -> Sysstat (sar, mpstat, pidstat, iostat, sadf) -> procps (ps, free, vmstat, top, pmap, nice)
+* __User Monitoring__: wuzzah -> Whowatch -> acct
+* __Web Log Analytics__: AWStats -> W3Perl -> Analog -> pmacct
+* __Web State Monitor__: Nagios (+ NagVis) -> sysmon -> Sysmond
+
+## Multimedia
 * __Multiple Audio Streams__: pulseaudio -> apulse
 * __Audio Editing__: Audacity -> SoX
 * __Audio Mixer and Equalizer__: pavucontrol -> Qastools -> alsa-utils + Alsaequal
