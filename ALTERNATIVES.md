@@ -414,8 +414,34 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Volunteer Computing__: BOINC (+ boinctui)
 
 ## Security
-* __Firewall__: gufw -> ufw -> iptables -> nftables
+### Containment
+* __Access Control__: SELinux -> Smack -> AppArmor -> RSBAC
+* __Authentication__: Polkit/ConsoleKit -> FakeRoot -> Sudo (visudo) -> Linux PAM
+* __Resource Usage Control__: ulimit -> Disk Quota
+* __Sandboxing__: Firejail -> Bubblewrap
 
+### Honeypots
+* __Client__: HoneyC -> Capture-HPC
+* __Distro Bundle__: HoneyDrive -> ADHD
+* __Server__: Honeyperl -> Nova -> LaBrea
+* __Web-Based__: HIHAT
+
+### Host Intrusion
+* __Anti Juice Jacking__: usbkill -> USBGuard
+* __Anti Malware__: ClamTk -> ClamAV -> Linux Malware Detect (LMD)
+* __Host Intrusion Detection Framework__: Defensive Tools For The Blind -> OSSEC -> Tiger
+* __Host System Auditing__: OpenVAS -> Linux Security Auditing Tool (LSAT) -> Bastille -> Lynis
+* __Integrity Check__ AIDE -> systraq -> Tripwire -> Samhain
+* __Rootkit Detection__: rkhunter, Chkrootkit, Unhide
+* __System Logging__: Syslog-ng -> sysklogd
+
+### Network Intrusion
+* __Firewall__: gufw -> ufw -> iptables -> nftables (+ ipset)
+* __Man-In-The-Middle (MITM) Detection__: ArpON, Arpalert
+* __Network Intrusion Detection__: Snort -> Suricata
+* __Network Intrusion Prevention__: Fail2ban -> Sshguard
+
+## Server
 * __Cloud__: Google Drive -> Nextcloud -> vsftpd -> sftp
 * __E-Mail Filtering (LDA)__: Dovecot -> procmail
 * __E-Mail Server (MTA)__: Postfix -> Exim -> cmail
