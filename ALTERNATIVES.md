@@ -85,7 +85,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> nircd
 * __E-Commerce__: FIX Agora -> OpenBazaar -> Bitnation
 * __E-Mail__: Bitmessage (Notbit)
-* __Editing__: WebDAV -> ikiwiki -> GitTorrent
+* __Editing__: WebDAV -> ikiwiki -> GitTorrent -> git-annex (+ git-annex assistant)
 * __Distributed File Systems__: Samba -> NFS -> Storj -> IPFS -> GNUnet
 * __Forum__: Decentraland -> GNU Social (Mastodon) -> NNTPChan
 * __Gossip Network__: peernet
@@ -112,15 +112,58 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Virtual Machine (IBM Mainframes)__: Hercules
 * __Virtual Machine (DEC)__: SIMH
 
+## Enterprise
+* __Business Intelligence__: JasperReports
+* __CRM__: SugarCRM
+* __Enterprise Resource Planning__: IDempiere -> LedgerSMB
+* __Human Resource Software__: OrangeHRM
+* __Invoice__: Simple Invoices
+* __Project Management__: GanttProject -> ProjectLibre
+
+# File Utilities
 * __Batch Renamer__: GPRename -> qmv (renameutils)
 * __Duplicate Files Removal__: dupeGuru -> Fdupes
 * __File Archiver__: PeaZip -> Xarchiver -> Atool
 * __File Manager__: SpaceFM -> Ranger -> Midnight Commander -> noice
+* __File Search__: DocFetcher -> Puggle -> regain -> ANGRYsearch -> Xapian
+* __File Synchronization__: Conduit -> Bacula -> Syncthing -> Unison -> zsync -> Rsync
+* __Image Organizer__: Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> Mapivi -> BASH-Booru https://github.com/ChristianSilvermoon/BASH-Booru
+* __RegEx Builder__: Visual REGEXP -> txt2regex
+* __Regexer__: regexxer -> ack -> ag
 
-* __File Scraper__: JDownloader -> youtube-dl -> cclive -> Plowshare
+## Filesharing
+* __Direct Connect__: LinuxDC++ -> ncdc -> microdc2
+* __Download Manager__: giFT (+ giFTcurs) -> aria2 -> cURL -> Wget
+* __File Scraper__: megatools -> JDownloader -> Plowshare
 * __FTP Client__: FileZilla -> lftp
+* __LAN Sharing__: NitroShare -> Dukto
+* __Media Center__: Plex -> Kodi ("XBMC", + Sonarr) -> Emby -> Popcorn Time
+* __Media Miner__: FlexGet -> Sonarr
+* __Offline Reader__: Kiwix -> Darcy Ripper -> HTTrack -> Wget
+* __Soulseek__: Nicotine Plus -> Museek (mucous)
+* __Stream Catcher__: Streamripper -> youtube-dl -> cclive -> quvi/RTMPDump
 * __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (+ transmission-remote-cli, or use the web interface that comes with transmission-daemon)
+* __Torrent Search Engine__: Jackett -> Torrench -> Magnetissimo -> magnetico
+* __Usenet (File Grabber)__: LottaNZB -> SABnzbd -> NZBGet -> nzb -> nzbperl
 
+## Finance
+* __Accounting__: GnuCash -> GNU Pem
+* __Financial Markets Monitoring__: JStock -> Qtstalker/QtTrader
+
+
+## Forensics
+* __Application Profiling__: Gprof -> Valgrind (+ Callgrind)
+* __Data Recovery__: dvdisaster -> ddrescue -> TestDisk (PhotoRec)
+* __Debugger__: DDD -> CGDB -> GDB
+* __Virtual Memory Debugger__: scanmem & Gameconqueror -> varedit
+* __Java Debugger__: VisualVM
+* __Browser Debugger__: Firebug
+* __Forensic Analysis Framework__: The Sleuth Kit -> DFF -> Radare
+* __Hex Editors__: HT Editor -> dhex -> objdump
+* __Sandbox__: Cuckoo Sandbox
+* __Steganalysis__: Virtual Steganographic Laboratory -> Stegdetect
+
+## Monitoring
 * __System Information__: zCI -> screenfetch -> inxi
 * __Disk Usage__: QDirStat -> Baobab -> xdiskusage -> Ncdu -> df
 * __System Monitor__: gnome-system-monitor -> Conky -> htop -> nmon -> top
