@@ -395,9 +395,25 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Wake-on-LAN__: wakeonlan
 
 ## Science And Engineering
+* __Artificial Intelligence__: Golly, Arcade Learning Environment, ETHNOS, CTF, Conscious Artificial Intelligence, OpenCog, OpenAI
+* __Astronomy__: SaVi satellite constellation visualizer -> Stellarium -> Celestia -> SkyCat
+* __Bioinformatics__: Bioclipse -> EMBOSS -> BioJava -> BioPerl
 * __CAD__: AutoCAD -> FreeCAD -> OpenSCAD
-* __Graphing Calculator__: KAlgebra -> GraphMonkey -> Maxima + PLplot
+* __Chemistry__: MolComp, ChemE
+* __Circuit Simulator__: ngspice, Gnucap
+* __Data Visualization__: SocNetV -> Cytoscape -> Tulip -> Gephi
+* __Fractals__: Mandelbulber
+* __Geographic Information System__: qGIS
+* __Street Map__: JOSM -> Osmosis
+* __Subway Map__: qMetro
+* __Virtual Globe__: Marble
+* __Learning Management System__: GnuTutor -> OpenExpert -> Syllog
+* __Scientific Calculator__: KAlgebra -> GraphMonkey -> SageMath -> Maxima + PLplot
+* __Software-defined radio (SDR)__: GNU Radio (+ Gqrx) -> rtl-sdr
+* __Statistical Package__: Physics Analysis WorkStation -> KNIME -> gretl -> PSPP
+* __Volunteer Computing__: BOINC (+ boinctui)
 
+## Security
 * __Firewall__: gufw -> ufw -> iptables -> nftables
 
 * __Cloud__: Google Drive -> Nextcloud -> vsftpd -> sftp
