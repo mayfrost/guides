@@ -500,4 +500,4 @@ All apps are from F-Droid, may not be much but is a start.
 * __Load in RAM__: E4rat -> readahead -> preload
 * __Service Manager (to be used with an init__: bum -> OpenRC -> chkconfig -> daemontools-encore -> perp
 * __Settings Manager__: Linux Lite Control Center -> Linux Registry
-* __Utilities__: Mtools -> GNU Coreutils -> BusyBox -> Asmutils
+* __Utilities__: Mtools -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
