@@ -182,7 +182,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 
 ### System Monitoring
 * __Database Monitoring__: Mytop
-* __Disk Usage__: QDirStat -> Baobab -> xdiskusage -> Ncdu -> df
+* __Disk Usage__: QDirStat -> Baobab -> xdiskusage -> XDU -> Ncdu -> df
 * __Geolocation__: Prey
 * __Hardware Monitoring__: acpiclient -> Hddtemp -> lm-sensors (psensor for a GUI)
 * __Log Monitoring__: lnav -> multiTail -> Logcheck
@@ -317,6 +317,50 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Link Scanner__: Metagoofil -> Linklint (+ linklint2dot)
 * __Network Enumeration__: SSLScan, p0f, PRADS
 * __Network File Retrieval__: tcpxtract -> Driftnet
+* __Network Mapping__: Open Visual Traceroute -> EtherApe -> Xtract -> weathermap4rrd -> Paris Traceroute -> MTR -> Ping -> arping
+* __OSINT__: Creepy -> Netglub
+* __Packet Sniffer__: tcpflow -> Tshark (Wireshark TUI) -> tcpdump
+* __Reconnaissance Framework__: dsniff (urlsnarf, filesnarf, webspy, Tcpkill, macof, arpspoof) -> Nmap -> ngrep
+* __WiFi Scanner__: Kismet
+
+### Network Tampering
+* __General__: Netsed -> cryptcat (Netcat) -> socat
+* __Man-in-the-middle Attack__: Morpheus -> sslstrip -> Ettercap
+* __Packet Crafting__: Ostinato -> hping
+* __Traffic Generator__: Mausezahn
+* __Traffic Replay__: Tcpreplay
+
+### Password Cracking
+* __BIOS__: CmosPwd
+* __Compressed Files__: RarCrack
+* __General__: John the Ripper
+* __PDF__: pdfcrack
+* __Remote__: THC Hydra
+* __WiFi__: FLUXION -> Reaver -> Aircrack-ng
+* __Windows__: Ophcrack
+* __Wordlist Generator__: CUPP -> crunch
+
+### Vulnerability Scanner
+* __Application Vulnerability__: BCCF -> afl-fuzz
+* __Backdooring__: Cymothoa -> Veil-Evasion -> Backdoor Factory -> Evilgrade - EvilAbigail
+* __Cross-Scripting__: xsser
+* __Exploit Famework__: WebSploit -> w3af
+* __Network Vulnerability__: pytbull -> Yersinia
+* __Post Exploitation__: Empire -> Post Exploitation Collection -> Post Exploitation Linux Toolkit -> poet
+* __Social Engineering__: Social Engineering Toolkit
+* __SQL Injection__: sqlmap
+* __SSH Denial__: screwSSH
+* __Web Application Vulnerability__: Nikto
+* __Windows Registry Editor__: Offline NT Password & Registry Editor (chntpw)
+
+
+
+
+
+
+
+
+
 
 
 ## Privacy
