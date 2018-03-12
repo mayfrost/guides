@@ -259,15 +259,57 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Video Transcoding__: HandBrake -> WinFF -> FFmpeg
 
 ## Network Setup
-* __DNS Resolution__: Unbound + NDS -> BIND9
+* __Bandwidth Shaping__: Wondershaper
+* __Bandwidth Testing__: speedtest-cli -> speed-test
+* __Darknet__: autovpn -> Tor -> AnoNet -> i2p
+* __DHCP Client__: dhclient -> dhcpcd
+* __DNS Encryption__: DNSSEC, DNSCrypt
+* __DNS Resolution__: Unbound + NDS -> BIND9 -> KadNode
+* __MAC Manipulation__: GNU MAC Changer
+* __Mesh Networks__: Tinc -> cjdns -> B.A.T.M.A.N. / open80211s (802.11s)
+* __Network Encryption__: OpenSSL -> LibreSSL -> GnuTLS -> IPsec/SAE (802.11s)
 * __Network Manager__: Wicd -> NetworkManager -> ConnMan -> SetNet
+* __Networking Tools__: iproute2 (ip, ss) -> net-tools (netstat, ifconfig)
+* __Supplicant__: wpa_supplicant
 
-* __Ebook Viewer__: Calibre -> Zathura
+## Office
+* __CHM Viewer__: xCHM -> CHMLib (extract_chmLib)
+* __Database__ RRDtool, MariaDB -> Datalog -> GNU Recutils
+* __Desktop Publishing__: Scribus
+* __Document Processor__: Emacs (AUCTeX) -> LyX -> GNU TeXmacs
+* __Ebook Viewer__: Calibre -> Okular -> Zathura -> fimgs/fbi
+* __Flashcards__: Anki -> awk flashcards
+* __Gamification__: HabitRPG -> Habitica
+* __Input Method Editor__: iBus -> Fcitx -> SCIM
+* __Mind Mapping__: FreeMind
+* __Office Suites__: Siag Office -> LibreOffice -> catdoc (xls2csv, catppt, wordview)
+* __Offline Dictionary__: Goldendict -> Artha -> dict
+* __Outliner__: TreeSheets -> Vault 3 -> GJots2 -> Emacs (Org-mode) -> Vim (Vimoutliner or Vim-orgmode) -> hnb
+* __PDF Editing__: PDF SaM -> Poppler
+* __Personal Assistant__: Mycroft -> betty -> Climate -> The Fuck -> Suicide Linux
+* __Personal Organizer__: Wyrd -> calcurse -> when -> cal
+* __Presentation__: Beamer -> Sozi -> Text Presentation Program
 * __Printers__: CUPS -> LPR
-* __Word Processor__: Libreoffice Writter -> Abiword -> MinEd -> WordGrinder + pandoc
-* __Spreadsheets__: Libreoffice Calc -> Gnumeric -> SC-IM + pandoc
+* __Repetitive Strain Injury__: Workrave
+* __Speed Reading__: speedread
+* __Spell Check__: Aspell -> Ispell
+* __Spreadsheets__: Libreoffice Calc -> Gnumeric -> Oleo -> SC-IM + Pandoc
 * __Text Editor (and IDE)__: Emacs (nox) -> Vim -> Nano -> Vile -> xwpe -> GNU Zile
+* __Text Formatting and Pretty Printing__: Pandoc -> Textutils (par, fmt)
+* __Text-To-Speech__: Orca -> Gespeaker -> eBook-speaker (+ pandoc) -> eSpeak
+* __Typing Training__: Klavaro -> nlkt -> GNU Typist
+* __Weather Forecast__: AWeather -> Weather Util -> rrdweather
+* __Word Processor__: Libreoffice Writter -> Abiword -> MinEd -> WordGrinder + Pandoc
 
+## Package Management
+* __Gaming Platform__: LGOGDownloader, Steam (+ SteamCMD), Lutris
+* __Packaging Tools__: Alien -> Open Build Service -> CheckInstall -> GNU Stow
+* __Portable Apps__: Flatpak -> Snappy -> AppImage
+* __Universal Package Managers__: pkgsrc -> GNU Guix
+
+## Pentesting
+
+## Privacy
 * __Disk Cleaner__: BleachBit -> bleachbit_cli -> shred
 * __Storage Encryption__: VeraCrypt -> tcplay (TrueCrypt implementation) -> Keyringer -> Tomb
 * __Password Manager__: KeePassX -> kpcli / pass (+ pass-tomb)
