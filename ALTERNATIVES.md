@@ -4,6 +4,17 @@ The list is built pointing to software that have alternatives with less dependen
 
 Certainly it would be great to have a comparative on resource usage tho. Wanna help?
 
+## ANDROID APPS
+
+* __Launcher__: Silverfish
+* __Facebook__: Tinfoil for Facebook
+* __Twitter__*: Tinfoil for Twitter
+* __YouTube__: NewPipe
+* __E-Books__: Document Viewer
+* __Notes__: miniNoteViewer
+
+All apps are from F-Droid, may not be much but is a start.
+
 ## Command Line
 * __Command Line Cheatsheet__: CLI Companion -> xman -> cheat -> howdoi -> clf -> fu -> bro -> cheat.sh
 * __Directory Browsing__: CDargs -> Apparix -> fasd -> xd -> fzy
@@ -471,26 +482,22 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Tunneling VM__: PIA Tunnel, Whonix
 * __Usenet Server__: InterNetNews -> Leafnode
 * __VPN__: OpenVPN (+ PiVPN) -> WireGuard -> PeerVPN
-* __Web Caching__: Decentraleyes on a web browser -> Squid (+ SquidGuard)
+* __Web Caching__: Decentraleyes on a web browser -> Squid (+ SquidGuard, for Web Filtering)
 * __Web Filtering__: Ad blocker on a web browser -> Pi-hole -> Privoxy -> Hostsblock
-* __Web Server__: Apache -> Nginx -> lighttpd -> darkhttpd -> Bucktooth (Gopher, with Bucky has an HTTP exit)
+* __Web Server__: Apache -> Nginx -> lighttpd -> darkhttpd -> Bucktooth (+ Bucky, for HTTP exit, Bucktooth is Gopher)
 * __Wireless Access Point__: hostapd
 * __XMPP Server__: Tigase
 
 ## System Tools
 * __BIOS__: Coreboot -> Libreboot
 * __Boot Loader__: GRUB 2 -> GRUB Legacy -> SYSLINUX -> LILO (or ELILO for UEFI)
-* __Service Manager__: SysVinit + bum -> SysVinit + OpenRC -> sinit (+ daemontools-encore or perp)
+* __Custom Initramfs__: mkinitcpio -> dracut -> mkinitramfs
+* __Filesystem__: Btrfs, XFS, Ext4, JFS, Reiser4, Bcachefs
+* __Hibernation__: TuxOnIce -> uswsusp
+* __Init Daemon__: Upstart -> SysVinit -> runit -> OpenRC -> Initng -> sinit
 * __IPC__: DBus -> ipcs
-
-
-## ANDROID APPS
-
-* __Launcher__: Silverfish
-* __Facebook__: Tinfoil for Facebook
-* __Twitter__*: Tinfoil for Twitter
-* __YouTube__: NewPipe
-* __E-Books__: Document Viewer
-* __Notes__: miniNoteViewer
-
-All apps are from F-Droid, may not be much but is a start.
+* __Job Scheduler__: Slurm -> Cron
+* __Load in RAM__: E4rat -> readahead -> preload
+* __Service Manager (to be used with an init__: bum -> OpenRC -> chkconfig -> daemontools-encore -> perp
+* __Settings Manager__: Linux Lite Control Center -> Linux Registry
+* __Utilities__: Mtools -> GNU Coreutils -> BusyBox -> Asmutils
