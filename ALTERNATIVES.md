@@ -4,25 +4,113 @@ The list is built pointing to software that have alternatives with less dependen
 
 Certainly it would be great to have a comparative on resource usage tho. Wanna help?
 
+## Command Line
+* __Command Line Cheatsheet__: CLI Companion -> xman -> cheat -> howdoi -> clf -> fu -> bro -> cheat.sh
+* __Directory Browsing__: CDargs -> Apparix -> fasd -> xd -> fzy
+* __Framebuffer Environment__: Fbpad -> jfbterm -> Fbterm -> hterm (regis) -> yaft (sixel)
+* __Hacker Culture__: ddate -> fortune -> The Hacker Test -> The Jargon File
+* __Multiplexer__: Twin -> GNU Screen (+sixel patch) -> Tmux -> dvtm -> Byobu
+* __Progress Viewers__: Advanced Copy -> progress -> vramsteg -> pv - Pipe Viewer -> dbar
+* __Scripting__: abduco -> GNU Parallel -> tee -> empty
+* __Shells__: PC-DCL -> Bash -> mksh -> Rc
+* __Snippets__: BOOM -> snippy
+* __Terminal Colorizer__: colout -> lolcat
+* __Terminal Dropdown__: YeahConsole -> tdrop -> alwaysontop
+* __Terminal Emulator__: PuTTY -> Cool Retro Term -> Terminology -> rxvt-unicode (a.k.a. urxvt) -> Termite -> UXTerm
 * __Terminal Pager__: less -> most
+* __Terminal Screensaver__: bb -> tty-clock -> CMatrix -> SL -> cowsay (or cowthink) -> rice https://github.com/janbrennen/rice -> Asciiquarium https://github.com/cmatsuoka/asciiquarium -> nyan.sh https://gist.github.com/wting/5278321 -> rickrollrc https://github.com/keroserene/rickrollrc -> terminal-screensaver https://github.com/xiongchiamiov/terminal-screensaver
 
+## Communication
+* __BBS-MUD__: SyncTERM -> Qodem -> TinTin++
+* __Bookmark Manager__: BUKU -> SemanticScuttle -> bookmarks.public -> bk_edit -> b. -> BM -> bbm
+* __Browser__: ungoogled-chromium -> Icecat -> Pale Moon -> vimb -> Uzbl -> surf -> NetSurf -> Arachne -> w3m -> Hacked Links (ELinks + Links2) -> Lynx -> retawq -> Stallman.js
 * __Chat Client__: Pidgin -> Finch (+ irssi mode) -> Centerim -> Bitlbee
+* __CLI Talk__: Ytalk -> wall -> write
+* __Collaborative Editor__: Gobby -> EtherCalc -> Etherpad -> Cryptpad
+* __E-Mail Archiver__: Lurker
 * __E-Mail Client__: Thunderbird -> Alpine -> Mutt
-* __RSS Feed and Podcast__: Liferea -> Newsbeuter -> Newsboat
+* __E-Mail Fetcher__: Fetchmail -> mbsync/isync
+* __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> mairix
+* __E-Mail Notifier__: mswatch
 * __IRC Client__: HexChat -> Weechat -> Irssi
-* __VoIP__: Skype -> Mumble -> Linphone -> sscall
+* __Online Radio__: Nuvola Player
+* __Paint chat__: Drawpile -> Collab
+* __RSS Feed and Podcast__: Liferea -> Newsbeuter -> Newsboat
+* __Search Engine Scraper__: Googler -> Torrtux -> Surfraw (+ dmenu)
+* __Usenet (Newsreader)__: Pan -> Trn -> slrn ( + slrnpull + slrnface)
+* __VoIP__: Pidgin -> Mumble -> Linphone -> sscall
 
+## Desktop
 * __Application Launcher__: GNOME Do -> ratmenu -> dmenu -> pdmenu -> slmenu
+* __Boot Screen__: Plymouth -> Splashy -> Fbsplash -> \<BOOTLOADERS>
+* __Clipboard__: CopyQ -> clipmenu -> xclip -> XSel
 * __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
+* __Cursor__: xbanish -> keynav -> GPM
+* __Desktop Character__: Oneko -> Gnome KiSS -> Ukagaka(Kawari + Ninix-aya) -> xevilteddy -> Xteddy
 * __Display Color Temperature__: flux -> Redshift -> sct
+* __Display Settings__: DDCcontrol -> xrandr
 * __Graphical Settings__: Wpgtk -> LxAppearance -> GSettings -> xsettings
 * __Keybinding__: Xbindkeys -> sxhkd -> loadkeys (+ keymaps)
-* __Wallpaper Changer__: FEH -> hsetroot -> xsetroot -> imagemagick (but use 10MB more RAM than the others)
+* __Keyboard Layout__: XKB -> xmodmap -> loadkeys (+ keymaps)
+* __Login Manager__: SLiM -> Qingy
+* __Macro Recorder__: Easystroke -> Xnee -> Autokey -> Sikuli -> xdotool
+* __Nested Display__: Xephyr -> Xnest
+* __Notification Daemon__: dunst -> slstatus
+* __Notification Server__: Libcanberra + Libnotify -> xmessage
+* __Panel__: Avant Window Navigator -> Global Menu -> Tint2
+* __Screensaver__: XScreenSaver -> XLockmore -> i3lock -> sxlock -> slock
+* __Status Bar Client__: Dzen -> Lemonbar
+* __Status Bar Server__: monky -> i3status
+* __Animated Wallpaper Changer__: Xphoon -> xfireworks -> Xsnow -> xmountains -> Xplanet -> ImageMagick (animate)
+* __Still Wallpaper Changer__: FEH -> hsetroot -> xsetroot -> imagemagick (but use 10MB more RAM than the others)
+* __Terminal As Wallpaper__: root-tail -> xrootconsole -> xli
+* __Video Wallpaper Changer__: mpv -> VLC (nvlc) -> MPlayer
+* __Window Manager__: s3d (+ s3dfm) -> FVWM (+ FvwmTabs and 4dwm theme) -> awesome -> Amiwm -> Window Maker -> IceWM -> Blackbox -> i3 -> Vtwm -> mwm -> katriawm -> Emacs -> Ratpoison -> dwm (+ dwmstatus) -> FrankenWM -> TinyWM
+* __Window Manipulation__: QuickTile -> wmctrl -> wmutils
+* __Worskpace Pager__: 3D-Desktop -> Skippy-XD
+* __X Event Display__: xprop -> xwininfo -> xev
 
-* __CD-DVD Burn and Copy__: K3b -> Brasero -> cdw
+## Disk Tools
+* __CD-DVD Burn and Copy (Backends)__: cdrtools -> cdrkit -> cdrskin
+* __CD-DVD Burn and Copy (Frontends)__: K3b -> Brasero -> cdw
+* __CD-DVD Ripping__: Sound Juicer -> fre ac -> cdparanoia (+ ABCDE)
+* __Custom Install CD__: Respin -> Remastersys -> Distroshare -> PinguyBuilder -> Customizer -> Ubuntu Customization Kit -> Mklivecd
 * __Device Management__: Udisks (+ udevil) -> pmount -> bashmount
+* __Disk Cloning and Writing__: dd -> dcfldd -> dc3dd
+* __Live USB__: UNetbootin -> MultiCD
+* __Partitioning__: u3_tool -> GNU Parted -> cfdisk -> fdisk -> sfdisk
+* __System Backup__: Snapper -> Systemback -> FSArchiver
 
+## Distributed Services
+* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> nircd
+* __E-Commerce__: FIX Agora -> OpenBazaar -> Bitnation
+* __E-Mail__: Bitmessage (Notbit)
+* __Editing__: WebDAV -> ikiwiki -> GitTorrent
+* __Distributed File Systems__: Samba -> NFS -> Storj -> IPFS -> GNUnet
+* __Forum__: Decentraland -> GNU Social (Mastodon) -> NNTPChan
+* __Gossip Network__: peernet
+* __Monetary Incentives__: Bitcoin -> GNU Taler -> Stream Token
+* __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> Alexandria -> DTube
+* __Search Engine__: searx -> Seeks -> YaCy
+* __Search Engine (Gopher)__: Jugtail
+* __Streaming__: Livepeer -> Butter Project -> BasicTV
+
+## Emulation And Virtualization
+* __Containers__: chroot -> LXC -> Linux-VServer
+* __Emulators__: Windows: Wine (+ Wine Staging), Android: Ambox, OS X: Darling, Atari: Hatari, Commodore: VICE, DOS: DOSBox
+* __Hypervisors__: Xen -> NOVA -> KVM
+* __Network Virtualization__: nsnam -> GNS3
+* __Software Compatibility__: .NET: DotGNU -> Mono, Systemd/Linux: systemd-shim
+* __Video Game Console Emulation ATARI__: Stella
+* __Video Game Console Emulation XBOX__: XQEMU
+* __Video Game Console Emulation MULTI__: Higan -> Mednafen -> RetroArch -> MAME -> AdvanceMAME
+* __Video Game Console Emulation NINTENDO__: DeSmuME, Mupen64Plus, Dolphin
+* __Video Game Console Emulation SEGA__: Exodus, Yabause, Reicast
+* __Video Game Console Emulation PLAYSTATION__: PPSSPP, RPCS3, PCSX/PCSX2
+* __Virtual Assembler__: GNUSim8085 -> spim
 * __Virtual Machine__: VirtualBox -> AQEMU + kvm -> Qemu + kvm
+* __Virtual Machine (IBM Mainframes)__: Hercules
+* __Virtual Machine (DEC)__: SIMH
 
 * __Batch Renamer__: GPRename -> qmv (renameutils)
 * __Duplicate Files Removal__: dupeGuru -> Fdupes
