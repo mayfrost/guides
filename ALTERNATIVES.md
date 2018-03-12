@@ -232,11 +232,33 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Tray Icon__: Volume Icon -> Volti
 
 ### Image
+* __Bitmaps to Vector Conversion__: AutoTrace -> Potrace
+* __Diagram Editor__: Pencil Project -> Dia -> Graphviz
+* __Bitmap Graphics Digital Drawing__: Krita -> MyPaint -> XPaint
+* __Coloring Digital Drawing__: STYLE2PAINTS
+* __Fonts Digital Drawing__: FontForge
+* __Vector Digital Drawing__: Inkscape -> Xfig
+* __Image Editing__: RawTherapee -> darktable -> Gimp + G'MIC -> ImageMagick (display, import)
+* __Image Viewer__: Feh -> sxiv -> display (ImageMagick) -> fim/fbi
+* __Plotting__: Gnuplot -> PLplot
+* __Screenshots__: Shutter -> scrot -> maim -> import (ImageMagick) -> fbcat (FBGrab)
+* __Image Optimizing__: pngcrush -> pngquant -> OptiPNG
+
+### Metadata
 * __Metadata__: Easytag -> Beets -> ExifTool
-* __Screenshots__: Shutter -> scrot -> maim -> ImageMagick
-* __Screencasting__: Open Broadcaster Studio -> SimpleScreenRecorder -> FFmpeg
+
+### Video
+* __Compositing__: CinePaint -> Natron
+* __Datamoshing__: Autodatamosh
+* __2D Digital Animation__: Synfig -> OpenToonz
+* __3D Digital Animation__: Blender
+* __Screencasting__: Open Broadcaster Studio -> SimpleScreenRecorder -> FFmpeg -> ttyrec (+ seq2gif)
+* __Video Editing__: Kdenlive -> Cinelerra-cv -> OpenShot -> FFmpeg
+* __Video Player__: MPV -> VLC (nvlc) -> MPlayer
+* __Video to gif__: Video2Gif -> ImageMagick (convert) -> FFmpeg
 * __Video Transcoding__: HandBrake -> WinFF -> FFmpeg
 
+## Network Setup
 * __DNS Resolution__: Unbound + NDS -> BIND9
 * __Network Manager__: Wicd -> NetworkManager -> ConnMan -> SetNet
 
