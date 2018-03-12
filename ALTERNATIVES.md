@@ -200,9 +200,38 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Web State Monitor__: Nagios (+ NagVis) -> sysmon -> Sysmond
 
 ## Multimedia
-* __Multiple Audio Streams__: pulseaudio -> apulse
+### ASCii Art
+* __ANSI Drawing__: cadubi -> SHPaint -> MysticDraw
+* __ANSi Viewer__: ANSiMat
+* __ASCii Animation__: blessed -> Durdraw -> drawille
+* __ASCii Banner__: shellpic -> TOIlet -> FIGlet -> sysvbanner
+* __ASCii Drawing__: JavE -> textdraw -> Aewan
+* __ASCii Presentations__: wopr -> blessed-contrib
+* __Image to ASCii__: jp2a
+* __Video to ASCii__: libcaca -> AAlib
+
+### Audio
 * __Audio Editing__: Audacity -> SoX
-* __Audio Mixer and Equalizer__: pavucontrol -> Qastools -> alsa-utils + Alsaequal
+* __Audio Effect Plugins__: zam-plugins (LADSPA/LV2/VST/JACK), LV2 (x42-plugins), LADSPA (tap-plugins), DSSI (dssi-utils, dssi-vst)
+* __Audio Encoding__: LAME, FLAC
+* __Background Sound__: GNU GTick -> Ambient Noise
+* __Digital Audio Workstation__: Rosegarden -> Ardour -> LMMS
+* __DJing__: Mixxx
+* __Ear Training__: LenMus -> GNU Solfege
+* __Multiple Audio Streams__: pulseaudio -> apulse
+* __Music Player__: Audacious (+ Winamp Classic skin + GJay) -> cmus -> MPD (vimus/ncmpcpp) -> MOC (+ moc-ffmpeg-plugin, dmenu_mocp)
+* __Music Visualization__: Spectrum3d -> Le Biniou -> projectM -> cli-visualizer
+* __Scorewriter__: MuseScore -> LilyPond
+* __Software Sampler__: LinuxSampler -> orDrumbox -> Hydrogen
+* __Synthesizer__: AlsaModularSynth -> ZynAddSubFX
+* __System Sound  Utilities__: pavucontrol (pulseaudio) -> JAMin (for Jack) -> Qastools -> alsa-utils + Alsaequal
+* __System Sound Extensions__: WineASIO, alsa-oss/oss-compat, ESound (esound-common), awesfx
+* __Tonal Feature Analysis__: CLAM Chordata
+* __Tracker Editors__: Schism -> MilkyTracker
+* __Trackers__: SID-Wizard -> GoatTracker
+* __Tray Icon__: Volume Icon -> Volti
+
+### Image
 * __Metadata__: Easytag -> Beets -> ExifTool
 * __Screenshots__: Shutter -> scrot -> maim -> ImageMagick
 * __Screencasting__: Open Broadcaster Studio -> SimpleScreenRecorder -> FFmpeg
