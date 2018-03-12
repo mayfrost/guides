@@ -436,21 +436,48 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __System Logging__: Syslog-ng -> sysklogd
 
 ### Network Intrusion
-* __Firewall__: gufw -> ufw -> iptables -> nftables (+ ipset)
+* __Firewall__: gufw -> ufw -> iptables (+ ipset) -> nftables
 * __Man-In-The-Middle (MITM) Detection__: ArpON, Arpalert
 * __Network Intrusion Detection__: Snort -> Suricata
 * __Network Intrusion Prevention__: Fail2ban -> Sshguard
 
 ## Server
-* __Cloud__: Google Drive -> Nextcloud -> vsftpd -> sftp
+* __Domain Specific Authentication Server__: Ident, SKS
+* __Directory Service__: OpenLDAP -> NIS
+* __RADIUS__: FreeRADIUS -> GNU Radius
+* __SSO__: GNU Shishi (Kerberos)
+* __Suites__: FreeIPA -> SSSD
+* __BBS Server__: Citadel -> Synchronet -> Mystic BBS -> BBS100
+* __Captcha__: cool-php-captcha
+* __Direct Connect Server__: uhub
+* __DLNA__: Universal Media Server -> ReadyMedia (a.k.a. MiniDLNA)
 * __E-Mail Filtering (LDA)__: Dovecot -> procmail
-* __E-Mail Server (MTA)__: Postfix -> Exim -> cmail
+* __E-Mail Server (MTA)__: Kolab -> Postfix -> Exim -> cmail
 * __E-Mail Spam Filter__: DSPAM -> SpamAssassin
-* __VPN__: OpenVPN -> WireGuard
-* __Web Caching__: Decentraleyes on a web browser -> Squid
-* __Web Filtering__: Ad blocker on a web browser -> Pi-hole -> Privoxy
-* __Web Server__: Apache -> Nginx -> lighttpd -> darkhttpd -> Bucktooth (+ Bucky)
+* __E-Mail Validation__: OpenDKIM, SPF
+* __File Server__: Google Drive -> Nextcloud -> vsftpd -> sftp
+* __General__: GNU Serveez
+* __IRC BNC__: ZNC (IRC bouncer)
+* __IRC Bot__: Seabattle (bot game), Eggdrop (IRC bot)
+* __IRC Fileserver__: iroffer
+* __IRC Server__: UnrealIRCd/Charybdis -> InspIRCd -> ngIRCd
+* __MUD Server__: PennMUSH
+* __Political__: LittleSis
+* __Port Tunnel__: stunnel -> knockd
+* __Proxy Server__: Tinyproxy
+* __Service Manager__: sslh, xinetd
+* __Torrent Tracker__: Ocelot -> Gazelle
+* __Tunneling__: ProxyChains -> VPNEncap -> VPNCHAINS
+* __Tunneling VM__: PIA Tunnel, Whonix
+* __Usenet Server__: InterNetNews -> Leafnode
+* __VPN__: OpenVPN (+ PiVPN) -> WireGuard -> PeerVPN
+* __Web Caching__: Decentraleyes on a web browser -> Squid (+ SquidGuard)
+* __Web Filtering__: Ad blocker on a web browser -> Pi-hole -> Privoxy -> Hostsblock
+* __Web Server__: Apache -> Nginx -> lighttpd -> darkhttpd -> Bucktooth (Gopher, with Bucky has an HTTP exit)
+* __Wireless Access Point__: hostapd
+* __XMPP Server__: Tigase
 
+## System Tools
 * __BIOS__: Coreboot -> Libreboot
 * __Boot Loader__: GRUB 2 -> GRUB Legacy -> SYSLINUX -> LILO (or ELILO for UEFI)
 * __Service Manager__: SysVinit + bum -> SysVinit + OpenRC -> sinit (+ daemontools-encore or perp)
