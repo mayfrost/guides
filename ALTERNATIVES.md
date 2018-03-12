@@ -138,7 +138,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __File Manager__: SpaceFM -> Ranger -> Midnight Commander -> noice
 * __File Search__: DocFetcher -> Puggle -> regain -> ANGRYsearch -> Xapian
 * __File Synchronization__: Conduit -> Bacula -> Syncthing -> Unison -> zsync -> Rsync
-* __Image Organizer__: Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> Mapivi -> BASH-Booru https://github.com/ChristianSilvermoon/BASH-Booru
+* __Image Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> Mapivi -> BASH-Booru https://github.com/ChristianSilvermoon/BASH-Booru
 * __RegEx Builder__: Visual REGEXP -> txt2regex
 * __Regexer__: regexxer -> ack -> ag
 
