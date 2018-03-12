@@ -380,7 +380,21 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 
 ## Remote Access
 * __Configuration Management__: Puppet -> CFEngine -> cdist
+* __Control Panel__: Webmin
+* __Diskless Booting__: iPXE -> netboot
+* __PC-Mobile Connection__: KDE Connect -> Wammu -> BitPim -> AndroidTools
+* __Remote Desktop Client__: rdesktop -> Remmina -> fbvnc
+* __Remote Desktop Server__: xrdp
+* __Remote Execution__: pconsole
+* __Remote File Manager__: KodExplorer
+* __Remote Login__: Mosh -> OpenSSH
+* __Remote X Apps__: Xpra > X11 forwarding
+* __Reverse Shell__: icmpsh -> RevSh
+* __Serial Console__: GNU Screen -> Minicom -> Picocom
+* __Server Provisioning__: FAI
+* __Wake-on-LAN__: wakeonlan
 
+## Science And Engineering
 * __CAD__: AutoCAD -> FreeCAD -> OpenSCAD
 * __Graphing Calculator__: KAlgebra -> GraphMonkey -> Maxima + PLplot
 
