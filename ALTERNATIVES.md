@@ -353,23 +353,32 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Web Application Vulnerability__: Nikto
 * __Windows Registry Editor__: Offline NT Password & Registry Editor (chntpw)
 
-
-
-
-
-
-
-
-
-
-
 ## Privacy
-* __Disk Cleaner__: BleachBit -> bleachbit_cli -> shred
-* __Storage Encryption__: VeraCrypt -> tcplay (TrueCrypt implementation) -> Keyringer -> Tomb
-* __Password Manager__: KeePassX -> kpcli / pass (+ pass-tomb)
+* __Anti Stylometry__: Anonymouth, renamer
+* __Disk Cleaner__: BleachBit -> bleachbit_cli (BleachBit) -> shred -> Dban
+* __Boot Encryption__: cryptboot
+* __Disk Encryption__: StegFS -> dm-crypt
+* __File Encryption__: GNU Privacy Assistant -> ccrypt -> GNU Privacy Guard
+* __Full Storage Encryption__: VeraCrypt -> tcplay (TrueCrypt implementation) -> Keyringer -> Tomb
+* __Identity Generator__: The Random Identity Generator (rig)
+* __Password Generator__: pwgen -> apg
+* __Password Manager__: KeePassX -> pass (+ pass-tomb) -> kpcli
+* __Steganography__: StegoShare -> Steghide -> SNOW -> Steganoroute
 
+## Programming
+* __Build Automation__: Gradle, Buildroot
+* __Cache__: Memcached -> EnhanceIO -> dm-cache -> bcache
+* __Code Beautifier__: HTML Tidy -> UniversalIndentGUI
+* __Compiling Speeding Up__: distcc, ccache
+* __Documentation Browser__: Zeal -> Devhelp
+* __Documentation Generator__: perlpod, bashdoc, Doxygen
+* __Issue Tracking System__: Bugzilla -> GNATS
+* __Linting__: ShellCheck, Source-highlight
+* __Source Code Navigation__: LXR: The Linux Cross Referencer -> GNU GLOBAL -> cscope -> Ctags -> cgvg, 
+* __Toolchain__: IcedTea (OpenJDK), GnuCOBOL, GNU Toolchain (GNU Make, GNU Build System -Autotools-, GNU m4, GNU Binutils, GNU bison, GCC)
 * __Version Control__: Git (+ tig) -> Fossil -> RCS
 
+## Remote Access
 * __Configuration Management__: Puppet -> CFEngine -> cdist
 
 * __CAD__: AutoCAD -> FreeCAD -> OpenSCAD
