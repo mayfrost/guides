@@ -14,6 +14,7 @@ __NOTE__:
 1. [START](#start)  
 2. [PARTITIONING](#partitioning)  
 3. [FILESYSTEM](#filesystem)  
+4. [CREATING (AND MOUNTING) MAIN DIRECTORIES](#creating-and-mounting-main-directories)  
 4. [SETUP](#setup)  
 4.1. [CHROOT](#chroot)  
 4.2. [CHANGE NETWORK INTERFACES](#change-network-interfaces)  
@@ -63,7 +64,8 @@ Look into each one and decide for your use case. Next are the commands used for 
 * Make boot filesystem according to supported bootloader or just "_mkfs.vfat_" if on UEFI.  
 `mkfs.<BOOTLOADER_FILESYSTEM> /dev/sda1`  
 
-## SETUP
+## CREATING (AND MOUNTING) MAIN DIRECTORIES
+The two most important are the root directory ("_/_") and the boot directory ("_/boot_"), both of which need at the end of this step to be mounted. However, if you are an experienced user you may have created other partitions for other directories like "_/home_" or "_var_", those need to be mounted too by the end of this step.
 * Make a directory for the new root directory.  
 `mkdir /mnt/drive`  
 * Mount the new root directory.  
@@ -76,6 +78,8 @@ Look into each one and decide for your use case. Next are the commands used for 
 `mount /dev/sda1 /mnt/drive/boot/efi`  
 * Create other directories under the new root directory.  
 `mkdir -p /mnt/drive/{dev,sys,proc,tmp,usr/src,var}`  
+
+## SETUP
 * On __CRUX__ run "_setup_", and if on UEFI during the setup select grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.  
 `setup`  
 * On __Source Mage GNU/Linux__ download and uncompress the tarball inside the new root directory.  
