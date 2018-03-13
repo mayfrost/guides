@@ -22,8 +22,8 @@ __NOTE__:
 5.4. [SET THE ENVIRONMENT](#setup-the-environment)  
 6. [KERNEL](#kernel)  
 7. [BOOTLOADER](#bootloader)  
-8.1. [LILO](#lilo)  
-9. [THE END](#the-end)  
+7.1. [LILO](#lilo)  
+8. [THE END](#the-end)  
 
 ## START
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
