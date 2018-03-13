@@ -27,9 +27,10 @@ __NOTE__:
 ## START
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
 * Make sure your network is up (OPTIONAL).  
-`dhcpcd <NIC>`
+`dhcpcd <NIC>`  
+In the case you need to use Wi-Fi please refer to https://github.com/mayfrost/guides/blob/master/WIFI.md
 * Temporarily change keyboard (available configurations can be found in the directories "_/usr/share/kbd/keymaps/_" for __CRUX__ and "_/usr/share/keymaps/i386/qwerty_" for __Source Mage GNU/Linux__).  
-`loadkeys <KEYMAP>`
+`loadkeys <KEYMAP>`  
 
 ## PARTITIONING
 
