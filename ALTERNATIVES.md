@@ -24,12 +24,12 @@ All apps are from F-Droid, may not be much but is a start.
 * __Progress Viewers__: Advanced Copy -> progress -> pv - Pipe Viewer
 * __Scripting__: GNU Parallel, tee, empty
 * __Shells__: PC-DCL -> Bash -> mksh -> Rc
-* __Snippets__: snippy
 * __Terminal Colorizer__: colout -> lolcat
 * __Terminal Dropdown__: YeahConsole -> tdrop -> alwaysontop
 * __Terminal Emulator__: PuTTY -> Cool Retro Term -> Terminology -> rxvt-unicode (a.k.a. urxvt) -> Termite -> UXTerm
 * __Terminal Pager__: less -> most
 * __Terminal Screensaver__: bb -> tty-clock -> CMatrix -> SL -> cowsay (or cowthink) -> [rice](https://github.com/janbrennen/rice) -> [Asciiquarium](https://github.com/cmatsuoka/asciiquarium) -> [nyan.sh](https://gist.github.com/wting/5278321) -> [rickrollrc](https://github.com/keroserene/rickrollrc) -> [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver)
+* __Text Snippets__: snippy
 
 ## Communication
 * __BBS-MUD Client__: Qodem -> TinTin++
@@ -37,7 +37,6 @@ All apps are from F-Droid, may not be much but is a start.
 * __Browser__: ungoogled-chromium -> Icecat -> Pale Moon -> vimb -> Uzbl -> NetSurf -> Arachne -> Hacked Links (ELinks + Links2) -> Lynx -> retawq -> Stallman.js
 * __Chat Client__: Pidgin -> Finch (+ irssi mode) -> Centerim -> Bitlbee
 * __Collaborative Editor__: Gobby -> EtherCalc -> Etherpad -> Cryptpad
-* __Desktop Client__: [ANSIchan](https://github.com/qqueue/ANSICHAN) / [yottu](https://github.com/yottu/yottu) (4chan), [ahoviewer](https://github.com/ahodesuka/ahoviewer) (booru), [FBCLI](https://github.com/danielduan/FBCLI) / [Facebook CLI](https://github.com/specious/facebook-cli) (Facebook), [Rambox](https://github.com/saenzramiro/rambox) / [Gwibber](http://gwibber.com/) (general), [Grive2](https://github.com/vitalif/grive2) (Google Drive), [pastebinit](https://github.com/skorokithakis/pastebinit) (Pastebin), [cReddit](https://github.com/Cotix/cReddit) (Reddit), [ScudCloud](https://github.com/raelgc/scudcloud) / [slackterm](https://github.com/rob05c/slackterm) (Slack), [Hotot](https://github.com/lyricat/Hotot) / [turses](https://github.com/louipc/turses) (Twitter), [youtube-viewer](https://github.com/trizen/youtube-viewer) (Youtube)
 * __E-Mail Archiver__: Lurker
 * __E-Mail Client__: Thunderbird -> SquirrelMail -> Alpine -> Mutt -> mailx
 * __E-Mail Fetcher__: Fetchmail -> mbsync/isync
@@ -49,13 +48,26 @@ All apps are from F-Droid, may not be much but is a start.
 * __Usenet Client (Newsreader)__: Pan -> Trn -> slrn ( + slrnpull + slrnface)
 * __VoIP Client__: Jitsi -> Pidgin -> Finch
 
+### Desktop Client
+* __4chan__: [ANSIchan](https://github.com/qqueue/ANSICHAN) / [yottu](https://github.com/yottu/yottu)
+* __Booru__: [ahoviewer](https://github.com/ahodesuka/ahoviewer)
+* __Facebook__: [FBCLI](https://github.com/danielduan/FBCLI) / [Facebook CLI](https://github.com/specious/facebook-cli)
+* __General__: [Rambox](https://github.com/saenzramiro/rambox) / [Gwibber](http://gwibber.com/)
+* __Google Drive__: [Grive2](https://github.com/vitalif/grive2)
+* __Pastebin__: [pastebinit](https://github.com/skorokithakis/pastebinit)
+* __Reddit__: [cReddit](https://github.com/Cotix/cReddit)
+* __Slack__: [ScudCloud](https://github.com/raelgc/scudcloud) / [slackterm](https://github.com/rob05c/slackterm)
+* __Twitter__: [Hotot](https://github.com/lyricat/Hotot) / [turses](https://github.com/louipc/turses)
+* __Youtube__: [youtube-viewer](https://github.com/trizen/youtube-viewer)
+
+
 ## Desktop
-* __Application Launcher__: GNOME Do -> ratmenu -> dmenu -> pdmenu -> slmenu
+* __Application Launcher__: rofi -> ratmenu -> [dmenu](https://github.com/stilvoid/dmenu) -> pdmenu -> [slmenu](https://bitbucket.org/rafaelgg/slmenu)
 * __Boot Screen__: Plymouth -> Splashy -> Fbsplash -> \<BOOTLOADERS>
-* __Clipboard__: CopyQ -> clipmenu -> xclip -> XSel
+* __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> xclip / XSel
 * __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
-* __Cursor__: xbanish -> keynav -> GPM
-* __Desktop Character__: Oneko -> Gnome KiSS -> Ukagaka(Kawari + Ninix-aya) -> xevilteddy -> Xteddy
+* __Cursor__: [keynav](https://github.com/jordansissel/keynav), GPM
+* __Desktop Character__: [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka) ([Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
 * __Display Color Temperature__: flux -> Redshift -> sct
 * __Display Settings__: DDCcontrol -> xrandr
 * __Graphical Settings__: Wpgtk -> LxAppearance -> GSettings -> xsettings
