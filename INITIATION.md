@@ -15,20 +15,21 @@ __NOTE__:
 2. [PARTITIONING](#partitioning)  
 3. [FILESYSTEM](#filesystem)  
 4. [CREATING (AND MOUNTING) MAIN DIRECTORIES](#creating-and-mounting-main-directories)  
-4. [SETUP](#setup)  
-4.1. [CHROOT](#chroot)  
-4.2. [CHANGE NETWORK INTERFACES](#change-network-interfaces)  
-4.3. [EDIT FSTAB](#edit-fstab)  
-4.4. [SET THE ENVIRONMENT](#setup-the-environment)  
-5. [KERNEL](#kernel)  
-6. [BOOTLOADER](#bootloader)  
-6.1. [LILO](#lilo)  
-7. [THE END](#the-end)  
+5. [SETUP](#setup)  
+5.1. [CHROOT](#chroot)  
+5.2. [CHANGE NETWORK INTERFACES](#change-network-interfaces)  
+5.3. [EDIT FSTAB](#edit-fstab)  
+5.4. [SET THE ENVIRONMENT](#setup-the-environment)  
+6. [KERNEL](#kernel)  
+7. [BOOTLOADER](#bootloader)  
+8.1. [LILO](#lilo)  
+9. [THE END](#the-end)  
 
 ## START
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
 * Make sure your network is up (OPTIONAL).  
 `dhcpcd <NIC>`  
+
 In the case you need to use Wi-Fi please refer to https://github.com/mayfrost/guides/blob/master/WIFI.md  
 
 * Temporarily change keyboard to your mapping (available configurations can be found in the directories "_/usr/share/kbd/keymaps/_" for __CRUX__ and "_/usr/share/keymaps/i386/qwerty_" for __Source Mage GNU/Linux__).  
@@ -78,6 +79,8 @@ The two most important are the root directory ("_/_") and the boot directory ("_
 `mount /dev/sda1 /mnt/drive/boot/efi`  
 * Create other directories under the new root directory.  
 `mkdir -p /mnt/drive/{dev,sys,proc,tmp,usr/src,var}`  
+
+Don't forget to create and mount the extra directories in the case you had created them.
 
 ## SETUP
 * On __CRUX__ run "_setup_", and if on UEFI during the setup select grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.  
