@@ -22,7 +22,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Hacker Culture__: ddate, fortune,, The Hacker Test, The Jargon File
 * __Multiplexer__: Twin -> GNU Screen (+sixel patch) -> Tmux -> dvtm -> Byobu
 * __Progress Viewers__: Advanced Copy -> progress -> pv - Pipe Viewer
-* __Scripting__: GNU Parallel, tee, empty
+* __Scripting__: [GNU Parallel](https://www.gnu.org/software/parallel/), [empty](https://github.com/ierton/empty)
 * __Shells__: PC-DCL -> Bash -> mksh -> Rc
 * __Terminal Colorizer__: colout -> lolcat
 * __Terminal Dropdown__: YeahConsole -> tdrop -> alwaysontop
@@ -68,13 +68,13 @@ All apps are from F-Droid, may not be much but is a start.
 * __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
 * __Cursor__: [keynav](https://github.com/jordansissel/keynav), GPM
 * __Desktop Character__: [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka) ([Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
-* __Display Color Temperature__: flux -> Redshift -> sct
+* __Display Color Temperature__: Redshift -> sct
 * __Display Settings__: DDCcontrol -> xrandr
 * __Graphical Settings__: Wpgtk -> LxAppearance -> GSettings -> xsettings
 * __Keybinding__: Xbindkeys -> sxhkd -> loadkeys (+ keymaps)
 * __Keyboard Layout__: XKB -> xmodmap -> loadkeys (+ keymaps)
 * __Login Manager__: SLiM -> Qingy
-* __Macro Recorder__: Easystroke -> Xnee -> Autokey -> Sikuli -> xdotool
+* __Macro Recorder__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke)-> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
 * __Nested Display__: Xephyr -> Xnest
 * __Notification Daemon__: dunst -> slstatus
 * __Notification Server__: Libcanberra + Libnotify -> xmessage
@@ -149,7 +149,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __File Manager__: SpaceFM -> Ranger -> Midnight Commander -> noice
 * __File Search__: DocFetcher -> Puggle -> regain -> ANGRYsearch -> Xapian
 * __File Synchronization__: Conduit -> Bacula -> Syncthing -> Unison -> zsync -> Rsync
-* __Image Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> Mapivi -> BASH-Booru https://github.com/ChristianSilvermoon/BASH-Booru
+* __Image Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> Mapivi -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
 * __RegEx Builder__: Visual REGEXP -> txt2regex
 * __Regexer__: regexxer -> ack -> ag
 
@@ -213,7 +213,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Network Latency__: SmokePing -> bmon
 * __Network Monitoring__: IPTraf -> NetHogs -> iftop -> vnStat -> tcptrack -> NCMatrix
 * __Port Monitoring__: psad
-* __Process Monitoring__: lsof
+* __Process Monitoring__: lsof -> PSmisc
 * __Serial Monitoring__: ttylog -> slsnif
 * __System Latency__: LatencyTOP
 * __System Monitor__: gnome-system-monitor -> psDooM -> Conky -> htop -> nmon -> Sysstat (sar, mpstat, pidstat, iostat, sadf) -> procps (ps, free, vmstat, top, pmap, nice)
