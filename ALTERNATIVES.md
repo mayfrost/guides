@@ -18,38 +18,36 @@ All apps are from F-Droid, may not be much but is a start.
 ## Command Line
 * __Command Line Cheatsheet__: CLI Companion -> xman -> cheat -> howdoi -> clf -> fu -> bro -> cheat.sh
 * __Directory Browsing__: CDargs -> Apparix -> fasd -> xd -> fzy
-* __Framebuffer Environment__: Fbpad -> jfbterm -> Fbterm -> hterm (regis) -> yaft (sixel)
-* __Hacker Culture__: ddate -> fortune -> The Hacker Test -> The Jargon File
+* __Framebuffer Environment__: jfbterm / Fbterm -> hterm (regis) -> yaft (sixel)
+* __Hacker Culture__: ddate, fortune,, The Hacker Test, The Jargon File
 * __Multiplexer__: Twin -> GNU Screen (+sixel patch) -> Tmux -> dvtm -> Byobu
-* __Progress Viewers__: Advanced Copy -> progress -> vramsteg -> pv - Pipe Viewer -> dbar
-* __Scripting__: abduco -> GNU Parallel -> tee -> empty
+* __Progress Viewers__: Advanced Copy -> progress -> pv - Pipe Viewer
+* __Scripting__: GNU Parallel, tee, empty
 * __Shells__: PC-DCL -> Bash -> mksh -> Rc
-* __Snippets__: BOOM -> snippy
+* __Snippets__: snippy
 * __Terminal Colorizer__: colout -> lolcat
 * __Terminal Dropdown__: YeahConsole -> tdrop -> alwaysontop
 * __Terminal Emulator__: PuTTY -> Cool Retro Term -> Terminology -> rxvt-unicode (a.k.a. urxvt) -> Termite -> UXTerm
 * __Terminal Pager__: less -> most
-* __Terminal Screensaver__: bb -> tty-clock -> CMatrix -> SL -> cowsay (or cowthink) -> rice https://github.com/janbrennen/rice -> Asciiquarium https://github.com/cmatsuoka/asciiquarium -> nyan.sh https://gist.github.com/wting/5278321 -> rickrollrc https://github.com/keroserene/rickrollrc -> terminal-screensaver https://github.com/xiongchiamiov/terminal-screensaver
+* __Terminal Screensaver__: bb -> tty-clock -> CMatrix -> SL -> cowsay (or cowthink) -> [rice](https://github.com/janbrennen/rice) -> [Asciiquarium](https://github.com/cmatsuoka/asciiquarium) -> [nyan.sh](https://gist.github.com/wting/5278321) -> [rickrollrc](https://github.com/keroserene/rickrollrc) -> [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver)
 
 ## Communication
-* __BBS-MUD__: SyncTERM -> Qodem -> TinTin++
+* __BBS-MUD Client__: Qodem -> TinTin++
 * __Bookmark Manager__: BUKU -> SemanticScuttle -> bookmarks.public -> bk_edit -> b. -> BM -> bbm
-* __Browser__: ungoogled-chromium -> Icecat -> Pale Moon -> vimb -> Uzbl -> surf -> NetSurf -> Arachne -> w3m -> Hacked Links (ELinks + Links2) -> Lynx -> retawq -> Stallman.js
+* __Browser__: ungoogled-chromium -> Icecat -> Pale Moon -> vimb -> Uzbl -> NetSurf -> Arachne -> Hacked Links (ELinks + Links2) -> Lynx -> retawq -> Stallman.js
 * __Chat Client__: Pidgin -> Finch (+ irssi mode) -> Centerim -> Bitlbee
-* __CLI Talk__: Ytalk -> wall -> write
 * __Collaborative Editor__: Gobby -> EtherCalc -> Etherpad -> Cryptpad
+* __Desktop Client__: [ANSIchan](https://github.com/qqueue/ANSICHAN) / [yottu](https://github.com/yottu/yottu) (4chan), [ahoviewer](https://github.com/ahodesuka/ahoviewer) (booru), [FBCLI](https://github.com/danielduan/FBCLI) / [Facebook CLI](https://github.com/specious/facebook-cli) (Facebook), [Rambox](https://github.com/saenzramiro/rambox) / [Gwibber](http://gwibber.com/) (general), [Grive2](https://github.com/vitalif/grive2) (Google Drive), [pastebinit](https://github.com/skorokithakis/pastebinit) (Pastebin), [cReddit](https://github.com/Cotix/cReddit) (Reddit), [ScudCloud](https://github.com/raelgc/scudcloud) / [slackterm](https://github.com/rob05c/slackterm) (Slack), [Hotot](https://github.com/lyricat/Hotot) / [turses](https://github.com/louipc/turses) (Twitter), [youtube-viewer](https://github.com/trizen/youtube-viewer) (Youtube)
 * __E-Mail Archiver__: Lurker
-* __E-Mail Client__: Thunderbird -> Alpine -> Mutt
+* __E-Mail Client__: Thunderbird -> SquirrelMail -> Alpine -> Mutt -> mailx
 * __E-Mail Fetcher__: Fetchmail -> mbsync/isync
-* __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> mairix
-* __E-Mail Notifier__: mswatch
 * __IRC Client__: HexChat -> Weechat -> Irssi
 * __Online Radio__: Nuvola Player
 * __Paint chat__: Drawpile -> Collab
 * __RSS Feed and Podcast__: Liferea -> Newsbeuter -> Newsboat
-* __Search Engine Scraper__: Googler -> Torrtux -> Surfraw (+ dmenu)
-* __Usenet (Newsreader)__: Pan -> Trn -> slrn ( + slrnpull + slrnface)
-* __VoIP__: Pidgin -> Mumble -> Linphone -> sscall
+* __Search Engine Scraper__: Googler / Torrtux -> Surfraw (+ dmenu)
+* __Usenet Client (Newsreader)__: Pan -> Trn -> slrn ( + slrnpull + slrnface)
+* __VoIP Client__: Jitsi -> Pidgin -> Finch
 
 ## Desktop
 * __Application Launcher__: GNOME Do -> ratmenu -> dmenu -> pdmenu -> slmenu
@@ -93,7 +91,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __System Backup__: Snapper -> Systemback -> FSArchiver
 
 ## Distributed Services
-* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> nircd
+* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> nircd -> Ytalk -> write, wall, mesg 
 * __E-Commerce__: FIX Agora -> OpenBazaar -> Bitnation
 * __E-Mail__: Bitmessage (Notbit)
 * __Editing__: WebDAV -> ikiwiki -> GitTorrent -> git-annex (+ git-annex assistant)
@@ -105,6 +103,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Search Engine__: searx -> Seeks -> YaCy
 * __Search Engine (Gopher)__: Jugtail
 * __Streaming__: Livepeer -> Butter Project -> BasicTV
+* __VoIP__:  Mumble -> Linphone -> sscall
 
 ## Emulation And Virtualization
 * __Containers__: chroot -> LXC -> Linux-VServer
@@ -463,6 +462,8 @@ All apps are from F-Droid, may not be much but is a start.
 * __Direct Connect Server__: uhub
 * __DLNA__: Universal Media Server -> ReadyMedia (a.k.a. MiniDLNA)
 * __E-Mail Filtering (LDA)__: Dovecot -> procmail
+* __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> mairix
+* __E-Mail Notifier__: mswatch
 * __E-Mail Server (MTA)__: Kolab -> Postfix -> Exim -> cmail
 * __E-Mail Spam Filter__: DSPAM -> SpamAssassin
 * __E-Mail Validation__: OpenDKIM, SPF
