@@ -82,7 +82,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Screensaver__: XScreenSaver -> XLockmore -> i3lock -> sxlock -> slock
 * __Status Bar Client__: Dzen -> Lemonbar
 * __Status Bar Server__: monky -> i3status
-* __Animated Wallpaper Changer__: Xphoon -> xfireworks -> Xsnow -> xmountains -> Xplanet -> ImageMagick (animate)
+* __Animated Wallpaper Changer__: Xphoon, xfireworks, Xsnow, xmountains, Xplanet, ImageMagick (animate)
 * __Still Wallpaper Changer__: FEH -> hsetroot -> xsetroot -> imagemagick (but use 10MB more RAM than the others)
 * __Terminal As Wallpaper__: root-tail -> xrootconsole -> xli
 * __Video Wallpaper Changer__: mpv -> VLC (nvlc) -> MPlayer
