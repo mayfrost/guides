@@ -91,7 +91,7 @@ Don't forget to create and mount the extra directories in the case you had creat
 `tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`  
 
 ### CHROOT
-* On CRUX you can issue the next command to mount everything else and chroot automatically.  
+* On __CRUX__ you can issue the next command to mount everything else and chroot automatically.  
 `setup-chroot`  
 * On __Source Mage GNU/Linux__ mount everything else manually.  
 `mount --bind /dev /mnt/drive/dev`  
@@ -170,4 +170,5 @@ Next is a simple example of setting the bootloader, for a more in depth view see
 * Shutdown the machine.  
 `shutdown -h now`  
 
-And done. For more information on both distros and what to do next see: https://github.com/mayfrost/guides/blob/master/DISTROS.md
+And done. For more information on both distros and what to do next see: https://github.com/mayfrost/guides/blob/master/DISTROS.md  
+Also check the list of software alternative to bloatware and support minimalism https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md
