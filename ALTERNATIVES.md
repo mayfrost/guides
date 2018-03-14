@@ -16,33 +16,30 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 All apps are from F-Droid, may not be much but is a start.
 
 ## Command Line
-* __Command Line Cheatsheet__: CLI Companion -> xman -> cheat -> howdoi -> clf -> fu -> bro -> cheat.sh
-* __Directory Browsing__: CDargs -> Apparix -> fasd -> xd -> fzy
-* __Framebuffer Environment__: jfbterm / Fbterm -> hterm (regis) -> yaft (sixel)
-* __Hacker Culture__: ddate, fortune,, The Hacker Test, The Jargon File
-* __Multiplexer__: Twin -> GNU Screen (+sixel patch) -> Tmux -> dvtm -> Byobu
-* __Progress Viewers__: Advanced Copy -> progress -> pv - Pipe Viewer
+* __Command Line Cheatsheet__: CLI Companion -> xman -> cheat -> howdoi -> clf -> fu -> bro -> [cheat.sh](https://github.com/chubin/cheat.sh)
+* __Directory Browsing__: CDargs -> Apparix -> fasd -> [xd](https://github.com/fbb-git/xd) -> [fzy](https://github.com/jhawthorn/fzy)
+* __Framebuffer Environment__: [jfbterm / Fbterm](https://github.com/ruo91/jfbterm) -> [yaft (because sixel)](https://github.com/uobikiemukot/yaft) -> [hterm (because regis)](https://github.com/new299/hackterm)
+* __Hacker Culture__: ddate, fortune, The Hacker Test, The Jargon File
+* __Multiplexer__: [Twin](https://github.com/cosmos72/twin) -> Tmux  -> Byobu -> GNU Screen (+[sixel patch](https://gist.github.com/saitoha/7546579))
+* __Progress Viewers__: [progress](https://github.com/Xfennec/progress) -> [pv - Pipe Viewer](https://github.com/icetee/pv) -> [Advanced Copy](https://github.com/atdt/advcpmv)
 * __Scripting__: [GNU Parallel](https://www.gnu.org/software/parallel/), [empty](https://github.com/ierton/empty)
-* __Shells__: PC-DCL -> Bash -> mksh -> Rc
+* __Shells__: Bash -> mksh -> [PC-DCL](https://github.com/MichelValentin/PC-DCL) -> [rc](https://github.com/rakitzis/rc)
 * __Terminal Colorizer__: colout -> lolcat
 * __Terminal Dropdown__: YeahConsole -> tdrop -> alwaysontop
 * __Terminal Emulator__: PuTTY -> Cool Retro Term -> Terminology -> rxvt-unicode (a.k.a. urxvt) -> Termite -> UXTerm
-* __Terminal Pager__: less -> most
-* __Terminal Screensaver__: bb -> tty-clock -> CMatrix -> SL -> cowsay (or cowthink) -> [rice](https://github.com/janbrennen/rice) -> [Asciiquarium](https://github.com/cmatsuoka/asciiquarium) -> [nyan.sh](https://gist.github.com/wting/5278321) -> [rickrollrc](https://github.com/keroserene/rickrollrc) -> [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver)
-* __Text Snippets__: snippy
+* __Terminal Pager__: less -> [most](http://www.jedsoft.org/most/)
+* __Terminal Screensaver__: [bb](http://aa-project.sourceforge.net/bb/) -> [tty-clock](https://github.com/xorg62/tty-clock) -> CMatrix -> SL -> cowsay (or cowthink) -> [rice](https://github.com/janbrennen/rice) -> [Asciiquarium](https://github.com/cmatsuoka/asciiquarium) -> [nyan.sh](https://gist.github.com/wting/5278321) -> [rickrollrc](https://github.com/keroserene/rickrollrc) -> [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver)
 
 ## Communication
 * __BBS-MUD Client__: Qodem -> TinTin++
 * __Bookmark Manager__: BUKU -> SemanticScuttle -> bookmarks.public -> bk_edit -> b. -> BM -> bbm
-* __Browser__: ungoogled-chromium -> Icecat -> Pale Moon -> vimb -> Uzbl -> NetSurf -> Arachne -> Hacked Links (ELinks + Links2) -> Lynx -> retawq -> Stallman.js
+* __Browser__: Pale Moon -> Icecat -> vimb -> Uzbl -> NetSurf -> Hacked Links (ELinks + Links2) -> Lynx -> retawq -> Stallman.js
 * __Chat Client__: Pidgin -> Finch (+ irssi mode) -> Centerim -> Bitlbee
-* __Collaborative Editor__: Gobby -> EtherCalc -> Etherpad -> Cryptpad
 * __E-Mail Archiver__: Lurker
 * __E-Mail Client__: Thunderbird -> SquirrelMail -> Alpine -> Mutt -> mailx
 * __E-Mail Fetcher__: Fetchmail -> mbsync/isync
 * __IRC Client__: HexChat -> Weechat -> Irssi
 * __Online Radio__: Nuvola Player
-* __Paint chat__: Drawpile -> Collab
 * __RSS Feed and Podcast__: Liferea -> Newsbeuter -> Newsboat
 * __Search Engine Scraper__: Googler / Torrtux -> Surfraw (+ dmenu)
 * __Usenet Client (Newsreader)__: Pan -> Trn -> slrn ( + slrnpull + slrnface)
@@ -64,57 +61,59 @@ All apps are from F-Droid, may not be much but is a start.
 ## Desktop
 * __Application Launcher__: rofi -> ratmenu -> [dmenu](https://github.com/stilvoid/dmenu) -> pdmenu -> [slmenu](https://bitbucket.org/rafaelgg/slmenu)
 * __Boot Screen__: Plymouth -> Splashy -> Fbsplash -> \<BOOTLOADERS>
-* __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> xclip / XSel
+* __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> [snippy](https://github.com/gotbletu/shownotes/blob/master/snippy.sh) -> xclip / XSel
 * __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
 * __Cursor__: [keynav](https://github.com/jordansissel/keynav), GPM
 * __Desktop Character__: [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka) ([Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
-* __Display Color Temperature__: Redshift -> sct
-* __Display Settings__: DDCcontrol -> xrandr
-* __Graphical Settings__: Wpgtk -> LxAppearance -> GSettings -> xsettings
+* __Display Color Temperature__: Redshift -> [sct](https://github.com/mgudemann/sct)
+* __Display Settings__: DDCcontrol, xrandr
+* __Graphical Settings__: [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> GSettings -> xsettings
 * __Keybinding__: Xbindkeys -> sxhkd -> loadkeys (+ keymaps)
 * __Keyboard Layout__: XKB -> xmodmap -> loadkeys (+ keymaps)
 * __Login Manager__: SLiM -> Qingy
 * __Macro Recorder__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke)-> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
 * __Nested Display__: Xephyr -> Xnest
-* __Notification Daemon__: dunst -> slstatus
+* __Notification Daemon__: dunst -> [slstatus](https://github.com/drkhsh/slstatus)
 * __Notification Server__: Libcanberra + Libnotify -> xmessage
 * __Panel__: Avant Window Navigator -> Global Menu -> Tint2
-* __Screensaver__: XScreenSaver -> XLockmore -> i3lock -> sxlock -> slock
+* __Screensaver__: XScreenSaver -> XLockmore -> i3lock -> [sxlock](https://github.com/lahwaacz/sxlock) -> slock
 * __Status Bar Client__: Dzen -> Lemonbar
 * __Status Bar Server__: monky -> i3status
 * __Animated Wallpaper Changer__: Xphoon, xfireworks, Xsnow, xmountains, Xplanet, ImageMagick (animate)
 * __Still Wallpaper Changer__: FEH -> hsetroot -> xsetroot -> imagemagick (but use 10MB more RAM than the others)
 * __Terminal As Wallpaper__: root-tail -> xrootconsole -> xli
 * __Video Wallpaper Changer__: mpv -> VLC (nvlc) -> MPlayer
-* __Window Manager__: s3d (+ s3dfm) -> FVWM (+ FvwmTabs and 4dwm theme) -> awesome -> Amiwm -> Window Maker -> IceWM -> Blackbox -> i3 -> Vtwm -> mwm -> katriawm -> Emacs -> Ratpoison -> dwm (+ dwmstatus) -> FrankenWM -> TinyWM
+* __Window Manager__: FVWM (+ FvwmTabs and 4dwm theme) -> awesome -> Amiwm -> Window Maker -> IceWM -> Blackbox -> i3 -> [s3d (+ s3dfm)](http://s3d.sourceforge.net/) -> Vtwm -> mwm -> katriawm -> Emacs -> [Ratpoison](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl) -> dwm (+ dwmstatus) -> FrankenWM -> [TinyWM](http://incise.org/tinywm.html)
 * __Window Manipulation__: QuickTile -> wmctrl -> wmutils
-* __Worskpace Pager__: 3D-Desktop -> Skippy-XD
+* __Worskpace Pager__: [3D-Desktop](http://desk3d.sourceforge.net/) -> [Skippy-XD](https://github.com/richardgv/skippy-xd)
 * __X Event Display__: xprop -> xwininfo -> xev
 
 ## Disk Tools
-* __CD-DVD Burn and Copy (Backends)__: cdrtools -> cdrkit -> cdrskin
-* __CD-DVD Burn and Copy (Frontends)__: K3b -> Brasero -> cdw
-* __CD-DVD Ripping__: Sound Juicer -> fre ac -> cdparanoia (+ ABCDE)
+* __CD-DVD Burn and Copy (Backends)__: cdrtools -> cdrkit -> [cdrskin](https://dev.lovelyhq.com/libburnia/web/wikis/cdrskin)
+* __CD-DVD Burn and Copy (Frontends)__: K3b -> Brasero -> [cdw](http://cdw.sourceforge.net/)
+* __CD-DVD Ripping__: Sound Juicer -> fre ac -> [cdparanoia](https://www.xiph.org/paranoia/) (+ [ABCDE](http://lly.org/~rcw/abcde/page/)
 * __Custom Install CD__: Respin -> Remastersys -> Distroshare -> PinguyBuilder -> Customizer -> Ubuntu Customization Kit -> Mklivecd
-* __Device Management__: Udisks (+ udevil) -> pmount -> bashmount
-* __Disk Cloning and Writing__: dd -> dcfldd -> dc3dd
-* __Live USB__: UNetbootin -> MultiCD
-* __Partitioning__: u3_tool -> GNU Parted -> cfdisk -> fdisk -> sfdisk
-* __System Backup__: Snapper -> Systemback -> FSArchiver
+* __Device Management__: Udisks (+ udevil) -> pmount -> [bashmount](https://github.com/jamielinux/bashmount/blob/master/INSTALL)
+* __Disk Cloning and Writing__: dd -> dcfldd -> [dc3dd](https://sourceforge.net/projects/dc3dd/)
+* __Live USB__: UNetbootin -> [MultiCD](https://multicd.us/)
+* __Partitioning__: Gparted -> cfdisk -> GNU Parted -> fdisk / sfdisk
+* __System Backup__: [Systemback](https://sourceforge.net/projects/systemback/) -> [Bacula](https://blog.bacula.org/) -> [FSArchiver](http://www.fsarchiver.org/)
 
-## Distributed Services
-* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> nircd -> Ytalk -> write, wall, mesg 
-* __E-Commerce__: FIX Agora -> OpenBazaar -> Bitnation
-* __E-Mail__: Bitmessage (Notbit)
-* __Editing__: WebDAV -> ikiwiki -> GitTorrent -> git-annex (+ git-annex assistant)
-* __Distributed File Systems__: Samba -> NFS -> Storj -> IPFS -> GNUnet
-* __Forum__: Decentraland -> GNU Social (Mastodon) -> NNTPChan
-* __Gossip Network__: peernet
-* __Monetary Incentives__: Bitcoin -> GNU Taler -> Stream Token
-* __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> Alexandria -> DTube
-* __Search Engine__: searx -> Seeks -> YaCy
-* __Search Engine (Gopher)__: Jugtail
-* __Streaming__: Livepeer -> Butter Project -> BasicTV
+## Decentralized Services
+* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> [nircd](https://github.com/Ronsor/nircd) -> [sshtalk](https://2ton.com.au/sshtalk/) 
+* __Collaborative Rea-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
+* __Distributed File Systems__: Samba -> NFS -> IPFS -> [GNUnet](https://gnunet.org/)
+* __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
+* __E-Commerce__: [OpenBazaar](https://github.com/OpenBazaar) -> [Bitnation](https://github.com/Bit-Nation) -> [FIX Agora](http://fixagora.sourceforge.net/) + [GNU Taler](https://taler.net/en/)
+* __Forum__: [Decentraland](https://decentraland.org/) -> [GNU Social (Mastodon)](https://joinmastodon.org/) -> [NNTPChan](https://github.com/majestrate/nntpchan)
+* __Gossip Network (Decentralized Network Discovery__: [peernet](https://github.com/substack/peernet)
+* __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> [DTube](https://github.com/dtube) -> [Alexandria](http://www.alexandria.io/) (watch a video about Alexandria https://www.youtube.com/watch?v=So4n2ZBSMxg)
+* __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://streamtoken.net/)
+* __Paint chat__: [Drawpile](https://github.com/drawpile/Drawpile) -> [Collab](https://github.com/MoonGames/collab-desktop)
+* __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
+* __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
+* __Streaming__: [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [BasicTV](https://github.com/dako300/basictv)
+* __Version Control And File Repository__: WebDAV -> ikiwiki -> GitTorrent
 * __VoIP__:  Mumble -> Linphone -> sscall
 
 ## Emulation And Virtualization
@@ -148,7 +147,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __File Archiver__: PeaZip -> Xarchiver -> Atool
 * __File Manager__: SpaceFM -> Ranger -> Midnight Commander -> noice
 * __File Search__: DocFetcher -> Puggle -> regain -> ANGRYsearch -> Xapian
-* __File Synchronization__: Conduit -> Bacula -> Syncthing -> Unison -> zsync -> Rsync
+* __File Synchronization__: Conduit -> Syncthing -> Unison -> [git-annex](https://github.com/joeyh/git-annex) -> zsync -> Rsync
 * __Image Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> Mapivi -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
 * __RegEx Builder__: Visual REGEXP -> txt2regex
 * __Regexer__: regexxer -> ack -> ag
@@ -286,7 +285,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Darknet__: autovpn -> Tor -> AnoNet -> i2p
 * __DHCP Client__: dhclient -> dhcpcd
 * __DNS Encryption__: DNSSEC, DNSCrypt
-* __DNS Resolution__: Unbound + NDS -> BIND9 -> KadNode
+* __DNS Resolution__: Unbound + NDS -> BIND9
 * __MAC Manipulation__: GNU MAC Changer
 * __Mesh Networks__: Tinc -> cjdns -> B.A.T.M.A.N. / open80211s (802.11s)
 * __Network Encryption__: OpenSSL -> LibreSSL -> GnuTLS -> IPsec/SAE (802.11s)
