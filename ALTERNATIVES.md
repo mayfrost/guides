@@ -31,19 +31,19 @@ All apps are from F-Droid, may not be much but is a start.
 * __Terminal Screensaver__: [bb](http://aa-project.sourceforge.net/bb/) -> [tty-clock](https://github.com/xorg62/tty-clock) -> CMatrix -> SL -> cowsay (or cowthink) -> [rice](https://github.com/janbrennen/rice) -> [Asciiquarium](https://github.com/cmatsuoka/asciiquarium) -> [nyan.sh](https://gist.github.com/wting/5278321) -> [rickrollrc](https://github.com/keroserene/rickrollrc) -> [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver)
 
 ## Communication
-* __BBS-MUD Client__: TinTin++
-* __Bookmark Manager__: BUKU -> SemanticScuttle -> bookmarks.public -> bk_edit -> b. -> BM -> bbm
-* __Browser__: Pale Moon -> Icecat -> vimb -> Uzbl -> NetSurf -> Hacked Links (ELinks + Links2) -> Lynx -> retawq -> Stallman.js
-* __Chat Client__: Pidgin -> Finch (+ irssi mode) -> Centerim -> Bitlbee
-* __E-Mail Archiver__: Lurker
-* __E-Mail Client__: Thunderbird -> SquirrelMail -> Alpine -> Mutt -> mailx
-* __E-Mail Fetcher__: Fetchmail -> mbsync/isync
+* __BBS-MUD Client__: [TinTin++](http://tintin.sourceforge.net/features.php)
+* __Bookmark Manager__: [bookmarks.public](https://github.com/skx/bookmarks.public) -> [bk_edit](http://www.vakuumverpackt.de/retiredprojects/bk_edit/) -> [b.](https://directory.fsf.org/wiki/B.)
+* __Browser__: Pale Moon -> Icecat -> vimb -> Uzbl -> [NetSurf](http://www.netsurf-browser.org/) -> [Links2](http://links.twibright.com/) -> [Netrik](http://netrik.sourceforge.net/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master)
+* __Chat Client__: [Finch (Pidgin)](https://developer.pidgin.im/wiki/Using%20Finch) in [irssi mode](https://askubuntu.com/questions/442345/how-can-i-simplify-the-finch-interface) -> [Centerim](http://www.centerim.org/index.php/Main_Page) -> [Bitlbee](https://wiki.bitlbee.org/)
+* __E-Mail Archiver__: [Lurker](http://lurker.sourceforge.net/)
+* __E-Mail Client__: Thunderbird -> [SquirrelMail](http://www.squirrelmail.org/) -> Alpine -> Mutt -> [mailx](http://heirloom.sourceforge.net/mailx.html)
+* __E-Mail Fetcher__: [Fetchmail](http://www.fetchmail.info/) -> [isync (mbsync)](http://isync.sourceforge.net/)
 * __IRC Client__: HexChat -> Weechat -> Irssi
-* __Online Radio__: Nuvola Player
+* __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
 * __RSS Feed and Podcast__: Liferea -> Newsbeuter -> Newsboat
-* __Search Engine Scraper__: Googler / Torrtux -> Surfraw (+ dmenu)
-* __Usenet Client (Newsreader)__: Pan -> Trn -> slrn ( + slrnpull + slrnface)
-* __VoIP Client__: Jitsi -> Pidgin -> Finch
+* __Search Engine Scraper__: Googler / Torrtux -> [Surfraw](http://surfraw.alioth.debian.org/) (+ [dmenu](https://bbs.archlinux.org/viewtopic.php?id=228706))
+* __Usenet Client (Newsreader)__: Pan -> [slrn](http://www.slrn.org/) ( + slrnpull + slrnface) -> [Trn](http://trn.sourceforge.net/)
+* __VoIP Client__: [Jitsi](https://jitsi.org/) -> [Finch (Pidgin)](https://developer.pidgin.im/wiki/vv)
 
 ### Desktop Client
 * __4chan__: [ANSIchan](https://github.com/qqueue/ANSICHAN) / [yottu](https://github.com/yottu/yottu)
@@ -59,7 +59,7 @@ All apps are from F-Droid, may not be much but is a start.
 
 
 ## Desktop
-* __Application Launcher__: rofi -> ratmenu -> [dmenu](https://github.com/stilvoid/dmenu) -> pdmenu -> [slmenu](https://bitbucket.org/rafaelgg/slmenu)
+* __Application Launcher__: rofi -> ratmenu -> [dmenu](https://github.com/stilvoid/dmenu) -> [pdmenu](https://joeyh.name/code/pdmenu/) -> [slmenu](https://bitbucket.org/rafaelgg/slmenu)
 * __Boot Screen__: Plymouth -> Splashy -> Fbsplash -> \<BOOTLOADERS>
 * __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> [snippy](https://github.com/gotbletu/shownotes/blob/master/snippy.sh) -> xclip / XSel
 * __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
