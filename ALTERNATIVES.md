@@ -127,12 +127,12 @@ All apps are from F-Droid, may not be much but is a start.
 * __Video Game Console Emulation (XBOX)__: [XQEMU](https://github.com/espes/xqemu)
 * __Video Game Console Emulation (MULTI)__: Higan -> Mednafen -> RetroArch -> [MAME](https://github.com/mamedev/mame) -> [AdvanceMAME](https://github.com/amadvance/advancemame) [(framebuffer support)](https://forum.odroid.com/viewtopic.php?f=116&t=11662)
 * __Video Game Console Emulation (NINTENDO)__: [DeSmuME (Nintendo DS)](https://github.com/TASVideos/desmume/), [Mupen64Plus (Nintendo 64)](https://github.com/mupen64plus/mupen64plus-core), [Dolphin (GameCube and Wii)](https://dolphin-emu.org/)
-* __Video Game Console Emulation (SEGA)__: [Yabause (Sega Saturn)](https://github.com/Yabause/yabause), [Reicast (Dreamcast](https://github.com/reicast/reicast-emulator)
+* __Video Game Console Emulation (SEGA)__: [Yabause (Sega Saturn)](https://github.com/Yabause/yabause), [Reicast (Dreamcast)](https://github.com/reicast/reicast-emulator)
 * __Video Game Console Emulation (PLAYSTATION)__: [PPSSPP](https://github.com/hrydgard/ppsspp), [RPCS3](https://github.com/rpcs3/rpcs3/), [PCSX2](https://github.com/PCSX2/pcsx2)
-* __Virtual Assembler__: GNUSim8085 -> spim
-* __Virtual Machine__: VirtualBox -> AQEMU + kvm -> Qemu + kvm
-* __Virtual Machine (IBM Mainframes)__: Hercules
-* __Virtual Machine (DEC)__: SIMH
+* __Virtual Assembler__: [GNUSim8085](http://pages.cs.wisc.edu/~larus/spim.html), [spim](http://pages.cs.wisc.edu/~larus/spim.html)
+* __Virtual Machine__: VirtualBox -> [AQEMU](https://github.com/tobimensch/aqemu) + kvm -> Qemu + kvm
+* __Virtual Machine (IBM Mainframes)__: [Hercules](http://www.hercules-390.org/)
+* __Virtual Machine (DEC)__: [SIMH](http://simh.trailing-edge.com/)
 
 ## Enterprise
 * __Business Intelligence__: JasperReports
@@ -143,15 +143,14 @@ All apps are from F-Droid, may not be much but is a start.
 * __Project Management__: GanttProject -> ProjectLibre
 
 ## File Utilities
-* __Batch Renamer__: GPRename -> qmv (renameutils)
-* __Duplicate Files Removal__: dupeGuru -> Fdupes
-* __File Archiver__: PeaZip -> Xarchiver -> Atool
-* __File Manager__: SpaceFM -> Ranger -> Midnight Commander -> noice
-* __File Search__: DocFetcher -> Puggle -> regain -> ANGRYsearch -> Xapian
+* __Batch Renamer__: [GPRename](http://gprename.sourceforge.net/) -> [qmv (renameutils)](http://www.nongnu.org/renameutils/)
+* __Duplicate Files Removal__: [dupeGuru](https://github.com/hsoft/dupeguru) -> [Fdupes](https://github.com/adrianlopezroche/fdupes)
+* __File Archiver__: PeaZip -> Xarchiver -> [Atool](http://www.nongnu.org/atool/)
+* __File Manager__: SpaceFM -> Ranger -> Midnight Commander -> [nnn](https://github.com/jarun/nnn)
+* __File Search__: [DocFetcher](http://docfetcher.sourceforge.net/en/index.html) -> [ANGRYsearch](https://github.com/DoTheEvo/ANGRYsearch) -> [Puggle](http://puggle.sourceforge.net/) -> [regain](http://regain.sourceforge.net/index.php) -> find
 * __File Synchronization__: Conduit -> Syncthing -> Unison -> [git-annex](https://github.com/joeyh/git-annex) -> zsync -> Rsync
 * __Image Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> Mapivi -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
-* __RegEx Builder__: Visual REGEXP -> txt2regex
-* __Regexer__: regexxer -> ack -> ag
+* __RegEx Builder__: [regexxer](https://directory.fsf.org/wiki/Regexxer) -> [Visual REGEXP](http://laurent.riesterer.free.fr/regexp/) -> [txt2regex](https://github.com/aureliojargas/txt2regex)
 
 ## Filesharing
 * __Direct Connect__: LinuxDC++ -> ncdc -> microdc2
@@ -396,7 +395,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Documentation Generator__: perlpod, bashdoc, Doxygen
 * __Issue Tracking System__: Bugzilla -> GNATS
 * __Linting__: ShellCheck, Source-highlight
-* __Source Code Navigation__: LXR: The Linux Cross Referencer -> GNU GLOBAL -> cscope -> Ctags -> cgvg, 
+* __Source Code Navigation__: LXR: The Linux Cross Referencer -> GNU GLOBAL -> cscope -> Ctags -> cgvg -> [ack](https://beyondgrep.com/) -> [ag](https://github.com/ggreer/the_silver_searcher)
 * __Toolchain__: IcedTea (OpenJDK), GnuCOBOL, GNU Toolchain (GNU Make, GNU Build System -Autotools-, GNU m4, GNU Binutils, GNU bison, GCC)
 * __Version Control__: Git (+ tig) -> Fossil -> RCS
 
