@@ -41,7 +41,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __IRC Client__: HexChat -> Weechat -> Irssi
 * __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
 * __RSS Feed and Podcast__: Liferea -> Newsbeuter -> Newsboat
-* __Search Engine Scraper__: Googler / Torrtux -> [Surfraw](http://surfraw.alioth.debian.org/) (+ [dmenu](https://bbs.archlinux.org/viewtopic.php?id=228706))
+* __Search Engine Scraper__: Googler -> [Surfraw](http://surfraw.alioth.debian.org/) (+ [dmenu](https://bbs.archlinux.org/viewtopic.php?id=228706))
 * __Usenet Client (Newsreader)__: Pan -> [slrn](http://www.slrn.org/) ( + slrnpull + slrnface) -> [Trn](http://trn.sourceforge.net/)
 * __VoIP Client__: [Jitsi](https://jitsi.org/) -> [Finch (Pidgin)](https://developer.pidgin.im/wiki/vv)
 
@@ -112,6 +112,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Paint chat__: [Drawpile](https://github.com/drawpile/Drawpile) -> [Collab](https://github.com/MoonGames/collab-desktop)
 * __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
 * __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
+* __Search Engine (Torrents)__: Magnetissimo -> [magnetico](https://github.com/boramalper/magnetico)
 * __Streaming__: [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [BasicTV](https://github.com/dako300/basictv)
 * __Version Control (Decentralized Github)__: [GitTorrent](https://github.com/mfyuce/GitTorrent)
 * __VoIP__:  Mumble -> [Linphone (linphonec)](https://www.linphone.org/) -> [sscall](https://github.com/Drakevr/sscall)
@@ -163,13 +164,13 @@ All apps are from F-Droid, may not be much but is a start.
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> Wget
 * __Soulseek__: Nicotine Plus -> [Museek (mucous)](https://museek-plus.org/)
 * __Stream Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [quvi](https://github.com/mogaal/quvi), [RTMPDump](https://github.com/mstorsjo/rtmpdump)
-* __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (+ transmission-remote-cli, or use the web interface that comes with transmission-daemon)
-* __Torrent Search Engine__: Jackett -> Torrench -> Magnetissimo -> magnetico
-* __Usenet (File Grabber)__: LottaNZB -> SABnzbd -> NZBGet -> nzb -> nzbperl
+* __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (comes with a [web interface](https://github.com/transmission/transmission/wiki/Web-Interface) by default but [other frontends](https://github.com/fagga/transmission-remote-cli) exist)
+* __Torrent Tracker Scraper__: [Torrtux](https://github.com/l333k0/torrtux) -> [Torrench](https://github.com/kryptxy/torrench) -> [Jackett](https://github.com/Jackett/Jackett)
+* __Usenet (File Grabber)__: LottaNZB -> SABnzbd -> [NZBGet](https://github.com/nzbget/nzbget) -> [nzb](https://directory.fsf.org/wiki/Nzb) -> [nzbperl](https://github.com/eghm/nzbperl)
 
 ## Finance
-* __Accounting__: GnuCash -> GNU Pem
-* __Financial Markets Monitoring__: JStock -> Qtstalker/QtTrader
+* __Accounting__: GnuCash -> [GNU Pem](https://www.gnu.org/software/pem/)
+* __Financial Markets Monitoring__: [JStock](https://github.com/yccheok/jstock) -> [QtTrader](https://github.com/e99majo/qttrader) -> [Qtstalker](http://qtstalker.sourceforge.net/)
 
 
 ## Forensics
