@@ -75,7 +75,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Nested Display__: Xephyr -> Xnest
 * __Notification Daemon__: dunst -> [slstatus](https://github.com/drkhsh/slstatus)
 * __Notification Server__: Libcanberra + Libnotify -> xmessage
-* __Panel__: Avant Window Navigator -> Global Menu -> Tint2
+* __Panel__: Avant Window Navigator -> Global Menu -> Tint2 -> [bevelbar](https://github.com/vain/bevelbar)
 * __Screensaver__: XScreenSaver -> XLockmore -> i3lock -> [sxlock](https://github.com/lahwaacz/sxlock) -> slock
 * __Status Bar Client__: Dzen -> Lemonbar
 * __Status Bar Server__: monky -> i3status
@@ -83,7 +83,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Still Wallpaper Changer__: FEH -> [hsetroot](https://github.com/elmiko/hsetroot) -> [imagemagick](https://imagemagick.org/discourse-server/viewtopic.php?t=16735) (but use 10MB more RAM than the others)
 * __Terminal As Wallpaper__: [root-tail](http://oldhome.schmorp.de/marc/root-tail.html) -> [xrootconsole](http://silicone.homelinux.org/projects/xrootconsole/)
 * __Video Wallpaper Changer__: mpv -> VLC (nvlc) -> MPlayer
-* __Window Manager__: FVWM (+ FvwmTabs and 4dwm theme) -> awesome -> Amiwm -> Window Maker -> IceWM -> Blackbox -> i3 -> [s3d (+ s3dfm)](http://s3d.sourceforge.net/) -> Vtwm -> mwm -> katriawm -> Emacs -> [Ratpoison](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl) -> dwm (+ dwmstatus) -> FrankenWM -> [TinyWM](http://incise.org/tinywm.html)
+* __Window Manager__: FVWM (+ FvwmTabs and 4dwm theme) -> IceWM -> i3 -> [s3d (+ s3dfm)](http://s3d.sourceforge.net/) -> Vtwm -> [mwm](https://sourceforge.net/projects/motif/) -> [Amiwm](https://www.lysator.liu.se/~marcus/amiwm.html) -> [Ratpoison](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl) -> [katriawm](https://github.com/vain/katriawm) -> dwm (+ dwmstatus) -> [FrankenWM](https://github.com/sulami/FrankenWM) -> [TinyWM](http://incise.org/tinywm.html)
 * __Window Manipulation__: QuickTile -> wmctrl -> wmutils
 * __Worskpace Pager__: [3D-Desktop](http://desk3d.sourceforge.net/) -> [Skippy-XD](https://github.com/richardgv/skippy-xd)
 * __X Event Display__: xprop -> xwininfo -> xev
@@ -101,33 +101,34 @@ All apps are from F-Droid, may not be much but is a start.
 
 ## Decentralized Services
 * __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> [nircd](https://github.com/Ronsor/nircd) -> [sshtalk](https://2ton.com.au/sshtalk/) 
-* __Collaborative Rea-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
+* __Collaborative Real-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
 * __Distributed File Systems__: Samba -> NFS -> IPFS -> [GNUnet](https://gnunet.org/)
 * __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
 * __E-Commerce__: [OpenBazaar](https://github.com/OpenBazaar) -> [Bitnation](https://github.com/Bit-Nation) -> [FIX Agora](http://fixagora.sourceforge.net/) + [GNU Taler](https://taler.net/en/)
 * __Forum__: [Decentraland](https://decentraland.org/) -> [GNU Social (Mastodon)](https://joinmastodon.org/) -> [NNTPChan](https://github.com/majestrate/nntpchan)
-* __Gossip Network (Decentralized Network Discovery__: [peernet](https://github.com/substack/peernet)
+* __Gossip Network (Decentralized Network Service Discovery__: [peernet](https://github.com/substack/peernet)
 * __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> [DTube](https://github.com/dtube) -> [Alexandria](http://www.alexandria.io/) (watch a video about Alexandria https://www.youtube.com/watch?v=So4n2ZBSMxg)
 * __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://streamtoken.net/)
 * __Paint chat__: [Drawpile](https://github.com/drawpile/Drawpile) -> [Collab](https://github.com/MoonGames/collab-desktop)
 * __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
 * __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
 * __Streaming__: [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [BasicTV](https://github.com/dako300/basictv)
-* __Version Control And File Repository__: WebDAV -> ikiwiki -> GitTorrent
-* __VoIP__:  Mumble -> Linphone -> sscall
+* __Version Control (Github replacement)__: [GitTorrent](https://github.com/mfyuce/GitTorrent)
+* __VoIP__:  Mumble -> [Linphone (linphonec)](https://www.linphone.org/) -> [sscall](https://github.com/Drakevr/sscall)
+* __Wiki__: [ikiwiki](https://ikiwiki.info/tips/distributed_wikis/)
 
 ## Emulation And Virtualization
-* __Containers__: chroot -> LXC -> Linux-VServer
-* __Emulators__: Windows: Wine (+ Wine Staging), Android: Ambox, OS X: Darling, Atari: Hatari, Commodore: VICE, DOS: DOSBox
-* __Hypervisors__: Xen -> NOVA -> KVM
+* __Containers__: chroot -> LXC -> [Linux-VServer](http://linux-vserver.org/Welcome_to_Linux-VServer.org)
+* __Emulators__: Windows: Wine (+ [Wine Staging](https://github.com/wine-compholio/wine-staging)), Android: [Anbox](https://github.com/anbox/anbox), OS X: [Darling](https://www.darlinghq.org/), Atari: [Hatari](http://hatari.tuxfamily.org/), Commodore: [VICE](http://vice-emu.sourceforge.net/), DOS: DOSBox
+* __Hypervisors__: Xen -> [NOVA](http://hypervisor.org/) -> KVM
 * __Network Virtualization__: nsnam -> GNS3
-* __Software Compatibility__: .NET: DotGNU -> Mono, Systemd/Linux: systemd-shim
-* __Video Game Console Emulation ATARI__: Stella
-* __Video Game Console Emulation XBOX__: XQEMU
-* __Video Game Console Emulation MULTI__: Higan -> Mednafen -> RetroArch -> MAME -> AdvanceMAME
-* __Video Game Console Emulation NINTENDO__: DeSmuME, Mupen64Plus, Dolphin
-* __Video Game Console Emulation SEGA__: Exodus, Yabause, Reicast
-* __Video Game Console Emulation PLAYSTATION__: PPSSPP, RPCS3, PCSX/PCSX2
+* __Software Compatibility__: .NET: DotGNU -> Mono, Systemd/Linux: [systemd-shim](https://directory.fsf.org/wiki/Systemd-shim)
+* __Video Game Console Emulation (ATARI)__: [Stella](https://stella-emu.github.io/)
+* __Video Game Console Emulation (XBOX)__: [XQEMU](https://github.com/espes/xqemu)
+* __Video Game Console Emulation (MULTI)__: Higan -> Mednafen -> RetroArch -> [MAME](https://github.com/mamedev/mame) -> [AdvanceMAME](https://github.com/amadvance/advancemame) [(framebuffer support)](https://forum.odroid.com/viewtopic.php?f=116&t=11662)
+* __Video Game Console Emulation (NINTENDO)__: [DeSmuME (Nintendo DS)](https://github.com/TASVideos/desmume/), [Mupen64Plus (Nintendo 64)](https://github.com/mupen64plus/mupen64plus-core), [Dolphin (GameCube and Wii)](https://dolphin-emu.org/)
+* __Video Game Console Emulation (SEGA)__: [Yabause (Sega Saturn)](https://github.com/Yabause/yabause), [Reicast (Dreamcast](https://github.com/reicast/reicast-emulator)
+* __Video Game Console Emulation (PLAYSTATION)__: [PPSSPP](https://github.com/hrydgard/ppsspp), [RPCS3](https://github.com/rpcs3/rpcs3/), [PCSX2](https://github.com/PCSX2/pcsx2)
 * __Virtual Assembler__: GNUSim8085 -> spim
 * __Virtual Machine__: VirtualBox -> AQEMU + kvm -> Qemu + kvm
 * __Virtual Machine (IBM Mainframes)__: Hercules
@@ -478,7 +479,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __E-Mail Server (MTA)__: Kolab -> Postfix -> Exim -> cmail
 * __E-Mail Spam Filter__: DSPAM -> SpamAssassin
 * __E-Mail Validation__: OpenDKIM, SPF
-* __File Server__: Google Drive -> Nextcloud -> vsftpd -> sftp
+* __File Server__: Google Drive -> Nextcloud -> WebDAV -> vsftpd -> sftp
 * __General__: GNU Serveez
 * __IRC BNC__: ZNC (IRC bouncer)
 * __IRC Bot__: Seabattle (bot game), Eggdrop (IRC bot)
