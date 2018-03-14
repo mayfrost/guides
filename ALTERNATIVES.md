@@ -176,7 +176,7 @@ All apps are from F-Droid, may not be much but is a start.
 ## Forensics
 * __Application Profiling__: Gprof -> Valgrind (+ Callgrind)
 * __Data Recovery__: dvdisaster -> ddrescue -> TestDisk (PhotoRec)
-* __Debugger__: DDD -> CGDB -> GDB
+* __Debugger__: DDD -> [CGDB](https://cgdb.github.io/) -> GDB
 * __Virtual Memory Debugger__: scanmem & Gameconqueror -> [varedit](https://github.com/asherlie/varedit)
 * __Java Debugger__: VisualVM
 * __Browser Debugger__: Firebug
@@ -188,12 +188,12 @@ All apps are from F-Droid, may not be much but is a start.
 ## Monitoring
 ### Benchmarking
 * __Drive Profiling__: hdparm -> Smartmontools
-* __Filesystem Benchmark__: IOzone -> Bonnie -> MBW
-* __General Benchmarking__: Phoronix Test Suite ->ProcBench -> Sysbench -> HPC Challenge Benchmark (hpcc)
-* __Network Profiling__: iperf
-* __Power Management__: apcupsd -> tpfancontrol -> thinkfan -> TLP -> PowerTOP
+* __Filesystem Benchmark__: IOzone -> [Bonnie++](https://www.coker.com.au/bonnie++/) -> [MBW](https://github.com/raas/mbw)
+* __General Benchmarking__: [HPC Challenge Benchmark (hpcc)](http://icl.cs.utk.edu/hpcc/) -> [Sysbench](https://github.com/akopytov/sysbench)
+* __Network Profiling__: [iperf](http://software.es.net/iperf/)
+* __Power Management__: apcupsd -> tpfancontrol -> thinkfan -> TLP -> [PowerTOP](https://github.com/fenrus75/powertop)
 * __Server Benchmark__: Siege
-* __System Tracing__: OProfile -> Sysdig -> dtrace -> perf -> strace -> ftrace (+ trace-cmd)
+* __System Tracing__: perf -> strace -> ftrace (+ trace-cmd)
 * __Undevolting and Power Saving__: cpufrequtils -> cpupower -> Linux-PHC (+ phc2sys)
 
 ### System Information
