@@ -149,7 +149,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __File Archiver__: PeaZip -> Xarchiver -> [Atool](http://www.nongnu.org/atool/)
 * __File Manager__: SpaceFM -> Ranger -> Midnight Commander -> [nnn](https://github.com/jarun/nnn)
 * __File Search__: [DocFetcher](http://docfetcher.sourceforge.net/en/index.html) -> [ANGRYsearch](https://github.com/DoTheEvo/ANGRYsearch) -> [Puggle](http://puggle.sourceforge.net/) -> [regain](http://regain.sourceforge.net/index.php) -> find
-* __File Synchronization__: Conduit -> Syncthing -> Unison -> [git-annex](https://git-annex.branchable.com/) -> zsync -> Rsync
+* __File Synchronization__: [Unison](https://github.com/bcpierce00/unison) -> [git-annex](https://git-annex.branchable.com/) -> zsync -> Rsync
 * __Image Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> [Mapivi](http://mapivi.sourceforge.net/mapivi.shtml) -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
 * __RegEx Builder__: [regexxer](https://directory.fsf.org/wiki/Regexxer) -> [Visual REGEXP](http://laurent.riesterer.free.fr/regexp/) -> [txt2regex](https://github.com/aureliojargas/txt2regex)
 
@@ -177,13 +177,13 @@ All apps are from F-Droid, may not be much but is a start.
 * __Application Profiling__: Gprof -> Valgrind (+ Callgrind)
 * __Data Recovery__: dvdisaster -> ddrescue -> TestDisk (PhotoRec)
 * __Debugger__: DDD -> CGDB -> GDB
-* __Virtual Memory Debugger__: scanmem & Gameconqueror -> varedit
+* __Virtual Memory Debugger__: scanmem & Gameconqueror -> [varedit](https://github.com/asherlie/varedit)
 * __Java Debugger__: VisualVM
 * __Browser Debugger__: Firebug
 * __Forensic Analysis Framework__: The Sleuth Kit -> DFF -> Radare
-* __Hex Editors__: HT Editor -> dhex -> objdump
-* __Sandbox__: Cuckoo Sandbox
-* __Steganalysis__: Virtual Steganographic Laboratory -> Stegdetect
+* __Hex Editors__: [HT Editor](http://hte.sourceforge.net/) -> [dhex](https://directory.fsf.org/wiki/DHEX)
+* __Sandbox__: [Cuckoo Sandbox](https://cuckoosandbox.org/)
+* __Steganalysis__: [Virtual Steganographic Laboratory](http://vsl.sourceforge.net/) -> [Stegdetect](https://github.com/abeluck/stegdetect)
 
 ## Monitoring
 ### Benchmarking
@@ -479,7 +479,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __E-Mail Server (MTA)__: Kolab -> Postfix -> Exim -> cmail
 * __E-Mail Spam Filter__: DSPAM -> SpamAssassin
 * __E-Mail Validation__: OpenDKIM, SPF
-* __File Server__: Google Drive -> Nextcloud -> WebDAV -> vsftpd -> sftp
+* __File Server__: Google Drive -> Nextcloud -> WebDAV -> Syncthing -> vsftpd -> sftp
 * __General__: GNU Serveez
 * __IRC BNC__: ZNC (IRC bouncer)
 * __IRC Bot__: Seabattle (bot game), Eggdrop (IRC bot)
