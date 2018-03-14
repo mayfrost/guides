@@ -26,7 +26,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Shells__: Bash -> mksh -> [PC-DCL](https://github.com/MichelValentin/PC-DCL) -> [rc](https://github.com/rakitzis/rc)
 * __Terminal Colorizer__: colout -> lolcat
 * __Terminal Dropdown__: [tdrop](https://github.com/noctuid/tdrop) -> [YeahConsole](https://github.com/rduplain/yeahconsole), [alwaysontop](https://github.com/swirepe/alwaysontop)
-* __Terminal Emulator__: PuTTY -> Cool Retro Term -> Terminology -> rxvt-unicode (a.k.a. urxvt) -> Termite -> UXTerm -> [Qodem](http://qodem.sourceforge.net/)
+* __Terminal Emulator__: PuTTY -> Terminology -> rxvt-unicode (a.k.a. urxvt) -> Termite -> UXTerm -> [Qodem](http://qodem.sourceforge.net/)
 * __Terminal Pager__: less -> [most](http://www.jedsoft.org/most/)
 * __Terminal Screensaver__: [bb](http://aa-project.sourceforge.net/bb/) -> [tty-clock](https://github.com/xorg62/tty-clock) -> CMatrix -> SL -> cowsay (or cowthink) -> [rice](https://github.com/janbrennen/rice) -> [Asciiquarium](https://github.com/cmatsuoka/asciiquarium) -> [nyan.sh](https://gist.github.com/wting/5278321) -> [rickrollrc](https://github.com/keroserene/rickrollrc) -> [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver)
 
@@ -70,7 +70,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Graphical Settings__: [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> GSettings -> xsettings
 * __Keybinding__: Xbindkeys -> sxhkd -> loadkeys (+ keymaps)
 * __Keyboard Layout__: XKB -> xmodmap -> loadkeys (+ keymaps)
-* __Login Manager__: SLiM -> Qingy
+* __Login Manager__: SLiM -> [Qingy](http://qingy.sourceforge.net/)
 * __Macro Recorder__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke)-> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
 * __Nested Display__: Xephyr -> Xnest
 * __Notification Daemon__: dunst -> [slstatus](https://github.com/drkhsh/slstatus)
@@ -80,8 +80,8 @@ All apps are from F-Droid, may not be much but is a start.
 * __Status Bar Client__: Dzen -> Lemonbar
 * __Status Bar Server__: monky -> i3status
 * __Animated Wallpaper Changer__: Xphoon, xfireworks, Xsnow, xmountains, Xplanet, ImageMagick (animate)
-* __Still Wallpaper Changer__: FEH -> hsetroot -> xsetroot -> imagemagick (but use 10MB more RAM than the others)
-* __Terminal As Wallpaper__: root-tail -> xrootconsole -> xli
+* __Still Wallpaper Changer__: FEH -> [hsetroot](https://github.com/elmiko/hsetroot) -> [imagemagick](https://imagemagick.org/discourse-server/viewtopic.php?t=16735) (but use 10MB more RAM than the others)
+* __Terminal As Wallpaper__: [root-tail](http://oldhome.schmorp.de/marc/root-tail.html) -> [xrootconsole](http://silicone.homelinux.org/projects/xrootconsole/)
 * __Video Wallpaper Changer__: mpv -> VLC (nvlc) -> MPlayer
 * __Window Manager__: FVWM (+ FvwmTabs and 4dwm theme) -> awesome -> Amiwm -> Window Maker -> IceWM -> Blackbox -> i3 -> [s3d (+ s3dfm)](http://s3d.sourceforge.net/) -> Vtwm -> mwm -> katriawm -> Emacs -> [Ratpoison](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl) -> dwm (+ dwmstatus) -> FrankenWM -> [TinyWM](http://incise.org/tinywm.html)
 * __Window Manipulation__: QuickTile -> wmctrl -> wmutils
