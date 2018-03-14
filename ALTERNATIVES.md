@@ -113,7 +113,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
 * __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
 * __Streaming__: [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [BasicTV](https://github.com/dako300/basictv)
-* __Version Control (Github replacement)__: [GitTorrent](https://github.com/mfyuce/GitTorrent)
+* __Version Control (Decentralized Github)__: [GitTorrent](https://github.com/mfyuce/GitTorrent)
 * __VoIP__:  Mumble -> [Linphone (linphonec)](https://www.linphone.org/) -> [sscall](https://github.com/Drakevr/sscall)
 * __Wiki__: [ikiwiki](https://ikiwiki.info/tips/distributed_wikis/)
 
@@ -148,21 +148,21 @@ All apps are from F-Droid, may not be much but is a start.
 * __File Archiver__: PeaZip -> Xarchiver -> [Atool](http://www.nongnu.org/atool/)
 * __File Manager__: SpaceFM -> Ranger -> Midnight Commander -> [nnn](https://github.com/jarun/nnn)
 * __File Search__: [DocFetcher](http://docfetcher.sourceforge.net/en/index.html) -> [ANGRYsearch](https://github.com/DoTheEvo/ANGRYsearch) -> [Puggle](http://puggle.sourceforge.net/) -> [regain](http://regain.sourceforge.net/index.php) -> find
-* __File Synchronization__: Conduit -> Syncthing -> Unison -> [git-annex](https://github.com/joeyh/git-annex) -> zsync -> Rsync
-* __Image Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> Mapivi -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
+* __File Synchronization__: Conduit -> Syncthing -> Unison -> [git-annex](https://git-annex.branchable.com/) -> zsync -> Rsync
+* __Image Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> [Mapivi](http://mapivi.sourceforge.net/mapivi.shtml) -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
 * __RegEx Builder__: [regexxer](https://directory.fsf.org/wiki/Regexxer) -> [Visual REGEXP](http://laurent.riesterer.free.fr/regexp/) -> [txt2regex](https://github.com/aureliojargas/txt2regex)
 
 ## Filesharing
-* __Direct Connect__: LinuxDC++ -> ncdc -> microdc2
-* __Download Manager__: giFT (+ giFTcurs) -> aria2 -> cURL -> Wget
-* __File Scraper__: megatools -> JDownloader -> Plowshare
-* __FTP Client__: FileZilla -> lftp
+* __Direct Connect__: LinuxDC++ -> [ncdc](https://github.com/srijan/ncdc) -> [microdc2](http://corsair626.no-ip.org/microdc/)
+* __Download Manager__: [giFT](https://sourceforge.net/projects/gift/) (+ [giFTcurs](http://www.nongnu.org/giftcurs/)) -> [aria2](https://aria2.github.io/) -> cURL -> Wget
+* __File Scraper__: megatools -> [JDownloader](https://github.com/Bobmk/JDownloader) -> [Plowshare](https://github.com/mcrapet/plowshare)
+* __FTP Client__: FileZilla -> [lftp](https://github.com/lavv17/lftp)
 * __LAN Sharing__: NitroShare -> Dukto
-* __Media Center__: Plex -> Kodi ("XBMC", + Sonarr) -> Emby -> Popcorn Time
-* __Media Miner__: FlexGet -> Sonarr
-* __Offline Reader__: Kiwix -> Darcy Ripper -> HTTrack -> Wget
-* __Soulseek__: Nicotine Plus -> Museek (mucous)
-* __Stream Catcher__: Streamripper -> youtube-dl -> cclive -> quvi/RTMPDump
+* __Media Center__: Plex -> Emby -> Popcorn Time -> Kodi ("XBMC", + Sonarr)
+* __Media Miner__: FlexGet -> [Sonarr](https://github.com/Sonarr/Sonarr)
+* __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> Wget
+* __Soulseek__: Nicotine Plus -> [Museek (mucous)](https://museek-plus.org/)
+* __Stream Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [quvi](https://github.com/mogaal/quvi), [RTMPDump](https://github.com/mstorsjo/rtmpdump)
 * __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (+ transmission-remote-cli, or use the web interface that comes with transmission-daemon)
 * __Torrent Search Engine__: Jackett -> Torrench -> Magnetissimo -> magnetico
 * __Usenet (File Grabber)__: LottaNZB -> SABnzbd -> NZBGet -> nzb -> nzbperl
