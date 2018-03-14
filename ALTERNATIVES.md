@@ -16,8 +16,8 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 All apps are from F-Droid, may not be much but is a start.
 
 ## Command Line
-* __Command Line Cheatsheet__: CLI Companion -> xman -> cheat -> howdoi -> clf -> fu -> bro -> [cheat.sh](https://github.com/chubin/cheat.sh)
-* __Directory Browsing__: CDargs -> Apparix -> fasd -> [xd](https://github.com/fbb-git/xd) -> [fzy](https://github.com/jhawthorn/fzy)
+* __Command Line Cheatsheet__: [CLI Companion](https://launchpad.net/clicompanion) -> xman -> cheat / howdoi / clf / fu / bro -> [cheat.sh](https://github.com/chubin/cheat.sh)
+* __Directory Browsing__: [fasd](https://github.com/clvv/fasd), [xd](https://github.com/fbb-git/xd), [fzy](https://github.com/jhawthorn/fzy)
 * __Framebuffer Environment__: [jfbterm / Fbterm](https://github.com/ruo91/jfbterm) -> [yaft (because sixel)](https://github.com/uobikiemukot/yaft) -> [hterm (because regis)](https://github.com/new299/hackterm)
 * __Hacker Culture__: ddate, fortune, The Hacker Test, The Jargon File
 * __Multiplexer__: [Twin](https://github.com/cosmos72/twin) -> Tmux  -> Byobu -> GNU Screen (+[sixel patch](https://gist.github.com/saitoha/7546579))
@@ -25,13 +25,13 @@ All apps are from F-Droid, may not be much but is a start.
 * __Scripting__: [GNU Parallel](https://www.gnu.org/software/parallel/), [empty](https://github.com/ierton/empty)
 * __Shells__: Bash -> mksh -> [PC-DCL](https://github.com/MichelValentin/PC-DCL) -> [rc](https://github.com/rakitzis/rc)
 * __Terminal Colorizer__: colout -> lolcat
-* __Terminal Dropdown__: YeahConsole -> tdrop -> alwaysontop
-* __Terminal Emulator__: PuTTY -> Cool Retro Term -> Terminology -> rxvt-unicode (a.k.a. urxvt) -> Termite -> UXTerm
+* __Terminal Dropdown__: [tdrop](https://github.com/noctuid/tdrop) -> [YeahConsole](https://github.com/rduplain/yeahconsole), [alwaysontop](https://github.com/swirepe/alwaysontop)
+* __Terminal Emulator__: PuTTY -> Cool Retro Term -> Terminology -> rxvt-unicode (a.k.a. urxvt) -> Termite -> UXTerm -> [Qodem](http://qodem.sourceforge.net/)
 * __Terminal Pager__: less -> [most](http://www.jedsoft.org/most/)
 * __Terminal Screensaver__: [bb](http://aa-project.sourceforge.net/bb/) -> [tty-clock](https://github.com/xorg62/tty-clock) -> CMatrix -> SL -> cowsay (or cowthink) -> [rice](https://github.com/janbrennen/rice) -> [Asciiquarium](https://github.com/cmatsuoka/asciiquarium) -> [nyan.sh](https://gist.github.com/wting/5278321) -> [rickrollrc](https://github.com/keroserene/rickrollrc) -> [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver)
 
 ## Communication
-* __BBS-MUD Client__: Qodem -> TinTin++
+* __BBS-MUD Client__: TinTin++
 * __Bookmark Manager__: BUKU -> SemanticScuttle -> bookmarks.public -> bk_edit -> b. -> BM -> bbm
 * __Browser__: Pale Moon -> Icecat -> vimb -> Uzbl -> NetSurf -> Hacked Links (ELinks + Links2) -> Lynx -> retawq -> Stallman.js
 * __Chat Client__: Pidgin -> Finch (+ irssi mode) -> Centerim -> Bitlbee
@@ -64,7 +64,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> [snippy](https://github.com/gotbletu/shownotes/blob/master/snippy.sh) -> xclip / XSel
 * __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
 * __Cursor__: [keynav](https://github.com/jordansissel/keynav), GPM
-* __Desktop Character__: [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka) ([Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
+* __Desktop Character__: [Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya) (for [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
 * __Display Color Temperature__: Redshift -> [sct](https://github.com/mgudemann/sct)
 * __Display Settings__: DDCcontrol, xrandr
 * __Graphical Settings__: [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> GSettings -> xsettings
@@ -91,7 +91,7 @@ All apps are from F-Droid, may not be much but is a start.
 ## Disk Tools
 * __CD-DVD Burn and Copy (Backends)__: cdrtools -> cdrkit -> [cdrskin](https://dev.lovelyhq.com/libburnia/web/wikis/cdrskin)
 * __CD-DVD Burn and Copy (Frontends)__: K3b -> Brasero -> [cdw](http://cdw.sourceforge.net/)
-* __CD-DVD Ripping__: Sound Juicer -> fre ac -> [cdparanoia](https://www.xiph.org/paranoia/) (+ [ABCDE](http://lly.org/~rcw/abcde/page/)
+* __CD-DVD Ripping__: Sound Juicer -> fre ac -> [cdparanoia](https://www.xiph.org/paranoia/) (+ [ABCDE](http://lly.org/~rcw/abcde/page/))
 * __Custom Install CD__: Respin -> Remastersys -> Distroshare -> PinguyBuilder -> Customizer -> Ubuntu Customization Kit -> Mklivecd
 * __Device Management__: Udisks (+ udevil) -> pmount -> [bashmount](https://github.com/jamielinux/bashmount/blob/master/INSTALL)
 * __Disk Cloning and Writing__: dd -> dcfldd -> [dc3dd](https://sourceforge.net/projects/dc3dd/)
