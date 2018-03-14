@@ -106,7 +106,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
 * __E-Commerce__: [OpenBazaar](https://github.com/OpenBazaar) -> [Bitnation](https://github.com/Bit-Nation) -> [FIX Agora](http://fixagora.sourceforge.net/) + [GNU Taler](https://taler.net/en/)
 * __Forum__: [Decentraland](https://decentraland.org/) -> [GNU Social (Mastodon)](https://joinmastodon.org/) -> [NNTPChan](https://github.com/majestrate/nntpchan)
-* __Gossip Network (Decentralized Network Service Discovery__: [peernet](https://github.com/substack/peernet)
+* __Gossip Network (Decentralized Network Service Discovery)__: [peernet](https://github.com/substack/peernet)
 * __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> [DTube](https://github.com/dtube) -> [Alexandria](http://www.alexandria.io/) (watch a video about Alexandria https://www.youtube.com/watch?v=So4n2ZBSMxg)
 * __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://streamtoken.net/)
 * __Paint chat__: [Drawpile](https://github.com/drawpile/Drawpile) -> [Collab](https://github.com/MoonGames/collab-desktop)
