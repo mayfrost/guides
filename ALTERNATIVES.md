@@ -194,13 +194,13 @@ All apps are from F-Droid, may not be much but is a start.
 * __Power Management__: tpfancontrol -> thinkfan -> [apcupsd](http://www.apcupsd.org/) -> [TLP](https://github.com/linrunner/TLP) -> [PowerTOP](https://github.com/fenrus75/powertop)
 * __Server Benchmark__: [Siege](https://github.com/JoeDog/siege)
 * __System Tracing__: [strace](https://github.com/strace/strace) -> [trace-cmd](https://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git) (ftrace) -> perf
-* __Undevolting and Power Saving__: Linux-PHC (+ phc2sys) -> [cpufrequtils](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/cpufreq/) -> [cpupower](https://github.com/torvalds/linux/tree/master/tools/power/cpupower)
+* __Undevolting and Power Saving__: [TurionPowerControl](https://code.google.com/archive/p/turionpowercontrol/ / [Linux-PHC](http://www.linux-phc.org/forum/) -> [cpufrequtils](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/cpufreq/) -> [cpupower](https://github.com/torvalds/linux/tree/master/tools/power/cpupower)
 
 ### System Information
-* __General Information__: zCI -> inxi
-* __Screenshot Information__: Linux_Logo -> Neofetch -> screenFetch -> envee
-* __Hardware Information__: blkid -> lsblk -> lspci -> lshw -> dmesg -> dmidecode
-* __Software Information__: file -> ldd -> vrms -> lsb_release -> uname
+* __General Information__: [inxi](https://smxi.org/docs/inxi.htm)
+* __Screenshot Information__: [Linux_Logo](https://github.com/KittyKatt/screenFetch) -> [Neofetch](https://github.com/dylanaraps/neofetch) -> [screenFetch](https://github.com/KittyKatt/screenFetch)
+* __Hardware Information__: blkid -> lsblk -> [lspci](http://mj.ucw.cz/sw/pciutils/) -> [lshw](https://github.com/lyonel/lshw) -> dmesg -> dmidecode
+* __Software Information__: file -> ldd -> [vrms](https://vrms.alioth.debian.org/) -> lsb_release -> uname
 
 ### System Monitoring
 * __Database Monitoring__: Mytop
