@@ -191,10 +191,10 @@ All apps are from F-Droid, may not be much but is a start.
 * __Filesystem Benchmark__: IOzone -> [Bonnie++](https://www.coker.com.au/bonnie++/) -> [MBW](https://github.com/raas/mbw)
 * __General Benchmarking__: [HPC Challenge Benchmark (hpcc)](http://icl.cs.utk.edu/hpcc/) -> [Sysbench](https://github.com/akopytov/sysbench)
 * __Network Profiling__: [iperf](http://software.es.net/iperf/)
-* __Power Management__: apcupsd -> tpfancontrol -> thinkfan -> TLP -> [PowerTOP](https://github.com/fenrus75/powertop)
-* __Server Benchmark__: Siege
-* __System Tracing__: perf -> strace -> ftrace (+ trace-cmd)
-* __Undevolting and Power Saving__: cpufrequtils -> cpupower -> Linux-PHC (+ phc2sys)
+* __Power Management__: tpfancontrol -> thinkfan -> [apcupsd](http://www.apcupsd.org/) -> [TLP](https://github.com/linrunner/TLP) -> [PowerTOP](https://github.com/fenrus75/powertop)
+* __Server Benchmark__: [Siege](https://github.com/JoeDog/siege)
+* __System Tracing__: [strace](https://github.com/strace/strace) -> [trace-cmd](https://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git) (ftrace) -> perf
+* __Undevolting and Power Saving__: Linux-PHC (+ phc2sys) -> [cpufrequtils](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/cpufreq/) -> [cpupower](https://github.com/torvalds/linux/tree/master/tools/power/cpupower)
 
 ### System Information
 * __General Information__: zCI -> inxi
