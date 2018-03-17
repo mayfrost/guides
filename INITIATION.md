@@ -142,6 +142,7 @@ Next are simple examples of compiling the kernel, for a more in depth view see: 
 
 ## BOOTLOADER
 Next is a simple example of setting the bootloader, for a more in depth view see: https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md  
+__NOTE__: If you are on __Source Mage GNU/Linux__ and need UEFI refer to the bootloader section and use grub2 as there is no elilo package:
 
 ### LILO
 * On __Source Mage GNU/Linux__ do "_cast \<BOOTLOADER>_" to install lilo or elilo.  
