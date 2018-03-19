@@ -33,7 +33,7 @@ All apps are from F-Droid, may not be much but is a start.
 ## Communication
 * __BBS-MUD Client__: [TinTin++](http://tintin.sourceforge.net/features.php)
 * __Bookmark Manager__: [bookmarks.public](https://github.com/skx/bookmarks.public) -> [bk_edit](http://www.vakuumverpackt.de/retiredprojects/bk_edit/) -> [b.](https://directory.fsf.org/wiki/B.)
-* __Browser__: Pale Moon -> Icecat -> vimb -> Uzbl -> [NetSurf](http://www.netsurf-browser.org/) -> [Links2](http://links.twibright.com/) -> [Netrik](http://netrik.sourceforge.net/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master)
+* __Browser__: Pale Moon / Icecat -> luakit / vimb / Uzbl -> [NetSurf](http://www.netsurf-browser.org/) -> [Links2](http://links.twibright.com/) -> [Netrik](http://netrik.sourceforge.net/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master)
 * __Chat Client__: [Finch (Pidgin)](https://developer.pidgin.im/wiki/Using%20Finch) in [irssi mode](https://askubuntu.com/questions/442345/how-can-i-simplify-the-finch-interface) -> [Centerim](http://www.centerim.org/index.php/Main_Page) -> [Bitlbee](https://wiki.bitlbee.org/)
 * __E-Mail Archiver__: [Lurker](http://lurker.sourceforge.net/)
 * __E-Mail Client__: Thunderbird -> [SquirrelMail](http://www.squirrelmail.org/) -> Alpine -> Mutt -> [mailx](http://heirloom.sourceforge.net/mailx.html)
