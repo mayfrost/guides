@@ -161,7 +161,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Media Miner__: FlexGet -> [Sonarr](https://github.com/Sonarr/Sonarr)
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> Wget
 * __Soulseek__: Nicotine Plus -> [Museek (mucous)](https://museek-plus.org/)
-* __Stream Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [quvi](https://github.com/mogaal/quvi), [RTMPDump](https://github.com/mstorsjo/rtmpdump)
+* __Stream Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [quvi](https://github.com/mogaal/quvi), [RTMPDump](https://github.com/mstorsjo/rtmpdump)
 * __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (comes with a [web interface](https://github.com/transmission/transmission/wiki/Web-Interface) by default but [other frontends](https://github.com/fagga/transmission-remote-cli) exist)
 * __Torrent Tracker Scraper__: [Torrtux](https://github.com/l333k0/torrtux) -> [Torrench](https://github.com/kryptxy/torrench) -> [Jackett](https://github.com/Jackett/Jackett)
 * __Usenet (File Grabber)__: LottaNZB -> SABnzbd -> [NZBGet](https://github.com/nzbget/nzbget) -> [nzb](https://directory.fsf.org/wiki/Nzb) -> [nzbperl](https://github.com/eghm/nzbperl)
