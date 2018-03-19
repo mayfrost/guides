@@ -18,7 +18,7 @@ All apps are from F-Droid, may not be much but is a start.
 ## Command Line
 * __Command Line Cheatsheet__: [CLI Companion](https://launchpad.net/clicompanion) -> xman -> cheat / howdoi / clf / fu / bro -> [cheat.sh](https://github.com/chubin/cheat.sh)
 * __Directory Browsing__: [fasd](https://github.com/clvv/fasd), [xd](https://github.com/fbb-git/xd), [fzy](https://github.com/jhawthorn/fzy)
-* __Framebuffer Environment__: [jfbterm / Fbterm](https://github.com/ruo91/jfbterm) -> [yaft (because sixel)](https://github.com/uobikiemukot/yaft) -> [hterm (because regis)](https://github.com/new299/hackterm)
+* __Framebuffer Environment__: [Fbterm](https://code.google.com/archive/p/fbterm/) -> [yaft (because sixel)](https://github.com/uobikiemukot/yaft) -> [hterm (because regis)](https://github.com/new299/hackterm)
 * __Hacker Culture__: ddate, fortune, The Hacker Test, The Jargon File
 * __Multiplexer__: [Twin](https://github.com/cosmos72/twin) -> Tmux  -> Byobu -> GNU Screen (+[sixel patch](https://gist.github.com/saitoha/7546579))
 * __Progress Viewers__: [progress](https://github.com/Xfennec/progress) -> [pv - Pipe Viewer](https://github.com/icetee/pv) -> [Advanced Copy](https://github.com/atdt/advcpmv)
@@ -59,7 +59,7 @@ All apps are from F-Droid, may not be much but is a start.
 
 
 ## Desktop
-* __Application Launcher__: rofi -> ratmenu -> [dmenu](https://github.com/stilvoid/dmenu) -> [pdmenu](https://joeyh.name/code/pdmenu/) -> [slmenu](https://bitbucket.org/rafaelgg/slmenu)
+* __Application Launcher__: rofi -> ratmenu -> [dmenu](https://github.com/stilvoid/dmenu) -> [pdmenu](https://joeyh.name/code/pdmenu/) -> [iSelect](http://www.ossp.org/pkg/tool/iselect/) -> [slmenu](https://bitbucket.org/rafaelgg/slmenu)
 * __Boot Screen__: Plymouth -> Splashy -> Fbsplash -> \<BOOTLOADERS>
 * __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> [snippy](https://github.com/gotbletu/shownotes/blob/master/snippy.sh) -> xclip / XSel
 * __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
@@ -512,5 +512,5 @@ All apps are from F-Droid, may not be much but is a start.
 * __Job Scheduler__: Slurm -> Cron
 * __Load in RAM__: E4rat -> readahead -> preload
 * __Service Manager (to be used with an init__: bum -> OpenRC -> chkconfig -> daemontools-encore -> perp
-* __Settings Manager__: Linux Lite Control Center -> Linux Registry
+* __Settings Manager__: Linux Lite Control Center -> Linux Registry -> [Augeas](https://github.com/hercules-team/augeas)
 * __Utilities__: Mtools -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
