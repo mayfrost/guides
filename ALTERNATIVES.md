@@ -217,7 +217,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __System Monitor__: gnome-system-monitor -> [psDooM](https://github.com/keymon/psdoom-ng) -> Conky -> htop -> [nmon](http://nmon.sourceforge.net/pmwiki.php) -> [Sysstat](https://directory.fsf.org/wiki/Sysstat) (sar, mpstat, pidstat, iostat, sadf) -> [procps](https://directory.fsf.org/wiki/Procps) (ps, free, vmstat, top, pmap, nice)
 * __User Monitoring__: [wuzzah](https://www.cs.swarthmore.edu/~finney/proj/wuzzah/) -> [Whowatch](https://github.com/mtsuszycki/whowatch/) -> [acct](http://savannah.gnu.org/projects/acct/)
 * __Web Log Analytics__: [AWStats](http://www.awstats.org/) -> [W3Perl](http://www.w3perl.com/) -> [Analog](http://www.web42.com/analog/) -> [pmacct](https://github.com/pmacct/pmacct)
-* __Web State Monitor__: Nagios (+ NagVis) -> [sysmon](http://sysmond.sourceforge.net/)
+* __Web State Monitor__: Nagios (+ NagVis) -> [sysmon](https://web.archive.org/web/20070602050243/http://pubpages.unh.edu/~pas/hacks/sysmon/)
 
 ## Multimedia
 ### ASCii Art
@@ -231,24 +231,24 @@ All apps are from F-Droid, may not be much but is a start.
 * __Video to ASCii__: libcaca -> AAlib
 
 ### Audio
-* __Audio Editing__: Audacity -> SoX
-* __Audio Effect Plugins__: zam-plugins (LADSPA/LV2/VST/JACK), LV2 (x42-plugins), LADSPA (tap-plugins), DSSI (dssi-utils, dssi-vst)
-* __Audio Encoding__: LAME, FLAC
+* __Audio Editing__: Audacity -> [SoX](http://sox.sourceforge.net/)
+* __Audio Effect Plugins__: [zam-plugins](http://www.zamaudio.com/?p=870) (LADSPA/LV2/VST/JACK), [LV2](http://lv2plug.in/) (x42-plugins), [LADSPA](http://ccrma.stanford.edu/planetccrma/software/ladspaworld.html) (tap-plugins), [DSSI](http://dssi.sourceforge.net/) (dssi-utils, dssi-vst)
+* __Audio Encoding__: [LAME](http://lame.sourceforge.net/), [FLAC](https://xiph.org/flac/)
 * __Background Sound__: GNU GTick -> Ambient Noise
 * __Digital Audio Workstation__: Rosegarden -> Ardour -> LMMS
 * __DJing__: Mixxx
 * __Ear Training__: LenMus -> GNU Solfege
-* __Multiple Audio Streams__: pulseaudio -> apulse
-* __Music Player__: Audacious (+ Winamp Classic skin + GJay) -> cmus -> MPD (vimus/ncmpcpp) -> MOC (+ moc-ffmpeg-plugin, dmenu_mocp)
-* __Music Visualization__: Spectrum3d -> Le Biniou -> projectM -> cli-visualizer
+* __Multiple Audio Streams__: pulseaudio -> [apulse](https://github.com/i-rinat/apulse)
+* __Music Player__: Audacious (+ Winamp Classic skin + GJay) -> cmus -> MPD (vimus/ncmpcpp) -> [MOC](http://moc.daper.net/) (+ moc-ffmpeg-plugin, [dmenu_mocp](https://github.com/pscha/dmenu_mocp))
+* __Music Visualization__: [Spectrum3d](http://spectrum3d.sourceforge.net/) -> [Le Biniou](https://directory.fsf.org/wiki/Lebiniou) -> [projectM](http://projectm.sourceforge.net/) -> [cli-visualizer](https://github.com/dpayne/cli-visualizer)
 * __Scorewriter__: MuseScore -> LilyPond
-* __Software Sampler__: LinuxSampler -> orDrumbox -> Hydrogen
-* __Synthesizer__: AlsaModularSynth -> ZynAddSubFX
-* __System Sound  Utilities__: pavucontrol (pulseaudio) -> JAMin (for Jack) -> Qastools -> alsa-utils + Alsaequal
-* __System Sound Extensions__: WineASIO, alsa-oss/oss-compat, ESound (esound-common), awesfx
-* __Tonal Feature Analysis__: CLAM Chordata
-* __Tracker Editors__: Schism -> MilkyTracker
-* __Trackers__: SID-Wizard -> GoatTracker
+* __Software Sampler__: LinuxSampler -> orDrumbox -> [Hydrogen](http://www.hydrogen-music.org/hcms/)
+* __Synthesizer__: AlsaModularSynth -> [ZynAddSubFX](http://zynaddsubfx.sourceforge.net/)
+* __System Sound Extensions__: [WineASIO](https://sourceforge.net/projects/wineasio/), alsa-oss/oss-compat, ESound (esound-common), awesfx
+* __System Sound Utilities__: pavucontrol (pulseaudio) -> JAMin (for Jack) -> Qastools -> [alsa-utils](https://github.com/gittup/alsa-utils) + [Alsaequal](https://directory.fsf.org/wiki/Alsaequal)
+* __Tonal Feature Analysis__: [CLAM Chordata](http://clam-project.org/)
+* __Tracker Editors__: [Schism](https://github.com/schismtracker/schismtracker) -> [MilkyTracker](https://github.com/milkytracker/milkytracker)
+* __Trackers__: [SID-Wizard](http://csdb.dk/release/?id=131846) -> [GoatTracker](https://sourceforge.net/projects/goattracker2/)
 * __Tray Icon__: Volume Icon -> Volti
 
 ### Image
