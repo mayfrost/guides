@@ -113,6 +113,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Search Engine (Torrents)__: Magnetissimo -> [magnetico](https://github.com/boramalper/magnetico)
 * __Streaming__: [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [BasicTV](https://github.com/dako300/basictv)
 * __Version Control (Decentralized Github)__: [GitTorrent](https://github.com/mfyuce/GitTorrent)
+* __VPN__:  [PeerVPN](https://github.com/peervpn/peervpn)
 * __Wiki__: [ikiwiki](https://ikiwiki.info/tips/distributed_wikis/)
 
 ## Emulation And Virtualization
@@ -500,7 +501,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Tunneling VM__: PIA Tunnel, Whonix
 * __Usenet Server__: InterNetNews -> Leafnode
 * __VoIP__:  Mumble -> [Linphone (linphonec)](https://www.linphone.org/) -> [sscall](https://github.com/Drakevr/sscall)
-* __VPN__: OpenVPN (+ PiVPN) -> WireGuard -> PeerVPN
+* __VPN__: OpenVPN (+ PiVPN) -> WireGuard
 * __Web Caching__: Decentraleyes on a web browser -> Squid (+ SquidGuard, for Web Filtering)
 * __Web Filtering__: Ad blocker on a web browser -> Pi-hole -> Privoxy -> Hostsblock
 * __Web Server__: Apache -> Nginx -> lighttpd -> darkhttpd -> Bucktooth (+ Bucky, for HTTP exit, Bucktooth is Gopher)
