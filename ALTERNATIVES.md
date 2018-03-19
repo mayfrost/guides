@@ -504,7 +504,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Web Caching__: Decentraleyes on a web browser -> Squid (+ SquidGuard, for Web Filtering)
 * __Web Filtering__: Ad blocker on a web browser -> Pi-hole -> Privoxy -> Hostsblock
 * __Web Server__: Apache -> Nginx -> lighttpd -> darkhttpd -> Bucktooth (+ Bucky, for HTTP exit, Bucktooth is Gopher)
-* __Wiki__: -> XWiki -> ikiwiki
+* __Wiki__: XWiki -> ikiwiki
 * __Wireless Access Point__: hostapd
 * __XMPP Server__: Tigase
 
