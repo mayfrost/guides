@@ -145,7 +145,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Batch Renamer__: [GPRename](http://gprename.sourceforge.net/) -> [qmv (renameutils)](http://www.nongnu.org/renameutils/)
 * __Duplicate Files Removal__: [dupeGuru](https://github.com/hsoft/dupeguru) -> [Fdupes](https://github.com/adrianlopezroche/fdupes)
 * __File Archiver__: PeaZip -> Xarchiver -> [Atool](http://www.nongnu.org/atool/)
-* __File Manager__: SpaceFM -> Ranger -> Midnight Commander -> [nnn](https://github.com/jarun/nnn)
+* __File Manager__: SpaceFM -> [File System Visualizer](https://github.com/mcuelenaere/fsv) -> Midnight Commander -> [vifm](https://wiki.vifm.info/index.php?title=How_to_preview_images) -> FDclone -> Ytree -> [nnn](https://github.com/jarun/nnn)
 * __File Search__: [DocFetcher](http://docfetcher.sourceforge.net/en/index.html) -> [ANGRYsearch](https://github.com/DoTheEvo/ANGRYsearch) -> [Puggle](http://puggle.sourceforge.net/) -> [regain](http://regain.sourceforge.net/index.php) -> find
 * __File Synchronization__: [Unison](https://github.com/bcpierce00/unison) -> [git-annex](https://git-annex.branchable.com/) -> zsync -> Rsync
 * __Image Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> [Mapivi](http://mapivi.sourceforge.net/mapivi.shtml) -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
@@ -417,7 +417,7 @@ All apps are from F-Droid, may not be much but is a start.
 ## Science And Engineering
 * __Artificial Intelligence__: Golly, Arcade Learning Environment, ETHNOS, CTF, Conscious Artificial Intelligence, OpenCog, OpenAI
 * __Astronomy__: SaVi satellite constellation visualizer -> Stellarium -> Celestia -> SkyCat
-* __Bioinformatics__: Bioclipse -> EMBOSS -> BioJava -> BioPerl
+* __Bioinformatics__: Bioclipse -> EMBOSS -> BioJava -> BioPerl -> SAMtools
 * __CAD__: AutoCAD -> FreeCAD -> OpenSCAD
 * __Chemistry__: MolComp, ChemE
 * __Circuit Simulator__: ngspice, Gnucap
