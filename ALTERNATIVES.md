@@ -101,7 +101,6 @@ All apps are from F-Droid, may not be much but is a start.
 
 ## Decentralized Services
 * __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> [nircd](https://github.com/Ronsor/nircd)
-* __Collaborative Real-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
 * __Distributed File Systems__: Samba -> NFS -> IPFS -> [GNUnet](https://gnunet.org/)
 * __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
 * __E-Commerce__: [FIX Agora](http://fixagora.sourceforge.net/) + [OpenBazaar](https://github.com/OpenBazaar) + [Bitnation](https://github.com/Bit-Nation) + [GNU Taler](https://taler.net/en/)
@@ -429,7 +428,6 @@ All apps are from F-Droid, may not be much but is a start.
 * __Street Map__: JOSM -> Osmosis
 * __Subway Map__: qMetro
 * __Virtual Globe__: Marble
-* __Learning Management System__: GnuTutor -> OpenExpert -> Syllog
 * __Scientific Calculator__: KAlgebra -> GraphMonkey -> SageMath -> Maxima + PLplot
 * __Software-defined radio (SDR)__: GNU Radio (+ Gqrx) -> rtl-sdr
 * __Statistical Package__: Physics Analysis WorkStation -> KNIME -> gretl -> PSPP
@@ -472,22 +470,29 @@ All apps are from F-Droid, may not be much but is a start.
 * __BBS Server__: Citadel -> Synchronet -> Mystic BBS -> BBS100
 * __Captcha__: cool-php-captcha
 * __Chat__:  [sshtalk](https://2ton.com.au/sshtalk/) -> [write, wall, mesg](http://www.unixpapa.com/write.html)
+* __CMS__: WordPress -> GetSimple CMS -> werc
+* __Collaborative Real-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
 * __Direct Connect Server__: uhub
 * __DLNA__: Universal Media Server -> ReadyMedia (a.k.a. MiniDLNA)
+* __Document Management System__: OpenKM -> LogicalDOC -> EPrints
 * __E-Mail Filtering (LDA)__: Dovecot -> procmail
 * __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> mairix
 * __E-Mail Notifier__: mswatch
 * __E-Mail Server (MTA)__: Kolab -> Postfix -> Exim -> cmail
 * __E-Mail Spam Filter__: DSPAM -> SpamAssassin
 * __E-Mail Validation__: OpenDKIM, SPF
+* __Forum__: lainchan -> vichan -> Akari-BBS -> sshchan -> KrautBBS -> 1436chan
 * __File Server__: Google Drive -> Nextcloud -> WebDAV -> Syncthing -> vsftpd -> sftp
 * __General__: GNU Serveez
+* __Groupware__: Alfresco -> eXo Platform -> Citadel/UX
 * __IRC BNC__: ZNC (IRC bouncer)
 * __IRC Bot__: Seabattle (bot game), Eggdrop (IRC bot)
 * __IRC Fileserver__: iroffer
 * __IRC Server__: UnrealIRCd/Charybdis -> InspIRCd -> ngIRCd
+* __Learning Management System__: GnuTutor -> OpenExpert -> Syllog
 * __MUD Server__: PennMUSH
-* __Political__: LittleSis
+* __Pastebin__: Stikked -> Paste -> PrivateBin
+* __Political__: LittleSis, Loomio
 * __Port Tunnel__: stunnel -> knockd
 * __Proxy Server__: Tinyproxy
 * __Service Manager__: sslh, xinetd
@@ -499,6 +504,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Web Caching__: Decentraleyes on a web browser -> Squid (+ SquidGuard, for Web Filtering)
 * __Web Filtering__: Ad blocker on a web browser -> Pi-hole -> Privoxy -> Hostsblock
 * __Web Server__: Apache -> Nginx -> lighttpd -> darkhttpd -> Bucktooth (+ Bucky, for HTTP exit, Bucktooth is Gopher)
+* __Wiki__: -> XWiki -> ikiwiki
 * __Wireless Access Point__: hostapd
 * __XMPP Server__: Tigase
 
