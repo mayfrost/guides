@@ -108,13 +108,11 @@ All apps are from F-Droid, may not be much but is a start.
 * __Gossip Network (Decentralized Network Service Discovery)__: [peernet](https://github.com/substack/peernet)
 * __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> [DTube](https://github.com/dtube) -> [Alexandria](http://www.alexandria.io/) (watch [this video](https://www.youtube.com/watch?v=So4n2ZBSMxg) on how Alexandria works)
 * __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://streamtoken.net/)
-* __Paint chat__: [Drawpile](https://github.com/drawpile/Drawpile) -> [Collab](https://github.com/MoonGames/collab-desktop)
 * __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
 * __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
 * __Search Engine (Torrents)__: Magnetissimo -> [magnetico](https://github.com/boramalper/magnetico)
 * __Streaming__: [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [BasicTV](https://github.com/dako300/basictv)
 * __Version Control (Decentralized Github)__: [GitTorrent](https://github.com/mfyuce/GitTorrent)
-* __VoIP__:  Mumble -> [Linphone (linphonec)](https://www.linphone.org/) -> [sscall](https://github.com/Drakevr/sscall)
 * __Wiki__: [ikiwiki](https://ikiwiki.info/tips/distributed_wikis/)
 
 ## Emulation And Virtualization
@@ -491,6 +489,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __IRC Server__: UnrealIRCd/Charybdis -> InspIRCd -> ngIRCd
 * __Learning Management System__: GnuTutor -> OpenExpert -> Syllog
 * __MUD Server__: PennMUSH
+* __Paint chat__: [Drawpile](https://github.com/drawpile/Drawpile) -> [Collab](https://github.com/MoonGames/collab-desktop)
 * __Pastebin__: Stikked -> Paste -> PrivateBin
 * __Political__: LittleSis, Loomio
 * __Port Tunnel__: stunnel -> knockd
@@ -500,6 +499,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Tunneling__: ProxyChains -> VPNEncap -> VPNCHAINS
 * __Tunneling VM__: PIA Tunnel, Whonix
 * __Usenet Server__: InterNetNews -> Leafnode
+* __VoIP__:  Mumble -> [Linphone (linphonec)](https://www.linphone.org/) -> [sscall](https://github.com/Drakevr/sscall)
 * __VPN__: OpenVPN (+ PiVPN) -> WireGuard -> PeerVPN
 * __Web Caching__: Decentraleyes on a web browser -> Squid (+ SquidGuard, for Web Filtering)
 * __Web Filtering__: Ad blocker on a web browser -> Pi-hole -> Privoxy -> Hostsblock
