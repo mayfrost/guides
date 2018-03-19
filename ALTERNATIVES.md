@@ -172,7 +172,7 @@ All apps are from F-Droid, may not be much but is a start.
 
 
 ## Forensics
-* __Application Profiling__: Gprof -> Valgrind (+ Callgrind)
+* __Application Profiling__: Valgrind (+ Callgrind)
 * __Data Recovery__: dvdisaster -> ddrescue -> TestDisk (PhotoRec)
 * __Debugger__: DDD -> [CGDB](https://cgdb.github.io/) -> GDB
 * __Virtual Memory Debugger__: scanmem & Gameconqueror -> [varedit](https://github.com/asherlie/varedit)
@@ -201,23 +201,23 @@ All apps are from F-Droid, may not be much but is a start.
 * __Software Information__: file -> ldd -> [vrms](https://vrms.alioth.debian.org/) -> lsb_release -> uname
 
 ### System Monitoring
-* __Database Monitoring__: Mytop
-* __Disk Usage__: QDirStat -> Baobab -> xdiskusage -> XDU -> Ncdu -> df
-* __Geolocation__: Prey
+* __Database Monitoring__: [Mytop](https://github.com/jzawodn/mytop)
+* __Disk Usage__: QDirStat -> [Baobab](http://www.marzocca.net/linux/baobab/) -> xdiskusage -> XDU -> [Ncdu](https://dev.yorhel.nl/ncdu) -> df
+* __Geolocation__: [Prey](https://github.com/prey/prey-bash-client)
 * __Hardware Monitoring__: acpiclient -> Hddtemp -> lm-sensors (psensor for a GUI)
-* __Log Monitoring__: lnav -> multiTail -> Logcheck
-* __Log Visualizer__: glTail -> Logstalgia
-* __Network Flow__: Argos -> HFlow -> nfdump (nfsen)
-* __Network Latency__: SmokePing -> bmon
-* __Network Monitoring__: IPTraf -> NetHogs -> iftop -> vnStat -> tcptrack -> NCMatrix
-* __Port Monitoring__: psad
-* __Process Monitoring__: lsof -> PSmisc
-* __Serial Monitoring__: ttylog -> slsnif
-* __System Latency__: LatencyTOP
-* __System Monitor__: gnome-system-monitor -> psDooM -> Conky -> htop -> nmon -> Sysstat (sar, mpstat, pidstat, iostat, sadf) -> procps (ps, free, vmstat, top, pmap, nice)
-* __User Monitoring__: wuzzah -> Whowatch -> acct
-* __Web Log Analytics__: AWStats -> W3Perl -> Analog -> pmacct
-* __Web State Monitor__: Nagios (+ NagVis) -> sysmon -> Sysmond
+* __Log Monitoring__: lnav -> [Logcheck](http://logcheck.org/) -> [multiTail](https://github.com/flok99/multitail)
+* __Log Visualizer__: glTail -> [Logstalgia](https://github.com/acaudwell/Logstalgia)
+* __Network Flow__: Argos -> HFlow -> [nfdump](https://github.com/phaag/nfdump) ([nfsen](http://nfsen.sourceforge.net/))
+* __Network Latency__: [SmokePing](https://github.com/oetiker/SmokePing) -> [bmon](https://github.com/tgraf/bmon)
+* __Network Monitoring__: [iftop](http://www.ex-parrot.com/pdw/iftop/), [NetHogs](https://github.com/raboof/nethogs), [vnStat](https://github.com/vergoh/vnstat), [NCMatrix](https://inconsolation.wordpress.com/2014/02/01/ncmatrix-the-original-with-a-twist/)
+* __Port Monitoring__: [psad](https://directory.fsf.org/wiki/Port_Scan_Attack_Detector)
+* __Process Monitoring__: [lsof](https://people.freebsd.org/~abe/) -> [PSmisc](https://directory.fsf.org/wiki/Psmisc)
+* __Serial Monitoring__: [ttylog](https://github.com/rocasa/ttylog) -> [slsnif](https://github.com/aeruder/slsnif)
+* __System Latency__: [LatencyTOP](https://github.com/namhyung/latencytop)
+* __System Monitor__: gnome-system-monitor -> [psDooM](https://github.com/keymon/psdoom-ng) -> Conky -> htop -> [nmon](http://nmon.sourceforge.net/pmwiki.php) -> [Sysstat](https://directory.fsf.org/wiki/Sysstat) (sar, mpstat, pidstat, iostat, sadf) -> [procps](https://directory.fsf.org/wiki/Procps) (ps, free, vmstat, top, pmap, nice)
+* __User Monitoring__: [wuzzah](https://www.cs.swarthmore.edu/~finney/proj/wuzzah/) -> [Whowatch](https://github.com/mtsuszycki/whowatch/) -> [acct](http://savannah.gnu.org/projects/acct/)
+* __Web Log Analytics__: [AWStats](http://www.awstats.org/) -> [W3Perl](http://www.w3perl.com/) -> [Analog](http://www.web42.com/analog/) -> [pmacct](https://github.com/pmacct/pmacct)
+* __Web State Monitor__: Nagios (+ NagVis) -> [sysmon](http://sysmond.sourceforge.net/)
 
 ## Multimedia
 ### ASCii Art
