@@ -100,7 +100,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __System Backup__: [Systemback](https://sourceforge.net/projects/systemback/) -> [Bacula](https://blog.bacula.org/) -> [FSArchiver](http://www.fsarchiver.org/) -> [CYA](https://www.cyberws.com/bash/cya/)
 
 ## Decentralized Services
-* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> [nircd](https://github.com/Ronsor/nircd) -> [sshtalk](https://2ton.com.au/sshtalk/) 
+* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> [nircd](https://github.com/Ronsor/nircd)
 * __Collaborative Real-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
 * __Distributed File Systems__: Samba -> NFS -> IPFS -> [GNUnet](https://gnunet.org/)
 * __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
@@ -471,6 +471,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Suites__: FreeIPA -> SSSD
 * __BBS Server__: Citadel -> Synchronet -> Mystic BBS -> BBS100
 * __Captcha__: cool-php-captcha
+* __Chat__:  [sshtalk](https://2ton.com.au/sshtalk/) -> [write, wall, mesg](http://www.unixpapa.com/write.html)
 * __Direct Connect Server__: uhub
 * __DLNA__: Universal Media Server -> ReadyMedia (a.k.a. MiniDLNA)
 * __E-Mail Filtering (LDA)__: Dovecot -> procmail
