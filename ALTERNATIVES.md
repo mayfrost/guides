@@ -276,21 +276,21 @@ All apps are from F-Droid, may not be much but is a start.
 * __Video Editing__: Kdenlive -> Cinelerra-cv -> OpenShot -> FFmpeg
 * __Video Player__: MPV -> VLC (nvlc) -> [MPlayer](https://mplayerhq.hu)
 * __Video to gif__: Video2Gif -> ImageMagick (convert) -> FFmpeg
-* __Video Transcoding__: HandBrake -> WinFF -> FFmpeg
+* __Video Transcoding__: [HandBrake](https://handbrake.fr/) -> WinFF -> FFmpeg
 
 ## Network Setup
-* __Bandwidth Shaping__: Wondershaper
-* __Bandwidth Testing__: speedtest-cli -> speed-test
-* __Darknet__: autovpn -> Tor -> AnoNet -> i2p
+* __Bandwidth Shaping__: [Wondershaper](http://lartc.org/wondershaper/)
+* __Bandwidth Testing__: [speedtest-cli](https://github.com/sivel/speedtest-cli) / [speed-test](https://github.com/sindresorhus/speed-test)
+* __Darknet__: [autovpn](https://github.com/adtac/autovpn) -> Tor -> [AnoNet](http://anonet.org/) -> i2p
 * __DHCP Client__: dhclient -> dhcpcd
 * __DNS Encryption__: DNSSEC, DNSCrypt
 * __DNS Resolution__: Unbound + NDS -> BIND9
-* __MAC Manipulation__: GNU MAC Changer
-* __Mesh Networks__: Tinc -> cjdns -> B.A.T.M.A.N. / open80211s (802.11s)
-* __Network Encryption__: OpenSSL -> LibreSSL -> GnuTLS -> IPsec/SAE (802.11s)
-* __Network Manager__: Wicd -> NetworkManager -> ConnMan -> SetNet
-* __Networking Tools__: iproute2 (ip, ss) -> net-tools (netstat, ifconfig)
-* __Supplicant__: wpa_supplicant
+* __MAC Manipulation__: [GNU MAC Changer](https://github.com/alobbs/macchanger)
+* __Mesh Networks__: Tinc -> cjdns -> [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki) / open80211s (802.11s)
+* __Network Encryption__: OpenSSL -> [LibreSSL](https://directory.fsf.org/wiki/Libressl) -> GnuTLS -> IPsec / [SAE](https://github.com/cozybit/authsae) (802.11s)
+* __Network Manager__: Wicd -> NetworkManager -> ConnMan -> [SetNet](http://kalos.mine.nu/setnet/)
+* __Networking Tools__: iproute2 (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (netstat, ifconfig)
+* __Supplicant__: [wpa_supplicant](https://w1.fi/wpa_supplicant/)
 
 ## Office
 * __CHM Viewer__: xCHM -> CHMLib (extract_chmLib)
@@ -322,7 +322,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Word Processor__: Libreoffice Writter -> Abiword -> MinEd -> WordGrinder + Pandoc
 
 ## Package Management
-* __Gaming Platform__: LGOGDownloader, Steam (+ SteamCMD), Lutris
+* __Gaming Platform__: LGOGDownloader (GOG.com), SteamCMD (Steam), Lutris
 * __Packaging Tools__: Alien -> Open Build Service -> CheckInstall -> GNU Stow
 * __Portable Apps__: Flatpak -> Snappy -> AppImage
 * __Universal Package Managers__: pkgsrc -> GNU Guix
