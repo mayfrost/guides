@@ -28,7 +28,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Terminal Dropdown__: [tdrop](https://github.com/noctuid/tdrop) -> [YeahConsole](https://github.com/rduplain/yeahconsole), [alwaysontop](https://github.com/swirepe/alwaysontop)
 * __Terminal Emulator__: PuTTY -> Terminology -> rxvt-unicode (a.k.a. urxvt) -> Termite -> UXTerm -> [Qodem](http://qodem.sourceforge.net/)
 * __Terminal Pager__: less -> [most](http://www.jedsoft.org/most/)
-* __Terminal Screensaver__: [bb](http://aa-project.sourceforge.net/bb/) -> [tty-clock](https://github.com/xorg62/tty-clock) -> CMatrix -> SL -> cowsay (or cowthink) -> [rice](https://github.com/janbrennen/rice) -> [Asciiquarium](https://github.com/cmatsuoka/asciiquarium) -> [nyan.sh](https://gist.github.com/wting/5278321) -> [rickrollrc](https://github.com/keroserene/rickrollrc) -> [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver)
+* __Terminal Screensaver__: [bb](http://aa-project.sourceforge.net/bb/), [sl](https://github.com/mtoyoda/sl), cowsay (or cowthink), [tty-clock](https://github.com/xorg62/tty-clock), [NCMatrix](https://inconsolation.wordpress.com/2014/02/01/ncmatrix-the-original-with-a-twist/) / [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver), [Asciiquarium](https://github.com/cmatsuoka/asciiquarium), [rice](https://github.com/janbrennen/rice), [rickrollrc](https://github.com/keroserene/rickrollrc), [nyan.sh](https://gist.github.com/wting/5278321)
 
 ## Communication
 * __BBS-MUD Client__: [TinTin++](http://tintin.sourceforge.net/features.php)
@@ -209,7 +209,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Log Visualizer__: glTail -> [Logstalgia](https://github.com/acaudwell/Logstalgia)
 * __Network Flow__: Argos -> HFlow -> [nfdump](https://github.com/phaag/nfdump) ([nfsen](http://nfsen.sourceforge.net/))
 * __Network Latency__: [SmokePing](https://github.com/oetiker/SmokePing) -> [bmon](https://github.com/tgraf/bmon)
-* __Network Monitoring__: [iftop](http://www.ex-parrot.com/pdw/iftop/), [NetHogs](https://github.com/raboof/nethogs), [vnStat](https://github.com/vergoh/vnstat), [NCMatrix](https://inconsolation.wordpress.com/2014/02/01/ncmatrix-the-original-with-a-twist/)
+* __Network Monitoring__: [iftop](http://www.ex-parrot.com/pdw/iftop/), [NetHogs](https://github.com/raboof/nethogs), [vnStat](https://github.com/vergoh/vnstat)
 * __Port Monitoring__: [psad](https://directory.fsf.org/wiki/Port_Scan_Attack_Detector)
 * __Process Monitoring__: [lsof](https://people.freebsd.org/~abe/) -> [PSmisc](https://directory.fsf.org/wiki/Psmisc)
 * __Serial Monitoring__: [ttylog](https://github.com/rocasa/ttylog) -> [slsnif](https://github.com/aeruder/slsnif)
@@ -252,29 +252,29 @@ All apps are from F-Droid, may not be much but is a start.
 * __Tray Icon__: Volume Icon -> Volti
 
 ### Image
-* __Bitmaps to Vector Conversion__: AutoTrace -> Potrace
+* __Bitmaps to Vector Conversion__: AutoTrace -> [Potrace](https://directory.fsf.org/wiki/Potrace)
 * __Diagram Editor__: Pencil Project -> Dia -> Graphviz
-* __Bitmap Graphics Digital Drawing__: Krita -> MyPaint -> XPaint
+* __Bitmap Graphics Digital Drawing__: Krita -> MyPaint -> [XPaint](https://directory.fsf.org/wiki/Xpaint)
 * __Coloring Digital Drawing__: STYLE2PAINTS
 * __Fonts Digital Drawing__: FontForge
-* __Vector Digital Drawing__: Inkscape -> Xfig
-* __Image Editing__: RawTherapee -> darktable -> Gimp + G'MIC -> ImageMagick (display, import)
-* __Image Viewer__: Feh -> sxiv -> display (ImageMagick) -> fim/fbi
-* __Plotting__: Gnuplot -> PLplot
-* __Screenshots__: Shutter -> scrot -> maim -> import (ImageMagick) -> fbcat (FBGrab)
+* __Vector Digital Drawing__: Inkscape -> [Xfig](http://mcj.sourceforge.net/)
+* __Image Editing__: RawTherapee -> darktable -> Gimp + [G'MIC](https://github.com/dtschump/gmic) -> ImageMagick (display, import)
 * __Image Optimizing__: pngcrush -> pngquant -> OptiPNG
+* __Image Viewer__: Feh -> sxiv -> display (ImageMagick) -> [fim](http://www.nongnu.org/fbi-improved/)/[fbi](https://github.com/fcarlier/fbida)
+* __Plotting__: Gnuplot -> [PLplot](http://plplot.sourceforge.net/)
+* __Screenshots__: Shutter -> scrot -> maim -> import (ImageMagick) -> [fbcat](https://github.com/jwilk/fbcat) (FBGrab)
 
 ### Metadata
-* __Metadata__: Easytag -> Beets -> ExifTool
+* __Metadata__: [Easytag](https://wiki.gnome.org/Apps/EasyTAG) -> [Beets](https://github.com/beetbox/beets) -> [ExifTool](http://exiftool.sourceforge.net/)
 
 ### Video
-* __Compositing__: CinePaint -> Natron
-* __Datamoshing__: Autodatamosh
-* __2D Digital Animation__: Synfig -> OpenToonz
+* __Compositing__: [CinePaint](http://www.cinepaint.org/) -> [Natron](https://github.com/MrKepzie/Natron)
+* __Datamoshing__: [Autodatamosh](https://github.com/grampajoe/Autodatamosh)
+* __2D Digital Animation__: [Synfig](https://www.synfig.org/) -> [OpenToonz](https://github.com/opentoonz/opentoonz)
 * __3D Digital Animation__: Blender
-* __Screencasting__: Open Broadcaster Studio -> SimpleScreenRecorder -> FFmpeg -> ttyrec (+ seq2gif)
+* __Screencasting__: Open Broadcaster Studio -> SimpleScreenRecorder -> [FFmpeg](https://www.linuxquestions.org/questions/linux-general-1/record-using-framebuffer-video-grabber-4175464119/) -> [ttyrec](https://github.com/mjording/ttyrec) (+ [seq2gif](https://github.com/saitoha/seq2gif))
 * __Video Editing__: Kdenlive -> Cinelerra-cv -> OpenShot -> FFmpeg
-* __Video Player__: MPV -> VLC (nvlc) -> MPlayer
+* __Video Player__: MPV -> VLC (nvlc) -> [MPlayer](https://mplayerhq.hu)
 * __Video to gif__: Video2Gif -> ImageMagick (convert) -> FFmpeg
 * __Video Transcoding__: HandBrake -> WinFF -> FFmpeg
 
@@ -496,6 +496,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Port Tunnel__: stunnel -> knockd
 * __Proxy Server__: Tinyproxy
 * __Service Manager__: sslh, xinetd
+* __Streaming__: Peerflix (+ Torrentflix) -> Libresonic -> Syncplay -> VLC -> FFmpeg
 * __Torrent Tracker__: Ocelot -> Gazelle
 * __Tunneling__: ProxyChains -> VPNEncap -> VPNCHAINS
 * __Tunneling VM__: PIA Tunnel, Whonix
