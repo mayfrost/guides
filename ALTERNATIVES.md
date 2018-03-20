@@ -388,17 +388,17 @@ All apps are from F-Droid, may not be much but is a start.
 * __Steganography__: [StegoShare](http://stegoshare.sourceforge.net/) -> [Steghide](https://github.com/StefanoDeVuono/steghide) -> [SNOW](http://www.darkside.com.au/snow/) -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
 
 ## Programming
-* __Build Automation__: Gradle, Buildroot
+* __Build Automation__: [Gradle](https://github.com/gradle/gradle), [Buildroot](https://github.com/buildroot/buildroot)
 * __Cache__: Memcached -> EnhanceIO -> dm-cache -> bcache
-* __Code Beautifier__: HTML Tidy -> UniversalIndentGUI
-* __Compiling Speeding Up__: distcc, ccache
-* __Documentation Browser__: Zeal -> Devhelp
-* __Documentation Generator__: perlpod, bashdoc, Doxygen
-* __Issue Tracking System__: Bugzilla -> GNATS
-* __Linting__: ShellCheck, Source-highlight
-* __Source Code Navigation__: LXR: The Linux Cross Referencer -> GNU GLOBAL -> cscope -> Ctags -> cgvg -> [ack](https://beyondgrep.com/) -> [ag](https://github.com/ggreer/the_silver_searcher)
-* __Toolchain__: IcedTea (OpenJDK), GnuCOBOL, GNU Toolchain (GNU Make, GNU Build System -Autotools-, GNU m4, GNU Binutils, GNU bison, GCC)
-* __Version Control__: Git (+ tig) -> Fossil -> RCS
+* __Code Beautifier__: [UniversalIndentGUI](https://github.com/danblakemore/universal-indent-gui), HTML Tidy
+* __Compiling Speeding Up__: [distcc](https://github.com/distcc/distcc), [ccache](https://github.com/ccache/ccache)
+* __Documentation Browser__: Devhelp -> [Zeal](https://github.com/zealdocs/zeal)
+* __Documentation Generator__: perlpod, [bashdoc](https://github.com/ajdiaz/bashdoc), Doxygen
+* __Issue Tracking System__: Bugzilla -> [GNATS](https://www.gnu.org/software/gnats/)
+* __Linting__: [ShellCheck](https://github.com/koalaman/shellcheck), [GNU Source-highlight](https://www.gnu.org/software/src-highlite/)
+* __Source Code Navigation__: [LXR: The Linux Cross Referencer](http://lxr.sourceforge.net/en/index.php) -> [GNU GLOBAL](https://www.gnu.org/software/global/) -> [cscope](http://cscope.sourceforge.net/) -> [Ctags](https://github.com/universal-ctags/ctags) -> [cgvg](https://github.com/uzi/cgvg) -> [ack](https://beyondgrep.com/) -> [ag](https://github.com/ggreer/the_silver_searcher)
+* __Toolchain__: [IcedTea](https://directory.fsf.org/wiki/IcedTea) (OpenJDK), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), GNU Toolchain (GNU Make, GNU Build System -Autotools-, GNU m4, GNU Binutils, GNU bison, GCC)
+* __Version Control__: Git (+ [tig](https://github.com/jonas/tig)) -> [Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) -> [RCS](https://www.gnu.org/software/rcs/)
 
 ## Remote Access
 * __Configuration Management__: Puppet -> CFEngine -> cdist
