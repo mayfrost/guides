@@ -304,7 +304,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Mind Mapping__: FreeMind
 * __Office Suites__: LibreOffice -> [Siag Office](http://siag.nu/) -> [catdoc](https://github.com/petewarden/catdoc) (xls2csv, catppt, wordview)
 * __Offline Dictionary__: Goldendict -> Artha -> [dict](http://www.dict.org/w/software/software)
-* __Outliner__: [TreeSheets](https://github.com/aardappel/treesheets) -> Vault 3 -> GJots2 -> Emacs (Org-mode) -> Vim (Vimoutliner or Vim-orgmode) -> [hnb](http://hnb.sourceforge.net/Screen-shots/)
+* __Outliner__: [TreeSheets](https://github.com/aardappel/treesheets) -> Vault 3 -> GJots2 -> Emacs (Org-mode) -> Vim (Vimoutliner or Vim-orgmode) -> [hnb](http://hnb.sourceforge.net/Screen-shots/) -> [snb](https://github.com/drbig/snb)
 * __PDF Editing__: [PDF SaM](https://github.com/torakiki/pdfsam) -> Poppler
 * __Personal Assistant__: [Mycroft](https://mycroft.ai/), [betty](https://github.com/pickhardt/betty), [Climate](https://github.com/adtac/climate), [Suicide Linux](https://qntm.org/suicide)
 * __Personal Organizer__: Wyrd -> [calcurse](https://directory.fsf.org/wiki/Calcurse) -> when -> cal
@@ -322,9 +322,9 @@ All apps are from F-Droid, may not be much but is a start.
 * __Word Processor__: Libreoffice Writter -> Abiword -> MinEd -> [WordGrinder](http://cowlark.com/wordgrinder/) + Pandoc
 
 ## Package Management
-* __Gaming Platform__: LGOGDownloader (GOG.com), SteamCMD (Steam), Lutris
-* __Packaging Tools__: Alien -> Open Build Service -> CheckInstall -> GNU Stow
-* __Portable Apps__: Flatpak -> Snappy -> AppImage
+* __Gaming Platform__: [LGOGDownloader](https://github.com/Sude-/lgogdownloader) (GOG.com), [SteamCMD](https://linode.com/docs/game-servers/install-steamcmd-for-a-steam-game-server/) (Steam), [Lutris](https://github.com/lutris/lutris)
+* __Packaging Tools__: [Alien](https://joeyh.name/code/alien/) -> [Open Build Service](http://openbuildservice.org/) -> [CheckInstall](https://directory.fsf.org/wiki/CheckInstall) -> [GNU Stow](https://directory.fsf.org/wiki/Stow)
+* __Portable Apps__: Flatpak -> Snappy -> [AppImage](https://github.com/AppImage)
 * __Universal Package Managers__: pkgsrc -> GNU Guix
 
 ## Pentesting
