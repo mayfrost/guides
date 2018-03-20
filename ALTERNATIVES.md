@@ -375,16 +375,16 @@ All apps are from F-Droid, may not be much but is a start.
 * __Windows Registry Editor__: [Offline NT Password & Registry Editor (chntpw)](http://pogostick.net/~pnh/ntpasswd/)
 
 ## Privacy
-* __Anti Stylometry__: Anonymouth, renamer
-* __Disk Cleaner__: BleachBit -> bleachbit_cli (BleachBit) -> shred -> Dban
-* __Boot Encryption__: cryptboot
-* __Disk Encryption__: StegFS -> dm-crypt
-* __File Encryption__: GNU Privacy Assistant -> ccrypt -> GNU Privacy Guard
-* __Full Storage Encryption__: VeraCrypt -> tcplay (TrueCrypt implementation) -> Keyringer -> Tomb
-* __Identity Generator__: The Random Identity Generator (rig)
-* __Password Generator__: pwgen -> apg
-* __Password Manager__: KeePassX -> pass (+ pass-tomb) -> kpcli
-* __Steganography__: StegoShare -> Steghide -> SNOW -> Steganoroute
+* __Anti Stylometry__: [Anonymouth](https://github.com/psal/anonymouth), [renamer](https://github.com/CaptainBlacklace/Renamer)
+* __Disk Cleaner__: [Dban](https://sourceforge.net/projects/dban/) -> bleachbit_cli ([BleachBit](https://github.com/bleachbit/bleachbit)) -> shred (GNU Coreutils)
+* __Boot Encryption__: [cryptboot](https://github.com/xmikos/cryptboot)
+* __Disk Encryption__: [StegFS](https://www.mcdonald.org.uk/StegFS/) -> [dm-crypt](https://gitlab.com/cryptsetup/cryptsetup/wikis/DMCrypt)
+* __File Encryption__: [GNU Privacy Assistant](https://www.gnupg.org/related_software/gpa/) -> ccrypt -> [GNU Privacy Guard](https://www.gnupg.org/)
+* __Full Storage Encryption__: VeraCrypt -> [tcplay](https://github.com/bwalex/tc-play) (TrueCrypt implementation) -> [Tomb](https://github.com/dyne/Tomb)
+* __Identity Generator__: [The Random Identity Generator (rig)](http://rig.sourceforge.net/)
+* __Password Generator__: [pwgen](https://github.com/jbernard/pwgen) -> [apg](https://github.com/Distrotech/apg)
+* __Password Manager__: KeePassX -> [pass](https://www.passwordstore.org/) (+ [pass-tomb](https://github.com/roddhjav/pass-tomb), + [passmenu](https://github.com/cdown/passmenu)) -> [kpcli](https://github.com/alecsammon/kpcli)
+* __Steganography__: StegoShare -> Steghide -> SNOW -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
 
 ## Programming
 * __Build Automation__: Gradle, Buildroot
