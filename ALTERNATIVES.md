@@ -112,6 +112,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
 * __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
 * __Search Engine (Torrents)__: Magnetissimo -> [magnetico](https://github.com/boramalper/magnetico)
+* __Secret Sharing__: [Keyringer](https://tails.boum.org/doc/encryption_and_privacy/keyringer/index.en.html)
 * __Streaming__: [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [BasicTV](https://github.com/dako300/basictv)
 * __Version Control (Decentralized Github)__: [GitTorrent](https://github.com/mfyuce/GitTorrent)
 * __VPN__:  [PeerVPN](https://github.com/peervpn/peervpn)
@@ -384,7 +385,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Identity Generator__: [The Random Identity Generator (rig)](http://rig.sourceforge.net/)
 * __Password Generator__: [pwgen](https://github.com/jbernard/pwgen) -> [apg](https://github.com/Distrotech/apg)
 * __Password Manager__: KeePassX -> [pass](https://www.passwordstore.org/) (+ [pass-tomb](https://github.com/roddhjav/pass-tomb), + [passmenu](https://github.com/cdown/passmenu)) -> [kpcli](https://github.com/alecsammon/kpcli)
-* __Steganography__: StegoShare -> Steghide -> SNOW -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
+* __Steganography__: [StegoShare](http://stegoshare.sourceforge.net/) -> [Steghide](https://github.com/StefanoDeVuono/steghide) -> [SNOW](http://www.darkside.com.au/snow/) -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
 
 ## Programming
 * __Build Automation__: Gradle, Buildroot
