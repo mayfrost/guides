@@ -260,7 +260,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Vector Digital Drawing__: Inkscape -> [Xfig](http://mcj.sourceforge.net/)
 * __Image Editing__: RawTherapee -> darktable -> Gimp + [G'MIC](https://github.com/dtschump/gmic) -> ImageMagick (display, import)
 * __Image Optimizing__: pngcrush -> pngquant -> OptiPNG
-* __Image Viewer__: Feh -> sxiv -> display (ImageMagick) -> [fim](http://www.nongnu.org/fbi-improved/)/[fbi](https://github.com/fcarlier/fbida)
+* __Image Viewer__: Feh -> sxiv -> display (ImageMagick) -> [fim](http://www.nongnu.org/fbi-improved/) / [fbi (fbida)](https://github.com/fcarlier/fbida)
 * __Plotting__: Gnuplot -> [PLplot](http://plplot.sourceforge.net/)
 * __Screenshots__: Shutter -> scrot -> maim -> import (ImageMagick) -> [fbcat](https://github.com/jwilk/fbcat) (FBGrab)
 
@@ -274,8 +274,8 @@ All apps are from F-Droid, may not be much but is a start.
 * __3D Digital Animation__: Blender
 * __Screencasting__: Open Broadcaster Studio -> SimpleScreenRecorder -> [FFmpeg](https://www.linuxquestions.org/questions/linux-general-1/record-using-framebuffer-video-grabber-4175464119/) -> [ttyrec](https://github.com/mjording/ttyrec) (+ [seq2gif](https://github.com/saitoha/seq2gif))
 * __Video Editing__: Kdenlive -> Cinelerra-cv -> OpenShot -> FFmpeg
-* __Video Player__: MPV -> VLC (nvlc) -> [MPlayer](https://mplayerhq.hu)
-* __Video to gif__: Video2Gif -> ImageMagick (convert) -> FFmpeg
+* __Video Player__: MPV -> nvlc (VLC) -> [MPlayer](https://mplayerhq.hu)
+* __Video to gif__: Video2Gif -> convert (ImageMagick) -> FFmpeg
 * __Video Transcoding__: [HandBrake](https://handbrake.fr/) -> WinFF -> FFmpeg
 
 ## Network Setup
@@ -293,33 +293,33 @@ All apps are from F-Droid, may not be much but is a start.
 * __Supplicant__: [wpa_supplicant](https://w1.fi/wpa_supplicant/)
 
 ## Office
-* __CHM Viewer__: xCHM -> CHMLib (extract_chmLib)
-* __Database__ RRDtool, MariaDB -> Datalog -> GNU Recutils
+* __CHM Viewer__: xCHM -> [CHMLib](http://www.jedrea.com/chmlib/) (extract_chmLib)
+* __Database__ RRDtool, MariaDB -> [Datalog](http://des.sourceforge.net/) -> [GNU Recutils](https://directory.fsf.org/wiki/Recutils)
 * __Desktop Publishing__: Scribus
-* __Document Processor__: Emacs (AUCTeX) -> LyX -> GNU TeXmacs
-* __Ebook Viewer__: Calibre -> Okular -> Zathura -> fimgs/fbi
-* __Flashcards__: Anki -> awk flashcards
+* __Document Processor__: Emacs (AUCTeX) -> LyX -> [GNU TeXmacs](http://texmacs.org/tmweb/home/welcome.en.html)
+* __Ebook Viewer__: Calibre -> Okular -> Zathura -> [fimgs (fim)](http://www.nongnu.org/fbi-improved/) / [fbgs (fbida)](https://www.kraxel.org/blog/linux/fbida/)
+* __Flashcards__: Anki
 * __Gamification__: HabitRPG -> Habitica
 * __Input Method Editor__: iBus -> Fcitx -> SCIM
 * __Mind Mapping__: FreeMind
-* __Office Suites__: Siag Office -> LibreOffice -> catdoc (xls2csv, catppt, wordview)
-* __Offline Dictionary__: Goldendict -> Artha -> dict
-* __Outliner__: TreeSheets -> Vault 3 -> GJots2 -> Emacs (Org-mode) -> Vim (Vimoutliner or Vim-orgmode) -> hnb
-* __PDF Editing__: PDF SaM -> Poppler
-* __Personal Assistant__: Mycroft -> betty -> Climate -> The Fuck -> Suicide Linux
-* __Personal Organizer__: Wyrd -> calcurse -> when -> cal
-* __Presentation__: Beamer -> Sozi -> Text Presentation Program
-* __Printers__: CUPS -> LPR
-* __Repetitive Strain Injury__: Workrave
-* __Speed Reading__: speedread
-* __Spell Check__: Aspell -> Ispell
-* __Spreadsheets__: Libreoffice Calc -> Gnumeric -> Oleo -> SC-IM + Pandoc
-* __Text Editor (and IDE)__: Emacs (nox) -> Vim -> Nano -> Vile -> xwpe -> GNU Zile
-* __Text Formatting and Pretty Printing__: Pandoc -> Textutils (par, fmt)
-* __Text-To-Speech__: Orca -> Gespeaker -> eBook-speaker (+ pandoc) -> eSpeak
-* __Typing Training__: Klavaro -> nlkt -> GNU Typist
-* __Weather Forecast__: AWeather -> Weather Util -> rrdweather
-* __Word Processor__: Libreoffice Writter -> Abiword -> MinEd -> WordGrinder + Pandoc
+* __Office Suites__: LibreOffice -> [Siag Office](http://siag.nu/) -> [catdoc](https://github.com/petewarden/catdoc) (xls2csv, catppt, wordview)
+* __Offline Dictionary__: Goldendict -> Artha -> [dict](http://www.dict.org/w/software/software)
+* __Outliner__: [TreeSheets](https://github.com/aardappel/treesheets) -> Vault 3 -> GJots2 -> Emacs (Org-mode) -> Vim (Vimoutliner or Vim-orgmode) -> [hnb](http://hnb.sourceforge.net/Screen-shots/)
+* __PDF Editing__: [PDF SaM](https://github.com/torakiki/pdfsam) -> Poppler
+* __Personal Assistant__: [Mycroft](https://mycroft.ai/), [betty](https://github.com/pickhardt/betty), [Climate](https://github.com/adtac/climate), [Suicide Linux](https://qntm.org/suicide)
+* __Personal Organizer__: Wyrd -> [calcurse](https://directory.fsf.org/wiki/Calcurse) -> when -> cal
+* __Presentation__: Beamer -> Sozi -> [Text Presentation Program](https://github.com/akrennmair/tpp)
+* __Printers__: CUPS -> [LPR](http://www.lprng.com/)
+* __Repetitive Strain Injury__: [Workrave](https://directory.fsf.org/wiki/Workrave)
+* __Speed Reading__: [speedread](https://github.com/pasky/speedread)
+* __Spell Check__: [Aspell](https://directory.fsf.org/wiki/Aspell)
+* __Spreadsheets__: Libreoffice Calc -> Gnumeric -> Oleo -> [SC-IM](https://github.com/andmarti1424/sc-im) + Pandoc
+* __Text Editor (and IDE)__: Emacs (nox) -> Vim -> Nano -> Vile -> [xwpe](https://github.com/amagnasco/xwpe) (full IDE in the terminal) -> [GNU Zile](https://directory.fsf.org/wiki/GNU_Zile)
+* __Text Formatting and Pretty Printing__: Pandoc, par, fmt (Textutils)
+* __Text-To-Speech__: Orca -> Gespeaker -> [eBook-speaker](https://directory.fsf.org/wiki/EBook-speaker) (+ pandoc) -> [eSpeak](https://github.com/espeak-ng/espeak-ng/)
+* __Typing Training__: Klavaro -> nlkt -> [GNU Typist](https://www.gnu.org/software/gtypist/)
+* __Weather Forecast__: AWeather -> [Weather Util](http://fungi.yuggoth.org/weather/) -> [rrdweather](https://github.com/tolecnal/rrdweather)
+* __Word Processor__: Libreoffice Writter -> Abiword -> MinEd -> [WordGrinder](http://cowlark.com/wordgrinder/) + Pandoc
 
 ## Package Management
 * __Gaming Platform__: LGOGDownloader (GOG.com), SteamCMD (Steam), Lutris
