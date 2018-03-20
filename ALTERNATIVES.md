@@ -71,7 +71,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Keybinding__: Xbindkeys -> sxhkd -> loadkeys (+ keymaps)
 * __Keyboard Layout__: XKB -> xmodmap -> loadkeys (+ keymaps)
 * __Login Manager__: SLiM -> [Qingy](http://qingy.sourceforge.net/)
-* __Macro Recorder__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke)-> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
+* __Macro Recorder__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke) -> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
 * __Nested Display__: Xephyr -> Xnest
 * __Notification Daemon__: dunst -> [slstatus](https://github.com/drkhsh/slstatus)
 * __Notification Server__: Libcanberra + Libnotify -> xmessage
@@ -223,8 +223,8 @@ All apps are from F-Droid, may not be much but is a start.
 
 ## Multimedia
 ### ASCii Art
-* __ANSI Drawing__: cadubi -> SHPaint -> MysticDraw
-* __ANSi Viewer__: ANSiMat
+* __ANSI Drawing__: [cadubi](https://github.com/statico/cadubi) -> [SHPaint](http://bruxy.regnet.cz/web/linux/EN/ansi-art-sh-paint/) -> [MysticDraw](https://archive.org/details/tucows_8499_Mystic_Draw)
+* __ANSi Viewer__: [ANSiMat](https://sourceforge.net/projects/ansimat/)
 * __ASCii Animation__: blessed -> Durdraw -> drawille
 * __ASCii Banner__: shellpic -> TOIlet -> FIGlet -> sysvbanner
 * __ASCii Drawing__: JavE -> textdraw -> Aewan
