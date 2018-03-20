@@ -342,37 +342,37 @@ All apps are from F-Droid, may not be much but is a start.
 * __OSINT__: [Creepy](https://github.com/ilektrojohn/creepy) -> [Netglub](http://www.netglub.org/)
 * __Packet Sniffer__: [tcpflow](https://directory.fsf.org/wiki/Tcpflow) -> [Tshark (Wireshark TUI)](https://github.com/wireshark/wireshark) -> [tcpdump](https://directory.fsf.org/wiki/Tcpdump)
 * __Reconnaissance Framework__: [dsniff](https://www.monkey.org/~dugsong/dsniff/) (urlsnarf, filesnarf, webspy, Tcpkill, macof, arpspoof) -> [Nmap](https://nmap.org/) -> [ngrep](https://github.com/jpr5/ngrep/)
-* __WiFi Scanner__: [Kismet](https://www.kismetwireless.net/)
+* __WiFi Scanner__: [FLUXION](https://github.com/wi-fi-analyzer/fluxion) -> [Kismet](https://www.kismetwireless.net/)
 
 ### Network Tampering
-* __General__: Netsed -> cryptcat (Netcat) -> socat
-* __Man-in-the-middle Attack__: Morpheus -> sslstrip -> Ettercap
-* __Packet Crafting__: Ostinato -> hping
-* __Traffic Generator__: Mausezahn
-* __Traffic Replay__: Tcpreplay
+* __General__: [Netsed](https://github.com/xlab/netsed) -> [cryptcat](http://cryptcat.sourceforge.net/) (Netcat) -> [socat](https://github.com/craSH/socat)
+* __Man-in-the-middle Attack__: [Morpheus](https://github.com/r00t-3xp10it/morpheus) -> [sslstrip](https://github.com/moxie0/sslstrip) -> [Ettercap](https://github.com/Ettercap/ettercap)
+* __Packet Crafting__: [Ostinato](https://github.com/pstavirs/ostinato) -> [hping](https://github.com/antirez/hping)
+* __Traffic Generator__: [Mausezahn](https://github.com/uweber/mausezahn)
+* __Traffic Replay__: [Tcpreplay](https://github.com/appneta/tcpreplay)
 
 ### Password Cracking
-* __BIOS__: CmosPwd
-* __Compressed Files__: RarCrack
-* __General__: John the Ripper
-* __PDF__: pdfcrack
-* __Remote__: THC Hydra
-* __WiFi__: FLUXION -> Reaver -> Aircrack-ng
-* __Windows__: Ophcrack
-* __Wordlist Generator__: CUPP -> crunch
+* __BIOS__: [CmosPwd](https://www.cgsecurity.org/wiki/CmosPwd)
+* __Compressed Files__: [RarCrack](http://rarcrack.sourceforge.net/)
+* __General__: [John the Ripper](https://github.com/magnumripper/JohnTheRipper) / [Hashcat](https://github.com/hashcat/hashcat)
+* __PDF__: [pdfcrack](https://github.com/x2q/pdfcrack-ng)
+* __Remote__: [THC Hydra](https://github.com/vanhauser-thc/thc-hydra)
+* __WiFi__: [Reaver](https://code.google.com/archive/p/reaver-wps/) -> [Aircrack-ng](https://github.com/aircrack-ng/aircrack-ng)
+* __Windows__: [Ophcrack](http://ophcrack.sourceforge.net/)
+* __Wordlist Generator__: [CUPP](https://github.com/Mebus/cupp) -> [crunch](https://github.com/crunchsec/crunch)
 
 ### Vulnerability Scanner
-* __Application Vulnerability__: BCCF -> afl-fuzz
-* __Backdooring__: Cymothoa -> Veil-Evasion -> Backdoor Factory -> Evilgrade - EvilAbigail
-* __Cross-Scripting__: xsser
-* __Exploit Famework__: WebSploit -> w3af
-* __Network Vulnerability__: pytbull -> Yersinia
-* __Post Exploitation__: Empire -> Post Exploitation Collection -> Post Exploitation Linux Toolkit -> poet
-* __Social Engineering__: Social Engineering Toolkit
-* __SQL Injection__: sqlmap
-* __SSH Denial__: screwSSH
-* __Web Application Vulnerability__: Nikto
-* __Windows Registry Editor__: Offline NT Password & Registry Editor (chntpw)
+* __Application Vulnerability__: [BCCF](https://github.com/joxeankoret/nightmare/blob/master/doc/blind_code_coverage_fuzzer.txt) -> [afl-fuzz](http://lcamtuf.coredump.cx/afl/)
+* __Backdooring__: [Veil](https://github.com/Veil-Framework/Veil) -> [Cymothoa](http://cymothoa.sourceforge.net/) -> [Backdoor Factory](https://github.com/secretsquirrel/the-backdoor-factory) -> [Evilgrade](https://github.com/infobyte/evilgrade) - [EvilAbigail](https://github.com/GDSSecurity/EvilAbigail)
+* __Cross-Scripting__: [xsser](https://github.com/epsylon/xsser)
+* __Exploit Famework__: [WebSploit](https://github.com/websploit/websploit) -> [w3af](https://github.com/andresriancho/w3af)
+* __Network Vulnerability__: [pytbull](http://pytbull.sourceforge.net/) -> [Yersinia](https://github.com/tomac/yersinia)
+* __Post Exploitation__: [Empire](https://github.com/EmpireProject/Empire) -> [Post Exploitation Collection](https://github.com/mubix/post-exploitation) (Windows) -> [mimikatz](https://github.com/gentilkiwi/mimikatz) (Windows) -> [Post Exploitation Linux Toolkit](https://github.com/cys3c/PELT) -> [poet](https://github.com/mossberg/poet)
+* __Social Engineering__: [Social Engineering Toolkit](https://github.com/trustedsec/social-engineer-toolkit)
+* __SQL Injection__: [sqlmap](https://github.com/sqlmapproject/sqlmap)
+* __SSH Denial__: [screwSSH](https://github.com/isislab/screwSSH)
+* __Web Application Vulnerability__: [Nikto](https://github.com/sullo/nikto)
+* __Windows Registry Editor__: [Offline NT Password & Registry Editor (chntpw)](http://pogostick.net/~pnh/ntpasswd/)
 
 ## Privacy
 * __Anti Stylometry__: Anonymouth, renamer
