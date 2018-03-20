@@ -486,10 +486,10 @@ All apps are from F-Droid, may not be much but is a start.
 * __File Server__: Google Drive -> Nextcloud -> WebDAV -> Syncthing -> vsftpd -> sftp
 * __General__: GNU Serveez
 * __Groupware__: Alfresco -> eXo Platform -> Citadel/UX
-* __IRC BNC__: ZNC (IRC bouncer)
 * __IRC Bot__: Seabattle (bot game), Eggdrop (IRC bot)
+* __IRC Bouncer (BNC)__: ZNC
 * __IRC Fileserver__: iroffer
-* __IRC Server__: UnrealIRCd/Charybdis -> InspIRCd -> ngIRCd
+* __IRC Server__: UnrealIRCd / Charybdis -> InspIRCd -> ngIRCd
 * __Learning Management System__: GnuTutor -> OpenExpert -> Syllog
 * __MUD Server__: PennMUSH
 * __Paint chat__: [Drawpile](https://github.com/drawpile/Drawpile) -> [Collab](https://github.com/MoonGames/collab-desktop)
