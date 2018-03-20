@@ -401,20 +401,20 @@ All apps are from F-Droid, may not be much but is a start.
 * __Version Control__: Git (+ [tig](https://github.com/jonas/tig)) -> [Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) -> [RCS](https://www.gnu.org/software/rcs/)
 
 ## Remote Access
-* __Configuration Management__: Puppet -> CFEngine -> cdist
-* __Control Panel__: Webmin
-* __Diskless Booting__: iPXE -> netboot
+* __Configuration Management__: Puppet -> CFEngine -> [cdist](https://github.com/ungleich/cdist)
+* __Control Panel__: [Webmin](https://github.com/webmin/webmin)
+* __Diskless Booting__: iPXE -> [netboot](http://netboot.sourceforge.net/)
 * __PC-Mobile Connection__: KDE Connect -> Wammu -> BitPim -> AndroidTools
-* __Remote Desktop Client__: rdesktop -> Remmina -> fbvnc
-* __Remote Desktop Server__: xrdp
-* __Remote Execution__: pconsole
-* __Remote File Manager__: KodExplorer
-* __Remote Login__: Mosh -> OpenSSH
+* __Remote Desktop Client__: rdesktop -> Remmina -> [fbvnc](https://github.com/zohead/fbvnc)
+* __Remote Desktop Server__: [xrdp](https://github.com/neutrinolabs/xrdp)
+* __Remote Execution__: [pconsole](https://github.com/walterdejong/pconsole)
+* __Remote File Manager__: [KodExplorer](https://github.com/kalcaddle/KodExplorer)
+* __Remote Login__: Mosh -> OpenSSH -> [lsh](https://directory.fsf.org/wiki/Lsh)
 * __Remote X Apps__: Xpra > X11 forwarding
-* __Reverse Shell__: icmpsh -> RevSh
-* __Serial Console__: GNU Screen -> Minicom -> Picocom
-* __Server Provisioning__: FAI
-* __Wake-on-LAN__: wakeonlan
+* __Reverse Shell__: [icmpsh](http://inquisb.github.io/icmpsh/) -> [RevSh](https://directory.fsf.org/wiki/Reverse_Shell)
+* __Serial Console__: Minicom -> [Picocom](https://directory.fsf.org/wiki/Picocom) -> Qodem / [GNU Screen](http://www.noah.org/wiki/Screen_notes#using_screen_as_a_serial_terminal)
+* __Server Provisioning__: [FAI](http://fai-project.org/)
+* __Wake-on-LAN__: [wakeonlan](https://github.com/jpoliv/wakeonlan)
 
 ## Science And Engineering
 * __Artificial Intelligence__: Golly, Arcade Learning Environment, ETHNOS, CTF, Conscious Artificial Intelligence, OpenCog, OpenAI
