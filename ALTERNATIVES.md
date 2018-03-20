@@ -106,6 +106,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __E-Commerce__: [FIX Agora](http://fixagora.sourceforge.net/) + [OpenBazaar](https://github.com/OpenBazaar) + [Bitnation](https://github.com/Bit-Nation) + [GNU Taler](https://taler.net/en/)
 * __Forum__: [Decentraland](https://decentraland.org/) -> [GNU Social (Mastodon)](https://joinmastodon.org/) -> [NNTPChan](https://github.com/majestrate/nntpchan)
 * __Gossip Network (Decentralized Network Service Discovery)__: [peernet](https://github.com/substack/peernet)
+* __Volunteer Computing__: [BOINC](https://github.com/BOINC/boinc) (+ [boinctui](https://github.com/suleman1971/boinctui))
 * __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> [DTube](https://github.com/dtube) -> [Alexandria](http://www.alexandria.io/) (watch [this video](https://www.youtube.com/watch?v=So4n2ZBSMxg) on how Alexandria works)
 * __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://streamtoken.net/)
 * __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
@@ -329,19 +330,19 @@ All apps are from F-Droid, may not be much but is a start.
 
 ## Pentesting
 ### Exploitables
-* __Distros__: Security Scenario Generator (SecGen) -> Damn Vulnerable Linux -> Metasploitable -> Kioptrix
-* __Web Apps__: Mutillidae -> hackxor -> WebGoat
+* __Distros__: [Security Scenario Generator (SecGen)](https://github.com/cliffe/SecGen) -> [Damn Vulnerable Linux](https://sourceforge.net/projects/virtualhacking/files/os/dvl/) -> [Metasploitable](https://www.offensive-security.com/metasploit-unleashed/Requirements/) -> [Kioptrix](http://www.kioptrix.com/blog/)
+* __Web Apps__: [Mutillidae](https://sourceforge.net/projects/mutillidae/) -> [hackxor](http://hackxor.net/) -> [WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
 
 ### Network Scanner
-* __DNS Client__: nslookup, whois, host, dig, dnsenum, dnstracer
-* __Link Scanner__: Metagoofil -> Linklint (+ linklint2dot)
-* __Network Enumeration__: SSLScan, p0f, PRADS
-* __Network File Retrieval__: tcpxtract -> Driftnet
-* __Network Mapping__: Open Visual Traceroute -> EtherApe -> Xtract -> weathermap4rrd -> Paris Traceroute -> MTR -> Ping -> arping
-* __OSINT__: Creepy -> Netglub
-* __Packet Sniffer__: tcpflow -> Tshark (Wireshark TUI) -> tcpdump
-* __Reconnaissance Framework__: dsniff (urlsnarf, filesnarf, webspy, Tcpkill, macof, arpspoof) -> Nmap -> ngrep
-* __WiFi Scanner__: Kismet
+* __DNS Client__: nslookup, whois, host, dig, [dnsenum](https://github.com/fwaeytens/dnsenum), [dnstracer](https://directory.fsf.org/wiki/Dnstracer)
+* __Link Scanner__: [Metagoofil](https://github.com/laramies/metagoofil) -> [Linklint](http://www.linklint.org/) (+ [linklint2dot](http://www.deltadevelopment.de/users/christoph/linklint2dot/))
+* __Network Enumeration__: [SSLScan](https://github.com/rbsec/sslscan), [p0f](https://github.com/p0f/p0f), [PRADS](https://gamelinux.github.io/prads/)
+* __Network File Retrieval__: [tcpxtract](http://tcpxtract.sourceforge.net/) -> [Driftnet](https://github.com/deiv/driftnet)
+* __Network Mapping__: [Open Visual Traceroute](http://visualtraceroute.net/) -> [EtherApe](http://etherape.sourceforge.net/) -> [Xtract](https://sourceforge.net/projects/netxtract/) -> [weathermap4rrd](http://weathermap4rrd.tropicalex.net/) -> [Paris Traceroute](https://github.com/libparistraceroute/paris-traceroute-OLD) -> [MTR](https://www.bitwizard.nl/mtr/) -> Ping -> [arping](https://github.com/ThomasHabets/arping)
+* __OSINT__: [Creepy](https://github.com/ilektrojohn/creepy) -> [Netglub](http://www.netglub.org/)
+* __Packet Sniffer__: [tcpflow](https://directory.fsf.org/wiki/Tcpflow) -> [Tshark (Wireshark TUI)](https://github.com/wireshark/wireshark) -> [tcpdump](https://directory.fsf.org/wiki/Tcpdump)
+* __Reconnaissance Framework__: [dsniff](https://www.monkey.org/~dugsong/dsniff/) (urlsnarf, filesnarf, webspy, Tcpkill, macof, arpspoof) -> [Nmap](https://nmap.org/) -> [ngrep](https://github.com/jpr5/ngrep/)
+* __WiFi Scanner__: [Kismet](https://www.kismetwireless.net/)
 
 ### Network Tampering
 * __General__: Netsed -> cryptcat (Netcat) -> socat
@@ -430,7 +431,6 @@ All apps are from F-Droid, may not be much but is a start.
 * __Scientific Calculator__: KAlgebra -> GraphMonkey -> SageMath -> Maxima + PLplot
 * __Software-defined radio (SDR)__: GNU Radio (+ Gqrx) -> rtl-sdr
 * __Statistical Package__: Physics Analysis WorkStation -> KNIME -> gretl -> PSPP
-* __Volunteer Computing__: BOINC (+ boinctui)
 
 ## Security
 ### Containment
