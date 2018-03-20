@@ -417,21 +417,21 @@ All apps are from F-Droid, may not be much but is a start.
 * __Wake-on-LAN__: [wakeonlan](https://github.com/jpoliv/wakeonlan)
 
 ## Science And Engineering
-* __Artificial Intelligence__: Golly, Arcade Learning Environment, ETHNOS, CTF, Conscious Artificial Intelligence, OpenCog, OpenAI
-* __Astronomy__: SaVi satellite constellation visualizer -> Stellarium -> Celestia -> SkyCat
-* __Bioinformatics__: Bioclipse -> EMBOSS -> BioJava -> BioPerl -> SAMtools
-* __CAD__: AutoCAD -> FreeCAD -> OpenSCAD
-* __Chemistry__: MolComp, ChemE
-* __Circuit Simulator__: ngspice, Gnucap
-* __Data Visualization__: SocNetV -> Cytoscape -> Tulip -> Gephi
-* __Fractals__: Mandelbulber
-* __Geographic Information System__: qGIS
-* __Street Map__: JOSM -> Osmosis
-* __Subway Map__: qMetro
-* __Virtual Globe__: Marble
-* __Scientific Calculator__: KAlgebra -> GraphMonkey -> SageMath -> Maxima + PLplot
-* __Software-defined radio (SDR)__: GNU Radio (+ Gqrx) -> rtl-sdr
-* __Statistical Package__: Physics Analysis WorkStation -> KNIME -> gretl -> PSPP
+* __Artificial Intelligence__: [Golly](http://golly.sourceforge.net/), [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment), [ETHNOS](http://ethnos.sourceforge.net/), [CTF](http://ctf.sourceforge.net/), [Conscious Artificial Intelligence](https://sourceforge.net/projects/cai/), [OpenCog](https://github.com/opencog/opencog), [OpenAI](https://github.com/openai)
+* __Astronomy__: [SaVi satellite constellation visualizer](https://sourceforge.net/projects/savi/), Stellarium -> Celestia -> [SkyCat](https://github.com/Starlink/skycat)
+* __Bioinformatics__: [Bioclipse](https://github.com/bioclipse) -> [EMBOSS](https://github.com/kimrutherford/EMBOSS) -> [BioJava](https://github.com/biojava/biojava) -> [BioPerl](https://github.com/bioperl) -> [SAMtools](https://github.com/samtools/samtools)
+* __CAD__: AutoCAD -> FreeCAD -> [OpenSCAD](https://github.com/openscad/openscad)
+* __Chemistry__: [MolComp](http://molcomp.sourceforge.net/)
+* __Circuit Simulator__: [ngspice](http://ngspice.sourceforge.net/), [Gnucap](http://www.gnucap.org/dokuwiki/doku.php?id=gnucap:start)
+* __Data Visualization__: [SocNetV](https://github.com/socnetv) -> [Cytoscape](https://github.com/cytoscape) -> [Tulip](http://tulip.labri.fr/TulipDrupal/) -> [Gephi](https://github.com/gephi/gephi)
+* __Fractals__: [Mandelbulber](https://github.com/buddhi1980/mandelbulber2)
+* __Geographic Information System__: [qGIS](https://github.com/qgis/QGIS)
+* __Street Map__: [JOSM](https://github.com/openstreetmap/josm) -> [Osmosis](https://github.com/openstreetmap/osmosis)
+* __Subway Map__: [qMetro](http://qmetro.sourceforge.net/maps/)
+* __Virtual Globe__: [Marble](https://github.com/KDE/marble)
+* __Scientific Calculator__: [KAlgebra](https://github.com/KDE/kalgebra) -> GraphMonkey -> SageMath -> [Maxima](http://maxima.sourceforge.net/) + PLplot
+* __Software-defined radio (SDR)__: [GNU Radio](https://github.com/gnuradio) (+ [Gqrx](https://github.com/csete/gqrx)) -> [rtl-sdr](https://github.com/osmocom/rtl-sdr)
+* __Statistical Package__: [Physics Analysis WorkStation](http://paw.web.cern.ch/paw/) -> [KNIME](https://github.com/knime/knime-core) -> [gretl](http://gretl.sourceforge.net/) -> [PSPP](https://directory.fsf.org/wiki/Pspp)
 
 ## Security
 ### Containment
