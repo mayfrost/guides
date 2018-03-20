@@ -149,7 +149,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __File Archiver__: PeaZip -> Xarchiver -> [Atool](http://www.nongnu.org/atool/)
 * __File Manager__: SpaceFM -> [File System Visualizer](https://github.com/mcuelenaere/fsv) -> Midnight Commander -> [vifm](https://wiki.vifm.info/index.php?title=How_to_preview_images) -> FDclone -> Ytree -> [nnn](https://github.com/jarun/nnn)
 * __File Search__: [DocFetcher](http://docfetcher.sourceforge.net/en/index.html) -> [ANGRYsearch](https://github.com/DoTheEvo/ANGRYsearch) -> [Puggle](http://puggle.sourceforge.net/) -> [regain](http://regain.sourceforge.net/index.php) -> find
-* __File Synchronization__: [Unison](https://github.com/bcpierce00/unison) -> [git-annex](https://git-annex.branchable.com/) -> zsync -> Rsync
+* __File Synchronization__: [Unison](https://github.com/bcpierce00/unison) -> [git-annex](https://git-annex.branchable.com/) -> Rsync
 * __Image Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> [Mapivi](http://mapivi.sourceforge.net/mapivi.shtml) -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
 * __RegEx Builder__: [regexxer](https://directory.fsf.org/wiki/Regexxer) -> [Visual REGEXP](http://laurent.riesterer.free.fr/regexp/) -> [txt2regex](https://github.com/aureliojargas/txt2regex)
 
@@ -379,7 +379,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Anti Stylometry__: [Anonymouth](https://github.com/psal/anonymouth), [renamer](https://github.com/CaptainBlacklace/Renamer)
 * __Disk Cleaner__: [Dban](https://sourceforge.net/projects/dban/) -> bleachbit_cli ([BleachBit](https://github.com/bleachbit/bleachbit)) -> shred (GNU Coreutils)
 * __Boot Encryption__: [cryptboot](https://github.com/xmikos/cryptboot)
-* __Disk Encryption__: [StegFS](https://www.mcdonald.org.uk/StegFS/) -> [dm-crypt](https://gitlab.com/cryptsetup/cryptsetup/wikis/DMCrypt)
+* __Disk Encryption__: [StegFS](https://www.mcdonald.org.uk/StegFS/), [dm-crypt](https://gitlab.com/cryptsetup/cryptsetup/wikis/DMCrypt)
 * __File Encryption__: [GNU Privacy Assistant](https://www.gnupg.org/related_software/gpa/) -> ccrypt -> [GNU Privacy Guard](https://www.gnupg.org/)
 * __Full Storage Encryption__: VeraCrypt -> [tcplay](https://github.com/bwalex/tc-play) (TrueCrypt implementation) -> [Tomb](https://github.com/dyne/Tomb)
 * __Identity Generator__: [The Random Identity Generator (rig)](http://rig.sourceforge.net/)
@@ -481,6 +481,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __E-Mail Server (MTA)__: Kolab -> Postfix -> Exim -> cmail
 * __E-Mail Spam Filter__: DSPAM -> SpamAssassin
 * __E-Mail Validation__: OpenDKIM, SPF
+* __File Distribution__: zsync
 * __Forum__: lainchan -> vichan -> Akari-BBS -> sshchan -> KrautBBS -> 1436chan
 * __File Server__: Google Drive -> Nextcloud -> WebDAV -> Syncthing -> vsftpd -> sftp
 * __General__: GNU Serveez
