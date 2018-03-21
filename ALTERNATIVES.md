@@ -462,11 +462,6 @@ All apps are from F-Droid, may not be much but is a start.
 * __Network Intrusion Prevention__: Fail2ban -> [Sshguard](https://www.sshguard.net/)
 
 ## Server
-* __Domain Specific Authentication Server__: Ident, SKS
-* __Directory Service__: OpenLDAP -> NIS
-* __RADIUS__: FreeRADIUS -> GNU Radius
-* __SSO__: GNU Shishi (Kerberos)
-* __Suites__: FreeIPA -> SSSD
 * __BBS Server__: Citadel -> Synchronet -> Mystic BBS -> BBS100
 * __Captcha__: cool-php-captcha
 * __Chat__:  [sshtalk](https://2ton.com.au/sshtalk/) -> [write, wall, mesg](http://www.unixpapa.com/write.html)
@@ -511,6 +506,13 @@ All apps are from F-Droid, may not be much but is a start.
 * __Wiki__: XWiki -> ikiwiki
 * __Wireless Access Point__: hostapd
 * __XMPP Server__: Tigase
+
+### Server Authentication
+* __Domain Specific Authentication Server__: Ident, [SKS](https://bitbucket.org/skskeyserver/sks-keyserver/wiki/Home)
+* __Directory Service__: [OpenLDAP](https://www.openldap.org/) -> [NIS](http://www.linux-nis.org/nis/)
+* __RADIUS__: [FreeRADIUS](https://github.com/FreeRADIUS) -> [GNU Radius](https://www.gnu.org/software/radius/)
+* __SSO__: [GNU Shishi](https://www.gnu.org/software/shishi/) (Kerberos)
+* __Suites__: [FreeIPA](https://github.com/freeipa/freeipa) -> [SSSD](https://github.com/SSSD/sssd)
 
 ## System Tools
 * __BIOS__: Coreboot -> Libreboot
