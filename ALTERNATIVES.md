@@ -453,13 +453,13 @@ All apps are from F-Droid, may not be much but is a start.
 * __Host System Auditing__: [OpenVAS](http://www.openvas.org/) -> [Linux Security Auditing Tool (LSAT)](https://github.com/triode3/lsat) -> [Bastille](http://bastille-linux.sourceforge.net/) -> [Lynis](https://github.com/CISOfy/lynis)
 * __Integrity Check__ AIDE -> [systraq](https://directory.fsf.org/wiki/Systraq) -> [Tripwire](https://github.com/Tripwire/tripwire-open-source) -> [Samhain](https://www.la-samhna.de/samhain/)
 * __Rootkit Detection__: [rkhunter](http://rkhunter.sourceforge.net/), [Chkrootkit](http://www.chkrootkit.org/), [Unhide](http://www.unhide-forensics.info/)
-* __System Logging__: Syslog-ng -> sysklogd
+* __System Logging__: [Syslog-ng](https://github.com/balabit/syslog-ng) -> [sysklogd](http://www.infodrom.org/projects/sysklogd/)
 
 ### Network Intrusion
-* __Firewall__: gufw -> ufw -> iptables (+ ipset) -> nftables
-* __Man-In-The-Middle (MITM) Detection__: ArpON, Arpalert
-* __Network Intrusion Detection__: Snort -> Suricata
-* __Network Intrusion Prevention__: Fail2ban -> Sshguard
+* __Firewall__: gufw -> ufw -> iptables (+ [ipset](http://ipset.netfilter.org/)) -> [nftables](https://netfilter.org/projects/nftables/)
+* __Man-In-The-Middle (MITM) Detection__: [ArpON](http://arpon.sourceforge.net/), [Arpalert](http://www.arpalert.org/arpalert.html)
+* __Network Intrusion Detection__: Snort -> [Suricata](https://github.com/OISF/suricata)
+* __Network Intrusion Prevention__: Fail2ban -> [Sshguard](https://www.sshguard.net/)
 
 ## Server
 * __Domain Specific Authentication Server__: Ident, SKS
