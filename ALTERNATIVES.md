@@ -462,21 +462,21 @@ All apps are from F-Droid, may not be much but is a start.
 * __Network Intrusion Prevention__: Fail2ban -> [Sshguard](https://www.sshguard.net/)
 
 ## Server
-* __BBS Server__: Citadel -> Synchronet -> Mystic BBS -> BBS100
-* __Captcha__: cool-php-captcha
+* __BBS Server__: [Citadel](http://www.citadel.org/doku.php) -> Synchronet -> [Mystic BBS](http://www.tinysbbs.com/files/prog/MSRC20B3.ZIP) -> [BBS100](https://directory.fsf.org/wiki/Bbs100)
+* __Captcha__: [cool-php-captcha](https://github.com/josecl/cool-php-captcha)
 * __Chat__:  [sshtalk](https://2ton.com.au/sshtalk/) -> [write, wall, mesg](http://www.unixpapa.com/write.html)
-* __CMS__: WordPress -> GetSimple CMS -> werc
+* __CMS__: WordPress -> [GetSimple CMS](https://github.com/GetSimpleCMS/GetSimpleCMS) -> [werc](http://werc.cat-v.org/)
 * __Collaborative Real-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
-* __Direct Connect Server__: uhub
-* __DLNA__: Universal Media Server -> ReadyMedia (a.k.a. MiniDLNA)
-* __Document Management System__: OpenKM -> LogicalDOC -> EPrints
-* __E-Mail Filtering (LDA)__: Dovecot -> procmail
-* __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> mairix
-* __E-Mail Notifier__: mswatch
-* __E-Mail Server (MTA)__: Kolab -> Postfix -> Exim -> cmail
-* __E-Mail Spam Filter__: DSPAM -> SpamAssassin
-* __E-Mail Validation__: OpenDKIM, SPF
-* __File Distribution__: zsync
+* __Direct Connect Server__: [uhub](https://www.uhub.org/)
+* __DLNA__: [Universal Media Server](https://github.com/UniversalMediaServer/UniversalMediaServer) -> [ReadyMedia](http://minidlna.sourceforge.net/) (a.k.a. MiniDLNA)
+* __Document Management System__: [OpenKM](https://github.com/openkm/document-management-system) -> [LogicalDOC](https://github.com/logicaldoc/document-management-software) -> [EPrints](https://github.com/eprints/eprints)
+* __E-Mail Filtering (LDA)__: Dovecot -> [procmail](https://github.com/Distrotech/procmail)
+* __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> [mairix](https://github.com/rc0/mairix)
+* __E-Mail Notifier__: [mswatch](http://mswatch.sourceforge.net/)
+* __E-Mail Server (MTA)__: Kolab -> Postfix -> Exim -> [cmail](http://cmail.rocks/)
+* __E-Mail Spam Filter__: DSPAM -> [SpamAssassin](https://github.com/apache/spamassassin)
+* __E-Mail Validation__: [OpenDKIM](http://opendkim.org/), [SPF](http://www.openspf.org/)
+* __File Distribution__: [zsync](http://zsync.moria.org.uk/)
 * __Forum__: lainchan -> vichan -> Akari-BBS -> sshchan -> KrautBBS -> 1436chan
 * __File Server__: Google Drive -> Nextcloud -> WebDAV -> Syncthing -> vsftpd -> sftp
 * __General__: GNU Serveez
@@ -516,7 +516,7 @@ All apps are from F-Droid, may not be much but is a start.
 
 ## System Tools
 * __BIOS__: Coreboot -> Libreboot
-* __Boot Loader__: GRUB 2 -> GRUB Legacy -> SYSLINUX -> LILO (or ELILO for UEFI)
+* __[Boot Loader](https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md)__: GRUB 2 -> GRUB Legacy -> SYSLINUX -> LILO (or ELILO for UEFI)
 * __Custom Initramfs__: mkinitcpio -> dracut -> mkinitramfs
 * __Filesystem__: Btrfs, XFS, Ext4, JFS, Reiser4, Bcachefs
 * __Hibernation__: TuxOnIce -> uswsusp
@@ -524,6 +524,6 @@ All apps are from F-Droid, may not be much but is a start.
 * __IPC__: DBus -> ipcs
 * __Job Scheduler__: Slurm -> Cron
 * __Load in RAM__: E4rat -> readahead -> preload
-* __Service Manager (to be used with an init__: bum -> OpenRC -> chkconfig -> daemontools-encore -> perp
+* __Service Manager (to be used with an init)__: bum -> OpenRC -> chkconfig -> daemontools-encore -> perp
 * __Settings Manager__: Linux Lite Control Center -> Linux Registry -> [Augeas](https://github.com/hercules-team/augeas)
 * __Utilities__: Mtools -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
