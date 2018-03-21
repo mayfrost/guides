@@ -516,14 +516,14 @@ All apps are from F-Droid, may not be much but is a start.
 * __Suites__: [FreeIPA](https://github.com/freeipa/freeipa) -> [SSSD](https://github.com/SSSD/sssd)
 
 ## System Tools
-* __BIOS__: Coreboot -> Libreboot
-* __[Boot Loader](https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md)__: GRUB 2 -> GRUB Legacy -> SYSLINUX -> LILO (or ELILO for UEFI)
-* __Custom Initramfs__: mkinitcpio -> dracut -> mkinitramfs
-* __Filesystem__: Btrfs, XFS, Ext4, JFS, Reiser4, Bcachefs
-* __Hibernation__: TuxOnIce -> uswsusp
-* __Init Daemon__: Upstart -> SysVinit -> runit -> OpenRC -> Initng -> sinit
-* __IPC__: DBus -> ipcs
-* __Job Scheduler__: Slurm -> Cron
+* __BIOS__: Coreboot -> [Libreboot](https://libreboot.org/)
+* __[Boot Loader](https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md)__: GRUB 2 -> GRUB Legacy -> [SYSLINUX](http://www.syslinux.org/wiki/index.php?title=The_Syslinux_Project) -> [LILO](https://lilo.alioth.debian.org/) (or [ELILO](https://sourceforge.net/projects/elilo/) for UEFI)
+* __Custom Initramfs__: mkinitcpio -> dracut -> [mkinitramfs](https://github.com/tokiclover/mkinitramfs-ll)
+* __Filesystem__: XFS, Ext4, [JFS](http://jfs.sourceforge.net/), [Reiser4](https://reiser4.wiki.kernel.org/index.php/Main_Page), [Bcachefs](https://github.com/8l/Bcachefs)
+* __Hibernation__: [TuxOnIce](https://github.com/NigelCunningham/tuxonice-kernel) -> [uswsusp](http://suspend.sourceforge.net/)
+* __Init Daemon__: Upstart -> SysVinit -> runit -> OpenRC -> [Initng](https://github.com/initng/initng) -> [sinit](https://github.com/henrysher/sinit)
+* __IPC__: DBus -> ipcs (util-linux)
+* __Job Scheduler__: [Slurm](https://github.com/SchedMD/slurm) -> Cron
 * __Load in RAM__: E4rat -> readahead -> preload
 * __Service Manager (to be used with an init)__: bum -> OpenRC -> chkconfig -> daemontools-encore -> perp
 * __Settings Manager__: Linux Lite Control Center -> Linux Registry -> [Augeas](https://github.com/hercules-team/augeas)
