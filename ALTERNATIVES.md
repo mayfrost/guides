@@ -524,7 +524,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Init Daemon__: Upstart -> SysVinit -> runit -> OpenRC -> [Initng](https://github.com/initng/initng) -> [sinit](https://github.com/henrysher/sinit)
 * __IPC__: DBus -> ipcs (util-linux)
 * __Job Scheduler__: [Slurm](https://github.com/SchedMD/slurm) -> [fcron](http://fcron.free.fr/) (Cron), [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en)
-* __Load in RAM__: E4rat -> readahead -> preload
-* __Service Manager (to be used with an init)__: bum -> OpenRC -> chkconfig -> daemontools-encore -> perp
+* __Load in RAM__: [E4rat](https://github.com/ShyPixie/e4rat-lite) -> readahead -> [preload](https://sourceforge.net/projects/preload/)
+* __Service Manager (to be used with an init)__: [bum](https://launchpad.net/bum) -> OpenRC -> [chkconfig](https://github.com/fedora-sysv/chkconfig) -> [daemontools-encore](https://github.com/bruceg/daemontools-encore) -> [perp](https://github.com/jdavisp3/perp)
 * __Settings Manager__: Linux Lite Control Center -> Linux Registry -> [Augeas](https://github.com/hercules-team/augeas)
 * __Utilities__: Mtools -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
