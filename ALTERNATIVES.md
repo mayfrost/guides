@@ -472,7 +472,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Document Management System__: [OpenKM](https://github.com/openkm/document-management-system) -> [LogicalDOC](https://github.com/logicaldoc/document-management-software) -> [EPrints](https://github.com/eprints/eprints)
 * __E-Mail Filtering (LDA)__: Dovecot -> [procmail](https://github.com/Distrotech/procmail)
 * __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> [mairix](https://github.com/rc0/mairix)
-* __E-Mail Mailing Lists__: Mailman -> [Dada Mail](https://github.com/justingit/dada-mail) -> [Sympa](https://github.com/sympa-community) -> [ezmlm](https://github.com/bruceg/ezmlm-idx)
+* __E-Mail Mailing Lists__: Mailman -> [Sympa](https://github.com/sympa-community) -> [Dada Mail](https://github.com/justingit/dada-mail) -> [ezmlm](https://github.com/bruceg/ezmlm-idx)
 * __E-Mail Notifier__: [mswatch](http://mswatch.sourceforge.net/)
 * __E-Mail Server (MTA)__: Kolab -> Postfix -> Exim -> [cmail](http://cmail.rocks/)
 * __E-Mail Spam Filter__: DSPAM -> [SpamAssassin](https://github.com/apache/spamassassin)
@@ -491,11 +491,11 @@ All apps are from F-Droid, may not be much but is a start.
 * __Paint chat__: [Drawpile](https://github.com/drawpile/Drawpile) -> [Collab](https://github.com/MoonGames/collab-desktop)
 * __Pastebin__: Stikked -> Paste -> [PrivateBin](https://github.com/PrivateBin/PrivateBin)
 * __Political__: [LittleSis](https://github.com/public-accountability/littlesis-rails), [Loomio](https://github.com/loomio/loomio)
-* __Port Tunnel__: stunnel -> knockd
-* __Proxy Server__: Tinyproxy
-* __Service Manager__: sslh, xinetd
-* __Streaming__: Peerflix (+ Torrentflix) -> Libresonic -> Syncplay -> VLC -> FFmpeg
-* __Torrent Tracker__: Ocelot -> Gazelle
+* __Port Tunnel__: [stunnel](https://www.stunnel.org/) -> [knockd](https://github.com/jvinet/knock)
+* __Proxy Server__: [Tinyproxy](https://tinyproxy.github.io/)
+* __Service Manager__: [sslh](https://github.com/yrutschle/sslh), [xinetd](https://github.com/xinetd-org/xinetd)
+* __Streaming__: [Peerflix](https://github.com/mafintosh/peerflix) (+ [Torrentflix](https://github.com/ItzBlitz98/torrentflix)) -> [Libresonic](https://github.com/Libresonic/libresonic) -> [Syncplay](https://github.com/Syncplay/syncplay) -> [VLC](https://www.howtogeek.com/118075/how-to-stream-videos-and-music-over-the-network-using-vlc/) -> [FFmpeg](https://gist.github.com/olasd/9841772)
+* __Torrent Tracker__: [Ocelot](https://github.com/whatcd/ocelot) -> [Gazelle](https://github.com/WhatCD/Gazelle)
 * __Tunneling__: ProxyChains -> VPNEncap -> VPNCHAINS
 * __Tunneling VM__: PIA Tunnel, Whonix
 * __Usenet Server__: InterNetNews -> Leafnode
