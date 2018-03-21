@@ -474,14 +474,14 @@ All apps are from F-Droid, may not be much but is a start.
 * __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> [mairix](https://github.com/rc0/mairix)
 * __E-Mail Mailing Lists__: Mailman -> [Sympa](https://github.com/sympa-community) -> [Dada Mail](https://github.com/justingit/dada-mail) -> [ezmlm](https://github.com/bruceg/ezmlm-idx)
 * __E-Mail Notifier__: [mswatch](http://mswatch.sourceforge.net/)
-* __E-Mail Server (MTA)__: Kolab -> Postfix -> Exim -> [cmail](http://cmail.rocks/)
+* __E-Mail Server (MTA)__: [Mail-in-a-Box](https://mailinabox.email/) -> Postfix -> Exim -> [cmail](http://cmail.rocks/)
 * __E-Mail Spam Filter__: DSPAM -> [SpamAssassin](https://github.com/apache/spamassassin)
 * __E-Mail Validation__: [OpenDKIM](http://opendkim.org/), [SPF](http://www.openspf.org/)
 * __File Distribution__: [zsync](http://zsync.moria.org.uk/)
 * __Forum__: [lainchan](https://github.com/lainchan/lainchan) -> [Akari-BBS](https://github.com/microsounds/akari-bbs) -> [sshchan](https://github.com/einchan/sshchan) -> [1436chan](https://github.com/kibook/1436chan)
 * __File Server__: Google Drive -> Nextcloud -> WebDAV -> [Syncthing](https://github.com/syncthing/syncthing) -> [vsftpd](https://github.com/timonier/vsftpd) -> sftp / [SSHFS](https://github.com/libfuse/sshfs) (SSH)
 * __General__: [GNU Serveez](https://directory.fsf.org/wiki/Serveez)
-* __Groupware__: [Alfresco](https://www.alfresco.com/) -> [eXo Platform](https://github.com/exoplatform) -> [Citadel/UX](http://www.citadel.org/doku.php)
+* __Groupware__: [Alfresco](https://github.com/Alfresco) -> [eXo Platform](https://github.com/exoplatform) -> [Citadel/UX](http://www.citadel.org/doku.php)
 * __IRC Bot__: [Seabattle](https://github.com/GamesLT/SeaBattle.tcl) (bot game), [Eggdrop](https://www.eggheads.org/) (IRC bot)
 * __IRC Bouncer (BNC)__: [ZNC](https://github.com/znc/znc)
 * __IRC Fileserver__: [iroffer](https://github.com/grimneko/iroffer-modDinoex)
@@ -496,17 +496,17 @@ All apps are from F-Droid, may not be much but is a start.
 * __Service Manager__: [sslh](https://github.com/yrutschle/sslh), [xinetd](https://github.com/xinetd-org/xinetd)
 * __Streaming__: [Peerflix](https://github.com/mafintosh/peerflix) (+ [Torrentflix](https://github.com/ItzBlitz98/torrentflix)) -> [Libresonic](https://github.com/Libresonic/libresonic) -> [Syncplay](https://github.com/Syncplay/syncplay) -> [VLC](https://www.howtogeek.com/118075/how-to-stream-videos-and-music-over-the-network-using-vlc/) -> [FFmpeg](https://gist.github.com/olasd/9841772)
 * __Torrent Tracker__: [Ocelot](https://github.com/whatcd/ocelot) -> [Gazelle](https://github.com/WhatCD/Gazelle)
-* __Tunneling__: ProxyChains -> VPNEncap -> VPNCHAINS
-* __Tunneling VM__: PIA Tunnel, Whonix
-* __Usenet Server__: InterNetNews -> Leafnode
+* __Tunneling__: [ProxyChains](https://github.com/haad/proxychains) -> [VPNEncap](https://github.com/whussup/vpnencap) -> [VPNCHAINS](https://sourceforge.net/p/vpnchains/wiki/Home/)
+* __Tunneling VM__: [PIA Tunnel](https://www.privateinternetaccess.com/forum/discussion/1389/pia-tunnel-a-virtual-machine-vpn-tunnel), [Whonix](https://www.whonix.org/)
+* __Usenet Server__: [InterNetNews](https://www.eyrie.org/~eagle/software/inn/) -> [Leafnode](http://www.leafnode.org/)
 * __VoIP__:  Mumble -> [Linphone (linphonec)](https://www.linphone.org/) -> [sscall](https://github.com/Drakevr/sscall)
-* __VPN__: OpenVPN (+ PiVPN) -> WireGuard
-* __Web Caching__: Decentraleyes on a web browser -> Squid (+ SquidGuard, for Web Filtering)
-* __Web Filtering__: Ad blocker on a web browser -> Pi-hole -> Privoxy -> Hostsblock
+* __VPN__: OpenVPN (+ [PiVPN](http://www.pivpn.io/)) -> [WireGuard](https://github.com/WireGuard/wireguard-rs)
+* __Web Caching__: Decentraleyes on a web browser -> [Squid](http://www.squid-cache.org/) (+ [SquidGuard](http://squidguard.org/) for Web Filtering)
+* __Web Filtering__: Ad blocker on a web browser -> [Pi-hole](https://github.com/pi-hole/pi-hole) -> [Privoxy](http://www.privoxy.org/) -> [Hostsblock](https://github.com/gaenserich/hostsblock)
 * __Web Server__: Apache -> Nginx -> lighttpd -> [darkhttpd](https://github.com/ryanmjacobs/darkhttpd) -> [Bucktooth](http://gopher.floodgap.com/gopher/gw?gopher/1/buck) (Gopher) + [Bucky](https://github.com/kibook/bucky) (for HTTP exit) -> [GNU Libmicrohttpd](https://www.gnu.org/software/libmicrohttpd/)
-* __Wiki__: XWiki -> ikiwiki
-* __Wireless Access Point__: hostapd
-* __XMPP Server__: Tigase
+* __Wiki__: [XWiki](https://github.com/xwiki/xwiki-platform) -> [ikiwiki](https://ikiwiki.info/)
+* __Wireless Access Point__: [hostapd](https://github.com/OpenSecurityResearch/hostapd-wpe)
+* __XMPP Server__: [Tigase](https://github.com/kontalk/tigase-server)
 
 ### Server Authentication
 * __Domain Specific Authentication Server__: Ident (IRC), [SKS](https://bitbucket.org/skskeyserver/sks-keyserver/wiki/Home) (PGP)
