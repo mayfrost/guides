@@ -8,7 +8,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 
 * __Launcher__: Silverfish
 * __Facebook__: Tinfoil for Facebook
-* __Twitter__*: Tinfoil for Twitter
+* __Twitter__: Tinfoil for Twitter
 * __YouTube__: NewPipe
 * __E-Books__: Document Viewer
 * __Notes__: miniNoteViewer
@@ -472,7 +472,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Document Management System__: [OpenKM](https://github.com/openkm/document-management-system) -> [LogicalDOC](https://github.com/logicaldoc/document-management-software) -> [EPrints](https://github.com/eprints/eprints)
 * __E-Mail Filtering (LDA)__: Dovecot -> [procmail](https://github.com/Distrotech/procmail)
 * __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> [mairix](https://github.com/rc0/mairix)
-* __E-Mail Mailing Lists__: Mailman -> [Sympa](https://github.com/sympa-community) -> [ezmlm](https://github.com/bruceg/ezmlm-idx)
+* __E-Mail Mailing Lists__: Mailman -> [Dada Mail](https://github.com/justingit/dada-mail) -> [Sympa](https://github.com/sympa-community) -> [ezmlm](https://github.com/bruceg/ezmlm-idx)
 * __E-Mail Notifier__: [mswatch](http://mswatch.sourceforge.net/)
 * __E-Mail Server (MTA)__: Kolab -> Postfix -> Exim -> [cmail](http://cmail.rocks/)
 * __E-Mail Spam Filter__: DSPAM -> [SpamAssassin](https://github.com/apache/spamassassin)
@@ -487,10 +487,10 @@ All apps are from F-Droid, may not be much but is a start.
 * __IRC Fileserver__: [iroffer](https://github.com/grimneko/iroffer-modDinoex)
 * __IRC Server__: UnrealIRCd / Charybdis -> InspIRCd -> [ngIRCd](https://github.com/ngircd/ngircd)
 * __Learning Management System__: [GnuTutor](https://sourceforge.net/projects/gnututor/) -> [OpenExpert](https://sourceforge.net/projects/law-expert/) -> [Syllog](https://sourceforge.net/p/syllog/wiki/Home/)
-* __MUD Server__: PennMUSH
+* __MUD Server__: [PennMUSH](https://github.com/pennmush/pennmush)
 * __Paint chat__: [Drawpile](https://github.com/drawpile/Drawpile) -> [Collab](https://github.com/MoonGames/collab-desktop)
-* __Pastebin__: Stikked -> Paste -> PrivateBin
-* __Political__: LittleSis, Loomio
+* __Pastebin__: Stikked -> Paste -> [PrivateBin](https://github.com/PrivateBin/PrivateBin)
+* __Political__: [LittleSis](https://github.com/public-accountability/littlesis-rails), [Loomio](https://github.com/loomio/loomio)
 * __Port Tunnel__: stunnel -> knockd
 * __Proxy Server__: Tinyproxy
 * __Service Manager__: sslh, xinetd
@@ -503,7 +503,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __VPN__: OpenVPN (+ PiVPN) -> WireGuard
 * __Web Caching__: Decentraleyes on a web browser -> Squid (+ SquidGuard, for Web Filtering)
 * __Web Filtering__: Ad blocker on a web browser -> Pi-hole -> Privoxy -> Hostsblock
-* __Web Server__: Apache -> Nginx -> lighttpd -> darkhttpd -> [Bucktooth] (Gopher) + [Bucky](https://github.com/kibook/bucky) (for HTTP exit)
+* __Web Server__: Apache -> Nginx -> lighttpd -> [darkhttpd](https://github.com/ryanmjacobs/darkhttpd) -> [Bucktooth](http://gopher.floodgap.com/gopher/gw?gopher/1/buck) (Gopher) + [Bucky](https://github.com/kibook/bucky) (for HTTP exit) -> [GNU Libmicrohttpd](https://www.gnu.org/software/libmicrohttpd/)
 * __Wiki__: XWiki -> ikiwiki
 * __Wireless Access Point__: hostapd
 * __XMPP Server__: Tigase
