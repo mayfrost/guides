@@ -521,7 +521,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Custom Initramfs__: mkinitcpio -> dracut -> [mkinitramfs](https://github.com/tokiclover/mkinitramfs-ll)
 * __Filesystem__: XFS, Ext4, [JFS](http://jfs.sourceforge.net/), [Reiser4](https://reiser4.wiki.kernel.org/index.php/Main_Page), [Bcachefs](https://github.com/8l/Bcachefs)
 * __Hibernation__: [TuxOnIce](https://github.com/NigelCunningham/tuxonice-kernel) -> [uswsusp](http://suspend.sourceforge.net/)
-* __Init Daemon__: Upstart -> SysVinit -> runit -> OpenRC -> [Initng](https://github.com/initng/initng) -> [sinit](https://github.com/henrysher/sinit)
+* __Init Daemon__: Upstart -> SysVinit -> runit -> [Initng](https://github.com/initng/initng) -> [sinit](https://github.com/henrysher/sinit)
 * __IPC__: DBus -> ipcs (util-linux)
 * __Job Scheduler__: [Slurm](https://github.com/SchedMD/slurm) -> [fcron](http://fcron.free.fr/) (Cron), [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en)
 * __Load in RAM__: [E4rat](https://github.com/ShyPixie/e4rat-lite) -> readahead -> [preload](https://sourceforge.net/projects/preload/)
