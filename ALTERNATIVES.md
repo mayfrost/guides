@@ -523,7 +523,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Hibernation__: [TuxOnIce](https://github.com/NigelCunningham/tuxonice-kernel) -> [uswsusp](http://suspend.sourceforge.net/)
 * __Init Daemon__: Upstart -> SysVinit -> runit -> OpenRC -> [Initng](https://github.com/initng/initng) -> [sinit](https://github.com/henrysher/sinit)
 * __IPC__: DBus -> ipcs (util-linux)
-* __Job Scheduler__: [Slurm](https://github.com/SchedMD/slurm) -> Cron
+* __Job Scheduler__: [Slurm](https://github.com/SchedMD/slurm) -> [fcron](http://fcron.free.fr/) (Cron), [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en)
 * __Load in RAM__: E4rat -> readahead -> preload
 * __Service Manager (to be used with an init)__: bum -> OpenRC -> chkconfig -> daemontools-encore -> perp
 * __Settings Manager__: Linux Lite Control Center -> Linux Registry -> [Augeas](https://github.com/hercules-team/augeas)
