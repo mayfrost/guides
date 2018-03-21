@@ -472,20 +472,21 @@ All apps are from F-Droid, may not be much but is a start.
 * __Document Management System__: [OpenKM](https://github.com/openkm/document-management-system) -> [LogicalDOC](https://github.com/logicaldoc/document-management-software) -> [EPrints](https://github.com/eprints/eprints)
 * __E-Mail Filtering (LDA)__: Dovecot -> [procmail](https://github.com/Distrotech/procmail)
 * __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> [mairix](https://github.com/rc0/mairix)
+* __E-Mail Mailing Lists__: Mailman -> [Sympa](https://github.com/sympa-community) -> [ezmlm](https://github.com/bruceg/ezmlm-idx)
 * __E-Mail Notifier__: [mswatch](http://mswatch.sourceforge.net/)
 * __E-Mail Server (MTA)__: Kolab -> Postfix -> Exim -> [cmail](http://cmail.rocks/)
 * __E-Mail Spam Filter__: DSPAM -> [SpamAssassin](https://github.com/apache/spamassassin)
 * __E-Mail Validation__: [OpenDKIM](http://opendkim.org/), [SPF](http://www.openspf.org/)
 * __File Distribution__: [zsync](http://zsync.moria.org.uk/)
-* __Forum__: lainchan -> vichan -> Akari-BBS -> sshchan -> KrautBBS -> 1436chan
-* __File Server__: Google Drive -> Nextcloud -> WebDAV -> Syncthing -> vsftpd -> sftp
-* __General__: GNU Serveez
-* __Groupware__: Alfresco -> eXo Platform -> Citadel/UX
-* __IRC Bot__: Seabattle (bot game), Eggdrop (IRC bot)
-* __IRC Bouncer (BNC)__: ZNC
-* __IRC Fileserver__: iroffer
-* __IRC Server__: UnrealIRCd / Charybdis -> InspIRCd -> ngIRCd
-* __Learning Management System__: GnuTutor -> OpenExpert -> Syllog
+* __Forum__: [lainchan](https://github.com/lainchan/lainchan) -> [Akari-BBS](https://github.com/microsounds/akari-bbs) -> [sshchan](https://github.com/einchan/sshchan) -> [1436chan](https://github.com/kibook/1436chan)
+* __File Server__: Google Drive -> Nextcloud -> WebDAV -> [Syncthing](https://github.com/syncthing/syncthing) -> [vsftpd](https://github.com/timonier/vsftpd) -> sftp / [SSHFS](https://github.com/libfuse/sshfs) (SSH)
+* __General__: [GNU Serveez](https://directory.fsf.org/wiki/Serveez)
+* __Groupware__: [Alfresco](https://www.alfresco.com/) -> [eXo Platform](https://github.com/exoplatform) -> [Citadel/UX](http://www.citadel.org/doku.php)
+* __IRC Bot__: [Seabattle](https://github.com/GamesLT/SeaBattle.tcl) (bot game), [Eggdrop](https://www.eggheads.org/) (IRC bot)
+* __IRC Bouncer (BNC)__: [ZNC](https://github.com/znc/znc)
+* __IRC Fileserver__: [iroffer](https://github.com/grimneko/iroffer-modDinoex)
+* __IRC Server__: UnrealIRCd / Charybdis -> InspIRCd -> [ngIRCd](https://github.com/ngircd/ngircd)
+* __Learning Management System__: [GnuTutor](https://sourceforge.net/projects/gnututor/) -> [OpenExpert](https://sourceforge.net/projects/law-expert/) -> [Syllog](https://sourceforge.net/p/syllog/wiki/Home/)
 * __MUD Server__: PennMUSH
 * __Paint chat__: [Drawpile](https://github.com/drawpile/Drawpile) -> [Collab](https://github.com/MoonGames/collab-desktop)
 * __Pastebin__: Stikked -> Paste -> PrivateBin
@@ -502,13 +503,13 @@ All apps are from F-Droid, may not be much but is a start.
 * __VPN__: OpenVPN (+ PiVPN) -> WireGuard
 * __Web Caching__: Decentraleyes on a web browser -> Squid (+ SquidGuard, for Web Filtering)
 * __Web Filtering__: Ad blocker on a web browser -> Pi-hole -> Privoxy -> Hostsblock
-* __Web Server__: Apache -> Nginx -> lighttpd -> darkhttpd -> Bucktooth (+ Bucky, for HTTP exit, Bucktooth is Gopher)
+* __Web Server__: Apache -> Nginx -> lighttpd -> darkhttpd -> [Bucktooth] (Gopher) + [Bucky](https://github.com/kibook/bucky) (for HTTP exit)
 * __Wiki__: XWiki -> ikiwiki
 * __Wireless Access Point__: hostapd
 * __XMPP Server__: Tigase
 
 ### Server Authentication
-* __Domain Specific Authentication Server__: Ident, [SKS](https://bitbucket.org/skskeyserver/sks-keyserver/wiki/Home)
+* __Domain Specific Authentication Server__: Ident (IRC), [SKS](https://bitbucket.org/skskeyserver/sks-keyserver/wiki/Home) (PGP)
 * __Directory Service__: [OpenLDAP](https://www.openldap.org/) -> [NIS](http://www.linux-nis.org/nis/)
 * __RADIUS__: [FreeRADIUS](https://github.com/FreeRADIUS) -> [GNU Radius](https://www.gnu.org/software/radius/)
 * __SSO__: [GNU Shishi](https://www.gnu.org/software/shishi/) (Kerberos)
