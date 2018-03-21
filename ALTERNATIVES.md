@@ -503,7 +503,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __VPN__: OpenVPN (+ [PiVPN](http://www.pivpn.io/)) -> [WireGuard](https://github.com/WireGuard/wireguard-rs)
 * __Web Caching__: Decentraleyes on a web browser -> [Squid](http://www.squid-cache.org/) (+ [SquidGuard](http://squidguard.org/) for Web Filtering)
 * __Web Filtering__: Ad blocker on a web browser -> [Pi-hole](https://github.com/pi-hole/pi-hole) -> [Privoxy](http://www.privoxy.org/) -> [Hostsblock](https://github.com/gaenserich/hostsblock)
-* __Web Server__: Apache -> Nginx -> lighttpd -> [darkhttpd](https://github.com/ryanmjacobs/darkhttpd) -> [Bucktooth](http://gopher.floodgap.com/gopher/gw?gopher/1/buck) (Gopher) + [Bucky](https://github.com/kibook/bucky) (for HTTP exit) -> [GNU Libmicrohttpd](https://www.gnu.org/software/libmicrohttpd/)
+* __Web Server__: Apache -> Nginx -> lighttpd -> [darkhttpd](https://github.com/ryanmjacobs/darkhttpd) -> [Bucktooth](http://gopher.floodgap.com/gopher/gw?gopher/1/buck) (Gopher) + [Bucky](https://github.com/kibook/bucky) (for HTTP exit)
 * __Wiki__: [XWiki](https://github.com/xwiki/xwiki-platform) -> [ikiwiki](https://ikiwiki.info/)
 * __Wireless Access Point__: [hostapd](https://github.com/OpenSecurityResearch/hostapd-wpe)
 * __XMPP Server__: [Tigase](https://github.com/kontalk/tigase-server)
