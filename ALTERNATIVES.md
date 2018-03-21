@@ -435,24 +435,24 @@ All apps are from F-Droid, may not be much but is a start.
 
 ## Security
 ### Containment
-* __Access Control__: SELinux -> Smack -> AppArmor -> RSBAC
+* __Access Control__: SELinux -> Smack -> AppArmor -> [RSBAC](https://www.rsbac.org/)
 * __Authentication__: Polkit/ConsoleKit -> FakeRoot -> Sudo (visudo) -> Linux PAM
-* __Resource Usage Control__: ulimit -> Disk Quota
-* __Sandboxing__: Firejail -> Bubblewrap
+* __Resource Usage Control__: [Disk Quota](https://sourceforge.net/projects/linuxquota/) -> [quotatool](https://github.com/ekenberg/quotatool), ulimit, [cpulimit](https://github.com/opsengine/cpulimit)
+* __Sandboxing__: [Firejail](https://github.com/netblue30/firejail) -> [Bubblewrap](https://github.com/projectatomic/bubblewrap)
 
 ### Honeypots
-* __Client__: HoneyC -> Capture-HPC
-* __Distro Bundle__: HoneyDrive -> ADHD
-* __Server__: Honeyperl -> Nova -> LaBrea
-* __Web-Based__: HIHAT
+* __Client__: [HoneyC](https://projects.honeynet.org/honeyc), [Capture-HPC](https://projects.honeynet.org/capture-hpc)
+* __Distro Bundle__: [HoneyDrive](https://sourceforge.net/projects/honeydrive/) -> [ADHD](https://adhdproject.github.io/#!index.md)
+* __Server__: [Honeyperl](https://sourceforge.net/projects/honeyperl/) -> [Nova](https://github.com/DataSoft/Nova) -> [LaBrea](http://labrea.sourceforge.net/labrea-info.html)
+* __Web-Based__: [HIHAT](http://hihat.sourceforge.net/)
 
 ### Host Intrusion
-* __Anti Juice Jacking__: usbkill -> USBGuard
-* __Anti Malware__: ClamTk -> ClamAV -> Linux Malware Detect (LMD)
-* __Host Intrusion Detection Framework__: Defensive Tools For The Blind -> OSSEC -> Tiger
-* __Host System Auditing__: OpenVAS -> Linux Security Auditing Tool (LSAT) -> Bastille -> Lynis
-* __Integrity Check__ AIDE -> systraq -> Tripwire -> Samhain
-* __Rootkit Detection__: rkhunter, Chkrootkit, Unhide
+* __Anti Juice Jacking__: [usbkill](https://github.com/hephaest0s/usbkill), [USBGuard](https://github.com/USBGuard/usbguard)
+* __Anti Malware__: ClamTk -> [ClamAV](https://github.com/Cisco-Talos/clamav-devel) -> [Linux Malware Detect (LMD)](https://github.com/rfxn/linux-malware-detect)
+* __Host Intrusion Detection Framework__: [OSSEC](https://ossec.github.io/) -> [Tiger](http://www.nongnu.org/tiger/)
+* __Host System Auditing__: [OpenVAS](http://www.openvas.org/) -> [Linux Security Auditing Tool (LSAT)](https://github.com/triode3/lsat) -> [Bastille](http://bastille-linux.sourceforge.net/) -> [Lynis](https://github.com/CISOfy/lynis)
+* __Integrity Check__ AIDE -> [systraq](https://directory.fsf.org/wiki/Systraq) -> [Tripwire](https://github.com/Tripwire/tripwire-open-source) -> [Samhain](https://www.la-samhna.de/samhain/)
+* __Rootkit Detection__: [rkhunter](http://rkhunter.sourceforge.net/), [Chkrootkit](http://www.chkrootkit.org/), [Unhide](http://www.unhide-forensics.info/)
 * __System Logging__: Syslog-ng -> sysklogd
 
 ### Network Intrusion
