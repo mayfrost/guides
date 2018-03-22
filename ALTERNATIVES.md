@@ -68,7 +68,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Directory Browsing__: [fasd](https://github.com/clvv/fasd), [xd](https://github.com/fbb-git/xd), [fzy](https://github.com/jhawthorn/fzy)
 * __Framebuffer Environment__: [Fbterm](https://code.google.com/archive/p/fbterm/) -> [yaft (because sixel)](https://github.com/uobikiemukot/yaft) -> [hterm (because regis)](https://github.com/new299/hackterm)
 * __Hacker Culture__: ddate, fortune, The Hacker Test, The Jargon File
-* __Multiplexer__: [Twin](https://github.com/cosmos72/twin) -> Tmux  -> Byobu -> GNU Screen (+[sixel patch](https://gist.github.com/saitoha/7546579))
+* __Multiplexer__: Tmux  -> Byobu -> GNU Screen (+[sixel patch](https://gist.github.com/saitoha/7546579))
 * __Progress Viewers__: [progress](https://github.com/Xfennec/progress) -> [pv - Pipe Viewer](https://github.com/icetee/pv) -> [Advanced Copy](https://github.com/atdt/advcpmv)
 * __Scripting__: [GNU Parallel](https://www.gnu.org/software/parallel/), [empty](https://github.com/ierton/empty)
 * __Shells__: Bash -> mksh -> [PC-DCL](https://github.com/MichelValentin/PC-DCL) -> [rc](https://github.com/rakitzis/rc)
@@ -131,7 +131,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Still Wallpaper Changer__: FEH -> [hsetroot](https://github.com/elmiko/hsetroot) -> [imagemagick](https://imagemagick.org/discourse-server/viewtopic.php?t=16735) (but use 10MB more RAM than the others)
 * __Terminal As Wallpaper__: [root-tail](http://oldhome.schmorp.de/marc/root-tail.html) -> [xrootconsole](http://silicone.homelinux.org/projects/xrootconsole/)
 * __Video Wallpaper Changer__: mpv -> VLC (nvlc) -> MPlayer
-* __Window Manager__: FVWM (+ FvwmTabs and 4dwm theme) -> IceWM -> i3 -> [s3d (+ s3dfm)](http://s3d.sourceforge.net/) -> Vtwm -> [mwm](https://sourceforge.net/projects/motif/) -> [Amiwm](https://www.lysator.liu.se/~marcus/amiwm.html) -> [Ratpoison](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl) -> [katriawm](https://github.com/vain/katriawm) -> dwm (+ dwmstatus) -> [FrankenWM](https://github.com/sulami/FrankenWM) -> [TinyWM](http://incise.org/tinywm.html)
+* __Window Manager__: FVWM (+ FvwmTabs and 4dwm theme) -> IceWM -> i3 -> [s3d (+ s3dfm)](http://s3d.sourceforge.net/) -> [Amiwm](https://www.lysator.liu.se/~marcus/amiwm.html) -> [katriawm](https://github.com/vain/katriawm) -> [Ratpoison](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl) -> dwm (+ dwmstatus) -> [FrankenWM](https://github.com/sulami/FrankenWM) -> [TinyWM](http://incise.org/tinywm.html) -> [Twin](https://github.com/cosmos72/twin)
 * __Window Manipulation__: QuickTile -> wmctrl -> wmutils
 * __Worskpace Pager__: [3D-Desktop](http://desk3d.sourceforge.net/) -> [Skippy-XD](https://github.com/richardgv/skippy-xd)
 * __X Event Display__: xprop -> xwininfo -> xev
