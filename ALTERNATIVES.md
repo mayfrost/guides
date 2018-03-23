@@ -12,7 +12,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 3.1. [Desktop Client](#desktop-client)  
 4. [Desktop](#desktop)  
 5. [Disk Tools](#disk-tools)  
-6. [Decentralized Services](#decentralized-services)  
+6. [Decentralized Networking](#decentralized-networking)  
 7. [Emulation And Virtualization](#emulation-and-virtualization)  
 8. [Enterprise](#enterprise)  
 9. [File Utilities](#file-utilities)  
@@ -147,8 +147,9 @@ All apps are from F-Droid, may not be much but is a start.
 * __Partitioning__: Gparted -> cfdisk -> GNU Parted -> fdisk / sfdisk
 * __System Backup__: [Systemback](https://sourceforge.net/projects/systemback/) -> [Bacula](https://blog.bacula.org/) -> [FSArchiver](http://www.fsarchiver.org/) -> [CYA](https://www.cyberws.com/bash/cya/)
 
-## Decentralized Services
+## Decentralized Networking
 * __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> [nircd](https://github.com/Ronsor/nircd)
+* __Darknet__: [autovpn](https://github.com/adtac/autovpn) -> Tor -> [AnoNet](http://anonet.org/) -> i2p
 * __Distributed File Systems__: Samba -> NFS -> IPFS -> [GNUnet](https://gnunet.org/)
 * __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
 * __E-Commerce__: [FIX Agora](http://fixagora.sourceforge.net/) + [OpenBazaar](https://github.com/OpenBazaar) + [Bitnation](https://github.com/Bit-Nation) + [GNU Taler](https://taler.net/en/)
@@ -156,6 +157,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Gossip Network (Decentralized Network Service Discovery)__: [peernet](https://github.com/substack/peernet)
 * __Volunteer Computing__: [BOINC](https://github.com/BOINC/boinc) (+ [boinctui](https://github.com/suleman1971/boinctui))
 * __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> [DTube](https://github.com/dtube) -> [Alexandria](http://www.alexandria.io/) (watch [this video](https://www.youtube.com/watch?v=So4n2ZBSMxg) on how Alexandria works)
+* __Mesh Network__: Tinc -> cjdns -> -> open80211s (802.11s) -> [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki)
 * __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://streamtoken.net/)
 * __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
 * __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
@@ -331,15 +333,13 @@ All apps are from F-Droid, may not be much but is a start.
 ## Network Setup
 * __Bandwidth Shaping__: [Wondershaper](http://lartc.org/wondershaper/)
 * __Bandwidth Testing__: [speedtest-cli](https://github.com/sivel/speedtest-cli) / [speed-test](https://github.com/sindresorhus/speed-test)
-* __Darknet__: [autovpn](https://github.com/adtac/autovpn) -> Tor -> [AnoNet](http://anonet.org/) -> i2p
 * __DHCP Client__: dhclient -> dhcpcd
 * __DNS Encryption__: DNSSEC, DNSCrypt
 * __DNS Resolution__: Unbound + NDS -> BIND9
 * __MAC Manipulation__: [GNU MAC Changer](https://github.com/alobbs/macchanger)
-* __Mesh Networks__: Tinc -> cjdns -> [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki) / open80211s (802.11s)
 * __Network Encryption__: OpenSSL -> [LibreSSL](https://directory.fsf.org/wiki/Libressl) -> GnuTLS -> IPsec / [SAE](https://github.com/cozybit/authsae) (802.11s)
 * __Network Manager__: Wicd -> NetworkManager -> ConnMan -> [SetNet](http://kalos.mine.nu/setnet/)
-* __Networking Tools__: iproute2 (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (netstat, ifconfig)
+* __Networking Tools__: iproute2 (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (ifconfig, netstat)
 * __Supplicant__: [wpa_supplicant](https://w1.fi/wpa_supplicant/)
 
 ## Office
