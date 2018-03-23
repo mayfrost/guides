@@ -289,7 +289,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __DJing__: Mixxx
 * __Ear Training__: LenMus -> GNU Solfege
 * __Multiple Audio Streams__: pulseaudio -> [apulse](https://github.com/i-rinat/apulse)
-* __Music Player__: Audacious (+ Winamp Classic skin + GJay) -> cmus -> MPD (vimus/ncmpcpp) -> [MOC](http://moc.daper.net/) (+ moc-ffmpeg-plugin, [dmenu_mocp](https://github.com/pscha/dmenu_mocp))
+* __Music Player__: Audacious (+ [Winamp Classic skin](https://www.gnome-look.org/content/show.php/Winamp+Classic+skin+for+Audacious?content=135799) + GJay) -> [Open Cubic Player](http://stian.cubic.org/project-ocp.php) -> MPD (vimus/ncmpcpp) -> cmus -> [mp3blaster](http://www.mp3blaster.org/) (runs with "aoss mp3blaster" or compiled with ALSA) -> [MOC](http://moc.daper.net/) (+ moc-ffmpeg-plugin, [dmenu_mocp](https://github.com/pscha/dmenu_mocp))
 * __Music Visualization__: [Spectrum3d](http://spectrum3d.sourceforge.net/) -> [Le Biniou](https://directory.fsf.org/wiki/Lebiniou) -> [projectM](http://projectm.sourceforge.net/) -> [cli-visualizer](https://github.com/dpayne/cli-visualizer)
 * __Scorewriter__: MuseScore -> LilyPond
 * __Software Sampler__: LinuxSampler -> orDrumbox -> [Hydrogen](http://www.hydrogen-music.org/hcms/)
