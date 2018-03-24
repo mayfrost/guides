@@ -81,7 +81,8 @@ All apps are from F-Droid, may not be much but is a start.
 ## Communication
 * __BBS-MUD Client__: [TinTin++](http://tintin.sourceforge.net/features.php)
 * __Bookmark Manager__: [bookmarks.public](https://github.com/skx/bookmarks.public) -> [bk_edit](http://www.vakuumverpackt.de/retiredprojects/bk_edit/) -> [b.](https://directory.fsf.org/wiki/B.)
-* __Browser__: Pale Moon / Icecat -> luakit / vimb / surf (tabbed) / Uzbl (tabbed) -> [NetSurf](http://www.netsurf-browser.org/) -> [Links2](http://links.twibright.com/) -> [Netrik](http://netrik.sourceforge.net/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master)
+* __Browser__: Pale Moon / Icecat -> luakit / vimb / surf (tabbed) / Uzbl (tabbed) -> [NetSurf](http://www.netsurf-browser.org/) -> Lynx -> [Links2](http://links.twibright.com/) -> [Netrik](http://netrik.sourceforge.net/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master)
+* __Browser (Gopher)__: [GopherVR](http://www.floodgap.com/software/gophervr/) -> [gopherfs](http://git.savannah.gnu.org/cgit/hurd/incubator.git/) -> [UMN Gopher client](https://github.com/jgoerzen/gopher) -> Lynx
 * __Chat Client__: [Finch (Pidgin)](https://developer.pidgin.im/wiki/Using%20Finch) in [irssi mode](https://askubuntu.com/questions/442345/how-can-i-simplify-the-finch-interface) -> [Centerim](http://www.centerim.org/index.php/Main_Page) -> [Bitlbee](https://wiki.bitlbee.org/)
 * __E-Mail Archiver__: [Lurker](http://lurker.sourceforge.net/)
 * __E-Mail Client__: Thunderbird -> [SquirrelMail](http://www.squirrelmail.org/) -> Alpine -> Mutt -> [mailx](http://heirloom.sourceforge.net/mailx.html)
@@ -90,7 +91,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
 * __RSS Feed and Podcast__: Liferea -> Newsbeuter -> Newsboat
 * __Search Engine Scraper__: Googler -> [Surfraw](http://surfraw.alioth.debian.org/) (+ [dmenu](https://bbs.archlinux.org/viewtopic.php?id=228706))
-* __Usenet Client (Newsreader)__: Pan -> [slrn](http://www.slrn.org/) ( + slrnpull + slrnface) -> [Trn](http://trn.sourceforge.net/)
+* __Usenet Client (Newsreader)__: Pan -> [slrn](http://www.slrn.org/) ( + slrnpull + slrnface)
 * __VoIP Client__: [Jitsi](https://jitsi.org/) -> [Finch (Pidgin)](https://developer.pidgin.im/wiki/vv)
 
 ### Desktop Client
@@ -171,7 +172,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Containers__: chroot -> LXC -> [Linux-VServer](http://linux-vserver.org/Welcome_to_Linux-VServer.org)
 * __Emulators__: Windows: Wine (+ [Wine Staging](https://github.com/wine-compholio/wine-staging)), Android: [Anbox](https://github.com/anbox/anbox), OS X: [Darling](https://www.darlinghq.org/), Atari: [Hatari](http://hatari.tuxfamily.org/), Commodore: [VICE](http://vice-emu.sourceforge.net/), DOS: DOSBox
 * __Hypervisors__: Xen -> [NOVA](http://hypervisor.org/) -> KVM
-* __Network Virtualization__: nsnam -> GNS3
+* __Network Virtualization__: GNS3 -> [nsnam](https://github.com/nsnam/ns-3-dev-git)
 * __Software Compatibility__: .NET: DotGNU -> Mono, Systemd/Linux: [systemd-shim](https://directory.fsf.org/wiki/Systemd-shim)
 * __Video Game Console Emulation (ATARI)__: [Stella](https://stella-emu.github.io/)
 * __Video Game Console Emulation (XBOX)__: [XQEMU](https://github.com/espes/xqemu)
