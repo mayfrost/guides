@@ -81,7 +81,7 @@ All apps are from F-Droid, may not be much but is a start.
 ## Communication
 * __BBS-MUD Client__: [TinTin++](http://tintin.sourceforge.net/features.php)
 * __Bookmark Manager__: [bookmarks.public](https://github.com/skx/bookmarks.public) -> [bk_edit](http://www.vakuumverpackt.de/retiredprojects/bk_edit/) -> [b.](https://directory.fsf.org/wiki/B.)
-* __Browser__: Pale Moon / Icecat -> luakit / vimb / Uzbl -> [NetSurf](http://www.netsurf-browser.org/) -> [Links2](http://links.twibright.com/) -> [Netrik](http://netrik.sourceforge.net/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master)
+* __Browser__: Pale Moon / Icecat -> luakit / vimb / surf (tabbed) / Uzbl (tabbed) -> [NetSurf](http://www.netsurf-browser.org/) -> [Links2](http://links.twibright.com/) -> [Netrik](http://netrik.sourceforge.net/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master)
 * __Chat Client__: [Finch (Pidgin)](https://developer.pidgin.im/wiki/Using%20Finch) in [irssi mode](https://askubuntu.com/questions/442345/how-can-i-simplify-the-finch-interface) -> [Centerim](http://www.centerim.org/index.php/Main_Page) -> [Bitlbee](https://wiki.bitlbee.org/)
 * __E-Mail Archiver__: [Lurker](http://lurker.sourceforge.net/)
 * __E-Mail Client__: Thunderbird -> [SquirrelMail](http://www.squirrelmail.org/) -> Alpine -> Mutt -> [mailx](http://heirloom.sourceforge.net/mailx.html)
@@ -305,7 +305,7 @@ All apps are from F-Droid, may not be much but is a start.
 ### Image
 * __Bitmaps to Vector Conversion__: AutoTrace -> [Potrace](https://directory.fsf.org/wiki/Potrace)
 * __Diagram Editor__: Pencil Project -> Dia -> Graphviz
-* __Bitmap Graphics Digital Drawing__: Krita -> MyPaint -> [XPaint](https://directory.fsf.org/wiki/Xpaint)
+* __Bitmap Graphics Digital Drawing__: Krita -> MyPaint -> [XPaint](https://directory.fsf.org/wiki/Xpaint) -> [GrafX2](http://pulkomandy.tk/projects/GrafX2) / [uberpaint](https://github.com/trapd00r/uberpaint)
 * __Coloring Digital Drawing__: STYLE2PAINTS
 * __Fonts Digital Drawing__: FontForge
 * __Vector Digital Drawing__: Inkscape -> [Xfig](http://mcj.sourceforge.net/)
@@ -504,6 +504,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __System Logging__: [Syslog-ng](https://github.com/balabit/syslog-ng) -> [sysklogd](http://www.infodrom.org/projects/sysklogd/)
 
 ### Network Intrusion
+* __Deep Packet Inspection (DPI) Block and Circumvention__: [zapret](https://github.com/bol-van/zapret)
 * __Firewall__: gufw -> ufw -> iptables (+ [ipset](http://ipset.netfilter.org/)) -> [nftables](https://netfilter.org/projects/nftables/)
 * __Man-In-The-Middle (MITM) Detection__: [ArpON](http://arpon.sourceforge.net/), [Arpalert](http://www.arpalert.org/arpalert.html)
 * __Network Intrusion Detection__: Snort -> [Suricata](https://github.com/OISF/suricata)
