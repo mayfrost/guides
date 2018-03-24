@@ -123,9 +123,9 @@ All apps are from F-Droid, may not be much but is a start.
 * __Nested Display__: Xephyr -> Xnest
 * __Notification Daemon__: dunst -> [slstatus](https://github.com/drkhsh/slstatus)
 * __Notification Server__: Libcanberra + Libnotify -> xmessage
-* __Panel__: Avant Window Navigator -> Global Menu -> Tint2 -> [bevelbar](https://github.com/vain/bevelbar)
+* __Panel__: Avant Window Navigator -> Global Menu -> Tint2
 * __Screensaver__: XScreenSaver -> XLockmore -> i3lock -> [sxlock](https://github.com/lahwaacz/sxlock) -> slock
-* __Status Bar Client__: Dzen -> Lemonbar
+* __Status Bar Client__: Dzen -> [bevelbar](https://github.com/vain/bevelbar) -> Lemonbar
 * __Status Bar Server__: monky -> i3status
 * __Animated Wallpaper Changer__: Xphoon, xfireworks, Xsnow, xmountains, Xplanet, ImageMagick (animate)
 * __Still Wallpaper Changer__: FEH -> [hsetroot](https://github.com/elmiko/hsetroot) -> [imagemagick](https://imagemagick.org/discourse-server/viewtopic.php?t=16735) (but use 10MB more RAM than the others)
