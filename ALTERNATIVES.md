@@ -340,7 +340,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Network Encryption__: OpenSSL -> [LibreSSL](https://directory.fsf.org/wiki/Libressl) -> GnuTLS -> IPsec / [SAE](https://github.com/cozybit/authsae) (802.11s)
 * __Network Manager__: Wicd -> NetworkManager -> ConnMan -> [SetNet](http://kalos.mine.nu/setnet/)
 * __Networking Tools__: iproute2 (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (ifconfig, netstat)
-* __Supplicant__: [wpa_supplicant](https://w1.fi/wpa_supplicant/)
+* __Wireless Tools__: [Wireless Tools for Linux](https://hewlettpackard.github.io/wireless-tools/Tools.html), [wpa_supplicant](https://w1.fi/wpa_supplicant/)
 
 ## Office
 * __CHM Viewer__: xCHM -> [CHMLib](http://www.jedrea.com/chmlib/) (extract_chmLib)
