@@ -249,7 +249,7 @@ All apps are from F-Droid, may not be much but is a start.
 ### System Information
 * __General Information__: [inxi](https://smxi.org/docs/inxi.htm)
 * __Screenshot Information__: [Linux_Logo](https://github.com/KittyKatt/screenFetch) -> [Neofetch](https://github.com/dylanaraps/neofetch) -> [screenFetch](https://github.com/KittyKatt/screenFetch)
-* __Hardware Information__: blkid -> lsblk -> [lspci](http://mj.ucw.cz/sw/pciutils/) -> [lshw](https://github.com/lyonel/lshw) -> dmesg -> dmidecode
+* __Hardware Information__: blkid -> lsblk -> [lspci](http://mj.ucw.cz/sw/pciutils/) -> [lshw](https://github.com/lyonel/lshw) -> dmesg -> [dmidecode](http://dmidecode.nongnu.org/)
 * __Software Information__: file -> ldd -> [vrms](https://vrms.alioth.debian.org/) -> lsb_release -> uname
 
 ### System Monitoring
@@ -306,7 +306,7 @@ All apps are from F-Droid, may not be much but is a start.
 ### Image
 * __Bitmaps to Vector Conversion__: AutoTrace -> [Potrace](https://directory.fsf.org/wiki/Potrace)
 * __Diagram Editor__: Pencil Project -> Dia -> Graphviz
-* __Bitmap Graphics Digital Drawing__: Krita -> MyPaint -> [XPaint](https://directory.fsf.org/wiki/Xpaint) -> [GrafX2](http://pulkomandy.tk/projects/GrafX2) / [uberpaint](https://github.com/trapd00r/uberpaint)
+* __Bitmap Graphics Digital Drawing__: Krita -> MyPaint -> [XPaint](https://directory.fsf.org/wiki/Xpaint) -> [GrafX2](http://grafx2.chez.com/) / [uberpaint](https://github.com/trapd00r/uberpaint)
 * __Coloring Digital Drawing__: STYLE2PAINTS
 * __Fonts Digital Drawing__: FontForge
 * __Vector Digital Drawing__: Inkscape -> [Xfig](http://mcj.sourceforge.net/)
