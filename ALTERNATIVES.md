@@ -576,6 +576,6 @@ All apps are from F-Droid, may not be much but is a start.
 * __Init - Startup Scripts Manager__: [bum](https://launchpad.net/bum) -> [sysv-rc-conf](http://sysv-rc-conf.sourceforge.net/) -> [chkconfig](https://uni.edu/~prefect/devel/chkconfig/index.shtml)
 * __IPC__: DBus -> ipcs (util-linux)
 * __Job Scheduler__: [Slurm](https://github.com/SchedMD/slurm) -> [fcron](http://fcron.free.fr/) (Cron), [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en)
-* __Load in RAM__: [E4rat](https://github.com/ShyPixie/e4rat-lite) -> readahead -> [preload](https://sourceforge.net/projects/preload/)
+* __Load in RAM__: [E4rat](https://github.com/ShyPixie/e4rat-lite) -> readahead -> [preload](https://sourceforge.net/projects/preload/), [prelink](https://directory.fsf.org/wiki/Prelink)
 * __Settings Manager__: [Linux Lite Control Center](https://github.com/linuxlite/litecontrolcenter) -> [Elektra](https://github.com/ElektraInitiative/libelektra) -> [Augeas](https://github.com/hercules-team/augeas)
 * __Utilities__: Mtools -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
