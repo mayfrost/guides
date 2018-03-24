@@ -7,7 +7,7 @@ This guide is for those wanting one of the two most beautiful source based distr
 __NOTE__:
 * This guide attempts to describe __UEFI__ in detail side by side with __BIOS__. Also describes dualbooting (and triple booting) with the bootloader. If you feel overwhelmed for the amount of information don't be afraid, most of it is __OPTIONAL__, like password protection of the bootloader and the different filesystems the bootloaders can use.  
 * For __CRUX__ you should be using their "_iso_".  
-* For __Source Mage GNU/Linux__ you can use any "_iso_" provided they have the commands here mentioned.  
+* For __Source Mage GNU/Linux__ you will be using their "_chroot image_" but __NOT__ the "_iso_", you can use any live CD or USB provided it has the commands here mentioned.  
 
 
 ## TOC
@@ -27,7 +27,10 @@ __NOTE__:
 
 ## START
 Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
-* Make sure your network is up (OPTIONAL).  
+* Check which NIC you are using.  
+`ip addr`  
+* Make sure your network is up.  
+`ip link set <NIC> up`  
 `dhcpcd <NIC>`  
 
 In the case you need to use Wi-Fi please refer to https://github.com/mayfrost/guides/blob/master/WIFI.md  
