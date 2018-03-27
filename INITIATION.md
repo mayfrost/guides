@@ -90,8 +90,8 @@ Don't forget to create and mount the extra directories in the case you had creat
 `setup`  
 * On __Source Mage GNU/Linux__ download and uncompress the tarball inside the new root directory.  
 `cd /mnt/drive`  
-`wget -c "http://download.sourcemage.org/image/official/smgl-stable-<version>-basesystem-x86_64.<compression>"`  
-`tar xvf smgl-stable-<version>-basesystem-x86_64.<compression>`  
+`wget -c "http://download.sourcemage.org/image/official/smgl-stable-<VERSION>-basesystem-x86_64.tar.xz"`  
+`tar xJvf smgl-stable-<VERSION>-basesystem-x86_64.tar.xz`  
 
 ### CHROOT
 * On __CRUX__ you can issue the next command to mount everything else and chroot automatically.  
