@@ -69,7 +69,7 @@ Look into each one and decide for your use case. Next are the commands used for 
 `mkfs.<BOOTLOADER_FILESYSTEM> /dev/sda1`  
 
 ## CREATING (AND MOUNTING) MAIN DIRECTORIES
-The two most important are the root directory ("_/_") and the boot directory ("_/boot_"), both of which need at the end of this step to be mounted. However, if you are an experienced user you may have created other partitions for other directories like "_/home_" or "_var_", those need to be mounted too by the end of this step.
+The two most important are the root directory ("_/_") and the boot directory ("_/boot_"), both of which need at the end of this step to be mounted. However, if you are an experienced user you may have created other partitions for other directories like "_/home_" or "_/var_", those need to be mounted too by the end of this step.
 * Make a directory for the new root directory.  
 `mkdir /mnt/drive`  
 * Mount the new root directory.  
@@ -148,7 +148,7 @@ Next is a simple example of setting the bootloader, for a more in depth view see
 __NOTE__: If you are on __Source Mage GNU/Linux__ and need UEFI refer to the bootloader section and use grub2 as there is no elilo package:
 
 ### LILO
-* On __Source Mage GNU/Linux__ do "_cast \<BOOTLOADER>_" to install lilo or elilo.  
+* On __Source Mage GNU/Linux__ do "_cast \<BOOTLOADER>_" to install the bootloader.  
 * If on UEFI use __elilo__ and change names to "_/etc/elilo.conf_" instead of "_/etc/lilo.conf_" and "_elilo_" instead of "_lilo_" in commands.  
 `nano /etc/lilo.conf`
 * Inserting "_password=\<PASSWORD>_" inside an OS stanza will protect with a password that OS, but inserting "_password=\<PASSWORD>_" just before the stanzas and outside any of them will protect with a password the bootloader itself (notice the space inside stanzas).  
