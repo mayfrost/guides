@@ -513,6 +513,7 @@ All apps are from F-Droid, may not be much but is a start.
 
 ## Server
 * __BBS Server__: [Citadel](http://www.citadel.org/doku.php) -> Synchronet -> [Mystic BBS](http://www.tinysbbs.com/files/prog/MSRC20B3.ZIP) -> [BBS100](https://directory.fsf.org/wiki/Bbs100)
+* __Blog__: finger / [cfingerd](https://github.com/pld-linux/cfingerd)
 * __Captcha__: [cool-php-captcha](https://github.com/josecl/cool-php-captcha)
 * __Chat__:  [sshtalk](https://2ton.com.au/sshtalk/) -> [write, wall, mesg](http://www.unixpapa.com/write.html)
 * __CMS__: WordPress -> [GetSimple CMS](https://github.com/GetSimpleCMS/GetSimpleCMS) -> [werc](http://werc.cat-v.org/)
@@ -543,7 +544,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Political__: [LittleSis](https://github.com/public-accountability/littlesis-rails), [Loomio](https://github.com/loomio/loomio)
 * __Port Tunnel__: [stunnel](https://www.stunnel.org/) -> [knockd](https://github.com/jvinet/knock)
 * __Proxy Server__: [Tinyproxy](https://tinyproxy.github.io/)
-* __Service Manager__: [sslh](https://github.com/yrutschle/sslh), [xinetd](https://github.com/xinetd-org/xinetd)
+* __Service Manager__: [sslh](https://github.com/yrutschle/sslh), [xinetd](https://github.com/xinetd-org/xinetd), [TCP Wrappers](https://github.com/pexip/os-tcp-wrappers) (tcpd, tcpdchk)
 * __Streaming__: [Peerflix](https://github.com/mafintosh/peerflix) (+ [Torrentflix](https://github.com/ItzBlitz98/torrentflix)) -> [Libresonic](https://github.com/Libresonic/libresonic) -> [Syncplay](https://github.com/Syncplay/syncplay) -> [VLC](https://www.howtogeek.com/118075/how-to-stream-videos-and-music-over-the-network-using-vlc/) -> [FFmpeg](https://gist.github.com/olasd/9841772)
 * __Torrent Tracker__: [Ocelot](https://github.com/whatcd/ocelot) -> [Gazelle](https://github.com/WhatCD/Gazelle)
 * __Tunneling__: [ProxyChains](https://github.com/rofl0r/proxychains-ng) -> [VPNEncap](https://github.com/whussup/vpnencap) -> [VPNCHAINS](https://sourceforge.net/p/vpnchains/wiki/Home/)
