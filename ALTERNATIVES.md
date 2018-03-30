@@ -70,7 +70,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Hacker Culture__: ddate, fortune, The Hacker Test, The Jargon File
 * __Multiplexer__: Tmux  -> Byobu -> GNU Screen (+[sixel patch](https://gist.github.com/saitoha/7546579))
 * __Progress Viewers__: [progress](https://github.com/Xfennec/progress) -> [pv - Pipe Viewer](https://github.com/icetee/pv) -> [Advanced Copy](https://github.com/atdt/advcpmv)
-* __Scripting__: [GNU Parallel](https://www.gnu.org/software/parallel/), [empty](https://github.com/ierton/empty)
+* __Scripting__: [GNU Parallel](https://www.gnu.org/software/parallel/) (+ [GNU SQL](https://www.gnu.org/software/parallel/sql.html)), [empty](https://github.com/ierton/empty)
 * __Shells__: Bash -> mksh -> [PC-DCL](https://github.com/MichelValentin/PC-DCL) -> [rc](https://github.com/rakitzis/rc)
 * __Terminal Colorizer__: colout -> lolcat
 * __Terminal Dropdown__: [tdrop](https://github.com/noctuid/tdrop) -> [YeahConsole](https://github.com/rduplain/yeahconsole), [alwaysontop](https://github.com/swirepe/alwaysontop)
@@ -263,7 +263,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Network Latency__: [SmokePing](https://github.com/oetiker/SmokePing) -> [bmon](https://github.com/tgraf/bmon)
 * __Network Monitoring__: [iftop](http://www.ex-parrot.com/pdw/iftop/), [NetHogs](https://github.com/raboof/nethogs), [vnStat](https://github.com/vergoh/vnstat)
 * __Port Monitoring__: [psad](https://directory.fsf.org/wiki/Port_Scan_Attack_Detector)
-* __Process Monitoring__: [svsh](https://ido50.github.io/Svsh/), [lsof](https://people.freebsd.org/~abe/), [PSmisc](https://directory.fsf.org/wiki/Psmisc)
+* __Process Monitoring__: [svsh](https://ido50.github.io/Svsh/), [lsof](https://people.freebsd.org/~abe/), [PSmisc](https://directory.fsf.org/wiki/Psmisc), fuser
 * __Serial Monitoring__: [ttylog](https://github.com/rocasa/ttylog) -> [slsnif](https://github.com/aeruder/slsnif)
 * __System Latency__: [LatencyTOP](https://github.com/namhyung/latencytop)
 * __System Monitor__: gnome-system-monitor -> [psDooM](https://github.com/keymon/psdoom-ng) -> Conky -> htop -> [nmon](http://nmon.sourceforge.net/pmwiki.php) -> [Sysstat](https://directory.fsf.org/wiki/Sysstat) (sar, mpstat, pidstat, iostat, sadf) -> [procps](https://directory.fsf.org/wiki/Procps) (ps, free, vmstat, top, pmap, nice)
