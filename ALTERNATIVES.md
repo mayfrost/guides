@@ -435,16 +435,23 @@ All apps are from F-Droid, may not be much but is a start.
 * __Steganography__: [StegoShare](http://stegoshare.sourceforge.net/) -> [Steghide](https://github.com/StefanoDeVuono/steghide) -> [SNOW](http://www.darkside.com.au/snow/) -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
 
 ## Programming
-* __Build Automation__: [Open Build Service](http://openbuildservice.org/), [CheckInstall](https://directory.fsf.org/wiki/CheckInstall), [Gradle](https://github.com/gradle/gradle), [Buildroot](https://github.com/buildroot/buildroot)
+* __Build Automation__: [Gradle](https://github.com/gradle/gradle), [Open Build Service](http://openbuildservice.org/) -> [CheckInstall](https://directory.fsf.org/wiki/CheckInstall), [Buildroot](https://github.com/buildroot/buildroot) -> Autotools ([Automake](https://directory.fsf.org/wiki/Automake), [Autoconf](https://directory.fsf.org/wiki/Autoconf), [Libtool](https://directory.fsf.org/wiki/Libtool)), [GNU make](https://directory.fsf.org/wiki/Make), [Gnulib](https://www.gnu.org/software/gnulib/)
 * __Cache__: Memcached -> EnhanceIO -> dm-cache -> bcache
 * __Code Beautifier__: [UniversalIndentGUI](https://github.com/danblakemore/universal-indent-gui), HTML Tidy
+* __Compiler__: [IcedTea](https://directory.fsf.org/wiki/IcedTea) (OpenJDK), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), [GCC](https://directory.fsf.org/wiki/Gcc)
 * __Compiling Speeding Up__: [distcc](https://github.com/distcc/distcc), [ccache](https://github.com/ccache/ccache)
 * __Documentation Browser__: Devhelp -> [Zeal](https://github.com/zealdocs/zeal)
 * __Documentation Generator__: perlpod, [bashdoc](https://github.com/ajdiaz/bashdoc), Doxygen
 * __Issue Tracking System__: Bugzilla -> [GNATS](https://www.gnu.org/software/gnats/)
 * __Linting__: [ShellCheck](https://github.com/koalaman/shellcheck), [GNU Source-highlight](https://www.gnu.org/software/src-highlite/)
+* __Other Tools__: [GNU bison](https://directory.fsf.org/wiki/Bison) and [Flex](https://directory.fsf.org/wiki/Flex), [GNU m4](https://directory.fsf.org/wiki/M4), [pkgconf](https://github.com/pkgconf/pkgconf), [Installwatch](https://github.com/ruxkor/checkinstall/tree/master/installwatch), [sysconftool](https://github.com/svarshavchik/courier/tree/master/sysconftool), [GNU Stow](https://directory.fsf.org/wiki/Stow)
+* __Program Transformation__:
+Coccinelle
+FermaT
+CIL
+Stratego/XT
+
 * __Source Code Navigation__: [LXR: The Linux Cross Referencer](http://lxr.sourceforge.net/en/index.php) -> [GNU GLOBAL](https://www.gnu.org/software/global/) -> [cscope](http://cscope.sourceforge.net/) -> [Ctags](https://github.com/universal-ctags/ctags) -> [cgvg](https://github.com/uzi/cgvg) -> [ack](https://beyondgrep.com/) -> [ag](https://github.com/ggreer/the_silver_searcher)
-* __Toolchain__: [IcedTea](https://directory.fsf.org/wiki/IcedTea) (OpenJDK), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), GNU Toolchain (GNU Make, GNU Build System -Autotools-, GNU m4, GNU Binutils, GNU bison, GCC), others ([pkgconf](https://github.com/pkgconf/pkgconf), [Installwatch](https://github.com/ruxkor/checkinstall/tree/master/installwatch), [sysconftool](https://github.com/svarshavchik/courier/tree/master/sysconftool), [GNU Stow](https://directory.fsf.org/wiki/Stow))
 * __Version Control__: Git (+ [tig](https://github.com/jonas/tig)) -> [Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) -> [RCS](https://www.gnu.org/software/rcs/)
 
 ## Remote Access
