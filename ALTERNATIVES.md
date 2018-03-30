@@ -344,7 +344,6 @@ All apps are from F-Droid, may not be much but is a start.
 
 ## Office
 * __CHM Viewer__: xCHM -> [CHMLib](http://www.jedrea.com/chmlib/) (extract_chmLib)
-* __Database__ RRDtool, MariaDB -> [Datalog](http://des.sourceforge.net/) -> [GNU Recutils](https://directory.fsf.org/wiki/Recutils)
 * __Desktop Publishing__: Scribus
 * __Document Processor__: Emacs (AUCTeX) -> LyX -> [GNU TeXmacs](http://texmacs.org/tmweb/home/welcome.en.html)
 * __Ebook Viewer__: Calibre -> Okular -> Zathura -> [fimgs (fim)](http://www.nongnu.org/fbi-improved/) / [fbgs (fbida)](https://www.kraxel.org/blog/linux/fbida/)
@@ -373,9 +372,8 @@ All apps are from F-Droid, may not be much but is a start.
 
 ## Package Management
 * __Gaming Platform__: [LGOGDownloader](https://github.com/Sude-/lgogdownloader) (GOG.com), [SteamCMD](https://linode.com/docs/game-servers/install-steamcmd-for-a-steam-game-server/) (Steam), [Lutris](https://github.com/lutris/lutris)
-* __Packaging Tools__: [Alien](https://joeyh.name/code/alien/) -> [Open Build Service](http://openbuildservice.org/) -> [CheckInstall](https://directory.fsf.org/wiki/CheckInstall) -> [GNU Stow](https://directory.fsf.org/wiki/Stow)
 * __Portable Apps__: Flatpak -> Snappy -> [AppImage](https://github.com/AppImage)
-* __Universal Package Managers__: pkgsrc -> GNU Guix
+* __Universal Package Managers__: [Alien](https://joeyh.name/code/alien/) -> pkgsrc -> GNU Guix
 
 ## Pentesting
 ### Exploitables
@@ -437,7 +435,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Steganography__: [StegoShare](http://stegoshare.sourceforge.net/) -> [Steghide](https://github.com/StefanoDeVuono/steghide) -> [SNOW](http://www.darkside.com.au/snow/) -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
 
 ## Programming
-* __Build Automation__: [Gradle](https://github.com/gradle/gradle), [Buildroot](https://github.com/buildroot/buildroot)
+* __Build Automation__: [Open Build Service](http://openbuildservice.org/), [CheckInstall](https://directory.fsf.org/wiki/CheckInstall), [Gradle](https://github.com/gradle/gradle), [Buildroot](https://github.com/buildroot/buildroot)
 * __Cache__: Memcached -> EnhanceIO -> dm-cache -> bcache
 * __Code Beautifier__: [UniversalIndentGUI](https://github.com/danblakemore/universal-indent-gui), HTML Tidy
 * __Compiling Speeding Up__: [distcc](https://github.com/distcc/distcc), [ccache](https://github.com/ccache/ccache)
@@ -446,7 +444,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Issue Tracking System__: Bugzilla -> [GNATS](https://www.gnu.org/software/gnats/)
 * __Linting__: [ShellCheck](https://github.com/koalaman/shellcheck), [GNU Source-highlight](https://www.gnu.org/software/src-highlite/)
 * __Source Code Navigation__: [LXR: The Linux Cross Referencer](http://lxr.sourceforge.net/en/index.php) -> [GNU GLOBAL](https://www.gnu.org/software/global/) -> [cscope](http://cscope.sourceforge.net/) -> [Ctags](https://github.com/universal-ctags/ctags) -> [cgvg](https://github.com/uzi/cgvg) -> [ack](https://beyondgrep.com/) -> [ag](https://github.com/ggreer/the_silver_searcher)
-* __Toolchain__: [IcedTea](https://directory.fsf.org/wiki/IcedTea) (OpenJDK), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), GNU Toolchain (GNU Make, GNU Build System -Autotools-, GNU m4, GNU Binutils, GNU bison, GCC)
+* __Toolchain__: [IcedTea](https://directory.fsf.org/wiki/IcedTea) (OpenJDK), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), GNU Toolchain (GNU Make, GNU Build System -Autotools-, GNU m4, GNU Binutils, GNU bison, GCC), others ([pkgconf](https://github.com/pkgconf/pkgconf), [Installwatch](https://github.com/ruxkor/checkinstall/tree/master/installwatch), [sysconftool](https://github.com/svarshavchik/courier/tree/master/sysconftool), [GNU Stow](https://directory.fsf.org/wiki/Stow))
 * __Version Control__: Git (+ [tig](https://github.com/jonas/tig)) -> [Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) -> [RCS](https://www.gnu.org/software/rcs/)
 
 ## Remote Access
@@ -518,6 +516,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Chat__:  [sshtalk](https://2ton.com.au/sshtalk/) -> [write, wall, mesg](http://www.unixpapa.com/write.html)
 * __CMS__: WordPress -> [GetSimple CMS](https://github.com/GetSimpleCMS/GetSimpleCMS) -> [werc](http://werc.cat-v.org/)
 * __Collaborative Real-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
+* __Database__ RRDtool, MariaDB -> [Datalog](http://des.sourceforge.net/) -> [GNU Recutils](https://directory.fsf.org/wiki/Recutils)
 * __Direct Connect Server__: [uhub](https://www.uhub.org/)
 * __DLNA__: [Universal Media Server](https://github.com/UniversalMediaServer/UniversalMediaServer) -> [ReadyMedia](http://minidlna.sourceforge.net/) (a.k.a. MiniDLNA)
 * __Document Management System__: [OpenKM](https://github.com/openkm/document-management-system) -> [LogicalDOC](https://github.com/logicaldoc/document-management-software) -> [EPrints](https://github.com/eprints/eprints)
