@@ -447,7 +447,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Other Tools__: [GNU bison](https://directory.fsf.org/wiki/Bison) and [Flex](https://directory.fsf.org/wiki/Flex), [GNU m4](https://directory.fsf.org/wiki/M4), [pkgconf](https://github.com/pkgconf/pkgconf), [Installwatch](https://github.com/ruxkor/checkinstall/tree/master/installwatch), [sysconftool](https://github.com/svarshavchik/courier/tree/master/sysconftool), [GNU Stow](https://directory.fsf.org/wiki/Stow)
 * __[Program Transformation](https://en.wikipedia.org/wiki/Program_transformation)__: [Coccinelle](http://coccinelle.lip6.fr/), [FermaT](http://www.gkc.org.uk/fermat.html), [CIL](https://people.eecs.berkeley.edu/~necula/cil/), [Stratego/XT](http://strategoxt.org/)
 * __Source Code Navigation__: [LXR: The Linux Cross Referencer](http://lxr.sourceforge.net/en/index.php) -> [GNU GLOBAL](https://www.gnu.org/software/global/) -> [cscope](http://cscope.sourceforge.net/) -> [Ctags](https://github.com/universal-ctags/ctags) -> [cgvg](https://github.com/uzi/cgvg) -> [ack](https://beyondgrep.com/) -> [ag](https://github.com/ggreer/the_silver_searcher)
-* __[Source-to-Source Code](https://en.wikipedia.org/wiki/Source-to-source_compiler)__: [ROSE](https://github.com/rose-compiler/rose)
+* __[Source-to-Source Compiler](https://en.wikipedia.org/wiki/Source-to-source_compiler)__: [ROSE](https://github.com/rose-compiler/rose)
 * __Version Control__: Git (+ [tig](https://github.com/jonas/tig)) -> [Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) -> [RCS](https://www.gnu.org/software/rcs/)
 
 ## Remote Access
