@@ -536,7 +536,6 @@ All apps are from F-Droid, may not be much but is a start.
 * __File Distribution__: [zsync](http://zsync.moria.org.uk/)
 * __Forum__: [lainchan](https://github.com/lainchan/lainchan) -> [Akari-BBS](https://github.com/microsounds/akari-bbs) -> [sshchan](https://github.com/einchan/sshchan) -> [1436chan](https://github.com/kibook/1436chan)
 * __File Server__: Google Drive -> Nextcloud -> WebDAV -> [Syncthing](https://github.com/syncthing/syncthing) -> [vsftpd](https://github.com/timonier/vsftpd) -> sftp / [SSHFS](https://github.com/libfuse/sshfs) (SSH)
-* __General__: [GNU Serveez](https://directory.fsf.org/wiki/Serveez)
 * __Groupware__: [Alfresco](https://github.com/Alfresco) -> [eXo Platform](https://github.com/exoplatform) -> [Citadel/UX](http://www.citadel.org/doku.php)
 * __IRC Bot__: [Seabattle](https://github.com/GamesLT/SeaBattle.tcl) (bot game), [Infobot](https://github.com/w3c/infobot), [Eggdrop](https://www.eggheads.org/) (IRC bot)
 * __IRC Bouncer (BNC)__: [ZNC](https://github.com/znc/znc)
