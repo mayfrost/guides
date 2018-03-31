@@ -362,6 +362,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Text Editor (and IDE)__: Emacs (nox) -> Vim -> Nano -> Vile -> [xwpe](https://github.com/amagnasco/xwpe) (full IDE in the terminal) -> [GNU Zile](https://directory.fsf.org/wiki/GNU_Zile)
 * __Text Formatting and Pretty Printing__: [unoconv](http://dag.wiee.rs/home-made/unoconv/) -> Pandoc, par -> fmt (Textutils)
 * __Text-To-Speech__: Orca -> Gespeaker -> [eBook-speaker](https://directory.fsf.org/wiki/EBook-speaker) (+ pandoc) -> [eSpeak](https://github.com/espeak-ng/espeak-ng/)
+* __Typesetting__: LaTeX -> Texinfo -> [groff (tbl, pic, eqn, chem, music, dpic, grohtml)](https://www.troff.org/prog.html)
 * __Typing Training__: Klavaro -> nlkt -> [GNU Typist](https://www.gnu.org/software/gtypist/)
 * __Weather Forecast__: AWeather -> [Weather Util](http://fungi.yuggoth.org/weather/) -> [rrdweather](https://github.com/tolecnal/rrdweather)
 * __Word Processor__: Libreoffice Writter -> Abiword -> MinEd -> [WordGrinder](http://cowlark.com/wordgrinder/) + Pandoc
