@@ -17,39 +17,38 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 8. [Enterprise](#enterprise)  
 9. [File Utilities](#file-utilities)  
 10. [Filesharing](#filesharing)  
-11. [Finance](#finance)  
-12. [Forensics](#forensics)  
-13. [Monitoring](#monitoring)  
-13.1. [Benchmarking](#benchmarking)  
-13.2. [System Information](#system-information)  
-13.3. [System Monitoring](#system-monitoring)  
-14. [Multimedia](#multimedia)  
-14.1. [ASCii Art](#ascii-art)  
-14.2. [Audio](#audio)  
-14.3. [Image](#image)  
-14.4. [Metadata](#metadata)  
-14.5. [Video](#video)  
-15. [Network Setup](#network-setup)  
-16. [Office](#office)  
-17. [Package Management](#package-management)  
-18. [Pentesting](#pentesting)  
-18.1. [Exploitables](#exploitables)  
-18.2. [Network Scanner](#network-scanner)  
-18.3. [Network Tampering](#network-tampering)  
-18.4. [Password Cracking](#password-cracking)  
-18.5. [Vulnerability Scanner](#vulnerability-scanner)  
-19. [Privacy](#privacy)  
-20. [Programming](#programming)  
-21. [Remote Access](#remote-access)  
-22. [Science And Engineering](#science-and-engineering)  
-23. [Security](#security)  
-23.1. [Containment](#containment)  
-23.2. [Honeypots](#honeypots)  
-23.3. [Host Intrusion](#host-intrusion)  
-23.4. [Network Intrusion](#network-intrusion)  
-24. [Server](#server)  
-24.1. [Server Authentication](#server-authentication)  
-25. [System Tools](#system-tools)  
+11. [Forensics](#forensics)  
+12. [Monitoring](#monitoring)  
+12.1. [Benchmarking](#benchmarking)  
+12.2. [System Information](#system-information)  
+12.3. [System Monitoring](#system-monitoring)  
+13. [Multimedia](#multimedia)  
+13.1. [ASCii Art](#ascii-art)  
+13.2. [Audio](#audio)  
+13.3. [Image](#image)  
+13.4. [Metadata](#metadata)  
+13.5. [Video](#video)  
+14. [Network Setup](#network-setup)  
+15. [Office](#office)  
+16. [Package Management](#package-management)  
+17. [Pentesting](#pentesting)  
+17.1. [Exploitables](#exploitables)  
+17.2. [Network Scanner](#network-scanner)  
+17.3. [Network Tampering](#network-tampering)  
+17.4. [Password Cracking](#password-cracking)  
+17.5. [Vulnerability Scanner](#vulnerability-scanner)  
+18. [Privacy](#privacy)  
+19. [Programming](#programming)  
+20. [Remote Access](#remote-access)  
+21. [Science And Engineering](#science-and-engineering)  
+22. [Security](#security)  
+22.1. [Containment](#containment)  
+22.2. [Honeypots](#honeypots)  
+22.3. [Host Intrusion](#host-intrusion)  
+22.4. [Network Intrusion](#network-intrusion)  
+23. [Server](#server)  
+23.1. [Server Authentication](#server-authentication)  
+24. [System Tools](#system-tools)  
 
 
 ## ANDROID APPS
@@ -188,10 +187,10 @@ All apps are from F-Droid, may not be much but is a start.
 
 ## Enterprise
 * __Business Intelligence__: JasperReports
-* __CRM__: SugarCRM
-* __Enterprise Resource Planning__: IDempiere -> LedgerSMB
-* __Human Resource Software__: OrangeHRM
-* __Invoice__: Simple Invoices
+* __Resource Planning__: IDempiere -> LedgerSMB -> SQL-Ledger
+* __Financial Markets Monitoring__: [JStock](https://github.com/yccheok/jstock) -> [QtTrader](https://github.com/e99majo/qttrader) -> [Qtstalker](http://qtstalker.sourceforge.net/)
+* __Human Resources__: OrangeHRM
+* __Invoicing__: Simple Invoices
 * __Project Management__: GanttProject -> ProjectLibre
 
 ## File Utilities
@@ -218,11 +217,6 @@ All apps are from F-Droid, may not be much but is a start.
 * __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (comes with a [web interface](https://github.com/transmission/transmission/wiki/Web-Interface) by default but [other frontends](https://github.com/fagga/transmission-remote-cli) exist)
 * __Torrent Tracker Scraper__: [Torrtux](https://github.com/l333k0/torrtux) -> [Torrench](https://github.com/kryptxy/torrench) -> [Jackett](https://github.com/Jackett/Jackett)
 * __Usenet (File Grabber)__: LottaNZB -> SABnzbd -> [NZBGet](https://github.com/nzbget/nzbget) -> [nzb](https://directory.fsf.org/wiki/Nzb) -> [nzbperl](https://github.com/eghm/nzbperl)
-
-## Finance
-* __Accounting__: GnuCash -> [GNU Pem](https://www.gnu.org/software/pem/)
-* __Financial Markets Monitoring__: [JStock](https://github.com/yccheok/jstock) -> [QtTrader](https://github.com/e99majo/qttrader) -> [Qtstalker](http://qtstalker.sourceforge.net/)
-
 
 ## Forensics
 * __Application Profiling__: Valgrind (+ Callgrind)
@@ -356,6 +350,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Offline Dictionary__: Goldendict -> Artha -> [Dico](https://directory.fsf.org/wiki/Dico), [dict](http://www.dict.org/w/software/software)
 * __Outliner__: [TreeSheets](https://github.com/aardappel/treesheets) -> Vault 3 -> GJots2 -> Emacs (Org-mode) -> Vim (Vimoutliner or Vim-orgmode) -> [hnb](http://hnb.sourceforge.net/Screen-shots/) -> [snb](https://github.com/drbig/snb)
 * __PDF Editing__: [PDF SaM](https://github.com/torakiki/pdfsam) -> Poppler
+* __Personal Accounting__: GnuCash -> [GNU Pem](https://www.gnu.org/software/pem/)
 * __Personal Assistant__: [Mycroft](https://mycroft.ai/), [betty](https://github.com/pickhardt/betty), [Climate](https://github.com/adtac/climate), [Suicide Linux](https://qntm.org/suicide)
 * __Personal Organizer__: Wyrd -> [calcurse](https://directory.fsf.org/wiki/Calcurse) -> when -> cal
 * __Presentation__: Beamer -> Sozi -> [Text Presentation Program](https://github.com/akrennmair/tpp)
