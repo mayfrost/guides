@@ -151,6 +151,7 @@ All apps are from F-Droid, may not be much but is a start.
 ## Decentralized Networking
 * __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> [nircd](https://github.com/Ronsor/nircd)
 * __Darknet__: [autovpn](https://github.com/adtac/autovpn) -> Tor -> [AnoNet](http://anonet.org/) -> i2p
+* __Digital Library__: [Aletheia](https://github.com/aletheia-foundation/aletheia-admin)
 * __Distributed File Systems__: Samba -> NFS -> IPFS -> [GNUnet](https://gnunet.org/)
 * __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
 * __E-Commerce__: [FIX Agora](http://fixagora.sourceforge.net/) + [OpenBazaar](https://github.com/OpenBazaar) + [Bitnation](https://github.com/Bit-Nation) + [GNU Taler](https://taler.net/en/)
@@ -352,7 +353,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Input Method Editor__: iBus -> Fcitx -> SCIM
 * __Mind Mapping__: FreeMind
 * __Office Suites__: LibreOffice -> [Siag Office](http://siag.nu/) -> [catdoc](https://github.com/petewarden/catdoc) (xls2csv, catppt, wordview)
-* __Offline Dictionary__: Goldendict -> Artha -> [dict](http://www.dict.org/w/software/software)
+* __Offline Dictionary__: Goldendict -> Artha -> [Dico](https://directory.fsf.org/wiki/Dico), [dict](http://www.dict.org/w/software/software)
 * __Outliner__: [TreeSheets](https://github.com/aardappel/treesheets) -> Vault 3 -> GJots2 -> Emacs (Org-mode) -> Vim (Vimoutliner or Vim-orgmode) -> [hnb](http://hnb.sourceforge.net/Screen-shots/) -> [snb](https://github.com/drbig/snb)
 * __PDF Editing__: [PDF SaM](https://github.com/torakiki/pdfsam) -> Poppler
 * __Personal Assistant__: [Mycroft](https://mycroft.ai/), [betty](https://github.com/pickhardt/betty), [Climate](https://github.com/adtac/climate), [Suicide Linux](https://qntm.org/suicide)
