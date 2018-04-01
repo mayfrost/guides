@@ -484,6 +484,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Subway Map__: [qMetro](http://qmetro.sourceforge.net/maps/)
 * __Virtual Globe__: [Marble](https://github.com/KDE/marble)
 * __Graphing Calculator__: KAlgebra -> [TilEm](http://lpg.ticalc.org/prj_tilem/)
+* __Multi-Agent (MA) Simulation__: [Mobility Testbed](https://github.com/agents4its/mobilitytestbed) -> [Galatea](http://galatea.sourceforge.net/Home.htm) -> [NetLogo](https://github.com/NetLogo/NetLogo/), [Golly](http://golly.sourceforge.net/)
 * __Physics Simulation__: [OpenModelica](https://www.openmodelica.org/) -> [CalculiX](http://www.calculix.de/) -> [Elmer](https://directory.fsf.org/wiki/Elmer) -> [MCSim](https://directory.fsf.org/wiki/Mcsim)
 * __Semiconductor Modeling (TCAD)__: [GNU Archimedes](https://directory.fsf.org/wiki/Archimedes) (and [GNU Nano-Archimedes](https://directory.fsf.org/wiki/Nano-archimedes))
 * __Software-defined radio (SDR)__: [GNU Radio](https://github.com/gnuradio) (+ [Gqrx](https://github.com/csete/gqrx)) -> [rtl-sdr](https://github.com/osmocom/rtl-sdr)
