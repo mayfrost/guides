@@ -475,16 +475,19 @@ All apps are from F-Droid, may not be much but is a start.
 * __CAD__: AutoCAD -> FreeCAD -> [OpenSCAD](https://github.com/openscad/openscad)
 * __Chemistry__: [MolComp](http://molcomp.sourceforge.net/) -> [RasMol](https://directory.fsf.org/wiki/RasMol) -> [PerlMol](http://www.perlmol.org/)
 * __Circuit Simulator__: [ngspice](http://ngspice.sourceforge.net/), [Gnucap](http://www.gnucap.org/dokuwiki/doku.php?id=gnucap:start)
-* __Computational Fluid Dynamics__: TELEMAC -> FEATFLOW -> OpenFOAM -> Gerris
-* __Data Visualization__: [SocNetV](https://github.com/socnetv) -> [Cytoscape](https://github.com/cytoscape) -> [Tulip](http://tulip.labri.fr/TulipDrupal/) -> [Gephi](https://github.com/gephi/gephi)
+* __Computational Fluid Dynamics__: [TELEMAC](http://www.opentelemac.org/) -> [FEATFLOW](http://www.featflow.de/en/index.html) -> [OpenFOAM](https://directory.fsf.org/wiki/OpenFOAM) -> [Gerris](http://gfs.sourceforge.net/wiki/index.php/Main_Page)
+* __Computer Algebra System__: [Singular](http://www.singular.uni-kl.de/) -> [Axiom](http://www.axiom-developer.org/) -> [Maxima](http://maxima.sourceforge.net/) (+ wxMaxima or PLplot)
+* __Data Visualization__: [Mobility Testbed](https://github.com/agents4its/mobilitytestbed), [NetLogo](https://github.com/NetLogo/NetLogo/), [SocNetV](https://github.com/socnetv) -> [Gephi](https://github.com/gephi/gephi) -> [Tulip](http://tulip.labri.fr/TulipDrupal/)
 * __Fractals__: [Mandelbulber](https://github.com/buddhi1980/mandelbulber2)
 * __Geographic Information System__: [qGIS](https://github.com/qgis/QGIS)
 * __Street Map__: [JOSM](https://github.com/openstreetmap/josm) -> [Osmosis](https://github.com/openstreetmap/osmosis)
 * __Subway Map__: [qMetro](http://qmetro.sourceforge.net/maps/)
 * __Virtual Globe__: [Marble](https://github.com/KDE/marble)
-* __Scientific Calculator__: [KAlgebra](https://github.com/KDE/kalgebra) -> GraphMonkey -> SageMath -> [Maxima](http://maxima.sourceforge.net/) + PLplot
+* __Graphing Calculator__: [KAlgebra](https://github.com/KDE/kalgebra) -> GraphMonkey 
+* __Physics Simulation__: [OpenModelica](https://www.openmodelica.org/) -> [CalculiX](http://www.calculix.de/) -> [Elmer](https://directory.fsf.org/wiki/Elmer)-> [MCSim](https://directory.fsf.org/wiki/Mcsim)
+* __Semiconductor Modeling (TCAD)__: [GNU Archimedes](https://directory.fsf.org/wiki/Archimedes) (and [GNU Nano-Archimedes](https://directory.fsf.org/wiki/Nano-archimedes))
 * __Software-defined radio (SDR)__: [GNU Radio](https://github.com/gnuradio) (+ [Gqrx](https://github.com/csete/gqrx)) -> [rtl-sdr](https://github.com/osmocom/rtl-sdr)
-* __Statistical Package__: [Physics Analysis WorkStation](http://paw.web.cern.ch/paw/) -> [KNIME](https://github.com/knime/knime-core) -> [gretl](http://gretl.sourceforge.net/) -> [PSPP](https://directory.fsf.org/wiki/Pspp)
+* __Statistical Package__: [SageMath](http://www.sagemath.org/) -> [gretl](http://gretl.sourceforge.net/) -> [PSPP](https://directory.fsf.org/wiki/Pspp)  (+ PSPP-Perl)
 
 ## Security
 ### Containment
