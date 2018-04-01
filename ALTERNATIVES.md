@@ -471,7 +471,7 @@ All apps are from F-Droid, may not be much but is a start.
 ## Science And Engineering
 * __Artificial Intelligence__: [Golly](http://golly.sourceforge.net/), [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment), [ETHNOS](http://ethnos.sourceforge.net/), [CTF](http://ctf.sourceforge.net/), [Conscious Artificial Intelligence](https://sourceforge.net/projects/cai/), [OpenCog](https://github.com/opencog/opencog), [OpenAI](https://github.com/openai)
 * __Astronomy__: [SaVi satellite constellation visualizer](https://sourceforge.net/projects/savi/), Stellarium -> Celestia -> [SkyCat](https://github.com/Starlink/skycat)
-* __Bioinformatics__: [OpenSim](https://simtk.org/projects/opensim/), [Cytoscape](http://www.cytoscape.org/), [BioJava](https://github.com/biojava/biojava) -> [EMBOSS](https://github.com/kimrutherford/EMBOSS) -> [BioPerl](https://github.com/bioperl) -> [SAMtools](https://github.com/samtools/samtools)
+* __Bioinformatics__: [OpenSim](https://simtk.org/projects/opensim/), [Cytoscape](http://www.cytoscape.org/), [BioJava](https://github.com/biojava/biojava) -> [EMBOSS](https://github.com/kimrutherford/EMBOSS) -> [SAMtools](https://github.com/samtools/samtools) -> [BioPerl](http://bioperl.org/)
 * __CAD__: AutoCAD -> FreeCAD -> [OpenSCAD](https://github.com/openscad/openscad)
 * __Chemistry__: [MolComp](http://molcomp.sourceforge.net/), [RasMol](https://directory.fsf.org/wiki/RasMol), [PerlMol](http://www.perlmol.org/)
 * __Circuit Simulator__: [ngspice](http://ngspice.sourceforge.net/), [Gnucap](http://www.gnucap.org/dokuwiki/doku.php?id=gnucap:start)
