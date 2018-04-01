@@ -186,12 +186,17 @@ All apps are from F-Droid, may not be much but is a start.
 * __Virtual Machine (DEC)__: [SIMH](http://simh.trailing-edge.com/)
 
 ## Enterprise
-* __Business Intelligence__: JasperReports
-* __Resource Planning__: IDempiere -> LedgerSMB -> SQL-Ledger
+* __Data Mining and Business Intelligence__: JasperReports -> KNIME -> GNU Ferret -> GURGLE
+* __Database (Datalog)__: [Datalog Educational System](http://des.sourceforge.net/) -> [Datalog](http://datalog.sourceforge.net//)
+* __Database (Middleware)__: Virtuoso Universal Server -> Orbada -> Autotable
+* __Database (NoSQL)__: ODABA, [GZigZag](http://www.nongnu.org/gzz/), [RRDtool](https://oss.oetiker.ch/rrdtool/), [GNU Recutils](https://directory.fsf.org/wiki/Recutils)
+* __Database (SQL)__: MySQL -> Percona -> [MariaDB](https://directory.fsf.org/wiki/MariaDB) -> CUBRID -> Ingres II
+* __Enterprise Resource Planning (ERP)__: IDempiere -> LedgerSMB -> SQL-Ledger
+* __Expert System__: Flora-2, CLIPS
 * __Financial Markets Monitoring__: [JStock](https://github.com/yccheok/jstock) -> [QtTrader](https://github.com/e99majo/qttrader) -> [Qtstalker](http://qtstalker.sourceforge.net/)
-* __Human Resources__: OrangeHRM
+* __Human Resource Management__: OrangeHRM
 * __Invoicing__: Simple Invoices
-* __Project Management__: GanttProject -> ProjectLibre
+* __Project Management__: GanttProject
 
 ## File Utilities
 * __Batch Renamer__: [GPRename](http://gprename.sourceforge.net/) -> [qmv (renameutils)](http://www.nongnu.org/renameutils/)
@@ -516,9 +521,6 @@ All apps are from F-Droid, may not be much but is a start.
 * __Chat__:  [sshtalk](https://2ton.com.au/sshtalk/) -> [write, wall, mesg](http://www.unixpapa.com/write.html)
 * __CMS__: WordPress -> [GetSimple CMS](https://github.com/GetSimpleCMS/GetSimpleCMS) -> [werc](http://werc.cat-v.org/)
 * __Collaborative Real-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
-* __Database (Datalog)__: [Datalog Educational System](http://des.sourceforge.net/) -> [Datalog](http://datalog.sourceforge.net//)
-* __Database (SQL)__: MySQL -> [MariaDB](https://directory.fsf.org/wiki/MariaDB)
-* __Database (Other)__: [RRDtool](https://oss.oetiker.ch/rrdtool/), [GNU Recutils](https://directory.fsf.org/wiki/Recutils), [Gzz](http://www.nongnu.org/gzz/)
 * __Direct Connect Server__: [uhub](https://www.uhub.org/)
 * __DLNA__: [Universal Media Server](https://github.com/UniversalMediaServer/UniversalMediaServer) -> [ReadyMedia](http://minidlna.sourceforge.net/) (a.k.a. MiniDLNA)
 * __Document Management System__: [OpenKM](https://github.com/openkm/document-management-system) -> [LogicalDOC](https://github.com/logicaldoc/document-management-software) -> [EPrints](https://github.com/eprints/eprints)
