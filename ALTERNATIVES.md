@@ -484,7 +484,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Subway Map__: [qMetro](http://qmetro.sourceforge.net/maps/)
 * __Virtual Globe__: [Marble](https://github.com/KDE/marble)
 * __Graphing Calculator__: KAlgebra -> [TilEm](http://lpg.ticalc.org/prj_tilem/)
-* __Physics Simulation__: [OpenModelica](https://www.openmodelica.org/) -> [CalculiX](http://www.calculix.de/) -> [Elmer](https://directory.fsf.org/wiki/Elmer)-> [MCSim](https://directory.fsf.org/wiki/Mcsim)
+* __Physics Simulation__: [OpenModelica](https://www.openmodelica.org/) -> [CalculiX](http://www.calculix.de/) -> [Elmer](https://directory.fsf.org/wiki/Elmer) -> [MCSim](https://directory.fsf.org/wiki/Mcsim)
 * __Semiconductor Modeling (TCAD)__: [GNU Archimedes](https://directory.fsf.org/wiki/Archimedes) (and [GNU Nano-Archimedes](https://directory.fsf.org/wiki/Nano-archimedes))
 * __Software-defined radio (SDR)__: [GNU Radio](https://github.com/gnuradio) (+ [Gqrx](https://github.com/csete/gqrx)) -> [rtl-sdr](https://github.com/osmocom/rtl-sdr)
 * __Statistical Package__: [SageMath](http://www.sagemath.org/) -> [gretl](http://gretl.sourceforge.net/) -> [PSPP](https://directory.fsf.org/wiki/Pspp)  (+ PSPP-Perl)
