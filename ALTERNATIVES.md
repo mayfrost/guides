@@ -186,7 +186,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Virtual Machine (DEC)__: [SIMH](http://simh.trailing-edge.com/)
 
 ## Enterprise
-* __Data Mining and Business Intelligence__: JasperReports -> KNIME -> GNU Ferret -> GURGLE
+* __Data Mining and Business Intelligence__: [JasperReports](https://sourceforge.net/projects/jasperserver/) -> [KNIME](https://directory.fsf.org/wiki/KNIME) -> [GNU Ferret](https://directory.fsf.org/wiki/Ferret) -> [GURGLE](https://directory.fsf.org/wiki/Gurgle)
 * __Database (Datalog)__: [Datalog Educational System](http://des.sourceforge.net/) -> [Datalog](http://datalog.sourceforge.net//)
 * __Database (Middleware)__: Virtuoso Universal Server -> Orbada -> Autotable
 * __Database (NoSQL)__: ODABA, [GZigZag](http://www.nongnu.org/gzz/), [RRDtool](https://oss.oetiker.ch/rrdtool/), [GNU Recutils](https://directory.fsf.org/wiki/Recutils)
