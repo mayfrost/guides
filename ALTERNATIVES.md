@@ -469,7 +469,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Wake-on-LAN__: [wakeonlan](https://github.com/jpoliv/wakeonlan)
 
 ## Science And Engineering
-* __Artificial Intelligence__: [Golly](http://golly.sourceforge.net/), [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment), [ETHNOS](http://ethnos.sourceforge.net/), [CTF](http://ctf.sourceforge.net/), [Conscious Artificial Intelligence](https://sourceforge.net/projects/cai/), [OpenCog](https://github.com/opencog/opencog), [OpenAI](https://github.com/openai)
+* __Artificial Intelligence__: [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment), [ETHNOS](http://ethnos.sourceforge.net/), [Conscious Artificial Intelligence](https://sourceforge.net/projects/cai/), [OpenCog](https://github.com/opencog/opencog), [OpenAI](https://github.com/openai)
 * __Astronomy__: [SaVi satellite constellation visualizer](https://sourceforge.net/projects/savi/), Stellarium -> Celestia -> [SkyCat](https://github.com/Starlink/skycat)
 * __Bioinformatics__: [OpenSim](https://simtk.org/projects/opensim/), [Cytoscape](http://www.cytoscape.org/), [BioJava](https://github.com/biojava/biojava) -> [EMBOSS](https://github.com/kimrutherford/EMBOSS) -> [SAMtools](https://github.com/samtools/samtools) -> [BioPerl](http://bioperl.org/)
 * __CAD__: AutoCAD -> FreeCAD -> [OpenSCAD](https://github.com/openscad/openscad)
@@ -484,7 +484,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Subway Map__: [qMetro](http://qmetro.sourceforge.net/maps/)
 * __Virtual Globe__: [Marble](https://github.com/KDE/marble)
 * __Graphing Calculator__: KAlgebra -> [TilEm](http://lpg.ticalc.org/prj_tilem/)
-* __Multi-Agent (MA) Simulation__: [Mobility Testbed](https://github.com/agents4its/mobilitytestbed) -> [Galatea](http://galatea.sourceforge.net/Home.htm) -> [NetLogo](https://github.com/NetLogo/NetLogo/), [Golly](http://golly.sourceforge.net/) (Conway's Game of Life)
+* __Multi-Agent (MA) Simulation__: [Mobility Testbed](https://github.com/agents4its/mobilitytestbed) -> [Galatea](http://galatea.sourceforge.net/Home.htm) -> [NetLogo](https://github.com/NetLogo/NetLogo/), [Golly](http://golly.sourceforge.net/) (Conway's Game of Life clone)
 * __Physics Simulation__: [OpenModelica](https://www.openmodelica.org/) -> [CalculiX](http://www.calculix.de/) -> [Elmer](https://directory.fsf.org/wiki/Elmer) -> [MCSim](https://directory.fsf.org/wiki/Mcsim)
 * __Semiconductor Modeling (TCAD)__: [GNU Archimedes](https://directory.fsf.org/wiki/Archimedes) (and [GNU Nano-Archimedes](https://directory.fsf.org/wiki/Nano-archimedes))
 * __Software-defined radio (SDR)__: [GNU Radio](https://github.com/gnuradio) (+ [Gqrx](https://github.com/csete/gqrx)) -> [rtl-sdr](https://github.com/osmocom/rtl-sdr)
