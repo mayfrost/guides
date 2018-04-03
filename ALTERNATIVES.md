@@ -53,7 +53,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 
 ## ANDROID APPS
 
-* __Launcher__: Silverfish
+* __Launcher__: Silverfish -> [KISS](http://kisslauncher.com/)
 * __Facebook__: Tinfoil for Facebook
 * __Twitter__: Tinfoil for Twitter
 * __YouTube__: NewPipe
