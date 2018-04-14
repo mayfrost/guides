@@ -533,7 +533,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> [mairix](https://github.com/rc0/mairix)
 * __E-Mail Mailing Lists__: Mailman -> [Sympa](https://github.com/sympa-community) -> [Dada Mail](https://github.com/justingit/dada-mail) -> [ezmlm](https://github.com/bruceg/ezmlm-idx)
 * __E-Mail Notifier__: [mswatch](http://mswatch.sourceforge.net/)
-* __E-Mail Server (MTA)__: [Mail-in-a-Box](https://mailinabox.email/) -> Postfix -> Exim -> [cmail](http://cmail.rocks/)
+* __E-Mail Server (MTA)__: [Mail-in-a-Box](https://mailinabox.email/) -> Postfix -> Exim -> [cmail](http://cmail.rocks/) -> [qpsmtpd](https://smtpd.github.io/qpsmtpd/) -> [qmail](https://en.wikipedia.org/wiki/Qmail)
 * __E-Mail Spam Filter__: DSPAM -> [SpamAssassin](https://github.com/apache/spamassassin)
 * __E-Mail Validation__: [OpenDKIM](http://opendkim.org/), [SPF](http://www.openspf.org/)
 * __File Distribution__: [zsync](http://zsync.moria.org.uk/)
