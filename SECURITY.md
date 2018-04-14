@@ -2,7 +2,7 @@
 
 Not necessarily meant to be followed step by step, although it is recommended.
 
-* __Level 1__: Avoid using your real name online and avoid giving away any personal information. You can use The Random Identity Generator (rig) to generate an online persona and/or login sites using passwords from [Bugmenot](bugmenot.com).
+* __Level 1__: Avoid using your real name online and avoid giving away any personal information. You can use The Random Identity Generator (rig) to generate an online persona and/or login sites using passwords from [BugMeNot](http://bugmenot.com).
 * __Level 2__: Don't save your passwords on plaintext or in some "cloud" service like Lastpass and don't save logins on your phone or web browser. Create and remember one good main password (must have lowercase, uppercase, numbers and symbols, be longer than 8 characters and be change bimonthly), use KeePassX (and I mean the one with an X) and use the option to generate different passwords for each account you have. Other option is kpcli which works on the command line and is just a perl script (the best option).
 * __Level 3__: When possible opt for IRC instead of non-publicly auditable chat networks. A good and easy IRC application is Hexchat, another is irssi (best option). You can use BitlBee to access other chat networks through an IRC client if you need.
 * __Level 4__: Use Searx instead of Google when in need to search on the web.
