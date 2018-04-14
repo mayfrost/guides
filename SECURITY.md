@@ -12,7 +12,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 6__ Use RSS for news and podcasts from sites you trust instead of Youtube (although Youtube has an RSS feed for their channels too, for now). Liferea is easy and a great application for RSS feeds, newsboat (newsbeuter) is a command line option.
 * __Level 7__: Replace your e-mail provider with a more safe, more appropriate provider. A good option is [cock.li](https://cock.li/).
 * __Level 8__: Use an e-mail client that can to block web beacons (tracking pixels). Thunderbird is easy and has a plugin for this, Mutt or Alpine are better options.
-* __Level 9__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. GNU IceCat is the best option, Firefox works too.
+* __Level 9__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. GNU IceCat is the best option.
 
 ### Medium Level Security
 
