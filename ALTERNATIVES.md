@@ -105,6 +105,26 @@ All apps are from F-Droid, may not be much but is a start.
 * __Twitter__: [Hotot](https://github.com/lyricat/Hotot) / [turses](https://github.com/louipc/turses)
 * __Youtube__: [youtube-viewer](https://github.com/trizen/youtube-viewer)
 
+## Decentralized Networking
+* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> [nircd](https://github.com/Ronsor/nircd)
+* __Darknet__: [autovpn](https://github.com/adtac/autovpn) -> Tor -> [AnoNet](http://anonet.org/) -> i2p
+* __Digital Library__: [Aletheia](https://github.com/aletheia-foundation/aletheia-admin)
+* __Distributed File Systems__: Samba -> NFS -> IPFS -> [GNUnet](https://gnunet.org/)
+* __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
+* __E-Commerce__: [FIX Agora](http://fixagora.sourceforge.net/) + [OpenBazaar](https://github.com/OpenBazaar) + [Bitnation](https://github.com/Bit-Nation) + [GNU Taler](https://taler.net/en/)
+* __Forum__: [Decentraland](https://decentraland.org/) -> [Mastodon (GNU Social)](https://joinmastodon.org/) -> [NNTPChan](https://github.com/majestrate/nntpchan)
+* __Gossip Network (Network Service Discovery)__: [peernet](https://github.com/substack/peernet)
+* __Grid Computing__: [BOINC](https://github.com/BOINC/boinc) (+ [boinctui](https://github.com/suleman1971/boinctui))
+* __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> [DTube](https://github.com/dtube) -> [Alexandria](http://www.alexandria.io/) (watch [this video](https://www.youtube.com/watch?v=So4n2ZBSMxg) on how Alexandria works)
+* __Mesh Network__: Tinc -> cjdns -> -> open80211s (802.11s) -> [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki)
+* __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://streamtoken.net/)
+* __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
+* __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
+* __Search Engine (Torrents)__: Magnetissimo -> [magnetico](https://github.com/boramalper/magnetico)
+* __Streaming__: [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [BasicTV](https://github.com/dako300/basictv)
+* __Version Control (Decentralized Github)__: [GitTorrent](https://github.com/mfyuce/GitTorrent)
+* __VPN__:  [PeerVPN](https://github.com/peervpn/peervpn)
+* __Wiki__: [ikiwiki](https://ikiwiki.info/tips/distributed_wikis/)
 
 ## Desktop
 * __Application Launcher__: rofi -> ratmenu -> [dmenu](https://github.com/stilvoid/dmenu) -> [pdmenu](https://joeyh.name/code/pdmenu/) -> [iSelect](http://www.ossp.org/pkg/tool/iselect/) -> [slmenu](https://bitbucket.org/rafaelgg/slmenu)
@@ -146,27 +166,6 @@ All apps are from F-Droid, may not be much but is a start.
 * __Live USB__: UNetbootin -> [MultiCD](https://multicd.us/)
 * __Partitioning__: Gparted -> cfdisk -> GNU Parted -> fdisk / sfdisk
 * __System Backup__: [Systemback](https://sourceforge.net/projects/systemback/) -> [Bacula](https://blog.bacula.org/) -> [FSArchiver](http://www.fsarchiver.org/) -> [CYA](https://www.cyberws.com/bash/cya/)
-
-## Decentralized Networking
-* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> [nircd](https://github.com/Ronsor/nircd)
-* __Darknet__: [autovpn](https://github.com/adtac/autovpn) -> Tor -> [AnoNet](http://anonet.org/) -> i2p
-* __Digital Library__: [Aletheia](https://github.com/aletheia-foundation/aletheia-admin)
-* __Distributed File Systems__: Samba -> NFS -> IPFS -> [GNUnet](https://gnunet.org/)
-* __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
-* __E-Commerce__: [FIX Agora](http://fixagora.sourceforge.net/) + [OpenBazaar](https://github.com/OpenBazaar) + [Bitnation](https://github.com/Bit-Nation) + [GNU Taler](https://taler.net/en/)
-* __Forum__: [Decentraland](https://decentraland.org/) -> [Mastodon (GNU Social)](https://joinmastodon.org/) -> [NNTPChan](https://github.com/majestrate/nntpchan)
-* __Gossip Network (Network Service Discovery)__: [peernet](https://github.com/substack/peernet)
-* __Grid Computing__: [BOINC](https://github.com/BOINC/boinc) (+ [boinctui](https://github.com/suleman1971/boinctui))
-* __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> [DTube](https://github.com/dtube) -> [Alexandria](http://www.alexandria.io/) (watch [this video](https://www.youtube.com/watch?v=So4n2ZBSMxg) on how Alexandria works)
-* __Mesh Network__: Tinc -> cjdns -> -> open80211s (802.11s) -> [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki)
-* __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://streamtoken.net/)
-* __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
-* __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
-* __Search Engine (Torrents)__: Magnetissimo -> [magnetico](https://github.com/boramalper/magnetico)
-* __Streaming__: [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [BasicTV](https://github.com/dako300/basictv)
-* __Version Control (Decentralized Github)__: [GitTorrent](https://github.com/mfyuce/GitTorrent)
-* __VPN__:  [PeerVPN](https://github.com/peervpn/peervpn)
-* __Wiki__: [ikiwiki](https://ikiwiki.info/tips/distributed_wikis/)
 
 ## Emulation And Virtualization
 * __Containers__: chroot -> LXC -> [Linux-VServer](http://linux-vserver.org/Welcome_to_Linux-VServer.org)
