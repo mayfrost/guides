@@ -51,9 +51,9 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 35__: Use a command line browser like links2 to browse web pages.
 * __Level 36__: Use Bastille Linux to harden your system.
 * __Level 37__: Use Lynis to audit your system.
-* __Level 38__: Use Arpalert/ArpON (for Man-In-The-Middle -MITM- Detection) and Suricata/Snort (for Network Intrusion Detection).
+* __Level 38__: Use Arpalert/ArpON (for Man-In-The-Middle -MITM- Detection), [zapret](https://github.com/bol-van/zapret) (for Deep Packet Inspection -DPI- Block and Circumvention), and Suricata/Snort (for Network Intrusion Detection).
 * __Level 39__: Use a complete host intrusion detection framework like Tiger, which can work with Samhain (for integrity check), Unhide/Chkrootkit/rkhunter (for rootkit detection), ClamAV/Linux Malware Detect and a system logger like sysklogd.
-* __Level 40__: Use RSBAC (for RBAC) with AppArmor (for filesystem ACL).
+* __Level 40__: Use [RSBAC](https://www.rsbac.org/) (for RBAC) with AppArmor (for filesystem ACL).
 * __Level 41__: Compile the kernel yourself and add only necessary features and selected modules. Enable KASLR and Capabilities on kernel configuration.
 
 ### Start of deterrent measures
