@@ -7,7 +7,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 3__: When possible opt for IRC instead of non-publicly auditable chat networks. A good and easy IRC application is Hexchat, another is irssi (best option). You can use [BitlBee](https://wiki.bitlbee.org/) to access other chat networks through an IRC client if you need.
 * __Level 4__: Use [Searx](https://github.com/asciimoo/searx/wiki/Searx-instances) instead of Google when in need to search on the web.
 * __Level 5__: Use [Mastodon (GNU Social)](https://joinmastodon.org/) instead of non-publicly auditable social networks known to sell private information.
-* __Level 6__ Use RSS for news and podcasts from sites you trust instead of Youtube (although Youtube has an RSS feed for their channels too, for now). Liferea is an easy and great application for RSS feeds, newsboat (newsbeuter) is a command line option.
+* __Level 6__ Use RSS for news and podcasts from sites you trust instead of Youtube (although Youtube has an RSS feed for their channels too, for now). Liferea is easy and a great application for RSS feeds, newsboat (newsbeuter) is a command line option.
 * __Level 7__: Replace your e-mail provider with a more safe, more appropriate provider. A good option is [cock.li](https://cock.li/).
 * __Level 8__: Use an e-mail client that can to block web beacons (tracking pixels). Thunderbird is easy and has a plugin for this, Mutt or Alpine are better options.
 * __Level 9__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can can script the use of GPG on Mutt.
