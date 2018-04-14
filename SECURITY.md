@@ -29,33 +29,33 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 22__: Use cmail in your own server for e-mail. Exim with Dovecot is another option, as is OpenSMTPD.
 * __Level 23__: Use Squid for caching websites.
 
-### Measures that cost money
+### Start of high level security
 
-* __Level 24__: Buy a VPS in a non-extradition, privacy friendly country outside the Five Eyes under a different name and with a good way of not getting traced by payments, then set up your own VPN server so you can audit all the traffic.
-* __Level 25__: Buy a phone with Replicant and libre firmware. Tehnoetic sells an S3 phone with Replicant and only libre firmware enabled, so far is the best option.
-* __Level 26__: Buy a router compatible with LibreCMC and install LibreCMC, keep it up to date and give it a strong password.
-* __Level 27__: Buy a computer compatible with the Libreboot firmware and the Linux-libre kernel, then install both or buy it preinstalled. Thinkpads model x200, t400 and t500 are the best options.
+* __Level 24__: Use a source based distro, preferably without crypto libraries on its package manager (no Python). Source Mage is advised and it is easy to setup.
+* __Level 25__: Use the IRC, e-mail and torrent services available inside i2p, and use Tor as an outproxy for i2p when in need to access the regular web (only for browsing).
+* __Level 26__: Use a command line web browser like links2 and only browse web pages without javascript or cookies.
+* __Level 27__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
+* __Level 28__: Use port forwarding and a port knocker on your router or server and unregister your reverse dns records.
+* __Level 29__: Use Bastille Linux to harden your system.
+* __Level 30__: Use Lynis to audit your system.
+* __Level 31__: Use Arpalert/ArpON (for Man-In-The-Middle -MITM- Detection), [zapret](https://github.com/bol-van/zapret) (for Deep Packet Inspection -DPI- Block and Circumvention), and Suricata/Snort (for Network Intrusion Detection).
+* __Level 32__: Use a complete host intrusion detection framework like Tiger, which can work with Samhain (for integrity check), Unhide/Chkrootkit/rkhunter (for rootkit detection), ClamAV/Linux Malware Detect and a system logger like sysklogd.
+* __Level 33__: Use [RSBAC](https://www.rsbac.org/) (for RBAC) with AppArmor (for filesystem ACL).
+* __Level 34__: Compile the kernel yourself and add only necessary features and selected modules. Enable KASLR and Capabilities on kernel configuration.
 
 ### Start of physical access measures
 
-* __Level 28__: Set a BIOS password (DON'T FORGET THIS PASSWORD!).
-* __Level 29__: Use USBGuard (to prevent Juice Jacking).
-* __Level 30__: Use disk encryption with cryptsetup (dm-crypt), saving the key on a separate USB that you keep with yourself at all times.
-* __Level 31__: Move your boot partition to a USB and encrypt it with cryptboot. Use the option on Libreboot too.
+* __Level 35__: Set a BIOS password (DON'T FORGET THIS PASSWORD!).
+* __Level 36__: Use USBGuard (to prevent Juice Jacking).
+* __Level 37__: Use disk encryption with cryptsetup (dm-crypt), saving the key on a separate USB that you keep with yourself at all times.
+* __Level 38__: Move your boot partition to a USB and encrypt it with cryptboot. Use the option on Libreboot too.
 
-### Start of high level security
+### Measures that cost money
 
-* __Level 32__: Use a source based distro, preferably without crypto libraries on its package manager (no Python). Source Mage is advised and it is easy to setup.
-* __Level 33__: Use the IRC, e-mail and torrent services available inside i2p, and use Tor as an outproxy for i2p when in need to access the regular web (only for browsing).
-* __Level 34__: Use a command line web browser like links2 and only browse web pages without javascript or cookies.
-* __Level 35__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
-* __Level 36__: Use port forwarding and a port knocker on your router or server and unregister your reverse dns records.
-* __Level 37__: Use Bastille Linux to harden your system.
-* __Level 38__: Use Lynis to audit your system.
-* __Level 39__: Use Arpalert/ArpON (for Man-In-The-Middle -MITM- Detection), [zapret](https://github.com/bol-van/zapret) (for Deep Packet Inspection -DPI- Block and Circumvention), and Suricata/Snort (for Network Intrusion Detection).
-* __Level 40__: Use a complete host intrusion detection framework like Tiger, which can work with Samhain (for integrity check), Unhide/Chkrootkit/rkhunter (for rootkit detection), ClamAV/Linux Malware Detect and a system logger like sysklogd.
-* __Level 41__: Use [RSBAC](https://www.rsbac.org/) (for RBAC) with AppArmor (for filesystem ACL).
-* __Level 42__: Compile the kernel yourself and add only necessary features and selected modules. Enable KASLR and Capabilities on kernel configuration.
+* __Level 39__: Buy a VPS in a non-extradition, privacy friendly country outside the Five Eyes under a different name and with a good way of not getting traced by payments, then set up your own VPN server so you can audit all the traffic.
+* __Level 40__: Buy a phone with Replicant and libre firmware. Tehnoetic sells an S3 phone with Replicant and only libre firmware enabled, so far is the best option.
+* __Level 41__: Buy a router compatible with LibreCMC and install LibreCMC, keep it up to date and give it a strong password.
+* __Level 42__: Buy a computer compatible with the Libreboot firmware and the Linux-libre kernel, then install both or buy it preinstalled. Thinkpads model x200, t400 and t500 are the best options. Remember to check a compatible Wi-Fi card and physically remove cables connecting cameras and microphones.
 
 ### Start of deterrent measures
 
