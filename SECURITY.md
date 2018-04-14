@@ -10,7 +10,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 6__ Use RSS for news and podcasts from sites you trust instead of Youtube (although Youtube has an RSS feed for their channels too, for now). Liferea is easy and a great application for RSS feeds, newsboat (newsbeuter) is a command line option.
 * __Level 7__: Replace your e-mail provider with a more safe, more appropriate provider. A good option is [cock.li](https://cock.li/).
 * __Level 8__: Use an e-mail client that can to block web beacons (tracking pixels). Thunderbird is easy and has a plugin for this, Mutt or Alpine are better options.
-* __Level 9__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can can script the use of GPG on Mutt.
+* __Level 9__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt.
 * __Level 10__: Delete any metadata from files you share on the internet. ExifTool in combination with [renamer](https://github.com/CaptainBlacklace/Renamer) is a good option.
 * __Level 11__: Anonymize your writting style on any text with anti stylometry software like [Anonymouth](https://github.com/psal/anonymouth) when you share documents.
 * __Level 12__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. GNU IceCat is the best option, Firefox works too.
