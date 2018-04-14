@@ -46,10 +46,10 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 ### Start of high level security
 
 * __Level 32__: Use a source based distro, preferably without crypto libraries on its package manager (no Python). Source Mage is advised and it is easy to setup.
-* __Level 33__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
-* __Level 34__: Use port forwarding and a port knocker on your router or server and unregister your reverse dns records.
-* __Level 35__: Use the IRC, e-mail and torrent services available inside i2p, and use Tor as an outproxy for i2p when in need to access the regular web (only for browsing).
-* __Level 36__: Use a command line browser like links2 to browse web pages.
+* __Level 33__: Use the IRC, e-mail and torrent services available inside i2p, and use Tor as an outproxy for i2p when in need to access the regular web (only for browsing).
+* __Level 34__: Use a command line web browser like links2 and only browse web pages without javascript or cookies.
+* __Level 35__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
+* __Level 36__: Use port forwarding and a port knocker on your router or server and unregister your reverse dns records.
 * __Level 37__: Use Bastille Linux to harden your system.
 * __Level 38__: Use Lynis to audit your system.
 * __Level 39__: Use Arpalert/ArpON (for Man-In-The-Middle -MITM- Detection), [zapret](https://github.com/bol-van/zapret) (for Deep Packet Inspection -DPI- Block and Circumvention), and Suricata/Snort (for Network Intrusion Detection).
@@ -64,7 +64,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 45__: Reduce the amount of software installed in your computer.
 * __Level 46__: Opt for text-based programs with less library dependencies than their GUI counterparts.
 * __Level 47__: Support the GPL license as to prevent proprietary license wrapping (as with BSD/MIT/Apache licenses). GPLv3 in specific to prevent tivoization, a hardware level lockdown method.
-* __Level 48__: Deduplicate efforts and converge strategies to achieve a "tight base system" in common (use the koan "if is not strictly necessary it should be strictly optional, but still optional"), and that means making things modular and avoiding unnecessary dependencies instead of trusting "crypto libraries" like in python.
+* __Level 48__: Deduplicate efforts and converge strategies to achieve a "tight base system" in common (use the koan "if is not strictly necessary it should be strictly optional, but still optional"), and that means making things modular and avoiding unnecessary dependencies instead of trusting "crypto libraries" like in Python.
 * __Level 49__: Abandon "cloud computing" and traditional, non-publicly auditable, data mined networks and erase your online persona. Use exclusively peer-to-peer services with specific protocols instead of all-in-one networks. Use IRC for live chat, and NNTP for newsgroups (per topic forums, what "social media" should be).
 * __Level 50__: Abandon the Internet. Participate in local mesh networks and collaborate with global scale meshnet projects like [gternet](https://mesh.gentoo.today/wiki/Main_Page).
 * __Level 51__: Don't f\*ck up. Protip: you can't.
