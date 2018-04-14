@@ -493,7 +493,7 @@ All apps are from F-Droid, may not be much but is a start.
 
 ## Security
 ### Containment
-* __Access Control__: SELinux -> Smack -> AppArmor -> [RSBAC](https://www.rsbac.org/)
+* __Access Control__: SELinux -> Smack -> AppArmor + [RSBAC](https://www.rsbac.org/)
 * __Authentication__: Polkit/ConsoleKit -> FakeRoot -> Sudo (visudo) -> Linux PAM
 * __Resource Usage Control__: [Disk Quota](https://sourceforge.net/projects/linuxquota/) -> [quotatool](https://github.com/ekenberg/quotatool), ulimit, [cpulimit](https://github.com/opsengine/cpulimit)
 * __Sandboxing__: [Firejail](https://github.com/netblue30/firejail) -> [Bubblewrap](https://github.com/projectatomic/bubblewrap)
