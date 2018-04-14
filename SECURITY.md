@@ -54,4 +54,4 @@ SECURITY TIPS in order of difficulty (not meant to be followed step by step, alt
 * __Level 47__: Deduplicate efforts and converge strategies to achieve a "tight base system" in common (use the koan "if is not strictly necessary it should be strictly optional, but still optional"), and that means making things modular and avoiding unnecessary dependencies instead of trusting "crypto libraries" like in python.
 * __Level 48__: Abandon "cloud computing" and traditional, non-publicly auditable, data mined networks and erase your online persona. Use exclusively peer-to-peer services with specific protocols instead of all-in-one networks.
 * __Level 49__: Abandon the Internet. Participate in local mesh networks and collaborate with global scale meshnet projects like gternet.
-* __Level 50__: Don't fuck up. Protip: you can't.
+* __Level 50__: Don't f\*ck up. Protip: you can't.
