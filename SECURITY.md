@@ -28,7 +28,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 19__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt.
 * __Level 20__: Delete any metadata from files you share on the internet. ExifTool in combination with [renamer](https://github.com/CaptainBlacklace/Renamer) is a good option.
 * __Level 21__: Anonymize your writting style on any text with anti stylometry software like [Anonymouth](https://github.com/psal/anonymouth) when you share documents.
-* __Level 22__: Use cmail in your own server for e-mail. Exim with Dovecot is another option, as is OpenSMTPD.
+* __Level 22__: Use qmail in your own server for e-mail. qpsmtpd and cmail are other options.
 * __Level 23__: Use Squid for caching websites.
 
 ### High Level Security
