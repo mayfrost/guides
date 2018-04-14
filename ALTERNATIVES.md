@@ -154,7 +154,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Distributed File Systems__: Samba -> NFS -> IPFS -> [GNUnet](https://gnunet.org/)
 * __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
 * __E-Commerce__: [FIX Agora](http://fixagora.sourceforge.net/) + [OpenBazaar](https://github.com/OpenBazaar) + [Bitnation](https://github.com/Bit-Nation) + [GNU Taler](https://taler.net/en/)
-* __Forum__: [Decentraland](https://decentraland.org/) -> [GNU Social (Mastodon)](https://joinmastodon.org/) -> [NNTPChan](https://github.com/majestrate/nntpchan)
+* __Forum__: [Decentraland](https://decentraland.org/) -> [Mastodon (GNU Social)](https://joinmastodon.org/) -> [NNTPChan](https://github.com/majestrate/nntpchan)
 * __Gossip Network (Network Service Discovery)__: [peernet](https://github.com/substack/peernet)
 * __Grid Computing__: [BOINC](https://github.com/BOINC/boinc) (+ [boinctui](https://github.com/suleman1971/boinctui))
 * __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> [DTube](https://github.com/dtube) -> [Alexandria](http://www.alexandria.io/) (watch [this video](https://www.youtube.com/watch?v=So4n2ZBSMxg) on how Alexandria works)
