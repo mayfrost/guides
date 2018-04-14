@@ -2,6 +2,8 @@
 
 Not necessarily meant to be followed step by step, although it is recommended. Some steps are valid during all levels, others give way to better alternatives further on.
 
+### Basic Level Security
+
 * __Level 1__: Avoid using your real name online and avoid giving away any personal information. You can use [The Random Identity Generator](http://rig.sourceforge.net/) (rig) to generate an online persona and/or login sites using passwords from [BugMeNot](http://bugmenot.com).
 * __Level 2__: Don't save your passwords on plaintext or in some "cloud" service like Lastpass and don't save logins on your phone or web browser. Create and remember one good main password (must have lowercase, uppercase, numbers and symbols, be longer than 8 characters and be change bimonthly), use KeePassX (and I mean the one with an X) and use the option to generate different passwords for each account you have and keep the password database on a USB. Other password manager is [kpcli](https://github.com/alecsammon/kpcli) which works on the command line and is just a perl script (this is the best option).
 * __Level 3__: Choose IRC instead of non-publicly auditable chat networks. A good and easy IRC application is Hexchat, another is irssi (best option). You can use [BitlBee](https://wiki.bitlbee.org/) to access other chat networks through an IRC client if you need.
@@ -12,7 +14,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 8__: Use an e-mail client that can to block web beacons (tracking pixels). Thunderbird is easy and has a plugin for this, Mutt or Alpine are better options.
 * __Level 9__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. GNU IceCat is the best option, Firefox works too.
 
-### Start of medium level security
+### Medium Level Security
 
 * __Level 10__: Install LineageOS on your phone and use F-Droid without gapps (Google app store), with IceCatMobile for web browser, KeePassDroid, AFWall+ and Android IMSI-Catcher Detector. Use Yalp Store or Aptoide (or download from apkmirror/apkpure) in combination with microG if you need a gapps app.
 * __Level 11__: Use GNU/Linux on your computers, preferably free from "systemd". PCLinuxOS is an easy first choice, Devuan is a better option. Stay away from something called BSD.
@@ -29,7 +31,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 22__: Use cmail in your own server for e-mail. Exim with Dovecot is another option, as is OpenSMTPD.
 * __Level 23__: Use Squid for caching websites.
 
-### Start of high level security
+### High Level Security
 
 * __Level 24__: Use a source based distro, preferably without crypto libraries on its package manager (no Python). Source Mage is advised and it is easy to setup.
 * __Level 25__: Use the IRC, e-mail and torrent services available inside i2p, and use Tor as an outproxy for i2p when in need to access the regular web (only for browsing).
@@ -43,21 +45,21 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 33__: Use [RSBAC](https://www.rsbac.org/) (for RBAC) with AppArmor (for filesystem ACL).
 * __Level 34__: Compile the kernel yourself and add only necessary features and selected modules. Enable KASLR and Capabilities on kernel configuration.
 
-### Start of physical access measures
+### Physical Access Counter-Measures
 
 * __Level 35__: Set a BIOS password (DON'T FORGET THIS PASSWORD!).
 * __Level 36__: Use USBGuard (to prevent Juice Jacking).
 * __Level 37__: Use disk encryption with cryptsetup (dm-crypt), saving the key on a separate USB that you keep with yourself at all times.
 * __Level 38__: Move your boot partition to a USB and encrypt it with cryptboot. Use the option on Libreboot too.
 
-### Measures that cost money
+### Costly Counter-Measures
 
 * __Level 39__: Buy a VPS in a non-extradition, privacy friendly country outside the Five Eyes under a different name and with a good way of not getting traced by payments, then set up your own VPN server so you can audit all the traffic.
 * __Level 40__: Buy a phone with Replicant and libre firmware. Tehnoetic sells an S3 phone with Replicant and only libre firmware enabled, so far is the best option.
 * __Level 41__: Buy a router compatible with LibreCMC and install LibreCMC, keep it up to date and give it a strong password.
 * __Level 42__: Buy a computer compatible with the Libreboot firmware and the Linux-libre kernel, then install both or buy it preinstalled. Thinkpads model x200, t400 and t500 are the best options. Remember to check a compatible Wi-Fi card and physically remove cables connecting cameras and microphones.
 
-### Start of deterrent measures
+### Deterrent Counter-Measures
 
 * __Level 43__: Learn to hack yourself first.
 * __Level 44__: Use only libre software (software "free as in freedom").
