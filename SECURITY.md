@@ -2,7 +2,7 @@
 
 Not necessarily meant to be followed step by step, although it is recommended.
 
-* __Level 1__: Avoid using your real name online and avoid giving away any personal information. You can use The Random Identity Generator (rig) to generate an online persona and/or login sites using passwords from bugmenot.com.
+* __Level 1__: Avoid using your real name online and avoid giving away any personal information. You can use The Random Identity Generator (rig) to generate an online persona and/or login sites using passwords from [Bugmenot](bugmenot.com).
 * __Level 2__: Don't save your passwords on plaintext or in some "cloud" service like Lastpass and don't save logins on your phone or web browser. Create and remember one good main password (must have lowercase, uppercase, numbers and symbols, be longer than 8 characters and be change bimonthly), use KeePassX (and I mean the one with an X) and use the option to generate different passwords for each account you have. Other option is kpcli which works on the command line and is just a perl script (the best option).
 * __Level 3__: When possible opt for IRC instead of non-publicly auditable chat networks. A good and easy IRC application is Hexchat, another is irssi (best option). You can use BitlBee to access other chat networks through an IRC client if you need.
 * __Level 4__: Use Searx instead of Google when in need to search on the web.
@@ -12,8 +12,10 @@ Not necessarily meant to be followed step by step, although it is recommended.
 * __Level 8__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can can script the use of GPG on Mutt.
 * __Level 9__: Delete any metadata from files you share on the internet. MAT is an easy tool for this, ExifTool is a better option.
 * __Level 10__: Anonymize your writting style on any text with anti stylometry software like Anonymouth when you share documents.
-* __Level 11__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. GNU IceCat is the best option, Firefox works too
----Start of medium level security---
+* __Level 11__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. GNU IceCat is the best option, Firefox works too.
+
+## ---Start of medium level security---
+
 * __Level 12__: Install LineageOS on your phone and use F-Droid without gapps (Google app store), with IceCatMobile for web browser, KeePassDroid, AFWall+ and Android IMSI-Catcher Detector. Use Yalp Store or Aptoide (or download from apkmirror/apkpure) with microG if you need a gapps app.
 * __Level 13__: Use GNU/Linux on your computers, preferably free from "systemd". PCLinuxOS is an easy first choice, Devuan is a better option. Stay away from something called BSD.
 * __Level 14__: Uninstall Avahi, CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, and if unused uninstall services like ssh/web/ftp/mail.
@@ -25,17 +27,23 @@ Not necessarily meant to be followed step by step, although it is recommended.
 * __Level 20__: Use the Tor Browser to navigate the internet through Tor.
 * __Level 21__: Use cmail in your own server for e-mail. Exim with Dovecot is another option, as is OpenSMTPD.
 * __Level 22__: Use Squid for caching websites.
----Measures that cost money---
+
+## ---Measures that cost money---
+
 * __Level 23__: Buy a VPS in a non-extradition, privacy friendly country outside the Five Eyes under a different name and with a good way of not getting traced by payments, then set up your own VPN server so you can audit all the traffic.
 * __Level 24__: Buy a phone with Replicant and libre firmware. Tehnoetic sells an S3 phone with Replicant and only libre firmware enabled, so far is the best option.
 * __Level 25__: Buy a router compatible with LibreCMC and install LibreCMC, keep it up to date and give it a strong password.
 * __Level 26__: Buy a computer compatible with the Libreboot firmware and the Linux-libre kernel, then install both or buy it preinstalled. Thinkpads model x200, t400 and t500 are the best options.
----Start of physical access measures---
+
+## ---Start of physical access measures---
+
 * __Level 27__: Set a BIOS password (DON'T FORGET THIS PASSWORD!).
 * __Level 28__: Use USBGuard (to prevent Juice Jacking).
 * __Level 29__: Use disk encryption with cryptsetup (dm-crypt), saving the key on a separate USB that you keep with yourself at all times.
 * __Level 30__: Move your boot partition to a USB and encrypt it with cryptboot. Use the option on Libreboot too.
----Start of high level security---
+
+## ---Start of high level security---
+
 * __Level 31__: Use a source based distro, preferably without crypto libraries on its package manager (no Python). Source Mage is advised and it is easy to setup.
 * __Level 32__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
 * __Level 33__: Use port forwarding and a port knocker on your router or server and unregister your reverse dns records.
@@ -47,7 +55,9 @@ Not necessarily meant to be followed step by step, although it is recommended.
 * __Level 39__: Use a complete host intrusion detection framework like Tiger, which can work with Samhain (for integrity check), Unhide/Chkrootkit/rkhunter (for rootkit detection), ClamAV/Linux Malware Detect and a system logger like sysklogd.
 * __Level 40__: Use RSBAC (for RBAC) with AppArmor (for filesystem ACL).
 * __Level 41__: Compile the kernel yourself and add only necessary features and selected modules. Enable KASLR and Capabilities on kernel configuration.
----Start of deterrent measures---
+
+## ---Start of deterrent measures---
+
 * __Level 42__: Learn to hack yourself first.
 * __Level 43__: Use only libre software (software "free as in freedom").
 * __Level 44__: Reduce the amount of software installed in your computer.
