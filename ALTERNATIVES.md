@@ -363,7 +363,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Speed Reading__: [speedread](https://github.com/pasky/speedread)
 * __Spell Check__: [Aspell](https://directory.fsf.org/wiki/Aspell)
 * __Spreadsheets__: Libreoffice Calc -> Gnumeric -> Oleo -> [SC-IM](https://github.com/andmarti1424/sc-im) + Pandoc
-* __Text Editor (and IDE)__: Emacs (nox) -> Vim -> Nano -> Vile -> [xwpe](https://github.com/amagnasco/xwpe) (full IDE in the terminal) -> [GNU Zile](https://directory.fsf.org/wiki/GNU_Zile) -> [Elvis](https://github.com/mbert/elvis)
+* __Text Editor (and IDE)__: Emacs (nox) -> Vim -> [xwpe](https://github.com/amagnasco/xwpe) (full IDE in the terminal) -> [GNU Zile](https://directory.fsf.org/wiki/GNU_Zile) (minimalist Emacs clone) -> [Elvis](https://github.com/mbert/elvis) (minimalist Vi clone)
 * __Text Formatting and Pretty Printing__: [unoconv](http://dag.wiee.rs/home-made/unoconv/) -> Pandoc, par -> fmt (Textutils)
 * __Text-To-Speech__: Orca -> Gespeaker -> [eBook-speaker](https://directory.fsf.org/wiki/EBook-speaker) (+ pandoc) -> [eSpeak](https://github.com/espeak-ng/espeak-ng/)
 * __Typesetting__: LaTeX -> Texinfo -> [groff (tbl, pic, eqn, chem, music, dpic, grohtml)](https://www.troff.org/prog.html)
