@@ -54,7 +54,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 ## ANDROID APPS
 
 * __Launcher__: [OpenLauncher](https://github.com/OpenLauncherTeam/openlauncher)(8,3MB) -> [Catapult](https://bitbucket.org/lenny_kano/catapult)(4,7MB) -> [Lawnchair](https://lawnchair.info/)(3,1MB) -> [Paper Launch](https://github.com/devmil/PaperLaunch)(2,8MB) -> [Launch Time](http://quaap.com/D/LaunchTime)(2,5MB) -> [Silverfish](https://github.com/stanipintjuk/Silverfish)(1,5MB) -> [T-UI](https://github.com/Andre1299/TUI-ConsoleLauncher)(1,2MB) -> [Search Based Launcher](https://github.com/vackosar/search-based-launcher/)(622KB) -> [KISS](http://kisslauncher.com/)(431KB) -> [Emerald Launcher](https://github.com/HenriDellal/emerald)(172KB) -> [Hayai Launcher](https://github.com/seizonsenryaku/HayaiLauncher/blob/HEAD/README.md)(106KB) -> [Fast](https://github.com/ligi/FAST)(76KB) -> [Essential Launcher](https://clemensbartz.de/essential-launcher/])(26KB)
-* __Facebook__: Tinfoil for Facebook
+* __Facebook__: [FaceSlim](https://github.com/indywidualny/FaceSlim)(1,3MB) -> [Tinfoil for Facebook](https://github.com/velazcod/Tinfoil-Facebook)(525KB)
 * __Twitter__: Tinfoil for Twitter
 * __YouTube__: NewPipe
 * __E-Books__: Document Viewer
