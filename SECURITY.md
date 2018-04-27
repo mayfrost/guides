@@ -2,6 +2,14 @@
 
 Not necessarily meant to be followed step by step, although it is recommended. Some steps are valid during all levels, others give way to better alternatives further on.
 
+### TOC
+1. [Basic Level Security](#basic-level-security)  
+2. [Medium Level Security](#medium-level-security)  
+3. [High Level Security](#high-level-security)  
+4. [Physical Access Counter-Measures](#physical-access-counter-measures)  
+5. [Costly Counter-Measures](#costly-counter-measures)  
+6. [Deterrent Counter-Measures](#deterrent-counter-measures)  
+
 ### Basic Level Security
 
 * __Level 1__: Avoid using your real name online and avoid giving away any personal information. You can use [The Random Identity Generator](http://rig.sourceforge.net/) (rig) to generate an online persona and/or login sites using passwords from [BugMeNot](http://bugmenot.com).
@@ -10,7 +18,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 4__: Use [Searx](https://github.com/asciimoo/searx/wiki/Searx-instances) instead of Google when in need to search on the web.
 * __Level 5__: Use [Mastodon (GNU Social)](https://joinmastodon.org/) instead of non-publicly auditable social networks known to sell private information.
 * __Level 6__ Use RSS for news and podcasts from sites you trust instead of Youtube (although Youtube has an RSS feed for their channels too, for now). Liferea is easy and a great application for RSS feeds, newsboat (newsbeuter) is a command line option.
-* __Level 7__: Replace your e-mail provider with a more safe, more appropriate provider. A good option is [cock.li](https://cock.li/).
+* __Level 7__: Replace your e-mail provider with a more safe, more appropriate provider. A good option is [Tutanota](https://tutanota.com/), another alternative is [cock.li](https://cock.li/).
 * __Level 8__: Use an e-mail client that can to block web beacons (tracking pixels). Thunderbird is easy and has a plugin for this. Mailx, Mutt or Alpine are better options.
 * __Level 9__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. GNU IceCat is the best option.
 
