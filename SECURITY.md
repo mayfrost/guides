@@ -2,13 +2,16 @@
 
 Not necessarily meant to be followed step by step, although it is recommended. Some steps are valid during all levels, others give way to better alternatives further on.
 
-### TOC
+---
+
 1. [Basic Level Security](#basic-level-security)  
 2. [Medium Level Security](#medium-level-security)  
 3. [High Level Security](#high-level-security)  
 4. [Physical Access Counter-Measures](#physical-access-counter-measures)  
 5. [Costly Counter-Measures](#costly-counter-measures)  
 6. [Deterrent Counter-Measures](#deterrent-counter-measures)  
+
+---
 
 ### Basic Level Security
 
