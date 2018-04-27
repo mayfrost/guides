@@ -74,4 +74,4 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 48__: Deduplicate efforts and converge strategies to achieve a "tight base system" in common (use the koan "if is not strictly necessary it should be strictly optional, but still optional"), and that means making things modular and avoiding unnecessary dependencies instead of trusting "crypto libraries" like in Python.
 * __Level 49__: Abandon "cloud computing" and traditional, non-publicly auditable, data mined networks and erase your online persona. Use exclusively peer-to-peer services with specific protocols instead of all-in-one networks. Use IRC for live chat, and NNTP for newsgroups (per topic forums, what "social media" should be).
 * __Level 50__: Abandon the Internet. Participate in local mesh networks and collaborate with global scale meshnet projects like [gternet](https://mesh.gentoo.today/wiki/Main_Page).
-* __Level 51__: Don't f\*ck up. Protip: you can't.
+* __Level 51__: [Don't f\*ck it up](https://www.youtube.com/watch?v=J1q4Ir2J8P8). Protip: you can't.
