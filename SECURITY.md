@@ -31,7 +31,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 13__: Use Uncomplicated Firewall to block inbound AND outbound network traffic, permitting only what you need.
 * __Level 14__: Use Firejail or Bubblewrap to sandbox your applications.
 * __Level 15__: When possible give your applications a separate user account and use sudo, chroot, fakeroot, ulimit and quota with them.
-* __Level 16__: Use DNSCrypt to prevent DNS Leaking with an OpenNIC provider known to not save logs.
+* __Level 16__: Use [BIND9 with DNSCrypt](https://unix.stackexchange.com/questions/270716/configure-bind-as-forwarder-only-no-root-hints-encrypted-rpz-blacklist-wh/270796#270796) to prevent DNS Leaking with an [OpenNIC provider](https://servers.opennicproject.org/) known to not save logs.
 * __Level 17__: Use YaCy with collaborative database disabled when in need to search on the web.
 * __Level 18__: Use the Tor Browser to navigate the internet through Tor.
 * __Level 19__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt.
