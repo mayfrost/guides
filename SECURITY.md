@@ -28,7 +28,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 10__: Install LineageOS on your phone and use F-Droid without gapps (Google app store), with IceCatMobile for web browser, KeePassDroid, AFWall+ and Android IMSI-Catcher Detector. Use Yalp Store or Aptoide (or download from apkmirror/apkpure) in combination with microG if you need a gapps app.
 * __Level 11__: Use GNU/Linux on your computers, preferably free from "systemd". PCLinuxOS is an easy first choice, Devuan is a better option. Stay away from something called BSD.
 * __Level 12__: Uninstall Avahi, CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, and uninstall unused services like ssh/web/ftp/mail.
-* __Level 13__: Use Uncomplicated Firewall to block inbound AND outbound network traffic, permitting only what you need.
+* __Level 13__: Use Uncomplicated Firewall ("ufw") to block inbound AND outbound network traffic, permitting only what you need.
 * __Level 14__: Use Firejail or Bubblewrap to sandbox your applications.
 * __Level 15__: When possible give your applications a separate user account and use sudo, chroot, fakeroot, ulimit and quota with them.
 * __Level 16__: Use [BIND9 with DNSCrypt](https://unix.stackexchange.com/questions/270716/configure-bind-as-forwarder-only-no-root-hints-encrypted-rpz-blacklist-wh/270796#270796) to prevent DNS Leaking with an [OpenNIC provider](https://servers.opennicproject.org/) known to not save logs.
@@ -46,7 +46,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 26__: Use a command line web browser like links2 and only browse web pages without javascript or cookies.
 * __Level 27__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
 * __Level 28__: Use port forwarding and a port knocker on your router or server and unregister your reverse dns records.
-* __Level 29__: Use Bastille Linux to harden your system.
+* __Level 29__: Use [Bastille Linux](http://bastille-linux.sourceforge.net/source.htm) to harden your system.
 * __Level 30__: Use Lynis to audit your system.
 * __Level 31__: Use Arpalert/ArpON (for Man-In-The-Middle -MITM- Detection), [zapret](https://github.com/bol-van/zapret) (for Deep Packet Inspection -DPI- Block and Circumvention), and Suricata/Snort (for Network Intrusion Detection).
 * __Level 32__: Use a complete host intrusion detection framework like Tiger, which can work with Samhain (for integrity check), Unhide/Chkrootkit/rkhunter (for rootkit detection), ClamAV/Linux Malware Detect and a system logger like sysklogd.
