@@ -15,7 +15,7 @@ Here is an example of what you will see in __/proc/asound/modules__:
 `0 snd_usb_audio`  
 `1 snd_hda_intel`  
 
-4. Select from the above and put them in the order you want in the file __/etc/modprobe.d/alsa-base.conf__, by assigning an index from -2 to 2, making the preferred output the lowest number.  
+4. Select from the above and put them in the order you want in the file __/etc/modprobe.d/alsa-base.conf__, by assigning an index from -2 to 2, marking the preferred device as the lowest number.  
 
 As an example if you have two devices and want the one that says usb because that is your headphone, on __/etc/modprobe.d/alsa-base.conf__ you will put:  
 `options snd_usb_audio enable=1 index=0`  
@@ -29,7 +29,7 @@ Notice the index.
 
 1. Install  __[apulse](https://github.com/i-rinat/apulse)__.  
 
-2. On Firefo open __about:config__ and enter "__/dev/snd/__" under __security.sandbox.content.read_path_whitelist__ and __security.sandbox.content.write_path_whitelist;/dev/snd/__.  
+2. On Firefox open __about:config__ and enter "__/dev/snd/__" under __security.sandbox.content.read_path_whitelist__ and __security.sandbox.content.write_path_whitelist;/dev/snd/__.  
 
 3. Every time you want to use firefox with this setting issue the command:  
 `$ apulse firefox`  
