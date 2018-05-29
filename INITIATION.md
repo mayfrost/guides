@@ -33,7 +33,7 @@ Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
 `ip link set <NIC> up`  
 `dhcpcd <NIC>`  
 
-In the case you need to use Wi-Fi please refer to https://github.com/mayfrost/guides/blob/master/WIFI.md  
+In the case you need Wi-Fi please refer to https://github.com/mayfrost/guides/blob/master/NETWORKING.md  
 
 * Temporarily change keyboard to your mapping (available configurations can be found in the directories "_/usr/share/kbd/keymaps/_" for __CRUX__ and "_/usr/share/keymaps/i386/qwerty_" for __Source Mage GNU/Linux__).  
 `loadkeys <KEYMAP>`  
