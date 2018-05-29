@@ -1,4 +1,6 @@
-# WiFi
+# NETWORKING
+
+## WiFi
 
 Use WiFi without a separate network manager with this simple guide. Needs "_dhcpcd_" or "_dhcpclient_", "_net-tools_" or "_iproute2_", "_wpa\_supplicant_", and the WiFi firmware for your wireless card (like "_iwlwifi_" and its "_ucode_").  
 __NOTE__: The "_\<DEVICE_NAME>_" can be either "_wlp3s0_" or "_wlan0_". Change accordingly the following commands to suit your needs.
