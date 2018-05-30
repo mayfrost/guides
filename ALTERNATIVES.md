@@ -187,7 +187,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Data Mining and Business Intelligence__: [JasperReports](https://sourceforge.net/projects/jasperserver/) -> [KNIME](https://directory.fsf.org/wiki/KNIME) -> [GNU Ferret](https://directory.fsf.org/wiki/Ferret) -> [GURGLE](https://directory.fsf.org/wiki/Gurgle)
 * __Database (Datalog)__: [Datalog Educational System](http://des.sourceforge.net/), [Datalog](http://datalog.sourceforge.net/)
 * __Database (Middleware)__: [Virtuoso Universal Server](https://virtuoso.openlinksw.com/) -> [Orbada](http://orbada.sourceforge.net/html/www_orbada_doc.html) -> [Autotable](https://directory.fsf.org/wiki/Autotable)
-* __Database (NoSQL)__: [GZigZag](http://www.nongnu.org/gzz/), [RRDtool](https://oss.oetiker.ch/rrdtool/), [Redis](https://directory.fsf.org/wiki/Redis), [GNU Recutils](https://directory.fsf.org/wiki/Recutils)
+* __Database (NoSQL)__: [GZigZag](http://www.nongnu.org/gzz/), [RRDtool](https://oss.oetiker.ch/rrdtool/), [Dgraphhttps://github.com/dgraph-io/dgraph](), [Redis](https://directory.fsf.org/wiki/Redis), [GNU Recutils](https://directory.fsf.org/wiki/Recutils)
 * __Database (SQL)__: MySQL -> Percona -> [MariaDB](https://directory.fsf.org/wiki/MariaDB) -> [CUBRID](https://github.com/CUBRID/cubrid) -> [Ingres II](https://github.com/fosslc/Ingres)
 * __Enterprise Resource Planning (ERP)__: [IDempiere](http://www.idempiere.org/) -> [LedgerSMB](https://directory.fsf.org/wiki/LedgerSMB) -> [SQL-Ledger](http://www.sql-ledger.com/)
 * __Expert System__: [Flora-2](http://flora.sourceforge.net/), [CLIPS](http://clipsrules.sourceforge.net/)
@@ -469,7 +469,7 @@ All apps are from F-Droid, may not be much but is a start.
 ## Science And Engineering
 * __Artificial Intelligence__: [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment), [ETHNOS](http://ethnos.sourceforge.net/), [Conscious Artificial Intelligence](https://sourceforge.net/projects/cai/), [OpenCog](https://github.com/opencog/opencog), [OpenAI](https://github.com/openai)
 * __Astronomy__: [SaVi satellite constellation visualizer](https://sourceforge.net/projects/savi/), Stellarium -> Celestia -> [SkyCat](https://github.com/Starlink/skycat)
-* __Bioinformatics__: [OpenSim](https://simtk.org/projects/opensim/), [Cytoscape](http://www.cytoscape.org/), [BioJava](https://github.com/biojava/biojava) -> [EMBOSS](https://github.com/kimrutherford/EMBOSS) -> [SAMtools](https://github.com/samtools/samtools) -> [BioPerl](http://bioperl.org/)
+* __Bioinformatics__: [UGENE](http://ugene.net/), [OpenSim](https://simtk.org/projects/opensim/), [Cytoscape](http://www.cytoscape.org/), [BioJava](https://github.com/biojava/biojava) -> [EMBOSS](https://github.com/kimrutherford/EMBOSS) -> [SAMtools](https://github.com/samtools/samtools) -> [BioPerl](http://bioperl.org/)
 * __CAD__: AutoCAD -> FreeCAD -> [OpenSCAD](https://github.com/openscad/openscad)
 * __Chemistry__: [MolComp](http://molcomp.sourceforge.net/), [RasMol](https://directory.fsf.org/wiki/RasMol), [PerlMol](http://www.perlmol.org/)
 * __Circuit Simulator__: [ngspice](http://ngspice.sourceforge.net/), [Gnucap](http://www.gnucap.org/dokuwiki/doku.php?id=gnucap:start)
