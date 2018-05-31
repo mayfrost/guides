@@ -186,7 +186,7 @@ All apps are from F-Droid, may not be much but is a start.
 ## Enterprise
 * __Data Mining and Business Intelligence__: [JasperReports](https://sourceforge.net/projects/jasperserver/) -> [KNIME](https://directory.fsf.org/wiki/KNIME) -> [GNU Ferret](https://directory.fsf.org/wiki/Ferret) -> [GURGLE](https://directory.fsf.org/wiki/Gurgle)
 * __Database (Datalog)__: [Datalog Educational System](http://des.sourceforge.net/), [Datalog](http://datalog.sourceforge.net/)
-* __Database (Middleware)__: [Virtuoso Universal Server](https://virtuoso.openlinksw.com/) -> [Orbada](http://orbada.sourceforge.net/html/www_orbada_doc.html) -> [Autotable](https://directory.fsf.org/wiki/Autotable)
+* __Database (Middleware)__: MySQL Workbench -> [Virtuoso Universal Server](https://virtuoso.openlinksw.com/) -> [Orbada](http://orbada.sourceforge.net/html/www_orbada_doc.html) -> [Autotable](https://directory.fsf.org/wiki/Autotable)
 * __Database (NoSQL)__: [GZigZag](http://www.nongnu.org/gzz/), [RRDtool](https://oss.oetiker.ch/rrdtool/), [Dgraphhttps://github.com/dgraph-io/dgraph](), [Redis](https://directory.fsf.org/wiki/Redis), [GNU Recutils](https://directory.fsf.org/wiki/Recutils)
 * __Database (SQL)__: MySQL -> Percona -> [MariaDB](https://directory.fsf.org/wiki/MariaDB) -> [CUBRID](https://github.com/CUBRID/cubrid) -> [Ingres II](https://github.com/fosslc/Ingres)
 * __Enterprise Resource Planning (ERP)__: [IDempiere](http://www.idempiere.org/) -> [LedgerSMB](https://directory.fsf.org/wiki/LedgerSMB) -> [SQL-Ledger](http://www.sql-ledger.com/)
