@@ -26,7 +26,7 @@ __NOTE__:
 8. [THE END](#the-end)  
 
 ## START
-Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media.
+Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media. Then once you have a terminal:
 * Check which NIC you are using.  
 `ip addr`  
 * Make sure your network is up.  
