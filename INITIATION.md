@@ -104,7 +104,7 @@ Don't forget to create and mount the extra directories in the case you had creat
 `mount -t devpts none /mnt/dev/pts`  
 * On __Source Mage GNU/Linux__ chroot manually specifying Bash in case live media has another shell.  
 `chroot /mnt /bin/bash`  
-* Change root password in chroot (TEST IF YOUR KEYBOARD HAS ALL THE CORRECT MAPPINGS before you change the password).  
+* Now inside chroot change root password (TEST IF YOUR KEYBOARD HAS ALL THE CORRECT MAPPINGS before you change the password).  
 `passwd root`  
 
 ### CHANGE NETWORK INTERFACES
