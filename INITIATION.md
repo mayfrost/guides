@@ -114,7 +114,7 @@ Don't forget to create and mount the extra directories in the case you had creat
 `allow-hotplug eth0`  
 `iface eth0 inet dhcp`  
 * On the "_/etc/resolv.conf.head_" file set your preferred DNS provider (this example is from [OpenNIC](https://servers.opennicproject.org/)).  
-`nameserver 193.41.79.236`  
+`nameserver 185.121.177.177`  
 * Or copy "_/etc/resolv.conf_" to "_/mnt/etc/resolv.conf_" __BEFORE__ chrooting.  
 
 ### EDIT FSTAB
