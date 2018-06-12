@@ -40,7 +40,7 @@ In the case you need Wi-Fi please refer to https://github.com/mayfrost/guides/bl
 
 ## PARTITIONING
 
-In these examples we make only two partitions but you can extend this if you know how. The partitions are one root partition, later mounted to "_/mnt/drive_" with "_mkfs.<ROOT_FILESYSTEM>_" format, and one boot partition, later mounted to "_/mnt/drive/boot_" and with "_mkfs.<BOOTLOADER_FILESYSTEM>_" format unless is __UEFI__ in which case "_mkfs.vfat_" is the only format available and will be mounted to "_/mnt/drive/boot/efi_" instead.
+In these examples we make only two partitions but you can extend this if you know how. The partitions are one root partition, later mounted to "_/mnt_" with "_mkfs.<ROOT_FILESYSTEM>_" format, and one boot partition, later mounted to "_/mnt/boot_" and with "_mkfs.<BOOTLOADER_FILESYSTEM>_" format unless is __UEFI__ in which case "_mkfs.vfat_" is the only format available and will be mounted to "_/mnt/boot/efi_" instead.
 
 * Use parted.  
 `parted /dev/sda`
@@ -71,17 +71,17 @@ Look into each one and decide for your use case. Next are the commands used for 
 ## CREATING (AND MOUNTING) MAIN DIRECTORIES
 The two most important are the root directory ("_/_") and the boot directory ("_/boot_"), both of which need at the end of this step to be mounted. However, if you are an experienced user you may have created other partitions for other directories like "_/home_" or "_/var_", those need to be mounted too by the end of this step.
 * Make a directory for the new root directory.  
-`mkdir /mnt/drive`  
+`mkdir /mnt`  
 * Mount the new root directory.  
-`mount /dev/sda2 /mnt/drive`  
+`mount /dev/sda2 /mnt`  
 * If on BIOS make boot directory and mount.  
-`mkdir /mnt/drive/boot`  
-`mount /dev/sda1 /mnt/drive/boot`
+`mkdir /mnt/boot`  
+`mount /dev/sda1 /mnt/boot`
 * If on UEFI make boot directory and mount.  
-`mkdir -p /mnt/drive/boot/efi`  
-`mount /dev/sda1 /mnt/drive/boot/efi`  
+`mkdir -p /mnt/boot/efi`  
+`mount /dev/sda1 /mnt/boot/efi`  
 * Create other directories under the new root directory.  
-`mkdir -p /mnt/drive/{dev,sys,proc,tmp,usr/src,var}`  
+`mkdir -p /mnt/{dev,sys,proc,tmp,usr/src,var}`  
 
 Don't forget to create and mount the extra directories in the case you had created them.
 
@@ -89,7 +89,7 @@ Don't forget to create and mount the extra directories in the case you had creat
 * On __CRUX__ run "_setup_", and if on UEFI during the setup select grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.  
 `setup`  
 * On __Source Mage GNU/Linux__ download and uncompress the tarball inside the new root directory.  
-`cd /mnt/drive`  
+`cd /mnt`  
 `wget -c "http://download.sourcemage.org/image/official/smgl-stable-<VERSION>-basesystem-x86_64.tar.xz"`  
 `tar xJvf smgl-stable-<VERSION>-basesystem-x86_64.tar.xz`  
 
@@ -97,13 +97,13 @@ Don't forget to create and mount the extra directories in the case you had creat
 * On __CRUX__ you can issue the next command to mount everything else and chroot automatically.  
 `setup-chroot`  
 * On __Source Mage GNU/Linux__ mount everything else manually.  
-`mount --bind /dev /mnt/drive/dev`  
-`mount --bind /tmp /mnt/drive/tmp`  
-`mount --bind /sys /mnt/drive/sys`  
-`mount -t proc none /mnt/drive/proc`  
-`mount -t devpts none /mnt/drive/dev/pts`  
+`mount --bind /dev /mnt/dev`  
+`mount --bind /tmp /mnt/tmp`  
+`mount --bind /sys /mnt/sys`  
+`mount -t proc none /mnt/proc`  
+`mount -t devpts none /mnt/dev/pts`  
 * On __Source Mage GNU/Linux__ chroot manually specifying Bash in case live media has another shell.  
-`chroot /mnt/drive /bin/bash`  
+`chroot /mnt /bin/bash`  
 * Change root password in chroot (TEST IF YOUR KEYBOARD HAS ALL THE CORRECT MAPPINGS before you change the password).  
 `passwd root`  
 
