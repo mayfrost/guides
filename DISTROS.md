@@ -40,9 +40,8 @@
 * Ignore footprint mismatches due to new files (usually not a bad thing)  
 `nano /etc/pkgmk.conf`
 * Set line "_PKGMK_IGNORE_NEW="yes"_"  
-
-* Populate repo  
-`ports -u <REPO>`
+* Populate ports tree (is empty by default)  
+`ports -u`
 
 ### INSTALLING XORG
 * Install a minimal set of xorg and xorg dependent tools one by one
@@ -53,6 +52,8 @@
 ### AUTOMATED INSTALLATION OF PORTS
 * Populate ports tree (is empty by default)  
 `ports -u`
+* Populate specific repo  
+`ports -u <REPO>`
 * Automatically download and build a package with its required dependencies ignoring signature mismatch  
 `prt-get -in depinst <PORT>`
 * Remove a package  
