@@ -55,7 +55,7 @@
 * Populate specific repo  
 `ports -u <REPO>`
 * Automatically download and build a package with its required dependencies ignoring signature mismatch  
-`prt-get -in depinst <PORT>`
+`prt-get -is depinst <PORT>`
 * Remove a package  
 `prt-get remove <PORT>`
 * Search package  
