@@ -27,6 +27,7 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 8.2. [OPTION 1: Git](#option-1-git)  
 8.3. [OPTION 2: Patch command](#option-2-patch-command)  
 8.4. [OPTION 3: Patch with zcat](#option-2-patch-with-zcat)  
+8. [DRIVERS](#drives)  
 
 ---
 
@@ -229,3 +230,8 @@ Git can be used to fallback from the patch and revert to the upatched source.
 `zcat <PATCH_FILE>.gz | patch -p1`  
 
 Compile the kernel with the patch now included.
+
+---
+
+## DRIVERS
+The drivers have different names depending on your device (like "iwlwifi" and its "ucode" for WiFi). In part they can be installed from a package usually named "linux-firmware", but they may not be complete (this provides "ucode" but not "iwlwifi").
