@@ -23,7 +23,7 @@ Supported filesystems by bootloaders, they will boot the OS only if the "_/boot_
 `boot = /dev/sda`  
 `image = /boot/vmlinuz`  
 `     Label = <DISTRO_NAME>`  
-`     root = /dev/sda<PARTITION_NUMBER_OF_DISTRO>`  
+`     root = /dev/sda<PARTITION_NUMBER_OF_ROOT>`  
 `other = /dev/sda<PARTITION_NUMBER_OF_FREEDOS>`  
 `     table = /dev/sda`  
 `     Label = FreeDOS`  
@@ -83,11 +83,11 @@ grub-install /boot/efi`
 `splashimage=(hd0,0)/grub/splash.xpm.gz`  
 `#hiddenmenu`  
 `title <DISTRO_NAME> (<KERNEL_VERSION>)`  
-`        root (hd0,<PARTITION_NUMBER_OF_DISTRO>)`  
+`        root (hd0,<PARTITION_NUMBER_OF_ROOT>)`  
 `        kernel /vmlinuz-<KERNEL_VERSION> ro root=/dev/sda5 rhgb quiet`  
 `        initrd /initramfs-<KERNEL_VERSION>.img`  
 `title <DISTRO_NAME_alternative_kernel> (<ANOTHER_KERNEL_VERSION>)`  
-`        root (hd0,<PARTITION_NUMBER_OF_DISTRO>)`  
+`        root (hd0,<PARTITION_NUMBER_OF_ROOT>)`  
 `        kernel /vmlinuz-<ANOTHER_KERNEL_VERSION> ro root=/dev/sda5 rhgb quiet`  
 `        initrd /initramfs-<ANOTHER_KERNEL_VERSION>.img`  
 `title FreeDOS`  
