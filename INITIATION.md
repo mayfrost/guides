@@ -155,7 +155,7 @@ __NOTE__: If you are on __Source Mage GNU/Linux__ and need UEFI refer to the boo
 `boot = /dev/sda`  
 `image = /boot/vmlinuz`  
 `     Label = <DISTRO_NAME>`  
-`     root = /dev/sda<PARTITION_NUMBER_OF_DISTRO>`  
+`     root = /dev/sda<PARTITION_NUMBER_OF_ROOT>`  
 `other = /dev/sda<PARTITION_NUMBER_OF_FREEDOS>`  
 `     table = /dev/sda`  
 `     Label = FreeDOS`  
