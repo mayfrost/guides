@@ -422,7 +422,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Windows Registry Editor__: [Offline NT Password & Registry Editor (chntpw)](http://pogostick.net/~pnh/ntpasswd/)
 
 ## Privacy
-* __Anti Stylometry__: [Anonymouth](https://github.com/psal/anonymouth), [renamer](https://github.com/CaptainBlacklace/Renamer)
+* __Anti Stylometry__: [Anonymouth](https://github.com/psal/anonymouth)
 * __Disk Cleaner__: [Dban](https://sourceforge.net/projects/dban/) -> bleachbit_cli ([BleachBit](https://github.com/bleachbit/bleachbit)) -> shred (GNU Coreutils)
 * __Boot Encryption__: [cryptboot](https://github.com/xmikos/cryptboot)
 * __Disk Encryption__: [StegFS](https://www.mcdonald.org.uk/StegFS/), [cryptsetup (dm-crypt)](https://gitlab.com/cryptsetup/cryptsetup/wikis/DMCrypt)
