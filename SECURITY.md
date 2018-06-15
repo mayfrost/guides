@@ -35,7 +35,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 17__: Use YaCy with collaborative database disabled when in need to search on the web.
 * __Level 18__: Use the Tor Browser to navigate the internet through Tor.
 * __Level 19__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt.
-* __Level 20__: Delete any metadata from files you share on the internet. ExifTool in combination with [renamer](https://github.com/CaptainBlacklace/Renamer) is a good option.
+* __Level 20__: Delete any metadata from files you share on the internet. ExifTool is the best tool.
 * __Level 21__: Anonymize your writting style on any text with anti stylometry software like [Anonymouth](https://github.com/psal/anonymouth) when you share documents.
 * __Level 22__: Use [qmail](https://www.schneier.com/blog/archives/2007/11/thoughts_on_the.html) for your own e-mail server. Exim and cmail are other options.
 * __Level 23__: Use Squid for caching websites.
