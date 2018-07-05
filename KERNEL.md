@@ -148,7 +148,7 @@ After this you'll only need to reboot to test your new kernel.
 ---
 
 ## MODULES
-This section is optional. It shows how to get individual modules and what you can do with them,, how to install news, update them and automatize the process.
+This section is optional. It shows how to get individual modules and what you can do with them, how to install news, update them and automatize the process.
 
 ### COMPILE A SINGLE MODULE
 * Only compile a module.  
