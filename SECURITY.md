@@ -41,7 +41,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 23__: Use Squid for caching websites.
 
 ## High Level Security
-* __Level 24__: Use a source based distro, preferably without crypto libraries on its package manager (no Python). Source Mage is advised and it is easy to setup.
+* __Level 24__: Use a source based distro, preferably without crypto libraries on its package manager (no Python). Gentoo is one option, CRUX is advised and it is easy to setup, see [this link](https://github.com/mayfrost/guides/blob/master/INITIATION.md).
 * __Level 25__: Use the IRC, e-mail and torrent services available inside i2p, and use Tor as an outproxy for i2p when in need to access the regular web (only for browsing).
 * __Level 26__: Use a command line web browser like links2 and only browse web pages without javascript or cookies.
 * __Level 27__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
