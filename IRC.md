@@ -68,15 +68,19 @@ To connect using your nick you need to choose one of these options.
 2. On __irssi__:  
 2.1. Edit `~/.irssi/config` to change your nick and match the network nick to make auto registration.  
 2.2. Inside irssi type:  
-`/server add -auto -net <network_name> -ssl -ssl_verify <irc.network_name.net> 6697`  
-`/network add -sasl_username <your_nickname> -sasl_password <your_password> -sasl_mechanism PLAIN <network_name>`  
-`/save`  
+```  
+/server add -auto -net <network_name> -ssl -ssl_verify <irc.network_name.net> 6697
+/network add -sasl_username <your_nickname> -sasl_password <your_password> -sasl_mechanism PLAIN <network_name>
+/save  
+```
 
 ### Option 2, CertFP
 * Open a command line and type (you will be asked some questions, the importance of filling these correctly may vary):  
-`$ openssl req -x509 -newkey rsa:4096 -sha256 -days 365 -nodes -keyout Certificate.key -out Certificate.crt`  
-`$ cat Certificate.crt Certificate.key > Certificate.pem`  
-`$ rm Certificate.crt Certificate.key`  
+```  
+$ openssl req -x509 -newkey rsa:4096 -sha256 -days 365 -nodes -keyout Certificate.key -out Certificate.crt
+$ cat Certificate.crt Certificate.key > Certificate.pem
+$ rm Certificate.crt Certificate.key  
+```
 Before jumping to each client, note that for both clients the network and hostname should match (including the lower and uppercase) to what you already use.
 1. On __HexChat__:  
 1.1. Rename the pem file to the network you wish (`<Network_name>.pem`) and move it to `~/.config/hexchat/certs/`  
@@ -157,8 +161,10 @@ ZNC is a bouncer which means if you have a home server or a VPS you can have you
 22.2. Add a cron job: `$ sudo crontab -e -u znc`  
 22.3. Add the lines (if you DIDN'T do the manual install the location should be "`/usr/local/bin/znc`"): `@reboot </path/to/znc/program> >/dev/null 2>&1`  
 22.4. If you use ZNC only in your local network add these lines too to set a tight firewall:  
-`$ sudo iptables -I INPUT -p tcp --dport <znc_port_number> -s 192.168.18.0/24 -j ACCEPT`  
-`$ sudo iptables -A INPUT -p tcp --dport <znc_port_number> -j DROP`  
+```  
+$ sudo iptables -I INPUT -p tcp --dport <znc_port_number> -s 192.168.18.0/24 -j ACCEPT
+$ sudo iptables -A INPUT -p tcp --dport <znc_port_number> -j DROP  
+```
 23. Configure authentication of the irc client you use on your computer:  
 23.1. On __Hexchat__:  
 23.1.1. Open the Network List (Ctrl + S)  
@@ -172,9 +178,11 @@ ZNC is a bouncer which means if you have a home server or a VPS you can have you
 23.2. On __irssi__:  
 23.2.1. Remove the server (make sure to remove all instances): `/server remove <irc.network_name.net>`  
 23.2.2. Add the ZNC server in its place. NOTE: You can use another name for the network and leave the normal name to connect directly without the bouncer such as znc_network_name:  
-`/network add <znc_network_name>`  
-`/server add -net <znc_network_name> -ssl <znc_server_ip> <znc_port_number> <znc_username>/<network_name>:<znc_password>`  
-`/save`  
+```  
+/network add <znc_network_name>
+/server add -net <znc_network_name> -ssl <znc_server_ip> <znc_port_number> <znc_username>/<network_name>:<znc_password>
+/save  
+```
 23.2.3. Connect to ZNC pointing to the network: `/connect <znc_network_name>`  
 23.2.4. Login as you normally would for each network you want ZNC to stay connected: `/msg NickServ IDENTIFY <your_password>`  
 
@@ -199,8 +207,10 @@ OPTIONAL but ADVISED as it will hide your password on your network.
 5.2. On __irssi__:  
 5.2.1. Remove the server (make sure to remove all instances): `/server remove <znc_server_ip>`  
 5.2.2. Add the server pointing to the pem file and without the password:  
-`/server add -ssl -ssl_cert ~/.irssi/certs/<znc_network_name>.pem  -net <znc_network_name> <znc_server_ip> <znc_port_number> <znc_username>/<network_name>:`  
-`/save`  
+```  
+/server add -ssl -ssl_cert ~/.irssi/certs/<znc_network_name>.pem  -net <znc_network_name> <znc_server_ip> <znc_port_number> <znc_username>/<network_name>:
+/save  
+```
 5.2.3. Connect to ZNC pointing to the network: `/connect <znc_network_name>`  
 6. Confirm fingerprint for each network (requires "cert" module loaded).  
 6.1. Login: `/msg NickServ IDENTIFY <your_password>`  
