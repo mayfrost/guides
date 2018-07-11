@@ -174,11 +174,13 @@ To update modules automatically when changing a kernel use __DKMS__. Requires th
 * Create a __dkms.conf__ file in the directory.  
 `vi /usr/src/<MODULE>-<MODULE_VERSION>/dkms.conf`  
 * Edit __dkms.conf__.  
-`PACKAGE_NAME="<MODULE>"`  
-`PACKAGE_VERSION="<MODULE_VERSION>"`  
-`BUILT_MODULE_NAME[0]="<MODULE>"`  
-`DEST_MODULE_LOCATION[0]="/kernel/<SECTION>/<MODULE>/"`  
-`AUTOINSTALL="yes"`  
+```  
+PACKAGE_NAME="<MODULE>"
+PACKAGE_VERSION="<MODULE_VERSION>"
+BUILT_MODULE_NAME[0]="<MODULE>"
+DEST_MODULE_LOCATION[0]="/kernel/<SECTION>/<MODULE>/"
+AUTOINSTALL="yes"  
+```
 * Add __<MODULE>__ and __<MODULE_VERSION>__ to __DKMS__.  
 `dkms add -m <MODULE> -v <MODULE_VERSION>`  
 * Compile the module with __DKMS__.  
