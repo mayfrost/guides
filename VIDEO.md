@@ -1,6 +1,6 @@
 ## MPLAYER ON THE TTY (FRAMEBUFFER)
 These are settings for your MPlayer config file. 
-```
+```  
 # framebuffer video ouput
 vo=fbdev
 # alsa device
@@ -27,5 +27,5 @@ framedrop=1
 # avoid the lirc error message
 nolirc=yes
 # don't clutter the console with output
-really-quiet=1
+really-quiet=1  
 ```
