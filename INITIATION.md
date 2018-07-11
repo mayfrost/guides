@@ -152,7 +152,7 @@ iface eth0 inet dhcp
 
 ## KERNEL
 Next are simple examples of compiling the kernel, for a more in depth view see: https://github.com/mayfrost/guides/blob/master/KERNEL.md  
-* On __CRUX__ you must first configure your bootloader, then run.  
+* On __CRUX__ you must first configure your bootloader (as "_make install_" will call Lilo), then run.  
 ```  
 cd /usr/src/linux-<VERSION>
 make all modules_install install  
