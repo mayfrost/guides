@@ -79,8 +79,10 @@ The two most important are the root directory ("_/_") and the boot directory ("_
 * Mount the new root directory.  
 `mount /dev/sda2 /mnt`  
 * If on BIOS make boot directory and mount.  
-`mkdir /mnt/boot`  
-`mount /dev/sda1 /mnt/boot`
+```  
+mkdir /mnt/boot
+mount /dev/sda1 /mnt/boot  
+```
 * If on UEFI make boot directory and mount.  
 ```  
 mkdir -p /mnt/boot/efi
