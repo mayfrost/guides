@@ -30,8 +30,9 @@ Boot in UEFI mode if on UEFI, BIOS if on BIOS, and select installation media. Th
 * Check which NIC you are using.  
 `ip addr`  
 * Make sure your network is up.  
-`ip link set <NIC> up`  
-`dhcpcd <NIC>`  
+```ip link set <NIC> up
+dhcpcd <NIC>
+```
 
 In the case you need Wi-Fi please refer to https://github.com/mayfrost/guides/blob/master/NETWORKING.md  
 
