@@ -18,16 +18,20 @@
 ## CONFIGURATION ON CRUX
 ### ENABLE CONTRIB REPO
 * Enable contrib for ports  
-`cd /etc/ports`  
-`mv contrib.rsync.inactive contrib.rsync`
+```  
+cd /etc/ports
+mv contrib.rsync.inactive contrib.rsync  
+````
 * Enable contrib for prt-get  
 `nano /etc/prt-get.conf`
 * Uncomment line "_prtdir /usr/ports/contrib_"
 
 ### ADD EXTERNAL REPOS
 * Download httpup/rsync file and pub file from https://crux.nu/portdb/index.php?a=index  
-`cd /etc/ports/`  
-`wget -c <URL>`
+```  
+cd /etc/ports/
+wget -c <URL>  
+```
 * Add repo location to "_/etc/prt-get.conf_" (order sets precedence)  
 `nano /etc/prt-get.conf`
 * Add line "_prtdir /usr/ports/\<REPO>_"
@@ -85,8 +89,10 @@
 
 ## SOURCE MAGE GNU/LINUX COMMANDS
 * To get a manual  
-`cast smgl-setup`  
-`man smgl-setup`
+```  
+cast smgl-setup
+man smgl-setup  
+```
 * To change general things like the color scheme  
 `sorcery`
 * To update the package manager  
