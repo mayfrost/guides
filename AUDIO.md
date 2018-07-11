@@ -12,14 +12,16 @@ Here is how to get sound on a minimal install without the insanity of pulseaudio
 `$ cat /proc/asound/modules`
 
 Here is an example of what you will see in __/proc/asound/modules__:  
-`0 snd_usb_audio`  
-`1 snd_hda_intel`  
+```  0 snd_usb_audio
+1 snd_hda_intel  
+```
 
 4. Select from the above and put them in the order you want in the file __/etc/modprobe.d/alsa-base.conf__, by assigning an index from -2 to 2, marking the preferred device as the lowest number.  
 
 As an example if you have two devices and want the one that says usb because that is your headphone, on __/etc/modprobe.d/alsa-base.conf__ you will put:  
-`options snd_usb_audio enable=1 index=0`  
-`options snd_hda_intel index=1`  
+```  options snd_usb_audio enable=1 index=0
+options snd_hda_intel index=1  
+```
 
 Notice the index.  
 
