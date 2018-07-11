@@ -45,13 +45,15 @@ In these examples we make only two partitions but you can extend this if you kno
 * Use parted.  
 `parted /dev/sda`
 * Inside parted, if on UEFI label the disk "_gpt_", but if on BIOS label it "_msdos_".  
-`mklabel <LABEL>`  
-`unit mb`  
-`mkpart primary 0g 128`  
-`mkpart primary 128 -1`  
-`toggle 1 boot`  
-`p free`  
-`quit`  
+```
+mklabel <LABEL>
+unit mb
+mkpart primary 0g 128
+mkpart primary 128 -1
+toggle 1 boot
+p free
+quit
+```
 
 ## FILESYSTEM
 
@@ -78,8 +80,9 @@ The two most important are the root directory ("_/_") and the boot directory ("_
 `mkdir /mnt/boot`  
 `mount /dev/sda1 /mnt/boot`
 * If on UEFI make boot directory and mount.  
-`mkdir -p /mnt/boot/efi`  
-`mount /dev/sda1 /mnt/boot/efi`  
+```mkdir -p /mnt/boot/efi
+mount /dev/sda1 /mnt/boot/efi
+```
 * Create other directories under the new root directory.  
 `mkdir -p /mnt/{dev,sys,proc,tmp,usr/src,var}`  
 
@@ -89,19 +92,21 @@ Don't forget to create and mount the extra directories in the case you had creat
 * On __CRUX__ run "_setup_", and if on UEFI during the setup select grub2-efi (if using GRUB 2), efibootmgr, and elfutils from opt (only select core, and say yes when you're asked if you want to select individual packages). And if you are not using LILO de-select it from core.  
 `setup`  
 * On __Source Mage GNU/Linux__ download and uncompress the tarball inside the new root directory.  
-`cd /mnt`  
-`wget -c "http://download.sourcemage.org/image/official/smgl-stable-<VERSION>-basesystem-x86_64.tar.xz"`  
-`tar xJvf smgl-stable-<VERSION>-basesystem-x86_64.tar.xz`  
+```cd /mnt
+wget -c "http://download.sourcemage.org/image/official/smgl-stable-<VERSION>-basesystem-x86_64.tar.xz"
+tar xJvf smgl-stable-<VERSION>-basesystem-x86_64.tar.xz
+```
 
 ### CHROOT
 * On __CRUX__ you can issue the next command to mount everything else and chroot automatically.  
 `setup-chroot`  
 * On __Source Mage GNU/Linux__ mount everything else manually.  
-`mount --bind /dev /mnt/dev`  
-`mount --bind /tmp /mnt/tmp`  
-`mount --bind /sys /mnt/sys`  
-`mount -t proc none /mnt/proc`  
-`mount -t devpts none /mnt/dev/pts`  
+```mount --bind /dev /mnt/dev
+mount --bind /tmp /mnt/tmp
+mount --bind /sys /mnt/sys
+mount -t proc none /mnt/proc
+mount -t devpts none /mnt/dev/pts
+```
 * On __Source Mage GNU/Linux__ chroot manually specifying Bash in case live media has another shell.  
 `chroot /mnt /bin/bash`  
 * Now inside chroot change root password (TEST IF YOUR KEYBOARD HAS ALL THE CORRECT MAPPINGS before you change the password).  
@@ -110,17 +115,19 @@ Don't forget to create and mount the extra directories in the case you had creat
 ### CHANGE NETWORK INTERFACES
 * On __CRUX__ modify "_/etc/rc.d/net_" with the rules you want (IP, gateway, domain, etc).  
 * On __Source Mage GNU/Linux__ add preferred interfaces to "_/etc/network/interfaces_" for example.  
-`auto eth0`  
-`allow-hotplug eth0`  
-`iface eth0 inet dhcp`  
+```auto eth0
+allow-hotplug eth0
+iface eth0 inet dhcp
+```
 * On the "_/etc/resolv.conf.head_" file set your preferred DNS provider (this example is from [OpenNIC](https://servers.opennicproject.org/)).  
 `nameserver 185.121.177.177`  
 * Or copy "_/etc/resolv.conf_" to "_/mnt/etc/resolv.conf_" __BEFORE__ chrooting.  
 
 ### EDIT FSTAB
 * Change the "_/etc/fstab_" file with appropriate filesystems.  
-`/dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults    0 2`  
-`/dev/sda2    /    <ROOT_FILESYSTEM>    noatime    0 1`  
+```/dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults    0 2
+/dev/sda2    /    <ROOT_FILESYSTEM>    noatime    0 1
+```
 * On __CRUX__ uncomment the lines referring to "_devpts_", "_tmp_", and "_shm_" as some programs require it (Firefox), also "_USB_" and or "_cdrom_" if using those.  
 * If on UEFI replace "_/boot_" with "_/boot/efi_".  
 
@@ -137,8 +144,9 @@ Don't forget to create and mount the extra directories in the case you had creat
 ## KERNEL
 Next are simple examples of compiling the kernel, for a more in depth view see: https://github.com/mayfrost/guides/blob/master/KERNEL.md  
 * On __CRUX__.  
-`cd /usr/src/linux-<VERSION>`  
-`make all modules_install install`  
+```cd /usr/src/linux-<VERSION>
+make all modules_install install
+```
 
 * On __Source Mage GNU/Linux__ (__OPTIONAL__).  
 `cast -r linux`
@@ -152,19 +160,21 @@ __NOTE__: If you are on __Source Mage GNU/Linux__ and need UEFI refer to the boo
 * If on UEFI use __elilo__ and change names to "_/etc/elilo.conf_" instead of "_/etc/lilo.conf_" and "_elilo_" instead of "_lilo_" in commands.  
 `nano /etc/lilo.conf`
 * Inserting "_password=\<PASSWORD>_" inside an OS stanza will protect with a password that OS, but inserting "_password=\<PASSWORD>_" just before the stanzas and outside any of them will protect with a password the bootloader itself (notice the space inside stanzas).  
-`boot = /dev/sda`  
-`image = /boot/vmlinuz`  
-`     Label = <DISTRO_NAME>`  
-`     root = /dev/sda<PARTITION_NUMBER_OF_ROOT>`  
-`other = /dev/sda<PARTITION_NUMBER_OF_FREEDOS>`  
-`     table = /dev/sda`  
-`     Label = FreeDOS`  
-`other = /dev/sda<PARTITION_NUMBER_OF_WINDOWS>`  
-`     table = /dev/sda`  
-`     Label = Windows7`  
+```boot = /dev/sda
+image = /boot/vmlinuz
+     Label = <DISTRO_NAME>
+     root = /dev/sda<PARTITION_NUMBER_OF_ROOT>
+other = /dev/sda<PARTITION_NUMBER_OF_FREEDOS>
+     table = /dev/sda
+     Label = FreeDOS
+other = /dev/sda<PARTITION_NUMBER_OF_WINDOWS>
+     table = /dev/sda
+     Label = Windows7
+```
 * Set boot entry.  
-`lilo -A /dev/sda 1`  
-`lilo`
+```lilo -A /dev/sda 1
+lilo
+```
 * Prevent anyone but root of reading the config file (in case you used a password).  
 `chmod 600 /etc/lilo.conf`
 
