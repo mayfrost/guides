@@ -503,6 +503,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Web-Based__: [HIHAT](http://hihat.sourceforge.net/)
 
 ### Host Intrusion
+* __Anti Backdoor__: [me_cleaner](https://github.com/corna/me_cleaner), [rosenbridge](https://github.com/xoreaxeaxeax/rosenbridge)
 * __Anti Juice Jacking__: [usbkill](https://github.com/hephaest0s/usbkill), [USBGuard](https://github.com/USBGuard/usbguard)
 * __Anti Malware__: ClamTk -> [ClamAV](https://github.com/Cisco-Talos/clamav-devel) -> [Linux Malware Detect (LMD)](https://github.com/rfxn/linux-malware-detect)
 * __Host Intrusion Detection Framework__: [OSSEC](https://ossec.github.io/) -> [Tiger](http://www.nongnu.org/tiger/)
