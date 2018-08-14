@@ -44,16 +44,16 @@ Name of "_CROSS_COMPILE_" variable will change depending on the choosen option. 
 * create root partition  
 `n`  
 * press enter twice to use the rest of the disk  
-Make 
-`mkfs.<ROOT_FILESYSTEM> /dev/sda2`  
-* Make boot filesystem according to supported bootloader or just "_mkfs.vfat_" if on UEFI.  
-`mkfs.<BOOTLOADER_FILESYSTEM> /dev/sda1`  
+* Make root filesystem  
+`mkfs.<ROOT_FILESYSTEM> /dev/mmcblk0p2`  
+* Make boot filesystem according to supported bootloader (only "_mkfs.vfat_")  
+`mkfs.<BOOTLOADER_FILESYSTEM> /dev/mmcblk0p1`  
 
 
 ## BOOTLOADER
 Minimum 3072 bytes free at the start of the drive and before the boot partition.
 
-* VERSION 1: compile
+* VERSION 1: compile  
 ```
 git clone https://github.com/hardkernel/u-boot.git -b odroidc2-v2015.01
 cd u-boot
@@ -62,60 +62,60 @@ make -j4
 cd boot
 ```
 
-* VERSION 2: download and extract the binary
+* VERSION 2: download and extract the binary  
 ```
 wget http://odroid.in/guides/ubuntu-lfs/boot.tar.gz # http://dn.odroid.com/S905/BootLoader/ODROID-C2/c2_boot_release_ubuntu.tar.gz
 tar -zxvf boot.tar.xz
 cd boot
 ```
 
-* flash bootloader
+* flash bootloader  
 ```
 chmod +x sd_fusing.sh
 ./sd_fusing.sh /dev/sdX
 ```
-* notice the target is the device NOT any partition
-* set resolution by editing file root/boot/boot.ini
-* might want to comment-out the display-autodetect option
+* notice the target is the device NOT any partition  
+* set resolution by editing file root/boot/boot.ini  
+* might want to comment-out the display-autodetect option  
 
 
 ## BOOT PARTITION
 Must be FAT32 and 64 MB minimum.
 
-* cloning kernel repo to destination "odroidc2-kernel-folder"
+* cloning kernel repo to destination "odroidc2-kernel-folder"  
 `git clone --depth 1 --single-branch https://github.com/hardkernel/linux.git --branch odroidc2-v3.16.y odroidc2-kernel-folder`
-* enter destination folder
+* enter destination folder  
 `cd odroidc2-kernel-folder`
 
-* OPTION 1: making kernel config
+* OPTION 1: making kernel config  
 `make ARCH=arm64 CROSS_COMPILE=arm-none-eabi- odroidc2_defconfig`
 
-* OPTION 2: making kernel config
+* OPTION 2: making kernel config  
 ```
 export ARCH=arm64
 export CROSS_COMPILE=arm-none-eabi-
 make odroidc2_defconfig
 ```
 
-* Refine configuration
+* Refine configuration  
 `make menuconfig`
 
 
 ## COMPILING
-* Compiling devicetree blobs to destination "INSTALL_DTBS_PATH=/mnt/boot/dtbs/meson64_odroidc2.dtb"
+* Compiling devicetree blobs to destination "INSTALL_DTBS_PATH=/mnt/boot/dtbs/meson64_odroidc2.dtb"  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=arm-none-eabi- INSTALL_DTBS_PATH=/mnt/boot/dtbs/ dtbs`
-* Compiling kernel to destination "INSTALL_PATH=/mnt/boot/Image"
+* Compiling kernel to destination "INSTALL_PATH=/mnt/boot/Image"  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=arm-none-eabi- INSTALL_PATH=/mnt/boot/ Image`
-* Compiling the modules to destination "INSTALL_MOD_PATH=/mnt/"
+* Compiling the modules to destination "INSTALL_MOD_PATH=/mnt/"  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=arm-none-eabi- INSTALL_MOD_PATH=/mnt/ modules_install`
-* Compiling firmware to destination "INSTALL_FW_PATH=/mnt/lib/firmware/"
+* Compiling firmware to destination "INSTALL_FW_PATH=/mnt/lib/firmware/"  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=arm-none-eabi- INSTALL_FW_PATH=/mnt/lib/firmware/ firmware_install`
-* Compiling kernel C headers to destination "INSTALL_HDR_PATH=/mnt/usr/"
+* Compiling kernel C headers to destination "INSTALL_HDR_PATH=/mnt/usr/"  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=arm-none-eabi- INSTALL_HDR_PATH=/mnt/usr/ headers_install`
 
 
 ## ROOT PARTITION
 Can be the rest of the disk.
 
-* Download CRUX image
+* Download CRUX image  
 `wget -c http://resources.crux-arm.nu/files/devel-test/3.3/crux-arm-rootfs-3.3-64b-RC2.tar.xz`
