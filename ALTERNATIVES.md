@@ -116,7 +116,7 @@ All apps are from F-Droid, may not be much but is a start.
 * __Grid Computing__: [BOINC](https://github.com/BOINC/boinc) (+ [boinctui](https://github.com/suleman1971/boinctui))
 * __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> DTube -> [Alexandria](http://www.alexandria.io/) (watch [this video](https://www.youtube.com/watch?v=So4n2ZBSMxg) on how Alexandria works)
 * __Mesh Network__: Tinc -> cjdns -> open80211s (802.11s) -> [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki)
-* __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://streamtoken.net/)
+* __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/)
 * __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
 * __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
 * __Search Engine (Torrents)__: Magnetissimo -> [magnetico](https://github.com/boramalper/magnetico)
