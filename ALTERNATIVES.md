@@ -56,7 +56,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __Facebook__: [FaceSlim](https://github.com/indywidualny/FaceSlim) (1,3 MB) -> [Tinfoil for Facebook](https://github.com/velazcod/Tinfoil-Facebook) (525 KB) -> [SlimSocial](https://github.com/rignaneseleo/SlimSocial-for-Facebook) (313 KB)
 * __Twitter__: Tinfoil for Twitter -> [SlimSocial for Twitter](https://github.com/rignaneseleo/SlimSocial-for-Twitter) (699 KB)
 * __YouTube__: [NewPipe](https://newpipe.schabi.org/) (5,0 MB) -> [SkyTube](http://skytube-app.com/) (4,9 MB) -> [WebTube](https://github.com/martykan/webTube/blob/HEAD/README.md) (2,1 MB) -> [MinTube](https://github.com/imshyam/mintube) (981 KB)
-* __E-Books__: Document Viewer
+* __E-Books__: [Document Viewer](https://f-droid.org/en/packages/org.sufficientlysecure.viewer/) (8.5 MB)
 * __Notes__: miniNoteViewer
 
 All apps are from F-Droid, may not be much but is a start.
