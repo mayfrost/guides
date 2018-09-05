@@ -37,13 +37,35 @@ Name of "_CROSS_COMPILE_" variable will change depending on the choosen option. 
 `o`  
 * create boot partition  
 `n`  
+* make primary partition  
+`p`  
+* choose partition number  
+`1`  
 * assign start of boot partition at the end of the bootloader space  
 `3073`  
 * assign end of boot partition  
 `+128M`  
+* change display units to cylinders  
+`u`  
 * create root partition  
 `n`  
-* press enter twice to use the rest of the disk  
+* make primary partition  
+`p`  
+* choose partition number  
+`2`  
+* assign start of boot partition at the end of the bootloader space (default cylinder)  
+`131`  
+* assign end of boot partition (default) by pressing ENTER  
+* change display units back to sectors  
+`u`  
+* show the partitions  
+`p`  
+* if you agree save and exit  
+`w`  
+* if you disagree delete a partition and start from that partition  
+`d`  
+* or  exit without saving  
+`q`  
 * Make root filesystem  
 `mkfs.<ROOT_FILESYSTEM> /dev/mmcblk0p2`  
 * Make boot filesystem according to supported bootloader (only "_mkfs.vfat_")  
