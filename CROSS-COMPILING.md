@@ -7,8 +7,8 @@ Installing a distro for ARM. The distro is CRUX, the target is an Odroid C2.
 2. [PARTITIONING](#partitioning)  
 3. [BOOTLOADER](#bootloader)  
 4. [BOOT PARTITION](#boot-partition)  
-5. [ROOT PARTITION](#root-partition)  
-6. [COMPILING](#compiling)  
+5. [COMPILING KERNEL](#compiling-kernel)  
+6. [ROOT PARTITION](#root-partition)  
 
 
 ## CROSS COMPILATION TOOLS
@@ -123,7 +123,7 @@ make odroidc2_defconfig
 `make menuconfig`
 
 
-## COMPILING
+## COMPILING KERNEL
 * Compiling devicetree blobs to destination "INSTALL_DTBS_PATH=/mnt/boot/dtbs/meson64_odroidc2.dtb"  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=arm-none-eabi- INSTALL_DTBS_PATH=/mnt/boot/dtbs/ dtbs`
 * Compiling kernel to destination "INSTALL_PATH=/mnt/boot/Image"  
