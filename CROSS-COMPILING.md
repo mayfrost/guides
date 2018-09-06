@@ -99,7 +99,7 @@ Alternative download link: http://dn.odroid.com/S905/BootLoader/ODROID-C2/c2_boo
 chmod +x sd_fusing.sh
 ./sd_fusing.sh /dev/sdX
 ```
-* Notice the target is the device NOT any partition  
+* Notice the target is the device NOT a partition  
 * Set resolution by editing file root/boot/boot.ini  
 * Might want to comment-out the display-autodetect option  
 
