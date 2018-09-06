@@ -87,10 +87,12 @@ cd boot
 
 * VERSION 2: Download and extract the binary  
 ```
-wget http://odroid.in/guides/ubuntu-lfs/boot.tar.gz # http://dn.odroid.com/S905/BootLoader/ODROID-C2/c2_boot_release_ubuntu.tar.gz
-tar -zxvf boot.tar.xz
+wget http://odroid.in/guides/ubuntu-lfs/boot.tar.gz
+tar -zxvf boot.tar.gz
 cd boot
-```
+```  
+
+Alternative download link: http://dn.odroid.com/S905/BootLoader/ODROID-C2/c2_boot_release_ubuntu.tar.gz
 
 * Flash bootloader  
 ```
