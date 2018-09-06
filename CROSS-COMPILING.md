@@ -104,9 +104,11 @@ chmod +x sd_fusing.sh
 
 ## MOUNTING
 * mount root filesystem  
-mount /dev/mmcblk0p2 /mnt  
+`mount /dev/mmcblk0p2 /mnt`  
+* create boot directory  
+`mkdir /mnt/boot`  
 * mount boot filesystem  
-mount /dev/mmcblk0p1 /mnt  
+`mount /dev/mmcblk0p1 /mnt/boot`  
 
 
 ## BOOT PARTITION
