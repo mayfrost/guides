@@ -6,13 +6,14 @@ Installing a distro for ARM. The distro is CRUX, the target is an Odroid C2.
 1. [CROSS COMPILATION TOOLS](#cross-compilation-tools)  
 2. [PARTITIONING](#partitioning)  
 3. [BOOTLOADER](#bootloader)  
+3. [MOUNTING](#mounting)  
 4. [BOOT PARTITION](#boot-partition)  
 5. [COMPILING KERNEL](#compiling-kernel)  
 6. [ROOT PARTITION](#root-partition)  
 
 
 ## CROSS COMPILATION TOOLS
-Installing cross GCC compilation tools (for the X86 machine, not target ARM). Includes binutils.
+Installing GCC cross compilation tools (for the X86 machine, not target ARM). Includes binutils.
 
 * OPTION 1: from repository (Devuan example)  
 `sudo apt-get install gcc-arm-none-eabi`
@@ -99,6 +100,13 @@ chmod +x sd_fusing.sh
 * notice the target is the device NOT any partition  
 * set resolution by editing file root/boot/boot.ini  
 * might want to comment-out the display-autodetect option  
+
+
+## MOUNTING
+* mount root filesystem  
+mount /dev/mmcblk0p2 /mnt  
+* mount boot filesystem  
+mount /dev/mmcblk0p1 /mnt  
 
 
 ## BOOT PARTITION
