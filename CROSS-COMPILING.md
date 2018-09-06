@@ -1,15 +1,15 @@
 # CROSS-COMPILING
-Installing a distro for ARM. The distro is CRUX, the target is an Odroid C2.
+Installing a distro for ARM. The distro is CRUX, the target is an Odroid C2. The device is appears as "_/dev/mmcblk0_" (with "_/dev/mmcblk0p1_" and "_/dev/mmcblk0p2_" as the partitions) in the target machine, but it can be seen as "_/dev/sdX_" in your x86 computer.
 
 
 ## TOC
 1. [CROSS COMPILATION TOOLS](#cross-compilation-tools)  
 2. [PARTITIONING](#partitioning)  
 3. [BOOTLOADER](#bootloader)  
-3. [MOUNTING](#mounting)  
-4. [BOOT PARTITION](#boot-partition)  
-5. [COMPILING KERNEL](#compiling-kernel)  
-6. [ROOT PARTITION](#root-partition)  
+4. [MOUNTING](#mounting)  
+5. [BOOT PARTITION](#boot-partition)  
+6. [COMPILING KERNEL](#compiling-kernel)  
+7. [ROOT PARTITION](#root-partition)  
 
 
 ## CROSS COMPILATION TOOLS
