@@ -1,5 +1,5 @@
 # CROSS-COMPILING
-Installing a distro for ARM. The distro is CRUX, the target is an Odroid C2. The device will appears as "_/dev/mmcblk0_" (with "_/dev/mmcblk0p1_" and "_/dev/mmcblk0p2_" as the partitions) in the target machine, but it can be seen as "_/dev/sdX_" in your x86 computer.
+Installing a distro for ARM. The distro is CRUX, the target is an Odroid C2. The device will appears as "_/dev/mmcblk0_" (with "_/dev/mmcblk0p1_" and "_/dev/mmcblk0p2_" as the partitions) in the target machine, but it can be seen as "_/dev/sdX_" in your x86 computer. The unpacking tool is provided by [Atool](http://www.nongnu.org/atool/).
 
 
 ## TOC
@@ -15,16 +15,17 @@ Installing a distro for ARM. The distro is CRUX, the target is an Odroid C2. The
 ## CROSS COMPILATION TOOLS
 Installing GCC cross compilation tools (for the X86 machine, not target ARM). Includes binutils.
 
-* OPTION 1: From repository (Devuan example)  
-`sudo apt-get install gcc-arm-none-eabi`
-
-* OPTION 2: Proportioned by odroid  
+* OPTION 1: Proportioned by [Linaro](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-linux-gnu/)  
 ```
-wget http://odroid.in/guides/ubuntu-lfs/arm-unknown-linux-gnueabi.tar.xz
-tar -Jxf arm-unknown-linux-gnueabi.tar.xz
+wget -c https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-linux-gnu/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu.tar.xz
+aunpack gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu.tar.xz
 ```  
 
-Name of "_CROSS_COMPILE_" variable will change depending on the choosen option. This guide assumes from repository and therefore will equal to "_CROSS\_COMPILE=arm-none-eabi-_"
+* OPTION 2: From repository (Devuan example)  
+`sudo apt-get install gcc-arm-none-eabi`  
+NOTE: Check your tools are up-to-date to prevent errors like the lack of option _"-mgeneral-regs-only"_.
+
+Name of "_CROSS_COMPILE_" variable will change depending on the choosen option. This guide assumes cross-compile tools are from Linaro and therefore will equal to "_CROSS\_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu-_"
 
 
 ## PARTITIONING
@@ -80,7 +81,7 @@ Minimum 3072 bytes free at the start of the drive and before the boot partition.
 ```
 git clone https://github.com/hardkernel/u-boot.git -b odroidc2-v2015.01
 cd u-boot
-make ARCH=arm64 CROSS_COMPILE=arm-none-eabi- odroidc2_defconfig
+make ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- odroidc2_defconfig
 make -j4
 cd boot
 ```
@@ -122,12 +123,12 @@ Must be FAT32 and 64 MB minimum.
 `cd odroidc2-kernel-folder`
 
 * OPTION 1: Make kernel config (oneliner)  
-`make ARCH=arm64 CROSS_COMPILE=arm-none-eabi- odroidc2_defconfig`
+`make ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- odroidc2_defconfig`
 
 * OPTION 2: Make kernel config  
 ```
 export ARCH=arm64
-export CROSS_COMPILE=arm-none-eabi-
+export CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu-
 make odroidc2_defconfig
 ```
 
@@ -137,20 +138,24 @@ make odroidc2_defconfig
 
 ## COMPILING KERNEL
 * Compiling devicetree blobs to destination "INSTALL_DTBS_PATH=/mnt/boot/dtbs/meson64_odroidc2.dtb"  
-`make -j 4 ARCH=arm64 CROSS_COMPILE=arm-none-eabi- INSTALL_DTBS_PATH=/mnt/boot/dtbs/ dtbs`
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_DTBS_PATH=/mnt/boot/dtbs/ dtbs`
 * Compiling kernel to destination "INSTALL_PATH=/mnt/boot/Image"  
-`make -j 4 ARCH=arm64 CROSS_COMPILE=arm-none-eabi- INSTALL_PATH=/mnt/boot/ Image`
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_PATH=/mnt/boot/ Image`
 * Compiling the modules to destination "INSTALL_MOD_PATH=/mnt/"  
-`make -j 4 ARCH=arm64 CROSS_COMPILE=arm-none-eabi- INSTALL_MOD_PATH=/mnt/ modules_install`
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_MOD_PATH=/mnt/ modules`
+* Installing the modules to destination "INSTALL_MOD_PATH=/mnt/"  
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_MOD_PATH=/mnt/ modules_install`
 * Compiling firmware to destination "INSTALL_FW_PATH=/mnt/lib/firmware/"  
-`make -j 4 ARCH=arm64 CROSS_COMPILE=arm-none-eabi- INSTALL_FW_PATH=/mnt/lib/firmware/ firmware_install`
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_FW_PATH=/mnt/lib/firmware/ firmware_install`
 * Compiling kernel C headers to destination "INSTALL_HDR_PATH=/mnt/usr/"  
-`make -j 4 ARCH=arm64 CROSS_COMPILE=arm-none-eabi- INSTALL_HDR_PATH=/mnt/usr/ headers_install`
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_HDR_PATH=/mnt/usr/ headers_install`
 
 
 ## ROOT PARTITION
 Can be the rest of the disk.
 
+* Go to root directory  
+`cd /mnt/`  
 * Download CRUX image  
 `wget -c http://resources.crux-arm.nu/files/devel-test/3.3/crux-arm-rootfs-3.3-64b-RC2.tar.xz`  
 * Extract CRUX image  
