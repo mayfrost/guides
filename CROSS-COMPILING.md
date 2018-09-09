@@ -89,7 +89,7 @@ Alternative download link: http://dn.odroid.com/S905/BootLoader/ODROID-C2/c2_boo
 ```
 git clone https://github.com/hardkernel/u-boot.git -b odroidc2-v2015.01
 cd u-boot
-make ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- odroidc2_defconfig
+make ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- odroidc2_defconfig
 make -j4
 cd boot
 ```  
@@ -122,12 +122,12 @@ Must be FAT32 and 64 MB minimum.
 `cd odroidc2-kernel-folder`
 
 * OPTION 1: Make kernel config (oneliner)  
-`make ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- odroidc2_defconfig`
+`make ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- odroidc2_defconfig`
 
 * OPTION 2: Make kernel config  
 ```
 export ARCH=arm64
-export CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu-
+export CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu-
 make odroidc2_defconfig
 ```
 
@@ -137,17 +137,17 @@ make odroidc2_defconfig
 
 ## COMPILING KERNEL
 * Compiling devicetree blobs to destination "INSTALL_DTBS_PATH=/mnt/boot/dtbs/meson64_odroidc2.dtb"  
-`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_DTBS_PATH=/mnt/boot/dtbs/ dtbs`
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_DTBS_PATH=/mnt/boot/dtbs/ dtbs`
 * Compiling kernel to destination "INSTALL_PATH=/mnt/boot/Image"  
-`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_PATH=/mnt/boot/ Image`
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_PATH=/mnt/boot/ Image`
 * Compiling the modules to destination "INSTALL_MOD_PATH=/mnt/"  
-`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_MOD_PATH=/mnt/ modules`
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_MOD_PATH=/mnt/ modules`
 * Installing the modules to destination "INSTALL_MOD_PATH=/mnt/"  
-`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_MOD_PATH=/mnt/ modules_install`
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_MOD_PATH=/mnt/ modules_install`
 * Compiling firmware to destination "INSTALL_FW_PATH=/mnt/lib/firmware/"  
-`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_FW_PATH=/mnt/lib/firmware/ firmware_install`
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_FW_PATH=/mnt/lib/firmware/ firmware_install`
 * Compiling kernel C headers to destination "INSTALL_HDR_PATH=/mnt/usr/"  
-`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_HDR_PATH=/mnt/usr/ headers_install`
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_HDR_PATH=/mnt/usr/ headers_install`
 
 
 ## ROOT PARTITION
