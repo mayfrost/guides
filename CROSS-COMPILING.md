@@ -77,7 +77,7 @@ Name of "_CROSS_COMPILE_" variable will change depending on the choosen option. 
 ## BOOTLOADER
 Minimum 3072 bytes free at the start of the drive and before the boot partition.
 
-* VERSION 1: Compile bootloader yourself  
+* OPTION 1: Compile bootloader yourself  
 ```
 git clone https://github.com/hardkernel/u-boot.git -b odroidc2-v2015.01
 cd u-boot
@@ -86,7 +86,7 @@ make -j4
 cd boot
 ```
 
-* VERSION 2: Download and extract the binary  
+* OPTION 2: Download and extract the binary  
 ```
 wget http://odroid.in/guides/ubuntu-lfs/boot.tar.gz
 tar -zxvf boot.tar.gz
