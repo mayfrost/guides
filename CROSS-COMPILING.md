@@ -77,32 +77,31 @@ Name of "_CROSS_COMPILE_" variable will change depending on the choosen option. 
 ## BOOTLOADER
 Minimum 3072 bytes free at the start of the drive and before the boot partition.
 
-* OPTION 1: Compile bootloader yourself  
+* OPTION 1: Download and extract the binary  
+```
+wget http://odroid.in/guides/ubuntu-lfs/boot.tar.gz
+tar -zxvf boot.tar.gz
+cd boot
+```  
+Alternative download link: http://dn.odroid.com/S905/BootLoader/ODROID-C2/c2_boot_release_ubuntu.tar.gz
+
+* OPTION 2: Compile the bootloader yourself  
 ```
 git clone https://github.com/hardkernel/u-boot.git -b odroidc2-v2015.01
 cd u-boot
 make ARCH=arm64 CROSS_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu- odroidc2_defconfig
 make -j4
 cd boot
-```
-
-* OPTION 2: Download and extract the binary  
-```
-wget http://odroid.in/guides/ubuntu-lfs/boot.tar.gz
-tar -zxvf boot.tar.gz
-cd boot
 ```  
 
-Alternative download link: http://dn.odroid.com/S905/BootLoader/ODROID-C2/c2_boot_release_ubuntu.tar.gz
-
-* Flash bootloader  
+* Flash the bootloader  
 ```
 chmod +x sd_fusing.sh
 ./sd_fusing.sh /dev/sdX
 ```
 * Notice the target is the device NOT a partition  
 * Set resolution by editing file root/boot/boot.ini  
-* Might want to comment-out the display-autodetect option  
+* Might want to comment out the display-autodetect option  
 
 
 ## MOUNTING
