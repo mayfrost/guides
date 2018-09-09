@@ -25,7 +25,7 @@ aunpack gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu.tar.xz
 `sudo apt-get install gcc-arm-none-eabi`  
 NOTE: Check your tools are up-to-date to prevent errors like the lack of option _"-mgeneral-regs-only"_.
 
-Name of "_CROSS_COMPILE_" variable will change depending on the choosen option. This guide assumes cross-compile tools are from Linaro and therefore will equal to "_CROSS\_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu-_"
+Name of "_CROSS_COMPILE_" variable will change depending on the choosen option. This guide assumes cross-compilation tools are from Linaro and therefore will equal to "_CROSS\_COMPILE=<LINARO\_TOOLS\_DIRECTORY>/bin/aarch64-linux-gnu-_"
 
 
 ## PARTITIONING
