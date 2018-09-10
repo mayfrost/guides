@@ -7,9 +7,9 @@ Installing a distro for ARM. The distro is CRUX, the target is an Odroid C2. The
 2. [PARTITIONING](#partitioning)  
 3. [BOOTLOADER](#bootloader)  
 4. [MOUNTING](#mounting)  
-5. [BOOT PARTITION](#boot-partition)  
-6. [COMPILING KERNEL](#compiling-kernel)  
-7. [ROOT PARTITION](#root-partition)  
+5. [ROOT PARTITION](#root-partition)  
+6. [BOOT PARTITION](#boot-partition)  
+7. [COMPILING KERNEL](#compiling-kernel)  
 
 
 ## CROSS COMPILATION TOOLS
@@ -113,6 +113,29 @@ chmod +x sd_fusing.sh
 `mount /dev/sdX1 /mnt/boot`  
 
 
+## ROOT PARTITION
+Can be the rest of the disk.
+
+* Go to root directory  
+`cd /mnt/`  
+* Download CRUX image  
+`wget -c http://resources.crux-arm.nu/files/devel-test/3.3/crux-arm-rootfs-3.3-64b-RC2.tar.xz`  
+* Extract CRUX image to root directory  
+`aunpack crux-arm-rootfs-3.3-64b-RC2.tar.xz --extract-to=/mnt`  
+* Change network interface with the rules you want (IP, gateway, domain, etc).
+`elvis /etc/rc.d/net`  
+* On the "/etc/resolv.conf.head" file set your preferred DNS provider (this example is from OpenNIC).
+`nameserver 185.121.177.177`  
+* Change the "/etc/fstab" file with appropriate filesystems.
+```
+/dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults 0 1
+/dev/sda2    /    <ROOT_FILESYSTEM>      errors=remount-ro,noatime 0 1
+```  
+* Uncomment the lines referring to "devpts", "tmp", and "shm" as some programs require it (Firefox), also "USB" and or "cdrom" if using those.
+* Change the font, keyboard, timezone, hostname and services on the "/etc/rc.conf" file.
+`ls /usr/share/kbd/keymaps/`  
+
+
 ## BOOT PARTITION
 Must be FAT32 and 64 MB minimum.
 
@@ -147,15 +170,8 @@ make odroidc2_defconfig
 * Compiling firmware to destination "INSTALL_FW_PATH=/mnt/lib/firmware/"  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_FW_PATH=/mnt/lib/firmware/ firmware_install`
 * Compiling kernel C headers to destination "INSTALL_HDR_PATH=/mnt/usr/"  
-`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_HDR_PATH=/mnt/usr/ headers_install`
+`make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_HDR_PATH=/mnt/usr/ headers_install`  
 
 
-## ROOT PARTITION
-Can be the rest of the disk.
-
-* Go to root directory  
-`cd /mnt/`  
-* Download CRUX image  
-`wget -c http://resources.crux-arm.nu/files/devel-test/3.3/crux-arm-rootfs-3.3-64b-RC2.tar.xz`  
-* Extract CRUX image  
-`aunpack crux-arm-rootfs-3.3-64b-RC2.tar.xz`  
+And done. Next follow the distro tweaks: https://github.com/mayfrost/guides/blob/master/DISTROS.md
+Also check the list of software alternative to bloatware and support minimalism https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md
