@@ -159,17 +159,21 @@ make odroidc2_defconfig
 
 
 ## COMPILING KERNEL
-* Compiling devicetree blobs to destination "INSTALL_DTBS_PATH=/mnt/boot/dtbs/meson64_odroidc2.dtb"  
+* Compiling the devicetree blobs  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_DTBS_PATH=/mnt/boot/dtbs/ dtbs`
-* Compiling kernel to destination "INSTALL_PATH=/mnt/boot/Image"  
+* Compiling the kernel  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_PATH=/mnt/boot/ Image`
-* Compiling the modules to destination "INSTALL_MOD_PATH=/mnt/"  
+* Compiling the modules  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_MOD_PATH=/mnt/ modules`
+* Installing the kernel to destination "/mnt/boot/Image"  
+`cp arch/arm64/boot/Image /mnt/boot/`
+* Installing the devicetree blobs to destination "/mnt/boot/dtbs/meson64_odroidc2.dtb"  
+`cp arch/arm64/boot/dts/meson64_odroidc2.dtb /mnt/boot/dtbs/`
 * Installing the modules to destination "INSTALL_MOD_PATH=/mnt/"  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_MOD_PATH=/mnt/ modules_install`
-* Compiling firmware to destination "INSTALL_FW_PATH=/mnt/lib/firmware/"  
+* Compiling the firmware to destination "INSTALL_FW_PATH=/mnt/lib/firmware/"  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_FW_PATH=/mnt/lib/firmware/ firmware_install`
-* Compiling kernel C headers to destination "INSTALL_HDR_PATH=/mnt/usr/"  
+* Compiling the kernel C headers to destination "INSTALL_HDR_PATH=/mnt/usr/"  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_HDR_PATH=/mnt/usr/ headers_install`  
 
 
