@@ -5,11 +5,11 @@ Installing a distro for ARM. The distro is CRUX, the target is an Odroid C2. The
 ## TOC
 1. [CROSS COMPILATION TOOLS](#cross-compilation-tools)  
 2. [PARTITIONING](#partitioning)  
-3. [BOOTLOADER](#bootloader)  
-4. [MOUNTING](#mounting)  
-5. [ROOT PARTITION](#root-partition)  
-6. [BOOT PARTITION](#boot-partition)  
-7. [COMPILING KERNEL](#compiling-kernel)  
+3. [MOUNTING](#mounting)  
+4. [ROOT PARTITION](#root-partition)  
+5. [BOOT PARTITION](#boot-partition)  
+6. [COMPILING KERNEL](#compiling-kernel)  
+7. [BOOTLOADER](#bootloader)  
 
 
 ## CROSS COMPILATION TOOLS
@@ -72,36 +72,6 @@ Name of "_CROSS_COMPILE_" variable will change depending on the choosen option. 
 `mkfs.<ROOT_FILESYSTEM> /dev/sdX2`  
 * Make boot filesystem according to supported bootloader (only "_mkfs.vfat_")  
 `mkfs.<BOOTLOADER_FILESYSTEM> /dev/sdX1`  
-
-
-## BOOTLOADER
-Minimum 3072 bytes free at the start of the drive and before the boot partition.
-
-* OPTION 1: Download and extract the binary  
-```
-wget http://odroid.in/guides/ubuntu-lfs/boot.tar.gz
-tar -zxvf boot.tar.gz
-cd boot
-```  
-Alternative download link: http://dn.odroid.com/S905/BootLoader/ODROID-C2/c2_boot_release_ubuntu.tar.gz
-
-* OPTION 2: Compile the bootloader yourself  
-```
-git clone https://github.com/hardkernel/u-boot.git -b odroidc2-v2015.01
-cd u-boot
-make ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- odroidc2_defconfig
-make -j4
-cd boot
-```  
-
-* Flash the bootloader  
-```
-chmod +x sd_fusing.sh
-./sd_fusing.sh /dev/sdX
-```
-* Notice the target is the device NOT a partition  
-* Set resolution by editing file root/boot/boot.ini  
-* Might want to comment out the display-autodetect option  
 
 
 ## MOUNTING
@@ -175,6 +145,36 @@ make odroidc2_defconfig
 `make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_FW_PATH=/mnt/lib/firmware/ firmware_install`
 * Compiling the kernel C headers to destination "INSTALL_HDR_PATH=/mnt/usr/"  
 `make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_HDR_PATH=/mnt/usr/ headers_install`  
+
+
+## BOOTLOADER
+Minimum 3072 bytes free at the start of the drive and before the boot partition.
+
+* OPTION 1: Download and extract the binary  
+```
+wget http://odroid.in/guides/ubuntu-lfs/boot.tar.gz
+tar -zxvf boot.tar.gz
+cd boot
+```  
+Alternative download link: http://dn.odroid.com/S905/BootLoader/ODROID-C2/c2_boot_release_ubuntu.tar.gz
+
+* OPTION 2: Compile the bootloader yourself  
+```
+git clone https://github.com/hardkernel/u-boot.git -b odroidc2-v2015.01
+cd u-boot
+make ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- odroidc2_defconfig
+make -j4
+cd boot
+```  
+
+* Flash the bootloader  
+```
+chmod +x sd_fusing.sh
+./sd_fusing.sh /dev/sdX
+```
+* Notice the target is the device NOT a partition  
+* Set resolution by editing file root/boot/boot.ini  
+* Might want to comment out the display-autodetect option  
 
 
 And done. Next follow the distro tweaks: https://github.com/mayfrost/guides/blob/master/DISTROS.md
