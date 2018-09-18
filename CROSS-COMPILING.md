@@ -150,11 +150,10 @@ Minimum 3072 bytes free at the start of the drive and before the boot partition.
 
 * OPTION 1: Download and extract the binary  
 ```
-wget http://odroid.in/guides/ubuntu-lfs/boot.tar.gz
-tar -zxvf boot.tar.gz
-cd boot
+wget -c http://mirror.archlinuxarm.org/aarch64/alarm/uboot-odroid-c2-2015.01-17-aarch64.pkg.tar.xz
+aunpack uboot-odroid-c2-2015.01-17-aarch64.pkg.tar.xz --extract-to=/mnt/boot
+cd /mnt/boot
 ```  
-Alternative download link: http://dn.odroid.com/S905/BootLoader/ODROID-C2/c2_boot_release_ubuntu.tar.gz
 
 * OPTION 2: Compile the bootloader yourself  
 ```
