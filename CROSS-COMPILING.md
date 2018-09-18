@@ -47,19 +47,15 @@ Name of "_CROSS_COMPILE_" variable will change depending on the choosen option. 
 `3073`  
 * Assign end of boot partition  
 `+128M`  
-* Change display units to cylinders  
-`u`  
 * Create root partition  
 `n`  
 * Make primary partition  
 `p`  
 * Choose partition number  
 `2`  
-* Assign start of boot partition at the end of the bootloader space (default cylinder)  
-`131`  
+* Assign start of boot partition at the end of the bootloader space  
+`134220802`  
 * Assign end of boot partition (default) by pressing ENTER  
-* Change display units back to sectors  
-`u`  
 * Show the partitions  
 `p`  
 * If you agree save and exit  
@@ -92,11 +88,11 @@ Can be the rest of the disk.
 `wget -c http://resources.crux-arm.nu/files/devel-test/3.3/crux-arm-rootfs-3.3-64b-RC2.tar.xz`  
 * Extract CRUX image to root directory  
 `aunpack crux-arm-rootfs-3.3-64b-RC2.tar.xz --extract-to=/mnt`  
-* Change network interface with the rules you want (IP, gateway, domain, etc).
+* Change network interface with the rules you want (IP, gateway, domain, etc).  
 `elvis /etc/rc.d/net`  
-* On the "/etc/resolv.conf.head" file set your preferred DNS provider (this example is from OpenNIC).
+* On the "/etc/resolv.conf.head" file set your preferred DNS provider (this example is from OpenNIC).  
 `nameserver 185.121.177.177`  
-* Change the "/etc/fstab" file with appropriate filesystems.
+* Change the "/etc/fstab" file with appropriate filesystems.  
 ```
 /dev/sda1    /boot    <BOOTLOADER_FILESYSTEM>    defaults 0 1
 /dev/sda2    /    <ROOT_FILESYSTEM>      errors=remount-ro,noatime 0 1
@@ -137,6 +133,8 @@ make odroidc2_defconfig
 `make -j 4 ARCH=arm64 CROSS_COMPILE=<LINARO_TOOLS_DIRECTORY>/bin/aarch64-linux-gnu- INSTALL_MOD_PATH=/mnt/ modules`
 * Installing the kernel to destination "/mnt/boot/Image"  
 `cp arch/arm64/boot/Image /mnt/boot/`
+* Creating the devicetree directory  
+`mkdir /mnt/boot/dtbs/`
 * Installing the devicetree blobs to destination "/mnt/boot/dtbs/meson64_odroidc2.dtb"  
 `cp arch/arm64/boot/dts/meson64_odroidc2.dtb /mnt/boot/dtbs/`
 * Installing the modules to destination "INSTALL_MOD_PATH=/mnt/"  
