@@ -53,9 +53,9 @@ Name of "_CROSS_COMPILE_" variable will change depending on the choosen option. 
 `p`  
 * Choose partition number  
 `2`  
-* Assign start of boot partition at the end of the bootloader space  
+* Assign start of root partition at the end of the boot partition  
 `134220802`  
-* Assign end of boot partition (default) by pressing ENTER  
+* Assign end of root partition (the rest of the drive by default) by pressing ENTER  
 * Show the partitions  
 `p`  
 * If you agree save and exit  
