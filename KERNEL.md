@@ -103,20 +103,22 @@ __NOTE__: Remember to save the configuration if you are using menuconfig to gene
 
 ## COMPILATION
 Can take minutes to hours. Have a cup of tea or coffee while you wait to compile.  
-__NOTE__: The __-j\<X>__ flag, where __\<X>__ is the number of cores +1, __IS OPTIONAL__ and only goes if you have a processor with multiple cores. If you install __ccache__ (__THIS IS OPTIONAL__) you can speed up subsequent compilations by including __CC="ccache gcc"__ after the __-j\<X>__ flag.  
+__NOTE__: The __-j\<X>__ flag, where __\<X>__ is the number of cores, __IS OPTIONAL__ and only goes if you have a processor with multiple cores. A trick to get the cores automatically is by including __$(nproc)__ instead of the number. If you install __ccache__ (__THIS IS OPTIONAL__) you can speed up subsequent compilations by including __CC="ccache gcc"__ after the __-j\<X>__ flag.  
 `make -j<X> <OTHER_FLAGS>`  
-And with ccache.  
+With ccache.  
 `make -j<X> CC="ccache gcc" <OTHER_FLAGS>`  
+With ccache and nproc.  
+`make -j $(nproc) CC="ccache gcc" <OTHER_FLAGS>`  
 
 For compilation you have two options, __OPTION A__ is the easiest and is a single command. __OPTION B__ is here for didactic purposes.
 
 ### OPTION A: One command
 Compile and move everything to its place. The "__all__" flag makes modules AND the __bzImage__ at the same time (replaces "__bzImage__" and "__modules__" flags).  
-`make -j<X> all modules_install install`  
+`make -j $(nproc) all modules_install install`  
 
 ### OPTION B: One by one
 * If your configuration does not contain answers for all of the options, especially if they are new and not currently included in your running kernel, you will need to answer the prompts for these options.  
-`make -j<X> bzImage`  
+`make -j $(nproc) bzImage`  
 
 * __OPTION B1__: Copy the new kernel to __/boot__.  
 `cp arch/<YOUR_ARCHITECTURE>/boot/bzImage /boot/vmlinuz`  
@@ -131,7 +133,7 @@ __NOTE__: The __vmlinuz__ can be any name but that exact name has to be added to
 ### BUILD MODULES
 Module files end with the __.ko__ file extension. They are individual files for each question you answered __M__ during kernel configuration. The object code is linked against your freshly built kernel as separate modules. Questions answered __Y__ were integrated into the kernel (__vmlinuz__), and for questions answered __N__ they were skipped (not compiled).  
 * To compile modules.  
-`make -j<X> modules`  
+`make -j $(nproc) modules`  
 * Copy generated kernel modules to __/lib/modules/<KERNEL_VERSION>/__.  
 `make modules_install`  
 
