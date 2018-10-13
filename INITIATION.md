@@ -155,7 +155,7 @@ Next are simple examples of compiling the kernel, for a more in depth view see: 
 * On __CRUX__ you must first configure your bootloader (as "_make install_" will call Lilo), then run.  
 ```  
 cd /usr/src/linux-<VERSION>
-make all modules_install install  
+make -j $(nproc) all modules_install install  
 ```
 
 * On __Source Mage GNU/Linux__ (__OPTIONAL__).  
