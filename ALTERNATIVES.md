@@ -62,7 +62,7 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __File Manager__: Amaze -> OI File Manager
 * __Dictionary__: Quickdic
 * __Firewall__: NetGuard -> AFWall+
-* __E-Mail__: K9 Mail
+* __E-Mail__: K-9 Mail
 
 Most apps are from F-Droid, we are just starting.
 
