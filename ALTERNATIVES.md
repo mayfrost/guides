@@ -58,7 +58,11 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 * __YouTube__: [NewPipe](https://newpipe.schabi.org/) (5,0 MB) -> [SkyTube](http://skytube-app.com/) (4,9 MB) -> [WebTube](https://github.com/martykan/webTube/blob/HEAD/README.md) (2,1 MB) -> [MinTube](https://github.com/imshyam/mintube) (981 KB)
 * __E-Books__: [Document Viewer](https://f-droid.org/en/packages/org.sufficientlysecure.viewer/) (8.5 MB)
 * __Notes__: [Orgzly](https://github.com/orgzly/orgzly-android) (3.9 MB) -> [Markor](https://github.com/gsantner/markor) (3 MB) -> [miniNoteViewer](https://github.com/monolifed/mininoteview) (452 KB)
-* __Keyboards__: [Simple Keyboard](https://f-droid.org/en/packages/rkr.simplekeyboard.inputmethod/) (835 KB)
+* __Keyboards__: Hacker's Keyboard (1,2 MB) -> [Simple Keyboard](https://f-droid.org/en/packages/rkr.simplekeyboard.inputmethod/) (835 KB)
+* __File Manager__: Amaze -> OI File Manager
+* __Dictionary__: Quickdic
+* __Firewall__: NetGuard -> AFWall+
+* __E-Mail__: K9 Mail
 
 Most apps are from F-Droid, we are just starting.
 
