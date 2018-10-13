@@ -49,7 +49,7 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 Is standard to download Linux sources under __/usr/src/__, then link the downloaded kernel tree to __/usr/src/linux-<VERSION_NUMBER>__ and work there, but is not a requirement.  
 * Change to __/usr/src/__.  
 `cd /usr/src/`  
-* Symlink.
+* Symlink.  
 `ln -s linux-<VERSION_NUMBER> linux`  
 
 ### DOWNLOAD THE KERNEL SOURCE
@@ -91,14 +91,14 @@ This process makes a "__.config__" file in the kernel source directory, this fil
 * The __M__ flag in kernel configuration compiles options as separate modules.
 * The __N__ (or a blank space in __menuconfig__) flag in kernel configuration will not build selected option.
 
-* __OPTION 1__: Start a menu and browse options. Requires curses library but likely is already on your computer. Press "__H__" or "__?__" to see help. You can use the space bar to cycle between the available choices or press the appropriate key mentioned above. Pressing "__/__" to search for keywords.  
+__OPTION 1__: Start a menu and browse options. Requires curses library but likely is already on your computer. Press "__H__" or "__?__" to see help. You can use the space bar to cycle between the available choices or press the appropriate key mentioned above. Pressing "__/__" to search for keywords.  
 `make menuconfig`  
 __NOTE__: Remember to save the configuration if you are using menuconfig to generate the "_.config_" file.
 
-* __OPTION 2__: Will make questions on what kernel options to support when it finds new kernel options not marked on an existing config file (takes time and and if you are using a striped down config file it requires you knowledge).  
+__OPTION 2__: Will make questions on what kernel options to support when it finds new kernel options not marked on an existing config file (takes time and and if you are using a striped down config file it requires you knowledge).  
 `make oldconfig`  
 
-* __OPTION 3__: Will fill questions with default answers on what kernel options to support beyond your provided config file.  
+__OPTION 3__: Will fill questions with default answers on what kernel options to support beyond your provided config file.  
 `make olddefconfig`  
 
 ## COMPILATION
