@@ -94,6 +94,7 @@ Most apps are from F-Droid, we are just starting.
 * __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
 * __RSS Feed and Podcast__: Liferea -> Newsbeuter -> Newsboat
 * __Search Engine Scraper__: Googler -> [Surfraw](http://surfraw.alioth.debian.org/) (+ [dmenu](https://bbs.archlinux.org/viewtopic.php?id=228706))
+* __UPnP (DLNA) Client__: [djmount](https://github.com/Boxee/djmount)
 * __Usenet Client (Newsreader)__: Pan -> [slrn](http://www.slrn.org/) ( + slrnpull + slrnface)
 * __VoIP Client__: [Jitsi](https://jitsi.org/) -> [Finch (Pidgin)](https://developer.pidgin.im/wiki/vv)
 
@@ -378,6 +379,7 @@ Most apps are from F-Droid, we are just starting.
 ## Package Management
 * __Gaming Platform__: [LGOGDownloader](https://github.com/Sude-/lgogdownloader) (GOG.com), [SteamCMD](https://linode.com/docs/game-servers/install-steamcmd-for-a-steam-game-server/) (Steam), [Lutris](https://github.com/lutris/lutris)
 * __Portable Apps__: Flatpak -> Snappy -> [AppImage](https://github.com/AppImage)
+* __Language Specific__: [bpkg](https://www.bpkg.sh/) (Bash scripts) -> [Pinto](https://metacpan.org/release/Pinto) (Perl) -> [clib](https://github.com/clibs/clib) (C)
 * __Universal Package Managers__: [Alien](https://joeyh.name/code/alien/) -> pkgsrc -> GNU Guix
 
 ## Pentesting
