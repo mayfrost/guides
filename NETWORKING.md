@@ -116,8 +116,8 @@ You can save either example in a script to activate the Wi-Fi whenever you want.
 `ssh USER@ADDRESS`  
 * set ssh server configuration in /etc/ssh/sshd_config  
 ```
-Port 22 # default port
-PermitRootLogin without-password # change "without-password" to "no"
+Port 22 # default port is 22, can be changed
+PermitRootLogin without-password # change "without-password" to "no" to forbid root login
 AllowUsers USER_NAME # by allowing a specific user it restricts the others
 ```
 * restart "ssh" service to activate changes  
