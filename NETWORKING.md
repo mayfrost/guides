@@ -34,17 +34,23 @@ You can save either example in a script to activate the Wi-Fi whenever you want.
 ## Next
 
 ### ufw
+* Show status  
 `sudo ufw status`  
+* Enable firewall  
 `sudo ufw enable`  
+* Disable firewall  
 `sudo ufw disable`  
+* Deny all by default  
 `sudo ufw default deny`  
+* Allow all by default  
 `sudo ufw default allow`  
+* Allow everything for specific port by default  
 `sudo ufw allow PORT_NUMBER`  
-* delete a rule  
+* Delete a rule  
 `sudo ufw delete allow PORT_NUMBER`  
-* allow everything for a specific address  
+* Allow everything for a specific address  
 `sudo ufw allow from IP_ADDRESS`  
-* allow a specific port for a specific address  
+* Allow a specific port for a specific address  
 `sudo ufw allow from IP_ADDRESS to any port PORT_NUMBER`  
 
 ### tcpdump
