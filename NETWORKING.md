@@ -33,87 +33,87 @@ You can save either example in a script to activate the Wi-Fi whenever you want.
 
 ## Next
 
-### using ufw
-sudo ufw status
-sudo ufw enable
-sudo ufw disable
-sudo ufw default deny
-sudo ufw default allow
-sudo ufw allow PORT_NUMBER
-* delete a rule
-sudo ufw delete allow PORT_NUMBER
-* allow everything for a specific address
-sudo ufw allow from IP_ADDRESS
-* allow a specific port for a specific address
-sudo ufw allow from IP_ADDRESS to any port PORT_NUMBER
+### ufw
+sudo ufw status  
+sudo ufw enable  
+sudo ufw disable  
+sudo ufw default deny  
+sudo ufw default allow  
+sudo ufw allow PORT_NUMBER  
+* delete a rule  
+sudo ufw delete allow PORT_NUMBER  
+* allow everything for a specific address  
+sudo ufw allow from IP_ADDRESS  
+* allow a specific port for a specific address  
+sudo ufw allow from IP_ADDRESS to any port PORT_NUMBER  
 
 ### tcpdump
-* dump all
-sudo tcpdump
-* dump 5 packets
-sudo tcpdump -c 5
-* dump in ASCii format
-sudo tcpdump -A
-* dump in hexadecimal format
-sudo tcpdump -xx
-* dump from an specific interface
-sudo tcpdump -i INTERFACE_NAME
-* dump from a specific port
-sudo tcpdump port PORT_NUMBER
-* dump 5 packets in hexadecimal from an specific interface and a specific port
-sudo tcpdump -c 5 -xx -i INTERFACE port PORT_NUMBER
+* dump all  
+sudo tcpdump  
+* dump 5 packets  
+sudo tcpdump -c 5  
+* dump in ASCii format  
+sudo tcpdump -A  
+* dump in hexadecimal format  
+sudo tcpdump -xx  
+* dump from an specific interface  
+sudo tcpdump -i INTERFACE_NAME  
+* dump from a specific port  
+sudo tcpdump port PORT_NUMBER  
+* dump 5 packets in hexadecimal from an specific interface and a specific port  
+sudo tcpdump -c 5 -xx -i INTERFACE port PORT_NUMBER  
 
 ### netstat
-* show routing table, including gateway
-netstat -nr
-* show all ports
-netstat -tulpn
-* show network usage of devices
-netstat -i
-* show active connections
-netstat -ta
-* show active connections, but show ip addresses instead
-netstat -tan
+* show routing table, including gateway  
+netstat -nr  
+* show all ports  
+netstat -tulpn  
+* show network usage of devices  
+netstat -i  
+* show active connections  
+netstat -ta  
+* show active connections, but show ip addresses instead  
+netstat -tan  
 
 ### traceroute
-* show which route your connection takes between your computer to the destination
-traceroute WEBNAME_OR_IP
+* show which route your connection takes between your computer to the destination  
+traceroute WEBNAME_OR_IP  
 
 ### nmap
-* scan a specific ip address (including devices)
-nmap IP_NUMBER
-* scan a specific website
-nmap WEBSITE_NAME
-* scan a specific ip address (including devices) with more information 
-nmap -v IP_NUMBER
-* scan two ip address (including devices), 192.168.0.1 and 192.168.0.54
-nmap 192.168.0.1,54
-* scan a range of ip address (including devices), from 192.168.0.1 to 192.168.0.100
-nmap 192.168.0.1-100
-* scan all ip address (including devices) from network 192.168.0.0
-nmap 192.168.0.*
-* scan address from a file
-nmap -il FILE
-* scan address and identify OS and running services
-nmap -A IP_NUMBER
-* check if target is up
-nmap -sP IP_NUMBER
-* check reason for services states
-nmap --reason IP_NUMBER
-* show host interfaces
-nmap --iflist IP_NUMBER
+* scan a specific ip address (including devices)  
+nmap IP_NUMBER  
+* scan a specific website  
+nmap WEBSITE_NAME  
+* scan a specific ip address (including devices) with more information  
+nmap -v IP_NUMBER  
+* scan two ip address (including devices), 192.168.0.1 and 192.168.0.54  
+nmap 192.168.0.1,54  
+* scan a range of ip address (including devices), from 192.168.0.1 to 192.168.0.100  
+nmap 192.168.0.1-100  
+* scan all ip address (including devices) from network 192.168.0.0  
+nmap 192.168.0.*  
+* scan address from a file  
+nmap -il FILE  
+* scan address and identify OS and running services  
+nmap -A IP_NUMBER  
+* check if target is up  
+nmap -sP IP_NUMBER  
+* check reason for services states  
+nmap --reason IP_NUMBER  
+* show host interfaces  
+nmap --iflist IP_NUMBER  
 
 ### SSH
-* login to remote host
-ssh ADDRESS
-* login to remote host as user USER
-ssh USER@ADDRESS
-* set ssh server configuration in /etc/ssh/sshd_config
-Port 22 # default port
-PermitRootLogin without-password # change "without-password" to "no"
-AllowUsers USER_NAME # by allowing a specific user it restricts the others
-* restart "ssh" service to activate changes
+* login to remote host  
+ssh ADDRESS  
+* login to remote host as user USER  
+ssh USER@ADDRESS  
+* set ssh server configuration in /etc/ssh/sshd_config  
+Port 22 # default port  
+PermitRootLogin without-password # change "without-password" to "no"  
+AllowUsers USER_NAME # by allowing a specific user it restricts the others  
+* restart "ssh" service to activate changes  
 
-
-# use last 8 octets for hosts
-255.255.255.0
+## /etc/network/interfaces
+* use last 8 octets for hosts  
+255.255.255.0  
