@@ -15,7 +15,7 @@ After that you login and simply type:
 whenever you want to start X.
 
 
-Next is an example _".xinitrc"_ file:  
+Next is an example _".xinitrc"_ file which goes under in your home directory:  
 ```
 # load your preferred terminal settings
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
@@ -76,7 +76,7 @@ Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling win
 `Ctrl-t + Q`
 
 
-The custom _".ratpoisonrc"_ used here can be customized to your needs:
+The custom _".ratpoisonrc"_ file which goes under in your home directory can be customized to your needs:
 ```
 # text editor
 bind e exec gjots2
@@ -107,6 +107,7 @@ bind J exec xterm -e newsbeuter
 
 # password manager
 bind z exec xterm -e kpcli
+
 # looks for the JDownloader program under the designated path
 bind Z exec ~/jd2/JDownloader2
 
@@ -162,7 +163,7 @@ In the example below we'll have the modified keys:
 * The "raise volume" button if available will raise volume.
 
 
-Now the example _".xbindkeysrc"_ file:
+Now the example _".xbindkeysrc"_ file which goes under in your home directory:
 ```
 # Enable "Scroll_Lock" for the next keybinding
 keystate_scrolllock= enable
@@ -207,7 +208,7 @@ keystate_scrolllock= enable
 To tweak the theme of your terminal emulator you need to tweak the _".Xresources"_ file. Each time you make changes run:
 `xrdb -merge`
 
-Next is an example _".Xresources"_ file:
+Next is an example _".Xresources"_ file which goes under in your home directory:
 ```
 xterm*maximized:	true
 xterm*background:	black
