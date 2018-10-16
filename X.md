@@ -9,7 +9,7 @@ Set xorg and a desktop environment fast.
 
 
 ## NO DE
-To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here and edit the _".xinitrc"_ file with the appro. The required applications are:
+To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here and edit the _".xinitrc"_ file with the appropriate changes and start _"X"_ from the terminal. The required applications are:
 * Ratpoison
 * Xbindkeys
 * hsetroot or imagemagick (or replace it in _".xinitrc"_ with your preferred wallpaper changer)
