@@ -40,7 +40,7 @@ Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling win
 * Extensible by scripts. The _"rpws"_ script for example adds multiple workspaces (comes by default), another script (_"expose.pl"_) gives a mozaic of current windows.
 
 
-### A few keys to get you started.
+### A few keys to get you started
 
 * Show the help cheatsheet:
 `Ctrl-t + ?`
