@@ -17,7 +17,7 @@ To use a window manager without any desktop environment, or even a login manager
 * FFmpeg or libav-tools
 * UXTerm or urxvt
 * dmenu
-* Whatever you want on your _"ratpoisonrc"_
+* Whatever you want on your _".ratpoisonrc"_
 
 After that you login and simply type:  
 `startx`  
