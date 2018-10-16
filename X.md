@@ -84,6 +84,8 @@ Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling win
 * Make a window the only one visible:
 `Ctrl-t + Q`
 
+There is a full manual on the terminal:
+`info ratpoison`
 
 The custom _".ratpoisonrc"_ file which goes under your home directory can be customized to your needs:
 ```
