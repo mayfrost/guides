@@ -12,9 +12,9 @@ Set xorg and a desktop environment fast.
 To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here. Which are:
 * Ratpoison
 * Xbindkeys
-* hsetroot
-* ImageMagick
-* FFmpeg or libav-tools
+* hsetroot or imagemagick (or replace it in _".xinitrc"_ with your preferred wallpaper changer)
+* ImageMagick (or replace it in _".xinitrc"_ with your preferred screenshot program)
+* FFmpeg or libav-tools (or replace it in _".xinitrc"_ with your preferred screencasting program)
 * UXTerm or urxvt
 * dmenu
 * Whatever you want on your _".ratpoisonrc"_
