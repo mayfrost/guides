@@ -1,7 +1,7 @@
-#X
+# X
 Set xorg and a desktop environment fast.
 
-##NO DE
+## NO DE
 To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here.
 After that you login and simply type:
 `start`
@@ -25,7 +25,7 @@ hsetroot -fill ~/.wallpaper.jpg
 # launch the window manager (needs to be done at the end)
 exec dbus-launch --sh-syntax --exit-with-session ratpoison
 ```
-##RATPOISON
+## RATPOISON
 
 Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling window manager using similar bindings to GNU Screen. A few of its benefits are.
 * No mouse used, all done by commands called by typing _"control"_ and _"t"_ at the same time, plus another key.
@@ -33,7 +33,7 @@ Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling win
 * Extensible by scripts. The _"rpws"_ script for example adds multiple workspaces (comes by default), another script (_"expose.pl"_) gives a mozaic of current windows.
 
 
-###A few keys to get you started.
+### A few keys to get you started.
 
 * Show the help cheatsheet:
 `Ctrl-t + ?`
@@ -131,7 +131,7 @@ exec rpws init 4 -k
 set border 0
 ```
 
-##XBINDKEYS
+## XBINDKEYS
 Custom keys can be added with the Xbindkeys program.
 
 With the help of the default xev program you can check the keys you want:
@@ -196,7 +196,7 @@ keystate_scrolllock= enable
   XF86AudioRaiseVolume
 ```
 
-##TERMINAL EMULATOR
+## TERMINAL EMULATOR
 
 To tweak the theme of your terminal emulator you need to tweak the _".Xresources"_ file. Each time you make changes run
 `xrdb -merge`
@@ -235,7 +235,7 @@ urxvt*boldFont: fixed
 urxvt*dynamicColors: true
 urxvt*borderWidth: 0
 ```
-##SCREEN TEARING
+## SCREEN TEARING
 To solve screen tearing you can use any of these config files in its appropriate directory.
 
 * In the case you have Intel add these to _"/etc/X11/xorg.conf.d/20-intel.conf"_:
