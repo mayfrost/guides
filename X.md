@@ -51,43 +51,43 @@ Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling win
 
 ### A few keys to get you started
 
-* Show the help cheatsheet:
-`Ctrl-t + ?`
-* Bring an application menu:
-`Ctrl-t + .`
-* Get time and date:
-`Ctrl-t + a`
-* Clear screen from help cheatsheet or menu:
-`Esc`
+* Show the help cheatsheet:  
+`Ctrl-t + ?`  
+* Bring an application menu:  
+`Ctrl-t + .`  
+* Get time and date:  
+`Ctrl-t + a`  
+* Clear screen from help cheatsheet or menu:  
+`Esc`  
 
-* Show open windows:
-`Ctrl-t + w`
-* Close a window:
-`Ctrl-t + k`
-* Swith back between windows:
-`Ctrl-t + Ctrl-t`
-* Go to next window:
-`Ctrl-t + n`
-`Ctrl-t + Space`
-* Go to previous window:
-`Ctrl-t + p`
+* Show open windows:  
+`Ctrl-t + w`  
+* Close a window:  
+`Ctrl-t + k`  
+* Swith back between windows:  
+`Ctrl-t + Ctrl-t`  
+* Go to next window:  
+`Ctrl-t + n`  
+`Ctrl-t + Space`  
+* Go to previous window:  
+`Ctrl-t + p`  
 
 
-* Split screen vertically:
-`Ctrl-t + s`
-* Split screen horizontally:
-`Ctrl-t + S`
-* Go to next frame:
-`Ctrl-t + Tab`
-* Go to previous frame:
-`Ctrl-t + Alt-Tab`
-* Make a window the only one visible:
-`Ctrl-t + Q`
+* Split screen vertically:  
+`Ctrl-t + s`  
+* Split screen horizontally:  
+`Ctrl-t + S`  
+* Go to next frame:  
+`Ctrl-t + Tab`  
+* Go to previous frame:  
+`Ctrl-t + Alt-Tab`  
+* Make a window the only one visible:  
+`Ctrl-t + Q`  
 
-There is a full manual on the terminal:
-`info ratpoison`
+There is a full manual available from the terminal:  
+`info ratpoison`  
 
-The custom _".ratpoisonrc"_ file which goes under your home directory can be customized to your needs:
+The next custom _".ratpoisonrc"_ file goes under your home directory and can be customized to your needs:
 ```
 # text editor
 bind e exec gjots2
