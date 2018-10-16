@@ -9,7 +9,7 @@ Set xorg and a desktop environment fast.
 
 
 ## NO DE
-To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here. Which are:
+To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here and edit the _".xinitrc"_ file with the appro. The required applications are:
 * Ratpoison
 * Xbindkeys
 * hsetroot or imagemagick (or replace it in _".xinitrc"_ with your preferred wallpaper changer)
@@ -18,11 +18,6 @@ To use a window manager without any desktop environment, or even a login manager
 * UXTerm or urxvt
 * dmenu
 * Whatever you want on your _".ratpoisonrc"_
-
-After that you login and simply type:  
-`startx`  
-whenever you want to start X.
-
 
 Next is an example _".xinitrc"_ file which goes under your home directory:  
 ```
@@ -41,6 +36,11 @@ hsetroot -fill ~/.wallpaper.jpg
 # launch the window manager (needs to be done at the end)
 exec dbus-launch --sh-syntax --exit-with-session ratpoison
 ```
+
+After that you login and simply type:  
+`startx`  
+whenever you want to start X.
+
 ## RATPOISON
 
 Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling window manager using similar bindings to GNU Screen. A few of its benefits are.
