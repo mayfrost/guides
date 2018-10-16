@@ -1,14 +1,21 @@
 # X
 Set xorg and a desktop environment fast.
 
+1. [NO DE](#no-de)  
+2. [RATPOISON](#ratpoison)  
+3. [XBINDKEYS](#xbindkeys)  
+4. [TERMINAL EMULATOR](terminal-emulator)  
+5. [SCREEN TEARING](#xreen-tearing)  
+
+
 ## NO DE
 To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here.
-After that you login and simply type:
-`start`
+After that you login and simply type:  
+`startx`  
 whenever you want to start X.
 
 
-Next is an example _".xinitrc"_ file:
+Next is an example _".xinitrc"_ file:  
 ```
 # load your preferred terminal settings
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
@@ -69,7 +76,7 @@ Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling win
 `Ctrl-t + Q`
 
 
-The custom _".ratpoisonrc"_ used here can be customized to your need
+The custom _".ratpoisonrc"_ used here can be customized to your needs:
 ```
 # text editor
 bind e exec gjots2
@@ -135,17 +142,16 @@ set border 0
 Custom keys can be added with the Xbindkeys program.
 
 With the help of the default xev program you can check the keys you want:
-* Start the program and type the key you want to see its information
-`xev > keys.txt`
-* Look for the line that says
-`keycode KEY_NUMBER (keysym INGORE_THIS, KEY_NAME)`
-* Now on xbindkeysrc you'll be adding the information for each bind you want:
+* Start the program and type the key you want to see its information  
+`xev > keys.txt`  
+* Look for the line that says  
+`keycode KEY_NUMBER (keysym INGORE_THIS, KEY_NAME)`  
+* Now on _".xbindkeysrc"_ add the information for each bind:
 ```
 "WHAT_YOU_WANT_HERE_GOES_HERE"
   m:0x0 + c:KEY_NUMBER
   KEY_NAME
 ```
-
 In the example below we'll have the modified keys:
 * The "windows" key switch windows using dmenu pre-installed.
 * The "menu" key brings an application launcher you type names into using dmenu.
@@ -198,7 +204,7 @@ keystate_scrolllock= enable
 
 ## TERMINAL EMULATOR
 
-To tweak the theme of your terminal emulator you need to tweak the _".Xresources"_ file. Each time you make changes run
+To tweak the theme of your terminal emulator you need to tweak the _".Xresources"_ file. Each time you make changes run:
 `xrdb -merge`
 
 Next is an example _".Xresources"_ file:
@@ -256,7 +262,7 @@ Section "Device"
 EndSection
 ```
 
-Another way to add changes is in the _"/etc/X11/xorg.conf"_ file:
+* Another way to add changes is in the _"/etc/X11/xorg.conf"_ file:
 ```
 Section "Device"
    Identifier  "Intel Graphics"
