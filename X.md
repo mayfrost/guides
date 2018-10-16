@@ -9,7 +9,16 @@ Set xorg and a desktop environment fast.
 
 
 ## NO DE
-To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here.
+To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here. Which are:
+* Ratpoison
+* Xbindkeys
+* hsetroot
+* ImageMagick
+* FFmpeg or libav-tools
+* UXTerm or urxvt
+* dmenu
+* Whatever you want on your _"ratpoisonrc"_
+
 After that you login and simply type:  
 `startx`  
 whenever you want to start X.
@@ -182,7 +191,7 @@ keystate_scrolllock= enable
   m:0x0 + c:107
   Print
 
-# Record desktop (needs libav-tools or ffmpeg)
+# Record desktop with avconv (libav-tools) or install ffmpeg and replace avconv
 "killall -INT avconv 2>/dev/null || avconv -f x11grab -r 25 -s 1280x720 -i :0.0 $HOME/output.webm &"
   m:0x0 + c:78
   Scroll_Lock
