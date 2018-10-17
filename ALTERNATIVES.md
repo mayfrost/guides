@@ -121,7 +121,7 @@ Most apps are from F-Droid, we are just starting.
 * __Forum__: [Decentraland](https://decentraland.org/) -> [Mastodon (GNU Social)](https://joinmastodon.org/) -> [NNTPChan](https://github.com/majestrate/nntpchan)
 * __Gossip Network (Network Service Discovery)__: [peernet](https://github.com/substack/peernet)
 * __Grid Computing__: [BOINC](https://github.com/BOINC/boinc) (+ [boinctui](https://github.com/suleman1971/boinctui))
-* __Media Sharing__: MediaGoblin -> PeerTube (WebTorrent) -> [DTube](https://peertube.duckdns.org/videos/trending) -> [Alexandria](http://www.alexandria.io/) (not ready yet but [this how it works](https://www.youtube.com/watch?v=So4n2ZBSMxg))
+* __Media Sharing__: MediaGoblin -> DTube -> [PeerTube](https://peertube.duckdns.org/videos/trending) (WebTorrent) -> [Alexandria](http://www.alexandria.io/) (not ready yet but [this how it works](https://www.youtube.com/watch?v=So4n2ZBSMxg))
 * __Mesh Network__: Tinc -> cjdns -> open80211s (802.11s) -> [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki)
 * __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://github.com/streamproject/stream-chrome)
 * __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
