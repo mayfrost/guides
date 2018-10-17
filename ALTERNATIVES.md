@@ -84,7 +84,7 @@ Most apps are from F-Droid, we are just starting.
 ## Communication
 * __BBS-MUD Client__: [TinTin++](http://tintin.sourceforge.net/features.php)
 * __Bookmark Manager__: [bookmarks.public](https://github.com/skx/bookmarks.public) -> [bk_edit](http://www.vakuumverpackt.de/retiredprojects/bk_edit/) -> [pmb](https://github.com/neoncortex/poor-man-s-bookmark) -> [b.](https://directory.fsf.org/wiki/B.)
-* __Browser__: Pale Moon / Icecat -> luakit / vimb / surf (tabbed) / Uzbl (tabbed) -> [NetSurf](http://www.netsurf-browser.org/) -> Lynx -> [Links2](http://links.twibright.com/) -> [Netrik](http://netrik.sourceforge.net/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master)
+* __Browser__: Pale Moon -> Icecat -> luakit / vimb / surf (tabbed) / Uzbl (tabbed) -> [NetSurf](http://www.netsurf-browser.org/) -> Lynx -> [Links2](http://links.twibright.com/) -> [Netrik](http://netrik.sourceforge.net/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master)
 * __Browser (Gopher)__: [GopherVR](http://www.floodgap.com/software/gophervr/) -> [gopherfs](http://git.savannah.gnu.org/cgit/hurd/incubator.git/) -> [UMN Gopher client](https://github.com/jgoerzen/gopher) -> Lynx
 * __Chat Client__: [Finch (Pidgin)](https://developer.pidgin.im/wiki/Using%20Finch) in [irssi mode](https://askubuntu.com/questions/442345/how-can-i-simplify-the-finch-interface) -> [Centerim](http://www.centerim.org/index.php/Main_Page) -> [Bitlbee](https://wiki.bitlbee.org/)
 * __E-Mail Archiver__: [Lurker](http://lurker.sourceforge.net/)
