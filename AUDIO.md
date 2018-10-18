@@ -32,8 +32,8 @@ Notice the index.
 ### Run Firefox without pulseaudio
 
 1. Install  __[apulse](https://github.com/i-rinat/apulse)__.  
-* Install _"cmake"_, _"libasound2-dev"_ and _"libglib2.0-dev"_.  
-* Download _"apulse"_:
+* Install _"cmake"_, _"libasound2-dev"_ and _"libglib2.0-dev"_ with your package manager.  
+* Download _"apulse"_:  
 `git clone --depth 1 --single-branch https://github.com/i-rinat/apulse.git`  
 * Change to that directory:  
 `cd apulse/src` 
