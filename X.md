@@ -94,9 +94,9 @@ bind e exec gjots2
 bind E exec xterm -e elvis
 
 # web browser
-bind y exec palemoon
+bind y exec icecat
 # highlight an url in a window and the url is opened in a new tab
-bind Y exec palemoon `$RATPOISON -c getsel`
+bind Y exec icecat -new-tab `$RATPOISON -c getsel`
 
 # MOC as a music player, alsamixer as volume control
 bind o exec xterm -e mocp
