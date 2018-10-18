@@ -32,8 +32,19 @@ Notice the index.
 ### Run Firefox without pulseaudio
 
 1. Install  __[apulse](https://github.com/i-rinat/apulse)__.  
+* Install _"cmake"_, _"libasound2-dev"_ and _"libglib2.0-dev"_.  
+* Download _"apulse"_:
+`git clone --depth 1 --single-branch https://github.com/i-rinat/apulse.git`  
+* Change to that directory:  
+`cd apulse/src` 
+* Build:  
+```
+$ cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release ..
+$ make
+# sudo make install
+```  
 
-2. On Firefox open __about:config__ and enter "__/dev/snd/__" under __security.sandbox.content.read_path_whitelist__ and __security.sandbox.content.write_path_whitelist;/dev/snd/__.  
+2. On Firefox open __about:config__ and enter "__/dev/snd/__" under __security.sandbox.content.read_path_whitelist__ and __security.sandbox.content.write_path_whitelist;/dev/snd/__, IF they exist.  
 
 3. Every time you want to use firefox with this setting issue the command:  
 `$ apulse firefox`  
