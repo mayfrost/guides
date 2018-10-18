@@ -48,4 +48,4 @@ $ make
 
 3. Every time you want to use firefox with this setting issue the command:  
 `$ apulse firefox`  
-Alternatively save _"$ apulse firefox" in a script or in a .desktop file for automation.
+Alternatively save ___"apulse firefox"___ in a script or in a .desktop file for automation.
