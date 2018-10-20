@@ -29,7 +29,7 @@ To use a window manager without any desktop environment, or even a login manager
 Next is an example _".xinitrc"_ file which goes under your home directory:  
 ```
 # load your preferred terminal settings
-[ -f ~/.Xresources ] && xrdb -merge -I$HOME ~/.Xresources
+xrdb -merge -I$HOME ~/.Xresources
 
 # load your preferred keybindings
 xbindkeys
