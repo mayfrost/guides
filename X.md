@@ -56,7 +56,7 @@ then
     startx > /dev/null 2>&1
 fi
 ```
-This will automatically launch _"X"_ at the first _"tty"_ (_"virtual terminal"_). If you are confused, to switch between ttys press _"Ctrl-Alt-F<X>"_ (where _"X_" is a number).
+This will automatically launch _"X"_ at the first _"tty"_ (_"virtual terminal"_). If you are confused, to switch between ttys press _"Ctrl-Alt-F\<X>"_ (where _"X_" is a number).
 
 ## RATPOISON
 Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling window manager using bindings similar to GNU Screen. A few of its benefits are.
