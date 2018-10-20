@@ -270,7 +270,7 @@ urxvt*borderWidth: 0
 ```  
 
 To load changes run:  
-`xrdb -merge`
+`xrdb -merge ~/.Xresources`
 
 ## SCREEN TEARING
 To solve screen tearing you can use any of these config files in its appropriate directory.
