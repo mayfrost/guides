@@ -17,12 +17,12 @@ Set xorg and a desktop environment fast.
 
 ## NO DE
 To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here and edit the _".xinitrc"_ file with the appropriate changes and start _"X"_ from the terminal. The required applications are:
-* Ratpoison
+* Ratpoison (or your preferred window manager in the _".xinitrc"_ file)
 * Xbindkeys
-* hsetroot or imagemagick (or replace it in _".xinitrc"_ with your preferred wallpaper changer)
-* ImageMagick (or replace it in _".xinitrc"_ with your preferred screenshot program)
-* FFmpeg or libav-tools (or replace it in _".xinitrc"_ with your preferred screencasting program)
-* UXTerm or urxvt
+* hsetroot or imagemagick (or replace with your preferred wallpaper changer in the _".xinitrc"_ file)
+* ImageMagick (or replace with your preferred screenshot program in the _".xinitrc"_ file)
+* FFmpeg or libav-tools (or replace with your preferred screencasting program in the _".xinitrc"_ file)
+* UXTerm or urxvt (in the case you want to set the terminal emulator theme with the _".Xresources"_ file)
 * dmenu
 
 ### XINITRC CONFIGURATION FILE
