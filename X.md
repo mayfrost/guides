@@ -17,8 +17,8 @@ To use a window manager without any desktop environment, or even a login manager
 * FFmpeg or libav-tools (or replace it in _".xinitrc"_ with your preferred screencasting program)
 * UXTerm or urxvt
 * dmenu
-* Whatever you want on your _".ratpoisonrc"_
 
+### XINITRC CONFIGURATION FILE
 Next is an example _".xinitrc"_ file which goes under your home directory:  
 ```
 # load your preferred terminal settings
@@ -36,21 +36,30 @@ hsetroot -fill ~/.wallpaper.jpg
 # launch the window manager (needs to be done at the end)
 exec dbus-launch --sh-syntax --exit-with-session ratpoison
 ```
-
-After that you login and simply type:  
+### LAUNCH X
+After the configuration file is properly set, you login and type on the terminal:  
 `startx`  
 whenever you want to start X.
 
-## RATPOISON
+### LAUNCH X AT LOGIN
+To launch X at login, place the following at either your _".bash_profile"_ or _".bashrc"_ file:
+```
+if [ $(tty) = "/dev/tty1" ]
+then
+    startx > /dev/null 2>&1
+fi
+```
 
+## RATPOISON
 Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling window manager using similar bindings to GNU Screen. A few of its benefits are.
 * No mouse used, all done by commands called by typing _"control"_ and _"t"_ at the same time, plus another key.
 * You can set your own bindings in the file _".ratpoisonrc"_ which is extremely friendly.
 * Extensible by scripts. The _"rpws"_ script for example adds multiple workspaces (comes by default), another script (_"expose.pl"_) gives a mozaic of current windows.
+* Full manual available from the terminal:  
+`info ratpoison`  
+* Can temporarily switch to another window manager with the _"tmpwm"_ command for your comfort.
 
-
-### A few keys to get you started
-
+### SOME SHORTCUTS
 * Show the help cheatsheet:  
 `Ctrl-t + ?`  
 * Bring an application menu:  
@@ -84,9 +93,7 @@ Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling win
 * Make a window the only one visible:  
 `Ctrl-t + Q`  
 
-There is a full manual available from the terminal:  
-`info ratpoison`  
-
+### RATPOISONRC CONFIGURATION FILE
 The next custom _".ratpoisonrc"_ file goes under your home directory and can be customized to your needs:
 ```
 # text editor
@@ -153,6 +160,7 @@ set border 0
 ## XBINDKEYS
 Custom keys can be added with the Xbindkeys program.
 
+### GETTING KEYS INFORMATION
 With the help of the default xev program you can check the keys you want:
 * Start the program and type the key you want to see its information  
 `xev > keys.txt`  
@@ -173,7 +181,7 @@ In the example below we'll have the modified keys:
 * The "lower volume" button if available will lower volume.
 * The "raise volume" button if available will raise volume.
 
-
+### XBINDKEYSRC CONFIGURATION FILE
 Now the example _".xbindkeysrc"_ file which goes under your home directory:
 ```
 # Enable "Scroll_Lock" for the next keybinding
@@ -215,9 +223,7 @@ keystate_scrolllock= enable
 ```
 
 ## TERMINAL EMULATOR
-
-To tweak the theme of your terminal emulator you need to tweak the _".Xresources"_ file. Each time you make changes run:
-`xrdb -merge`
+To tweak the theme of your terminal emulator you need to tweak the _".Xresources"_ file.
 
 Next is an example _".Xresources"_ file which goes under your home directory:
 ```
@@ -252,7 +258,11 @@ urxvt*font: fixed
 urxvt*boldFont: fixed
 urxvt*dynamicColors: true
 urxvt*borderWidth: 0
-```
+```  
+
+To load changes run:  
+`xrdb -merge`
+
 ## SCREEN TEARING
 To solve screen tearing you can use any of these config files in its appropriate directory.
 
