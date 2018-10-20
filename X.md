@@ -2,10 +2,17 @@
 Set xorg and a desktop environment fast.
 
 1. [NO DE](#no-de)  
+1.1. [XINITRC CONFIGURATION FILE](#xinitrc-configuration-file)  
+1.2. [LAUNCH X](#launch-x)  
+1.3. [LAUNCH X AT LOGIN](#launch-x-at-login)  
 2. [RATPOISON](#ratpoison)  
+2.1. [BASIC SHORTCUTS](#basic-shortcuts)  
+2.2. [RATPOISONRC CONFIGURATION FILE](#ratpoisonrc-configuration-file)  
 3. [XBINDKEYS](#xbindkeys)  
+3.1. [GETTING KEYS INFORMATION](#getting-keys-information)  
+3.2. [XBINDKEYSRC CONFIGURATION FILE](#xbindkeysrc-configuration-file)  
 4. [TERMINAL EMULATOR](terminal-emulator)  
-5. [SCREEN TEARING](#xreen-tearing)  
+5. [SCREEN TEARING](#screen-tearing)  
 
 
 ## NO DE
@@ -59,7 +66,7 @@ Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling win
 `info ratpoison`  
 * Can temporarily switch to another window manager with the _"tmpwm"_ command for your comfort.
 
-### SOME SHORTCUTS
+### BASIC SHORTCUTS
 * Show the help cheatsheet:  
 `Ctrl-t + ?`  
 * Bring an application menu:  
@@ -172,6 +179,8 @@ With the help of the default xev program you can check the keys you want:
   m:0x0 + c:KEY_NUMBER
   KEY_NAME
 ```
+
+### XBINDKEYSRC CONFIGURATION FILE
 In the example below we'll have the modified keys:
 * The "windows" key switch windows using dmenu pre-installed.
 * The "menu" key brings an application launcher you type names into using dmenu.
@@ -181,7 +190,6 @@ In the example below we'll have the modified keys:
 * The "lower volume" button if available will lower volume.
 * The "raise volume" button if available will raise volume.
 
-### XBINDKEYSRC CONFIGURATION FILE
 Now the example _".xbindkeysrc"_ file which goes under your home directory:
 ```
 # Enable "Scroll_Lock" for the next keybinding
