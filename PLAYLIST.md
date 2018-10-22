@@ -51,3 +51,51 @@ What to listen when you are compiling software or surfing the cyberspace.
 [Deus Ex Human Revolution - Purity First](https://www.youtube.com/watch?v=0GIBIuLBCbo)  
 [Umineko Chiru - The Sin](https://www.youtube.com/watch?v=QSAcfUz17EQ)  
 [Aleksandar Dimitrijevic - Luminous and Unstoppable](https://www.youtube.com/watch?v=I9MqQoICT1w)  
+
+## CLASSIC GAMES
+
+[Michiel van den Bos - Unreal Tournament - Razorback](https://www.youtube.com/watch?v=PLgSo90JhAQ)  
+[Michiel van den Bos - Unreal Tournament - Foregone Destruction (aka Facing Worlds Theme)](https://www.youtube.com/watch?v=hux23AXNccE)  
+[Michiel van den Bos - Deus Ex - UNATCO](https://www.youtube.com/watch?v=nBPK_oXeJgA) 
+
+[Mortal Kombat Reptile Theme](https://www.youtube.com/watch?v=qI-Takf76RY)  
+[Mortal kombat Original Theme](https://www.youtube.com/watch?v=B_65PioV_Ow)  
+
+[Sparkster Rocket Knight Music: Steel Works](https://www.youtube.com/watch?v=hXQPx8MXaPU)  
+[Sparkster Rocket Knight Music: Bird](https://www.youtube.com/watch?v=laEbKNVUi7A)  
+[Rocket Knight Adventures stage 7](https://www.youtube.com/watch?v=CBcu0vpDG0w)  
+[Rocket Knight Adventures Boss theme](https://www.youtube.com/watch?v=dNb9_JuHjAk)  
+
+[Solstice Music (NES) - Title Screen Theme](https://www.youtube.com/watch?v=4_gObHt1uZA)  
+
+[Sonic 2 Music: Chemical Plant Zone](https://www.youtube.com/watch?v=-LYB7iLZNWE)  
+[Sonic 3 Music: Final Boss](https://www.youtube.com/watch?v=fgdZ76w00D4)  
+[Sonic 3 Music: Ending (Michael Jackson contributed)](https://www.youtube.com/watch?v=iA2WrTOaMwI)  
+
+
+[Time Trax](https://www.youtube.com/watch?v=7Y3-AXin_Kk)  
+[Chrono Trigger - Lavos Final Boss Battle Theme](https://www.youtube.com/watch?v=xpaJulksCik)  
+
+
+[Age of Wonders](https://www.youtube.com/watch?v=xE9UcirdTKQ)  
+[Another World (Intro)](https://www.youtube.com/watch?v=pXZYB1GCfVU)  
+[Zero Wing - Open Your Eyes](https://www.youtube.com/watch?v=3JsvQfMm9bA)  
+[Gradius III soundtrack](https://www.youtube.com/watch?v=iBynE-ZfOes)  
+[C&C Mechanical Man (aka Target)](https://www.youtube.com/watch?v=L2-89XZTBOE)  
+[Command -&- Conquer OST - 01 - Act on Instinct](https://www.youtube.com/watch?v=n4AUY-v1nsE)  
+[Chakan: The Forever Man--Four Portals Remixed.mp4](https://www.youtube.com/watch?v=kW2ekbiJ30k)  
+[Chakan:The Forever Man - New Original Music](https://www.youtube.com/watch?v=szADfKFIPKw)  
+[Altered Beast Level 1 Theme OST](https://www.youtube.com/watch?v=YTV1PtDx56s)  
+[Fatal Fury 3 / Real Bout Fatal Fury - Geese Ni Chusshite (Geese Howard 2)](https://www.youtube.com/watch?v=Uchoj7Z2Cwo)  
+[KOF'98 - Omega Rugal Theme](https://www.youtube.com/watch?v=Mo4tasdvqM0)  
+[Panzer Dragoon Music - Flight](https://www.youtube.com/watch?v=QfjqiKQmBBc)  
+[R-Type - Level 1 Tune](https://www.youtube.com/watch?v=3H_6b5t_6b8)  
+[Soul Blade OST Bravely Folk Song (Theme of Cervantes)](https://www.youtube.com/watch?v=7pa-KcpZHrI)  
+[Amiga Bloodnet menu music](https://www.youtube.com/watch?v=U0uUUc88Fpo)  
+[Emperor: Battle for Dune - Victory is Inevitable](https://www.youtube.com/watch?v=M4VBL2xnDwQ)  
+[Ecco the Dolphin - Opening Theme](https://www.youtube.com/watch?v=GLk04DibLWs)  
+[Ecco: The Tides of Time](https://www.youtube.com/watch?v=32S2oJuANxo)  
+
+[Donkey Kong Country 2 - Mining Melancholy](https://www.youtube.com/watch?v=4Qp0_NE8M1c)  
+[Donkey Kong Country 2 - Disco Train](https://www.youtube.com/watch?v=yUGU_Zlf9tU)  
+[Donkey Kong Country 2 - Enchanted Wood](https://www.youtube.com/watch?v=hRR47I88RJ8)  
