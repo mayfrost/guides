@@ -31,7 +31,7 @@ You can save either example in a script to activate the Wi-Fi whenever you want.
 
 * Note: As an educational tip, the name of a network is also called "_SSID_" in other places.
 
-## Next
+## TROUBLESHOOTING
 
 ### ufw
 * Show status  
