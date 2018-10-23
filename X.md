@@ -13,6 +13,7 @@ Set xorg and a desktop environment fast.
 3.2. [XBINDKEYSRC CONFIGURATION FILE](#xbindkeysrc-configuration-file)  
 4. [TERMINAL EMULATOR](terminal-emulator)  
 5. [CLIPBOARD](#clipboard)  
+5.1. [CLIPBOARD BINDINGS](#clipboard-bindings)  
 6. [SCREEN TEARING](#screen-tearing)  
 
 
@@ -274,12 +275,19 @@ To load changes run:
 `xrdb -merge ~/.Xresources`
 
 ## CLIPBOARD
-_"Xsel"_ with the help of _"GNU Screen"_ will be used as intermediary between the terminal and _"X"_.
-* To paste from X clipboard  
+_"Xsel"_ with the help of _"GNU Screen"_ will be used as intermediary between the terminal and _"X"_. As command line examples we have
+* To paste from _"X"_ clipboard  
 `xsel -ob`  
-* To copy to X clipboard  
+* To copy to _"X"_ clipboard from inside _"GNU Screen"_  
 `cat | xsel -ib`  
 Then hit _"Ctrl-a + ]"_, then _"Enter"_, then _"Ctrl-d"_.  
+
+### CLIPBOARD BINDINGS
+For ease of use we will use _"GNU Screen's"_ configuration file _".screenrc"_ to save shortcuts to clipboard exchange.
+* Copy from _"GNU Screen"_ to _"X"_ clipboard, automatically when using _"GNU Screen's"_ copy selection
+`bindkey -m ' ' eval 'stuff \040' 'writebuf' 'exec sh -c "xsel -ib < /tmp/screen-exchange"'`  
+* Copy from _"X"_ to _"GNU Screen"_ clipboard, by pressing "Ctrl-a + b" on _"GNU Screen's"_ normal mode
+`bind b eval 'exec sh -c "xsel -ob > /tmp/screen-exchange"' readbuf 'paste .'`  
 
 ## SCREEN TEARING
 To solve screen tearing you can use any of these config files in its appropriate directory.
