@@ -12,7 +12,8 @@ Set xorg and a desktop environment fast.
 3.1. [GETTING KEYS INFORMATION](#getting-keys-information)  
 3.2. [XBINDKEYSRC CONFIGURATION FILE](#xbindkeysrc-configuration-file)  
 4. [TERMINAL EMULATOR](terminal-emulator)  
-5. [SCREEN TEARING](#screen-tearing)  
+5. [CLIPBOARD](#clipboard)  
+6. [SCREEN TEARING](#screen-tearing)  
 
 
 ## NO DE
@@ -271,6 +272,14 @@ urxvt*borderWidth: 0
 
 To load changes run:  
 `xrdb -merge ~/.Xresources`
+
+## CLIPBOARD
+_"Xsel"_ with the help of _"GNU Screen"_ will be used as intermediary between the terminal and _"X"_.
+* To paste from X clipboard  
+`xsel -ob`  
+* To copy to X clipboard  
+`cat | xsel -ib`  
+Then hit _"Ctrl-a + ]"_, then _"Enter"_, then _"Ctrl-d"_.  
 
 ## SCREEN TEARING
 To solve screen tearing you can use any of these config files in its appropriate directory.
