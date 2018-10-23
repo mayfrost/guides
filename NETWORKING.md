@@ -1,5 +1,13 @@
 # NETWORKING
 
+## SETUP
+
+## /etc/network/interfaces
+```
+# use last 8 octets for hosts
+255.255.255.0
+```  
+
 ## WiFi
 
 Use WiFi without a separate network manager with this simple guide. Needs "_dhcpcd_" or "_dhcpclient_", "_net-tools_" or "_iproute2_", "_wpa\_supplicant_", and the WiFi drivers for your wireless card (like "_iwlwifi_" and its "_ucode_"), which in part can be installed from a package usually named "_linux-firmware_", but they may not be complete (this provides "_ucode_" but not "_iwlwifi_").  
@@ -110,10 +118,13 @@ You can save either example in a script to activate the Wi-Fi whenever you want.
 `nmap --iflist IP_NUMBER`  
 
 ### SSH
+#### CLIENT
 * login to remote host  
 `ssh ADDRESS`  
 * login to remote host as user USER  
 `ssh USER@ADDRESS`  
+
+#### SERVER
 * set ssh server configuration in /etc/ssh/sshd_config  
 ```
 Port 22 # default port is 22, can be changed
@@ -121,9 +132,3 @@ PermitRootLogin without-password # change "without-password" to "no" to forbid r
 AllowUsers USER_NAME # by allowing a specific user it restricts the others
 ```
 * restart "ssh" service to activate changes  
-
-## /etc/network/interfaces
-```
-# use last 8 octets for hosts
-255.255.255.0
-```  
