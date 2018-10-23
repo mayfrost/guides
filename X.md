@@ -275,7 +275,7 @@ To load changes run:
 `xrdb -merge ~/.Xresources`
 
 ## CLIPBOARD
-_"Xsel"_ with the help of _"GNU Screen"_ will be used as intermediary between the terminal and _"X"_. As command line examples we have
+_"Xsel"_ with the help of _"GNU Screen"_ will be used as intermediary between the terminal and _"X"_. The following commands are examples we will replace by more simple bindings:
 * To paste from _"X"_ clipboard  
 `xsel -ob`  
 * To copy to _"X"_ clipboard from inside _"GNU Screen"_  
@@ -283,7 +283,7 @@ _"Xsel"_ with the help of _"GNU Screen"_ will be used as intermediary between th
 Then hit _"Ctrl-a + ]"_, then _"Enter"_, then _"Ctrl-d"_.  
 
 ### CLIPBOARD BINDINGS
-For ease of use we will use _"GNU Screen's"_ configuration file _".screenrc"_ to save shortcuts to clipboard exchange. Save these in your _".screenrc"_ file:
+For ease of use we will use _"GNU Screen's"_ configuration file _".screenrc"_ to save shortcuts for clipboard exchange instead of the above commands. Save these in your _".screenrc"_ file:
 ```
 # Copy from "GNU Screen" to "X" clipboard, automatically when using "GNU Screen's" copy selection
 bindkey -m ' ' eval 'stuff \040' 'writebuf' 'exec sh -c "xsel -ib < /tmp/screen-exchange"'
