@@ -285,10 +285,10 @@ Then hit _"Ctrl-a + ]"_, then _"Enter"_, then _"Ctrl-d"_.
 ### CLIPBOARD BINDINGS
 For ease of use we will use _"GNU Screen's"_ configuration file _".screenrc"_ to save shortcuts to clipboard exchange. Save these in your _".screenrc"_ file:
 ```
-# Copy from _"GNU Screen"_ to _"X"_ clipboard, automatically when using _"GNU Screen's"_ copy selection
+# Copy from "GNU Screen" to "X" clipboard, automatically when using "GNU Screen's" copy selection
 bindkey -m ' ' eval 'stuff \040' 'writebuf' 'exec sh -c "xsel -ib < /tmp/screen-exchange"'
 
-# Copy from _"X"_ to _"GNU Screen"_ clipboard, by pressing "Ctrl-a + b" on _"GNU Screen's"_ normal mode
+# Copy from "X" to "GNU Screen" clipboard, by pressing "Ctrl-a + b" on "GNU Screen's" normal mode
 bind b eval 'exec sh -c "xsel -ob > /tmp/screen-exchange"' readbuf 'paste .'
 ```  
 
