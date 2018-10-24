@@ -154,3 +154,16 @@ What to listen when you are compiling software or surfing the cyberspace.
 [HYNNNER - ULYSSE 31](https://www.youtube.com/watch?v=aEcYYgFGVYU)  
 [Bullets - Archive](https://www.youtube.com/watch?v=zoass6XxJwk)  
 [Black Marble - It's Conditional](https://www.youtube.com/watch?v=B17oY6coVxM)  
+[Hibou - Above Us](https://www.youtube.com/watch?v=8V1g-lDc6_E)  
+
+## INDUSTRIAL
+[Solitary Experiments - The Dark Inside Me](https://www.youtube.com/watch?v=6IKukIEwG04)  
+[Angels and Agony - Forever](https://www.youtube.com/watch?v=fGjUjXLcIEA)  
+[Assemblage 23 - Greed Dance](https://www.youtube.com/watch?v=Xvs3kjE345c)  
+[Centhron - Dreckstück](https://www.youtube.com/watch?v=LUBtm76qZGA)  
+[Eisbrecher - This is Deutsch](https://www.youtube.com/watch?v=A7UjE8gkqhQ)  
+[Funker Vogt - Arising Hero](https://www.youtube.com/watch?v=6-czUmtw88Q)  
+[KMFDM - Anarchy](https://www.youtube.com/watch?v=u93R-K3URsw)  
+[Wynardtage - Crash of a Star](https://www.youtube.com/watch?v=4ESttoZXOLQ)  
+[Infinite Dimensions - Zion](https://www.youtube.com/watch?v=hMx4ylvj9Ok)  
+[yelworC - World Under Fire](https://www.youtube.com/watch?v=SDaceL5kEK8)  
