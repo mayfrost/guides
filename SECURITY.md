@@ -28,10 +28,10 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 11__: Install LineageOS on your phone and use F-Droid without gapps (Google app store), with IceCatMobile for web browser, KeePassDroid, AFWall+ and Android IMSI-Catcher Detector. Use Yalp Store or Aptoide (or download from apkmirror/apkpure) in combination with microG if you need a gapps app.
 
 ## Cautionary Level Security
-* __Level 12__: Avoid using your real name online and avoid giving away any personal information, if possible log into sites using donated passwords and accounts from [BugMeNot](http://bugmenot.com).
-* __Level 13__: Use [The Random Identity Generator](http://rig.sourceforge.net/) (rig) to generate an online persona when in need to create accounts. Don't reuse usernames, email addresses, etc, for different sites and don't mention your other identities to avoid contamination.
-* __Level 14__: Delete any metadata from files you share on the internet. ExifTool is the best tool.
-* __Level 15__: Remove file extensions from sensitive files such as .kdb for KeePass password databases to make it hard to sift through your disk.
+* __Level 12__: Delete any metadata from files you share on the internet. ExifTool is the best tool.
+* __Level 13__: Remove file extensions from sensitive files such as .kdb for KeePass password databases to make it hard to sift through your disk.
+* __Level 14__: Avoid using your real name online and avoid giving away any personal information, if possible log into sites using donated passwords and accounts from [BugMeNot](http://bugmenot.com).
+* __Level 15__: Use [The Random Identity Generator](http://rig.sourceforge.net/) (rig) to generate an online persona when in need to create accounts. Don't reuse usernames, email addresses, etc, for different sites and don't mention your other identities to avoid contamination.
 * __Level 16__: Anonymize your writting style on any text with anti-stylometry software like [Anonymouth](https://github.com/psal/anonymouth) when you share documents.
 
 ## Medium Level Security
