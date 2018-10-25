@@ -23,55 +23,56 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 7__: Replace your e-mail provider with a more safe, more appropriate provider. A good option is [Tutanota](https://tutanota.com/), another alternative is [cock.li](https://cock.li/).
 * __Level 8__: Use an e-mail client that can block web beacons (tracking pixels). Thunderbird is easy and has a plugin for this. Mailx, Mutt or Alpine are better options.
 * __Level 9__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation, and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. GNU IceCat is the best option.
-
-## Medium Level Security
 * __Level 10__: Install LineageOS on your phone and use F-Droid without gapps (Google app store), with IceCatMobile for web browser, KeePassDroid, AFWall+ and Android IMSI-Catcher Detector. Use Yalp Store or Aptoide (or download from apkmirror/apkpure) in combination with microG if you need a gapps app.
 * __Level 11__: Use GNU/Linux on your computers, preferably free from "systemd". PCLinuxOS is an easy first choice, Devuan is a better option. Stay away from something called BSD.
-* __Level 12__: Uninstall Avahi, CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, and uninstall unused services like ssh/web/ftp/mail.
+
+## Medium Level Security
+* __Level 12__: Uninstall network facing services like Avahi (Bonjour), CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, and uninstall services if unused like ssh/web/ftp/mail.
 * __Level 13__: Use Uncomplicated Firewall ("ufw") to block inbound AND outbound network traffic, permitting only what you need.
 * __Level 14__: Use Firejail or Bubblewrap to sandbox your applications.
-* __Level 15__: When possible give your applications a separate user account and use sudo, chroot, fakeroot, ulimit and quota with them.
-* __Level 16__: Use [BIND9 with DNSCrypt](https://unix.stackexchange.com/questions/270716/configure-bind-as-forwarder-only-no-root-hints-encrypted-rpz-blacklist-wh/270796#270796) with an [OpenNIC provider](https://servers.opennicproject.org/) known to not save logs to prevent DNS Leaking.
-* __Level 17__: Use YaCy with collaborative database disabled when in need to search on the web.
-* __Level 18__: Use the Tor Browser to navigate the internet through Tor.
-* __Level 19__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt.
-* __Level 20__: Delete any metadata from files you share on the internet. ExifTool is the best tool.
-* __Level 21__: Anonymize your writting style on any text with anti stylometry software like [Anonymouth](https://github.com/psal/anonymouth) when you share documents.
-* __Level 22__: Use [qmail](https://www.schneier.com/blog/archives/2007/11/thoughts_on_the.html) for your own e-mail server. Exim and cmail are other options.
-* __Level 23__: Use Squid for caching websites.
+* __Level 15__: Use an [OpenNIC provider](https://servers.opennicproject.org/) known to not save logs together with DNSCrypt to prevent DNS Leaking.
+* __Level 16__: Use YaCy with collaborative database disabled when in need to search on the web.
+* __Level 17__: Use the Tor Browser to navigate the internet through Tor.
+* __Level 18__: Use [Bastille Linux](http://bastille-linux.sourceforge.net/source.htm) to harden your system.
+* __Level 19__: Use a source based distro, preferably without crypto libraries on its package manager (no Python). Gentoo is one option, CRUX is advised and it is easy to setup, see [this link](https://github.com/mayfrost/guides/blob/master/INITIATION.md).
 
 ## High Level Security
-* __Level 24__: Use a source based distro, preferably without crypto libraries on its package manager (no Python). Gentoo is one option, CRUX is advised and it is easy to setup, see [this link](https://github.com/mayfrost/guides/blob/master/INITIATION.md).
-* __Level 25__: Use the IRC, e-mail and torrent services available inside i2p, and use Tor as an outproxy for i2p when in need to access the regular web (only for browsing).
-* __Level 26__: Use a command line web browser like links2 and only browse web pages without javascript or cookies.
-* __Level 27__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
-* __Level 28__: Use port forwarding and a port knocker on your router or server and unregister your reverse dns records.
-* __Level 29__: Use [Bastille Linux](http://bastille-linux.sourceforge.net/source.htm) to harden your system.
-* __Level 30__: Use Lynis to audit your system.
-* __Level 31__: Use Arpalert/ArpON (for Man-In-The-Middle -MITM- Detection), [zapret](https://github.com/bol-van/zapret) (for Deep Packet Inspection -DPI- Block and Circumvention), and Suricata/Snort (for Network Intrusion Detection).
-* __Level 32__: Use a complete host intrusion detection framework like Tiger, which can work with Samhain (for integrity check), Unhide/Chkrootkit/rkhunter (for rootkit detection), ClamAV/Linux Malware Detect and a system logger like sysklogd.
-* __Level 33__: Use [RSBAC](https://www.rsbac.org/) (for RBAC) with AppArmor (for filesystem ACL).
-* __Level 34__: Compile the kernel yourself and add only necessary features and selected modules. Enable KASLR and Capabilities on kernel configuration.
+* __Level 20__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt.
+* __Level 21__: Delete any metadata from files you share on the internet. ExifTool is the best tool.
+* __Level 22__: Anonymize your writting style on any text with anti stylometry software like [Anonymouth](https://github.com/psal/anonymouth) when you share documents.
+* __Level 23__: When possible give your applications a separate user account and use sudo, chroot, fakeroot, ulimit and quota with them.
+* __Level 24__: Use [qmail](https://www.schneier.com/blog/archives/2007/11/thoughts_on_the.html) for your own e-mail server. Exim and cmail are other options.
+* __Level 25__: Use Squid for caching websites.
+* __Level 26__: Use the IRC, e-mail and torrent services available inside i2p, and use Tor as an outproxy for i2p when in need to access the regular web (only for browsing).
+* __Level 27__: Use a command line web browser like links2 and only browse web pages without javascript or cookies.
+* __Level 28__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
+* __Level 29__: Set [BIND9](https://unix.stackexchange.com/questions/270716/configure-bind-as-forwarder-only-no-root-hints-encrypted-rpz-blacklist-wh/270796#270796) for 
+* __Level 30__: Use port forwarding and a port knocker on your router or server and unregister your reverse dns records.
+* __Level 31__: Use Lynis to audit your system.
+* __Level 32__: Use Arpalert/ArpON (for Man-In-The-Middle -MITM- Detection), [zapret](https://github.com/bol-van/zapret) (for Deep Packet Inspection -DPI- Block and Circumvention), and Suricata/Snort (for Network Intrusion Detection).
+* __Level 33__: Use a complete host intrusion detection framework like Tiger, which can work with Samhain (for integrity check), Unhide/Chkrootkit/rkhunter (for rootkit detection), ClamAV/Linux Malware Detect and a system logger like sysklogd.
+* __Level 34__: Use [RSBAC](https://www.rsbac.org/) (for RBAC) with AppArmor (for filesystem ACL).
+* __Level 35__: Compile the kernel yourself and add only necessary features and selected modules. Enable KASLR and Capabilities on kernel configuration.
 
 ## Physical Access Counter-Measures
-* __Level 35__: Set a BIOS password (DON'T FORGET THIS PASSWORD!).
-* __Level 36__: Use USBGuard (to prevent Juice Jacking).
-* __Level 37__: Use disk encryption with cryptsetup (dm-crypt), saving the key on a separate USB that you keep with yourself at all times.
-* __Level 38__: Move your boot partition to a USB and encrypt it with cryptboot. Use the option on Libreboot too.
+* __Level 36__: Set a BIOS password (DON'T FORGET THIS PASSWORD!).
+* __Level 37__: Use USBGuard (to prevent Juice Jacking).
+* __Level 38__: Use disk encryption with cryptsetup (dm-crypt), saving the key on a separate USB that you keep with yourself at all times.
+* __Level 39__: Move your boot partition to a USB and encrypt it with cryptboot. Use the option on Libreboot too.
 
 ## Costly Counter-Measures
-* __Level 39__: Buy a VPS in a non-extradition, privacy friendly country outside the Five Eyes under a different name and with a good way of not getting traced by payments, then set up your own VPN server so you can audit all the traffic.
-* __Level 40__: Buy a phone with Replicant and libre firmware. Tehnoetic sells an S3 phone with Replicant and only libre firmware enabled, so far is the best option.
-* __Level 41__: Buy a router compatible with LibreCMC and install LibreCMC, keep it up to date and give it a strong password.
-* __Level 42__: Buy a computer compatible with the Libreboot firmware and the Linux-libre kernel, then install both or buy it preinstalled. Thinkpads model x200, t400 and t500 are the best options. Remember to check a compatible Wi-Fi card and physically remove cables connecting cameras and microphones.
+* __Level 40__: Buy a VPS in a non-extradition, privacy friendly country outside the Five Eyes under a different name and with a good way of not getting traced by payments, then set up your own VPN server so you can audit all the traffic.
+* __Level 41__: Buy a phone with Replicant and libre firmware. Tehnoetic sells an S3 phone with Replicant and only libre firmware enabled, so far is the best option.
+* __Level 42__: Buy a router compatible with LibreCMC and install LibreCMC, keep it up to date and give it a strong password.
+* __Level 43__: Buy a computer compatible with the Libreboot firmware and the Linux-libre kernel, then install both or buy it preinstalled. Thinkpads model x200, t400 and t500 are the best options. Remember to check a compatible Wi-Fi card and physically remove cables connecting cameras and microphones.
 
 ## Deterrent Counter-Measures
-* __Level 43__: Learn to hack yourself first.
-* __Level 44__: Use only libre software (software "free as in freedom").
-* __Level 45__: Reduce the amount of software installed in your computer.
-* __Level 46__: Opt for text-based programs with less library dependencies than their GUI counterparts.
-* __Level 47__: Support the GPL license as to prevent proprietary license wrapping (as with BSD/MIT/Apache licenses). GPLv3 in specific to prevent tivoization, a hardware level lockout method.
-* __Level 48__: Deduplicate efforts and converge strategies to achieve a "tight base system" in common (use the koan "if is not strictly necessary it should be strictly optional, but still optional"), and that means making things modular and avoiding unnecessary dependencies instead of trusting "crypto libraries" like in Python.
-* __Level 49__: Abandon "cloud computing" and traditional, non-publicly auditable, data mined networks and erase your online persona. Use exclusively peer-to-peer services with specific protocols instead of all-in-one networks. Use IRC for live chat, and NNTP for newsgroups (per topic forums, what "social media" should be).
-* __Level 50__: Abandon the Internet. Participate in local mesh networks and collaborate with global scale meshnet projects like [gternet](https://mesh.gentoo.today/wiki/Main_Page).
-* __Level 51__: [Don't f\*ck it up](https://www.youtube.com/watch?v=J1q4Ir2J8P8). Protip: you can't.
+* __Level 44__: Learn to hack yourself first.
+* __Level 45__: Use only libre software (software "free as in freedom").
+* __Level 46__: Reduce the amount of software installed in your computer.
+* __Level 47__: Opt for text-based programs with less library dependencies than their GUI counterparts.
+* __Level 48__: Support the GPL license as to prevent proprietary license wrapping (as with BSD/MIT/Apache licenses). GPLv3 in specific to prevent tivoization, a hardware level lockout method.
+* __Level 49__: Deduplicate efforts and converge strategies to achieve a "tight base system" in common (use the koan "if is not strictly necessary it should be strictly optional, but still optional"), and that means making things modular and avoiding unnecessary dependencies instead of trusting "crypto libraries" like in Python.
+* __Level 50__: Abandon "cloud computing" and traditional, non-publicly auditable, data mined networks and erase your online persona. Use exclusively peer-to-peer services with specific protocols instead of all-in-one networks. Use IRC for live chat, and NNTP for newsgroups (per topic forums, what "social media" should be).
+* __Level 51__: Abandon the Internet. Participate in local mesh networks and collaborate with global scale meshnet projects like [gternet](https://mesh.gentoo.today/wiki/Main_Page).
+* __Level 52__: [Don't f\*ck it up](https://www.youtube.com/watch?v=J1q4Ir2J8P8). Protip: you can't.
