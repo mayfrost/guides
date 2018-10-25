@@ -19,12 +19,12 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 3__: Choose IRC instead of non-publicly auditable chat networks. A good and easy IRC application is Hexchat, other options are irssi and WeeChat. You can use [BitlBee](https://wiki.bitlbee.org/) to access other chat networks through an IRC client if you need.
 * __Level 4__: Use [Searx](https://github.com/asciimoo/searx/wiki/Searx-instances) instead of Google when in need to search on the web. You can get search engine plugins for your browser [from here](https://mycroftproject.com/search-engines.html?name=searx)
 * __Level 5__: Use [Mastodon](https://joinmastodon.org/) or install [Pleroma](https://github.com/wimvanderbauwhede/limited-systems/wiki/Mastodon-and-Pleroma-on-the-Raspberry-Pi-3) (GNU Social) instead of non-publicly auditable social networks known to sell private information. As a Youtube alternative use [Peertube](https://instances.joinpeertube.org/instances).
-* __Level 6__ Use RSS for news and podcasts from sites you trust instead of Youtube (although Youtube has an RSS feed for their channels too, for now). Liferea is easy and a great application for RSS feeds, newsboat (newsbeuter) is a command line option.
+* __Level 6__ Use RSS for news and podcasts from sites you trust instead of Youtube (although Youtube has an RSS feed for their channels too, for now). Liferea is easy and a great application for RSS feeds, newsboat and newsbeuter are command line options.
 * __Level 7__: Replace your e-mail provider with a more safe, more appropriate provider. A good option is [Tutanota](https://tutanota.com/), another alternative is [cock.li](https://cock.li/).
 * __Level 8__: Use an e-mail client that can block web beacons (tracking pixels). Thunderbird is easy and has a plugin for this. Mailx, Mutt or Alpine are better options.
 * __Level 9__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation, and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. GNU IceCat is the best option.
-* __Level 10__: Install LineageOS on your phone and use F-Droid without gapps (Google app store), with IceCatMobile for web browser, KeePassDroid, AFWall+ and Android IMSI-Catcher Detector. Use Yalp Store or Aptoide (or download from apkmirror/apkpure) in combination with microG if you need a gapps app.
-* __Level 11__: Use GNU/Linux on your computers, preferably free from "systemd". PCLinuxOS is an easy first choice, Devuan is a better option. Stay away from something called BSD.
+* __Level 10__: Use GNU/Linux on your computers, preferably free from "systemd". PCLinuxOS is an easy first choice, Devuan is a better option. Stay away from something called BSD.
+* __Level 11__: Install LineageOS on your phone and use F-Droid without gapps (Google app store), with IceCatMobile for web browser, KeePassDroid, AFWall+ and Android IMSI-Catcher Detector. Use Yalp Store or Aptoide (or download from apkmirror/apkpure) in combination with microG if you need a gapps app.
 
 ## Medium Level Security
 * __Level 12__: Uninstall network facing services like Avahi (Bonjour), CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, and uninstall services if unused like ssh/web/ftp/mail.
@@ -34,25 +34,25 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 16__: Use YaCy with collaborative database disabled when in need to search on the web.
 * __Level 17__: Use the Tor Browser to navigate the internet through Tor.
 * __Level 18__: Use [Bastille Linux](http://bastille-linux.sourceforge.net/source.htm) to harden your system.
-* __Level 19__: Use a source based distro, preferably without crypto libraries on its package manager (no Python). Gentoo is one option, CRUX is advised and it is easy to setup, see [this link](https://github.com/mayfrost/guides/blob/master/INITIATION.md).
+* __Level 19__: Use a command line web browser like links2 and only browse web pages without javascript or cookies when possible.
+* __Level 20__: Use a source based distro, preferably without crypto libraries on its package manager (no Python). Gentoo is one option, CRUX is advised and it is easy to setup, see [this link](https://github.com/mayfrost/guides/blob/master/INITIATION.md).
 
 ## High Level Security
-* __Level 20__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt.
 * __Level 21__: Delete any metadata from files you share on the internet. ExifTool is the best tool.
-* __Level 22__: Anonymize your writting style on any text with anti stylometry software like [Anonymouth](https://github.com/psal/anonymouth) when you share documents.
-* __Level 23__: When possible give your applications a separate user account and use sudo, chroot, fakeroot, ulimit and quota with them.
-* __Level 24__: Use [qmail](https://www.schneier.com/blog/archives/2007/11/thoughts_on_the.html) for your own e-mail server. Exim and cmail are other options.
-* __Level 25__: Use Squid for caching websites.
-* __Level 26__: Use the IRC, e-mail and torrent services available inside i2p, and use Tor as an outproxy for i2p when in need to access the regular web (only for browsing).
-* __Level 27__: Use a command line web browser like links2 and only browse web pages without javascript or cookies.
-* __Level 28__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
-* __Level 29__: Set [BIND9](https://unix.stackexchange.com/questions/270716/configure-bind-as-forwarder-only-no-root-hints-encrypted-rpz-blacklist-wh/270796#270796) for 
-* __Level 30__: Use port forwarding and a port knocker on your router or server and unregister your reverse dns records.
-* __Level 31__: Use Lynis to audit your system.
-* __Level 32__: Use Arpalert/ArpON (for Man-In-The-Middle -MITM- Detection), [zapret](https://github.com/bol-van/zapret) (for Deep Packet Inspection -DPI- Block and Circumvention), and Suricata/Snort (for Network Intrusion Detection).
-* __Level 33__: Use a complete host intrusion detection framework like Tiger, which can work with Samhain (for integrity check), Unhide/Chkrootkit/rkhunter (for rootkit detection), ClamAV/Linux Malware Detect and a system logger like sysklogd.
-* __Level 34__: Use [RSBAC](https://www.rsbac.org/) (for RBAC) with AppArmor (for filesystem ACL).
-* __Level 35__: Compile the kernel yourself and add only necessary features and selected modules. Enable KASLR and Capabilities on kernel configuration.
+* __Level 22__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt.
+* __Level 23__: Anonymize your writting style on any text with anti-stylometry software like [Anonymouth](https://github.com/psal/anonymouth) when you share documents.
+* __Level 24__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
+* __Level 25__: Use [qmail](https://www.schneier.com/blog/archives/2007/11/thoughts_on_the.html) for your own e-mail server. Exim and cmail are other options.
+* __Level 26__: Use Squid for caching websites.
+* __Level 27__: Set [BIND9](https://unix.stackexchange.com/questions/270716/configure-bind-as-forwarder-only-no-root-hints-encrypted-rpz-blacklist-wh/270796#270796) for making DNS queries on your local DNS server.
+* __Level 28__: Use port forwarding and a port knocker on your router or server and unregister your reverse dns records.
+* __Level 29__: Use Arpalert/ArpON (for Man-In-The-Middle -MITM- Detection), [zapret](https://github.com/bol-van/zapret) (for Deep Packet Inspection -DPI- Block and Circumvention), and Suricata/Snort (for Network Intrusion Detection).
+* __Level 30__: Use the IRC, e-mail and torrent services available inside i2p, and use Tor as an outproxy for i2p when in need to access the regular web (only for browsing).
+* __Level 31__: Compile the kernel yourself and add only necessary features and selected modules. Enable KASLR and Capabilities on kernel configuration.
+* __Level 32__: When possible give your applications a separate user account and use sudo, chroot, fakeroot, ulimit and quota with them.
+* __Level 33__: Use Lynis to audit your system.
+* __Level 34__: Use a complete host intrusion detection framework like Tiger, which can work with Samhain (for integrity check), Unhide/Chkrootkit/rkhunter (for rootkit detection), ClamAV/Linux Malware Detect and a system logger like sysklogd.
+* __Level 35__: Use [RSBAC](https://www.rsbac.org/) (for RBAC) with AppArmor (for filesystem ACL).
 
 ## Physical Access Counter-Measures
 * __Level 36__: Set a BIOS password (DON'T FORGET THIS PASSWORD!).
