@@ -16,17 +16,17 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 ## Basic Level Security
 * __Level 1__: Avoid using your real name online and avoid giving away any personal information. You can use [The Random Identity Generator](http://rig.sourceforge.net/) (rig) to generate an online persona and/or login sites using passwords from [BugMeNot](http://bugmenot.com).
 * __Level 2__: Don't save your passwords on plaintext or in some "cloud" service like Lastpass and don't save logins on your phone or web browser. Create and remember one good main password (must have lowercase, uppercase, numbers and symbols, be longer than 8 characters and be change bimonthly), use KeePassX (and I mean the one with an X) and use the option to generate different passwords for each account you have and keep the password database on a USB. Other password manager is [kpcli](https://github.com/alecsammon/kpcli) which [works on the command line](https://www.youtube.com/watch?v=M448GtFa5Xs) and is just a perl script (this is the best option).
-* __Level 3__: Choose IRC instead of non-publicly auditable chat networks. A good and easy IRC application is Hexchat, other options are irssi and WeeChat. You can use [BitlBee](https://wiki.bitlbee.org/) to access other chat networks through an IRC client if you need.
-* __Level 4__: Use [Searx](https://github.com/asciimoo/searx/wiki/Searx-instances) instead of Google when in need to search on the web. You can get search engine plugins for your browser [from here](https://mycroftproject.com/search-engines.html?name=searx)
-* __Level 5__: Use [Mastodon](https://joinmastodon.org/) or install [Pleroma](https://github.com/wimvanderbauwhede/limited-systems/wiki/Mastodon-and-Pleroma-on-the-Raspberry-Pi-3) (GNU Social) instead of non-publicly auditable social networks known to sell private information. As a Youtube alternative use [Peertube](https://instances.joinpeertube.org/instances).
-* __Level 6__ Use RSS for news and podcasts from sites you trust instead of Youtube (although Youtube has an RSS feed for their channels too, for now). Liferea is easy and a great application for RSS feeds, newsboat and newsbeuter are command line options.
+* __Level 4__: Use [Searx](https://github.com/asciimoo/searx/wiki/Searx-instances) instead of Google when in need to search on the web. You can get search engine plugins for your browser [from here](https://mycroftproject.com/search-engines.html?name=searx).
+* __Level 9__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation, and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. GNU IceCat is the best option.
 * __Level 7__: Replace your e-mail provider with a more safe, more appropriate provider. A good option is [Tutanota](https://tutanota.com/), another alternative is [cock.li](https://cock.li/).
 * __Level 8__: Use an e-mail client that can block web beacons (tracking pixels). Thunderbird is easy and has a plugin for this. Mailx, Mutt or Alpine are better options.
-* __Level 9__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation, and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. GNU IceCat is the best option.
+* __Level 6__ Use RSS for news and podcasts from sites you trust instead of Youtube (although Youtube has an RSS feed for their channels too, for now). Liferea is easy and a great application for RSS feeds, newsboat and newsbeuter are command line options.
+* __Level 3__: Choose IRC instead of non-publicly auditable chat networks. A good and easy IRC application is Hexchat, other options are irssi and WeeChat. You can use [BitlBee](https://wiki.bitlbee.org/) to access other chat networks through an IRC client if you need.
+* __Level 5__: Use [Mastodon](https://joinmastodon.org/) or install [Pleroma](https://github.com/wimvanderbauwhede/limited-systems/wiki/Mastodon-and-Pleroma-on-the-Raspberry-Pi-3) (GNU Social) instead of non-publicly auditable social networks known to sell private information. As a Youtube alternative use [Peertube](https://instances.joinpeertube.org/instances).
 * __Level 10__: Use GNU/Linux on your computers, preferably free from "systemd". PCLinuxOS is an easy first choice, Devuan is a better option. Stay away from something called BSD.
 * __Level 11__: Install LineageOS on your phone and use F-Droid without gapps (Google app store), with IceCatMobile for web browser, KeePassDroid, AFWall+ and Android IMSI-Catcher Detector. Use Yalp Store or Aptoide (or download from apkmirror/apkpure) in combination with microG if you need a gapps app.
 
-## Medium Level Security
+## Mediuvel Security
 * __Level 12__: Uninstall network facing services like Avahi (Bonjour), CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, and uninstall services if unused like ssh/web/ftp/mail.
 * __Level 13__: Use Uncomplicated Firewall ("ufw") to block inbound AND outbound network traffic, permitting only what you need.
 * __Level 14__: Use Firejail or Bubblewrap to sandbox your applications.
@@ -39,8 +39,8 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 
 ## High Level Security
 * __Level 21__: Delete any metadata from files you share on the internet. ExifTool is the best tool.
-* __Level 22__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt.
-* __Level 23__: Anonymize your writting style on any text with anti-stylometry software like [Anonymouth](https://github.com/psal/anonymouth) when you share documents.
+* __Level 22__: Anonymize your writting style on any text with anti-stylometry software like [Anonymouth](https://github.com/psal/anonymouth) when you share documents.
+* __Level 23__: Encrypt your e-mails with GnuPG. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt.
 * __Level 24__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
 * __Level 25__: Use [qmail](https://www.schneier.com/blog/archives/2007/11/thoughts_on_the.html) for your own e-mail server. Exim and cmail are other options.
 * __Level 26__: Use Squid for caching websites.
