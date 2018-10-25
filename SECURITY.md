@@ -5,16 +5,17 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 ---
 ## TOC
 1. [Basic Level Security](#basic-level-security)  
-2. [Medium Level Security](#medium-level-security)  
-3. [High Level Security](#high-level-security)  
-4. [Physical Access Counter-Measures](#physical-access-counter-measures)  
-5. [Costly Counter-Measures](#costly-counter-measures)  
-6. [Deterrent Counter-Measures](#deterrent-counter-measures)  
+2. [Cautionary Level Security](#cautionary-level-security)  
+3. [Medium Level Security](#medium-level-security)  
+4. [High Level Security](#high-level-security)  
+5. [Physical Access Counter-Measures](#physical-access-counter-measures)  
+6. [Costly Counter-Measures](#costly-counter-measures)  
+7. [Deterrent Counter-Measures](#deterrent-counter-measures)  
 
 ---
 
 ## Basic Level Security
-* __Level 1__: Don't save your passwords on plaintext or in some "cloud" service like Lastpass and don't save logins on your phone or web browser. Create and remember one good main password (must have lowercase, uppercase, numbers and symbols, be longer than 8 characters and be change bimonthly), use KeePassX (and I mean the one with an X) and use the option to generate different passwords for each account you have and keep the password database on a USB. Other password manager is [kpcli](https://github.com/alecsammon/kpcli) which [works on the command line](https://www.youtube.com/watch?v=M448GtFa5Xs) and is just a minimalist perl script (this is the best option).
+* __Level 1__: Don't save your passwords on plaintext or in some "cloud" service like Lastpass and don't save logins on your phone or web browser. Use KeePassX (and I mean the one with an X) and remember one good main password (must have lowercase, uppercase, numbers and symbols, be longer than 8 characters and be change bimonthly), then use the password manager's option to generate different passwords for each account you have and keep the password database on a USB stick. Other password manager is [kpcli](https://github.com/alecsammon/kpcli) which [works on the command line](https://www.youtube.com/watch?v=M448GtFa5Xs) and is just a minimalist perl script (this is the best option).
 * __Level 2__: Use [Searx](https://github.com/asciimoo/searx/wiki/Searx-instances) instead of Google when in need to search on the web. You can get search engine plugins for your browser [from here](https://mycroftproject.com/search-engines.html?name=searx).
 * __Level 3__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation, and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. [GNU IceCat](https://www.gnu.org/software/gnuzilla/) is the best option.
 * __Level 4__: Replace your e-mail provider with a more safe, more appropriate provider. A good option is [Tutanota](https://tutanota.com/), another alternative is [cock.li](https://cock.li/).
