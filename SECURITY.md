@@ -36,11 +36,11 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 
 ## Medium Level Security
 * __Level 17__: Uninstall network facing services like Avahi (Bonjour), CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, and uninstall services if unused like ssh/web/ftp/mail.
-* __Level 18__: Use Uncomplicated Firewall ("ufw") to block inbound AND outbound network traffic, permitting only what you need.
-* __Level 19__: Use Firejail or Bubblewrap to sandbox your applications.
 * __Level 20__: Use an [OpenNIC provider](https://servers.opennicproject.org/) known to not save logs together with DNSCrypt to prevent DNS Leaking.
 * __Level 21__: Use YaCy with collaborative database disabled when in need to search on the web.
 * __Level 22__: Use the Tor Browser to navigate the internet through Tor.
+* __Level 18__: Use Uncomplicated Firewall ("ufw") to block inbound AND outbound network traffic, permitting only what you need.
+* __Level 19__: Use Firejail or Bubblewrap to sandbox your applications.
 * __Level 23__: Use [Bastille Linux](http://bastille-linux.sourceforge.net/source.htm) to harden your system.
 * __Level 24__: Use a command line web browser like links2 and only browse web pages without javascript or cookies when possible.
 * __Level 25__: Use a source based distro, preferably without crypto libraries on its package manager (no Python). Gentoo is one option, CRUX is advised and it is easy to setup, see [this link](https://github.com/mayfrost/guides/blob/master/INITIATION.md).
@@ -50,7 +50,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 27__: Set a tight configuration for iptables on each port open and drop packets for everything. Use nftables on newer kernels.
 * __Level 28__: Use [qmail](https://www.schneier.com/blog/archives/2007/11/thoughts_on_the.html) for your own e-mail server. Exim and cmail are other options.
 * __Level 29__: Use Squid for caching websites.
-* __Level 30__: Set [BIND9](https://unix.stackexchange.com/questions/270716/configure-bind-as-forwarder-only-no-root-hints-encrypted-rpz-blacklist-wh/270796#270796) for making DNS queries on your local DNS server.
+* __Level 30__: Set [BIND9](https://unix.stackexchange.com/questions/270716/configure-bind-as-forwarder-only-no-root-hints-encrypted-rpz-blacklist-wh/270796#270796) for caching DNS queries on your local DNS server.
 * __Level 31__: Use port forwarding and a port knocker on your router or server and unregister your reverse dns records.
 * __Level 32__: Use Arpalert/ArpON (for Man-In-The-Middle -MITM- Detection), [zapret](https://github.com/bol-van/zapret) (for Deep Packet Inspection -DPI- Block and Circumvention), and Suricata/Snort (for Network Intrusion Detection).
 * __Level 33__: Use the IRC, e-mail and torrent services available inside i2p, and use Tor as an outproxy for i2p when in need to access the regular web (only for browsing).
