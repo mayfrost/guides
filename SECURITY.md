@@ -52,7 +52,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 28__: Use [qmail](https://www.schneier.com/blog/archives/2007/11/thoughts_on_the.html) for your own e-mail server. Exim and cmail are other options.
 * __Level 29__: Use Squid for caching websites.
 * __Level 30__: Set [BIND9](https://unix.stackexchange.com/questions/270716/configure-bind-as-forwarder-only-no-root-hints-encrypted-rpz-blacklist-wh/270796#270796) for caching all DNS queries on your local DNS server.
-* __Level 31__: Use port forwarding and a port knocker on your router or server and unregister your reverse dns records.
+* __Level 31__: Use port forwarding and a port knocker on your router or server if you have services running, and unregister your reverse dns records.
 * __Level 32__: Use Arpalert/ArpON (for Man-In-The-Middle -MITM- Detection), [zapret](https://github.com/bol-van/zapret) (for Deep Packet Inspection -DPI- Block and Circumvention), and Suricata/Snort (for Network Intrusion Detection).
 * __Level 33__: Compile the kernel yourself and add only necessary features and selected modules. Enable KASLR and Capabilities on kernel configuration.
 * __Level 34__: When possible give your applications a separate user account and use chattr, sudo, chroot, fakeroot, ulimit and quota with them.
@@ -67,11 +67,11 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 41__: Move your boot partition to a USB and encrypt it with cryptboot. Use the option on Libreboot too.
 
 ## Costly Counter-Measures
-* __Level 42__: Buy a VPS in a non-extradition, privacy friendly country outside the Five Eyes under a different name and with a good way of not getting traced by payments, then set up your own VPN server so you can audit all the traffic.
-* __Level 43__: Buy a phone with Replicant and libre firmware. Tehnoetic sells an S3 phone with Replicant and only libre firmware enabled, so far is the best option.
-* __Level 44__: Buy a router compatible with LibreCMC and install LibreCMC, keep it up to date and give it a strong password.
-* __Level 45__: Buy a computer compatible with the Libreboot firmware and the Linux-libre kernel, then install both or buy it preinstalled. Thinkpads model x200, t400 and t500 are the best options. Remember to check a compatible Wi-Fi card and physically remove cables connecting cameras and microphones.
-* __Level 46__: Buy a separate camera and microphone and phisically remove any cameras and microphones from your computer.
+* __Level 42__: Buy a separate camera and microphone and physically remove any camera and microphone from your computer.
+* __Level 43__: Buy a VPS in a non-extradition, privacy friendly country outside the Five Eyes under a different name and with a good way of not getting traced by payments, set all outgoing traffic through it, then set up your own VPN server so you can audit all the traffic.
+* __Level 44__: Buy a phone with Replicant and libre firmware. Tehnoetic sells an S3 phone with Replicant and only libre firmware enabled, so far is the best option.
+* __Level 45__: Buy a router compatible with LibreCMC and install LibreCMC, keep it up to date, give it a strong password, set to monitor all traffic, and use previous techniques such as caching, port-forwarding, etc.
+* __Level 46__: Buy a computer compatible with the Libreboot firmware and the Linux-libre kernel, then install both or buy it preinstalled. Thinkpads model x200, t400 and t500 are the best options. Remember to check a compatible Wi-Fi card and physically remove cables connecting cameras and microphones.
 
 ## Deterrent Counter-Measures
 * __Level 47__: Learn to hack yourself first.
