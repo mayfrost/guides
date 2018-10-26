@@ -11,6 +11,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 5. [Physical Access Counter-Measures](#physical-access-counter-measures)  
 6. [Costly Counter-Measures](#costly-counter-measures)  
 7. [Deterrent Counter-Measures](#deterrent-counter-measures)  
+8. [Exit Level Security](#exit-level-security)  
 
 ---
 
