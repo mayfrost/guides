@@ -17,33 +17,33 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 
 ## Basic Level Security
 * __Level 1__: Don't save your passwords on plaintext or in some "cloud" service like Lastpass and don't save logins on your phone or web browser. Use KeePassX (and I mean the one with an X) and remember one good main password (must have lowercase, uppercase, numbers and symbols, be longer than 8 characters and be change bimonthly), then use the password manager's option to generate different passwords for each account you have and keep the password database on a USB stick. Other password manager is [kpcli](https://github.com/alecsammon/kpcli) which [works on the command line](https://www.youtube.com/watch?v=M448GtFa5Xs) and is just a minimalist perl script (this is the best option).
-* __Level 2__: Use [Searx](https://github.com/asciimoo/searx/wiki/Searx-instances) instead of Google when in need to search on the web. You can get search engine plugins for your browser [from here](https://mycroftproject.com/search-engines.html?name=searx).
-* __Level 3__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation, and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. [GNU IceCat](https://www.gnu.org/software/gnuzilla/) is the best option.
-* __Level 4__: Replace your e-mail provider with a more safe, more appropriate provider. A good option is [Tutanota](https://tutanota.com/), another alternative is [cock.li](https://cock.li/).
-* __Level 5__: Use an e-mail client that can block web beacons (tracking pixels). Thunderbird is easy and has a plugin for this. Mailx, Mutt or Alpine are better options.
-* __Level 6__ Use RSS for news from sites you trust and to order your podcasts instead of Youtube (although Youtube has an RSS feed for their channels too, for now). Liferea is easy and a great application for RSS feeds, newsboat and newsbeuter are command line options.
-* __Level 7__ Use [Peertube](https://instances.joinpeertube.org/instances) for podcasts instead of Youtube.
-* __Level 8__: Use [Mastodon](https://joinmastodon.org/) or install [Pleroma](https://github.com/wimvanderbauwhede/limited-systems/wiki/Mastodon-and-Pleroma-on-the-Raspberry-Pi-3) (GNU Social) instead of non-publicly auditable social networks known to sell private information.
-* __Level 9__: Choose IRC instead of non-publicly auditable chat networks. A good and easy IRC application is Hexchat, other options are irssi and WeeChat. You can use [BitlBee](https://wiki.bitlbee.org/) to access other chat networks through an IRC client if you need.
-* __Level 10__: Use GNU/Linux on your computers, preferably free from "systemd". PCLinuxOS is an easy first choice, Devuan is a better option. Stay away from something called BSD.
-* __Level 11__: Install LineageOS on your phone and use F-Droid without gapps (Google app store), with IceCatMobile for web browser, KeePassDroid, AFWall+ and Android IMSI-Catcher Detector. Use Yalp Store or Aptoide (or download from apkmirror/apkpure) in combination with microG if you need a gapps app.
+* __Level 2__: Remove file extensions from sensitive files such as .kdb for KeePass password databases, rename it, and keep it in encrypted folders to make it hard to sift through your disk. Better yet, keep it all in a USB stick and do backups to a third drive.
+* __Level 3__: Use [Searx](https://github.com/asciimoo/searx/wiki/Searx-instances) instead of Google when in need to search on the web. You can get search engine plugins for your browser [from here](https://mycroftproject.com/search-engines.html?name=searx).
+* __Level 4__: Use your web browser with javascript, cookies and any telemetry (like "pocket", geolocation, and WebRTC) disabled and reduce the browser fingerprinting. Enable javascript and cookies only on selected sites. [GNU IceCat](https://www.gnu.org/software/gnuzilla/) is the best option.
+* __Level 5__: Replace your e-mail provider with a more safe, more appropriate provider. A good option is [Tutanota](https://tutanota.com/), another alternative is [cock.li](https://cock.li/).
+* __Level 6__: Use an e-mail client that can block web beacons (tracking pixels). Thunderbird is easy and has a plugin for this. Mailx, Mutt or Alpine are better options.
+* __Level 7__ Use RSS for news from sites you trust and to order your podcasts instead of Youtube (although Youtube has an RSS feed for their channels too, for now). Liferea is easy and a great application for RSS feeds, newsboat and newsbeuter are command line options.
+* __Level 8__ Use [Peertube](https://instances.joinpeertube.org/instances) for podcasts instead of Youtube.
+* __Level 9__: Use [Mastodon](https://joinmastodon.org/) or install [Pleroma](https://github.com/wimvanderbauwhede/limited-systems/wiki/Mastodon-and-Pleroma-on-the-Raspberry-Pi-3) (GNU Social) instead of non-publicly auditable social networks known to sell private information.
+* __Level 10__: Choose IRC instead of non-publicly auditable chat networks. A good and easy IRC application is Hexchat, other options are irssi and WeeChat. You can use [BitlBee](https://wiki.bitlbee.org/) to access other chat networks through an IRC client if you need.
+* __Level 11__: Use GNU/Linux on your computers, preferably free from "systemd". PCLinuxOS is an easy first choice, Devuan is a better option. Stay away from something called BSD.
+* __Level 12__: Install LineageOS on your phone and use F-Droid without gapps (Google app store), with IceCatMobile for web browser, KeePassDroid, AFWall+ and Android IMSI-Catcher Detector. Use Yalp Store or Aptoide (or download from apkmirror/apkpure) in combination with microG if you need a gapps app.
 
-## Cautionary Level Security
-* __Level 12__: Delete any metadata from files you share on the internet. ExifTool is the best tool.
-* __Level 13__: Remove file extensions from sensitive files such as .kdb for KeePass password databases to make it hard to sift through your disk.
+## Cautionary Level
+* __Level 13__: Delete any metadata from files you share on the internet. ExifTool is the best tool.
 * __Level 14__: Avoid using your real name online and avoid giving away any personal information, if possible log into sites using donated passwords and accounts from [BugMeNot](http://bugmenot.com).
-* __Level 15__: Use [The Random Identity Generator](http://rig.sourceforge.net/) (rig) to generate an online persona when in need to create accounts. Don't reuse usernames, email addresses, etc, for different sites and don't mention your other identities to avoid contamination.
-* __Level 16__: Anonymize your writting style on any text with anti-stylometry software like [Anonymouth](https://github.com/psal/anonymouth) when you share documents.
+* __Level 15__: Use [The Random Identity Generator](http://rig.sourceforge.net/) (rig) to generate different online personas when you need to create accounts. Don't reuse usernames, email addresses, etc, for different sites and don't mention your other identities to avoid contamination.
+* __Level 16__: Anonymize your writting style for any text and document you upload with anti-stylometry software like [Anonymouth](https://github.com/psal/anonymouth).
+* __Level 17__: Encrypt your e-mails with GnuPG when possible. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt and Mailx.
 
 ## Medium Level Security
-* __Level 17__: Uninstall network facing services like Avahi (Bonjour), CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, and uninstall services if unused like ssh/web/ftp/mail.
-* __Level 18__: Use Uncomplicated Firewall ("ufw") to block inbound AND outbound network traffic, permitting only what you need. The graphical version ("Gufw") is beginner-friendly.
+* __Level 18__: Uninstall network facing services like Avahi (Bonjour), CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, and uninstall services if unused like ssh/web/ftp/mail.
 * __Level 19__: Use YaCy with collaborative database disabled when in need to search on the web.
 * __Level 20__: Use the Tor Browser to navigate the internet through Tor.
-* __Level 21__: Encrypt your e-mails with GnuPG when possible. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt and Mailx.
-* __Level 22__: Use Firejail or Bubblewrap to sandbox your applications.
-* __Level 23__: Use [Bastille Linux](http://bastille-linux.sourceforge.net/source.htm) to harden your system.
-* __Level 24__: Use an [OpenNIC provider](https://servers.opennicproject.org/) known to not save logs together with DNSCrypt to prevent DNS Leaking.
+* __Level 21__: Use Firejail or Bubblewrap to sandbox your applications.
+* __Level 22__: Use an [OpenNIC provider](https://servers.opennicproject.org/) known to not save logs together with DNSCrypt to prevent DNS Leaking.
+* __Level 23__: Use Uncomplicated Firewall ("ufw") to block inbound AND outbound network traffic, permitting only what you need. The graphical version ("Gufw") is beginner-friendly.
+* __Level 24__: Use [Bastille Linux](http://bastille-linux.sourceforge.net/source.htm) to harden your system.
 * __Level 25__: Use a source based distro, preferably without crypto libraries on its package manager (no Python), and tweak the installation files to use the minimum required dependencies. Gentoo is one option, CRUX is another and it is easy, see [this link](https://github.com/mayfrost/guides/blob/master/INITIATION.md).
 
 ## High Level Security
