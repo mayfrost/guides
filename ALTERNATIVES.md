@@ -265,7 +265,7 @@ Most apps are from F-Droid, we are just starting.
 * __Log Monitoring__: lnav -> [Logcheck](http://logcheck.org/) -> [multiTail](https://github.com/flok99/multitail)
 * __Log Visualizer__: glTail -> [Logstalgia](https://github.com/acaudwell/Logstalgia)
 * __Network Flow__: Argos -> HFlow -> [nfdump](https://github.com/phaag/nfdump) ([nfsen](http://nfsen.sourceforge.net/))
-* __Network Latency__: [SmokePing](https://github.com/oetiker/SmokePing) -> [bmon](https://github.com/tgraf/bmon)
+* __Network Latency__: [OpenNMS](https://github.com/OpenNMS/opennms) -> [SmokePing](https://github.com/oetiker/SmokePing) -> [bmon](https://github.com/tgraf/bmon)
 * __Network Monitoring__: [iftop](http://www.ex-parrot.com/pdw/iftop/), [NetHogs](https://github.com/raboof/nethogs), [vnStat](https://github.com/vergoh/vnstat)
 * __Port Monitoring__: [psad](https://directory.fsf.org/wiki/Port_Scan_Attack_Detector)
 * __Process Monitoring__: [svsh](https://ido50.github.io/Svsh/), [lsof](https://people.freebsd.org/~abe/), [PSmisc](https://directory.fsf.org/wiki/Psmisc), fuser
