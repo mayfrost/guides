@@ -37,3 +37,16 @@ Command line password manager, quite intuitive if you know the command line and 
 `xx`
 * to search for an entry  
 `find NAME_OR_PATTERN`
+
+
+## GPG
+File encryption.
+
+* generate keys for the first time, will ask for OPTIONAL information and let you decide encryption algorithm  
+`gpg --full-gen-key`
+* encrypt file for a recipient RECIPIEND@SOMEWHERE.com  
+`gpg -r RECIPIEND@SOMEWHERE.com -e file.txt`
+* don't forget to delete the original file and overwrite its former memory address  
+`shred -u file`
+* decrypt file  
+`gpg -d file.gpg`
