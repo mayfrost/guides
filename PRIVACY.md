@@ -44,8 +44,8 @@ File encryption.
 
 * generate keys for the first time, will ask for OPTIONAL information and let you decide encryption algorithm  
 `gpg --full-gen-key`
-* encrypt file for a recipient RECIPIEND@SOMEWHERE.com  
-`gpg -r RECIPIEND@SOMEWHERE.com -e file.txt`
+* encrypt file for a recipient _\RECIPIENT@SOMEWHERE.com_  
+`gpg -r RECIPIENT@SOMEWHERE.com -e file.txt`
 * don't forget to delete the original file and overwrite its former memory address  
 `shred -u file`
 * decrypt file  
