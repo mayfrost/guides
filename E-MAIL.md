@@ -1,20 +1,19 @@
-E-MAIL
+# E-MAIL
 
-Set cock.li
-Configure mutt
--Create account.
-Set mutiple accounts
-Send mail
-Send attachment
-To cancel an action in mutt hit CTRL+g
-Use notmuch
-set i2p-bote
+TODO:
+* Set cock.li
+* Configure mutt
+* Create account.
+* Set mutiple accounts
+* Send mail
+* Send attachment
+* To cancel an action in mutt hit CTRL+g
+* Use notmuch
+* set i2p-bote
 
-
-
-
-MAILDIR = several files
-MBOX = one file for everything
+## DIFFERENT FORMATS
+* MAILDIR = several files
+* MBOX = one file for everything
 
 ### MUTTRC
 Example config with cock.li and gmail. Not quite complete but can work if tweaked.
