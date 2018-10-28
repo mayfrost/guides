@@ -57,27 +57,19 @@ What to listen when you are compiling software or surfing the cyberspace.
 [Michiel van den Bos - Unreal Tournament - Razorback](https://www.youtube.com/watch?v=PLgSo90JhAQ)  
 [Michiel van den Bos - Unreal Tournament - Foregone Destruction (aka Facing Worlds Theme)](https://www.youtube.com/watch?v=hux23AXNccE)  
 [Michiel van den Bos - Deus Ex - UNATCO](https://www.youtube.com/watch?v=nBPK_oXeJgA)  
-
 [Mortal Kombat Reptile Theme](https://www.youtube.com/watch?v=qI-Takf76RY)  
 [Mortal kombat Original Theme](https://www.youtube.com/watch?v=B_65PioV_Ow)  
 [Utah Saints - Utah Saints Take On The Theme From Mortal Kombat](https://www.youtube.com/watch?v=pU7gPxDsFjE)  
-
 [Sparkster Rocket Knight Music: Steel Works](https://www.youtube.com/watch?v=hXQPx8MXaPU)  
 [Sparkster Rocket Knight Music: Bird](https://www.youtube.com/watch?v=laEbKNVUi7A)  
 [Rocket Knight Adventures stage 7](https://www.youtube.com/watch?v=CBcu0vpDG0w)  
 [Rocket Knight Adventures Boss theme](https://www.youtube.com/watch?v=dNb9_JuHjAk)  
-
 [Solstice Music (NES) - Title Screen Theme](https://www.youtube.com/watch?v=4_gObHt1uZA)  
-
 [Sonic 2 Music: Chemical Plant Zone](https://www.youtube.com/watch?v=-LYB7iLZNWE)  
 [Sonic 3 Music: Final Boss](https://www.youtube.com/watch?v=fgdZ76w00D4)  
 [Sonic 3 Music: Ending (Michael Jackson contributed)](https://www.youtube.com/watch?v=iA2WrTOaMwI)  
-
-
 [Time Trax](https://www.youtube.com/watch?v=7Y3-AXin_Kk)  
 [Chrono Trigger - Lavos Final Boss Battle Theme](https://www.youtube.com/watch?v=xpaJulksCik)  
-
-
 [Age of Wonders](https://www.youtube.com/watch?v=xE9UcirdTKQ)  
 [Another World (Intro)](https://www.youtube.com/watch?v=pXZYB1GCfVU)  
 [Zero Wing - Open Your Eyes](https://www.youtube.com/watch?v=3JsvQfMm9bA)  
@@ -96,7 +88,6 @@ What to listen when you are compiling software or surfing the cyberspace.
 [Emperor: Battle for Dune - Victory is Inevitable](https://www.youtube.com/watch?v=M4VBL2xnDwQ)  
 [Ecco the Dolphin - Opening Theme](https://www.youtube.com/watch?v=GLk04DibLWs)  
 [Ecco: The Tides of Time](https://www.youtube.com/watch?v=32S2oJuANxo)  
-
 [Donkey Kong Country 2 - Mining Melancholy](https://www.youtube.com/watch?v=4Qp0_NE8M1c)  
 [Donkey Kong Country 2 - Disco Train](https://www.youtube.com/watch?v=yUGU_Zlf9tU)  
 [Donkey Kong Country 2 - Enchanted Wood](https://www.youtube.com/watch?v=hRR47I88RJ8)  
@@ -167,3 +158,4 @@ What to listen when you are compiling software or surfing the cyberspace.
 [Wynardtage - Crash of a Star](https://www.youtube.com/watch?v=4ESttoZXOLQ)  
 [Infinite Dimensions - Zion](https://www.youtube.com/watch?v=hMx4ylvj9Ok)  
 [yelworC - World Under Fire](https://www.youtube.com/watch?v=SDaceL5kEK8)  
+[Alien Vampires - She Owns The Nite (Lilith)](https://www.youtube.com/watch?v=W6GDwYADRCU)  
