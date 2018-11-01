@@ -208,12 +208,12 @@ keystate_scrolllock= enable
   Menu
 
 # Take screenshot using the "print screen key" (needs imagemagick)
-"import -window root png:$HOME/xwz_$(date "+%Y-%m-%d-%H:%M:%S").png"
+"import -window root png:$HOME/x_$(date "+%Y-%m-%d-%H:%M:%S").png"
   m:0x0 + c:107
   Print
 
 # Record desktop with avconv (libav-tools) or install ffmpeg and replace avconv
-"killall -INT avconv 2>/dev/null || avconv -f x11grab -r 25 -s 1280x720 -i :0.0 $HOME/output.webm &"
+"killall -INT avconv 2>/dev/null || avconv -f x11grab -r 10 -s $(xrandr | grep '*' |  tr -s ' ' | cut -d ' ' -f2) -i :0.0 $HOME/x_$(date "+%Y-%m-%d-%H:%M:%S").mp4 &"
   m:0x0 + c:78
   Scroll_Lock
 
