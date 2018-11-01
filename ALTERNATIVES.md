@@ -68,7 +68,7 @@ Most apps are from F-Droid, we are just starting.
 
 ## Command Line
 * __Command Line Cheatsheet__: [CLI Companion](https://launchpad.net/clicompanion) -> xman -> cheat / howdoi / clf / fu / bro -> [cheat.sh](https://github.com/chubin/cheat.sh)
-* __Directory Browsing__: [fasd](https://github.com/clvv/fasd), [xd](https://github.com/fbb-git/xd), 
+* __Directory Bookmarks__: Apparix -> [fasd](https://github.com/clvv/fasd) 
 * __Framebuffer Environment__: [Fbterm](https://code.google.com/archive/p/fbterm/) -> [yaft (because sixel)](https://github.com/uobikiemukot/yaft) -> [hterm (because regis)](https://github.com/new299/hackterm)
 * __Hacker Culture__: ddate, fortune, The Hacker Test, The Jargon File
 * __Menu__: [pdmenu](https://joeyh.name/code/pdmenu/) -> [iSelect](http://www.ossp.org/pkg/tool/iselect/) -> [slmenu](https://bitbucket.org/rafaelgg/slmenu) -> [fzy](https://github.com/jhawthorn/fzy)
