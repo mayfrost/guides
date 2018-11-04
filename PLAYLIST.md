@@ -254,6 +254,7 @@ What to listen when you are compiling software or surfing the cyberspace.
 [The Message - M.I.A. (Music Video) by /\/\K](https://www.youtube.com/watch?v=8ysG1dHgghY)  
 [Boys Noize - Mayday (Snowden O.S.T.)](https://www.youtube.com/watch?v=49vZhQlAEyk)  
 [Adam Freeland - We Want Your Soul](https://www.youtube.com/watch?v=C09lJQ4Blks)  
+[GosT - Maleficarum](https://www.youtube.com/watch?v=sUsSIGlnLtY)  
 
 ## PUNK ROCK
 [Atari Teenage Riot - "Revolution Action"](https://www.youtube.com/watch?v=i8JBUktSxvQ)  
