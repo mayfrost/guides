@@ -304,6 +304,7 @@ What to listen when you are compiling software or surfing the cyberspace.
 [Sloan - Money City Maniacs](https://www.youtube.com/watch?v=tirqAVBoHFI)  
 [Soundgarden - Black Hole Sun](https://www.youtube.com/watch?v=3mbBbFH9fAg)  
 [The Cranberries - Promises](https://www.youtube.com/watch?v=hUFPooqKllA)  
+[The Cranberries - Zombie](https://www.youtube.com/watch?v=6Ejga4kJUts)  
 [The Vera Violets - stars](https://www.youtube.com/watch?v=UwOGt3wQCbY)  
 [Escape From New York Theme](https://www.youtube.com/watch?v=zTxBc_-XxmI)  
 [DVA - Battle without honor or humanity](https://www.youtube.com/watch?v=1BDkU_Pw-uM)  
