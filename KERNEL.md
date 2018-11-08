@@ -40,7 +40,7 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 `lspci`  
 * List your hardware with kernel modules used for each.  
 `lspci -k`  
-* List all kernel modules currenly used.  
+* List only kernel modules currenly loaded.  
 `lsmod`  
 * Long list of your hardware with all details.  
 `lspci -v`  
