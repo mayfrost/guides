@@ -37,7 +37,7 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 * To see which version the kernel you are currently using is.  
 `uname -r`  
 * Short list of your hardware.  
-`lspci -k`  
+`lspci`  
 * List your hardware with kernel modules used for each.  
 `lspci -k`  
 * List all kernel modules currenly used.  
