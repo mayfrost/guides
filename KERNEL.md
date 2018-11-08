@@ -8,7 +8,7 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 ---
 
 ## TOC
-1. [PREPARATIONS](#preparations)  
+1. [PREPARATIONS (OPTIONAL)](#preparations-optional)  
 2. [GETTING THE KERNEL SOURCE](#getting-the-kernel-source)  
 2.1. [OPTIONAL: Symlink](#optional-symlink)  
 2.2. [DOWNLOAD THE KERNEL SOURCE](#download-the-kernel-source)  
@@ -31,7 +31,9 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 
 ---
 
-## PREPARATIONS
+## PREPARATIONS (OPTIONAL)
+In this optional step you can take note what kernel modules are appropriate to turn on only the options you want and have a trimmed down kernel.
+
 * To see which version the new kernel source is.  
 `head /usr/src/linux/Makefile`  
 * To see which version the kernel you are currently using is.  
@@ -48,8 +50,6 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 `cat /proc/cpuinfo`  
 * See information on your memory (not really necessary).  
 `cat /proc/meminfo`  
-
-Take note what kernel modules are appropriate.
 
 ## GETTING THE KERNEL SOURCE
 
