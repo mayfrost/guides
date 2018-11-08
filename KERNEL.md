@@ -34,14 +34,22 @@ Compiling a kernel has the advantage to make it as minimal and featureful as you
 ## PREPARATIONS
 * To see which version the new kernel source is.  
 `head /usr/src/linux/Makefile`  
-* To see which version the current kernel is.  
+* To see which version the kernel you are currently using is.  
 `uname -r`  
-* List hardware and kernel modules in use (take note to know what kernel modules are appropriate).  
+* Short list of your hardware.  
 `lspci -k`  
-`lspci -v`  
-`cat /proc/cpuinfo`  
-`cat /proc/meminfo`  
+* List your hardware with kernel modules used for each.  
+`lspci -k`  
+* List all kernel modules currenly used.  
 `lsmod`  
+* Long list of your hardware with all details.  
+`lspci -v`  
+* See information on your CPU.  
+`cat /proc/cpuinfo`  
+* See information on your memory (not really necessary).  
+`cat /proc/meminfo`  
+
+Take note what kernel modules are appropriate.
 
 ## GETTING THE KERNEL SOURCE
 
