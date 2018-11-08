@@ -255,6 +255,7 @@ What to listen when you are compiling software or surfing the cyberspace.
 [Boys Noize - Mayday (Snowden O.S.T.)](https://www.youtube.com/watch?v=49vZhQlAEyk)  
 [Adam Freeland - We Want Your Soul](https://www.youtube.com/watch?v=C09lJQ4Blks)  
 [GosT - Maleficarum](https://www.youtube.com/watch?v=sUsSIGlnLtY)  
+[Innerpartysystem - American Trash](https://www.youtube.com/watch?v=AqtXtnUGPiA)  
 
 ## PUNK ROCK
 [Atari Teenage Riot - "Revolution Action"](https://www.youtube.com/watch?v=i8JBUktSxvQ)  
