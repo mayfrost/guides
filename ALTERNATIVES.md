@@ -105,8 +105,6 @@ Most apps are from F-Droid, we are just starting.
 * __Booru__: [ahoviewer](https://github.com/ahodesuka/ahoviewer)
 * __Facebook__: [Facebook CLI](https://github.com/specious/facebook-cli) - > [FBCMD](https://github.com/dtompkins/fbcmd) (unmaintained)
 * __General__: [Rambox](https://github.com/saenzramiro/rambox) / [Gwibber](http://gwibber.com/)
-* __General Cloud Storage Client__: [Rclone](https://github.com/ncw/rclone)
-* __Google Drive__: [Grive2](https://github.com/vitalif/grive2)
 * __Pastebin__: [pastebinit](https://github.com/skorokithakis/pastebinit)
 * __Reddit__: [cReddit](https://github.com/Cotix/cReddit)
 * __Slack__: [ScudCloud](https://github.com/raelgc/scudcloud) / [slackterm](https://github.com/rob05c/slackterm)
@@ -217,15 +215,15 @@ Most apps are from F-Droid, we are just starting.
 
 ## Filesharing
 * __Direct Connect__: LinuxDC++ -> [ncdc](https://github.com/srijan/ncdc) -> [microdc2](http://corsair626.no-ip.org/microdc/)
-* __Download Manager__: [giFT](https://sourceforge.net/projects/gift/) (+ [giFTcurs](http://www.nongnu.org/giftcurs/)) -> [aria2](https://aria2.github.io/) -> cURL -> Wget
-* __File Scraper__: megatools -> [JDownloader](https://github.com/Bobmk/JDownloader) -> [Plowshare](https://github.com/mcrapet/plowshare)
+* __Download Manager__: [JDownloader](https://github.com/Bobmk/JDownloader) -> [giFT](https://sourceforge.net/projects/gift/) (+ [giFTcurs](http://www.nongnu.org/giftcurs/)) -> [aria2](https://aria2.github.io/) -> cURL -> Wget
+* __File Scraper__: megatools (Mega) -> [Grive2](https://github.com/vitalif/grive2) (Google Drive) -> [Rclone](https://github.com/ncw/rclone) -> [Plowshare](https://github.com/mcrapet/plowshare)
 * __FTP Client__: FileZilla -> [lftp](https://github.com/lavv17/lftp)
 * __LAN Sharing__: NitroShare -> Dukto
 * __Media Center__: Plex -> Emby -> Popcorn Time -> Kodi ("XBMC", + Sonarr)
 * __Media Miner__: FlexGet -> [Sonarr](https://github.com/Sonarr/Sonarr)
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> Wget
 * __Soulseek__: Nicotine Plus -> [Museek (mucous)](https://museek-plus.org/)
-* __Stream Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [quvi](https://github.com/mogaal/quvi), [RTMPDump](https://github.com/mstorsjo/rtmpdump)
+* __Stream Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [quvi](https://github.com/mogaal/quvi) and [RTMPDump](https://github.com/mstorsjo/rtmpdump)
 * __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (comes with a [web interface](https://github.com/transmission/transmission/wiki/Web-Interface) by default but [other frontends](https://github.com/fagga/transmission-remote-cli) exist)
 * __Torrent Tracker Scraper__: [Torrtux](https://github.com/l333k0/torrtux) -> [Torrench](https://github.com/kryptxy/torrench) -> [Jackett](https://github.com/Jackett/Jackett)
 * __Usenet (File Grabber)__: LottaNZB -> SABnzbd -> [NZBGet](https://github.com/nzbget/nzbget) -> [nzb](https://directory.fsf.org/wiki/Nzb) -> [nzbperl](https://github.com/eghm/nzbperl)
