@@ -68,12 +68,13 @@ Most apps are from F-Droid, we are just starting.
 
 ## Command Line
 * __Command Line Cheatsheet__: [CLI Companion](https://launchpad.net/clicompanion) -> xman -> cheat / howdoi / clf / fu / bro -> [cheat.sh](https://github.com/chubin/cheat.sh)
+* __Copy and Move Progress Bar__: [progress](https://github.com/Xfennec/progress) -> [Advanced Copy](https://github.com/atdt/advcpmv)
 * __Directory Bookmarks__: Apparix -> [fasd](https://github.com/clvv/fasd) 
 * __Framebuffer Environment__: [Fbterm](https://code.google.com/archive/p/fbterm/) -> [yaft (because sixel)](https://github.com/uobikiemukot/yaft) -> [hterm (because regis)](https://github.com/new299/hackterm)
 * __Hacker Culture__: ddate, fortune, The Hacker Test, The Jargon File
 * __Menu__: [pdmenu](https://joeyh.name/code/pdmenu/) -> [iSelect](http://www.ossp.org/pkg/tool/iselect/) -> [slmenu](https://bitbucket.org/rafaelgg/slmenu) -> [fzy](https://github.com/jhawthorn/fzy)
 * __Multiplexer__: Tmux  -> Byobu -> GNU Screen (+[sixel patch](https://gist.github.com/saitoha/7546579))
-* __Progress Viewers__: [progress](https://github.com/Xfennec/progress) -> [pv - Pipe Viewer](https://github.com/icetee/pv) -> [Advanced Copy](https://github.com/atdt/advcpmv)
+* __Progress Bar__: [pv - Pipe Viewer](https://github.com/icetee/pv) [progress](https://github.com/Xfennec/progress) -> [Advanced Copy](https://github.com/atdt/advcpmv)
 * __Scripting__: [GNU Parallel](https://www.gnu.org/software/parallel/) (+ [GNU SQL](https://www.gnu.org/software/parallel/sql.html)), [empty](https://github.com/ierton/empty)
 * __Shells__: Bash -> mksh -> [PC-DCL](https://github.com/MichelValentin/PC-DCL) -> [rc](https://github.com/rakitzis/rc)
 * __Terminal Colorizer__: colout -> lolcat
