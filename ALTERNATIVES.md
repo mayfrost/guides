@@ -103,14 +103,14 @@ Most apps are from F-Droid, we are just starting.
 ### Desktop Client
 * __4chan__: [ANSIchan](https://github.com/qqueue/ANSICHAN) / [yottu](https://github.com/yottu/yottu)
 * __Booru__: [ahoviewer](https://github.com/ahodesuka/ahoviewer)
-* __Facebook__: [FBCLI](https://github.com/danielduan/FBCLI) / [Facebook CLI](https://github.com/specious/facebook-cli)
+* __Facebook__: [Facebook CLI](https://github.com/specious/facebook-cli) - > [FBCMD](https://github.com/dtompkins/fbcmd) (unmaintained)
 * __General__: [Rambox](https://github.com/saenzramiro/rambox) / [Gwibber](http://gwibber.com/)
 * __General Cloud Storage Client__: [Rclone](https://github.com/ncw/rclone)
 * __Google Drive__: [Grive2](https://github.com/vitalif/grive2)
 * __Pastebin__: [pastebinit](https://github.com/skorokithakis/pastebinit)
 * __Reddit__: [cReddit](https://github.com/Cotix/cReddit)
 * __Slack__: [ScudCloud](https://github.com/raelgc/scudcloud) / [slackterm](https://github.com/rob05c/slackterm)
-* __Twitter__: [Hotot](https://github.com/lyricat/Hotot) / [turses](https://github.com/louipc/turses)
+* __Twitter__: [Hotot](https://github.com/lyricat/Hotot) -> [oysttyer](https://github.com/oysttyer/oysttyer)
 * __Youtube__: [youtube-viewer](https://github.com/trizen/youtube-viewer)
 
 ## Decentralized Networking
