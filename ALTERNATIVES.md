@@ -255,8 +255,8 @@ Most apps are from F-Droid, we are just starting.
 ### System Information
 * __General Information__: [inxi](https://smxi.org/docs/inxi.htm)
 * __Screenshot Information__: [Linux_Logo](https://github.com/KittyKatt/screenFetch) -> [Neofetch](https://github.com/dylanaraps/neofetch) -> [screenFetch](https://github.com/KittyKatt/screenFetch)
-* __Hardware Information__: blkid -> lsblk -> [lspci](http://mj.ucw.cz/sw/pciutils/) -> [lshw](https://github.com/lyonel/lshw) -> [hwloc](https://www.open-mpi.org/projects/hwloc/) -> dmesg -> [dmidecode](http://dmidecode.nongnu.org/)
-* __Software Information__: file -> ldd -> [vrms](https://vrms.alioth.debian.org/) -> lsb_release -> uname
+* __Hardware Information__: [lshw](https://github.com/lyonel/lshw) -> [hwloc](https://www.open-mpi.org/projects/hwloc/) -> blkid -> lsblk -> [lspci](http://mj.ucw.cz/sw/pciutils/) -> dmesg -> [dmidecode](http://dmidecode.nongnu.org/)
+* __Software Information__: [vrms](https://vrms.alioth.debian.org/) -> file -> ldd -> lsb_release -> uname
 
 ### System Monitoring
 * __Database Monitoring__: [Mytop](https://github.com/jzawodn/mytop)
