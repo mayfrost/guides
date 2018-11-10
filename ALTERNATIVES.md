@@ -259,7 +259,7 @@ Most apps are from F-Droid, we are just starting.
 * __Database Monitoring__: [Mytop](https://github.com/jzawodn/mytop)
 * __Disk Usage__: QDirStat -> [Baobab](http://www.marzocca.net/linux/baobab/) -> xdiskusage -> XDU -> [Ncdu](https://dev.yorhel.nl/ncdu) -> df
 * __Geolocation__: [Prey](https://github.com/prey/prey-bash-client)
-* __Hardware Monitoring__: lm-sensors (psensor for a GUI) + Hddtemp
+* __Hardware Monitoring__: lm-sensors (psensor for a GUI) + [CrazyDiskInfo](https://github.com/otakuto/crazydiskinfo) + Hddtemp
 * __Log Monitoring__: lnav -> [Logcheck](http://logcheck.org/) -> [multiTail](https://github.com/flok99/multitail)
 * __Log Visualizer__: glTail -> [Logstalgia](https://github.com/acaudwell/Logstalgia)
 * __Network Flow__: Argos -> HFlow -> [nfdump](https://github.com/phaag/nfdump) ([nfsen](http://nfsen.sourceforge.net/))
