@@ -230,7 +230,7 @@ Most apps are from F-Droid, we are just starting.
 
 ## Forensics
 * __Application Profiling__: Valgrind (+ Callgrind)
-* __Data Recovery__: dvdisaster -> ddrescue -> TestDisk (PhotoRec)
+* __Data Recovery__: dvdisaster -> TestDisk (PhotoRec) -> ddrescue
 * __Debugger__: DDD -> [CGDB](https://cgdb.github.io/) -> GDB
 * __Virtual Memory Debugger__: scanmem & Gameconqueror -> [varedit](https://github.com/asherlie/varedit)
 * __Java Debugger__: VisualVM
@@ -242,7 +242,7 @@ Most apps are from F-Droid, we are just starting.
 
 ## Monitoring
 ### Benchmarking
-* __Drive Profiling__: hdparm -> Smartmontools
+* __Drive Profiling__: Smartmontools -> hdparm
 * __Filesystem Benchmark__: [Bonnie++](https://www.coker.com.au/bonnie++/) -> [MBW](https://github.com/raas/mbw)
 * __General Benchmarking__: [HPC Challenge Benchmark (hpcc)](http://icl.cs.utk.edu/hpcc/) -> [Sysbench](https://github.com/akopytov/sysbench)
 * __Network Profiling__: [iperf](http://software.es.net/iperf/)
@@ -254,8 +254,8 @@ Most apps are from F-Droid, we are just starting.
 ### System Information
 * __General Information__: [inxi](https://smxi.org/docs/inxi.htm)
 * __Screenshot Information__: [Linux_Logo](https://github.com/KittyKatt/screenFetch) -> [Neofetch](https://github.com/dylanaraps/neofetch) -> [screenFetch](https://github.com/KittyKatt/screenFetch)
-* __Hardware Information__: [lshw](https://github.com/lyonel/lshw) -> [hwloc](https://www.open-mpi.org/projects/hwloc/) -> blkid -> lsblk -> [lspci](http://mj.ucw.cz/sw/pciutils/) -> dmesg -> [dmidecode](http://dmidecode.nongnu.org/)
-* __Software Information__: [vrms](https://vrms.alioth.debian.org/) -> file -> ldd -> lsb_release -> uname
+* __Hardware Information__: [lshw](https://github.com/lyonel/lshw) -> [hwloc](https://www.open-mpi.org/projects/hwloc/) -> [pciutils (lspci)](http://mj.ucw.cz/sw/pciutils/) -> util-linux (lsblk, blkid, dmesg) -> [dmidecode](http://dmidecode.nongnu.org/)
+* __Software Information__: [vrms](https://github.com/z411/vrms-gentoo) -> file -> ldd -> lsb_release -> uname
 
 ### System Monitoring
 * __Database Monitoring__: [Mytop](https://github.com/jzawodn/mytop)
