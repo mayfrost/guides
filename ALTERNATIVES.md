@@ -328,7 +328,7 @@ Most apps are from F-Droid, we are just starting.
 * __2D Digital Animation__: [Synfig](https://www.synfig.org/) -> [OpenToonz](https://github.com/opentoonz/opentoonz)
 * __3D Digital Animation__: Blender
 * __Screencasting__: Open Broadcaster Studio -> SimpleScreenRecorder -> [FFmpeg](https://www.linuxquestions.org/questions/linux-general-1/record-using-framebuffer-video-grabber-4175464119/) -> [ttyrec](https://github.com/mjording/ttyrec) (+ [seq2gif](https://github.com/saitoha/seq2gif))
-* __Video Editing__: Kdenlive -> Cinelerra-cv -> OpenShot -> FFmpeg
+* __Video Editing__: Kdenlive -> Cinelerra-cv -> OpenShot -> [Melt](https://www.mltframework.org/docs/melt/) -> [AvxSynth](https://github.com/avxsynth/avxsynth) -> FFmpeg
 * __Video Player__: MPV -> nvlc (VLC) -> [MPlayer](https://mplayerhq.hu)
 * __Video to gif__: Video2Gif -> convert (ImageMagick) -> FFmpeg
 * __Video Transcoding__: [HandBrake](https://handbrake.fr/) -> WinFF -> FFmpeg
