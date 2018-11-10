@@ -246,22 +246,20 @@ Most apps are from F-Droid, we are just starting.
 * __Filesystem Benchmark__: [Bonnie++](https://www.coker.com.au/bonnie++/) -> [MBW](https://github.com/raas/mbw)
 * __General Benchmarking__: [HPC Challenge Benchmark (hpcc)](http://icl.cs.utk.edu/hpcc/) -> [Sysbench](https://github.com/akopytov/sysbench)
 * __Network Profiling__: [iperf](http://software.es.net/iperf/)
-* __Power Management__: tpfancontrol -> thinkfan -> [apcupsd](http://www.apcupsd.org/) -> [TLP](https://github.com/linrunner/TLP) -> [PowerTOP](https://github.com/fenrus75/powertop) -> [Powertweak](https://directory.fsf.org/wiki/Powertweak-Linux)
 * __Server Benchmark__: [Siege](https://github.com/JoeDog/siege)
 * __System Tracing__: [strace](https://github.com/strace/strace) -> [trace-cmd](https://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git) (ftrace) -> perf
-* __Undevolting and Power Saving__: [TurionPowerControl](https://code.google.com/archive/p/turionpowercontrol/) / [Linux-PHC](http://www.linux-phc.org/forum/) -> [cpufrequtils](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/cpufreq/) -> [cpupower](https://github.com/torvalds/linux/tree/master/tools/power/cpupower)
 
 ### System Information
 * __General Information__: [inxi](https://smxi.org/docs/inxi.htm)
 * __Screenshot Information__: [Linux_Logo](https://github.com/KittyKatt/screenFetch) -> [Neofetch](https://github.com/dylanaraps/neofetch) -> [screenFetch](https://github.com/KittyKatt/screenFetch)
-* __Hardware Information__: [lshw](https://github.com/lyonel/lshw) -> [hwloc](https://www.open-mpi.org/projects/hwloc/) -> [pciutils (lspci)](http://mj.ucw.cz/sw/pciutils/) -> util-linux (lsblk, blkid, dmesg) -> [dmidecode](http://dmidecode.nongnu.org/)
+* __Hardware Information__: [lshw](https://github.com/lyonel/lshw) -> [hwloc](https://www.open-mpi.org/projects/hwloc/) -> [pciutils (lspci)](http://mj.ucw.cz/sw/pciutils/) -> util-linux (lsblk, blkid, dmesg) -> [acpitool](https://directory.fsf.org/wiki/AcpiTool) [dmidecode](http://dmidecode.nongnu.org/)
 * __Software Information__: [vrms](https://github.com/z411/vrms-gentoo) -> file -> ldd -> lsb_release -> uname
 
 ### System Monitoring
 * __Database Monitoring__: [Mytop](https://github.com/jzawodn/mytop)
 * __Disk Usage__: QDirStat -> [Baobab](http://www.marzocca.net/linux/baobab/) -> xdiskusage -> XDU -> [Ncdu](https://dev.yorhel.nl/ncdu) -> df
 * __Geolocation__: [Prey](https://github.com/prey/prey-bash-client)
-* __Hardware Monitoring__: acpiclient -> Hddtemp -> lm-sensors (psensor for a GUI)
+* __Hardware Monitoring__: lm-sensors (psensor for a GUI) + Hddtemp
 * __Log Monitoring__: lnav -> [Logcheck](http://logcheck.org/) -> [multiTail](https://github.com/flok99/multitail)
 * __Log Visualizer__: glTail -> [Logstalgia](https://github.com/acaudwell/Logstalgia)
 * __Network Flow__: Argos -> HFlow -> [nfdump](https://github.com/phaag/nfdump) ([nfsen](http://nfsen.sourceforge.net/))
@@ -572,7 +570,8 @@ Most apps are from F-Droid, we are just starting.
 * __Web Server__: Apache -> Nginx -> lighttpd -> [GNU MyServer](https://directory.fsf.org/wiki/GNU_MyServer) -> [darkhttpd](https://github.com/ryanmjacobs/darkhttpd) -> [Bucktooth](http://gopher.floodgap.com/gopher/gw?gopher/1/buck) (Gopher) + [Bucky](https://github.com/kibook/bucky) (for HTTP exit)
 * __Wiki__: [XWiki](https://github.com/xwiki/xwiki-platform) -> [ikiwiki](https://ikiwiki.info/)
 * __Wireless Access Point__: [hostapd](https://github.com/OpenSecurityResearch/hostapd-wpe)
-* __XMPP Server__: [Tigase](https://github.com/kontalk/tigase-server)
+* __XMPP Serve
+* __Undevolting and Power Saving__: [TurionPowerControl](https://code.google.com/archive/p/turionpowercontrol/) / [Linux-PHC](http://www.linux-phc.org/forum/) -> [cpufrequtils](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/cpufreq/) -> [cpupower](https://github.com/torvalds/linux/tree/master/tools/power/cpupower)r__: [Tigase](https://github.com/kontalk/tigase-server)
 
 ### Server Authentication
 * __Domain Specific Authentication Server__: Ident (IRC), [SKS](https://bitbucket.org/skskeyserver/sks-keyserver/wiki/Home) (PGP)
@@ -593,5 +592,7 @@ Most apps are from F-Droid, we are just starting.
 * __IPC__: DBus -> ipcs (util-linux)
 * __Job Scheduler__: [Slurm](https://github.com/SchedMD/slurm) -> [fcron](http://fcron.free.fr/) (Cron), [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en)
 * __Load in RAM__: [E4rat](https://github.com/ShyPixie/e4rat-lite) -> readahead -> [preload](https://sourceforge.net/projects/preload/), [prelink](https://directory.fsf.org/wiki/Prelink)
+* __Power Management__: tpfancontrol -> thinkfan -> [apcupsd](http://www.apcupsd.org/) -> [TLP](https://github.com/linrunner/TLP) -> [PowerTOP](https://github.com/fenrus75/powertop) -> [Powertweak](https://directory.fsf.org/wiki/Powertweak-Linux)
 * __Settings Manager__: [Linux Lite Control Center](https://github.com/linuxlite/litecontrolcenter) -> [Elektra](https://github.com/ElektraInitiative/libelektra) -> [Augeas](https://github.com/hercules-team/augeas)
+* __Undevolting and Power Saving__: [TurionPowerControl](https://code.google.com/archive/p/turionpowercontrol/) / [Linux-PHC](http://www.linux-phc.org/forum/) -> [cpufrequtils](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/cpufreq/) -> [cpupower](https://github.com/torvalds/linux/tree/master/tools/power/cpupower)
 * __Utilities__: Mtools -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
