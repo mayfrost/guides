@@ -276,24 +276,24 @@ Most apps are from F-Droid, we are just starting.
 
 ## Multimedia
 ### ASCii Art
-* __ANSI Drawing__: [cadubi](https://github.com/statico/cadubi) -> [SHPaint](http://bruxy.regnet.cz/web/linux/EN/ansi-art-sh-paint/) -> [MysticDraw](https://archive.org/details/tucows_8499_Mystic_Draw)
+* __ANSI Drawing__: [SHPaint](http://bruxy.regnet.cz/web/linux/EN/ansi-art-sh-paint/) -> [MysticDraw](https://archive.org/details/tucows_8499_Mystic_Draw)
 * __ANSi Viewer__: [ANSiMat](https://sourceforge.net/projects/ansimat/)
 * __ASCii Animation__: blessed -> Durdraw -> drawille
 * __ASCii Banner__: shellpic -> TOIlet -> FIGlet -> sysvbanner
-* __ASCii Drawing__: JavE -> textdraw -> Aewan
+* __ASCii Drawing__: JavE -> Aewan -> [CAVE WALL](http://www-users.mat.umk.pl/~mckuk/cavewall/) -> textdraw
 * __ASCii Presentations__: wopr -> blessed-contrib
 * __Image to ASCii__: jp2a
 * __Video to ASCii__: libcaca -> AAlib
 
 ### Audio
-* __Audio Editing__: Audacity -> [SoX](http://sox.sourceforge.net/)
+* __Audio Editing__: Audacity -> Snd -> [Ecasound](https://directory.fsf.org/wiki/Ecasound) -> [SoX](http://sox.sourceforge.net/)
 * __Audio Effect Plugins__: [zam-plugins](http://www.zamaudio.com/?p=870) (LADSPA/LV2/VST/JACK), [LV2](http://lv2plug.in/) (x42-plugins), [LADSPA](http://ccrma.stanford.edu/planetccrma/software/ladspaworld.html) (tap-plugins), [DSSI](http://dssi.sourceforge.net/) (dssi-utils, dssi-vst)
 * __Audio Encoding__: [LAME](http://lame.sourceforge.net/), [FLAC](https://xiph.org/flac/)
 * __Background Sound__: GNU GTick -> Ambient Noise
 * __Digital Audio Workstation__: Rosegarden -> Ardour -> LMMS
 * __DJing__: Mixxx
 * __Ear Training__: LenMus -> GNU Solfege
-* __Multiple Audio Streams__: pulseaudio -> [apulse](https://github.com/i-rinat/apulse)
+* __Multiple Audio Streams__: pulseaudio -> [apulse](https://github.com/i-rinat/apulse) -> ALSA (aloop, Softvol, Dmix)
 * __Music Player__: Audacious (+ [Winamp Classic skin](https://www.gnome-look.org/content/show.php/Winamp+Classic+skin+for+Audacious?content=135799) + GJay) -> [Open Cubic Player](http://stian.cubic.org/project-ocp.php) -> MPD (vimus/ncmpcpp) -> cmus -> [mp3blaster](http://www.mp3blaster.org/) (runs with "aoss mp3blaster" or compiled with ALSA) -> [MOC](http://moc.daper.net/) (+ moc-ffmpeg-plugin, [dmenu_mocp](https://github.com/pscha/dmenu_mocp))
 * __Music Visualization__: [Spectrum3d](http://spectrum3d.sourceforge.net/) -> [Le Biniou](https://directory.fsf.org/wiki/Lebiniou) -> [projectM](http://projectm.sourceforge.net/) -> [cli-visualizer](https://github.com/dpayne/cli-visualizer)
 * __Scorewriter__: MuseScore -> LilyPond
@@ -314,7 +314,7 @@ Most apps are from F-Droid, we are just starting.
 * __Fonts Digital Drawing__: FontForge
 * __Vector Digital Drawing__: Inkscape -> [Xfig](http://mcj.sourceforge.net/)
 * __Image Editing__: RawTherapee -> darktable -> Gimp + [G'MIC](https://github.com/dtschump/gmic) -> ImageMagick (display, import)
-* __Image Optimizing__: pngcrush -> pngquant -> OptiPNG
+* __Image Optimizing__: OptiPNG -> pngcrush -> pngquant
 * __Image Viewer__: Feh -> sxiv -> display (ImageMagick) -> [fim](http://www.nongnu.org/fbi-improved/) / [fbi (fbida)](https://github.com/fcarlier/fbida)
 * __Plotting__: Gnuplot -> [PLplot](http://plplot.sourceforge.net/)
 * __Screenshots__: Shutter -> scrot -> maim -> import (ImageMagick) -> [fbcat](https://github.com/jwilk/fbcat) (FBGrab)
