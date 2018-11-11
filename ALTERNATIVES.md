@@ -334,12 +334,12 @@ Most apps are from F-Droid, we are just starting.
 * __Video Transcoding__: [HandBrake](https://handbrake.fr/) -> WinFF -> FFmpeg
 
 ## Network Setup
-* __Bandwidth Shaping__: [Wondershaper](http://lartc.org/wondershaper/)
+* __Bandwidth Saver__: [Wondershaper](https://github.com/mayfrost/wondershaper)
 * __Bandwidth Testing__: [speedtest-cli](https://github.com/sivel/speedtest-cli) / [speed-test](https://github.com/sindresorhus/speed-test)
 * __DHCP Client__: dhclient -> dhcpcd
 * __DNS Encryption__: DNSSEC, DNSCrypt
 * __DNS Resolution__: Unbound + NDS -> BIND9
-* __MAC Manipulation__: [GNU MAC Changer](https://github.com/alobbs/macchanger)
+* __MAC Manipulation__: [GNU MAC Changer (macchanger)](https://github.com/alobbs/macchanger)
 * __Network Encryption__: OpenSSL -> [LibreSSL](https://directory.fsf.org/wiki/Libressl) -> GnuTLS -> IPsec / [SAE](https://github.com/cozybit/authsae) (802.11s)
 * __Network Manager__: Wicd -> NetworkManager -> ConnMan -> [SetNet](http://kalos.mine.nu/setnet/)
 * __Networking Tools__: iproute2 (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (ifconfig, netstat)
