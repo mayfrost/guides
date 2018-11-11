@@ -256,6 +256,9 @@ What to listen when you are compiling software or surfing the cyberspace.
 [Adam Freeland - We Want Your Soul](https://www.youtube.com/watch?v=C09lJQ4Blks)  
 [GosT - Maleficarum](https://www.youtube.com/watch?v=sUsSIGlnLtY)  
 [Innerpartysystem - American Trash](https://www.youtube.com/watch?v=AqtXtnUGPiA)  
+[Infected Mushroom - IM The Supervisor](https://www.youtube.com/watch?v=Grrx2IHHIn8)  
+[Infected Mushroom - Muse Break Rmx](https://www.youtube.com/watch?v=fBfQbXaNVHM)  
+[Visck x Obscure - Distortion ( Dark Trap Beat )](https://www.youtube.com/watch?v=8LnG6euN4Vg)  
 
 ## PUNK ROCK
 [Atari Teenage Riot - "Revolution Action"](https://www.youtube.com/watch?v=i8JBUktSxvQ)  
