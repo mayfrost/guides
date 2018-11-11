@@ -444,7 +444,7 @@ Most apps are from F-Droid, we are just starting.
 ## Programming
 * __Build Automation__: [Gradle](https://github.com/gradle/gradle), [Buildroot](https://github.com/buildroot/buildroot), [Open Build Service](http://openbuildservice.org/) -> [CheckInstall](https://directory.fsf.org/wiki/CheckInstall) -> Autotools ([Automake](https://directory.fsf.org/wiki/Automake), [Autoconf](https://directory.fsf.org/wiki/Autoconf), [Libtool](https://directory.fsf.org/wiki/Libtool)), [GNU make](https://directory.fsf.org/wiki/Make), [Gnulib](https://www.gnu.org/software/gnulib/)
 * __Code Beautifier__: [UniversalIndentGUI](https://github.com/danblakemore/universal-indent-gui), HTML Tidy
-* __Compiler__: [IcedTea](https://icedtea.classpath.org/wiki/Main_Page) (Java), [GraalVM](https://www.graalvm.org/) (compile multiple languages into JVM), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), [GCC](https://directory.fsf.org/wiki/Gcc)
+* __Compiler__: [IcedTea](https://icedtea.classpath.org/wiki/Main_Page) (Java) + [GraalVM](https://www.graalvm.org/) (compile multiple languages into JVM), [GCC](https://directory.fsf.org/wiki/Gcc) ([GNU Compiler for Java](https://gcc.gnu.org/wiki/GCJ),[GnuCOBOL](https://sourceforge.net/projects/open-cobol/, [GNU Fortran](https://gcc.gnu.org/wiki/GFortran)) + [colorgcc](https://github.com/colorgcc/colorgcc)
 * __Compiling Speeding Up__: [distcc](https://github.com/distcc/distcc), [ccache](https://github.com/ccache/ccache)
 * __Documentation Browser__: Devhelp -> [Zeal](https://github.com/zealdocs/zeal)
 * __Documentation Generator__: perlpod, [bashdoc](https://github.com/ajdiaz/bashdoc), Doxygen
