@@ -432,18 +432,17 @@ Most apps are from F-Droid, we are just starting.
 * __Anti Stylometry__: [Anonymouth](https://github.com/psal/anonymouth)
 * __Disk Cleaner__: [Dban](https://sourceforge.net/projects/dban/) -> bleachbit_cli ([BleachBit](https://github.com/bleachbit/bleachbit)) -> shred (GNU Coreutils)
 * __Boot Encryption__: [cryptboot](https://github.com/xmikos/cryptboot)
-* __Disk Encryption__: [StegFS](https://www.mcdonald.org.uk/StegFS/), [cryptsetup (dm-crypt)](https://gitlab.com/cryptsetup/cryptsetup/wikis/DMCrypt)
+* __Disk Encryption__: [StegFS](https://github.com/albinoloverats/stegfs), [cryptsetup (dm-crypt)](https://gitlab.com/cryptsetup/cryptsetup/wikis/DMCrypt)
 * __File Encryption__: [GNU Privacy Assistant](https://www.gnupg.org/related_software/gpa/) -> ccrypt -> [GNU Privacy Guard](https://www.gnupg.org/)
-* __Full Storage Encryption__: VeraCrypt -> [tcplay](https://github.com/bwalex/tc-play) (full TrueCrypt implementation and still minimalist) -> [Tomb](https://github.com/dyne/Tomb)
+* __Full Storage Encryption__: VeraCrypt -> [Tomb](https://github.com/dyne/Tomb) -> [tcplay](https://github.com/bwalex/tc-play) (full TrueCrypt implementation and still minimalist)
 * __Encrypted Version Control__: [Keyringer](https://github.com/quarkslab/keyringer)
 * __Identity Generator__: [The Random Identity Generator (rig)](http://rig.sourceforge.net/)
 * __Password Generator__: [pwgen](https://github.com/jbernard/pwgen) -> [apg](https://github.com/Distrotech/apg)
 * __Password Manager__: KeePassX -> [pass](https://www.passwordstore.org/) (+ [pass-tomb](https://github.com/roddhjav/pass-tomb), + [passmenu](https://github.com/cdown/passmenu)) -> [kpcli](https://github.com/alecsammon/kpcli)
-* __Steganography__: [StegoShare](http://stegoshare.sourceforge.net/) -> [Steghide](https://github.com/StefanoDeVuono/steghide) -> [SNOW](http://www.darkside.com.au/snow/) -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
+* __Steganography__: [StegoShare](http://stegoshare.sourceforge.net/) -> [Steghide](https://github.com/StefanoDeVuono/steghide) -> [SNOW (stegsnow)](http://www.darkside.com.au/snow/) -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
 
 ## Programming
 * __Build Automation__: [Gradle](https://github.com/gradle/gradle), [Buildroot](https://github.com/buildroot/buildroot), [Open Build Service](http://openbuildservice.org/) -> [CheckInstall](https://directory.fsf.org/wiki/CheckInstall) -> Autotools ([Automake](https://directory.fsf.org/wiki/Automake), [Autoconf](https://directory.fsf.org/wiki/Autoconf), [Libtool](https://directory.fsf.org/wiki/Libtool)), [GNU make](https://directory.fsf.org/wiki/Make), [Gnulib](https://www.gnu.org/software/gnulib/)
-* __Cache__: Memcached -> EnhanceIO -> dm-cache -> bcache
 * __Code Beautifier__: [UniversalIndentGUI](https://github.com/danblakemore/universal-indent-gui), HTML Tidy
 * __Compiler__: [IcedTea](https://icedtea.classpath.org/wiki/Main_Page) (Java), [GraalVM](https://www.graalvm.org/) (compile multiple languages into JVM), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), [GCC](https://directory.fsf.org/wiki/Gcc)
 * __Compiling Speeding Up__: [distcc](https://github.com/distcc/distcc), [ccache](https://github.com/ccache/ccache)
@@ -584,6 +583,7 @@ Most apps are from F-Droid, we are just starting.
 ## System Tools
 * __BIOS__: Coreboot -> [Libreboot](https://libreboot.org/)
 * __[Boot Loader](https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md)__: GRUB 2 -> GRUB Legacy -> [SYSLINUX](http://www.syslinux.org/wiki/index.php?title=The_Syslinux_Project) -> [LILO](https://lilo.alioth.debian.org/) (or [ELILO](https://sourceforge.net/projects/elilo/) for UEFI)
+* __Cache__: Memcached, EnhanceIO -> dm-cache -> bcache
 * __Custom Initramfs__: mkinitcpio -> dracut -> [mkinitramfs](https://github.com/tokiclover/mkinitramfs-ll)
 * __Filesystem__: XFS, Ext4, [JFS](http://jfs.sourceforge.net/), [Reiser4](https://reiser4.wiki.kernel.org/index.php/Main_Page), [Bcachefs](https://github.com/8l/Bcachefs)
 * __Hibernation__: [TuxOnIce](https://github.com/NigelCunningham/tuxonice-kernel) -> [uswsusp](http://suspend.sourceforge.net/)
