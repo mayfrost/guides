@@ -388,7 +388,7 @@ Most apps are from F-Droid, we are just starting.
 * __Web Apps__: [Mutillidae](https://sourceforge.net/projects/mutillidae/) -> [hackxor](http://hackxor.net/) -> [WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
 
 ### Network Scanner
-* __DNS Client__: [whois](https://github.com/rfc1036/whois), bind-tools (nslookup, host, dig), [dnsenum](https://github.com/fwaeytens/dnsenum), [dnstracer](https://directory.fsf.org/wiki/Dnstracer)
+* __DNS Client__: [whois](https://github.com/rfc1036/whois), [dnsenum](https://github.com/fwaeytens/dnsenum), [dnstracer](https://directory.fsf.org/wiki/Dnstracer), bind-tools (nslookup, host, dig)
 * __Link Scanner__: [Metagoofil](https://github.com/laramies/metagoofil) -> [Linklint](http://www.linklint.org/) (+ [linklint2dot](http://www.deltadevelopment.de/users/christoph/linklint2dot/))
 * __Network Enumeration__: [SSLScan](https://github.com/rbsec/sslscan), [p0f](https://github.com/p0f/p0f), [PRADS](https://gamelinux.github.io/prads/)
 * __Network File Retrieval__: [Driftnet](https://github.com/deiv/driftnet) -> [tcpxtract](http://tcpxtract.sourceforge.net/)
