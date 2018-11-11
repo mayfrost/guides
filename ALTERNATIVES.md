@@ -245,7 +245,8 @@ Most apps are from F-Droid, we are just starting.
 * __Drive Profiling__: Smartmontools -> hdparm
 * __Filesystem Benchmark__: [Bonnie++](https://www.coker.com.au/bonnie++/) -> [MBW](https://github.com/raas/mbw)
 * __General Benchmarking__: [HPC Challenge Benchmark (hpcc)](http://icl.cs.utk.edu/hpcc/) -> [Sysbench](https://github.com/akopytov/sysbench)
-* __Network Profiling__: [net-snmp](http://net-snmp.sourceforge.net/) + [weathermap4rrd](http://weathermap4rrd.tropicalex.net/) -> [vnStat](https://github.com/vergoh/vnstat) -> [iperf](http://software.es.net/iperf/)
+* __Network Data Visualization__: [weathermap4rrd](http://weathermap4rrd.tropicalex.net/) (rrd) -> [Xtract](https://sourceforge.net/projects/netxtract/) (pcap)
+* __Network Profiling__: [net-snmp](http://net-snmp.sourceforge.net/) -> [vnStat](https://github.com/vergoh/vnstat) -> [iperf](http://software.es.net/iperf/)
 * __Server Benchmark__: [Siege](https://github.com/JoeDog/siege)
 * __System Tracing__: [strace](https://github.com/strace/strace) -> [trace-cmd](https://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git) (ftrace) -> perf
 
@@ -391,7 +392,7 @@ Most apps are from F-Droid, we are just starting.
 * __Link Scanner__: [Metagoofil](https://github.com/laramies/metagoofil) -> [Linklint](http://www.linklint.org/) (+ [linklint2dot](http://www.deltadevelopment.de/users/christoph/linklint2dot/))
 * __Network Enumeration__: [SSLScan](https://github.com/rbsec/sslscan), [p0f](https://github.com/p0f/p0f), [PRADS](https://gamelinux.github.io/prads/)
 * __Network File Retrieval__: [Driftnet](https://github.com/deiv/driftnet) -> [tcpxtract](http://tcpxtract.sourceforge.net/)
-* __Network Mapping__: [Open Visual Traceroute](http://visualtraceroute.net/) -> [EtherApe](http://etherape.sourceforge.net/) -> [Xtract](https://sourceforge.net/projects/netxtract/) -> [Paris Traceroute](https://github.com/libparistraceroute/libparistraceroute) -> [MTR](https://www.bitwizard.nl/mtr/) -> iputils (Ping, traceroute, tracepath, arping)
+* __Network Mapping__: [Open Visual Traceroute](http://visualtraceroute.net/) -> [EtherApe](http://etherape.sourceforge.net/) -> [Paris Traceroute](https://github.com/libparistraceroute/libparistraceroute) -> [Dublin Traceroute](https://github.com/insomniacslk/dublin-traceroute) -> [MTR](https://www.bitwizard.nl/mtr/) -> [tcptraceroute](https://directory.fsf.org/wiki/Tcptraceroute) -> iputils (Ping, traceroute, tracepath, arping)
 * __OSINT__: [Creepy](https://github.com/ilektrojohn/creepy) -> [Netglub](http://www.netglub.org/)
 * __Packet Sniffer__: [tcpflow](https://directory.fsf.org/wiki/Tcpflow) -> [Tshark (Wireshark TUI)](https://github.com/wireshark/wireshark) -> [tcpdump](https://directory.fsf.org/wiki/Tcpdump)
 * __Reconnaissance Framework__: [dsniff](https://www.monkey.org/~dugsong/dsniff/) (urlsnarf, filesnarf, webspy, Tcpkill, macof, arpspoof) -> [Nmap](https://nmap.org/) -> [ngrep](https://github.com/jpr5/ngrep/)
