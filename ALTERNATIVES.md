@@ -499,7 +499,7 @@ Most apps are from F-Droid, we are just starting.
 ### Containment
 * __Access Control__: SELinux -> Smack -> AppArmor + [RSBAC](https://www.rsbac.org/)
 * __Authentication__: Polkit/ConsoleKit -> FakeRoot -> Sudo (visudo) -> Linux PAM
-* __Resource Usage Control__: [Disk Quota](https://sourceforge.net/projects/linuxquota/) -> [quotatool](https://github.com/ekenberg/quotatool), ulimit, [cpulimit](https://github.com/opsengine/cpulimit)
+* __Resource Usage Control__: [Disk Quota](https://sourceforge.net/projects/linuxquota/) -> [quotatool](https://github.com/ekenberg/quotatool), ulimit (Bash), [cpulimit](https://github.com/opsengine/cpulimit)
 * __Sandboxing__: [Firejail](https://github.com/netblue30/firejail) -> [Bubblewrap](https://github.com/projectatomic/bubblewrap)
 
 ### Honeypots
@@ -529,7 +529,7 @@ Most apps are from F-Droid, we are just starting.
 * __BBS Server__: [Citadel](http://www.citadel.org/doku.php) -> Synchronet -> [Mystic BBS](http://www.tinysbbs.com/files/prog/MSRC20B3.ZIP) -> [BBS100](https://directory.fsf.org/wiki/Bbs100)
 * __Blog__: finger / [cfingerd](https://github.com/pld-linux/cfingerd)
 * __Captcha__: [cool-php-captcha](https://github.com/josecl/cool-php-captcha)
-* __Chat__:  [sshtalk](https://2ton.com.au/sshtalk/) -> [write, wall, mesg](http://www.unixpapa.com/write.html)
+* __Chat__:  [sshtalk](https://2ton.com.au/sshtalk/) -> util-linux (write, wall, mesg)
 * __CMS__: WordPress -> [GetSimple CMS](https://github.com/GetSimpleCMS/GetSimpleCMS) -> [werc](http://werc.cat-v.org/)
 * __Collaborative Real-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
 * __Direct Connect Server__: [uhub](https://www.uhub.org/)
