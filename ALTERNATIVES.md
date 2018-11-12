@@ -270,7 +270,7 @@ Most apps are from F-Droid, we are just starting.
 * __Process Monitoring__: [lsof](https://people.freebsd.org/~abe/), [PSmisc](https://directory.fsf.org/wiki/Psmisc) (fuser, pkill, pstree)
 * __Serial Monitoring__: [ttylog](https://github.com/rocasa/ttylog) -> [slsnif](https://github.com/aeruder/slsnif)
 * __System Latency__: [LatencyTOP](https://github.com/namhyung/latencytop)
-* __System Monitor__: gnome-system-monitor -> [psDooM](https://github.com/keymon/psdoom-ng) -> Conky -> htop -> [nmon](http://nmon.sourceforge.net/pmwiki.php) -> procinfo -> [Sysstat](https://directory.fsf.org/wiki/Sysstat) (sar, mpstat, pidstat, iostat, sadf) -> [procps](https://directory.fsf.org/wiki/Procps) (ps, free, vmstat, top, pmap, nice)
+* __System Monitor__: gnome-system-monitor -> [psDooM](https://github.com/keymon/psdoom-ng) -> Conky -> atop -> htop -> [nmon](http://nmon.sourceforge.net/pmwiki.php) -> procinfo -> [Sysstat](https://directory.fsf.org/wiki/Sysstat) (sar, mpstat, pidstat, iostat, sadf) -> [procps](https://directory.fsf.org/wiki/Procps) (ps, free, vmstat, top, pmap, nice)
 * __User Monitoring__: [wuzzah](https://www.cs.swarthmore.edu/~finney/proj/wuzzah/) -> [Whowatch](https://github.com/mtsuszycki/whowatch/) -> [acct](http://savannah.gnu.org/projects/acct/)
 * __Web Log Analytics__: [AWStats](http://www.awstats.org/) -> [W3Perl](http://www.w3perl.com/) -> [Analog](http://www.web42.com/analog/) -> [pmacct](https://github.com/pmacct/pmacct)
 * __Web State Monitor__: Nagios (+ NagVis) -> [sysmon](https://web.archive.org/web/20070602050243/http://pubpages.unh.edu/~pas/hacks/sysmon/)
