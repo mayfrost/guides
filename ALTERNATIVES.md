@@ -219,7 +219,7 @@ Most apps are from F-Droid, we are just starting.
 * __File Scraper__: megatools (Mega) -> [Grive2](https://github.com/vitalif/grive2) (Google Drive) -> [Rclone](https://github.com/ncw/rclone) -> [Plowshare](https://github.com/mcrapet/plowshare)
 * __FTP Client__: FileZilla -> [lftp](https://github.com/lavv17/lftp)
 * __LAN Sharing__: NitroShare -> Dukto
-* __Media Center__: Plex -> Emby -> Popcorn Time -> Kodi ("XBMC", + Sonarr)
+* __Media Center__: Plex -> Emby -> Popcorn Time -> Kodi ("XBMC", + Sonarr) -> [LittleWeeb](https://littleweeb.github.io/)
 * __Media Miner__: FlexGet -> [Sonarr](https://github.com/Sonarr/Sonarr)
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> Wget
 * __Soulseek__: Nicotine Plus -> [Museek (mucous)](https://museek-plus.org/)
