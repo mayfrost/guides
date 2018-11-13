@@ -177,6 +177,7 @@ Most apps are from F-Droid, we are just starting.
 * __Containers__: chroot -> LXC -> [Linux-VServer](http://linux-vserver.org/Welcome_to_Linux-VServer.org)
 * __Emulators__: Windows: Wine (+ [Wine Staging](https://github.com/wine-compholio/wine-staging)), Android: [Anbox](https://github.com/anbox/anbox), OS X: [Darling](https://www.darlinghq.org/), Atari: [Hatari](http://hatari.tuxfamily.org/), Commodore: [VICE](http://vice-emu.sourceforge.net/), DOS: DOSBox
 * __Hypervisors__: Xen -> [NOVA](http://hypervisor.org/) -> KVM
+* __Multiplexer Wrappers__: [pam_wrapper](https://cwrap.org/pam_wrapper.html), [resolv_wrapper](https://cwrap.org/resolv_wrapper.html), [uid_wrapper](https://cwrap.org/uid_wrapper.html), [nss_wrapper](https://cwrap.org/nss_wrapper.html), [socket_wrapper](https://cwrap.org/socket_wrapper.html)
 * __Network Virtualization__: GNS3 -> [nsnam](https://github.com/nsnam/ns-3-dev-git)
 * __Software Compatibility__: .NET: DotGNU -> Mono, Systemd/Linux: [systemd-shim](https://directory.fsf.org/wiki/Systemd-shim)
 * __Video Game Console Emulation (ATARI)__: [Stella](https://stella-emu.github.io/)
@@ -555,9 +556,9 @@ Most apps are from F-Droid, we are just starting.
 * __Paint chat__: [Drawpile](https://github.com/drawpile/Drawpile) -> [Collab](https://github.com/MoonGames/collab-desktop)
 * __Pastebin__: Stikked -> Paste -> [PrivateBin](https://github.com/PrivateBin/PrivateBin)
 * __Political__: [LittleSis](https://github.com/public-accountability/littlesis-rails), [Loomio](https://github.com/loomio/loomio)
-* __Port Tunnel__: [stunnel](https://www.stunnel.org/) -> [knockd](https://github.com/jvinet/knock)
+* __Port Tunnel__: [stunnel](https://www.stunnel.org/) -> [sslh](https://github.com/yrutschle/sslh)
 * __Proxy Server__: [Tinyproxy](https://tinyproxy.github.io/)
-* __Service Manager__: [sslh](https://github.com/yrutschle/sslh), [xinetd](https://github.com/xinetd-org/xinetd), [TCP Wrappers](https://github.com/pexip/os-tcp-wrappers) (tcpd, tcpdchk)
+* __Service Manager__: [xinetd](https://github.com/xinetd-org/xinetd) -> [knockd](https://github.com/jvinet/knock), [TCP Wrappers](https://github.com/pexip/os-tcp-wrappers) (tcpd, tcpdchk)
 * __Streaming__: [Peerflix](https://github.com/mafintosh/peerflix) (+ [Torrentflix](https://github.com/ItzBlitz98/torrentflix)) -> [Libresonic](https://github.com/Libresonic/libresonic) -> [Syncplay](https://github.com/Syncplay/syncplay) -> [VLC](https://www.howtogeek.com/118075/how-to-stream-videos-and-music-over-the-network-using-vlc/) -> [FFmpeg](https://gist.github.com/olasd/9841772)
 * __Torrent Tracker__: [Ocelot](https://github.com/whatcd/ocelot) -> [Gazelle](https://github.com/WhatCD/Gazelle)
 * __Tunneling__: [ProxyChains](https://github.com/rofl0r/proxychains-ng) -> [VPNEncap](https://github.com/whussup/vpnencap) -> [VPNCHAINS](https://sourceforge.net/p/vpnchains/wiki/Home/)
