@@ -175,7 +175,7 @@ Most apps are from F-Droid, we are just starting.
 
 ## Emulation And Virtualization
 * __Containers__: chroot -> LXC -> [Linux-VServer](http://linux-vserver.org/Welcome_to_Linux-VServer.org)
-* __Emulators__: Windows: Wine (+ [Wine Staging](https://github.com/wine-compholio/wine-staging)), Android: [Anbox](https://github.com/anbox/anbox), OS X: [Darling](https://www.darlinghq.org/), Atari: [Hatari](http://hatari.tuxfamily.org/), Commodore: [VICE](http://vice-emu.sourceforge.net/), DOS: DOSBox
+* __Emulators__: Windows: Wine (+ [Wine Staging](https://github.com/wine-compholio/wine-staging)), Android: [Anbox](https://github.com/anbox/anbox), OS X: [Darling](https://www.darlinghq.org/), Atari: [Hatari](http://hatari.tuxfamily.org/) (16/32-bit) and [Atari800](https://atari800.github.io/) (8-bit), Commodore: [VICE](http://vice-emu.sourceforge.net/), DOS: DOSBox
 * __Hypervisors__: Xen -> [NOVA](http://hypervisor.org/) -> KVM
 * __Multiplexer Wrappers__: [pam_wrapper](https://cwrap.org/pam_wrapper.html), [resolv_wrapper](https://cwrap.org/resolv_wrapper.html), [uid_wrapper](https://cwrap.org/uid_wrapper.html), [nss_wrapper](https://cwrap.org/nss_wrapper.html), [socket_wrapper](https://cwrap.org/socket_wrapper.html)
 * __Network Virtualization__: GNS3 -> [nsnam](https://github.com/nsnam/ns-3-dev-git)
