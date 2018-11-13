@@ -464,7 +464,7 @@ Most apps are from F-Droid, we are just starting.
 * __PC-Mobile Connection__: KDE Connect -> Wammu -> BitPim -> AndroidTools
 * __Remote Desktop Client__: rdesktop -> Remmina -> [fbvnc](https://github.com/zohead/fbvnc)
 * __Remote Desktop Server__: [xrdp](https://github.com/neutrinolabs/xrdp)
-* __Remote Execution__: [pconsole](https://github.com/walterdejong/pconsole)
+* __Remote Execution__: [pconsole](https://github.com/walterdejong/pconsole) -> [DSH](https://www.netfort.gr.jp/~dancer/software/dsh.html.en)
 * __Remote File Manager__: [KodExplorer](https://github.com/kalcaddle/KodExplorer)
 * __Remote Login__: Mosh -> OpenSSH -> [lsh](https://directory.fsf.org/wiki/Lsh)
 * __Remote X Apps__: Xpra > X11 forwarding
