@@ -343,7 +343,7 @@ Most apps are from F-Droid, we are just starting.
 * __MAC Manipulation__: [GNU MAC Changer (macchanger)](https://github.com/alobbs/macchanger)
 * __Network Encryption__: OpenSSL -> [LibreSSL](https://directory.fsf.org/wiki/Libressl) -> GnuTLS -> IPsec / [SAE](https://github.com/cozybit/authsae) (802.11s)
 * __Network Manager__: Wicd -> NetworkManager -> ConnMan -> [SetNet](http://kalos.mine.nu/setnet/)
-* __Networking Tools__: iproute2 (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (ifconfig, netstat)
+* __Networking Tools__: [ethtool](https://mirrors.edge.kernel.org/pub/software/network/ethtool/), iproute2 (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (ifconfig, netstat)
 * __Wireless Tools__: [Wireless Tools for Linux](https://hewlettpackard.github.io/wireless-tools/Tools.html), [wpa_supplicant](https://w1.fi/wpa_supplicant/)
 
 ## Office
