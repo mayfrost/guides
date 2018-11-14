@@ -135,6 +135,7 @@ What to listen when you are compiling software or surfing the cyberspace.
 [Crystal Castles - CHILD I WILL HURT YOU](https://www.youtube.com/watch?v=aF066LKdiMQ)  
 [Crystal Castles - KEROSENE](https://www.youtube.com/watch?v=sS9oyOsr7Ns)  
 [Crystal Castles - Violent Dreams](https://www.youtube.com/watch?v=E6QRSiF4frs)  
+[Crystal Castles - Kept (Long Trip)](https://www.youtube.com/watch?v=g9fduGlZ6G0)  
 [Yeah Yeah Yeahs - Zero](https://www.youtube.com/watch?v=pmGNo8RL5kM)  
 [Yeah Yeah Yeahs - Heads Will Roll](https://www.youtube.com/watch?v=auzfTPp4moA)  
 [Nine Inch Nails - Closer](https://www.youtube.com/watch?v=PTFwQP86BRs)  
