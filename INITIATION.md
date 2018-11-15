@@ -94,10 +94,10 @@ mount /dev/sda1 /mnt/boot/efi
 Don't forget to create and mount the extra directories in the case you had created them.
 
 ## SETUP
-* On __CRUX__ run "_setup_", select core, and say yes when you're asked to select individual packages.  
+* On __CRUX__ run "_setup_" and say yes when you're asked to select individual packages. Pre-selecting all of the core repo is advised.  
 `setup`  
-* On __CRUX__ "_setup_", if on "__UEFI__" select "_grub2-efi_" (if using GRUB 2), "_efibootmgr_", and "_elfutils_" from opt, and de-select LILO from core.  
-* On __CRUX__ "_setup_", if using "__wireless__" select "_wireless-tools_" and "_linux-firmware_".  
+* On __CRUX__ "_setup_", if on __UEFI__ select "_grub2-efi_" (if using GRUB 2), "_efibootmgr_", and "_elfutils_" from opt, and de-select LILO from core.  
+* On __CRUX__ "_setup_", if using __wireless__ select "_wireless-tools_" and "_linux-firmware_".  
 * On __Source Mage GNU/Linux__ download and uncompress the tarball inside the new root directory.  
 ```  
 cd /mnt
