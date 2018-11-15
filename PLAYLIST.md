@@ -148,6 +148,15 @@ What to listen when you are compiling software or surfing the cyberspace.
 [Bullets - Archive](https://www.youtube.com/watch?v=zoass6XxJwk)  
 [Black Marble - It's Conditional](https://www.youtube.com/watch?v=B17oY6coVxM)  
 [Hibou - Above Us](https://www.youtube.com/watch?v=8V1g-lDc6_E)  
+[Left Boy - Sweet Dreams](https://www.youtube.com/watch?v=I6J-cHG7YSw)  
+[ultraísta- strange formula](ttps://www.youtube.com/watch?v=nfY6RGO9Sh0)  
+[ultraísta- smalltalk](https://www.youtube.com/watch?v=9vRtx8cICvs)  
+[ultraísta- static light](https://www.youtube.com/watch?v=63Qor0R-B00)  
+[ultraísta- bad insect](https://www.youtube.com/watch?v=v45ZHPeANoE)  
+[ultraísta - smalltalk (Four Tet remix)](https://www.youtube.com/watch?v=1bMR83ZI7m8)  
+[ultraísta- our song](https://www.youtube.com/watch?v=psjnWgaM3O4)  
+[ultraísta- gold dayzz](https://www.youtube.com/watch?v=4EvKmU_mZnA)  
+[ultraísta- wash it over](https://www.youtube.com/watch?v=A1SqXNbylKM)  
 
 ## INDUSTRIAL
 [Solitary Experiments - The Dark Inside Me](https://www.youtube.com/watch?v=6IKukIEwG04)  
