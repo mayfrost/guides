@@ -37,7 +37,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 17__: Encrypt your e-mails with GnuPG when possible. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt and Mailx.
 
 ## Medium Level Security
-* __Level 18__: Uninstall network facing services like Avahi (Bonjour), CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, RFC services (D-Bus) and uninstall services if unused like ssh/web/ftp/mail. Also disable IPMI on BIOS.
+* __Level 18__: Uninstall network facing services like Avahi (Bonjour), CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, RPC services (D-Bus) and uninstall services if unused like ssh/web/ftp/mail. Also disable IPMI on BIOS.
 * __Level 19__: Use YaCy with collaborative database disabled when in need to search on the web.
 * __Level 20__: Use the Tor Browser to navigate the internet through Tor.
 * __Level 21__: Use Firejail or Bubblewrap to sandbox your applications.
