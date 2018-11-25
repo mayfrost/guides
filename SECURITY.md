@@ -37,7 +37,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 17__: Encrypt your e-mails with GnuPG when possible. Thunderbird has the Enigmail plugin for this, you can script the use of GPG on Mutt and Mailx.
 
 ## Medium Level Security
-* __Level 18__: Uninstall network facing services like Avahi (Bonjour), CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, RPC services (D-Bus) and uninstall services if unused like ssh/web/ftp/mail. Also disable IPMI on BIOS.
+* __Level 18__: Uninstall network facing services like Avahi (Bonjour), CUPS (replace with Line Printer if needed), Telnet, the R-tools (rlogin, rsh, rcp, rwho, rexec), fingerd, RPC services (D-Bus and rpcbind) and uninstall services if unused like ssh/web/ftp/mail. Also disable IPMI on BIOS.
 * __Level 19__: Use YaCy with collaborative database disabled when in need to search on the web.
 * __Level 20__: Use the Tor Browser to navigate the internet through Tor.
 * __Level 21__: Use Firejail or Bubblewrap to sandbox your applications.
@@ -78,7 +78,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 48__: Use only libre software (software "free as in freedom").
 * __Level 49__: Reduce the amount of software installed in your computer.
 * __Level 50__: Opt for text-based programs with less library dependencies than their GUI counterparts.
-* __Level 51__: Support the GPL license as to prevent proprietary license wrapping (as with BSD/MIT/Apache licenses). GPLv3 in specific to prevent tivoization, a hardware level lockout method.
+* __Level 51__: Support the GPL license as to prevent proprietary license wrapping (as with BSD/MIT/Apache licenses) by which you would lose critical updates and further features. GPLv3 in specific to prevent tivoization, a hardware level lockout method.
 * __Level 52__: Deduplicate efforts and converge strategies to achieve a "tight base system" in common (use the koan "if is not strictly necessary it should be strictly optional, but still optional"), and that means making things modular and avoiding unnecessary dependencies instead of trusting "crypto libraries" like in Python.
 
 ## Exit Level Security
