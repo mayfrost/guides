@@ -78,7 +78,7 @@ Not necessarily meant to be followed step by step, although it is recommended. S
 * __Level 48__: Use only libre software (software "free as in freedom").
 * __Level 49__: Reduce the amount of software installed in your computer.
 * __Level 50__: Opt for text-based programs with less library dependencies than their GUI counterparts.
-* __Level 51__: Support the GPL license as to prevent proprietary license wrapping (as with BSD/MIT/Apache licenses) by which you would lose critical updates and further features. GPLv3 in specific to prevent tivoization, a hardware level lockout method.
+* __Level 51__: Support the GPL license as to prevent proprietary license wrapping (as with BSD/MIT/Apache licenses) by which you would lose critical updates and further features. GPLv3 also prevents tivoization, a hardware level lockout method.
 * __Level 52__: Deduplicate efforts and converge strategies to achieve a "tight base system" in common (use the koan "if is not strictly necessary it should be strictly optional, but still optional"), and that means making things modular and avoiding unnecessary dependencies instead of trusting "crypto libraries" like in Python.
 
 ## Exit Level Security
