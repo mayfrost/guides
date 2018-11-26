@@ -149,7 +149,7 @@ What to listen when you are compiling software or surfing the cyberspace.
 [Black Marble - It's Conditional](https://www.youtube.com/watch?v=B17oY6coVxM)  
 [Hibou - Above Us](https://www.youtube.com/watch?v=8V1g-lDc6_E)  
 [Left Boy - Sweet Dreams](https://www.youtube.com/watch?v=I6J-cHG7YSw)  
-[ultraísta- strange formula](ttps://www.youtube.com/watch?v=nfY6RGO9Sh0)  
+[ultraísta- strange formula](https://www.youtube.com/watch?v=nfY6RGO9Sh0)  
 [ultraísta- smalltalk](https://www.youtube.com/watch?v=9vRtx8cICvs)  
 [ultraísta- static light](https://www.youtube.com/watch?v=63Qor0R-B00)  
 [ultraísta- bad insect](https://www.youtube.com/watch?v=v45ZHPeANoE)  
@@ -383,6 +383,7 @@ What to listen when you are compiling software or surfing the cyberspace.
 [Killing Joke - Eighties](https://www.youtube.com/watch?v=x1U1Ue_5kq8)  
 [Pitch shifter - Genius](https://www.youtube.com/watch?v=cC1ps3nrByk)  
 [Tool - Right in Two](https://www.youtube.com/watch?v=fj-10lIrboM)  
+[Greta Van Fleet - When The Curtain Falls](https://www.youtube.com/watch?v=86_vnQc1oBE)  
 
 ## SYNTHWAVE
 [† Carpenter Brut † TURBO KILLER](https://www.youtube.com/watch?v=er416Ad3R1g)  
