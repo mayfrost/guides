@@ -311,6 +311,8 @@ What to listen when you are compiling software or surfing the cyberspace.
 [Infected Mushroom - IM The Supervisor](https://www.youtube.com/watch?v=Grrx2IHHIn8)  
 [Infected Mushroom - Muse Break Rmx](https://www.youtube.com/watch?v=fBfQbXaNVHM)  
 [Visck x Obscure - Distortion ( Dark Trap Beat )](https://www.youtube.com/watch?v=8LnG6euN4Vg)  
+[Hyper - Spoiler﻿](https://www.youtube.com/watch?v=TaZjsrWo10Y)  
+[Strictures - Digitorium](https://www.youtube.com/watch?v=zaphlzlVBKs)  
 
 ## PUNK ROCK
 [Atari Teenage Riot - "Revolution Action"](https://www.youtube.com/watch?v=i8JBUktSxvQ)  
