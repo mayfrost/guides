@@ -253,7 +253,7 @@ Most apps are from F-Droid, we are just starting.
 
 ### System Information
 * __General Information__: [inxi](https://smxi.org/docs/inxi.htm)
-* __Screenshot Information__: [Linux_Logo](https://github.com/KittyKatt/screenFetch) -> [Neofetch](https://github.com/dylanaraps/neofetch) -> [screenFetch](https://github.com/KittyKatt/screenFetch)
+* __Screenshot Information__: [Linux_Logo](https://github.com/deater/linux_logo) -> [Neofetch](https://github.com/dylanaraps/neofetch) -> [screenFetch](https://github.com/KittyKatt/screenFetch)
 * __Hardware Information__: [lshw](https://github.com/lyonel/lshw) -> [hwloc](https://www.open-mpi.org/projects/hwloc/) -> [usbutils (lsusb)](https://github.com/gregkh/usbutils) -> [pciutils (lspci)](http://mj.ucw.cz/sw/pciutils/) -> util-linux (lsblk, blkid, dmesg) -> [acpitool](https://directory.fsf.org/wiki/AcpiTool) [dmidecode](http://dmidecode.nongnu.org/)
 * __Software Information__: [vrms](https://github.com/z411/vrms-gentoo) -> file -> ldd -> lsb_release -> uname
 
