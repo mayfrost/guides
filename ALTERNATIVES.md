@@ -166,20 +166,20 @@ Most apps are from F-Droid, we are just starting.
 * __Wiki__: [ikiwiki](https://ikiwiki.info/tips/distributed_wikis/)
 
 ## Emulation And Virtualization
-* __Containers__: chroot -> LXC -> [Linux-VServer](http://linux-vserver.org/Welcome_to_Linux-VServer.org)
-* __Emulators__: Windows: Wine (+ [Wine Staging](https://github.com/wine-compholio/wine-staging)), Android: [Anbox](https://github.com/anbox/anbox), OS X: [Darling](https://www.darlinghq.org/), Atari: [Hatari](http://hatari.tuxfamily.org/) (16/32-bit) and [Atari800](https://atari800.github.io/) (8-bit), Commodore: [VICE](http://vice-emu.sourceforge.net/), DOS: DOSBox
+* __Containers__: sandbox -> fakechroot -> FakeRoot -> PRoot -> chroot -> containerd -> OpenVZ -> User-mode Linux (UML) -> LXC -> [Linux-VServer](http://linux-vserver.org/Welcome_to_Linux-VServer.org) -> containers
+* __Emulators__: Systemd/Linux: [systemd-shim](https://directory.fsf.org/wiki/Systemd-shim), Windows: Wine (+ [Wine Staging](https://github.com/wine-compholio/wine-staging)), Android: [Anbox](https://github.com/anbox/anbox), OS X: [Darling](https://www.darlinghq.org/), Atari: [Hatari](http://hatari.tuxfamily.org/) (16/32-bit) and [Atari800](https://atari800.github.io/) (8-bit), CP/M: cpm (+ cpmtool), Spectrum: FBZX, Commodore: [VICE](http://vice-emu.sourceforge.net/), DOS: DOSBox
 * __Hypervisors__: Xen -> [NOVA](http://hypervisor.org/) -> KVM
 * __Multiplexer Wrappers__: [pam_wrapper](https://cwrap.org/pam_wrapper.html), [resolv_wrapper](https://cwrap.org/resolv_wrapper.html), [uid_wrapper](https://cwrap.org/uid_wrapper.html), [nss_wrapper](https://cwrap.org/nss_wrapper.html), [socket_wrapper](https://cwrap.org/socket_wrapper.html)
 * __Network Virtualization__: GNS3 -> [nsnam](https://github.com/nsnam/ns-3-dev-git)
-* __Software Compatibility__: .NET: DotGNU -> Mono, Systemd/Linux: [systemd-shim](https://directory.fsf.org/wiki/Systemd-shim)
 * __Video Game Console Emulation (ATARI)__: [Stella](https://stella-emu.github.io/)
 * __Video Game Console Emulation (XBOX)__: [XQEMU](https://github.com/espes/xqemu)
-* __Video Game Console Emulation (MULTI)__: Higan -> Mednafen -> RetroArch -> [MAME](https://github.com/mamedev/mame) -> [AdvanceMAME](https://github.com/amadvance/advancemame) [(framebuffer support)](https://forum.odroid.com/viewtopic.php?f=116&t=11662)
-* __Video Game Console Emulation (NINTENDO)__: [DeSmuME (Nintendo DS)](https://github.com/TASVideos/desmume/), [Mupen64Plus (Nintendo 64)](https://github.com/mupen64plus/mupen64plus-core), [Dolphin (GameCube and Wii)](https://dolphin-emu.org/)
-* __Video Game Console Emulation (SEGA)__: [Yabause (Sega Saturn)](https://github.com/Yabause/yabause), [Reicast (Dreamcast)](https://github.com/reicast/reicast-emulator)
+* __Video Game Console Emulation (MULTIPLE)__: Higan -> Mednafen -> RetroArch -> [MAME](https://github.com/mamedev/mame) -> [AdvanceMAME](https://github.com/amadvance/advancemame) [(framebuffer support)](https://forum.odroid.com/viewtopic.php?f=116&t=11662)
+* __Video Game Console Emulation (NINTENDO)__: FCEUX/Citra, [DeSmuME (Nintendo DS)](https://github.com/TASVideos/desmume/), [Mupen64Plus (Nintendo 64)](https://github.com/mupen64plus/mupen64plus-core), [Dolphin (GameCube and Wii)](https://dolphin-emu.org/)
+* __Video Game Console Emulation (SCUMM)__: ScummVM
+* __Video Game Console Emulation (SEGA)__: Gens/GS, Exodus, [Yabause (Sega Saturn)](https://github.com/Yabause/yabause), Lxdream, [Reicast (Dreamcast)](https://github.com/reicast/reicast-emulator)
 * __Video Game Console Emulation (PLAYSTATION)__: [PPSSPP](https://github.com/hrydgard/ppsspp), [RPCS3](https://github.com/rpcs3/rpcs3/), [PCSX2](https://github.com/PCSX2/pcsx2)
 * __Virtual Assembler__: [GNUSim8085](http://pages.cs.wisc.edu/~larus/spim.html), [spim](http://pages.cs.wisc.edu/~larus/spim.html)
-* __Virtual Machine__: VirtualBox -> [AQEMU](https://github.com/tobimensch/aqemu) + kvm -> Qemu + kvm
+* __Virtual Machine__: VirtualBox -> [AQEMU](https://github.com/tobimensch/aqemu) + kvm -> Qemu + kvm -> Bochs
 * __Virtual Machine (IBM Mainframes)__: [Hercules](http://www.hercules-390.org/)
 * __Virtual Machine (DEC)__: [SIMH](http://simh.trailing-edge.com/)
 
