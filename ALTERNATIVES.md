@@ -1,8 +1,10 @@
 # ALTERNATIVES TO BLOATWARE
 
-The list is built pointing to software that have alternatives with less dependencies, and addressing dependencies was the easy thing to do. One thing tho, some particular tools were included because they add less dependencies overall while keeping a system functional. One such example is imagemagick and ffmpeg, by which you can do a lot of work and replace many tools by just using those with scripts and replace something like a screenshot utility. TL;DR is about the unix principle and you can have a fully functional system pretty damn minimal with that.
+The list is built pointing to software that has alternatives with less dependencies, and addressing dependencies was the easy thing. Some tools in particular were included because they add less dependencies overall while keeping a system functional. One such example is imagemagick and ffmpeg, by which you can do a lot of work and replace many tools by just using those with scripts and replace something like a screenshot utility. However, a new revision now includes software that was previously discarded for better comparison and featured recommendations will now be highlight by hyperlinks.
 
-Certainly it would be great to have a comparative on resource usage tho. Wanna help?
+TL;DR: is about the unix principle, having a fully functional system pretty damn minimal with that. Focus on the alternatives with hyperlinks if you want the best suggestions.
+
+Certainly it would be great to have a comparative on resource usage. Want to help?
 
 
 ## TOC
@@ -10,11 +12,10 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 2. [Command Line](#command-line)  
 3. [Communication](#communication)  
 3.1. [Desktop Client](#desktop-client)  
+8. [Data](#data)  
 4. [Decentralized Networking](#decentralized-networking)  
-5. [Desktop](#desktop)  
 6. [Disk Tools](#disk-tools)  
 7. [Emulation And Virtualization](#emulation-and-virtualization)  
-8. [Enterprise](#enterprise)  
 9. [File Utilities](#file-utilities)  
 10. [Filesharing](#filesharing)  
 11. [Forensics](#forensics)  
@@ -48,7 +49,8 @@ Certainly it would be great to have a comparative on resource usage tho. Wanna h
 22.4. [Network Intrusion](#network-intrusion)  
 23. [Server](#server)  
 23.1. [Server Authentication](#server-authentication)  
-24. [System Tools](#system-tools)  
+24. [System Utilities](#system-utilities)  
+5. [X Desktop](#x-desktop)  
 
 
 ## ANDROID APPS
@@ -112,6 +114,19 @@ Most apps are from F-Droid, we are just starting.
 * __Twitter__: [Hotot](https://github.com/lyricat/Hotot) -> [oysttyer](https://github.com/oysttyer/oysttyer)
 * __Youtube__: [youtube-viewer](https://github.com/trizen/youtube-viewer)
 
+## Data
+* __Data Mining and Business Intelligence__: [JasperReports](https://sourceforge.net/projects/jasperserver/) -> [KNIME](https://directory.fsf.org/wiki/KNIME) -> [GNU Ferret](https://directory.fsf.org/wiki/Ferret) -> [GURGLE](https://directory.fsf.org/wiki/Gurgle)
+* __Database (Datalog)__: [Datalog Educational System](http://des.sourceforge.net/), [Datalog](http://datalog.sourceforge.net/)
+* __Database (Middleware)__: MySQL Workbench -> [Virtuoso Universal Server](https://virtuoso.openlinksw.com/) -> [Orbada](http://orbada.sourceforge.net/html/www_orbada_doc.html) -> [Autotable](https://directory.fsf.org/wiki/Autotable)
+* __Database (NoSQL)__: [GZigZag](http://www.nongnu.org/gzz/), [RRDtool](https://oss.oetiker.ch/rrdtool/), [Dgraphhttps://github.com/dgraph-io/dgraph](), [Redis](https://directory.fsf.org/wiki/Redis), [GNU Recutils](https://directory.fsf.org/wiki/Recutils)
+* __Database (SQL)__: MySQL -> Percona -> [MariaDB](https://directory.fsf.org/wiki/MariaDB) -> [CUBRID](https://github.com/CUBRID/cubrid) -> [Ingres II](https://github.com/fosslc/Ingres)
+* __Enterprise Resource Planning (ERP)__: [IDempiere](http://www.idempiere.org/) -> [LedgerSMB](https://directory.fsf.org/wiki/LedgerSMB) -> [SQL-Ledger](http://www.sql-ledger.com/)
+* __Expert System__: [Flora-2](http://flora.sourceforge.net/), [CLIPS](http://clipsrules.sourceforge.net/)
+* __Financial Markets Monitoring__: [JStock](https://github.com/yccheok/jstock) -> [QtTrader](https://github.com/e99majo/qttrader) -> [Qtstalker](http://qtstalker.sourceforge.net/)
+* __Human Resource Management__: [OrangeHRM](https://github.com/turnkeylinux-apps/orangehrm)
+* __Invoicing__: [Simple Invoices](https://github.com/simpleinvoices/simpleinvoices)
+* __Project Management__: [GanttProject](http://www.ganttproject.biz/)
+
 ## Decentralized Networking
 * __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> [nircd](https://github.com/Ronsor/nircd)
 * __Darknet__: [autovpn](https://github.com/adtac/autovpn) -> Tor -> [AnoNet](http://anonet.org/) -> i2p
@@ -132,36 +147,6 @@ Most apps are from F-Droid, we are just starting.
 * __Version Control (Decentralized Github)__: [GitTorrent](https://github.com/mfyuce/GitTorrent)
 * __VPN__:  [PeerVPN](https://github.com/peervpn/peervpn)
 * __Wiki__: [ikiwiki](https://ikiwiki.info/tips/distributed_wikis/)
-
-## Desktop
-* __Application Launcher__: rofi -> ratmenu -> [dmenu](https://github.com/stilvoid/dmenu)
-* __Boot Screen__: Plymouth -> Splashy -> Fbsplash -> \<BOOTLOADERS>
-* __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> [snippy](https://github.com/gotbletu/shownotes/blob/master/snippy.sh) -> xclip / XSel
-* __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
-* __Cursor__: [keynav](https://github.com/jordansissel/keynav), GPM
-* __Desktop Character__: [Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya) (for [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
-* __Display Color Temperature__: Redshift -> [sct](https://github.com/mgudemann/sct)
-* __Display Settings__: DDCcontrol, xrandr
-* __Graphical Settings__: [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> GSettings -> xsettings
-* __Keybinding__: Xbindkeys -> sxhkd -> loadkeys (+ keymaps)
-* __Keyboard Layout__: XKB -> xmodmap -> loadkeys (+ keymaps)
-* __Login Manager__: SLiM -> [Qingy](http://qingy.sourceforge.net/)
-* __Macro Recorder__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke) -> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
-* __Nested Display__: Xephyr -> Xnest
-* __Notification Daemon__: dunst -> [slstatus](https://github.com/drkhsh/slstatus)
-* __Notification Server__: Libcanberra + Libnotify -> xmessage
-* __Panel__: Avant Window Navigator -> Global Menu -> Tint2
-* __Screensaver__: XScreenSaver -> XLockmore -> i3lock -> [sxlock](https://github.com/lahwaacz/sxlock) -> slock
-* __Status Bar Client__: Dzen -> [bevelbar](https://github.com/vain/bevelbar) -> Lemonbar
-* __Status Bar Server__: monky -> i3status
-* __Animated Wallpaper Changer__: Xphoon, xfireworks, Xsnow, xmountains, Xplanet, ImageMagick (animate)
-* __Still Wallpaper Changer__: FEH -> [hsetroot](https://github.com/elmiko/hsetroot) -> [imagemagick](https://imagemagick.org/discourse-server/viewtopic.php?t=16735) (but use 10MB more RAM than the others)
-* __Terminal As Wallpaper__: [root-tail](http://oldhome.schmorp.de/marc/root-tail.html) -> [xrootconsole](http://silicone.homelinux.org/projects/xrootconsole/)
-* __Video Wallpaper Changer__: mpv -> VLC (nvlc) -> MPlayer
-* __Window Manager__: [FVWM](https://directory.fsf.org/wiki/Fvwm) (+ [FvwmTabs](http://fvwm.sourceforge.net/documentation/manpages/unstable/FvwmTabs.php) and [4dwm theme](https://github.com/tonnerre/fvwm/blob/master/sample.fvwmrc/4Dwm.fvwmrc)) -> IceWM -> i3 -> [s3d](http://s3d.sourceforge.net/) (+ s3dfm, it's a 3D desktop!) -> [Amiwm](https://www.lysator.liu.se/~marcus/amiwm.html) -> [MWM](https://github.com/stackfield/mwm) -> [Ratpoison](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl) -> dwm (+ dwmstatus) -> [FrankenWM](https://github.com/sulami/FrankenWM) -> [TinyWM](http://incise.org/tinywm.html) -> [Twin](https://github.com/cosmos72/twin) -> [VWM](http://vwm.sourceforge.net/)
-* __Window Manipulation__: QuickTile -> wmctrl -> wmutils
-* __Worskpace Pager__: [3D-Desktop](http://desk3d.sourceforge.net/) -> [Skippy-XD](https://github.com/richardgv/skippy-xd)
-* __X Event Display__: xprop -> xwininfo -> xev
 
 ## Disk Tools
 * __CD-DVD Burn and Copy (Backends)__: cdrtools -> cdrkit -> [cdrskin](https://dev.lovelyhq.com/libburnia/web/wikis/cdrskin)
@@ -191,19 +176,6 @@ Most apps are from F-Droid, we are just starting.
 * __Virtual Machine__: VirtualBox -> [AQEMU](https://github.com/tobimensch/aqemu) + kvm -> Qemu + kvm
 * __Virtual Machine (IBM Mainframes)__: [Hercules](http://www.hercules-390.org/)
 * __Virtual Machine (DEC)__: [SIMH](http://simh.trailing-edge.com/)
-
-## Enterprise
-* __Data Mining and Business Intelligence__: [JasperReports](https://sourceforge.net/projects/jasperserver/) -> [KNIME](https://directory.fsf.org/wiki/KNIME) -> [GNU Ferret](https://directory.fsf.org/wiki/Ferret) -> [GURGLE](https://directory.fsf.org/wiki/Gurgle)
-* __Database (Datalog)__: [Datalog Educational System](http://des.sourceforge.net/), [Datalog](http://datalog.sourceforge.net/)
-* __Database (Middleware)__: MySQL Workbench -> [Virtuoso Universal Server](https://virtuoso.openlinksw.com/) -> [Orbada](http://orbada.sourceforge.net/html/www_orbada_doc.html) -> [Autotable](https://directory.fsf.org/wiki/Autotable)
-* __Database (NoSQL)__: [GZigZag](http://www.nongnu.org/gzz/), [RRDtool](https://oss.oetiker.ch/rrdtool/), [Dgraphhttps://github.com/dgraph-io/dgraph](), [Redis](https://directory.fsf.org/wiki/Redis), [GNU Recutils](https://directory.fsf.org/wiki/Recutils)
-* __Database (SQL)__: MySQL -> Percona -> [MariaDB](https://directory.fsf.org/wiki/MariaDB) -> [CUBRID](https://github.com/CUBRID/cubrid) -> [Ingres II](https://github.com/fosslc/Ingres)
-* __Enterprise Resource Planning (ERP)__: [IDempiere](http://www.idempiere.org/) -> [LedgerSMB](https://directory.fsf.org/wiki/LedgerSMB) -> [SQL-Ledger](http://www.sql-ledger.com/)
-* __Expert System__: [Flora-2](http://flora.sourceforge.net/), [CLIPS](http://clipsrules.sourceforge.net/)
-* __Financial Markets Monitoring__: [JStock](https://github.com/yccheok/jstock) -> [QtTrader](https://github.com/e99majo/qttrader) -> [Qtstalker](http://qtstalker.sourceforge.net/)
-* __Human Resource Management__: [OrangeHRM](https://github.com/turnkeylinux-apps/orangehrm)
-* __Invoicing__: [Simple Invoices](https://github.com/simpleinvoices/simpleinvoices)
-* __Project Management__: [GanttProject](http://www.ganttproject.biz/)
 
 ## File Utilities
 * __Batch Renamer__: [GPRename](http://gprename.sourceforge.net/) -> [qmv (renameutils)](http://www.nongnu.org/renameutils/)
@@ -582,7 +554,7 @@ Most apps are from F-Droid, we are just starting.
 * __SSO__: [GNU Shishi](https://www.gnu.org/software/shishi/) (Kerberos)
 * __Suites__: [FreeIPA](https://github.com/freeipa/freeipa) -> [SSSD](https://github.com/SSSD/sssd)
 
-## System Tools
+## System Utilities
 * __BIOS__: Coreboot -> [Libreboot](https://libreboot.org/)
 * __[Boot Loader](https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md)__: GRUB 2 -> GRUB Legacy -> [SYSLINUX](http://www.syslinux.org/wiki/index.php?title=The_Syslinux_Project) -> [LILO](https://lilo.alioth.debian.org/) (or [ELILO](https://sourceforge.net/projects/elilo/) for UEFI)
 * __Cache__: Memcached, EnhanceIO -> dm-cache -> bcache
@@ -599,3 +571,33 @@ Most apps are from F-Droid, we are just starting.
 * __Settings Manager__: [Linux Lite Control Center](https://github.com/linuxlite/litecontrolcenter) -> [Elektra](https://github.com/ElektraInitiative/libelektra) -> [Augeas](https://github.com/hercules-team/augeas)
 * __Undevolting and Power Saving__: [TurionPowerControl](https://code.google.com/archive/p/turionpowercontrol/) / [Linux-PHC](http://www.linux-phc.org/forum/) -> [cpufrequtils](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/cpufreq/) -> [cpupower](https://github.com/torvalds/linux/tree/master/tools/power/cpupower)
 * __Utilities__: Mtools -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
+
+## X Desktop
+* __Application Launcher__: rofi -> ratmenu -> [dmenu](https://github.com/stilvoid/dmenu)
+* __Boot Screen__: Plymouth -> Splashy -> Fbsplash -> \<BOOTLOADERS>
+* __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> [snippy](https://github.com/gotbletu/shownotes/blob/master/snippy.sh) -> xclip / XSel
+* __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
+* __Cursor__: [keynav](https://github.com/jordansissel/keynav), GPM
+* __Desktop Character__: [Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya) (for [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
+* __Display Color Temperature__: Redshift -> [sct](https://github.com/mgudemann/sct)
+* __Display Settings__: DDCcontrol, xrandr
+* __Graphical Settings__: [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> GSettings -> xsettings
+* __Keybinding__: Xbindkeys -> sxhkd -> loadkeys (+ keymaps)
+* __Keyboard Layout__: XKB -> xmodmap -> loadkeys (+ keymaps)
+* __Login Manager__: SLiM -> [Qingy](http://qingy.sourceforge.net/)
+* __Macro Recorder__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke) -> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
+* __Nested Display__: Xephyr -> Xnest
+* __Notification Daemon__: dunst -> [slstatus](https://github.com/drkhsh/slstatus)
+* __Notification Server__: Libcanberra + Libnotify -> xmessage
+* __Panel__: Avant Window Navigator -> Global Menu -> Tint2
+* __Screensaver__: XScreenSaver -> XLockmore -> i3lock -> [sxlock](https://github.com/lahwaacz/sxlock) -> slock
+* __Status Bar Client__: Dzen -> [bevelbar](https://github.com/vain/bevelbar) -> Lemonbar
+* __Status Bar Server__: monky -> i3status
+* __Animated Wallpaper Changer__: Xphoon, xfireworks, Xsnow, xmountains, Xplanet, ImageMagick (animate)
+* __Still Wallpaper Changer__: FEH -> [hsetroot](https://github.com/elmiko/hsetroot) -> [imagemagick](https://imagemagick.org/discourse-server/viewtopic.php?t=16735) (but use 10MB more RAM than the others)
+* __Terminal As Wallpaper__: [root-tail](http://oldhome.schmorp.de/marc/root-tail.html) -> [xrootconsole](http://silicone.homelinux.org/projects/xrootconsole/)
+* __Video Wallpaper Changer__: mpv -> VLC (nvlc) -> MPlayer
+* __Window Manager__: [FVWM](https://directory.fsf.org/wiki/Fvwm) (+ [FvwmTabs](http://fvwm.sourceforge.net/documentation/manpages/unstable/FvwmTabs.php) and [4dwm theme](https://github.com/tonnerre/fvwm/blob/master/sample.fvwmrc/4Dwm.fvwmrc)) -> IceWM -> i3 -> [s3d](http://s3d.sourceforge.net/) (+ s3dfm, it's a 3D desktop!) -> [Amiwm](https://www.lysator.liu.se/~marcus/amiwm.html) -> [MWM](https://github.com/stackfield/mwm) -> [Ratpoison](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl) -> dwm (+ dwmstatus) -> [FrankenWM](https://github.com/sulami/FrankenWM) -> [TinyWM](http://incise.org/tinywm.html) -> [Twin](https://github.com/cosmos72/twin) -> [VWM](http://vwm.sourceforge.net/)
+* __Window Manipulation__: QuickTile -> wmctrl -> wmutils
+* __Worskpace Pager__: [3D-Desktop](http://desk3d.sourceforge.net/) -> [Skippy-XD](https://github.com/richardgv/skippy-xd)
+* __X Event Display__: xprop -> xwininfo -> xev
