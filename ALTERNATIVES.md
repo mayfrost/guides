@@ -90,21 +90,26 @@ Most apps are from F-Droid, we are just starting.
 * __Terminal Screensaver__: [bb](http://aa-project.sourceforge.net/bb/), [sl](https://github.com/mtoyoda/sl), [tty-clock](https://github.com/xorg62/tty-clock), CMatrix, cowsay (or cowthink), [rice](https://github.com/janbrennen/rice), [Asciiquarium](https://github.com/cmatsuoka/asciiquarium), [pipes](https://github.com/pipeseroni/pipes.sh), [nyan.sh](https://gist.github.com/wting/5278321), [rickrollrc](https://github.com/keroserene/rickrollrc), [NCMatrix](https://github.com/mayfrost/NCMatrix), [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver), [No More Secrets](https://github.com/bartobri/no-more-secrets)
 
 ## Communication
-* __BBS-MUD Client__: [TinTin++](http://tintin.sourceforge.net/features.php)
+* __BBS-MUD Client__: SyncTERM -> KildClient -> kbtin -> [TinTin++](http://tintin.sourceforge.net/features.php)
 * __Bookmark Manager__: [bookmarks.public](https://github.com/skx/bookmarks.public) -> [bk_edit](http://www.vakuumverpackt.de/retiredprojects/bk_edit/) -> [pmb](https://github.com/neoncortex/poor-man-s-bookmark) -> [b.](https://directory.fsf.org/wiki/B.)
-* __Browser__: [GNU IceCat](https://www.gnu.org/software/gnuzilla/) -> luakit / vimb / surf (tabbed) / Uzbl (tabbed) -> [NetSurf](http://www.netsurf-browser.org/) -> Lynx -> [Links2](http://links.twibright.com/) -> [Netrik](http://netrik.sourceforge.net/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master)
-* __Browser (Gopher)__: [GopherVR](http://www.floodgap.com/software/gophervr/) -> [gopherfs](http://git.savannah.gnu.org/cgit/hurd/incubator.git/) -> [UMN Gopher client](https://github.com/jgoerzen/gopher) -> Lynx
+* __Browser__: ungoogled-chromium -> Pale Moon -> [GNU IceCat](https://www.gnu.org/software/gnuzilla/) -> luakit / vimb / surf (tabbed) / Uzbl (tabbed) -> [NetSurf](http://www.netsurf-browser.org/) -> Arachne -> w3m -> Lynx -> [Links2](http://links.twibright.com/) -> [Netrik](http://netrik.sourceforge.net/) -> retawq -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master)
+* __Browser (Gopher)__: [GopherVR](http://www.floodgap.com/software/gophervr/) -> [gopherfs](http://git.savannah.gnu.org/cgit/hurd/incubator.git/) -> [UMN Gopher client](https://github.com/jgoerzen/gopher) -> cgo -> Lynx
 * __Chat Client__: [Finch (Pidgin)](https://developer.pidgin.im/wiki/Using%20Finch) in [irssi mode](https://askubuntu.com/questions/442345/how-can-i-simplify-the-finch-interface) -> [Centerim](http://www.centerim.org/index.php/Main_Page) -> [Bitlbee](https://wiki.bitlbee.org/)
-* __E-Mail Archiver__: [Lurker](http://lurker.sourceforge.net/)
-* __E-Mail Client__: Thunderbird -> [SquirrelMail](http://www.squirrelmail.org/) -> Alpine -> Mutt -> [mailx](http://heirloom.sourceforge.net/mailx.html)
-* __E-Mail Fetcher__: [Fetchmail](http://www.fetchmail.info/) -> [isync (mbsync)](http://isync.sourceforge.net/)
-* __IRC Client__: HexChat -> Weechat -> Irssi
+* __E-Mail Archiver__: Hypermail -> [Lurker](http://lurker.sourceforge.net/)
+* __E-Mail Client (MUA)__: Icedove/Thunderbird (+ Enigmail) -> Emacs (Gnus) -> [SquirrelMail](http://www.squirrelmail.org/) -> Alpine -> Mutt -> mailutils ("mailx") -> [S-nail ("mailx")](https://www.sdaoden.eu/code.html) + Muttprint
+* __E-Mail Fetcher__: [Fetchmail](http://www.fetchmail.info/) -> fdm -> [isync (mbsync)](http://isync.sourceforge.net/)
+* __E-Mail MIME__: TNEF -> metamail
+* __E-Mail SMTP Client__: nullmailer -> msmtp -> esmtp -> SSMTP
+* __IPTV__: FreetuxTV -> iptvx
+* __IRC Client__: HexChat -> BitchX -> Weechat -> Irssi -> ii -> sic
+* __Media Center__: Plex -> Kodi ("XBMC", + Sonarr) -> Emby -> Popcorn Time -> [LittleWeeb](https://littleweeb.github.io/)
 * __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
-* __RSS Feed and Podcast__: Liferea -> Newsbeuter -> Newsboat
-* __Search Engine Scraper__: Googler -> [Surfraw](http://surfraw.alioth.debian.org/) (+ [dmenu](https://bbs.archlinux.org/viewtopic.php?id=228706))
+* __RSS Feed and Podcast__: gPodder -> Raggle -> Liferea -> Newsbeuter (+ Podbeuter) -> Newsboat
+* __Search Engine Scraper__: Googler -> [Surfraw](http://surfraw.alioth.debian.org/) (+ [dmenu](https://bbs.archlinux.org/viewtopic.php?id=228706) or slmenu)
 * __UPnP (DLNA) Client__: [djmount](https://github.com/Boxee/djmount)
-* __Usenet Client (Newsreader)__: Pan -> [slrn](http://www.slrn.org/) ( + slrnpull + slrnface)
-* __VoIP Client__: [Jitsi](https://jitsi.org/) -> [Finch (Pidgin)](https://developer.pidgin.im/wiki/vv)
+* __Usenet Client (Newsreader)__: Pan -> [slrn](http://www.slrn.org/) ( + slrnpull + slrnface) -> Trn
+* __VoIP Client__: Empathy -> [Jitsi](https://jitsi.org/) -> [Finch (Pidgin)](https://developer.pidgin.im/wiki/vv)
+* __XMPP Client__: Profanity
 
 ### Desktop Client
 * __4chan__: [ANSIchan](https://github.com/qqueue/ANSICHAN) / [yottu](https://github.com/yottu/yottu)
@@ -196,7 +201,6 @@ Most apps are from F-Droid, we are just starting.
 * __File Scraper__: megatools (Mega) -> [Grive2](https://github.com/vitalif/grive2) (Google Drive) -> [Rclone](https://github.com/ncw/rclone) -> [Plowshare](https://github.com/mcrapet/plowshare)
 * __FTP Client__: FileZilla -> [lftp](https://github.com/lavv17/lftp)
 * __LAN Sharing__: NitroShare -> Dukto
-* __Media Center__: Plex -> Emby -> Popcorn Time -> Kodi ("XBMC", + Sonarr) -> [LittleWeeb](https://littleweeb.github.io/)
 * __Media Miner__: FlexGet -> [Sonarr](https://github.com/Sonarr/Sonarr)
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> Wget
 * __Soulseek__: Nicotine Plus -> [Museek (mucous)](https://museek-plus.org/)
