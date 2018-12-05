@@ -139,24 +139,30 @@ Most apps are from F-Droid, we are just starting.
 * __Project Management__: [GanttProject](http://www.ganttproject.biz/)
 
 ## Decentralized Networking
-* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> [nircd](https://github.com/Ronsor/nircd)
-* __Darknet__: [autovpn](https://github.com/adtac/autovpn) -> Tor -> [AnoNet](http://anonet.org/) -> i2p
+* __Backbone Framework__: GNUnet -> OSF DCE (Distributed Computing Environment)
+* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> eircd -> P2PIRC -> [nircd](https://github.com/Ronsor/nircd)
+* __Darknet__: [autovpn](https://github.com/adtac/autovpn) -> LibreVPN -> Tor -> [AnoNet](http://anonet.org/) -> i2p
 * __Digital Library__: [Aletheia](https://github.com/aletheia-foundation/aletheia-admin)
-* __Distributed File Systems__: Samba -> NFS -> IPFS -> [GNUnet](https://gnunet.org/)
+* __Distributed File Systems__: Samba -> NFS (nfs-utils) -> davfs2 -> Upspin -> IPFS
+* __Distributed File Systems (Samba)__: SMB for FUSE (FuseSmb) -> SMBNetFS -> CIFS (cifs-utils)
 * __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
-* __E-Commerce__: [FIX Agora](http://fixagora.sourceforge.net/) + [OpenBazaar](https://github.com/OpenBazaar) + [Bitnation](https://github.com/Bit-Nation) + [GNU Taler](https://taler.net/en/)
-* __Forum__: [Decentraland](https://decentraland.org/) -> [Mastodon (GNU Social)](https://joinmastodon.org/) -> [NNTPChan](https://github.com/majestrate/nntpchan)
+* __E-Commerce__: [OpenBazaar](https://github.com/OpenBazaar) + [FIX Agora](http://fixagora.sourceforge.net/) + [Bitnation](https://github.com/Bit-Nation) + [GNU Taler](https://taler.net/en/)
+* __E-Commerce (Bitcoin)__: Qt Bitcoin Trader (Bitcoin Trader), Abe (Block Chain Browser)
+* __E-Commerce (Bitcoin Wallet)__: Armory -> Bitcoin Core -> Monero
+* __E-Mail__: Notbit (Bitmessage)
+* __Forum__: [Decentraland](https://decentraland.org/) -> GNU Social (Pleroma, Mastodon) -> Syndie -> [NNTPChan](https://github.com/majestrate/nntpchan)
 * __Gossip Network (Network Service Discovery)__: [peernet](https://github.com/substack/peernet)
-* __Grid Computing__: [BOINC](https://github.com/BOINC/boinc) (+ [boinctui](https://github.com/suleman1971/boinctui))
-* __Media Sharing__: MediaGoblin -> DTube -> [PeerTube](https://peertube.duckdns.org/videos/trending) (WebTorrent) -> [Alexandria](http://www.alexandria.io/) (not ready yet but [this how it works](https://www.youtube.com/watch?v=So4n2ZBSMxg))
-* __Mesh Network__: Tinc -> cjdns -> open80211s (802.11s) -> [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki)
+* __Grid Computing__: traceroute@home -> [BOINC](https://github.com/BOINC/boinc) (+ [boinctui](https://github.com/suleman1971/boinctui))
+* __Media Sharing__: CyTube -> MediaGoblin -> DTube -> [PeerTube](https://peertube.duckdns.org/videos/trending) (WebTorrent) -> [Alexandria](http://www.alexandria.io/) (not ready yet but [this how it works](https://www.youtube.com/watch?v=So4n2ZBSMxg))
+* __Mesh Network__: Tinc -> cjdns -> BMX6 -> open80211s (802.11s) -> [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki)
 * __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://github.com/streamproject/stream-chrome)
+* __Network Block Device__: Usbredir -> nbd
 * __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
 * __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
 * __Search Engine (Torrents)__: Magnetissimo -> [magnetico](https://github.com/boramalper/magnetico)
-* __Streaming__: [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [BasicTV](https://github.com/dako300/basictv)
-* __Version Control (Decentralized Github)__: [GitTorrent](https://github.com/mfyuce/GitTorrent)
-* __VPN__:  [PeerVPN](https://github.com/peervpn/peervpn)
+* __Streaming__: [Livepeer](https://livepeer.org/) -> [Butter Project](http://butterproject.org/) -> [BasicTV](https://github.com/dako300/basictv)
+* __Version Control (Decentralized Github)__: git-annex (+ git-annex assistant) -> [GitTorrent](https://github.com/mfyuce/GitTorrent)
+* __VPN__:  n2n -> [PeerVPN](https://github.com/peervpn/peervpn)
 * __Wiki__: [ikiwiki](https://ikiwiki.info/tips/distributed_wikis/)
 
 ## Emulation And Virtualization
