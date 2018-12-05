@@ -72,19 +72,22 @@ Most apps are from F-Droid, we are just starting.
 ## Command Line
 * __Command Line Cheatsheet__: [CLI Companion](https://launchpad.net/clicompanion) -> xman -> cheat / howdoi / clf / fu / bro -> [cheat.sh](https://github.com/chubin/cheat.sh)
 * __Copy and Move Progress Bar__: [progress](https://github.com/Xfennec/progress) -> [Advanced Copy](https://github.com/atdt/advcpmv)
-* __Directory Bookmarks__: Apparix -> [fasd](https://github.com/clvv/fasd) 
-* __Framebuffer Environment__: [Fbterm](https://code.google.com/archive/p/fbterm/) -> [yaft (because sixel)](https://github.com/uobikiemukot/yaft) -> [hterm (because regis)](https://github.com/new299/hackterm)
+* __Daemonize__: dtach -> abduco -> GNU Screen
+* __Directory Bookmarks__: Apparix -> [fasd](https://github.com/clvv/fasd)
+* __Framebuffer Environment__: Fbpad -> jfbterm/[Fbterm](https://code.google.com/archive/p/fbterm/) -> [yaft (because sixel)](https://github.com/uobikiemukot/yaft) -> [hterm (because regis)](https://github.com/new299/hackterm) -> FramebufferUI
 * __Hacker Culture__: ddate, fortune, The Hacker Test, The Jargon File
-* __Menu__: [pdmenu](https://joeyh.name/code/pdmenu/) -> [iSelect](http://www.ossp.org/pkg/tool/iselect/) -> [slmenu](https://bitbucket.org/rafaelgg/slmenu) -> [fzy](https://github.com/jhawthorn/fzy)
-* __Multiplexer__: Tmux  -> Byobu -> GNU Screen (+[sixel patch](https://gist.github.com/saitoha/7546579))
-* __Progress Bar__: [pv - Pipe Viewer](https://github.com/icetee/pv) [progress](https://github.com/Xfennec/progress) -> [Advanced Copy](https://github.com/atdt/advcpmv)
-* __Scripting__: [GNU Parallel](https://www.gnu.org/software/parallel/) (+ [GNU SQL](https://www.gnu.org/software/parallel/sql.html)), [empty](https://github.com/ierton/empty)
-* __Shells__: Bash -> mksh -> [PC-DCL](https://github.com/MichelValentin/PC-DCL) -> [rc](https://github.com/rakitzis/rc)
-* __Terminal Colorizer__: colout -> lolcat
-* __Terminal Dropdown__: [tdrop](https://github.com/noctuid/tdrop) -> [YeahConsole](https://github.com/rduplain/yeahconsole), [alwaysontop](https://github.com/swirepe/alwaysontop)
-* __Terminal Emulator__: PuTTY -> Terminology -> rxvt-unicode (a.k.a. urxvt) -> Termite -> UXTerm -> [Qodem](http://qodem.sourceforge.net/)
+* __Login__: fgetty -> mingetty -> getty (util-linux) -> stty (GNU Coreutils)
+* __Menu__: [pdmenu](https://joeyh.name/code/pdmenu/) -> tmenu -> iSelect -> pick -> [fzy](https://github.com/jhawthorn/fzy) -> [slmenu](https://bitbucket.org/rafaelgg/slmenu)
+* __Multiplexer__: Byobu -> Tmux -> GNU Screen (+[sixel patch](https://gist.github.com/saitoha/7546579)) -> dvtm
+* __Notification__: skroll
+* __Progress Bar__: vramsteg -> clpbar- > [pv - Pipe Viewer](https://github.com/icetee/pv) -> sob -> dbar
+* __Scripting__: Multipipe -> [GNU Parallel](https://www.gnu.org/software/parallel/) (+ [GNU SQL](https://www.gnu.org/software/parallel/sql.html)) -> execline -> Expect -> [empty](https://github.com/ierton/empty)
+* __Shells__: Xonsh -> PowerShell -> Bash (+ bash-completion + bash-completion-extras) -> zsh -> tcsh -> [PC-DCL](https://github.com/MichelValentin/PC-DCL) -> mksh -> [rc](https://github.com/rakitzis/rc) -> s -> Danshell
+* __Terminal Colorizer__: colout -> lolcat -> Bashish
+* __Terminal Dropdown__: [tdrop](https://github.com/noctuid/tdrop) -> [YeahConsole](https://github.com/rduplain/yeahconsole) -> [alwaysontop](https://github.com/swirepe/alwaysontop)
+* __Terminal Emulator__: PuTTY -> Cool Retro Term -> Terminology -> rxvt-unicode (a.k.a. urxvt) -> Termite -> UXTerm -> [Qodem](http://qodem.sourceforge.net/)
 * __Terminal Pager__: [most](http://www.jedsoft.org/most/) -> less (+ [lesspipe](https://www-zeuthen.desy.de/~friebel/unix/lesspipe.html))
-* __Terminal Screensaver__: [bb](http://aa-project.sourceforge.net/bb/), [sl](https://github.com/mtoyoda/sl), cowsay (or cowthink), [tty-clock](https://github.com/xorg62/tty-clock), [NCMatrix](https://github.com/mayfrost/NCMatrix) / [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver), [Asciiquarium](https://github.com/cmatsuoka/asciiquarium), [rice](https://github.com/janbrennen/rice), [pipes](https://github.com/pipeseroni/pipes.sh), [rickrollrc](https://github.com/keroserene/rickrollrc), [nyan.sh](https://gist.github.com/wting/5278321)
+* __Terminal Screensaver__: [bb](http://aa-project.sourceforge.net/bb/), [sl](https://github.com/mtoyoda/sl), [tty-clock](https://github.com/xorg62/tty-clock), CMatrix, cowsay (or cowthink), [rice](https://github.com/janbrennen/rice), [Asciiquarium](https://github.com/cmatsuoka/asciiquarium), [pipes](https://github.com/pipeseroni/pipes.sh), [nyan.sh](https://gist.github.com/wting/5278321), [rickrollrc](https://github.com/keroserene/rickrollrc), [NCMatrix](https://github.com/mayfrost/NCMatrix), [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver), [No More Secrets](https://github.com/bartobri/no-more-secrets)
 
 ## Communication
 * __BBS-MUD Client__: [TinTin++](http://tintin.sourceforge.net/features.php)
