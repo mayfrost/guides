@@ -206,7 +206,7 @@ Most apps are from F-Droid, we are just starting.
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> Wget
 * __Soulseek__: Nicotine Plus -> [Museek (mucous)](https://museek-plus.org/)
 * __Stream Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [RTMPDump](https://github.com/mstorsjo/rtmpdump) -> [quvi](https://github.com/mogaal/quvi)
-* __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (comes with a [web interface](https://github.com/transmission/transmission/wiki/Web-Interface) by default but [other frontends](https://github.com/fagga/transmission-remote-cli) exist) -> CTorrent -> btpd + mktorrent
+* __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon ([web interface](https://github.com/transmission/transmission/wiki/Web-Interface) by default, [other frontends](https://github.com/fagga/transmission-remote-cli) optional) -> CTorrent -> btpd + mktorrent
 * __Torrent Tracker Scraper__: [Torrtux](https://github.com/l333k0/torrtux) -> [Torrench](https://github.com/kryptxy/torrench) -> [Jackett](https://github.com/Jackett/Jackett)
 * __Usenet (File Grabber)__: LottaNZB -> SABnzbd -> [NZBGet](https://github.com/nzbget/nzbget) -> [nzb](https://directory.fsf.org/wiki/Nzb) -> [nzbperl](https://github.com/eghm/nzbperl)
 * __x-y-zmodem__: lrzsz
@@ -260,38 +260,42 @@ Most apps are from F-Droid, we are just starting.
 
 ## Monitoring
 ### Benchmarking
-* __Drive Profiling__: Smartmontools -> hdparm
-* __Filesystem Benchmark__: [Bonnie++](https://www.coker.com.au/bonnie++/) -> [MBW](https://github.com/raas/mbw)
-* __General Benchmarking__: [HPC Challenge Benchmark (hpcc)](http://icl.cs.utk.edu/hpcc/) -> [Sysbench](https://github.com/akopytov/sysbench)
+* __Drive Profiling__: Smartmontools -> fio -> sdparm -> hdparm
+* __Filesystem Benchmark__: IOzone -> [Bonnie++](https://www.coker.com.au/bonnie++/) -> [MBW](https://github.com/raas/mbw)
+* __General Benchmarking__: collectd -> Phoronix Test Suite -> [HPC Challenge Benchmark (hpcc)](http://icl.cs.utk.edu/hpcc/) -> mcelog -> ProcBench -> [Sysbench](https://github.com/akopytov/sysbench)
 * __Network Data Visualization__: [weathermap4rrd](http://weathermap4rrd.tropicalex.net/) (rrd) -> [Xtract](https://sourceforge.net/projects/netxtract/) (pcap)
-* __Network Profiling__: [net-snmp](http://net-snmp.sourceforge.net/) -> [vnStat](https://github.com/vergoh/vnstat) -> [iperf](http://software.es.net/iperf/)
+* __Network Profiling__: [net-snmp](http://net-snmp.sourceforge.net/) -> [vnStat](https://github.com/vergoh/vnstat) -> [iperf](http://software.es.net/iperf/) -> bing
 * __Server Benchmark__: [Siege](https://github.com/JoeDog/siege)
-* __System Tracing__: [strace](https://github.com/strace/strace) -> [trace-cmd](https://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git) (ftrace) -> perf
+* __Sort Benchmark__: gensort
+* __System Tracing__: SystemTap -> LTTng -> OProfile -> Sysdig -> dtrace -> [strace](https://github.com/strace/strace) -> [trace-cmd](https://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git) (ftrace) -> perf + FlameGraph
 
 ### System Information
-* __General Information__: [inxi](https://smxi.org/docs/inxi.htm)
-* __Screenshot Information__: [Linux_Logo](https://github.com/deater/linux_logo) -> [Neofetch](https://github.com/dylanaraps/neofetch) -> [screenFetch](https://github.com/KittyKatt/screenFetch)
-* __Hardware Information__: [lshw](https://github.com/lyonel/lshw) -> [hwloc](https://www.open-mpi.org/projects/hwloc/) -> [usbutils (lsusb)](https://github.com/gregkh/usbutils) -> [pciutils (lspci)](http://mj.ucw.cz/sw/pciutils/) -> util-linux (lsblk, blkid, dmesg) -> [acpitool](https://directory.fsf.org/wiki/AcpiTool) [dmidecode](http://dmidecode.nongnu.org/)
-* __Software Information__: [vrms](https://github.com/z411/vrms-gentoo) -> file -> ldd -> lsb_release -> uname
+* __General Information__: zCI -> [inxi](https://smxi.org/docs/inxi.htm)
+* __Hardware Information__: vdpauinfo -> [lshw](https://github.com/lyonel/lshw) -> [hwloc](https://www.open-mpi.org/projects/hwloc/) -> lsscsi -> edac-utils -> [usbutils (lsusb)](https://github.com/gregkh/usbutils) -> [pciutils (lspci)](http://mj.ucw.cz/sw/pciutils/) -> util-linux (lsblk, blkid, dmesg) -> [acpitool](https://directory.fsf.org/wiki/AcpiTool) [dmidecode](http://dmidecode.nongnu.org/)
+* __Screenshot Information (Bash)__: [Neofetch](https://github.com/dylanaraps/neofetch) -> [screenFetch](https://github.com/KittyKatt/screenFetch) -> envee
+* __Screenshot Information (C)__: [Linux_Logo](https://github.com/deater/linux_logo)
+* __Screenshot Information (Perl)__: screenfo -> alsi
+* __Software Information__: [vrms](https://github.com/z411/vrms-gentoo) -> file -> ldd -> lsb_release -> os-prober -> uname (GNU Coreutils)
 
 ### System Monitoring
 * __Database Monitoring__: [Mytop](https://github.com/jzawodn/mytop)
-* __Disk Usage__: QDirStat -> [Baobab](http://www.marzocca.net/linux/baobab/) -> xdiskusage -> XDU -> [Ncdu](https://dev.yorhel.nl/ncdu) -> df
+* __Disk Usage__: QDirStat -> [Baobab](http://www.marzocca.net/linux/baobab/) -> xdiskusage -> XDU -> dfc -> [Ncdu](https://dev.yorhel.nl/ncdu) -> ls++ -> tdu -> ncdt -> du + df (GNU coreutils)
 * __Geolocation__: [Prey](https://github.com/prey/prey-bash-client)
-* __Hardware Monitoring__: lm-sensors (psensor for a GUI) + [CrazyDiskInfo](https://github.com/otakuto/crazydiskinfo) + Hddtemp
-* __Log Monitoring__: lnav -> [Logcheck](http://logcheck.org/) -> [multiTail](https://github.com/flok99/multitail)
-* __Log Visualizer__: glTail -> [Logstalgia](https://github.com/acaudwell/Logstalgia)
-* __Network Flow__: Argos -> HFlow -> [nfdump](https://github.com/phaag/nfdump) ([nfsen](http://nfsen.sourceforge.net/))
+* __Hardware Monitoring__: lm-sensors (psensor for a GUI) -> [CrazyDiskInfo](https://github.com/otakuto/crazydiskinfo) -> Hddtemp
+* __Log Monitoring__: Webalizer -> lnav -> [Logcheck](http://logcheck.org/) -> [multiTail](https://github.com/flok99/multitail)
+* __Log Visualizer__: glTail -> [Logstalgia](https://github.com/acaudwell/Logstalgia) -> ccze
+* __Network Flow__: Argos -> HFlow -> [nfdump](https://github.com/phaag/nfdump) ([nfsen](http://nfsen.sourceforge.net/) for a GUI)
 * __Network Latency__: [OpenNMS](https://github.com/OpenNMS/opennms) -> [SmokePing](https://github.com/oetiker/SmokePing) -> [bmon](https://github.com/tgraf/bmon)
-* __Network Monitoring__: [NetHogs](https://github.com/raboof/nethogs) -> [iftop](http://www.ex-parrot.com/pdw/iftop/), [dnstop](http://dns.measurement-factory.com/tools/dnstop/)
+* __Network Monitoring__: IPTraf -> tcptrack -> IPTState -> [NetHogs](https://github.com/raboof/nethogs) -> [iftop](http://www.ex-parrot.com/pdw/iftop/), [dnstop](http://dns.measurement-factory.com/tools/dnstop/)
 * __Port Monitoring__: [psad](https://directory.fsf.org/wiki/Port_Scan_Attack_Detector)
 * __Process Monitoring__: [lsof](https://people.freebsd.org/~abe/), [PSmisc](https://directory.fsf.org/wiki/Psmisc) (fuser, pkill, pstree)
-* __Serial Monitoring__: [ttylog](https://github.com/rocasa/ttylog) -> [slsnif](https://github.com/aeruder/slsnif)
+* __Serial Monitoring__: [slsnif](https://github.com/aeruder/slsnif) -> interceptty -> [ttylog](https://github.com/rocasa/ttylog)
 * __System Latency__: [LatencyTOP](https://github.com/namhyung/latencytop)
-* __System Monitor__: gnome-system-monitor -> [psDooM](https://github.com/keymon/psdoom-ng) -> Conky -> atop -> htop -> [nmon](http://nmon.sourceforge.net/pmwiki.php) -> procinfo -> [Sysstat](https://directory.fsf.org/wiki/Sysstat) (sar, mpstat, pidstat, iostat, sadf) -> [procps](https://directory.fsf.org/wiki/Procps) (ps, free, vmstat, top, pmap, nice)
+* __System Monitor__: gnome-system-monitor -> [psDooM](https://github.com/keymon/psdoom-ng) -> HardInfo -> GKrellM -> treeps -> Conky -> xosview -> Glances -> dstat -> atop -> htop -> [nmon](http://nmon.sourceforge.net/pmwiki.php) -> procinfo -> [Sysstat](https://directory.fsf.org/wiki/Sysstat) (sar, mpstat, pidstat, iostat, sadf) -> [procps](https://directory.fsf.org/wiki/Procps) (ps, free, vmstat, top, pmap, nice)
 * __User Monitoring__: [wuzzah](https://www.cs.swarthmore.edu/~finney/proj/wuzzah/) -> [Whowatch](https://github.com/mtsuszycki/whowatch/) -> [acct](http://savannah.gnu.org/projects/acct/)
 * __Web Log Analytics__: [AWStats](http://www.awstats.org/) -> [W3Perl](http://www.w3perl.com/) -> [Analog](http://www.web42.com/analog/) -> [pmacct](https://github.com/pmacct/pmacct)
-* __Web State Monitor__: Nagios (+ NagVis) -> [sysmon](https://web.archive.org/web/20070602050243/http://pubpages.unh.edu/~pas/hacks/sysmon/)
+* __Web State Monitor__: Nagios (+ NagVis) -> Sysmond -> [sysmon](https://web.archive.org/web/20070602050243/http://pubpages.unh.edu/~pas/hacks/sysmon/)
+* __Wi-Fi Network Monitor__: wavemon
 
 ## Multimedia
 ### ASCii Art
