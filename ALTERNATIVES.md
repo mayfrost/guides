@@ -376,32 +376,39 @@ Most apps are from F-Droid, we are just starting.
 * __Wireless Tools__: rfkill, iw -> [Wireless Tools for Linux](https://hewlettpackard.github.io/wireless-tools/Tools.html), iwd -> [wpa_supplicant](https://w1.fi/wpa_supplicant/)
 
 ## Office
-* __CHM Viewer__: xCHM -> [CHMLib](http://www.jedrea.com/chmlib/) (extract_chmLib)
+* __Address book__: abook
 * __Desktop Publishing__: Scribus
+* __Dictionary__: Goldendict -> Artha -> [Dico](https://directory.fsf.org/wiki/Dico), [dict](http://www.dict.org/w/software/software) -> wtf
 * __Document Processor__: Emacs (AUCTeX) -> LyX -> [GNU TeXmacs](http://texmacs.org/tmweb/home/welcome.en.html)
-* __Ebook Viewer__: Calibre -> Okular -> Zathura -> [fimgs (fim)](http://www.nongnu.org/fbi-improved/) / [fbgs (fbida)](https://www.kraxel.org/blog/linux/fbida/)
-* __Flashcards__: Anki
+* __Ebook Utilities__: DeDRM_tools
+* __Ebook Utilities (CHM)__: xCHM -> [CHMLib](http://www.jedrea.com/chmlib/) (extract_chmLib)
+* __Ebook Utilities (Epub)__: Ebook Tools (ebook-tools)
+* __Ebook Utilities (PDF)__: [PDF SaM](https://github.com/torakiki/pdfsam) -> Poppler -> PDFtk
+* __Ebook Utilities (PostScript)__: PSUtils -> ghostscript
+* __Ebook Viewer__: Calibre -> Okular -> Zathura -> JFBView / [fimgs (fim)](http://www.nongnu.org/fbi-improved/) / [fbgs (fbida)](https://www.kraxel.org/blog/linux/fbida/) / fbpdf
+* __Flashcards__: awk flashcards -> Anki
 * __Gamification__: HabitRPG -> Habitica
 * __Mind Mapping__: FreeMind
 * __Office Suites__: LibreOffice -> [Siag Office](http://siag.nu/) -> [catdoc](https://github.com/petewarden/catdoc) (xls2csv, catppt, wordview)
-* __Offline Dictionary__: Goldendict -> Artha -> [Dico](https://directory.fsf.org/wiki/Dico), [dict](http://www.dict.org/w/software/software)
-* __Outliner__: [TreeSheets](https://github.com/aardappel/treesheets) -> Vault 3 -> GJots2 -> Emacs (Org-mode) -> Vim (Vimoutliner or Vim-orgmode) -> [hnb](http://hnb.sourceforge.net/Screen-shots/)
-* __PDF Editing__: [PDF SaM](https://github.com/torakiki/pdfsam) -> Poppler
-* __Personal Accounting__: GnuCash -> [GNU Pem](https://www.gnu.org/software/pem/)
-* __Personal Assistant__: [Mycroft](https://mycroft.ai/), [betty](https://github.com/pickhardt/betty), [Climate](https://github.com/adtac/climate), [Suicide Linux](https://qntm.org/suicide)
-* __Personal Organizer__: Wyrd -> [calcurse](https://directory.fsf.org/wiki/Calcurse) -> when -> cal
+* __Outliner__: [TreeSheets](https://github.com/aardappel/treesheets) -> Vault 3 -> GJots2 -> TuDu -> Emacs (Org-mode) -> Vim (Vimoutliner or Vim-orgmode) -> [hnb](http://hnb.sourceforge.net/Screen-shots/) -> snb
+* __Personal Accounting__: GnuCash -> Ledger -> [GNU Pem](https://www.gnu.org/software/pem/)
+* __Personal Assistant__: [Mycroft](https://mycroft.ai/) -> Lucida (aka Sirius) -> [betty](https://github.com/pickhardt/betty)
+* __Personal Organizer__: Task Coach -> Wyrd -> wtf -> Taskwarrior -> [calcurse](https://directory.fsf.org/wiki/Calcurse) -> todo.txt-cli -> when -> cal
 * __Presentation__: Beamer -> Sozi -> [Text Presentation Program](https://github.com/akrennmair/tpp)
 * __Repetitive Strain Injury__: [Workrave](https://directory.fsf.org/wiki/Workrave)
-* __Speed Reading__: [speedread](https://github.com/pasky/speedread)
-* __Spell Check__: [Aspell](https://directory.fsf.org/wiki/Aspell)
-* __Spreadsheets__: Libreoffice Calc -> Gnumeric -> Oleo -> [SC-IM](https://github.com/andmarti1424/sc-im) + Pandoc
-* __Text Editor (and IDE)__: Emacs (nox) -> Vim -> [xwpe](https://github.com/amagnasco/xwpe) (full IDE in the terminal) -> [GNU Zile](https://directory.fsf.org/wiki/GNU_Zile) (minimalist Emacs clone) -> [Elvis](https://github.com/mbert/elvis) (minimalist Vi clone)
-* __Text Formatting and Pretty Printing__: [unoconv](http://dag.wiee.rs/home-made/unoconv/) -> Pandoc, par -> fmt (Textutils)
+* __Speed Reading__: Flinks -> WordFlashReader -> GnomeRSVP -> spread0r -> [speedread](https://github.com/pasky/speedread)
+* __Spell Check__: Ispell -> [Aspell](https://directory.fsf.org/wiki/Aspell)
+* __Spreadsheets__: Libreoffice Calc -> Gnumeric -> Oleo -> [SC-IM](https://github.com/andmarti1424/sc-im)
+* __Text Editor__: Vim -> Nano -> Neovim -> Kakoune -> vile -> mg -> [GNU Zile](https://directory.fsf.org/wiki/GNU_Zile) (minimalist Emacs clone) -> nvi -> [Elvis](https://github.com/mbert/elvis) (minimalist Vi clone) -> ed
+* __Text Editor (IDE)__: Atom -> NetBeans -> Code Blocks -> Emacs (nox) -> Vim -> [xwpe](https://github.com/amagnasco/xwpe) (full IDE in the terminal)
+* __Text Encoding__: fuse-convmvfs, Dos2Unix, ASCII
+* __Text Format Conversion__: unoconv -> Pandoc -> Yodl -> GNU a2ps -> inf2manp
+* __Text Formatting and Pretty Printing__: par -> fmt (Textutils) -> MSORT
 * __Text-To-Speech__: Orca -> Gespeaker -> [eBook-speaker](https://directory.fsf.org/wiki/EBook-speaker) (+ pandoc) -> [eSpeak](https://github.com/espeak-ng/espeak-ng/)
-* __Typesetting__: LaTeX -> Texinfo -> [groff (tbl, pic, eqn, chem, music, dpic, grohtml)](https://www.troff.org/prog.html)
+* __Typesetting__: LaTeX -> Texinfo + Pinfo -> Discount (Markdown) -> AFT -> [groff (tbl, pic, eqn, chem, music, dpic, grohtml)](https://www.troff.org/prog.html)
 * __Typing Training__: Klavaro -> nlkt -> [GNU Typist](https://www.gnu.org/software/gtypist/)
-* __Weather Forecast__: AWeather -> [Weather Util](http://fungi.yuggoth.org/weather/) -> [rrdweather](https://github.com/tolecnal/rrdweather)
-* __Word Processor__: Libreoffice Writter -> Abiword -> MinEd -> [WordGrinder](http://cowlark.com/wordgrinder/) + Pandoc
+* __Weather Forecast__: XTide -> AWeather -> My Weather Indicator -> wego -> [Weather Util](http://fungi.yuggoth.org/weather/) -> [rrdweather](https://github.com/tolecnal/rrdweather)
+* __Word Processor__: Libreoffice Writter -> Abiword -> MinEd -> [WordGrinder](http://cowlark.com/wordgrinder/)
 
 ## Package Management
 * __CD/USB (Custom Installer)__: Respin -> Remastersys -> Distroshare -> PinguyBuilder -> Customizer -> Ubuntu Customization Kit -> Mklivecd
