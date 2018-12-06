@@ -161,7 +161,7 @@ Most apps are from F-Droid, we are just starting.
 * __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
 * __Search Engine (Torrents)__: Magnetissimo -> [magnetico](https://github.com/boramalper/magnetico)
 * __Streaming__: [Livepeer](https://livepeer.org/) -> [Butter Project](http://butterproject.org/) -> [BasicTV](https://github.com/dako300/basictv)
-* __Version Control (Decentralized Github)__: git-annex (+ git-annex assistant) -> [GitTorrent](https://github.com/mfyuce/GitTorrent)
+* __Version Control (Decentralized Github)__: [git-annex](https://git-annex.branchable.com/) (+ git-annex assistant) -> [GitTorrent](https://github.com/mfyuce/GitTorrent)
 * __VPN__:  n2n -> [PeerVPN](https://github.com/peervpn/peervpn)
 * __Wiki__: [ikiwiki](https://ikiwiki.info/tips/distributed_wikis/)
 
@@ -184,13 +184,16 @@ Most apps are from F-Droid, we are just starting.
 * __Virtual Machine (DEC)__: [SIMH](http://simh.trailing-edge.com/)
 
 ## File Utilities
-* __Batch Renamer__: [GPRename](http://gprename.sourceforge.net/) -> [qmv (renameutils)](http://www.nongnu.org/renameutils/)
-* __Duplicate Files Removal__: [dupeGuru](https://github.com/hsoft/dupeguru) -> [Fdupes](https://github.com/adrianlopezroche/fdupes)
-* __File Archiver__: PeaZip -> Xarchiver -> [Atool](http://www.nongnu.org/atool/)
-* __File Manager__: SpaceFM -> [Moxfm](https://github.com/ThomasAdam/moxfm) -> [File System Visualizer](https://github.com/mcuelenaere/fsv) ([“It’s a Unix system, I know this!”](https://www.youtube.com/watch?v=dxIPcbmo1_U)) -> Midnight Commander -> [vifm](https://wiki.vifm.info/index.php?title=How_to_preview_images) -> [FDclone](http://hp.vector.co.jp/authors/VA012337/soft/fd/) -> [Ytree](https://directory.fsf.org/wiki/Ytree) -> [nnn](https://github.com/jarun/nnn) -> [tree](https://directory.fsf.org/wiki/Tree)
-* __File Search__: [DocFetcher](http://docfetcher.sourceforge.net/en/index.html) -> [ANGRYsearch](https://github.com/DoTheEvo/ANGRYsearch) -> [Puggle](http://puggle.sourceforge.net/) -> [regain](http://regain.sourceforge.net/index.php) -> find
-* __File Synchronization__: [Unison](https://github.com/bcpierce00/unison) -> [git-annex](https://git-annex.branchable.com/) -> Rsync
-* __Image Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> [Mapivi](http://mapivi.sourceforge.net/mapivi.shtml) -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
+* __Batch Renamer__: Metamorphose -> [GPRename](http://gprename.sourceforge.net/) -> vidir -> [qmv (renameutils)](http://www.nongnu.org/renameutils/) -> mmv
+* __Duplicate Files Removal__: [dupeGuru](https://github.com/hsoft/dupeguru) -> FSlint -> freedup -> fdmf -> dupmerge -> duff -> [Fdupes](https://github.com/adrianlopezroche/fdupes) -> jdupes -> rmlint
+* __File Archiver__: PeaZip -> Xarchiver -> Patool -> dtrx -> [Atool](http://www.nongnu.org/atool/) -> dar -> tar -> pax
+* __File Compression__: arj, Zstandard (Zstd), Zip, lzop, Plzip, pxz, ECM (Error Code Modeler), p7zip, lbzip2, lrzip, pigz
+* __File Conversion__: nrg2iso, dmg2iso (dmg to iso), mdf2iso (mdf to iso), daa2iso (daa to iso), UIF2ISO (uif to iso), ccd2iso (img to iso), bin2iso (bin-cue to iso), mpq-tools (MPQ or MoPaQ), Macutils
+* __File De-Compression Only__: unace, cabextract, unrar, Lunzip, UnZip
+* __File Manager__: Xfe -> SpaceFM -> [File System Visualizer](https://github.com/mcuelenaere/fsv) ([“It’s a Unix system, I know this!”](https://www.youtube.com/watch?v=dxIPcbmo1_U)) -> Endeavour Mark II -> donnatella -> worker (+ imagemagick) -> [Moxfm](https://github.com/ThomasAdam/moxfm) -> Emacs (Dired Plus Mode, Sunrise Commander, ranger.el, Image-Dired, ThumbsMode) -> Ranger -> Midnight Commander -> [vifm](https://wiki.vifm.info/index.php?title=How_to_preview_images) -> [FDclone](http://hp.vector.co.jp/authors/VA012337/soft/fd/) -> [Ytree](https://directory.fsf.org/wiki/Ytree) -> rover -> CLEX -> [nnn](https://github.com/jarun/nnn) -> [tree](https://directory.fsf.org/wiki/Tree)
+* __File Search__: Beagle -> [Puggle](http://puggle.sourceforge.net/) -> [ANGRYsearch](https://github.com/DoTheEvo/ANGRYsearch) -> Tracker -> [DocFetcher](http://docfetcher.sourceforge.net/en/index.html) -> [regain](http://regain.sourceforge.net/index.php) -> lightmediascanner -> find
+* __File Synchronization__: [Unison](https://github.com/bcpierce00/unison) -> duplicity -> synk -> Rsync
+* __Pictures Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> [Mapivi](http://mapivi.sourceforge.net/mapivi.shtml) -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
 * __RegEx Builder__: [regexxer](https://directory.fsf.org/wiki/Regexxer) -> [Visual REGEXP](http://laurent.riesterer.free.fr/regexp/) -> [txt2regex](https://github.com/aureliojargas/txt2regex)
 
 ## Filesharing
