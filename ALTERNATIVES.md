@@ -525,7 +525,7 @@ Most apps are from F-Droid, we are just starting.
 
 ## Science And Engineering
 * __Artificial Intelligence__: [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment), [ETHNOS](http://ethnos.sourceforge.net/), [Conscious Artificial Intelligence](https://sourceforge.net/projects/cai/), [OpenCog](https://github.com/opencog/opencog), [OpenAI](https://github.com/openai)
-* __Astronomy__: Sky Chart - Cartes du Ciel -> astroTools + evTools -> GNU Astronomy Utilities (Gnuastro)
+* __Astronomy__: Sky Chart (Cartes du Ciel) -> astroTools + evTools -> GNU Astronomy Utilities (Gnuastro)
 * __Astronomy (Planetarium)__: Stellarium -> Celestia -> XEphem -> [SkyCat](https://github.com/Starlink/skycat)
 * __Astronomy (Satelline Tracking)__: [SaVi satellite constellation visualizer](https://sourceforge.net/projects/savi/)
 * __Bioinformatics__: [OpenSim](https://simtk.org/projects/opensim/), [Cytoscape](http://www.cytoscape.org/), [BioJava](https://github.com/biojava/biojava) -> [UGENE](http://ugene.net/) -> [EMBOSS](https://github.com/kimrutherford/EMBOSS) -> [SAMtools](https://github.com/samtools/samtools) -> [BioPerl](http://bioperl.org/)
@@ -548,33 +548,37 @@ Most apps are from F-Droid, we are just starting.
 
 ## Security
 ### Containment
-* __Access Control__: SELinux -> Smack -> AppArmor + [RSBAC](https://www.rsbac.org/)
-* __Authentication__: Polkit/ConsoleKit -> FakeRoot -> Sudo (visudo) -> Linux PAM
-* __Resource Usage Control__: [Disk Quota](https://sourceforge.net/projects/linuxquota/) -> [quotatool](https://github.com/ekenberg/quotatool), ulimit (Bash), [cpulimit](https://github.com/opsengine/cpulimit)
-* __Sandboxing__: [Firejail](https://github.com/netblue30/firejail) -> [Bubblewrap](https://github.com/projectatomic/bubblewrap)
+* __Access Control (Kernel Patches)__: grsecurity + gradm -> Linux Intrusion Detection System -> SecurelLevel -> PaX -> [RSBAC](https://www.rsbac.org/)
+* __Access Control (Linux Security Modules (LSM))__: SELinux -> TOMOYO Linux -> Smack -> AppArmor
+* __Authentication__: Polkit -> ConsoleKit -> Sudo (visudo) -> Linux PAM -> checkpassword
+* __Extended File Attributes__: EVM -> IMA -> inotify
+* __Resource Usage Control__: [cpulimit](https://github.com/opsengine/cpulimit) -> ulimit (Bash) -> [Disk Quota](https://sourceforge.net/projects/linuxquota/) -> [quotatool](https://github.com/ekenberg/quotatool)
+* __Sandbox__: Arkose -> [Firejail](https://github.com/netblue30/firejail) -> nsjail -> [Bubblewrap](https://github.com/projectatomic/bubblewrap)
 
 ### Honeypots
-* __Client__: [HoneyC](https://projects.honeynet.org/honeyc), [Capture-HPC](https://projects.honeynet.org/capture-hpc)
+* __Client__: [HoneyC](https://projects.honeynet.org/honeyc) -> [Capture-HPC](https://projects.honeynet.org/capture-hpc)
 * __Distro Bundle__: [HoneyDrive](https://sourceforge.net/projects/honeydrive/) -> [ADHD](https://adhdproject.github.io/#!index.md)
-* __Server__: [Honeyperl](https://sourceforge.net/projects/honeyperl/) -> [Nova](https://github.com/DataSoft/Nova) -> [LaBrea](http://labrea.sourceforge.net/labrea-info.html)
+* __Server__: [Honeyperl](https://sourceforge.net/projects/honeyperl/) -> [Nova](https://github.com/DataSoft/Nova) -> Honeyd -> [LaBrea](http://labrea.sourceforge.net/labrea-info.html)
 * __Web-Based__: [HIHAT](http://hihat.sourceforge.net/)
 
 ### Host Intrusion
-* __Anti Backdoor__: [me_cleaner](https://github.com/corna/me_cleaner), [rosenbridge](https://github.com/xoreaxeaxeax/rosenbridge)
-* __Anti Juice Jacking__: [usbkill](https://github.com/hephaest0s/usbkill), [USBGuard](https://github.com/USBGuard/usbguard)
+* __Anti Backdoor__: [rosenbridge](https://github.com/xoreaxeaxeax/rosenbridge), [me_cleaner](https://github.com/corna/me_cleaner)
+* __Anti Juice Jacking__: [usbkill](https://github.com/hephaest0s/usbkill) -> [USBGuard](https://github.com/USBGuard/usbguard)
 * __Anti Malware__: ClamTk -> [ClamAV](https://github.com/Cisco-Talos/clamav-devel) -> [Linux Malware Detect (LMD)](https://github.com/rfxn/linux-malware-detect)
 * __Host Intrusion Detection Framework__: [OSSEC](https://ossec.github.io/) -> [Tiger](http://www.nongnu.org/tiger/)
-* __Host System Auditing__: [OpenVAS](http://www.openvas.org/) -> [Linux Security Auditing Tool (LSAT)](https://github.com/triode3/lsat) -> [Bastille](http://bastille-linux.sourceforge.net/) -> [Lynis](https://github.com/CISOfy/lynis)
-* __Integrity Check__ AIDE -> [systraq](https://directory.fsf.org/wiki/Systraq) -> [Tripwire](https://github.com/Tripwire/tripwire-open-source) -> [Samhain](https://www.la-samhna.de/samhain/)
+* __Host System Auditing__: [Bastille](http://bastille-linux.sourceforge.net/) -> [OpenVAS](http://www.openvas.org/) -> [Linux Security Auditing Tool (LSAT)](https://github.com/triode3/lsat) -> [Lynis](https://github.com/CISOfy/lynis)
+* __Integrity Check__: PaX Utilities -> AIDE -> [systraq](https://directory.fsf.org/wiki/Systraq) -> [Tripwire](https://github.com/Tripwire/tripwire-open-source) -> [Samhain](https://www.la-samhna.de/samhain/)
 * __Rootkit Detection__: [rkhunter](http://rkhunter.sourceforge.net/), [Chkrootkit](http://www.chkrootkit.org/), [Unhide](http://www.unhide-forensics.info/)
-* __System Logging__: [Syslog-ng](https://github.com/balabit/syslog-ng) -> [sysklogd](http://www.infodrom.org/projects/sysklogd/)
+* __System Logging__: socklog (runit) -> Rsyslog -> [Syslog-ng](https://github.com/balabit/syslog-ng) -> [sysklogd](http://www.infodrom.org/projects/sysklogd/)
 
 ### Network Intrusion
-* __Deep Packet Inspection (DPI) Block and Circumvention__: [zapret](https://github.com/bol-van/zapret)
-* __Firewall__: gufw -> ufw -> iptables (+ [ipset](http://ipset.netfilter.org/)) -> [nftables](https://netfilter.org/projects/nftables/)
-* __Man-In-The-Middle (MITM) Detection__: [ArpON](http://arpon.sourceforge.net/), [Arpalert](http://www.arpalert.org/arpalert.html)
+* __Deep Packet Inspection (DPI) Block (Layer 7 Firewall)__: ipp2p -> l7-filter -> OpenDPI
+* __Deep Packet Inspection (DPI) Circumvention__: [zapret](https://github.com/bol-van/zapret)
+* __Firewall__: ufw (Uncomplicated Firewall) + gufw (GUI) -> arptables -> ebtables -> iptables (+ [ipset](http://ipset.netfilter.org/)) -> [nftables](https://netfilter.org/projects/nftables/) + conntrack-tools
+* __Man-In-The-Middle (MITM) Detection__: arpwatch -> [ArpON](http://arpon.sourceforge.net/) -> [Arpalert](http://www.arpalert.org/arpalert.html)
 * __Network Intrusion Detection__: Snort -> [Suricata](https://github.com/OISF/suricata)
 * __Network Intrusion Prevention__: Fail2ban -> [Sshguard](https://www.sshguard.net/)
+* __Network Logging__: CoCaLoRes -> ulogd
 
 ## Server
 * __BBS Server__: [Citadel](http://www.citadel.org/doku.php) -> Synchronet -> [Mystic BBS](http://www.tinysbbs.com/files/prog/MSRC20B3.ZIP) -> [BBS100](https://directory.fsf.org/wiki/Bbs100)
