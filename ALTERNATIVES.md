@@ -88,8 +88,9 @@ Most apps are from F-Droid, we are just starting.
 
 ## Communication
 * __BBS-MUD Client__: SyncTERM -> KildClient -> kbtin -> [TinTin++](http://tintin.sourceforge.net/features.php)
-* __Bookmark Manager__: [bookmarks.public](https://github.com/skx/bookmarks.public) -> [bk_edit](http://www.vakuumverpackt.de/retiredprojects/bk_edit/) -> [pmb](https://github.com/neoncortex/poor-man-s-bookmark) -> [b.](https://directory.fsf.org/wiki/B.)
-* __Browser__: ungoogled-chromium -> Pale Moon -> [GNU IceCat](https://www.gnu.org/software/gnuzilla/) -> luakit / vimb / surf (tabbed) / Uzbl (tabbed) -> [NetSurf](http://www.netsurf-browser.org/) -> Arachne -> w3m -> Lynx -> [Links2](http://links.twibright.com/) -> [Netrik](http://netrik.sourceforge.net/) -> retawq -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master)
+* __Bookmarks Manager__: [bookmarks.public](https://github.com/skx/bookmarks.public) -> [bk_edit](http://www.vakuumverpackt.de/retiredprojects/bk_edit/) -> [pmb](https://github.com/neoncortex/poor-man-s-bookmark) -> [b.](https://directory.fsf.org/wiki/B.)
+* __Browser__: ungoogled-chromium -> Pale Moon -> [GNU IceCat](https://www.gnu.org/software/gnuzilla/) -> luakit / vimb / surf (tabbed) / Uzbl (tabbed) -> [NetSurf](http://www.netsurf-browser.org/) (works in the framebuffer too) -> Arachne (works in the framebuffer too)
+* __Browser (Command Line)__: w3m (can display images) -> Lynx -> [Links2](http://links.twibright.com/) (can display images) -> [Netrik](http://netrik.sourceforge.net/) -> retawq
 * __Browser (Gopher)__: [GopherVR](http://www.floodgap.com/software/gophervr/) -> [gopherfs](http://git.savannah.gnu.org/cgit/hurd/incubator.git/) -> [UMN Gopher client](https://github.com/jgoerzen/gopher) -> cgo -> Lynx
 * __Chat Client__: [Finch (Pidgin)](https://developer.pidgin.im/wiki/Using%20Finch) in [irssi mode](https://askubuntu.com/questions/442345/how-can-i-simplify-the-finch-interface) -> [Centerim](http://www.centerim.org/index.php/Main_Page) -> [Bitlbee](https://wiki.bitlbee.org/)
 * __E-Mail Archiver__: Hypermail -> [Lurker](http://lurker.sourceforge.net/)
@@ -100,9 +101,11 @@ Most apps are from F-Droid, we are just starting.
 * __IPTV__: FreetuxTV -> iptvx
 * __IRC Client__: HexChat -> BitchX -> Weechat -> Irssi -> ii -> sic
 * __Media Center__: Plex -> Kodi ("XBMC", + Sonarr) -> Emby -> Popcorn Time -> [LittleWeeb](https://littleweeb.github.io/)
+* __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master) -> Wget
 * __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
 * __RSS Feed and Podcast__: gPodder -> Raggle -> Liferea -> Newsbeuter (+ Podbeuter) -> Newsboat
 * __Search Engine Scraper__: Googler -> [Surfraw](http://surfraw.alioth.debian.org/) (+ [dmenu](https://bbs.archlinux.org/viewtopic.php?id=228706) or slmenu)
+* __Streams Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [RTMPDump](https://github.com/mstorsjo/rtmpdump) -> [quvi](https://github.com/mogaal/quvi)
 * __UPnP (DLNA) Client__: [djmount](https://github.com/Boxee/djmount)
 * __Usenet Client (Newsreader)__: Pan -> [slrn](http://www.slrn.org/) ( + slrnpull + slrnface) -> Trn
 * __VoIP Client__: Empathy -> [Jitsi](https://jitsi.org/) -> [Finch (Pidgin)](https://developer.pidgin.im/wiki/vv)
@@ -199,9 +202,7 @@ Most apps are from F-Droid, we are just starting.
 * __FTP Client__: FileZilla -> [lftp](https://github.com/lavv17/lftp) -> NcFTP
 * __LAN Sharing__: NitroShare -> Dukto
 * __Media Miner__: FlexGet -> [Sonarr](https://github.com/Sonarr/Sonarr)
-* __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> Wget
 * __Soulseek__: Nicotine Plus -> [Museek (mucous)](https://museek-plus.org/)
-* __Stream Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [RTMPDump](https://github.com/mstorsjo/rtmpdump) -> [quvi](https://github.com/mogaal/quvi)
 * __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon ([web interface](https://github.com/transmission/transmission/wiki/Web-Interface) by default, [other frontends](https://github.com/fagga/transmission-remote-cli) optional) -> CTorrent -> btpd + mktorrent
 * __Torrent Tracker Scraper__: [Torrtux](https://github.com/l333k0/torrtux) -> [Torrench](https://github.com/kryptxy/torrench) -> [Jackett](https://github.com/Jackett/Jackett)
 * __Usenet (File Grabber)__: LottaNZB -> SABnzbd -> [NZBGet](https://github.com/nzbget/nzbget) -> [nzb](https://directory.fsf.org/wiki/Nzb) -> [nzbperl](https://github.com/eghm/nzbperl)
