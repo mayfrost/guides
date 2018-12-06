@@ -212,27 +212,51 @@ Most apps are from F-Droid, we are just starting.
 * __x-y-zmodem__: lrzsz
 
 ## Forensics
-* __Application Profiling__: Valgrind (+ Callgrind)
-* __Data Recovery__: dvdisaster -> TestDisk (PhotoRec) -> ddrescue
-* __Debugger__: DDD -> [CGDB](https://cgdb.github.io/) -> GDB
-* __Virtual Memory Debugger__: scanmem & Gameconqueror -> [varedit](https://github.com/asherlie/varedit)
-* __Java Debugger__: VisualVM
+* __Application Profiling__: CGprof -> Valgrind (+ Callgrind)
 * __Browser Debugger__: Firebug
+* __Debugger__: DDD -> [CGDB](https://cgdb.github.io/) -> OpenOCD -> GDB
+* __Delta Encoding__: xdelta -> Bsdiff
 * __Forensic Analysis Framework__: The Sleuth Kit -> DFF -> Radare
-* __Hex Editors__: [HT Editor](http://hte.sourceforge.net/) -> [dhex](https://directory.fsf.org/wiki/DHEX)
+* __Hex Editors__: [HT Editor](http://hte.sourceforge.net/) -> biew -> [dhex](https://directory.fsf.org/wiki/DHEX) -> hexedit
+* __Java Profiling__: VisualVM -> Quilt
+* __Memory Scanner (Cheat Engine)__: scanmem & Gameconqueror -> [varedit](https://github.com/asherlie/varedit)
 * __Sandbox__: [Cuckoo Sandbox](https://cuckoosandbox.org/)
 * __Steganalysis__: [Virtual Steganographic Laboratory](http://vsl.sourceforge.net/) -> [Stegdetect](https://github.com/abeluck/stegdetect)
 
 ## Hardware
+* __Cameras__: Motion (motion detection), gPhoto (connecting digital cameras), ccdciel
+* __Car (as in automobile)__: can-utils
 * __CD-DVD Burn and Copy (Backends)__: cdrtools -> cdrkit -> [cdrskin](https://dev.lovelyhq.com/libburnia/web/wikis/cdrskin)
-* __CD-DVD Burn and Copy (Frontends)__: K3b -> Brasero -> [cdw](http://cdw.sourceforge.net/)
+* __CD-DVD Burn and Copy (Frontends)__: K3b -> Brasero -> dvd+rw-tools -> xorriso -> [cdw](http://cdw.sourceforge.net/)
+* __CD-DVD Cue Files__: cuetools -> cuecmd
+* __CD-DVD Information__: cd-discid -> cdstatus
 * __CD-DVD Ripping__: Sound Juicer -> fre ac -> [cdparanoia](https://www.xiph.org/paranoia/) (+ [ABCDE](http://lly.org/~rcw/abcde/page/))
-* __Custom Install CD__: Respin -> Remastersys -> Distroshare -> PinguyBuilder -> Customizer -> Ubuntu Customization Kit -> Mklivecd
-* __Device Management__: Udisks (+ udevil) -> pmount -> [bashmount](https://github.com/jamielinux/bashmount/blob/master/INSTALL)
-* __Disk Cloning and Writing__: dd -> dcfldd -> [dc3dd](https://sourceforge.net/projects/dc3dd/)
-* __Live USB__: UNetbootin -> [MultiCD](https://multicd.us/)
-* __Partitioning__: Gparted -> cfdisk -> GNU Parted -> fdisk / sfdisk
-* __System Backup__: [Systemback](https://sourceforge.net/projects/systemback/) -> [Bacula](https://blog.bacula.org/) -> [FSArchiver](http://www.fsarchiver.org/) -> [CYA](https://www.cyberws.com/bash/cya/)
+* __Data Recovery__: fatcat -> ext3grep -> giis (gET iT i sAY) -> extundelete -> Magic Rescue -> dvdisaster -> TestDisk (PhotoRec) -> ddrescue 
+* __Device Management (and module autoloader)__: evdev -> udev -> vdev
+* __Disk Cloning and Writing__: devio -> dd -> dcfldd -> [dc3dd](https://sourceforge.net/projects/dc3dd/)
+* __Display Color Temperature__: Redshift -> [sct](https://github.com/mgudemann/sct) -> luminous
+* __Display Settings__: xrandr -> DDCcontrol -> fbset
+* __Displays (Miracast)__: MiracleCast
+* __Hardware Bus__: multipath-tools, I2C Tools (i2c-tools), IPMI Tool (ipmitool, ipmiutil) (IPMI DANGEROUS IF ENABLED)
+* __Hardware RAID__: mdadm -> dmraid
+* __Hibernation__: [TuxOnIce](https://github.com/NigelCunningham/tuxonice-kernel) -> [uswsusp](http://suspend.sourceforge.net/) -> pm-utils -> shutdownasap -> watchdog
+* __Home Automation__: LinuxMCE
+* __Keyboard Bindings__: Xbindkeys -> sxhkd -> bind (readline) -> loadkeys (+ keymaps)
+* __Keyboard Input Language__: iBus -> SCIM -> Fcitx -> uim (+ Anthy)
+* __Keyboard Layout__: XKB -> xmodmap -> KBD
+* __Media Transfer Protocol (MTP)__: MTPfs -> jmtpfs -> simple-mtpfs
+* __Microcontrollers__: AVRDUDE
+* __Mounting__: AcetoneISO -> Udisks (+ udevil) -> Lightweight Device Mounter (ldm) -> USBmount -> pmount -> [bashmount](https://github.com/jamielinux/bashmount/blob/master/INSTALL) -> mount (.ISO files too) -> udev rules
+* __Mouse__: xbanish -> [keynav](https://github.com/jordansissel/keynav) -> GPM
+* __Power Management__: tpfancontrol -> tpacpi-bat -> thinkfan -> [TLP](https://github.com/linrunner/TLP) -> [PowerTOP](https://github.com/fenrus75/powertop) -> [Powertweak](https://directory.fsf.org/wiki/Powertweak-Linux)
+* __Printers__: CUPS -> [LPR](http://www.lprng.com/)
+* __Scanners__: Scanner Access Now Easy (SANE)
+* __Software-defined radio (SDR)__: [GNU Radio](https://github.com/gnuradio) (+ [Gqrx](https://github.com/csete/gqrx)) -> [rtl-sdr](https://github.com/osmocom/rtl-sdr)
+* __Telescope__: Talon
+* __Tv (DVR)__: xawtv -> tvtime
+* __Tv (Multicast)__: udpxy -> IGMPproxy
+* __Undevolting and Power Saving__: [TurionPowerControl](https://code.google.com/archive/p/turionpowercontrol/) -> [Linux-PHC](http://www.linux-phc.org/forum/) -> [cpufrequtils](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/cpufreq/) -> [cpupower](https://github.com/torvalds/linux/tree/master/tools/power/cpupower) -> schedtool
+* __UPS__: egctl -> Network UPS Tools (NUT) -> [apcupsd](http://www.apcupsd.org/)
 
 ## Monitoring
 ### Benchmarking
@@ -347,7 +371,6 @@ Most apps are from F-Droid, we are just starting.
 * __Ebook Viewer__: Calibre -> Okular -> Zathura -> [fimgs (fim)](http://www.nongnu.org/fbi-improved/) / [fbgs (fbida)](https://www.kraxel.org/blog/linux/fbida/)
 * __Flashcards__: Anki
 * __Gamification__: HabitRPG -> Habitica
-* __Input Method Editor__: iBus -> Fcitx -> SCIM
 * __Mind Mapping__: FreeMind
 * __Office Suites__: LibreOffice -> [Siag Office](http://siag.nu/) -> [catdoc](https://github.com/petewarden/catdoc) (xls2csv, catppt, wordview)
 * __Offline Dictionary__: Goldendict -> Artha -> [Dico](https://directory.fsf.org/wiki/Dico), [dict](http://www.dict.org/w/software/software)
@@ -357,7 +380,6 @@ Most apps are from F-Droid, we are just starting.
 * __Personal Assistant__: [Mycroft](https://mycroft.ai/), [betty](https://github.com/pickhardt/betty), [Climate](https://github.com/adtac/climate), [Suicide Linux](https://qntm.org/suicide)
 * __Personal Organizer__: Wyrd -> [calcurse](https://directory.fsf.org/wiki/Calcurse) -> when -> cal
 * __Presentation__: Beamer -> Sozi -> [Text Presentation Program](https://github.com/akrennmair/tpp)
-* __Printers__: CUPS -> [LPR](http://www.lprng.com/)
 * __Repetitive Strain Injury__: [Workrave](https://directory.fsf.org/wiki/Workrave)
 * __Speed Reading__: [speedread](https://github.com/pasky/speedread)
 * __Spell Check__: [Aspell](https://directory.fsf.org/wiki/Aspell)
@@ -371,9 +393,12 @@ Most apps are from F-Droid, we are just starting.
 * __Word Processor__: Libreoffice Writter -> Abiword -> MinEd -> [WordGrinder](http://cowlark.com/wordgrinder/) + Pandoc
 
 ## Package Management
+* __CD/USB (Custom Installer)__: Respin -> Remastersys -> Distroshare -> PinguyBuilder -> Customizer -> Ubuntu Customization Kit -> Mklivecd
+* __CD/USB (Live)__: UNetbootin -> [MultiCD](https://multicd.us/)
 * __Gaming Platform__: [LGOGDownloader](https://github.com/Sude-/lgogdownloader) (GOG.com), [SteamCMD](https://linode.com/docs/game-servers/install-steamcmd-for-a-steam-game-server/) (Steam), [Lutris](https://github.com/lutris/lutris)
 * __Portable Apps__: Flatpak -> Snappy -> [AppImage](https://github.com/AppImage)
 * __Language Specific__: [bpkg](https://www.bpkg.sh/) (Bash scripts) -> [Pinto](https://metacpan.org/release/Pinto) (Perl) -> [clib](https://github.com/clibs/clib) (C)
+* __System Backup__: [Systemback](https://sourceforge.net/projects/systemback/) -> [Bacula](https://blog.bacula.org/) -> [FSArchiver](http://www.fsarchiver.org/) -> [CYA](https://www.cyberws.com/bash/cya/)
 * __Universal Package Managers__: [Alien](https://joeyh.name/code/alien/) -> pkgsrc -> GNU Guix
 
 ## Pentesting
@@ -485,7 +510,6 @@ Most apps are from F-Droid, we are just starting.
 * __Multi-Agent (MA) Simulation__: [Mobility Testbed](https://github.com/agents4its/mobilitytestbed) -> [Galatea](http://galatea.sourceforge.net/Home.htm) -> [NetLogo](https://github.com/NetLogo/NetLogo/), [Golly](http://golly.sourceforge.net/) (Conway's Game of Life clone)
 * __Physics Simulation__: [OpenModelica](https://www.openmodelica.org/) -> [CalculiX](http://www.calculix.de/) -> [Elmer](https://directory.fsf.org/wiki/Elmer) -> [MCSim](https://directory.fsf.org/wiki/Mcsim)
 * __Semiconductor Modeling (TCAD)__: [GNU Archimedes](https://directory.fsf.org/wiki/Archimedes) (and [GNU Nano-Archimedes](https://directory.fsf.org/wiki/Nano-archimedes))
-* __Software-defined radio (SDR)__: [GNU Radio](https://github.com/gnuradio) (+ [Gqrx](https://github.com/csete/gqrx)) -> [rtl-sdr](https://github.com/osmocom/rtl-sdr)
 * __Statistical Package__: [SageMath](http://www.sagemath.org/) -> [gretl](http://gretl.sourceforge.net/) -> [PSPP](https://directory.fsf.org/wiki/Pspp)  (+ PSPP-Perl)
 * __Theorem Prover__: Coq -> [Abella](https://github.com/abella-prover/abella) -> [Vampire](https://github.com/mayfrost/Vampire) -> [Metamath](http://metamath.org/)
 
@@ -580,16 +604,14 @@ Most apps are from F-Droid, we are just starting.
 * __Cache__: Memcached, EnhanceIO -> dm-cache -> bcache
 * __Custom Initramfs__: mkinitcpio -> dracut -> [mkinitramfs](https://github.com/tokiclover/mkinitramfs-ll)
 * __Filesystem__: XFS, Ext4, [JFS](http://jfs.sourceforge.net/), [Reiser4](https://reiser4.wiki.kernel.org/index.php/Main_Page), [Bcachefs](https://github.com/8l/Bcachefs)
-* __Hibernation__: [TuxOnIce](https://github.com/NigelCunningham/tuxonice-kernel) -> [uswsusp](http://suspend.sourceforge.net/)
 * __Init - Init Daemon__: [Upstart](https://code.launchpad.net/upstart) -> [SysVinit](https://github.com/slicer69/sysvinit) -> [Initng](https://github.com/initng/initng) -> [sinit](https://github.com/henrysher/sinit)
 * __Init - Service Manager (to be used with an init)__: OpenRC (includes an optional own init) -> runit (includes an optional own init) -> [daemontools-encore](https://github.com/bruceg/daemontools-encore) -> [perp](https://github.com/jdavisp3/perp)
 * __Init - Startup Scripts Manager__: [bum](https://launchpad.net/bum) -> [svsh](https://ido50.github.io/Svsh/) -> [sysv-rc-conf](http://sysv-rc-conf.sourceforge.net/) -> [chkconfig](https://uni.edu/~prefect/devel/chkconfig/index.shtml)
 * __IPC__: DBus -> ipcs (util-linux)
 * __Job Scheduler__: [Slurm](https://github.com/SchedMD/slurm) -> [fcron](http://fcron.free.fr/) (Cron), [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en)
+* __Partitioning__: Gparted -> cfdisk -> GNU Parted -> fdisk / sfdisk
 * __Load in RAM__: [E4rat](https://github.com/ShyPixie/e4rat-lite) -> readahead -> [preload](https://sourceforge.net/projects/preload/), [prelink](https://directory.fsf.org/wiki/Prelink)
-* __Power Management__: tpfancontrol -> thinkfan -> [apcupsd](http://www.apcupsd.org/) -> [TLP](https://github.com/linrunner/TLP) -> [PowerTOP](https://github.com/fenrus75/powertop) -> [Powertweak](https://directory.fsf.org/wiki/Powertweak-Linux)
 * __Settings Manager__: [Linux Lite Control Center](https://github.com/linuxlite/litecontrolcenter) -> [Elektra](https://github.com/ElektraInitiative/libelektra) -> [Augeas](https://github.com/hercules-team/augeas)
-* __Undevolting and Power Saving__: [TurionPowerControl](https://code.google.com/archive/p/turionpowercontrol/) / [Linux-PHC](http://www.linux-phc.org/forum/) -> [cpufrequtils](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/cpufreq/) -> [cpupower](https://github.com/torvalds/linux/tree/master/tools/power/cpupower)
 * __Utilities__: Mtools -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
 
 ## X Desktop
@@ -597,13 +619,8 @@ Most apps are from F-Droid, we are just starting.
 * __Boot Screen__: Plymouth -> Splashy -> Fbsplash -> \<BOOTLOADERS>
 * __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> [snippy](https://github.com/gotbletu/shownotes/blob/master/snippy.sh) -> xclip / XSel
 * __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
-* __Cursor__: [keynav](https://github.com/jordansissel/keynav), GPM
 * __Desktop Character__: [Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya) (for [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
-* __Display Color Temperature__: Redshift -> [sct](https://github.com/mgudemann/sct)
-* __Display Settings__: DDCcontrol, xrandr
 * __Graphical Settings__: [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> GSettings -> xsettings
-* __Keybinding__: Xbindkeys -> sxhkd -> loadkeys (+ keymaps)
-* __Keyboard Layout__: XKB -> xmodmap -> loadkeys (+ keymaps)
 * __Login Manager__: SLiM -> [Qingy](http://qingy.sourceforge.net/)
 * __Macro Recorder__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke) -> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
 * __Nested Display__: Xephyr -> Xnest
