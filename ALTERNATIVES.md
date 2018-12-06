@@ -1,11 +1,8 @@
 # ALTERNATIVES TO BLOATWARE
 
-The list is built pointing to software that has alternatives with less dependencies, and addressing dependencies was the easy thing. Some tools in particular were included because they add less dependencies overall while keeping a system functional. One such example is imagemagick and ffmpeg, by which you can do a lot of work and replace many tools by just using those with scripts and replace something like a screenshot utility. However, a new revision now includes software that was previously discarded for better comparison and featured recommendations will now be highlight by hyperlinks.
+The list is built pointing to software that has alternatives with less dependencies, and addressing dependencies was the easy thing. Some tools in particular were included because they add less dependencies overall while keeping a system functional. One such example is imagemagick and ffmpeg, by which you can do a lot of work and replace many tools by just using those with scripts and replace something like a screenshot utility. Certainly it would be great to have a comparative on resource usage. However, a new revision now includes software that was previously discarded for better comparison and featured recommendations will not be highlight for the moment.
 
-TL;DR: is about the unix principle, having a fully functional system pretty damn minimal with that. Focus on the alternatives with hyperlinks if you want the best suggestions.
-
-Certainly it would be great to have a comparative on resource usage. Want to help?
-
+TL;DR: is about the unix principle, having a fully functional system pretty damn minimal with that.
 
 ## TOC
 1. [ANDROID APPS](#android-apps)  
