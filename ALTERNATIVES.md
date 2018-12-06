@@ -582,57 +582,65 @@ Most apps are from F-Droid, we are just starting.
 
 ## Server
 * __BBS Server__: [Citadel](http://www.citadel.org/doku.php) -> Synchronet -> [Mystic BBS](http://www.tinysbbs.com/files/prog/MSRC20B3.ZIP) -> [BBS100](https://directory.fsf.org/wiki/Bbs100)
+* __Bitcoin Miner__: BFGMiner
 * __Blog__: finger / [cfingerd](https://github.com/pld-linux/cfingerd)
+* __Bluetooth__: BlueALSA
 * __Captcha__: [cool-php-captcha](https://github.com/josecl/cool-php-captcha)
 * __Chat__:  [sshtalk](https://2ton.com.au/sshtalk/) -> util-linux (write, wall, mesg)
+* __Cloud File Server__: Google Drive -> Nextcloud -> [Syncthing](https://github.com/syncthing/syncthing) -> sftp / [SSHFS](https://github.com/libfuse/sshfs) (SSH)
 * __CMS__: WordPress -> [GetSimple CMS](https://github.com/GetSimpleCMS/GetSimpleCMS) -> [werc](http://werc.cat-v.org/)
 * __Collaborative Real-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
 * __Direct Connect Server__: [uhub](https://www.uhub.org/)
-* __DLNA__: [Universal Media Server](https://github.com/UniversalMediaServer/UniversalMediaServer) -> [ReadyMedia](http://minidlna.sourceforge.net/) (a.k.a. MiniDLNA)
+* __DLNA__: [Universal Media Server](https://github.com/UniversalMediaServer/UniversalMediaServer) -> [ReadyMedia](http://minidlna.sourceforge.net/) (a.k.a. MiniDLNA) -> MiniUPnP
+* __DNS Spam Detector__: DNS Flood Detector
 * __Document Management System__: [OpenKM](https://github.com/openkm/document-management-system) -> [LogicalDOC](https://github.com/logicaldoc/document-management-software) -> [EPrints](https://github.com/eprints/eprints)
+* __Dynamic DNS (DDNS)__: DDClient
 * __E-Mail Filtering (LDA)__: Dovecot -> [procmail](https://github.com/Distrotech/procmail)
 * __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> [mairix](https://github.com/rc0/mairix)
-* __E-Mail Mailing Lists__: Mailman -> [Sympa](https://github.com/sympa-community) -> [Dada Mail](https://github.com/justingit/dada-mail) -> [ezmlm](https://github.com/bruceg/ezmlm-idx)
+* __E-Mail Mailing Lists__: Mailman -> [Sympa](https://github.com/sympa-community) -> [Dada Mail](https://github.com/justingit/dada-mail) -> [ezmlm](https://github.com/bruceg/ezmlm-idx) -> mlmmj
 * __E-Mail Notifier__: [mswatch](http://mswatch.sourceforge.net/)
-* __E-Mail Server (MTA)__: [Mail-in-a-Box](https://mailinabox.email/) -> Postfix -> Exim -> [cmail](http://cmail.rocks/) -> [qpsmtpd](https://smtpd.github.io/qpsmtpd/) -> [qmail](https://en.wikipedia.org/wiki/Qmail)
-* __E-Mail Spam Filter__: DSPAM -> [SpamAssassin](https://github.com/apache/spamassassin)
+* __E-Mail Server (MTA)__: [Mail-in-a-Box](https://mailinabox.email/) -> Kolab -> Sendmail -> Postfix -> Exim -> [cmail](http://cmail.rocks/) -> [qpsmtpd](https://smtpd.github.io/qpsmtpd/) -> OpenSMTPD -> [qmail](https://en.wikipedia.org/wiki/Qmail)
+* __E-Mail Spam Filter__: Bogofilter -> DSPAM -> [SpamAssassin](https://github.com/apache/spamassassin) -> SpamProbe + Hashcash + rbldnsd
 * __E-Mail Validation__: [OpenDKIM](http://opendkim.org/), [SPF](http://www.openspf.org/)
 * __File Distribution__: [zsync](http://zsync.moria.org.uk/)
-* __Forum__: [lainchan](https://github.com/lainchan/lainchan) -> [Akari-BBS](https://github.com/microsounds/akari-bbs) -> [sshchan](https://github.com/einchan/sshchan) -> [1436chan](https://github.com/kibook/1436chan)
-* __File Server__: Google Drive -> Nextcloud -> WebDAV -> [Syncthing](https://github.com/syncthing/syncthing) -> [vsftpd](https://github.com/timonier/vsftpd) -> sftp / [SSHFS](https://github.com/libfuse/sshfs) (SSH)
-* __Groupware__: [Alfresco](https://github.com/Alfresco) -> [eXo Platform](https://github.com/exoplatform) -> [Citadel/UX](http://www.citadel.org/doku.php)
+* __Forum__: [lainchan](https://github.com/lainchan/lainchan) -> vichan -> [Akari-BBS](https://github.com/microsounds/akari-bbs) -> [sshchan](https://github.com/einchan/sshchan) -> KrautBBS -> [1436chan](https://github.com/kibook/1436chan)
+* __FTP Server__: CurlFtpFS -> [vsftpd](https://github.com/timonier/vsftpd)
+* __Gopher Server__: Gophernicus -> [Bucktooth](http://gopher.floodgap.com/gopher/gw?gopher/1/buck) (Gopher) + [Bucky](https://github.com/kibook/bucky) (for HTTP exit)
+* __Groupware__: Collabtive -> [Alfresco](https://github.com/Alfresco) -> [eXo Platform](https://github.com/exoplatform) -> [Citadel/UX](http://www.citadel.org/doku.php)
+* __Image Hosting__: img.bi -> Up1
 * __IRC Bot__: [Seabattle](https://github.com/GamesLT/SeaBattle.tcl) (bot game), [Infobot](https://github.com/w3c/infobot), [Eggdrop](https://www.eggheads.org/) (IRC bot)
-* __IRC Bouncer (BNC)__: [ZNC](https://github.com/znc/znc)
+* __IRC Bouncer (BNC)__: [ZNC](https://github.com/znc/znc) -> bip
 * __IRC Fileserver__: [iroffer](https://github.com/grimneko/iroffer-modDinoex)
-* __IRC Server__: UnrealIRCd / Charybdis -> InspIRCd -> [ngIRCd](https://github.com/ngircd/ngircd)
+* __IRC Server__: UnrealIRCd -> Charybdis -> InspIRCd -> [ngIRCd](https://github.com/ngircd/ngircd)
 * __Learning Management System__: [GnuTutor](https://sourceforge.net/projects/gnututor/) -> [OpenExpert](https://sourceforge.net/projects/law-expert/) -> [Syllog](https://sourceforge.net/p/syllog/wiki/Home/)
-* __MUD Server__: [PennMUSH](https://github.com/pennmush/pennmush)
+* __MUD Server__: LambdaMOO -> [PennMUSH](https://github.com/pennmush/pennmush)
 * __Paint chat__: [Drawpile](https://github.com/drawpile/Drawpile) -> [Collab](https://github.com/MoonGames/collab-desktop)
 * __Pastebin__: Stikked -> Paste -> [PrivateBin](https://github.com/PrivateBin/PrivateBin)
 * __Political__: [LittleSis](https://github.com/public-accountability/littlesis-rails), [Loomio](https://github.com/loomio/loomio)
 * __Port Tunnel__: [stunnel](https://www.stunnel.org/) -> [sslh](https://github.com/yrutschle/sslh)
 * __Proxy Server__: [Tinyproxy](https://tinyproxy.github.io/)
-* __Service Manager__: [xinetd](https://github.com/xinetd-org/xinetd) -> [knockd](https://github.com/jvinet/knock), [TCP Wrappers](https://github.com/pexip/os-tcp-wrappers) (tcpd, tcpdchk)
-* __Streaming__: [Peerflix](https://github.com/mafintosh/peerflix) (+ [Torrentflix](https://github.com/ItzBlitz98/torrentflix)) -> [Libresonic](https://github.com/Libresonic/libresonic) -> [Syncplay](https://github.com/Syncplay/syncplay) -> [VLC](https://www.howtogeek.com/118075/how-to-stream-videos-and-music-over-the-network-using-vlc/) -> [FFmpeg](https://gist.github.com/olasd/9841772)
-* __Torrent Tracker__: [Ocelot](https://github.com/whatcd/ocelot) -> [Gazelle](https://github.com/WhatCD/Gazelle)
-* __Tunneling__: [ProxyChains](https://github.com/rofl0r/proxychains-ng) -> [VPNEncap](https://github.com/whussup/vpnencap) -> [VPNCHAINS](https://sourceforge.net/p/vpnchains/wiki/Home/)
-* __Tunneling VM__: [PIA Tunnel](https://www.privateinternetaccess.com/forum/discussion/1389/pia-tunnel-a-virtual-machine-vpn-tunnel), [Whonix](https://www.whonix.org/)
+* __Service Manager__: [xinetd](https://github.com/xinetd-org/xinetd) -> linetd -> inetd (GNU inetutils) -> [knockd](https://github.com/jvinet/knock) -> [TCP Wrappers](https://github.com/pexip/os-tcp-wrappers) (tcpd, tcpdchk) -> ucspi-tcp
+* __Streaming__: [Syncplay](https://github.com/Syncplay/syncplay) -> [Peerflix](https://github.com/mafintosh/peerflix) (+ [Torrentflix](https://github.com/ItzBlitz98/torrentflix)) -> [Libresonic](https://github.com/Libresonic/libresonic) -> Icecast (+ DarkIce -> ezstream -> oggfwd) -> trx: Realtime audio over IP -> SRS -> [VLC](https://www.howtogeek.com/118075/how-to-stream-videos-and-music-over-the-network-using-vlc/) -> [FFmpeg](https://gist.github.com/olasd/9841772)
+* __Torrent Tracker__: [Ocelot](https://github.com/whatcd/ocelot) -> [Gazelle](https://github.com/WhatCD/Gazelle) -> hefur
+* __Tunneling__: HTTPTunnel -> VTun -> [ProxyChains](https://github.com/rofl0r/proxychains-ng) -> [VPNEncap](https://github.com/whussup/vpnencap) -> [VPNCHAINS](https://sourceforge.net/p/vpnchains/wiki/Home/)
+* __Tunneling VM__: [PIA Tunnel](https://www.privateinternetaccess.com/forum/discussion/1389/pia-tunnel-a-virtual-machine-vpn-tunnel) -> [Whonix](https://www.whonix.org/)
 * __Usenet Server__: [InterNetNews](https://www.eyrie.org/~eagle/software/inn/) -> [Leafnode](http://www.leafnode.org/)
-* __VoIP__:  Mumble -> [Linphone (linphonec)](https://www.linphone.org/) -> [sscall](https://github.com/Drakevr/sscall)
-* __VPN__: OpenVPN (+ [PiVPN](http://www.pivpn.io/)) -> [WireGuard](https://github.com/WireGuard/wireguard-rs)
+* __VoIP__:  GNU SIP Witch -> GNU Gatekeeper -> Mumble -> [Linphone (linphonec)](https://www.linphone.org/) -> PJSIP -> [sscall](https://github.com/Drakevr/sscall)
+* __VPN (Overlay)__: strongSwan -> Libreswan -> OpenVPN (+ [PiVPN](http://www.pivpn.io/)) -> [WireGuard](https://github.com/WireGuard/wireguard-rs)
+* __VPN (Pseudo-wire)__: Tunneldigger -> OpenMesher
 * __Web Caching__: Decentraleyes on a web browser -> [Squid](http://www.squid-cache.org/) (+ [SquidGuard](http://squidguard.org/) for Web Filtering)
-* __Web Filtering__: Ad blocker on a web browser -> [Pi-hole](https://github.com/pi-hole/pi-hole) -> [Privoxy](http://www.privoxy.org/) -> [Hostsblock](https://github.com/gaenserich/hostsblock)
-* __Web Server__: Apache -> Nginx -> lighttpd -> [GNU MyServer](https://directory.fsf.org/wiki/GNU_MyServer) -> [darkhttpd](https://github.com/ryanmjacobs/darkhttpd) -> [Bucktooth](http://gopher.floodgap.com/gopher/gw?gopher/1/buck) (Gopher) + [Bucky](https://github.com/kibook/bucky) (for HTTP exit)
-* __Wiki__: [XWiki](https://github.com/xwiki/xwiki-platform) -> [ikiwiki](https://ikiwiki.info/)
+* __Web Filtering__: Ad blocker on a web browser -> [Pi-hole](https://github.com/pi-hole/pi-hole) -> DansGuardian -> [Privoxy](http://www.privoxy.org/) -> [Hostsblock](https://github.com/gaenserich/hostsblock)
+* __Web Server__: Apache -> Nginx -> lighttpd -> Hiawatha -> Monkey -> [GNU MyServer](https://directory.fsf.org/wiki/GNU_MyServer) -> webfs -> [darkhttpd](https://github.com/ryanmjacobs/darkhttpd) -> [Bucky](https://github.com/kibook/bucky) (Bucktooth HTTP exit)
+* __Web Server Certificate__: Dehydrated -> acmetool
+* __Wiki__: TWiki -> DokuWiki -> [XWiki](https://github.com/xwiki/xwiki-platform) -> [ikiwiki](https://ikiwiki.info/)
 * __Wireless Access Point__: [hostapd](https://github.com/OpenSecurityResearch/hostapd-wpe)
-* __XMPP Serve
-* __Undevolting and Power Saving__: [TurionPowerControl](https://code.google.com/archive/p/turionpowercontrol/) / [Linux-PHC](http://www.linux-phc.org/forum/) -> [cpufrequtils](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/cpufreq/) -> [cpupower](https://github.com/torvalds/linux/tree/master/tools/power/cpupower)r__: [Tigase](https://github.com/kontalk/tigase-server)
+* __XMPP Server__: [Tigase](https://github.com/kontalk/tigase-server)
 
 ### Server Authentication
-* __Domain Specific Authentication Server__: Ident (IRC), [SKS](https://bitbucket.org/skskeyserver/sks-keyserver/wiki/Home) (PGP)
 * __Directory Service__: [OpenLDAP](https://www.openldap.org/) -> [NIS](http://www.linux-nis.org/nis/)
+* __Domain Specific Authentication Server__: Ident (IRC), [SKS](https://bitbucket.org/skskeyserver/sks-keyserver/wiki/Home) (PGP)
 * __RADIUS__: [FreeRADIUS](https://github.com/FreeRADIUS) -> [GNU Radius](https://www.gnu.org/software/radius/)
-* __SSO__: [GNU Shishi](https://www.gnu.org/software/shishi/) (Kerberos)
+* __SSO__: krb5 (Kerberos) + keyutils -> [GNU Shishi](https://www.gnu.org/software/shishi/) (Kerberos)
 * __Suites__: [FreeIPA](https://github.com/freeipa/freeipa) -> [SSSD](https://github.com/SSSD/sssd)
 
 ## System Utilities
