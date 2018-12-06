@@ -190,7 +190,7 @@ Most apps are from F-Droid, we are just starting.
 * __File Compression__: arj, Zstandard (Zstd), Zip, lzop, Plzip, pxz, ECM (Error Code Modeler), p7zip, lbzip2, lrzip, pigz
 * __File Conversion__: nrg2iso, dmg2iso (dmg to iso), mdf2iso (mdf to iso), daa2iso (daa to iso), UIF2ISO (uif to iso), ccd2iso (img to iso), bin2iso (bin-cue to iso), mpq-tools (MPQ or MoPaQ), Macutils
 * __File De-Compression Only__: unace, cabextract, unrar, Lunzip, UnZip
-* __File Manager__: Xfe -> SpaceFM -> [File System Visualizer](https://github.com/mcuelenaere/fsv) ([“It’s a Unix system, I know this!”](https://www.youtube.com/watch?v=dxIPcbmo1_U)) -> Endeavour Mark II -> donnatella -> worker (+ imagemagick) -> [Moxfm](https://github.com/ThomasAdam/moxfm) -> Emacs (Dired Plus Mode, Sunrise Commander, ranger.el, Image-Dired, ThumbsMode) -> Ranger -> Midnight Commander -> [vifm](https://wiki.vifm.info/index.php?title=How_to_preview_images) -> [FDclone](http://hp.vector.co.jp/authors/VA012337/soft/fd/) -> [Ytree](https://directory.fsf.org/wiki/Ytree) -> rover -> CLEX -> [nnn](https://github.com/jarun/nnn) -> [tree](https://directory.fsf.org/wiki/Tree)
+* __File Manager__: PCManFM -> Xfe -> SpaceFM -> [File System Visualizer](https://github.com/mcuelenaere/fsv) ([“It’s a Unix system, I know this!”](https://www.youtube.com/watch?v=dxIPcbmo1_U)) -> Endeavour Mark II -> donnatella -> worker (+ imagemagick) -> [Moxfm](https://github.com/ThomasAdam/moxfm) -> Emacs (Dired Plus Mode, Sunrise Commander, ranger.el, Image-Dired, ThumbsMode) -> Ranger -> Midnight Commander -> [vifm](https://wiki.vifm.info/index.php?title=How_to_preview_images) -> [FDclone](http://hp.vector.co.jp/authors/VA012337/soft/fd/) -> [Ytree](https://directory.fsf.org/wiki/Ytree) -> rover -> CLEX -> [nnn](https://github.com/jarun/nnn) -> [tree](https://directory.fsf.org/wiki/Tree)
 * __File Search__: Beagle -> [Puggle](http://puggle.sourceforge.net/) -> [ANGRYsearch](https://github.com/DoTheEvo/ANGRYsearch) -> Tracker -> [DocFetcher](http://docfetcher.sourceforge.net/en/index.html) -> [regain](http://regain.sourceforge.net/index.php) -> lightmediascanner -> find
 * __File Synchronization__: [Unison](https://github.com/bcpierce00/unison) -> duplicity -> synk -> Rsync
 * __Pictures Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> [Mapivi](http://mapivi.sourceforge.net/mapivi.shtml) -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
@@ -198,17 +198,18 @@ Most apps are from F-Droid, we are just starting.
 
 ## Filesharing
 * __Direct Connect__: LinuxDC++ -> [ncdc](https://github.com/srijan/ncdc) -> [microdc2](http://corsair626.no-ip.org/microdc/)
-* __Download Manager__: [JDownloader](https://github.com/Bobmk/JDownloader) -> [giFT](https://sourceforge.net/projects/gift/) (+ [giFTcurs](http://www.nongnu.org/giftcurs/)) -> [aria2](https://aria2.github.io/) -> cURL -> Wget
-* __File Scraper__: megatools (Mega) -> [Grive2](https://github.com/vitalif/grive2) (Google Drive) -> [Rclone](https://github.com/ncw/rclone) -> [Plowshare](https://github.com/mcrapet/plowshare)
-* __FTP Client__: FileZilla -> [lftp](https://github.com/lavv17/lftp)
+* __Download Manager__: [JDownloader](https://github.com/Bobmk/JDownloader) -> [giFT](https://sourceforge.net/projects/gift/) (+ [giFTcurs](http://www.nongnu.org/giftcurs/)) -> [aria2](https://aria2.github.io/) -> cURL -> Wget -> snarf -> Axel
+* __File Scraper__: [Grive2](https://github.com/vitalif/grive2) (Google Drive) -> megatools (Mega) -> [Rclone](https://github.com/ncw/rclone) -> [Plowshare](https://github.com/mcrapet/plowshare)
+* __FTP Client__: FileZilla -> [lftp](https://github.com/lavv17/lftp) -> NcFTP
 * __LAN Sharing__: NitroShare -> Dukto
 * __Media Miner__: FlexGet -> [Sonarr](https://github.com/Sonarr/Sonarr)
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> Wget
 * __Soulseek__: Nicotine Plus -> [Museek (mucous)](https://museek-plus.org/)
-* __Stream Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [quvi](https://github.com/mogaal/quvi) and [RTMPDump](https://github.com/mstorsjo/rtmpdump)
-* __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (comes with a [web interface](https://github.com/transmission/transmission/wiki/Web-Interface) by default but [other frontends](https://github.com/fagga/transmission-remote-cli) exist)
+* __Stream Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [RTMPDump](https://github.com/mstorsjo/rtmpdump) -> [quvi](https://github.com/mogaal/quvi)
+* __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon (comes with a [web interface](https://github.com/transmission/transmission/wiki/Web-Interface) by default but [other frontends](https://github.com/fagga/transmission-remote-cli) exist) -> CTorrent -> btpd + mktorrent
 * __Torrent Tracker Scraper__: [Torrtux](https://github.com/l333k0/torrtux) -> [Torrench](https://github.com/kryptxy/torrench) -> [Jackett](https://github.com/Jackett/Jackett)
 * __Usenet (File Grabber)__: LottaNZB -> SABnzbd -> [NZBGet](https://github.com/nzbget/nzbget) -> [nzb](https://directory.fsf.org/wiki/Nzb) -> [nzbperl](https://github.com/eghm/nzbperl)
+* __x-y-zmodem__: lrzsz
 
 ## Forensics
 * __Application Profiling__: Valgrind (+ Callgrind)
