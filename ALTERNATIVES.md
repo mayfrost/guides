@@ -671,26 +671,26 @@ Most apps are from F-Droid, we are just starting.
 * __Virtual Filesystem__: FuseIso -> Autofs -> AVFS -> afuse -> bindfs
 
 ## X Desktop
-* __Application Launcher__: rofi -> ratmenu -> [dmenu](https://github.com/stilvoid/dmenu)
+* __Application Launcher__: ratmenu -> xcmd -> [dmenu](https://github.com/stilvoid/dmenu) -> nenu
 * __Boot Screen__: Plymouth -> Splashy -> Fbsplash -> \<BOOTLOADERS>
-* __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> [snippy](https://github.com/gotbletu/shownotes/blob/master/snippy.sh) -> xclip / XSel
+* __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> [snippy](https://github.com/gotbletu/shownotes/blob/master/snippy.sh) -> xclip -> XSel
 * __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
-* __Desktop Character__: [Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya) (for [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
-* __Graphical Settings__: [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> GSettings -> xsettings
+* __Desktop Animated Character__: [Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya) (for [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
+* __Desktop Automation__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke) -> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
+* __Graphical Settings__: RiceDB -> [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> GSettings -> xsettings -> fontconfig
 * __Login Manager__: SLiM -> [Qingy](http://qingy.sourceforge.net/)
-* __Macro Recorder__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke) -> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
 * __Nested Display__: Xephyr -> Xnest
-* __Notification Daemon__: dunst -> [slstatus](https://github.com/drkhsh/slstatus)
-* __Notification Server__: Libcanberra + Libnotify -> xmessage
+* __Notification (Daemon)__: dunst -> [slstatus](https://github.com/drkhsh/slstatus) -> SiND (Simple Notification Daemon)
+* __Notification (Server)__: Libcanberra + Libnotify -> xmessage
 * __Panel__: Avant Window Navigator -> Global Menu -> Tint2
 * __Screensaver__: XScreenSaver -> XLockmore -> i3lock -> [sxlock](https://github.com/lahwaacz/sxlock) -> slock
-* __Status Bar Client__: Dzen -> [bevelbar](https://github.com/vain/bevelbar) -> Lemonbar
-* __Status Bar Server__: monky -> i3status
-* __Animated Wallpaper Changer__: Xphoon, xfireworks, Xsnow, xmountains, Xplanet, ImageMagick (animate)
-* __Still Wallpaper Changer__: FEH -> [hsetroot](https://github.com/elmiko/hsetroot) -> [imagemagick](https://imagemagick.org/discourse-server/viewtopic.php?t=16735) (but use 10MB more RAM than the others)
-* __Terminal As Wallpaper__: [root-tail](http://oldhome.schmorp.de/marc/root-tail.html) -> [xrootconsole](http://silicone.homelinux.org/projects/xrootconsole/)
-* __Video Wallpaper Changer__: mpv -> VLC (nvlc) -> MPlayer
-* __Window Manager__: [FVWM](https://directory.fsf.org/wiki/Fvwm) (+ [FvwmTabs](http://fvwm.sourceforge.net/documentation/manpages/unstable/FvwmTabs.php) and [4dwm theme](https://github.com/tonnerre/fvwm/blob/master/sample.fvwmrc/4Dwm.fvwmrc)) -> IceWM -> i3 -> [s3d](http://s3d.sourceforge.net/) (+ s3dfm, it's a 3D desktop!) -> [Amiwm](https://www.lysator.liu.se/~marcus/amiwm.html) -> [MWM](https://github.com/stackfield/mwm) -> [Ratpoison](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl) -> dwm (+ dwmstatus) -> [FrankenWM](https://github.com/sulami/FrankenWM) -> [TinyWM](http://incise.org/tinywm.html) -> [Twin](https://github.com/cosmos72/twin) -> [VWM](http://vwm.sourceforge.net/)
+* __Status Bar (Client)__: Dzen -> [bevelbar](https://github.com/vain/bevelbar) -> Lemonbar
+* __Status Bar (Server)__: monky -> i3status
+* __Wallpaper Changer (Animated)__: Xphoon, xfireworks, Xsnow, xmountains, Xplanet, ImageMagick (animate)
+* __Wallpaper Changer (Still)__: FEH -> xsetroot -> [hsetroot](https://github.com/elmiko/hsetroot) -> [imagemagick](https://imagemagick.org/discourse-server/viewtopic.php?t=16735) (but use 10MB more RAM than the others)
+* __Wallpaper Changer (Terminal As Wallpaper)__: xli -> [root-tail](http://oldhome.schmorp.de/marc/root-tail.html) -> [xrootconsole](http://silicone.homelinux.org/projects/xrootconsole/)
+* __Wallpaper Changer (Video)__: VLC (nvlc) -> mpv -> MPlayer
+* __Window Manager__: [FVWM](https://directory.fsf.org/wiki/Fvwm) (+ [FvwmTabs](http://fvwm.sourceforge.net/documentation/manpages/unstable/FvwmTabs.php) and [4dwm theme](https://github.com/tonnerre/fvwm/blob/master/sample.fvwmrc/4Dwm.fvwmrc)) -> IceWM -> i3 -> [Amiwm](https://www.lysator.liu.se/~marcus/amiwm.html) -> [MWM](https://github.com/stackfield/mwm) -> [Ratpoison](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl) -> dwm (+ dwmstatus) -> [FrankenWM](https://github.com/sulami/FrankenWM) -> [TinyWM](http://incise.org/tinywm.html) -> [s3d](http://s3d.sourceforge.net/) (+ s3dfm, it's a 3D desktop!) -> [Twin](https://github.com/cosmos72/twin) -> [VWM](http://vwm.sourceforge.net/)
 * __Window Manipulation__: QuickTile -> wmctrl -> wmutils
 * __Worskpace Pager__: [3D-Desktop](http://desk3d.sourceforge.net/) -> [Skippy-XD](https://github.com/richardgv/skippy-xd)
 * __X Event Display__: xprop -> xwininfo -> xev
