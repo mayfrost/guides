@@ -485,16 +485,16 @@ Most apps are from F-Droid, we are just starting.
 
 ## Programming
 * __Build Automation__: Ninja -> mk -> [GNU make](https://directory.fsf.org/wiki/Make) -> bmake -> Icmake -> Jam, [Gnulib](https://www.gnu.org/software/gnulib/)
-* __Build Generation__: [Gradle](https://github.com/gradle/gradle) -> Cmake (+ cmocka + ECM) -> Autotools ([Automake](https://directory.fsf.org/wiki/Automake), [Autoconf](https://directory.fsf.org/wiki/Autoconf) + GNU Autoconf Archive, [Libtool](https://directory.fsf.org/wiki/Libtool)) -> mk-configure
+* __Build Script Generation__: [Gradle](https://github.com/gradle/gradle) -> Cmake (+ cmocka + ECM) -> Autotools ([Automake](https://directory.fsf.org/wiki/Automake), [Autoconf](https://directory.fsf.org/wiki/Autoconf) + GNU Autoconf Archive, [Libtool](https://directory.fsf.org/wiki/Libtool)) -> mk-configure
 * __Code Beautifier__: TagSoup -> [UniversalIndentGUI](https://github.com/danblakemore/universal-indent-gui) -> HTML Tidy -> tidyp -> Indent
 * __Compilers (Assembly)__: NASM -> Yasm -> as (GNU binutils)
-* __Compilers (C)__: clang -> Tiny C Compiler (tcc) / Obfuscated Tiny C Compiler (OTCC)
+* __Compilers (C)__: clang -> Tiny C Compiler (tcc)
 * __Compilers (Java)__: Java SE (JDK) -> [IcedTea](https://icedtea.classpath.org/wiki/Main_Page) (OpenJDK) -> [GraalVM](https://www.graalvm.org/) (compile multiple languages into JVM) -> JamVM (JVM) -> FastJar (Compiler)
 * __Compilers (Multiple languages)__: [GCC](https://directory.fsf.org/wiki/Gcc) ([GNU -native- Compiler for Java](https://gcc.gnu.org/wiki/GCJ), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), [GNU Fortran](https://gcc.gnu.org/wiki/GFortran)) + [colorgcc](https://github.com/colorgcc/colorgcc)
 * __Compiling Speeding Up__: [distcc](https://github.com/distcc/distcc), [ccache](https://github.com/ccache/ccache)
 * __Cross-compiler__: [Buildroot](https://github.com/buildroot/buildroot) -> Crosstool-NG -> dev86
 * __Documentation Browser__: Devhelp -> [Zeal](https://github.com/zealdocs/zeal)
-* __Documentation Generator__: perlpod, [bashdoc](https://github.com/ajdiaz/bashdoc), bashdoc, Doxygen, GNU help2man
+* __Documentation Generator__: perlpod, [bashdoc](https://github.com/ajdiaz/bashdoc), Doxygen, GNU help2man
 * __Issue Tracking System__: Bugzilla -> [GNATS](https://www.gnu.org/software/gnats/)
 * __Linting__: [ShellCheck](https://github.com/koalaman/shellcheck), [GNU Source-highlight](https://www.gnu.org/software/src-highlite/)
 * __Memory Allocation__: jemalloc -> boehm-gc
@@ -507,40 +507,43 @@ Most apps are from F-Droid, we are just starting.
 * __Version Control__: Git (+ [tig](https://github.com/jonas/tig)) -> [CVS](https://directory.fsf.org/wiki/CVS) (+ [CVSGraph](https://directory.fsf.org/wiki/CVSGraph)) -> [Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) -> [tla (GNU Arch)](https://directory.fsf.org/wiki/Gnu-arch) -> [RCS](https://www.gnu.org/software/rcs/) + mr + quilt
 
 ## Remote Access
-* __Configuration Management__: Puppet -> CFEngine -> [cdist](https://github.com/ungleich/cdist)
-* __Control Panel__: [Webmin](https://github.com/webmin/webmin)
+* __Configuration Management__: Puppet -> LCFG -> CFEngine -> [cdist](https://github.com/ungleich/cdist)
+* __Control Panel__: ZPanel -> Vesta Control Panel -> [Webmin](https://github.com/webmin/webmin)
 * __Diskless Booting__: iPXE -> [netboot](http://netboot.sourceforge.net/)
 * __PC-Mobile Connection__: KDE Connect -> Wammu -> BitPim -> AndroidTools
-* __Remote Desktop Client__: rdesktop -> Remmina -> [fbvnc](https://github.com/zohead/fbvnc)
-* __Remote Desktop Server__: [xrdp](https://github.com/neutrinolabs/xrdp)
-* __Remote Execution__: [pconsole](https://github.com/walterdejong/pconsole) -> [DSH](https://www.netfort.gr.jp/~dancer/software/dsh.html.en)
+* __Remote Desktop (Client)__: rdesktop -> Remmina -> [fbvnc](https://github.com/zohead/fbvnc)
+* __Remote Desktop (Client and Server)__: X2Go
+* __Remote Desktop (Server)__: [xrdp](https://github.com/neutrinolabs/xrdp)
+* __Remote Execution__: PSSH -> [pconsole](https://github.com/walterdejong/pconsole) -> [DSH](https://www.netfort.gr.jp/~dancer/software/dsh.html.en)
 * __Remote File Manager__: [KodExplorer](https://github.com/kalcaddle/KodExplorer)
-* __Remote Login__: Mosh -> OpenSSH -> [lsh](https://directory.fsf.org/wiki/Lsh)
+* __Remote Login__: Mosh -> OpenSSH -> [lsh](https://directory.fsf.org/wiki/Lsh) -> Dropbear
 * __Remote X Apps__: Xpra > X11 forwarding
 * __Reverse Shell__: [icmpsh](http://inquisb.github.io/icmpsh/) -> [RevSh](https://directory.fsf.org/wiki/Reverse_Shell)
-* __Serial Console__: Minicom -> [Picocom](https://directory.fsf.org/wiki/Picocom) -> Qodem / [GNU Screen](http://www.noah.org/wiki/Screen_notes#using_screen_as_a_serial_terminal)
+* __Serial Console__: Minicom -> [Picocom](https://directory.fsf.org/wiki/Picocom) -> Qodem -> [GNU Screen](http://www.noah.org/wiki/Screen_notes#using_screen_as_a_serial_terminal)
 * __Server Provisioning__: [FAI](http://fai-project.org/)
 * __Wake-on-LAN__: [wakeonlan](https://github.com/jpoliv/wakeonlan)
 
 ## Science And Engineering
 * __Artificial Intelligence__: [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment), [ETHNOS](http://ethnos.sourceforge.net/), [Conscious Artificial Intelligence](https://sourceforge.net/projects/cai/), [OpenCog](https://github.com/opencog/opencog), [OpenAI](https://github.com/openai)
-* __Astronomy__: [SaVi satellite constellation visualizer](https://sourceforge.net/projects/savi/), Stellarium -> Celestia -> [SkyCat](https://github.com/Starlink/skycat)
+* __Astronomy__: Sky Chart - Cartes du Ciel -> astroTools + evTools -> GNU Astronomy Utilities (Gnuastro)
+* __Astronomy (Planetarium)__: Stellarium -> Celestia -> XEphem -> [SkyCat](https://github.com/Starlink/skycat)
+* __Astronomy (Satelline Tracking)__: [SaVi satellite constellation visualizer](https://sourceforge.net/projects/savi/)
 * __Bioinformatics__: [OpenSim](https://simtk.org/projects/opensim/), [Cytoscape](http://www.cytoscape.org/), [BioJava](https://github.com/biojava/biojava) -> [UGENE](http://ugene.net/) -> [EMBOSS](https://github.com/kimrutherford/EMBOSS) -> [SAMtools](https://github.com/samtools/samtools) -> [BioPerl](http://bioperl.org/)
-* __CAD__: AutoCAD -> FreeCAD -> [OpenSCAD](https://github.com/openscad/openscad)
+* __CAD__: AutoCAD -> Blender -> FreeCAD -> LibreCAD -> [OpenSCAD](https://github.com/openscad/openscad)
 * __Chemistry__: [MolComp](http://molcomp.sourceforge.net/), [RasMol](https://directory.fsf.org/wiki/RasMol), [PerlMol](http://www.perlmol.org/)
 * __Circuit Simulator__: [KiCad](http://kicad-pcb.org/) -> [ngspice](http://ngspice.sourceforge.net/) -> [Gnucap](http://www.gnucap.org/dokuwiki/doku.php?id=gnucap:start)
 * __Computational Fluid Dynamics__: [TELEMAC](http://www.opentelemac.org/) -> [FEATFLOW](http://www.featflow.de/en/index.html) -> [OpenFOAM](https://directory.fsf.org/wiki/OpenFOAM) -> [Gerris](http://gfs.sourceforge.net/wiki/index.php/Main_Page)
-* __Computer Algebra System__: [Singular](http://www.singular.uni-kl.de/) -> [Axiom](http://www.axiom-developer.org/) -> [Maxima](http://maxima.sourceforge.net/) (+ PLplot)
-* __Data Visualization__: [Mobility Testbed](https://github.com/agents4its/mobilitytestbed), [NetLogo](https://github.com/NetLogo/NetLogo/), [SocNetV](https://github.com/socnetv) -> [Gephi](https://github.com/gephi/gephi) -> [Tulip](http://tulip.labri.fr/TulipDrupal/)
-* __Geographic Information System__: [qGIS](https://github.com/qgis/QGIS)
-* __Street Map__: [JOSM](https://github.com/openstreetmap/josm) -> [Osmosis](https://github.com/openstreetmap/osmosis)
-* __Subway Map__: [qMetro](http://qmetro.sourceforge.net/maps/)
-* __Virtual Globe__: [Marble](https://github.com/KDE/marble)
-* __Graphing Calculator__: KAlgebra -> [TilEm](http://lpg.ticalc.org/prj_tilem/)
-* __Multi-Agent (MA) Simulation__: [Mobility Testbed](https://github.com/agents4its/mobilitytestbed) -> [Galatea](http://galatea.sourceforge.net/Home.htm) -> [NetLogo](https://github.com/NetLogo/NetLogo/), [Golly](http://golly.sourceforge.net/) (Conway's Game of Life clone)
+* __Computer Algebra System__: [Singular](http://www.singular.uni-kl.de/) -> [Axiom](http://www.axiom-developer.org/) -> [Maxima](http://maxima.sourceforge.net/) (+ PLplot) -> bc + GNU Units
+* __Data Visualization__: [SocNetV](https://github.com/socnetv) -> [Gephi](https://github.com/gephi/gephi) -> [Tulip](http://tulip.labri.fr/TulipDrupal/)
+* __Geography (Geographic Information System)__: [qGIS](https://github.com/qgis/QGIS) -> FWTools (OGDI, PROJ.4, GDAL/OGR, MapServer, OpenEV)
+* __Geography (Street Map)__: [JOSM](https://github.com/openstreetmap/josm) -> [Osmosis](https://github.com/openstreetmap/osmosis)
+* __Geography (Subway Map)__: [qMetro](http://qmetro.sourceforge.net/maps/)
+* __Geography (Virtual Globe)__: [Marble](https://github.com/KDE/marble)
+* __Graphing Calculator__: GraphMonkey -> Lybniz -> KAlgebra -> [TilEm](http://lpg.ticalc.org/prj_tilem/)
+* __Multi-Agent (MA) Simulation__: [Mobility Testbed](https://github.com/agents4its/mobilitytestbed) -> [Galatea](http://galatea.sourceforge.net/Home.htm) -> [NetLogo](https://github.com/NetLogo/NetLogo/) -> [Golly](http://golly.sourceforge.net/) (Conway's Game of Life clone)
 * __Physics Simulation__: [OpenModelica](https://www.openmodelica.org/) -> [CalculiX](http://www.calculix.de/) -> [Elmer](https://directory.fsf.org/wiki/Elmer) -> [MCSim](https://directory.fsf.org/wiki/Mcsim)
 * __Semiconductor Modeling (TCAD)__: [GNU Archimedes](https://directory.fsf.org/wiki/Archimedes) (and [GNU Nano-Archimedes](https://directory.fsf.org/wiki/Nano-archimedes))
-* __Statistical Package__: [SageMath](http://www.sagemath.org/) -> [gretl](http://gretl.sourceforge.net/) -> [PSPP](https://directory.fsf.org/wiki/Pspp)  (+ PSPP-Perl)
+* __Statistical Package__: [SageMath](http://www.sagemath.org/) -> Physics Analysis WorkStation -> ROOT -> [gretl](http://gretl.sourceforge.net/) -> [PSPP](https://directory.fsf.org/wiki/Pspp)  (+ PSPP-Perl)
 * __Theorem Prover__: Coq -> [Abella](https://github.com/abella-prover/abella) -> [Vampire](https://github.com/mayfrost/Vampire) -> [Metamath](http://metamath.org/)
 
 ## Security
