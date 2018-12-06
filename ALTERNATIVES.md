@@ -415,7 +415,7 @@ Most apps are from F-Droid, we are just starting.
 * __CD/USB (Live)__: UNetbootin -> [MultiCD](https://multicd.us/)
 * __Gaming Platform__: [LGOGDownloader](https://github.com/Sude-/lgogdownloader) (GOG.com), [SteamCMD](https://linode.com/docs/game-servers/install-steamcmd-for-a-steam-game-server/) (Steam), [Lutris](https://github.com/lutris/lutris), Gelide
 * __Language Specific__: [bpkg](https://www.bpkg.sh/) (Bash scripts) -> CPAN (+ [Pinto](https://metacpan.org/release/Pinto)) (Perl) -> [clib](https://github.com/clibs/clib) (C)
-* __Package Creation__: OBS -> src2pkg -> CheckInstall -> GNU Stow -> lt
+* __Package Creation__: [OBS](http://openbuildservice.org/) (Open Build Service) -> src2pkg -> CheckInstall -> [GNU Stow](https://directory.fsf.org/wiki/Stow) -> lt
 * __Portable Apps__: Flatpak -> Snappy -> [AppImage](https://github.com/AppImage)
 * __System Backup__: [Systemback](https://sourceforge.net/projects/systemback/) -> [Bacula](https://blog.bacula.org/) -> [FSArchiver](http://www.fsarchiver.org/) -> [CYA](https://www.cyberws.com/bash/cya/)
 * __Universal Package Managers__: [Alien](https://joeyh.name/code/alien/) -> LinuxBrew -> pkgsrc -> GNU Guix
@@ -470,31 +470,41 @@ Most apps are from F-Droid, we are just starting.
 
 ## Privacy
 * __Anti Stylometry__: [Anonymouth](https://github.com/psal/anonymouth)
-* __Disk Cleaner__: [Dban](https://sourceforge.net/projects/dban/) -> bleachbit_cli ([BleachBit](https://github.com/bleachbit/bleachbit)) -> shred (GNU Coreutils)
+* __Data Erasure__: [Dban](https://sourceforge.net/projects/dban/) -> bleachbit_cli ([BleachBit](https://github.com/bleachbit/bleachbit)) -> shred (GNU Coreutils)
 * __Boot Encryption__: [cryptboot](https://github.com/xmikos/cryptboot)
-* __Disk Encryption__: [StegFS](https://github.com/albinoloverats/stegfs), [cryptsetup (dm-crypt)](https://gitlab.com/cryptsetup/cryptsetup/wikis/DMCrypt)
-* __File Encryption__: [GNU Privacy Assistant](https://www.gnupg.org/related_software/gpa/) -> ccrypt -> [GNU Privacy Guard](https://www.gnupg.org/)
-* __Full Storage Encryption__: VeraCrypt -> [Tomb](https://github.com/dyne/Tomb) -> [tcplay](https://github.com/bwalex/tc-play) (full TrueCrypt implementation and still minimalist)
+* __Disk Encryption__: dislocker -> [cryptsetup (dm-crypt)](https://gitlab.com/cryptsetup/cryptsetup/wikis/DMCrypt)
+* __File Encryption__: [GNU Privacy Assistant](https://www.gnupg.org/related_software/gpa/) -> MCrypt -> ccrypt -> [GNU Privacy Guard](https://www.gnupg.org/)
+* __Filesystem Encryption__: eCryptfs -> EncFS -> [StegFS](https://github.com/albinoloverats/stegfs)
+* __Folder Encryption__: VeraCrypt -> [Tomb](https://github.com/dyne/Tomb) -> [tcplay](https://github.com/bwalex/tc-play) (full TrueCrypt implementation and still minimalist)
 * __Encrypted Version Control__: [Keyringer](https://github.com/quarkslab/keyringer)
 * __Identity Generator__: [The Random Identity Generator (rig)](http://rig.sourceforge.net/)
-* __Password Generator__: [pwgen](https://github.com/jbernard/pwgen) -> [apg](https://github.com/Distrotech/apg)
+* __Password Generator__: [pwgen](https://github.com/jbernard/pwgen) -> [apg](https://github.com/Distrotech/apg) -> upwgen -> randstr
 * __Password Manager__: KeePassX -> [pass](https://www.passwordstore.org/) (+ [pass-tomb](https://github.com/roddhjav/pass-tomb), + [passmenu](https://github.com/cdown/passmenu)) -> [kpcli](https://github.com/alecsammon/kpcli)
-* __Steganography__: [StegoShare](http://stegoshare.sourceforge.net/) -> [Steghide](https://github.com/StefanoDeVuono/steghide) -> [SNOW (stegsnow)](http://www.darkside.com.au/snow/) -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
+* __Password Sync__: KeySync
+* __Steganography__: [StegoShare](http://stegoshare.sourceforge.net/) -> [Steghide](https://github.com/StefanoDeVuono/steghide) -> [SNOW (stegsnow)](http://www.darkside.com.au/snow/) -> UUDeview -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
 
 ## Programming
-* __Build Automation__: [Gradle](https://github.com/gradle/gradle), [Buildroot](https://github.com/buildroot/buildroot), [Open Build Service](http://openbuildservice.org/) -> [CheckInstall](https://directory.fsf.org/wiki/CheckInstall) -> Autotools ([Automake](https://directory.fsf.org/wiki/Automake), [Autoconf](https://directory.fsf.org/wiki/Autoconf), [Libtool](https://directory.fsf.org/wiki/Libtool)), [GNU make](https://directory.fsf.org/wiki/Make), [Gnulib](https://www.gnu.org/software/gnulib/)
-* __Code Beautifier__: [UniversalIndentGUI](https://github.com/danblakemore/universal-indent-gui), HTML Tidy
-* __Compiler__: [IcedTea](https://icedtea.classpath.org/wiki/Main_Page) (Java) + [GraalVM](https://www.graalvm.org/) (compile multiple languages into JVM), [GCC](https://directory.fsf.org/wiki/Gcc) ([GNU -native- Compiler for Java](https://gcc.gnu.org/wiki/GCJ), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), [GNU Fortran](https://gcc.gnu.org/wiki/GFortran)) + [colorgcc](https://github.com/colorgcc/colorgcc)
+* __Build Automation__: Ninja -> mk -> [GNU make](https://directory.fsf.org/wiki/Make) -> bmake -> Icmake -> Jam, [Gnulib](https://www.gnu.org/software/gnulib/)
+* __Build Generation__: [Gradle](https://github.com/gradle/gradle) -> Cmake (+ cmocka + ECM) -> Autotools ([Automake](https://directory.fsf.org/wiki/Automake), [Autoconf](https://directory.fsf.org/wiki/Autoconf) + GNU Autoconf Archive, [Libtool](https://directory.fsf.org/wiki/Libtool)) -> mk-configure
+* __Code Beautifier__: TagSoup -> [UniversalIndentGUI](https://github.com/danblakemore/universal-indent-gui) -> HTML Tidy -> tidyp -> Indent
+* __Compilers (Assembly)__: NASM -> Yasm -> as (GNU binutils)
+* __Compilers (C)__: clang -> Tiny C Compiler (tcc) / Obfuscated Tiny C Compiler (OTCC)
+* __Compilers (Java)__: Java SE (JDK) -> [IcedTea](https://icedtea.classpath.org/wiki/Main_Page) (OpenJDK) -> [GraalVM](https://www.graalvm.org/) (compile multiple languages into JVM) -> JamVM (JVM) -> FastJar (Compiler)
+* __Compilers (Multiple languages)__: [GCC](https://directory.fsf.org/wiki/Gcc) ([GNU -native- Compiler for Java](https://gcc.gnu.org/wiki/GCJ), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), [GNU Fortran](https://gcc.gnu.org/wiki/GFortran)) + [colorgcc](https://github.com/colorgcc/colorgcc)
 * __Compiling Speeding Up__: [distcc](https://github.com/distcc/distcc), [ccache](https://github.com/ccache/ccache)
+* __Cross-compiler__: [Buildroot](https://github.com/buildroot/buildroot) -> Crosstool-NG -> dev86
 * __Documentation Browser__: Devhelp -> [Zeal](https://github.com/zealdocs/zeal)
-* __Documentation Generator__: perlpod, [bashdoc](https://github.com/ajdiaz/bashdoc), Doxygen
+* __Documentation Generator__: perlpod, [bashdoc](https://github.com/ajdiaz/bashdoc), bashdoc, Doxygen, GNU help2man
 * __Issue Tracking System__: Bugzilla -> [GNATS](https://www.gnu.org/software/gnats/)
 * __Linting__: [ShellCheck](https://github.com/koalaman/shellcheck), [GNU Source-highlight](https://www.gnu.org/software/src-highlite/)
-* __Other Tools__: [GNU bison](https://directory.fsf.org/wiki/Bison) and [Flex](https://directory.fsf.org/wiki/Flex), [GNU m4](https://directory.fsf.org/wiki/M4), [AutoGen](https://directory.fsf.org/wiki/Autogen), [pkgconf](https://github.com/pkgconf/pkgconf), [Installwatch](https://github.com/ruxkor/checkinstall/tree/master/installwatch), [sysconftool](https://github.com/svarshavchik/courier/tree/master/sysconftool), [GNU Stow](https://directory.fsf.org/wiki/Stow)
-* __[Program Transformation](https://en.wikipedia.org/wiki/Program_transformation)__: [Coccinelle](http://coccinelle.lip6.fr/), [FermaT](http://www.gkc.org.uk/fermat.html), [CIL](https://people.eecs.berkeley.edu/~necula/cil/), [Stratego/XT](http://strategoxt.org/)
-* __Source Code Navigation__: [LXR: The Linux Cross Referencer](http://lxr.sourceforge.net/en/index.php) -> [GNU GLOBAL](https://www.gnu.org/software/global/) -> [cscope](http://cscope.sourceforge.net/) -> [Ctags](https://github.com/universal-ctags/ctags) -> [cgvg](https://github.com/uzi/cgvg) -> [ack](https://beyondgrep.com/) -> [ag](https://github.com/ggreer/the_silver_searcher)
+* __Memory Allocation__: jemalloc -> boehm-gc
+* __Parser Generators__: ANTLR -> Ragel-> [AutoGen](https://directory.fsf.org/wiki/Autogen) -> [GNU bison](https://directory.fsf.org/wiki/Bison) and [Flex](https://directory.fsf.org/wiki/Flex) -> re2c + lemon -> [GNU m4](https://directory.fsf.org/wiki/M4)
+* __[Program Transformation](https://en.wikipedia.org/wiki/Program_transformation)__: [FermaT](http://www.gkc.org.uk/fermat.html), [Coccinelle](http://coccinelle.lip6.fr/), [CIL](https://people.eecs.berkeley.edu/~necula/cil/), [Stratego/XT](http://strategoxt.org/)
+* __Random Hacks__: patchelf, elfhacks, SWIG, Gengetopt
+* __Source Code Navigation__: GNU idutils, cflow (+ cflow2dot), [LXR: The Linux Cross Referencer](http://lxr.sourceforge.net/en/index.php) -> [GNU GLOBAL](https://www.gnu.org/software/global/) -> [cscope](http://cscope.sourceforge.net/) -> [Ctags](https://github.com/universal-ctags/ctags) -> [cgvg](https://github.com/uzi/cgvg) -> [ack](https://beyondgrep.com/) -> [ag](https://github.com/ggreer/the_silver_searcher)
 * __[Source-to-Source Compiler](https://en.wikipedia.org/wiki/Source-to-source_compiler)__: [ROSE](https://github.com/rose-compiler/rose)
-* __Version Control__: Git (+ [tig](https://github.com/jonas/tig)) -> [CVS](https://directory.fsf.org/wiki/CVS) (+ [CVSGraph](https://directory.fsf.org/wiki/CVSGraph)) -> [Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) -> [tla (GNU Arch)](https://directory.fsf.org/wiki/Gnu-arch) -> [RCS](https://www.gnu.org/software/rcs/)
+* __System Query__: [sysconftool](https://github.com/svarshavchik/courier/tree/master/sysconftool), [Installwatch](https://github.com/ruxkor/checkinstall/tree/master/installwatch), [pkgconf](https://github.com/pkgconf/pkgconf)
+* __Version Control__: Git (+ [tig](https://github.com/jonas/tig)) -> [CVS](https://directory.fsf.org/wiki/CVS) (+ [CVSGraph](https://directory.fsf.org/wiki/CVSGraph)) -> [Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) -> [tla (GNU Arch)](https://directory.fsf.org/wiki/Gnu-arch) -> [RCS](https://www.gnu.org/software/rcs/) + mr + quilt
 
 ## Remote Access
 * __Configuration Management__: Puppet -> CFEngine -> [cdist](https://github.com/ungleich/cdist)
