@@ -359,19 +359,21 @@ Most apps are from F-Droid, we are just starting.
 * __Video Effects Plugins__: Frei0r
 * __Video Player__: nvlc (VLC) -> MPV -> [MPlayer](https://mplayerhq.hu) -> fbff -> ffplay
 * __Video to gif__: Video2Gif -> QGifer -> convert (ImageMagick) -> FFmpeg
-* __Video Transcoding__: [HandBrake](https://handbrake.fr/) -> WinFF -> FFmpeg/avconv
+* __Video Transcoding__: [HandBrake](https://handbrake.fr/) -> WinFF -> FFmpeg / avconv
 
 ## Network Setup
 * __Bandwidth Saver__: [Wondershaper](https://github.com/mayfrost/wondershaper)
-* __Bandwidth Testing__: [speedtest-cli](https://github.com/sivel/speedtest-cli) / [speed-test](https://github.com/sindresorhus/speed-test)
+* __Bandwidth Testing__: [speedtest-cli](https://github.com/sivel/speedtest-cli) -> [speed-test](https://github.com/sindresorhus/speed-test)
+* __Bluetooth__: btmgmt -> Bluez-tools
 * __DHCP Client__: dhclient -> dhcpcd
 * __DNS Encryption__: DNSSEC, DNSCrypt
-* __DNS Resolution__: Unbound + NDS -> BIND9
+* __DNS Resolution__: dnsmasq -> Unbound + NDS -> BIND9 -> djbdns
 * __MAC Manipulation__: [GNU MAC Changer (macchanger)](https://github.com/alobbs/macchanger)
 * __Network Encryption__: OpenSSL -> [LibreSSL](https://directory.fsf.org/wiki/Libressl) -> GnuTLS -> IPsec / [SAE](https://github.com/cozybit/authsae) (802.11s)
 * __Network Manager__: Wicd -> NetworkManager -> ConnMan -> [SetNet](http://kalos.mine.nu/setnet/)
-* __Networking Tools__: [ethtool](https://mirrors.edge.kernel.org/pub/software/network/ethtool/), iproute2 (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (ifconfig, netstat)
-* __Wireless Tools__: [Wireless Tools for Linux](https://hewlettpackard.github.io/wireless-tools/Tools.html), [wpa_supplicant](https://w1.fi/wpa_supplicant/)
+* __Networking Tools__: WvDial -> [ethtool](https://mirrors.edge.kernel.org/pub/software/network/ethtool/) -> iproute2 (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (ifconfig, netstat)
+* __Point-to-Point Protocol__: Point-to-Point Protocol daemon
+* __Wireless Tools__: rfkill, iw -> [Wireless Tools for Linux](https://hewlettpackard.github.io/wireless-tools/Tools.html), iwd -> [wpa_supplicant](https://w1.fi/wpa_supplicant/)
 
 ## Office
 * __CHM Viewer__: xCHM -> [CHMLib](http://www.jedrea.com/chmlib/) (extract_chmLib)
