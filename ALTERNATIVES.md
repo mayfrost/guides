@@ -299,62 +299,67 @@ Most apps are from F-Droid, we are just starting.
 
 ## Multimedia
 ### ASCii Art
-* __ANSI Drawing__: [SHPaint](http://bruxy.regnet.cz/web/linux/EN/ansi-art-sh-paint/) -> [MysticDraw](https://archive.org/details/tucows_8499_Mystic_Draw)
+* __ANSI Drawing__: [MysticDraw](https://archive.org/details/tucows_8499_Mystic_Draw) -> [SHPaint](http://bruxy.regnet.cz/web/linux/EN/ansi-art-sh-paint/)
 * __ANSi Viewer__: [ANSiMat](https://sourceforge.net/projects/ansimat/)
 * __ASCii Animation__: blessed -> Durdraw -> drawille
 * __ASCii Banner__: shellpic -> TOIlet -> FIGlet -> sysvbanner
-* __ASCii Drawing__: JavE -> Aewan -> [CAVE WALL](http://www-users.mat.umk.pl/~mckuk/cavewall/) -> textdraw
+* __ASCii Drawing__: JavE -> Aewan -> cadubi -> [CAVE WALL](http://www-users.mat.umk.pl/~mckuk/cavewall/) -> textdraw
 * __ASCii Presentations__: wopr -> blessed-contrib
 * __Image to ASCii__: jp2a
 * __Video to ASCii__: libcaca -> AAlib
 
 ### Audio
 * __Audio Editing__: Audacity -> Snd -> [Ecasound](https://directory.fsf.org/wiki/Ecasound) -> [SoX](http://sox.sourceforge.net/)
-* __Audio Effect Plugins__: [zam-plugins](http://www.zamaudio.com/?p=870) (LADSPA/LV2/VST/JACK), [LV2](http://lv2plug.in/) (x42-plugins), [LADSPA](http://ccrma.stanford.edu/planetccrma/software/ladspaworld.html) (tap-plugins), [DSSI](http://dssi.sourceforge.net/) (dssi-utils, dssi-vst)
-* __Audio Encoding__: [LAME](http://lame.sourceforge.net/), [FLAC](https://xiph.org/flac/)
-* __Background Sound__: GNU GTick -> Ambient Noise
+* __Audio Effect Plugins__: awesfx (SoundFont), Vamp, [zam-plugins](http://www.zamaudio.com/?p=870) (LADSPA/LV2/VST/JACK), [LV2](http://lv2plug.in/) (x42-plugins), [LADSPA](http://ccrma.stanford.edu/planetccrma/software/ladspaworld.html) (tap-plugins), [DSSI](http://dssi.sourceforge.net/) (dssi-utils, dssi-vst), ALSA plugins (alsa-plugins)
+* __Background Sound__: GNU GTick -> Ambient Noise -> ctronome
 * __Digital Audio Workstation__: Rosegarden -> Ardour -> LMMS
 * __DJing__: Mixxx
 * __Ear Training__: LenMus -> GNU Solfege
 * __Multiple Audio Streams__: pulseaudio -> [apulse](https://github.com/i-rinat/apulse) -> ALSA (aloop, Softvol, Dmix)
-* __Music Player__: Audacious (+ [Winamp Classic skin](https://www.gnome-look.org/content/show.php/Winamp+Classic+skin+for+Audacious?content=135799) + GJay) -> [Open Cubic Player](http://stian.cubic.org/project-ocp.php) -> MPD (vimus/ncmpcpp) -> cmus -> [mp3blaster](http://www.mp3blaster.org/) (runs with "aoss mp3blaster" or compiled with ALSA) -> [MOC](http://moc.daper.net/) (+ moc-ffmpeg-plugin, [dmenu_mocp](https://github.com/pscha/dmenu_mocp))
-* __Music Visualization__: [Spectrum3d](http://spectrum3d.sourceforge.net/) -> [Le Biniou](https://directory.fsf.org/wiki/Lebiniou) -> [projectM](http://projectm.sourceforge.net/) -> [cli-visualizer](https://github.com/dpayne/cli-visualizer)
-* __Scorewriter__: MuseScore -> LilyPond
+* __Music Player__: Audacious (+ [Winamp Classic skin](https://www.gnome-look.org/content/show.php/Winamp+Classic+skin+for+Audacious?content=135799) + GJay) -> Clementine -> [Open Cubic Player](http://stian.cubic.org/project-ocp.php) -> MPD (vimus/ncmpcpp) -> cmus -> [mp3blaster](http://www.mp3blaster.org/) (runs with "aoss mp3blaster" or compiled with ALSA) -> MikMod -> [MOC](http://moc.daper.net/) (+ moc-ffmpeg-plugin, [dmenu_mocp](https://github.com/pscha/dmenu_mocp)) -> simple audio daemon (sad)
+* __Music Visualization__: [Spectrum3d](http://spectrum3d.sourceforge.net/) -> [Le Biniou](https://directory.fsf.org/wiki/Lebiniou) -> [projectM](http://projectm.sourceforge.net/) -> cava -> [cli-visualizer](https://github.com/dpayne/cli-visualizer)
+* __Scorewriter__: MuseScore -> LilyPond -> eTktab -> Emacs (lyqi) -> Philip's Music Writer (pmw) -> ABCmidi (abcpp + abc2prt + abcm2ps)
 * __Software Sampler__: LinuxSampler -> orDrumbox -> [Hydrogen](http://www.hydrogen-music.org/hcms/)
-* __Synthesizer__: AlsaModularSynth -> [ZynAddSubFX](http://zynaddsubfx.sourceforge.net/)
-* __System Sound Extensions__: [WineASIO](https://sourceforge.net/projects/wineasio/), alsa-oss/oss-compat, ESound (esound-common), awesfx
-* __System Sound Utilities__: pavucontrol (pulseaudio) -> JAMin (for Jack) -> Qastools -> [alsa-utils](https://github.com/gittup/alsa-utils) + [Alsaequal](https://directory.fsf.org/wiki/Alsaequal)
-* __Tonal Feature Analysis__: [CLAM Chordata](http://clam-project.org/)
-* __Tracker Editors__: [Schism](https://github.com/schismtracker/schismtracker) -> [MilkyTracker](https://github.com/milkytracker/milkytracker)
+* __Synthesizer__: AlsaModularSynth -> [ZynAddSubFX](http://zynaddsubfx.sourceforge.net/) -> FluidSynth (+ SoundFonts)
+* __System Sound Compatibility__: [WineASIO](https://sourceforge.net/projects/wineasio/), oss2jack, oss-compat, alsa-oss
+* __System Sound Extensions__: pulseaudio -> Jack (jack, jack-audio-connection-kit) -> ESound (esound-common)
+* __System Sound Utilities__: pavucontrol (pulseaudio) -> JACK Rack (for Jack) -> JAMin (for Jack) -> Qastools -> gnome-alsamixer -> aumix -> Rexima -> ALSA tools (alsa-tools, alsa-tools-gui) -> [Alsaequal](https://directory.fsf.org/wiki/Alsaequal) -> [alsa-utils](https://github.com/gittup/alsa-utils) (alsamixer, amixer, aplay, arecord)
+* __Tonal Feature Analysis__: [CLAM Chordata](http://clam-project.org/) -> Sonic-> Spek -> Pause
+* __Tracker Editors__: [MilkyTracker](https://github.com/milkytracker/milkytracker) -> [Schism](https://github.com/schismtracker/schismtracker)
 * __Trackers__: [SID-Wizard](http://csdb.dk/release/?id=131846) -> [GoatTracker](https://sourceforge.net/projects/goattracker2/)
 * __Tray Icon__: Volume Icon -> Volti
 
 ### Image
 * __Bitmaps to Vector Conversion__: AutoTrace -> [Potrace](https://directory.fsf.org/wiki/Potrace)
 * __Diagram Editor__: Pencil Project -> Dia -> Graphviz
-* __Bitmap Graphics Digital Drawing__: Krita -> MyPaint -> [XPaint](https://directory.fsf.org/wiki/Xpaint) -> [GrafX2](http://grafx2.chez.com/) / [uberpaint](https://github.com/trapd00r/uberpaint)
-* __Coloring Digital Drawing__: STYLE2PAINTS
-* __Fonts Digital Drawing__: FontForge
-* __Vector Digital Drawing__: Inkscape -> [Xfig](http://mcj.sourceforge.net/)
-* __Image Editing__: RawTherapee -> darktable -> Gimp + [G'MIC](https://github.com/dtschump/gmic) -> ImageMagick (display, import)
+* __Digital Drawing (Bitmap Graphics)__: Krita -> MyPaint -> Xournal -> [XPaint](https://directory.fsf.org/wiki/Xpaint) -> [GrafX2](http://grafx2.chez.com/) / [uberpaint](https://github.com/trapd00r/uberpaint)
+* __Digital Drawing (Coloring)__: OpenColorIO -> deepcolor -> STYLE2PAINTS
+* __Digital Drawing (Fonts)__: FontForge
+* __Digital Drawing (Vector)__: Inkscape -> [Xfig](http://mcj.sourceforge.net/) -> gozer -> ImageMagick
+* __Fonts Conversion__: bdftopcf, PSF Tools, pcf2bdf, otf2bdf, bdf2psf
+* __Fractals and Random Computer Artwork__: [Mandelbulber](https://github.com/buddhi1980/mandelbulber2) -> Fyre -> Wassily
+* __Image Editing__: RawTherapee -> darktable -> Gimp -> Netpbm -> [G'MIC](https://github.com/dtschump/gmic) -> GraphicsMagick -> ImageMagick (display, import) -> Gifsicle
 * __Image Optimizing__: OptiPNG -> pngcrush -> pngquant
-* __Image Viewer__: Feh -> sxiv -> display (ImageMagick) -> [fim](http://www.nongnu.org/fbi-improved/) / [fbi (fbida)](https://github.com/fcarlier/fbida)
-* __Plotting__: Gnuplot -> [PLplot](http://plplot.sourceforge.net/)
-* __Screenshots__: Shutter -> scrot -> maim -> import (ImageMagick) -> [fbcat](https://github.com/jwilk/fbcat) (FBGrab)
+* __Image Viewer__: Feh -> sxiv -> zgv -> lsix -> sdump -> display (ImageMagick) -> [fim](http://www.nongnu.org/fbi-improved/) / [fbi (fbida)](https://github.com/fcarlier/fbida) -> idump
+* __Plotting__: Gnuplot -> Ngraph-gtk -> ygraph -> [PLplot](http://plplot.sourceforge.net/) -> FRTPLOT -> Picviz
+* __Screenshots__: Shutter -> scrot -> maim -> shot.sh -> import (ImageMagick) -> [fbcat](https://github.com/jwilk/fbcat) (FBGrab)
 
 ### Metadata
-* __Metadata__: [Easytag](https://wiki.gnome.org/Apps/EasyTAG) -> [Beets](https://github.com/beetbox/beets) -> [ExifTool](http://exiftool.sourceforge.net/)
+* __Metadata__: [Easytag](https://wiki.gnome.org/Apps/EasyTAG) -> [Beets](https://github.com/beetbox/beets) -> MAT -> Exiv2 -> MediaInfo -> viexif -> [ExifTool](http://exiftool.sourceforge.net/) -> exif
 
 ### Video
 * __Compositing__: [CinePaint](http://www.cinepaint.org/) -> [Natron](https://github.com/MrKepzie/Natron)
 * __Datamoshing__: [Autodatamosh](https://github.com/grampajoe/Autodatamosh)
-* __2D Digital Animation__: [Synfig](https://www.synfig.org/) -> [OpenToonz](https://github.com/opentoonz/opentoonz)
-* __3D Digital Animation__: Blender
-* __Screencasting__: Open Broadcaster Studio -> SimpleScreenRecorder -> [FFmpeg](https://www.linuxquestions.org/questions/linux-general-1/record-using-framebuffer-video-grabber-4175464119/) -> [ttyrec](https://github.com/mjording/ttyrec) (+ [seq2gif](https://github.com/saitoha/seq2gif))
-* __Video Editing__: Kdenlive -> Cinelerra-cv -> OpenShot -> [Melt](https://www.mltframework.org/docs/melt/) -> [AvxSynth](https://github.com/avxsynth/avxsynth) -> FFmpeg
-* __Video Player__: MPV -> nvlc (VLC) -> [MPlayer](https://mplayerhq.hu)
-* __Video to gif__: Video2Gif -> convert (ImageMagick) -> FFmpeg
-* __Video Transcoding__: [HandBrake](https://handbrake.fr/) -> WinFF -> FFmpeg
+* __Digital Animation (2D)__: [Synfig](https://www.synfig.org/) -> [OpenToonz](https://github.com/opentoonz/opentoonz)
+* __Digital Animation (3D)__: Blender
+* __Flash Player__: Lightspark -> Gnash
+* __HDR (High-Dynamic-Range)__: pfstools
+* __Screencasting__: Open Broadcaster Studio -> SimpleScreenRecorder -> XVidCap -> glc -> [FFmpeg](https://www.linuxquestions.org/questions/linux-general-1/record-using-framebuffer-video-grabber-4175464119/) -> [ttyrec](https://github.com/mjording/ttyrec) (+ [seq2gif](https://github.com/saitoha/seq2gif))
+* __Video Editing__: Kdenlive -> Avidemux -> OpenShot -> Cinelerra-cv -> [Melt](https://www.mltframework.org/docs/melt/) -> [AvxSynth](https://github.com/avxsynth/avxsynth) -> blind -> FFmpeg
+* __Video Effects Plugins__: Frei0r
+* __Video Player__: nvlc (VLC) -> MPV -> [MPlayer](https://mplayerhq.hu) -> fbff -> ffplay
+* __Video to gif__: Video2Gif -> QGifer -> convert (ImageMagick) -> FFmpeg
+* __Video Transcoding__: [HandBrake](https://handbrake.fr/) -> WinFF -> FFmpeg/avconv
 
 ## Network Setup
 * __Bandwidth Saver__: [Wondershaper](https://github.com/mayfrost/wondershaper)
@@ -505,7 +510,6 @@ Most apps are from F-Droid, we are just starting.
 * __Computational Fluid Dynamics__: [TELEMAC](http://www.opentelemac.org/) -> [FEATFLOW](http://www.featflow.de/en/index.html) -> [OpenFOAM](https://directory.fsf.org/wiki/OpenFOAM) -> [Gerris](http://gfs.sourceforge.net/wiki/index.php/Main_Page)
 * __Computer Algebra System__: [Singular](http://www.singular.uni-kl.de/) -> [Axiom](http://www.axiom-developer.org/) -> [Maxima](http://maxima.sourceforge.net/) (+ PLplot)
 * __Data Visualization__: [Mobility Testbed](https://github.com/agents4its/mobilitytestbed), [NetLogo](https://github.com/NetLogo/NetLogo/), [SocNetV](https://github.com/socnetv) -> [Gephi](https://github.com/gephi/gephi) -> [Tulip](http://tulip.labri.fr/TulipDrupal/)
-* __Fractals__: [Mandelbulber](https://github.com/buddhi1980/mandelbulber2)
 * __Geographic Information System__: [qGIS](https://github.com/qgis/QGIS)
 * __Street Map__: [JOSM](https://github.com/openstreetmap/josm) -> [Osmosis](https://github.com/openstreetmap/osmosis)
 * __Subway Map__: [qMetro](http://qmetro.sourceforge.net/maps/)
