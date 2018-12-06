@@ -379,6 +379,7 @@ Most apps are from F-Droid, we are just starting.
 * __Address book__: abook
 * __Desktop Publishing__: Scribus
 * __Dictionary__: Goldendict -> Artha -> [Dico](https://directory.fsf.org/wiki/Dico), [dict](http://www.dict.org/w/software/software) -> wtf
+* __Document Format Conversion__: unoconv -> Pandoc -> Yodl -> GNU a2ps -> inf2manp
 * __Document Processor__: Emacs (AUCTeX) -> LyX -> [GNU TeXmacs](http://texmacs.org/tmweb/home/welcome.en.html)
 * __Ebook Utilities__: DeDRM_tools
 * __Ebook Utilities (CHM)__: xCHM -> [CHMLib](http://www.jedrea.com/chmlib/) (extract_chmLib)
@@ -402,7 +403,6 @@ Most apps are from F-Droid, we are just starting.
 * __Text Editor__: Vim -> Nano -> Neovim -> Kakoune -> vile -> mg -> [GNU Zile](https://directory.fsf.org/wiki/GNU_Zile) (minimalist Emacs clone) -> nvi -> [Elvis](https://github.com/mbert/elvis) (minimalist Vi clone) -> ed
 * __Text Editor (IDE)__: Atom -> NetBeans -> Code Blocks -> Emacs (nox) -> Vim -> [xwpe](https://github.com/amagnasco/xwpe) (full IDE in the terminal)
 * __Text Encoding__: fuse-convmvfs, Dos2Unix, ASCII
-* __Text Format Conversion__: unoconv -> Pandoc -> Yodl -> GNU a2ps -> inf2manp
 * __Text Formatting and Pretty Printing__: par -> fmt (Textutils) -> MSORT
 * __Text-To-Speech__: Orca -> Gespeaker -> [eBook-speaker](https://directory.fsf.org/wiki/EBook-speaker) (+ pandoc) -> [eSpeak](https://github.com/espeak-ng/espeak-ng/)
 * __Typesetting__: LaTeX -> Texinfo + Pinfo -> Discount (Markdown) -> AFT -> [groff (tbl, pic, eqn, chem, music, dpic, grohtml)](https://www.troff.org/prog.html)
@@ -413,31 +413,33 @@ Most apps are from F-Droid, we are just starting.
 ## Package Management
 * __CD/USB (Custom Installer)__: Respin -> Remastersys -> Distroshare -> PinguyBuilder -> Customizer -> Ubuntu Customization Kit -> Mklivecd
 * __CD/USB (Live)__: UNetbootin -> [MultiCD](https://multicd.us/)
-* __Gaming Platform__: [LGOGDownloader](https://github.com/Sude-/lgogdownloader) (GOG.com), [SteamCMD](https://linode.com/docs/game-servers/install-steamcmd-for-a-steam-game-server/) (Steam), [Lutris](https://github.com/lutris/lutris)
+* __Gaming Platform__: [LGOGDownloader](https://github.com/Sude-/lgogdownloader) (GOG.com), [SteamCMD](https://linode.com/docs/game-servers/install-steamcmd-for-a-steam-game-server/) (Steam), [Lutris](https://github.com/lutris/lutris), Gelide
+* __Language Specific__: [bpkg](https://www.bpkg.sh/) (Bash scripts) -> CPAN (+ [Pinto](https://metacpan.org/release/Pinto)) (Perl) -> [clib](https://github.com/clibs/clib) (C)
+* __Package Creation__: OBS -> src2pkg -> CheckInstall -> GNU Stow -> lt
 * __Portable Apps__: Flatpak -> Snappy -> [AppImage](https://github.com/AppImage)
-* __Language Specific__: [bpkg](https://www.bpkg.sh/) (Bash scripts) -> [Pinto](https://metacpan.org/release/Pinto) (Perl) -> [clib](https://github.com/clibs/clib) (C)
 * __System Backup__: [Systemback](https://sourceforge.net/projects/systemback/) -> [Bacula](https://blog.bacula.org/) -> [FSArchiver](http://www.fsarchiver.org/) -> [CYA](https://www.cyberws.com/bash/cya/)
-* __Universal Package Managers__: [Alien](https://joeyh.name/code/alien/) -> pkgsrc -> GNU Guix
+* __Universal Package Managers__: [Alien](https://joeyh.name/code/alien/) -> LinuxBrew -> pkgsrc -> GNU Guix
 
 ## Pentesting
 ### Exploitables
 * __Distros__: [Security Scenario Generator (SecGen)](https://github.com/cliffe/SecGen) -> [Damn Vulnerable Linux](https://sourceforge.net/projects/virtualhacking/files/os/dvl/) -> [Metasploitable](https://www.offensive-security.com/metasploit-unleashed/Requirements/) -> [Kioptrix](http://www.kioptrix.com/blog/)
 * __Web Apps__: [Mutillidae](https://sourceforge.net/projects/mutillidae/) -> [hackxor](http://hackxor.net/) -> [WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
 
-### Network Scanner
-* __DNS Client__: [whois](https://github.com/rfc1036/whois), [dnsenum](https://github.com/fwaeytens/dnsenum), [dnstracer](https://directory.fsf.org/wiki/Dnstracer), bind-tools (nslookup, host, dig)
-* __Link Scanner__: [Metagoofil](https://github.com/laramies/metagoofil) -> [Linklint](http://www.linklint.org/) (+ [linklint2dot](http://www.deltadevelopment.de/users/christoph/linklint2dot/))
-* __Network Enumeration__: [SSLScan](https://github.com/rbsec/sslscan), [p0f](https://github.com/p0f/p0f), [PRADS](https://gamelinux.github.io/prads/)
-* __Network File Retrieval__: [Driftnet](https://github.com/deiv/driftnet) -> [tcpxtract](http://tcpxtract.sourceforge.net/)
-* __Network Mapping__: [Open Visual Traceroute](http://visualtraceroute.net/) -> [EtherApe](http://etherape.sourceforge.net/) -> [Paris Traceroute](https://github.com/libparistraceroute/libparistraceroute) -> [Dublin Traceroute](https://github.com/insomniacslk/dublin-traceroute) -> [MTR](https://www.bitwizard.nl/mtr/) -> [tcptraceroute](https://directory.fsf.org/wiki/Tcptraceroute) -> iputils (Ping, traceroute, tracepath, arping)
-* __OSINT__: [Creepy](https://github.com/ilektrojohn/creepy) -> [Netglub](http://www.netglub.org/)
-* __Packet Sniffer__: [Tshark (Wireshark TUI)](https://github.com/wireshark/wireshark) -> [tcpflow](https://directory.fsf.org/wiki/Tcpflow) -> [tcpdump](https://directory.fsf.org/wiki/Tcpdump)
-* __Reconnaissance Framework__: [dsniff](https://www.monkey.org/~dugsong/dsniff/) (urlsnarf, filesnarf, webspy, Tcpkill, macof, arpspoof) -> [Nmap](https://nmap.org/) -> [ngrep](https://github.com/jpr5/ngrep/)
+### Network Scan
+* __Bluetooth__: btscanner -> bluesniff
+* __DNS Client__: [whois](https://github.com/rfc1036/whois), [dnsenum](https://github.com/fwaeytens/dnsenum), [dnstracer](https://directory.fsf.org/wiki/Dnstracer), slookup, bind-tools (nslookup, host, dig)
+* __Link Scanner__: [Metagoofil](https://github.com/laramies/metagoofil) -> LinkChecker -> [Linklint](http://www.linklint.org/) (+ [linklint2dot](http://www.deltadevelopment.de/users/christoph/linklint2dot/))
+* __Network Enumeration__: [SSLScan](https://github.com/rbsec/sslscan), xprobe2, [p0f](https://github.com/p0f/p0f), WhatWeb, [PRADS](https://gamelinux.github.io/prads/)
+* __Network File Retrieval__: [Driftnet](https://github.com/deiv/driftnet) -> VoIPong -> [tcpxtract](http://tcpxtract.sourceforge.net/)
+* __Network Mapping__: [Open Visual Traceroute](http://visualtraceroute.net/) -> [EtherApe](http://etherape.sourceforge.net/) -> [Paris Traceroute](https://github.com/libparistraceroute/libparistraceroute) -> [Dublin Traceroute](https://github.com/insomniacslk/dublin-traceroute) -> [MTR](https://www.bitwizard.nl/mtr/) -> Layer Four Traceroute (LFT) -> [tcptraceroute](https://directory.fsf.org/wiki/Tcptraceroute) -> iputils (Ping, traceroute, tracepath, arping) -> ipcalc -> GeoIP
+* __OSINT__: SpiderFoot -> TheHarvester -> [Creepy](https://github.com/ilektrojohn/creepy) -> [Netglub](http://www.netglub.org/)
+* __Packet Sniffer__: [Tshark (Wireshark TUI)](https://github.com/wireshark/wireshark) -> [tcpflow](https://directory.fsf.org/wiki/Tcpflow) -> [tcpdump](https://directory.fsf.org/wiki/Tcpdump) + tcpick
+* __Reconnaissance Framework__: Recon-ng -> DMitry -> [dsniff](https://www.monkey.org/~dugsong/dsniff/) (urlsnarf, filesnarf, webspy, Tcpkill, macof, arpspoof) -> [Nmap](https://nmap.org/) -> [ngrep](https://github.com/jpr5/ngrep/)
 * __WiFi Scanner__: [FLUXION](https://github.com/wi-fi-analyzer/fluxion) -> [Kismet](https://www.kismetwireless.net/)
 
 ### Network Tampering
-* __General__: [cryptcat](http://cryptcat.sourceforge.net/) (Netcat) -> [socat](https://github.com/craSH/socat) -> [Netsed](https://github.com/xlab/netsed)
-* __Man-in-the-middle Attack__: [Morpheus](https://github.com/r00t-3xp10it/morpheus) -> [sslstrip](https://github.com/moxie0/sslstrip) -> [Ettercap](https://github.com/Ettercap/ettercap)
+* __General__: netcat -> ncat (nmap) -> [cryptcat](http://cryptcat.sourceforge.net/) (Netcat) -> [socat](https://github.com/craSH/socat) -> [Netsed](https://github.com/xlab/netsed)
+* __Man-in-the-middle Attack__: [sslstrip](https://github.com/moxie0/sslstrip) -> [Morpheus](https://github.com/r00t-3xp10it/morpheus) -> evilginx2 -> bettercap -> [Ettercap](https://github.com/Ettercap/ettercap)
 * __Packet Crafting__: [Ostinato](https://github.com/pstavirs/ostinato) -> [hping](https://github.com/antirez/hping)
 * __Traffic Generator__: [Mausezahn](https://github.com/uweber/mausezahn)
 * __Traffic Replay__: [Tcpreplay](https://github.com/appneta/tcpreplay)
@@ -453,12 +455,13 @@ Most apps are from F-Droid, we are just starting.
 * __Wordlist Generator__: [CUPP](https://github.com/Mebus/cupp) -> [crunch](https://github.com/crunchsec/crunch)
 
 ### Vulnerability Scanner
-* __Application Vulnerability__: [BCCF](https://github.com/joxeankoret/nightmare/blob/master/doc/blind_code_coverage_fuzzer.txt) -> [afl-fuzz](http://lcamtuf.coredump.cx/afl/)
-* __Backdooring__: [Veil](https://github.com/Veil-Framework/Veil) -> [Cymothoa](http://cymothoa.sourceforge.net/) -> [Backdoor Factory](https://github.com/secretsquirrel/the-backdoor-factory) -> [Evilgrade](https://github.com/infobyte/evilgrade) - [EvilAbigail](https://github.com/GDSSecurity/EvilAbigail)
+* __Application Vulnerability__: Fuzz -> [BCCF](https://github.com/joxeankoret/nightmare/blob/master/doc/blind_code_coverage_fuzzer.txt) -> [afl-fuzz](http://lcamtuf.coredump.cx/afl/)
+* __Backdooring__: [Veil](https://github.com/Veil-Framework/Veil) -> [Cymothoa](http://cymothoa.sourceforge.net/) -> [Backdoor Factory](https://github.com/secretsquirrel/the-backdoor-factory) -> [Evilgrade](https://github.com/infobyte/evilgrade) -> [EvilAbigail](https://github.com/GDSSecurity/EvilAbigail)
 * __Cross-Scripting__: [xsser](https://github.com/epsylon/xsser)
 * __Exploit Famework__: Metasploit -> [Metasploit](https://github.com/metasploit/framework2) (Perl), [WebSploit](https://github.com/websploit/websploit) -> [w3af](https://github.com/andresriancho/w3af)
 * __Network Vulnerability__: [pytbull](http://pytbull.sourceforge.net/) -> [Yersinia](https://github.com/tomac/yersinia)
 * __Post Exploitation__: [Empire](https://github.com/EmpireProject/Empire) -> [Post Exploitation Collection](https://github.com/mubix/post-exploitation) (Windows) -> [mimikatz](https://github.com/gentilkiwi/mimikatz) (Windows) -> [Post Exploitation Linux Toolkit](https://github.com/cys3c/PELT) -> [poet](https://github.com/mossberg/poet)
+* __SIP__: Sippts
 * __Social Engineering__: [SET (Social Engineering Toolkit)](https://github.com/trustedsec/social-engineer-toolkit), [BeEF (The Browser Exploitation Framework Project)](https://github.com/beefproject/beef)
 * __SQL Injection__: [sqlmap](https://github.com/sqlmapproject/sqlmap)
 * __SSH Denial__: [screwSSH](https://github.com/isislab/screwSSH)
