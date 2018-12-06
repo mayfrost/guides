@@ -169,7 +169,6 @@ Most apps are from F-Droid, we are just starting.
 * __Containers__: sandbox -> fakechroot -> FakeRoot -> PRoot -> chroot -> containerd -> OpenVZ -> User-mode Linux (UML) -> LXC -> [Linux-VServer](http://linux-vserver.org/Welcome_to_Linux-VServer.org) -> containers
 * __Emulators__: Systemd/Linux: [systemd-shim](https://directory.fsf.org/wiki/Systemd-shim), Windows: Wine (+ [Wine Staging](https://github.com/wine-compholio/wine-staging)), Android: [Anbox](https://github.com/anbox/anbox), OS X: [Darling](https://www.darlinghq.org/), Atari: [Hatari](http://hatari.tuxfamily.org/) (16/32-bit) and [Atari800](https://atari800.github.io/) (8-bit), CP/M: cpm (+ cpmtool), Spectrum: FBZX, Commodore: [VICE](http://vice-emu.sourceforge.net/), DOS: DOSBox
 * __Hypervisors__: Xen -> [NOVA](http://hypervisor.org/) -> KVM
-* __Multiplexer Wrappers__: [pam_wrapper](https://cwrap.org/pam_wrapper.html), [resolv_wrapper](https://cwrap.org/resolv_wrapper.html), [uid_wrapper](https://cwrap.org/uid_wrapper.html), [nss_wrapper](https://cwrap.org/nss_wrapper.html), [socket_wrapper](https://cwrap.org/socket_wrapper.html)
 * __Network Virtualization__: GNS3 -> [nsnam](https://github.com/nsnam/ns-3-dev-git)
 * __Video Game Console Emulation (ATARI)__: [Stella](https://stella-emu.github.io/)
 * __Video Game Console Emulation (XBOX)__: [XQEMU](https://github.com/espes/xqemu)
@@ -644,20 +643,32 @@ Most apps are from F-Droid, we are just starting.
 * __Suites__: [FreeIPA](https://github.com/freeipa/freeipa) -> [SSSD](https://github.com/SSSD/sssd)
 
 ## System Utilities
-* __BIOS__: Coreboot -> [Libreboot](https://libreboot.org/)
-* __[Boot Loader](https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md)__: GRUB 2 -> GRUB Legacy -> [SYSLINUX](http://www.syslinux.org/wiki/index.php?title=The_Syslinux_Project) -> [LILO](https://lilo.alioth.debian.org/) (or [ELILO](https://sourceforge.net/projects/elilo/) for UEFI)
+* __BIOS__: efibootmgr -> SeaBIOS -> Coreboot -> [Libreboot](https://libreboot.org/)
+* __[Boot Loader](https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md)__: GRUB 2 -> GRUB Legacy -> [SYSLINUX](http://www.syslinux.org/wiki/index.php?title=The_Syslinux_Project) (+ Hardware Detection Tool -HDT-) -> [LILO](https://lilo.alioth.debian.org/) (or [ELILO](https://sourceforge.net/projects/elilo/) for UEFI) -> AiR-Boot -> Das U-Boot (u-boot-tools)
+* __Boot Loaders (load on running machine)__: loadlin -> Kexec (kexec-tools)
 * __Cache__: Memcached, EnhanceIO -> dm-cache -> bcache
-* __Custom Initramfs__: mkinitcpio -> dracut -> [mkinitramfs](https://github.com/tokiclover/mkinitramfs-ll)
-* __Filesystem__: XFS, Ext4, [JFS](http://jfs.sourceforge.net/), [Reiser4](https://reiser4.wiki.kernel.org/index.php/Main_Page), [Bcachefs](https://github.com/8l/Bcachefs)
-* __Init - Init Daemon__: [Upstart](https://code.launchpad.net/upstart) -> [SysVinit](https://github.com/slicer69/sysvinit) -> [Initng](https://github.com/initng/initng) -> [sinit](https://github.com/henrysher/sinit)
-* __Init - Service Manager (to be used with an init)__: OpenRC (includes an optional own init) -> runit (includes an optional own init) -> [daemontools-encore](https://github.com/bruceg/daemontools-encore) -> [perp](https://github.com/jdavisp3/perp)
-* __Init - Startup Scripts Manager__: [bum](https://launchpad.net/bum) -> [svsh](https://ido50.github.io/Svsh/) -> [sysv-rc-conf](http://sysv-rc-conf.sourceforge.net/) -> [chkconfig](https://uni.edu/~prefect/devel/chkconfig/index.shtml)
-* __IPC__: DBus -> ipcs (util-linux)
-* __Job Scheduler__: [Slurm](https://github.com/SchedMD/slurm) -> [fcron](http://fcron.free.fr/) (Cron), [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en)
-* __Partitioning__: Gparted -> cfdisk -> GNU Parted -> fdisk / sfdisk
+* __Core Utilities__: moreutils -> Mtools -> util-linux -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
+* __Custom Initramfs__: mkinitcpio -> dracut -> Genkernel -> [mkinitramfs](https://github.com/tokiclover/mkinitramfs-ll) -> umkinitramfs
+* __Filesystem__: CP/M (cpmtools), HFS Utilities, SquashFS (squashfs-tools), fuseflt, UnionFS (unionfs-fuse), udftools (UDF), F2FS (f2fs-tools), exFAT (exfat-utils, fuse-exfat), FAT (dosfstools), Btrfs (btrfs-progs), XFS (xfsprogs, xfsdump), Ext4, [JFS](http://jfs.sourceforge.net/), [Reiser4](https://reiser4.wiki.kernel.org/index.php/Main_Page), [Bcachefs](https://github.com/8l/Bcachefs)
+* __Init (Daemon)__: [Upstart](https://code.launchpad.net/upstart) -> [SysVinit](https://github.com/slicer69/sysvinit) -> [Initng](https://github.com/initng/initng) -> Finit -> [sinit](https://github.com/henrysher/sinit)
+* __Init (Service Manager)__: OpenRC (includes an optional own init) -> runit (includes an optional own init) -> Ignite -> [daemontools-encore](https://github.com/bruceg/daemontools-encore) -> [perp](https://github.com/jdavisp3/perp)
+* __Init (Startup Scripts Manager)__: [bum](https://launchpad.net/bum) -> [svsh](https://ido50.github.io/Svsh/) -> [sysv-rc-conf](http://sysv-rc-conf.sourceforge.net/) -> [chkconfig](https://uni.edu/~prefect/devel/chkconfig/index.shtml)
+* __IPC__: DBus -> [ubus](https://wiki.openwrt.org/doc/techref/ubus) -> RPCBind -> ipcs (util-linux)
+* __Job Scheduler (Event)__: [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en) -> inotify-tools -> wendy -> ACPI event daemon (acpid) -> waitfordevice (w4d)
+* __Job Scheduler (Queue)__:  [Slurm](https://github.com/SchedMD/slurm) -> Task Spooler
+* __Job Scheduler (Time)__: Anacron -> [fcron](http://fcron.free.fr/) -> bcron -> dcron -> at
+* __Kernel Modules__: NDISwrapper -> ibm-acpi-> kmod (lsmod, insmod, modprobe)
+* __Kernel Patches__: V86 mode support, GoboHide, Kernel_gcc_patch, Linux-ck, Liquorix, Linux-rt, GNU Linux-libre, Linux Tiny
+* __Kernels__: LUnix, Linux + Lux (kernel updater), GNU Mach, RTLinux, Muen, HiStar
 * __Load in RAM__: [E4rat](https://github.com/ShyPixie/e4rat-lite) -> readahead -> [preload](https://sourceforge.net/projects/preload/), [prelink](https://directory.fsf.org/wiki/Prelink)
-* __Settings Manager__: [Linux Lite Control Center](https://github.com/linuxlite/litecontrolcenter) -> [Elektra](https://github.com/ElektraInitiative/libelektra) -> [Augeas](https://github.com/hercules-team/augeas)
-* __Utilities__: Mtools -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
+* __Logical Volume Management__: LVM2
+* __Multiplexer Wrappers__: ucspi-unix, ucspi-ipc, [socket_wrapper](https://cwrap.org/socket_wrapper.html), [nss_wrapper](https://cwrap.org/nss_wrapper.html), [uid_wrapper](https://cwrap.org/uid_wrapper.html), [resolv_wrapper](https://cwrap.org/resolv_wrapper.html), [pam_wrapper](https://cwrap.org/pam_wrapper.html)
+* __Network Time Protocol__: clockspeed -> Network Time Protocol daemon (ntpd) -> chrony -> OpenNTPD
+* __OS Frameworks__: OpenStack -> Genode
+* __Partitioning__: Gparted -> GNU Parted -> util-linux (cfdisk, fdisk, sfdisk, mkfs, mkswap, swapon, swapoff)
+* __Partitioning Fixes__: u3_tool, ms-sys
+* __Settings Manager__: Youker Assistant -> [Linux Lite Control Center](https://github.com/linuxlite/litecontrolcenter) -> [Elektra](https://github.com/ElektraInitiative/libelektra) -> [Augeas](https://github.com/hercules-team/augeas) -> Climate -> The Fuck -> Suicide Linux
+* __Virtual Filesystem__: FuseIso -> Autofs -> AVFS -> afuse -> bindfs
 
 ## X Desktop
 * __Application Launcher__: rofi -> ratmenu -> [dmenu](https://github.com/stilvoid/dmenu)
