@@ -675,7 +675,8 @@ Most apps are from F-Droid, we are just starting.
 * __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
 * __Desktop Animated Character__: [Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya) (for [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
 * __Desktop Automation__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke) -> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
-* __Graphical Settings__: RiceDB -> [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> GSettings -> xsettings -> fontconfig
+* __Font Settings__: xfontsel + mkfontdir -> fontconfig -> /etc/X11/xorg.conf
+* __Graphics Settings__: RiceDB -> [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> dconf -> Xset -> /etc/X11/xorg.conf
 * __Login Manager__: SLiM -> [Qingy](http://qingy.sourceforge.net/)
 * __Nested Display__: Xephyr -> Xnest
 * __Notification (Daemon)__: dunst -> [slstatus](https://github.com/drkhsh/slstatus) -> SiND (Simple Notification Daemon)
