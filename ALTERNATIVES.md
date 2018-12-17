@@ -103,7 +103,7 @@ Most apps are from F-Droid, we are just starting.
 * __Media Center__: Plex -> Kodi ("XBMC", + Sonarr) -> Emby -> Popcorn Time -> [LittleWeeb](https://littleweeb.github.io/)
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master) -> Wget
 * __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
-* __RSS Feed and Podcast__: gPodder -> Raggle -> Liferea -> Newsbeuter (+ Podbeuter) -> Newsboat
+* __RSS Feed and Podcast__: gPodder -> Raggle -> Liferea -> Newsbeuter (+ Podbeuter) -> Newsboat -> [sfeed](https://codemadness.org/git/sfeed/file/README.html)
 * __Search Engine Scraper__: Googler -> [Surfraw](http://surfraw.alioth.debian.org/) (+ [dmenu](https://bbs.archlinux.org/viewtopic.php?id=228706) or slmenu)
 * __Streams Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [RTMPDump](https://github.com/mstorsjo/rtmpdump) -> [quvi](https://github.com/mogaal/quvi)
 * __UPnP (DLNA) Client__: [djmount](https://github.com/Boxee/djmount)
