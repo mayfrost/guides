@@ -476,7 +476,7 @@ Most apps are from F-Droid, we are just starting.
 * __Encrypted Version Control__: [Keyringer](https://github.com/quarkslab/keyringer)
 * __Identity Generator__: [The Random Identity Generator (rig)](http://rig.sourceforge.net/)
 * __Password Generator__: [pwgen](https://github.com/jbernard/pwgen) -> [apg](https://github.com/Distrotech/apg) -> upwgen -> randstr
-* __Password Manager__: KeePassX -> [pass](https://www.passwordstore.org/) (+ [pass-tomb](https://github.com/roddhjav/pass-tomb), + [passmenu](https://github.com/cdown/passmenu)) -> [kpcli](https://github.com/alecsammon/kpcli)
+* __Password Manager__: KeePassX / KeePassXC -> [pass](https://www.passwordstore.org/) (+ [pass-tomb](https://github.com/roddhjav/pass-tomb), + [passmenu](https://github.com/cdown/passmenu)) -> [kpcli](https://github.com/alecsammon/kpcli)
 * __Password Sync__: KeySync
 * __Steganography__: [StegoShare](http://stegoshare.sourceforge.net/) -> [Steghide](https://github.com/StefanoDeVuono/steghide) -> [SNOW (stegsnow)](http://www.darkside.com.au/snow/) -> UUDeview -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
 
