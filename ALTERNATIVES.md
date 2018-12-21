@@ -67,22 +67,22 @@ TL;DR: is about the unix principle, having a fully functional system pretty damn
 Most apps are from F-Droid, we are just starting.
 
 ## Command Line
-* __Command Line Cheatsheet__: [CLI Companion](https://launchpad.net/clicompanion) -> xman -> cheat / howdoi / clf / fu / bro -> [cheat.sh](https://github.com/chubin/cheat.sh)
+* __Commands Cheatsheet__: [CLI Companion](https://launchpad.net/clicompanion) -> [xman](https://www.x.org/archive/X11R7.5/doc/man/man1/xman.1.html) -> [cheat](https://github.com/chrisallenlane/cheat) / [howdoi](https://github.com/gleitz/howdoi) / [clf](https://github.com/ncrocfer/clf) / [fu](https://github.com/samirahmed/fu) / [bro](http://bropages.org/) -> [cheat.sh](https://github.com/chubin/cheat.sh)
 * __Copy and Move Progress Bar__: [progress](https://github.com/Xfennec/progress) -> [Advanced Copy](https://github.com/atdt/advcpmv)
-* __Daemonize__: dtach -> abduco -> GNU Screen
-* __Directory Bookmarks__: Apparix -> [fasd](https://github.com/clvv/fasd)
-* __Framebuffer Environment__: Fbpad -> jfbterm/[Fbterm](https://code.google.com/archive/p/fbterm/) -> [yaft (because sixel)](https://github.com/uobikiemukot/yaft) -> [hterm (because regis)](https://github.com/new299/hackterm) -> FramebufferUI
-* __Hacker Culture__: ddate, fortune, The Hacker Test, The Jargon File
-* __Login__: fgetty -> mingetty -> getty (util-linux) -> stty (GNU Coreutils)
-* __Menu__: [pdmenu](https://joeyh.name/code/pdmenu/) -> tmenu -> iSelect -> pick -> [fzy](https://github.com/jhawthorn/fzy) -> [slmenu](https://bitbucket.org/rafaelgg/slmenu)
-* __Multiplexer__: Byobu -> Tmux -> GNU Screen (+[sixel patch](https://gist.github.com/saitoha/7546579)) -> dvtm
-* __Notification__: skroll
-* __Progress Bar__: vramsteg -> clpbar- > [pv - Pipe Viewer](https://github.com/icetee/pv) -> sob -> dbar
-* __Scripting__: Multipipe -> [GNU Parallel](https://www.gnu.org/software/parallel/) (+ [GNU SQL](https://www.gnu.org/software/parallel/sql.html)) -> execline -> Expect -> [empty](https://github.com/ierton/empty)
-* __Shells__: Xonsh -> PowerShell -> Bash (+ bash-completion + bash-completion-extras) -> zsh -> tcsh -> [PC-DCL](https://github.com/MichelValentin/PC-DCL) -> mksh -> [rc](https://github.com/rakitzis/rc) -> s -> Danshell
-* __Terminal Colorizer__: colout -> lolcat -> Bashish
+* __Daemonize__: [dtach](https://github.com/bogner/dtach) -> [abduco](https://github.com/martanne/abduco) -> [GNU Screen](https://www.gnu.org/software/screen/)
+* __Directory Bookmarks__: [Apparix](https://micans.org/apparix/) -> [fasd](https://github.com/clvv/fasd)
+* __Framebuffer Environment__: [jfbterm](https://github.com/ruo91/jfbterm)/[Fbterm](https://code.google.com/archive/p/fbterm/) -> [yaft (because sixel)](https://github.com/uobikiemukot/yaft) -> [hterm (because regis)](https://github.com/new299/hackterm) -> [Fbpad](https://github.com/aligrudi/fbpad) -> [FramebufferUI](https://github.com/8l/fbui)
+* __Hacker Culture__: [ddate](https://github.com/bo0ts/ddate), [fortune](https://github.com/ruanyf/fortunes), [The Hacker Test](https://packages.debian.org/source/unstable/purity), [The Jargon File](https://packages.debian.org/source/unstable/jargon)
+* __[Login](https://en.wikipedia.org/wiki/Getty_(Unix))__: [fgetty](http://www.fefe.de/fgetty/) -> [mingetty](https://sourceforge.net/projects/mingetty/) -> stty (GNU Coreutils) -> agetty (util-linux)
+* __Menu__: [pdmenu](https://joeyh.name/code/pdmenu/) -> [tmenu](https://github.com/dhamidi/tmenu) -> [iSelect](http://www.ossp.org/pkg/tool/iselect/) -> [pick](https://github.com/mptre/pick) -> [fzy](https://github.com/jhawthorn/fzy) -> [slmenu](https://bitbucket.org/rafaelgg/slmenu)
+* __Multiplexer__: [Byobu](https://github.com/dustinkirkland/byobu) -> [Tmux](https://github.com/tmux/tmux) -> [GNU Screen](https://www.gnu.org/software/screen/) (+[sixel patch](https://gist.github.com/saitoha/7546579)) -> [dvtm](http://www.brain-dump.org/projects/dvtm/)
+* __Notification__: [skroll](http://z3bra.org/skroll/)
+* __Progress Bar__: [vramsteg](https://github.com/mogaal/vramsteg) -> [clpbar](http://clpbar.sourceforge.net/)- > [pv - Pipe Viewer](https://github.com/icetee/pv) -> [sob - simple output bar](http://git.codemadness.nl/sob/) -> [dbar](https://sites.google.com/site/gotmor/)
+* __Scripting__: [Multipipe](http://multipipe.sourceforge.net/) -> [GNU Parallel](https://www.gnu.org/software/parallel/) (+ [GNU SQL](https://www.gnu.org/software/parallel/sql.html)) -> [execline](https://github.com/skarnet/execline) -> [Expect](https://core.tcl.tk/expect/index) -> [empty](https://github.com/ierton/empty)
+* __Shells__: [Xonsh](https://github.com/xonsh/xonsh) -> [PowerShell](https://github.com/PowerShell/PowerShell) -> [Bash](https://www.gnu.org/software/bash/) (+ [bash-completion](https://github.com/scop/bash-completion) + [bash-completion-extras](https://git.eckner.net/Erich/bash-completion-extras)) -> [zsh](http://www.zsh.org/) -> [tcsh](https://github.com/tcsh-org/tcsh) -> [PC-DCL](https://github.com/MichelValentin/PC-DCL) -> [mksh](https://github.com/MirBSD/mksh) -> [rc](https://github.com/rakitzis/rc) -> [s](https://github.com/rain-1/s) -> [Danshell](http://danshell.sourceforge.net/)
+* __Terminal Colorizer__: [colout](http://nojhan.github.io/colout/) -> [lolcat](https://github.com/busyloop/lolcat) -> [Bashish](https://github.com/arnognulf/bashish)
 * __Terminal Dropdown__: [tdrop](https://github.com/noctuid/tdrop) -> [YeahConsole](https://github.com/rduplain/yeahconsole) -> [alwaysontop](https://github.com/swirepe/alwaysontop)
-* __Terminal Emulator__: PuTTY -> Cool Retro Term -> Terminology -> rxvt-unicode (a.k.a. urxvt) -> Termite -> UXTerm -> [Qodem](http://qodem.sourceforge.net/)
+* __Terminal Emulator__: [PuTTY](https://www.putty.org/) -> [Cool Retro Term](https://github.com/Swordfish90/cool-retro-term) -> [Terminology](https://www.enlightenment.org/about-terminology) -> [rxvt-unicode](https://github.com/exg/rxvt-unicode) (a.k.a. urxvt) -> [Termite](https://github.com/thestinger/termite) -> [UXTerm](https://invisible-island.net/xterm/) (XTerm) -> [st](https://st.suckless.org/) -> [Qodem](http://qodem.sourceforge.net/)
 * __Terminal Pager__: [most](http://www.jedsoft.org/most/) -> less (+ [lesspipe](https://www-zeuthen.desy.de/~friebel/unix/lesspipe.html))
 * __Terminal Screensaver__: [bb](http://aa-project.sourceforge.net/bb/), [sl](https://github.com/mtoyoda/sl), [tty-clock](https://github.com/xorg62/tty-clock), CMatrix, cowsay (or cowthink), [rice](https://github.com/janbrennen/rice), [Asciiquarium](https://github.com/cmatsuoka/asciiquarium), [pipes](https://github.com/pipeseroni/pipes.sh), [nyan.sh](https://gist.github.com/wting/5278321), [rickrollrc](https://github.com/keroserene/rickrollrc), [NCMatrix](https://github.com/mayfrost/NCMatrix), [terminal-screensaver](https://github.com/xiongchiamiov/terminal-screensaver), [No More Secrets](https://github.com/bartobri/no-more-secrets)
 
@@ -94,7 +94,7 @@ Most apps are from F-Droid, we are just starting.
 * __Browser (Gopher)__: [GopherVR](http://www.floodgap.com/software/gophervr/) -> [gopherfs](http://git.savannah.gnu.org/cgit/hurd/incubator.git/) -> [UMN Gopher client](https://github.com/jgoerzen/gopher) -> cgo -> Lynx
 * __Chat Client__: [Finch (Pidgin)](https://developer.pidgin.im/wiki/Using%20Finch) in [irssi mode](https://askubuntu.com/questions/442345/how-can-i-simplify-the-finch-interface) -> [Centerim](http://www.centerim.org/index.php/Main_Page) -> [Bitlbee](https://wiki.bitlbee.org/)
 * __E-Mail Archiver__: Hypermail -> [Lurker](http://lurker.sourceforge.net/)
-* __E-Mail Client (MUA)__: Icedove/Thunderbird (+ Enigmail) -> Emacs (Gnus) -> [SquirrelMail](http://www.squirrelmail.org/) -> Alpine -> Mutt -> mailutils ("mailx") -> [S-nail ("mailx")](https://www.sdaoden.eu/code.html) + Muttprint
+* __E-Mail Client (MUA)__: Icedove/Thunderbird (+ Enigmail) -> [Mailspring](https://github.com/Foundry376/Mailspring) -> Emacs (Gnus) -> [SquirrelMail](http://www.squirrelmail.org/) -> Alpine -> Mutt -> mailutils ("mailx") -> [S-nail ("mailx")](https://www.sdaoden.eu/code.html) + Muttprint
 * __E-Mail Fetcher__: [Fetchmail](http://www.fetchmail.info/) -> fdm -> [isync (mbsync)](http://isync.sourceforge.net/)
 * __E-Mail MIME__: TNEF -> metamail
 * __E-Mail SMTP Client__: nullmailer -> msmtp -> esmtp -> SSMTP
