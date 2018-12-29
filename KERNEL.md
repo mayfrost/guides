@@ -203,12 +203,13 @@ AUTOINSTALL="yes"
 ## KERNEL PATCH
 This section is also optional. There are cool patches for the kernel out there and here you'll find how to install them. You can find patch files on the Linux Kernel Mailing List https://lkml.org/. More patches are provided in other places.  
 Some available patches are:
-* __Kernel_gcc_patch__, enable gcc optimizations for additional CPUs: https://github.com/graysky2/kernel_gcc_patch  
-* __Linux-rt__,	maximum latency and responsiveness, users claim avoids any hiccups and stalls https://wiki.linuxfoundation.org/realtime/preempt_rt_versions  
-* __Liquorix__, kernel for desktop, multimedia, and gaming workloads: https://liquorix.net/sources/  
-* __linux-tiny__, reduce the memory and disk footprint (only for 2.6 and down, not updated): https://elinux.org/Linux_Tiny  
-* __Linux-libre__, remove non-free, obfuscated or obscured software included without source code:  http://linux-libre.fsfla.org/pub/linux-libre/releases/  
-* __pf-kernel__, patch set improving interactiveness and performance, includes __Kernel_gcc_patch__, __BFQ__ and others: https://pfactum.github.io/pf-kernel/  
+* __[Kernel_gcc_patch](https://github.com/graysky2/kernel_gcc_patch)__, enable gcc optimizations for additional CPUs.  
+* __[Ultra Kernel Samepage Merging](https://github.com/dolohow/uksm)__, RAM memory de-duplication reducing memory footprint.  
+* __[Linux-rt](https://wiki.linuxfoundation.org/realtime/preempt_rt_versions)__,	maximum latency and responsiveness, users claim avoids any hiccups and stalls.  
+* __[Liquorix](https://liquorix.net/sources/)__, kernel for desktop, multimedia, and gaming workloads.  
+* __[linux-tiny](https://elinux.org/Linux_Tiny)__, reduce the memory and disk footprint (only for 2.6 and down, not updated).  
+* __[Linux-libre](http://linux-libre.fsfla.org/pub/linux-libre/releases/)__, remove non-free, obfuscated or obscured software included without source code.  
+* __[pf-kernel](https://pfactum.github.io/pf-kernel/)__, patch set improving interactiveness and performance, includes __Kernel_gcc_patch__, __BFQ__ and others.  
 
 ### PRELIMINARY STEPS
 * Go to kernel source tree.  
