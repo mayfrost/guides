@@ -1,21 +1,27 @@
 # X
 Set xorg and a desktop environment fast.
 
-1. [NO DE](#no-de)  
-1.1. [XINITRC CONFIGURATION FILE](#xinitrc-configuration-file)  
-1.2. [LAUNCH X](#launch-x)  
-1.3. [LAUNCH X AT LOGIN](#launch-x-at-login)  
-2. [RATPOISON](#ratpoison)  
-2.1. [BASIC SHORTCUTS](#basic-shortcuts)  
-2.2. [RATPOISONRC CONFIGURATION FILE](#ratpoisonrc-configuration-file)  
-3. [XBINDKEYS](#xbindkeys)  
-3.1. [GETTING KEYS INFORMATION](#getting-keys-information)  
-3.2. [XBINDKEYSRC CONFIGURATION FILE](#xbindkeysrc-configuration-file)  
-4. [TERMINAL EMULATOR](terminal-emulator)  
-5. [CLIPBOARD](#clipboard)  
-5.1. [CLIPBOARD BINDINGS](#clipboard-bindings)  
-6. [SCREEN TEARING](#screen-tearing)  
+1. [INSTALLING X](#installing-x)  
+2. [NO DE](#no-de)  
+2.1. [XINITRC CONFIGURATION FILE](#xinitrc-configuration-file)  
+2.2. [LAUNCH X](#launch-x)  
+2.3. [LAUNCH X AT LOGIN](#launch-x-at-login)  
+3. [RATPOISON](#ratpoison)  
+3.1. [BASIC SHORTCUTS](#basic-shortcuts)  
+3.2. [RATPOISONRC CONFIGURATION FILE](#ratpoisonrc-configuration-file)  
+4. [XBINDKEYS](#xbindkeys)  
+4.1. [GETTING KEYS INFORMATION](#getting-keys-information)  
+4.2. [XBINDKEYSRC CONFIGURATION FILE](#xbindkeysrc-configuration-file)  
+5. [TERMINAL EMULATOR](terminal-emulator)  
+6. [CLIPBOARD](#clipboard)  
+6.1. [CLIPBOARD BINDINGS](#clipboard-bindings)  
+7. [SCREEN TEARING](#screen-tearing)  
 
+## INSTALLING X
+Generally it can be installed from the live _CD or DVD_ or afterwards with the package manager. For example on __CRUX__:
+* Installing a minimal set of xorg and xorg dependent tools one by one (you must know which DRIVER you use)  
+`prtget depinst xorg-server xorg-xf86-video-<DRIVER> xorg-font-util xkeyboard-config xorg-xinit`
+* Alternatively just install the metapackage _"xorg"_  
 
 ## NO DE
 To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here and edit the _".xinitrc"_ file with the appropriate changes and start _"X"_ from the terminal. The required applications are:
