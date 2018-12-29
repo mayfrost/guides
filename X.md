@@ -42,6 +42,9 @@ __OPTION 2__
 Or you can create specific configuration files under the _"/etc/X11/xorg.conf.d/"_ directory for particular cases.
 
 ### SCREEN RESOLUTION
+To make changes you generally need to know supported resolutions.
+* List supported resolutions  
+`xrandr`  
 * Generate a modeline  
 `cvt <WIDTH> <HEIGHT> <REFRESH_RATE>`  
 * Use that ouput to add changes on the configuration file  _"/etc/X11/xorg.conf"_  
@@ -53,15 +56,15 @@ EndSection
 
 Section "Monitor"
         Identifier	"<MONITOR_NAME>"
-        Modeline     "<CVT_OUTPUT>
+        Modeline        "<CVT_OUTPUT>
         Option    	"PreferredMode" "<RESOLUTION_YOU_WANT>"
-        Option       "Enable" "True"
+        Option          "Enable" "True"
 EndSection
 
 Section "Screen"
         Identifier	"<DEFAULT_SCREEN>"
         Monitor   	"<MONITOR_NAME>"
-        Device       "<DEVICE_NAME>"
+        Device          "<DEVICE_NAME>"
    SubSection "Display"
       Modes	  "<RESOLUTION_YOU_WANT>"
    EndSubSection
