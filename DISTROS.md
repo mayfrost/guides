@@ -1,9 +1,12 @@
 # DISTROS
 
-* __CRUX__ (https://crux.nu): With a ports based system for installing software, BSD style init scripts favoring native configurations over configuration abstraction layers, follows true KISS principles (Keep It Simple) applied to the system and the development process. Simplicity over automation makes it easy to extend the system by yourself.  
-* __Source Mage GNU/Linux__ (http://sourcemage.org): Without 3rd party patches, sensible defaults or masked packages, is free from obfuscated and pre-configured code, using clean dependencies as they came from upstream developers which provides immediate updates, and can also use flags and heal broken installs. With the package manager made in bash doesn't need obfuscated python libraries. Fully committed to GPL, uses only free software (as in freedom) in their main package, with even the documentation licensed as FDL.  
-* __Harvey OS__ (https://harvey-os.org/):  Everything is a file, the hardware, environment variables, and settings are presented as "files". And with the Plan 9 file-sharing protocol the name space can mount from one computer to the other and act as a distributed service. Distributed under the GPL, is a member of the [Software Freedom Conservancy](https://sfconservancy.org/).  
-* __FreeDOS__ (https://www.freedos.org): DOS-compatible, can play classic games and run legacy business software.
+* __[CRUX](https://crux.nu)__: With a ports based system for installing software, BSD style init scripts favoring native configurations over configuration abstraction layers, follows true KISS principles (Keep It Simple) applied to the system and the development process. Simplicity over automation makes it easy to extend the system by yourself.  
+
+* __[Source Mage GNU/Linux](http://sourcemage.org)__: Without 3rd party patches, sensible defaults or masked packages, is free from obfuscated and pre-configured code, using clean dependencies as they came from upstream developers which provides immediate updates, and can also use flags and heal broken installs. With the package manager made in bash doesn't need obfuscated python libraries. Fully committed to GPL, uses only free software (as in freedom) in their main package, with even the documentation licensed as FDL.  
+
+* __[Harvey OS](https://harvey-os.org/)__:  Everything is a file, the hardware, environment variables, and settings are presented as "files". And with the Plan 9 file-sharing protocol the name space can mount from one computer to the other and act as a distributed service. Distributed under the GPL, is a member of the [Software Freedom Conservancy](https://sfconservancy.org/).  
+
+* __[FreeDOS](https://www.freedos.org)__: DOS-compatible, can play classic games and run legacy business software.
 
 1. [CONFIGURATION ON CRUX](#configuration-on-crux)  
 2.1. [ENABLE CONTRIB REPO](#enable-contrib-repo)  
