@@ -1,9 +1,10 @@
 # X
-Set xorg and a desktop environment fast.
+Set __X__ and a desktop environment fast.
 
 1. [INSTALLING X](#installing-x)  
 2. [CONFIGURING X](#configuring-x)  
-2.1. [SCREEN TEARING](#screen-tearing)  
+2.1. [SCREEN RESOLUTION](#screen-resolution)  
+2.2. [SCREEN TEARING](#screen-tearing)  
 3. [NO DE](#no-de)  
 3.1. [XINITRC CONFIGURATION FILE](#xinitrc-configuration-file)  
 3.2. [LAUNCH X](#launch-x)  
@@ -20,49 +21,82 @@ Set xorg and a desktop environment fast.
 
 ## INSTALLING X
 Generally it can be installed from the live _CD or DVD_ or afterwards with the package manager. For example on __CRUX__:
-* Installing a minimal set of xorg and xorg dependent tools one by one (you must know which DRIVER you use)  
-`prtget depinst xorg-server xorg-xf86-video-<DRIVER> xorg-font-util xkeyboard-config xorg-xinit`
+* Installing a minimal set of xorg and xorg dependent tools one by one (you must know which _"DRIVER"_ you use)  
+`prtget depinst xorg-server xorg-xf86-video-<DRIVER> xorg-font-util xkeyboard-config xorg-xinit`  
 * Alternatively just install the metapackage _"xorg"_  
 
 ## CONFIGURING X
-__X__ can be configured for several things. You can generate a configuration which will appear on your home directory and change it later.
+__X__ can be configured for several things.
 
+__OPTION 1__  
+You can generate a general configuration file containing all sorts of options and that will appear on your home directory and later move it to _"/etc/X11/xorg.conf"_. You need to stop the __X__ server and have root privileges for creating it.  
 * Create a new configuration file "xorg.conf.new"  
-`Xorg -configure`
-* change it to "/etc/X11/xorg.conf"  
-`mv /path/to/xorg.conf.new /etc/X11/xorg.conf`
+`Xorg -configure`  
+* change it to _"/etc/X11/xorg.conf"_  
+`mv /path/to/xorg.conf.new /etc/X11/xorg.conf`  
 * on other X versions the commands are  
-`XFree86 -configure`
-`XFree86 -xf86config /etc/X11/XF86Config.new`
+`XFree86 -configure`  
+`XFree86 -xf86config /etc/X11/XF86Config.new`  
+
+__OPTION 2__  
+Or you can create specific configuration files under the _"/etc/X11/xorg.conf.d/"_ directory for particular cases.
+
+### SCREEN RESOLUTION
+* Generate a modeline  
+`cvt <WIDTH> <HEIGHT> <REFRESH_RATE>`  
+* Use that ouput to add changes on the configuration file  _"/etc/X11/xorg.conf"_  
+```
+Section "Device"
+        Identifier   "<DEVICE_NAME>"
+        Driver       "<DRIVER_NAME>"
+EndSection
+
+Section "Monitor"
+        Identifier	"<MONITOR_NAME>"
+        Modeline     "<CVT_OUTPUT>
+        Option    	"PreferredMode" "<RESOLUTION_YOU_WANT>"
+        Option       "Enable" "True"
+EndSection
+
+Section "Screen"
+        Identifier	"<DEFAULT_SCREEN>"
+        Monitor   	"<MONITOR_NAME>"
+        Device       "<DEVICE_NAME>"
+   SubSection "Display"
+      Modes	  "<RESOLUTION_YOU_WANT>"
+   EndSubSection
+EndSection
+```  
+In _"Modes"_ the resolution you want can contain a framerate appended but needs to be exact.
 
 ### SCREEN TEARING
 To solve screen tearing you can use any of these config files in its appropriate directory.
 
-* In the case you have Intel add these to _"/etc/X11/xorg.conf.d/20-intel.conf"_:
+* If you have Intel add these changes to _"/etc/X11/xorg.conf"_ or in the separate file _"/etc/X11/xorg.conf.d/20-intel.conf"_:
 ```
 Section "Device"
-   Identifier 	"Intel Graphics"
-   Driver 	"intel"
-   Option "TearFree" "true"
+   Identifier  "Intel Graphics"
+   Driver      "intel"
+   Option      "TearFree"  "true"
 EndSection
 ```
 
-* In the case you have AMD add these to _"/etc/X11/xorg.conf.d/20-amdgpu.conf_":
-```
-Section "Device"
-   Identifier "AMD Graphics"
-   Driver "amdgpu"
-   Option "TearFree" "true"
-EndSection
-```
-
-* Another way to add changes is in the _"/etc/X11/xorg.conf"_ file:
+* If you still have issues with Intel add a line with the option _UXA_:
 ```
 Section "Device"
    Identifier  "Intel Graphics"
    Driver      "intel"
    Option      "AccelMethod"  "uxa"
    Option      "TearFree" "true"
+EndSection
+```
+
+* If you have AMD add these changes to _"/etc/X11/xorg.conf"_ or in the separate file _"/etc/X11/xorg.conf.d/20-amdgpu.conf_":
+```
+Section "Device"
+   Identifier  "AMD Graphics"
+   Driver      "amdgpu"
+   Option      "TearFree"  "true"
 EndSection
 ```
 
@@ -278,7 +312,7 @@ Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling win
 `Ctrl-t + Q`  
 
 ### RATPOISONRC CONFIGURATION FILE
-The next custom _".ratpoisonrc"_ file goes under your home directory and can be customized to your needs:
+The next custom _".ratpoisonrc"_ file goes under your home directory and can be customized to your needs. It adds several goodies through scripts like an expose-like effect showing all windows on the screen arranged in a mozaic which you can choose by pressing the number from its tag:
 ```
 # text editor
 bind e exec gjots2
