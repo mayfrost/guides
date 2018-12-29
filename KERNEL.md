@@ -201,7 +201,7 @@ AUTOINSTALL="yes"
 ---
 
 ## KERNEL PATCH
-This section is also optional. There are cool patches for the kernel out there and here you'll find how to install them. You can find patch files on the Linux Kernel Mailing List https://lkml.org/. More patches are provided in other places.  
+This section is also optional. There are cool patches for the kernel out there and here you'll find how to install them. You can find patch files on the __[Linux Kernel Mailing List](https://lkml.org/)__. More patches are provided in other places.  
 Some available patches are:
 * __[Kernel_gcc_patch](https://github.com/graysky2/kernel_gcc_patch)__, enable gcc optimizations for additional CPUs.  
 * __[UKSM](https://github.com/dolohow/uksm)__, RAM memory de-duplication reducing memory footprint, but opens side-channel attacks and is recommended to be used on systems disconnected from the network.  
