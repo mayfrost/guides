@@ -2,20 +2,21 @@
 Set xorg and a desktop environment fast.
 
 1. [INSTALLING X](#installing-x)  
-2. [NO DE](#no-de)  
-2.1. [XINITRC CONFIGURATION FILE](#xinitrc-configuration-file)  
-2.2. [LAUNCH X](#launch-x)  
-2.3. [LAUNCH X AT LOGIN](#launch-x-at-login)  
-3. [RATPOISON](#ratpoison)  
-3.1. [BASIC SHORTCUTS](#basic-shortcuts)  
-3.2. [RATPOISONRC CONFIGURATION FILE](#ratpoisonrc-configuration-file)  
+2. [CONFIGURING X](#configuring-x)  
+2.1. [SCREEN TEARING](#screen-tearing)  
+3. [NO DE](#no-de)  
+3.1. [XINITRC CONFIGURATION FILE](#xinitrc-configuration-file)  
+3.2. [LAUNCH X](#launch-x)  
+3.3. [LAUNCH X AT LOGIN](#launch-x-at-login)  
 4. [XBINDKEYS](#xbindkeys)  
 4.1. [GETTING KEYS INFORMATION](#getting-keys-information)  
 4.2. [XBINDKEYSRC CONFIGURATION FILE](#xbindkeysrc-configuration-file)  
 5. [TERMINAL EMULATOR](terminal-emulator)  
 6. [CLIPBOARD](#clipboard)  
 6.1. [CLIPBOARD BINDINGS](#clipboard-bindings)  
-7. [SCREEN TEARING](#screen-tearing)  
+7. [RATPOISON](#ratpoison)  
+7.1. [BASIC SHORTCUTS](#basic-shortcuts)  
+7.2. [RATPOISONRC CONFIGURATION FILE](#ratpoisonrc-configuration-file)  
 
 ## INSTALLING X
 Generally it can be installed from the live _CD or DVD_ or afterwards with the package manager. For example on __CRUX__:
@@ -23,8 +24,50 @@ Generally it can be installed from the live _CD or DVD_ or afterwards with the p
 `prtget depinst xorg-server xorg-xf86-video-<DRIVER> xorg-font-util xkeyboard-config xorg-xinit`
 * Alternatively just install the metapackage _"xorg"_  
 
+## CONFIGURING X
+__X__ can be configured for several things. You can generate a configuration which will appear on your home directory and change it later.
+
+* Create a new configuration file "xorg.conf.new"  
+`Xorg -configure`
+* change it to "/etc/X11/xorg.conf"  
+`mv /path/to/xorg.conf.new /etc/X11/xorg.conf`
+* on other X versions the commands are  
+`XFree86 -configure`
+`XFree86 -xf86config /etc/X11/XF86Config.new`
+
+### SCREEN TEARING
+To solve screen tearing you can use any of these config files in its appropriate directory.
+
+* In the case you have Intel add these to _"/etc/X11/xorg.conf.d/20-intel.conf"_:
+```
+Section "Device"
+   Identifier 	"Intel Graphics"
+   Driver 	"intel"
+   Option "TearFree" "true"
+EndSection
+```
+
+* In the case you have AMD add these to _"/etc/X11/xorg.conf.d/20-amdgpu.conf_":
+```
+Section "Device"
+   Identifier "AMD Graphics"
+   Driver "amdgpu"
+   Option "TearFree" "true"
+EndSection
+```
+
+* Another way to add changes is in the _"/etc/X11/xorg.conf"_ file:
+```
+Section "Device"
+   Identifier  "Intel Graphics"
+   Driver      "intel"
+   Option      "AccelMethod"  "uxa"
+   Option      "TearFree" "true"
+EndSection
+```
+
 ## NO DE
-To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here and edit the _".xinitrc"_ file with the appropriate changes and start _"X"_ from the terminal. The required applications are:
+To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here and edit the _".xinitrc"_ file with the appropriate changes and start _"X"_ from the command line. The required applications are:
 * Ratpoison (or your preferred window manager in the _".xinitrc"_ file)
 * Xbindkeys
 * hsetroot or imagemagick (or replace with your preferred wallpaper changer in the _".xinitrc"_ file)
@@ -65,113 +108,6 @@ then
 fi
 ```
 This will automatically launch _"X"_ at the first _"tty"_ (_"virtual terminal"_). If you are confused, to switch between ttys press _"Ctrl-Alt-F\<X>"_ (where _"\<X>_" is a number). So to change to the tty with xorg you'll press _"Ctrl-Alt-F1"_.
-
-## RATPOISON
-Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling window manager using bindings similar to GNU Screen. A few of its benefits are.
-* No mouse used, all done by commands called by typing _"control"_ and _"t"_ at the same time, plus another key.
-* You can set your own bindings in the file _".ratpoisonrc"_ which is extremely friendly.
-* Extensible by scripts. The _"rpws"_ script for example adds multiple workspaces (comes by default), another script (_"expose.pl"_) gives a mozaic of current windows.
-* Full manual available from the terminal:  
-`info ratpoison`  
-* Can temporarily switch to another window manager with the _"tmpwm"_ command for your comfort.
-
-### BASIC SHORTCUTS
-* Show the help cheatsheet:  
-`Ctrl-t + ?`  
-* Bring an application menu:  
-`Ctrl-t + .`  
-* Get time and date:  
-`Ctrl-t + a`  
-* Clear screen from help cheatsheet or menu:  
-`Esc`  
-
-* Show open windows:  
-`Ctrl-t + w`  
-* Close a window:  
-`Ctrl-t + k`  
-* Swith back between windows:  
-`Ctrl-t + Ctrl-t`  
-* Go to next window:  
-`Ctrl-t + n`  
-`Ctrl-t + Space`  
-* Go to previous window:  
-`Ctrl-t + p`  
-
-
-* Split screen vertically:  
-`Ctrl-t + s`  
-* Split screen horizontally:  
-`Ctrl-t + S`  
-* Go to next frame:  
-`Ctrl-t + Tab`  
-* Go to previous frame:  
-`Ctrl-t + Alt-Tab`  
-* Make a window the only one visible:  
-`Ctrl-t + Q`  
-
-### RATPOISONRC CONFIGURATION FILE
-The next custom _".ratpoisonrc"_ file goes under your home directory and can be customized to your needs:
-```
-# text editor
-bind e exec gjots2
-bind E exec xterm -e elvis
-
-# web browser
-bind y exec icecat
-# highlight an url in a window and the url is opened in a new tab
-bind Y exec icecat -new-tab `$RATPOISON -c getsel`
-
-# MOC as a music player, alsamixer as volume control
-bind o exec xterm -e mocp
-bind O exec xterm -e alsamixer
-
-# file manager
-bind d exec spacefm
-bind D exec xterm -e vifm
-
-# mail
-bind g exec xterm -e mutt
-
-# IRC
-bind h exec xterm -e irssi
-
-# RSS
-bind j exec liferea
-bind J exec xterm -e newsbeuter
-
-# password manager
-bind z exec xterm -e kpcli
-
-# looks for the JDownloader program under the designated path
-bind Z exec ~/jd2/JDownloader2
-
-# expose-like switch window by using "Ctrl-t + ,". Get the script from http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl/expose.pl
-bind comma exec ~/bin/expose.pl
-
-# as colon invoke ratpoison commands, semicolon invoke shell commands ("Ctrl-t + ;")
-bind semicolon exec
-
-# no startup message announcing what the prefix keys are
-startup_message off
-
-# change font, color and position for messages
-set font "Fixed-11"
-set fgcolor gray
-set bgcolor black
-set bargravity c
-
-# normal cursor
-exec xsetroot -cursor_name left_ptr
-
-# fix java swing, needs wmname from suckless
-exec wmname LG3D
-
-# multiple workspaces by using "Alt + FX" (where "FX" is from F1 to F4), needs rpws script
-exec rpws init 4 -k
-
-# get rid of the one pixel border around windows
-set border 0
-```
 
 ## XBINDKEYS
 Custom keys can be added with the Xbindkeys program.
@@ -298,33 +234,109 @@ bindkey -m ' ' eval 'stuff \040' 'writebuf' 'exec sh -c "xsel -ib < /tmp/screen-
 bind b eval 'exec sh -c "xsel -ob > /tmp/screen-exchange && screen -X readbuf"'
 ```  
 
-## SCREEN TEARING
-To solve screen tearing you can use any of these config files in its appropriate directory.
+## RATPOISON
+Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling window manager using bindings similar to GNU Screen. A few of its benefits are.
+* No mouse used, all done by commands called by typing _"control"_ and _"t"_ at the same time, plus another key.
+* You can set your own bindings in the file _".ratpoisonrc"_ which is extremely friendly.
+* Extensible by scripts. The _"rpws"_ script for example adds multiple workspaces (comes by default), another script (_"expose.pl"_) gives a mozaic of current windows.
+* Full manual available from the terminal:  
+`info ratpoison`  
+* Can temporarily switch to another window manager with the _"tmpwm"_ command for your comfort.
 
-* In the case you have Intel add these to _"/etc/X11/xorg.conf.d/20-intel.conf"_:
-```
-Section "Device"
-   Identifier 	"Intel Graphics"
-   Driver 	"intel"
-   Option "TearFree" "true"
-EndSection
-```
+### BASIC SHORTCUTS
+* Show the help cheatsheet:  
+`Ctrl-t + ?`  
+* Bring an application menu:  
+`Ctrl-t + .`  
+* Get time and date:  
+`Ctrl-t + a`  
+* Clear screen from help cheatsheet or menu:  
+`Esc`  
 
-* In the case you have AMD add these to _"/etc/X11/xorg.conf.d/20-amdgpu.conf_":
-```
-Section "Device"
-   Identifier "AMD Graphics"
-   Driver "amdgpu"
-   Option "TearFree" "true"
-EndSection
-```
+* Show open windows:  
+`Ctrl-t + w`  
+* Close a window:  
+`Ctrl-t + k`  
+* Swith back between windows:  
+`Ctrl-t + Ctrl-t`  
+* Go to next window:  
+`Ctrl-t + n`  
+`Ctrl-t + Space`  
+* Go to previous window:  
+`Ctrl-t + p`  
 
-* Another way to add changes is in the _"/etc/X11/xorg.conf"_ file:
+
+* Split screen vertically:  
+`Ctrl-t + s`  
+* Split screen horizontally:  
+`Ctrl-t + S`  
+* Go to next frame:  
+`Ctrl-t + Tab`  
+* Go to previous frame:  
+`Ctrl-t + Alt-Tab`  
+* Make a window the only one visible:  
+`Ctrl-t + Q`  
+
+### RATPOISONRC CONFIGURATION FILE
+The next custom _".ratpoisonrc"_ file goes under your home directory and can be customized to your needs:
 ```
-Section "Device"
-   Identifier  "Intel Graphics"
-   Driver      "intel"
-   Option      "AccelMethod"  "uxa"
-   Option      "TearFree" "true"
-EndSection
+# text editor
+bind e exec gjots2
+bind E exec xterm -e elvis
+
+# web browser
+bind y exec icecat
+# highlight an url in a window and the url is opened in a new tab
+bind Y exec icecat -new-tab `$RATPOISON -c getsel`
+
+# MOC as a music player, alsamixer as volume control
+bind o exec xterm -e mocp
+bind O exec xterm -e alsamixer
+
+# file manager
+bind d exec spacefm
+bind D exec xterm -e vifm
+
+# mail
+bind g exec xterm -e mutt
+
+# IRC
+bind h exec xterm -e irssi
+
+# RSS
+bind j exec liferea
+bind J exec xterm -e newsbeuter
+
+# password manager
+bind z exec xterm -e kpcli
+
+# looks for the JDownloader program under the designated path
+bind Z exec ~/jd2/JDownloader2
+
+# expose-like switch window by using "Ctrl-t + ,". Get the script from http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl/expose.pl
+bind comma exec ~/bin/expose.pl
+
+# as colon invoke ratpoison commands, semicolon invoke shell commands ("Ctrl-t + ;")
+bind semicolon exec
+
+# no startup message announcing what the prefix keys are
+startup_message off
+
+# change font, color and position for messages
+set font "Fixed-11"
+set fgcolor gray
+set bgcolor black
+set bargravity c
+
+# normal cursor
+exec xsetroot -cursor_name left_ptr
+
+# fix java swing, needs wmname from suckless
+exec wmname LG3D
+
+# multiple workspaces by using "Alt + FX" (where "FX" is from F1 to F4), needs rpws script
+exec rpws init 4 -k
+
+# get rid of the one pixel border around windows
+set border 0
 ```
