@@ -9,7 +9,6 @@
 2.1. [ENABLE CONTRIB REPO](#enable-contrib-repo)  
 2.2. [ADD EXTERNAL REPOS](#add-external-repos)  
 2.3. [FINALIZING REPO CONFIGURATION](#finalizing-repo-configuration)  
-2.4. [INSTALLING XORG](#installing-xorg)  
 3. [CRUX COMMANDS](#crux-commands)  
 3.1. [AUTOMATED INSTALLATION OF PORTS](#automated-installation-of-ports)  
 3.2. [MANUAL DOWNLOAD AND INSTALLATION](#manual-download-and-installation)  
@@ -46,11 +45,6 @@ wget -c <URL>
 * Set line "_PKGMK_IGNORE_NEW="yes"_"  
 * Populate ports tree (is empty by default)  
 `ports -u`
-
-### INSTALLING XORG
-* Install a minimal set of xorg and xorg dependent tools one by one
-`prtget depinst xorg-server xorg-xf86-video-<DRIVER> xorg-font-<FONT> xkeyboard-config xorg-xinit`
-* Alternatively just install the metapackage "_xorg_"
 
 ## CRUX COMMANDS
 ### AUTOMATED INSTALLATION OF PORTS
