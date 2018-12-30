@@ -42,7 +42,7 @@ __OPTION 2__
 Or you can create specific configuration files under the _"/etc/X11/xorg.conf.d/"_ directory for particular cases.
 
 ### SCREEN RESOLUTION
-To make changes you generally need to know supported resolutions.
+To make changes you generally don't need to know supported resolutions but it helps using defaults.
 * List supported resolutions  
 `xrandr`  
 * Generate a modeline  
@@ -57,7 +57,7 @@ EndSection
 Section "Monitor"
         Identifier	"<MONITOR_NAME>"
         Modeline        "<CVT_OUTPUT>
-        Option    	"PreferredMode" "<RESOLUTION_YOU_WANT>"
+        Option    	"PreferredMode" "<THE_RESOLUTION_YOU_WANT>"
         Option          "Enable" "True"
 EndSection
 
@@ -66,11 +66,35 @@ Section "Screen"
         Monitor   	"<MONITOR_NAME>"
         Device          "<DEVICE_NAME>"
    SubSection "Display"
-      Modes	  "<RESOLUTION_YOU_WANT>"
+      Modes	  "<RESOLUTION_YOU_WANT>_<OPTIONAL_FRAMERATE>"
    EndSubSection
 EndSection
 ```  
-In _"Modes"_ the resolution you want can contain a framerate appended but needs to be exact.
+In _"Modes"_ the resolution you want can contain a framerate appended but needs to be exact. A full example configuration follows:  
+```
+Section "Device"
+    Identifier    "Device0"
+    Driver        "Intel"
+EndSection
+
+Section "Monitor"
+    Identifier    "HDMI1"
+    Modeline "1280x720_60.00"   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync
+    Option "PreferredMode" "1280x720"
+    Option "Enable" "True"
+EndSection
+
+Section "Screen"
+    Identifier     "Screen0"
+    Monitor        "HDMI1"
+    Device         "Device0"
+    SubSection "Display"
+        Modes       "1280x720_60.00"
+    EndSubSection
+EndSection
+
+```  
+Notice the framerate appended with an underscore, this comes from the modeline.
 
 ### SCREEN TEARING
 To solve screen tearing you can use any of these config files in its appropriate directory.
