@@ -6,17 +6,17 @@ Set __X__ and a desktop environment fast.
 2.1. [SCREEN RESOLUTION](#screen-resolution)  
 2.2. [SCREEN TEARING](#screen-tearing)  
 2.3. [FONTS](#fonts)  
-3. [NO DE](#no-de)  
-3.1. [XINITRC CONFIGURATION FILE](#xinitrc-configuration-file)  
-3.2. [LAUNCH X](#launch-x)  
-3.3. [LAUNCH X AT LOGIN](#launch-x-at-login)  
-4. [XBINDKEYS](#xbindkeys)  
-4.1. [GETTING KEYS INFORMATION](#getting-keys-information)  
-4.2. [XBINDKEYSRC CONFIGURATION FILE](#xbindkeysrc-configuration-file)  
-5. [TERMINAL EMULATOR](terminal-emulator)  
+3. [THEME](theme)  
+4. [NO DE](#no-de)  
+4.1. [XINITRC CONFIGURATION FILE](#xinitrc-configuration-file)  
+4.2. [LAUNCH X](#launch-x)  
+4.3. [LAUNCH X AT LOGIN](#launch-x-at-login)  
+5. [KEY BINDINGS](#key-bindings)  
+5.1. [GETTING KEYS INFORMATION](#getting-keys-information)  
+5.2. [XBINDKEYSRC CONFIGURATION FILE](#xbindkeysrc-configuration-file)  
 6. [CLIPBOARD](#clipboard)  
 6.1. [CLIPBOARD BINDINGS](#clipboard-bindings)  
-7. [RATPOISON](#ratpoison)  
+7. [WINDOW MANAGER](#window-manager)  
 7.1. [BASIC SHORTCUTS](#basic-shortcuts)  
 7.2. [RATPOISONRC CONFIGURATION FILE](#ratpoisonrc-configuration-file)  
 
@@ -138,6 +138,47 @@ EndSection
 ```  
 Where _"/path/to/fonts/"_ can be the default _/usr/local/share/fonts/_, a directory under _/usr/local/share/fonts/_, or any directory of your choosing.
 
+## THEME
+To tweak the theme of your terminal emulator you need to tweak the _".Xresources"_ file.
+
+Next is an example _".Xresources"_ file which goes under your home directory:
+```
+xterm*maximized:	true
+xterm*background:	black
+xterm*foreground:	grey
+xterm*cursorColor:	green
+xterm*cursorBlink:	false
+xterm*faceName:	Fixedsys Excelsior 3.01:size=11:antialias=true
+xterm*faceNameDoublesize:	WenQuanYi Zen Hei
+xterm*termName:	xterm-256color
+xterm*locale:	true
+xterm*utf8Title:	true
+xterm*dynamicColors: true
+xterm*borderWidth: 0
+xterm*eightBitInput:   false
+xterm*metaSendsEscape: true
+xterm*decTerminalID:	vt340
+
+
+urxvt*maximized:	true
+urxvt*background:	black
+urxvt*foreground:	white
+urxvt*cursorColor:	green
+urxvt*cursorBlink:	false
+urxvt*faceName:	GNU Unifont:size=12:antialias=true
+urxvt*faceNameDoublesize:	WenQuanYi Zen Hei
+urxvt*termName:	urxvt-256color
+urxvt*locale:	true
+urxvt*utf8Title:	true
+urxvt*font: fixed
+urxvt*boldFont: fixed
+urxvt*dynamicColors: true
+urxvt*borderWidth: 0
+```  
+
+To load changes run:  
+`xrdb -merge ~/.Xresources`
+
 ## NO DE
 To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here and edit the _".xinitrc"_ file with the appropriate changes and start _"X"_ from the command line. The required applications are:
 * Ratpoison (or your preferred window manager in the _".xinitrc"_ file)
@@ -181,8 +222,8 @@ fi
 ```
 This will automatically launch _"X"_ at the first _"tty"_ (_"virtual terminal"_). If you are confused, to switch between ttys press _"Ctrl-Alt-F\<X>"_ (where _"\<X>_" is a number). So to change to the tty with xorg you'll press _"Ctrl-Alt-F1"_.
 
-## XBINDKEYS
-Custom keys can be added with the Xbindkeys program.
+## KEY BINDINGS
+Custom keys can be added with the __Xbindkeys__ program.
 
 ### GETTING KEYS INFORMATION
 With the help of the default xev program you can check the keys you want:
@@ -247,47 +288,6 @@ keystate_scrolllock= enable
   XF86AudioRaiseVolume
 ```
 
-## TERMINAL EMULATOR
-To tweak the theme of your terminal emulator you need to tweak the _".Xresources"_ file.
-
-Next is an example _".Xresources"_ file which goes under your home directory:
-```
-xterm*maximized:	true
-xterm*background:	black
-xterm*foreground:	grey
-xterm*cursorColor:	green
-xterm*cursorBlink:	false
-xterm*faceName:	Fixedsys Excelsior 3.01:size=11:antialias=true
-xterm*faceNameDoublesize:	WenQuanYi Zen Hei
-xterm*termName:	xterm-256color
-xterm*locale:	true
-xterm*utf8Title:	true
-xterm*dynamicColors: true
-xterm*borderWidth: 0
-xterm*eightBitInput:   false
-xterm*metaSendsEscape: true
-xterm*decTerminalID:	vt340
-
-
-urxvt*maximized:	true
-urxvt*background:	black
-urxvt*foreground:	white
-urxvt*cursorColor:	green
-urxvt*cursorBlink:	false
-urxvt*faceName:	GNU Unifont:size=12:antialias=true
-urxvt*faceNameDoublesize:	WenQuanYi Zen Hei
-urxvt*termName:	urxvt-256color
-urxvt*locale:	true
-urxvt*utf8Title:	true
-urxvt*font: fixed
-urxvt*boldFont: fixed
-urxvt*dynamicColors: true
-urxvt*borderWidth: 0
-```  
-
-To load changes run:  
-`xrdb -merge ~/.Xresources`
-
 ## CLIPBOARD
 _"Xsel"_ with the help of _"GNU Screen"_ will be used as intermediary between the terminal and _"X"_. The following commands are examples we will replace by more simple bindings:
 * To paste from _"X"_ clipboard  
@@ -306,8 +306,8 @@ bindkey -m ' ' eval 'stuff \040' 'writebuf' 'exec sh -c "xsel -ib < /tmp/screen-
 bind b eval 'exec sh -c "xsel -ob > /tmp/screen-exchange && screen -X readbuf"'
 ```  
 
-## RATPOISON
-Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling window manager using bindings similar to GNU Screen. A few of its benefits are.
+## WINDOW MANAGER
+Productive, automated, scriptable, and minimal, __Ratpoison__ is a strict tiling window manager using bindings similar to GNU Screen. A few of its benefits are.
 * No mouse used, all done by commands called by typing _"control"_ and _"t"_ at the same time, plus another key.
 * You can set your own bindings in the file _".ratpoisonrc"_ which is extremely friendly.
 * Extensible by [scripts](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl/Scripts). The _"rpws"_ script for example adds multiple workspaces (comes by default with Ratpoison), another script (_"[expose.pl](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl/expose.pl)"_) gives a mozaic of current windows.
