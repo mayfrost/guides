@@ -66,11 +66,11 @@ Section "Screen"
         Monitor   	"<MONITOR_NAME>"
         Device          "<DEVICE_NAME>"
    SubSection "Display"
-      Modes	  "<RESOLUTION_YOU_WANT>_<OPTIONAL_FRAMERATE>"
+      Modes	  "<RESOLUTION_YOU_WANT>"
    EndSubSection
 EndSection
 ```  
-In _"Modes"_ the resolution you want can contain a framerate appended but needs to be exact. A full example configuration follows:  
+In _"Modes"_ the resolution you want can contain a framerate appended but needs to be exactly the same from the modeline. A full example configuration follows:  
 ```
 Section "Device"
     Identifier    "Device0"
@@ -94,7 +94,7 @@ Section "Screen"
 EndSection
 
 ```  
-Notice the framerate appended with an underscore, this comes from the modeline.
+Notice the framerate appended with an underscore in _"Mode"_, this comes from _"Modeline"_.
 
 ### SCREEN TEARING
 To solve screen tearing you can use any of these config files in its appropriate directory.
