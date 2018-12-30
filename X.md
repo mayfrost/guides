@@ -299,10 +299,10 @@ bind b eval 'exec sh -c "xsel -ob > /tmp/screen-exchange && screen -X readbuf"'
 Productive, automated, scriptable, and minimal, Ratpoison is a strict tiling window manager using bindings similar to GNU Screen. A few of its benefits are.
 * No mouse used, all done by commands called by typing _"control"_ and _"t"_ at the same time, plus another key.
 * You can set your own bindings in the file _".ratpoisonrc"_ which is extremely friendly.
-* Extensible by scripts. The _"rpws"_ script for example adds multiple workspaces (comes by default), another script (_"expose.pl"_) gives a mozaic of current windows.
+* Extensible by [scripts](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl/Scripts). The _"rpws"_ script for example adds multiple workspaces (comes by default with Ratpoison), another script (_"[expose.pl](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl/expose.pl)"_) gives a mozaic of current windows.
+* Can temporarily switch to another window manager with the _"tmpwm"_ command for your comfort.
 * Full manual available from the terminal:  
 `info ratpoison`  
-* Can temporarily switch to another window manager with the _"tmpwm"_ command for your comfort.
 
 ### BASIC SHORTCUTS
 * Show the help cheatsheet:  
@@ -374,7 +374,7 @@ bind z exec xterm -e kpcli
 # looks for the JDownloader program under the designated path
 bind Z exec ~/jd2/JDownloader2
 
-# expose-like switch window by using "Ctrl-t + ,". Get the script from http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl/expose.pl
+# expose-like switch window by using "Ctrl-t + ,"
 bind comma exec ~/bin/expose.pl
 
 # as colon invoke ratpoison commands, semicolon invoke shell commands ("Ctrl-t + ;")
