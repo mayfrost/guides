@@ -5,6 +5,7 @@ Set __X__ and a desktop environment fast.
 2. [CONFIGURING X](#configuring-x)  
 2.1. [SCREEN RESOLUTION](#screen-resolution)  
 2.2. [SCREEN TEARING](#screen-tearing)  
+2.3. [FONTS](#fonts)  
 3. [NO DE](#no-de)  
 3.1. [XINITRC CONFIGURATION FILE](#xinitrc-configuration-file)  
 3.2. [LAUNCH X](#launch-x)  
@@ -125,7 +126,17 @@ Section "Device"
    Driver      "amdgpu"
    Option      "TearFree"  "true"
 EndSection
+```  
+
+### FONTS
+Fonts can be added to the database on _"/etc/X11/xorg.conf"_ or in the separate file _"/etc/X11/xorg.conf.d/fonts.conf_":
 ```
+Section "Files"
+        FontPath     "/path/to/fonts/"
+        FontPath     "/path/to/another/fonts/"
+EndSection
+```  
+Where _"/path/to/fonts/"_ can be the default _/usr/local/share/fonts/_, a directory under _/usr/local/share/fonts/_, or any directory of your choosing.
 
 ## NO DE
 To use a window manager without any desktop environment, or even a login manager, you can just install the applications mentioned here and edit the _".xinitrc"_ file with the appropriate changes and start _"X"_ from the command line. The required applications are:
