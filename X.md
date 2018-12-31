@@ -137,7 +137,7 @@ There are two ways of adding fonts, with __Fontconfig__ or with __X__ core fonts
 `xset q`  
 
 __STEP 1__: Create a font directory with font files and index files.
-* If there are scalable fonts you might first need to correctly name them index first:  
+* If there are scalable fonts you might first need to correctly name them first:  
 `mkfontscale ~/.fonts`  
 * To properly create a font index file:  
 `mkfontdir ~/.fonts`  
