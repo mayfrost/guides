@@ -155,6 +155,10 @@ EndSection
 ```  
 Where _"/path/to/fonts/"_ can be the default _/usr/local/share/fonts/_, a directory under _/usr/local/share/fonts/_, or any directory of your choosing.  
 
+__STEP 3 (OPTIONAL)__: Re-scan the font directories to apply new fonts.
+* Reload _xset_ to apply changes:  
+`xset fp rehash`
+
 __TEMPORARY CHANGES (OPTIONAL)__  
 To add fonts for a one time you can follow either of these steps.  
 * Temporarily add fonts first on the list:  
