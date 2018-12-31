@@ -47,6 +47,7 @@ TL;DR: is about the unix principle, having a fully functional system pretty damn
 22. [Server](#server)  
 22.1. [Server Authentication](#server-authentication)  
 23. [System Utilities](#system-utilities)  
+23.1. [Init](#init)  
 24. [X Desktop](#x-desktop)  
 
 
@@ -648,9 +649,6 @@ Most apps are from F-Droid, we are just starting.
 * __Core Utilities__: moreutils -> Mtools -> util-linux -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
 * __Custom Initramfs__: mkinitcpio -> dracut -> Genkernel -> [mkinitramfs](https://github.com/tokiclover/mkinitramfs-ll) -> umkinitramfs
 * __Filesystem__: CP/M (cpmtools), HFS Utilities, SquashFS (squashfs-tools), fuseflt, UnionFS (unionfs-fuse), udftools (UDF), F2FS (f2fs-tools), exFAT (exfat-utils, fuse-exfat), FAT (dosfstools), Btrfs (btrfs-progs), XFS (xfsprogs, xfsdump), Ext4, [JFS](http://jfs.sourceforge.net/), [Reiser4](https://reiser4.wiki.kernel.org/index.php/Main_Page), [Bcachefs](https://github.com/8l/Bcachefs)
-* __Init (Daemon)__: [Upstart](https://code.launchpad.net/upstart) -> [SysVinit](https://github.com/slicer69/sysvinit) -> [Initng](https://github.com/initng/initng) -> Finit -> [sinit](https://github.com/henrysher/sinit)
-* __Init (Service Manager)__: OpenRC (includes an optional own init) -> runit (includes an optional own init) -> Ignite -> [daemontools-encore](https://github.com/bruceg/daemontools-encore) -> [perp](https://github.com/jdavisp3/perp)
-* __Init (Startup Scripts Manager)__: [bum](https://launchpad.net/bum) -> [svsh](https://ido50.github.io/Svsh/) -> [sysv-rc-conf](http://sysv-rc-conf.sourceforge.net/) -> [chkconfig](https://uni.edu/~prefect/devel/chkconfig/index.shtml)
 * __IPC__: DBus -> [ubus](https://wiki.openwrt.org/doc/techref/ubus) -> RPCBind -> ipcs (util-linux)
 * __Job Scheduler (Event)__: [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en) -> inotify-tools -> wendy -> ACPI event daemon (acpid) -> waitfordevice (w4d)
 * __Job Scheduler (Queue)__:  [Slurm](https://github.com/SchedMD/slurm) -> Task Spooler
@@ -667,6 +665,11 @@ Most apps are from F-Droid, we are just starting.
 * __Partitioning Fixes__: u3_tool, ms-sys
 * __Settings Manager__: Youker Assistant -> [Linux Lite Control Center](https://github.com/linuxlite/litecontrolcenter) -> [Elektra](https://github.com/ElektraInitiative/libelektra) -> [Augeas](https://github.com/hercules-team/augeas) -> Climate -> The Fuck -> Suicide Linux
 * __Virtual Filesystem__: FuseIso -> Autofs -> AVFS -> afuse -> bindfs
+
+### Init
+* __Daemon__: [Upstart](https://code.launchpad.net/upstart) -> [SysVinit](https://github.com/slicer69/sysvinit) -> [Initng](https://github.com/initng/initng) -> Finit -> [sinit](https://github.com/henrysher/sinit)
+* __Service Manager__: OpenRC (includes an optional own init) -> runit (includes an optional own init) -> Ignite -> [daemontools-encore](https://github.com/bruceg/daemontools-encore) -> [perp](https://github.com/jdavisp3/perp)
+* __Startup Scripts Manager__: [bum](https://launchpad.net/bum) -> [svsh](https://ido50.github.io/Svsh/) -> [sysv-rc-conf](http://sysv-rc-conf.sourceforge.net/) -> [chkconfig](https://uni.edu/~prefect/devel/chkconfig/index.shtml)
 
 ## X Desktop
 * __Application Launcher__: ratmenu -> xcmd -> [dmenu](https://github.com/stilvoid/dmenu) -> nenu
