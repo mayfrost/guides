@@ -137,13 +137,11 @@ There are two ways of adding fonts, with __Fontconfig__ or with __X__ core fonts
 `xset q`  
 
 __STEP 1__: Create a font directory with font files and index files.
-* If there are scalable fonts you might first need to correctly name them first:  
+* First you might need to correctly name scalable fonts by creating a _fonts.scale_ file in the directory:  
 `mkfontscale ~/.fonts`  
-* To properly create a font index file:  
+* Next create a proper font index file _fonts.dir_ to list available fonts in this directory:  
 `mkfontdir ~/.fonts`  
-Some files are then created:
-* The _fonts.dir_ lists the available fonts in this directory.
-* The _fonts.alias_ provides aliases.
+* The _fonts.alias_ provides aliases you can use and is manually created.
 
 __STEP 2__: Inform __X__ where to look for font directories.
 * Edit _"/etc/X11/xorg.conf"_ or in the separate file _"/etc/X11/xorg.conf.d/fonts.conf"_  
