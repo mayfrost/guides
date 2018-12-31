@@ -135,6 +135,7 @@ There are two ways of adding fonts, with __Fontconfig__ or with __X__ core fonts
 * Scalable fonts must appear in the font path before the bitmap fonts when possible.
 * You can query the current _font paths_ (along with other information) by using __xset__:  
 `xset q`  
+* All this works for cursors too.
 
 __STEP 1__: Create a font directory with font files and index files.
 * First you might need to correctly name scalable fonts by creating a _fonts.scale_ file in the directory:  
@@ -142,6 +143,9 @@ __STEP 1__: Create a font directory with font files and index files.
 * Next create a proper font index file _fonts.dir_ to list available fonts in this directory:  
 `mkfontdir ~/.fonts`  
 * The _fonts.alias_ provides aliases you can use and is manually created.
+* Make sure the files have the appropriate permissions:  
+`chown root.root *`  
+`chmod 644 *`  
 
 __STEP 2__: Inform __X__ where to look for font directories.
 * Edit _"/etc/X11/xorg.conf"_ or in the separate file _"/etc/X11/xorg.conf.d/fonts.conf"_  
