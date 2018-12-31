@@ -5,7 +5,7 @@ Set __X__ and a desktop environment fast.
 2. [CONFIGURING X](#configuring-x)  
 2.1. [SCREEN RESOLUTION](#screen-resolution)  
 2.2. [SCREEN TEARING](#screen-tearing)  
-2.3. [CORE FONTS](#core-fonts)  
+2.3. [FONTS (WITH CORE FONTS)](#fonts-with-core-fonts)  
 3. [THEME](theme)  
 4. [NO DE](#no-de)  
 4.1. [XINITRC CONFIGURATION FILE](#xinitrc-configuration-file)  
@@ -128,18 +128,20 @@ Section "Device"
 EndSection
 ```  
 
-### CORE FONTS
+### FONTS (WITH CORE FONTS)
 There are two ways of adding fonts, with __Fontconfig__ or with __X__ core fonts. The next deals with core fonts.
 * Fonts can be added to the database on _"/etc/X11/xorg.conf"_ or in the separate file _"/etc/X11/xorg.conf.d/fonts.conf_".
 * Supported font formats are _BDF_, binary _PCF_, and _SNF_.
 * Scalable fonts must appear in the font path before the bitmap fonts when possible.
+* You can query the current _font paths_ (along with other information) by using __xset__:  
+`xset q`  
 
 __STEP 1__: Create a font directory with font files and index files.
 * If there are scalable fonts you might first need to correctly name them index first:  
 `mkfontscale ~/.fonts`  
 * To properly create a font index file:  
 `mkfontdir ~/.fonts`  
-Some files are creat with this
+Some files are creat with this:
 * The _fonts.dir_ lists the available fonts in this directory.
 * The _fonts.alias_ provides aliases.
 
