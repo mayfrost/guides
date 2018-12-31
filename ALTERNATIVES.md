@@ -67,7 +67,7 @@ TL;DR: is about the unix principle, having a fully functional system pretty damn
 Most apps are from F-Droid, we are just starting.
 
 ## Command Line
-* __Commands Cheatsheet__: [CLI Companion](https://launchpad.net/clicompanion) -> [xman](https://www.x.org/archive/X11R7.5/doc/man/man1/xman.1.html) -> [cheat](https://github.com/chrisallenlane/cheat) / [howdoi](https://github.com/gleitz/howdoi) / [clf](https://github.com/ncrocfer/clf) / [fu](https://github.com/samirahmed/fu) / [bro](http://bropages.org/) -> [cheat.sh](https://github.com/chubin/cheat.sh)
+* __Commands Cheatsheet__: [CLI Companion](https://launchpad.net/clicompanion) -> [xman](https://www.x.org/archive/X11R7.5/doc/man/man1/xman.1.html) -> [cheat](https://github.com/chrisallenlane/cheat) / [howdoi](https://github.com/gleitz/howdoi) / [clf](https://github.com/ncrocfer/clf) / [fu](https://github.com/samirahmed/fu) / [bro](http://bropages.org/) -> [curl cht.sh/PROGRAM](https://github.com/chubin/cheat.sh)
 * __Copy and Move Progress Bar__: [progress](https://github.com/Xfennec/progress) -> [Advanced Copy](https://github.com/atdt/advcpmv)
 * __Daemonize__: [dtach](https://github.com/bogner/dtach) -> [abduco](https://github.com/martanne/abduco) -> [GNU Screen](https://www.gnu.org/software/screen/)
 * __Directory Bookmarks__: [Apparix](https://micans.org/apparix/) -> [fasd](https://github.com/clvv/fasd)
