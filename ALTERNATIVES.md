@@ -670,7 +670,7 @@ Most apps are from F-Droid, we are just starting.
 * __Startup Scripts Manager__: [bum](https://launchpad.net/bum) -> [svsh](https://ido50.github.io/Svsh/) -> [sysv-rc-conf](http://sysv-rc-conf.sourceforge.net/) -> [chkconfig](https://uni.edu/~prefect/devel/chkconfig/index.shtml)
 
 ### Job Scheduler
-* __Event__: [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en) -> inotify-tools -> wendy -> ACPI event daemon (acpid) -> waitfordevice (w4d)
+* __Event__: [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en) -> inotify-tools -> entr -> wendy -> ACPI event daemon (acpid) -> waitfordevice (w4d)
 * __Queue__:  [Slurm](https://github.com/SchedMD/slurm) -> Task Spooler
 * __Time__: Anacron -> [fcron](http://fcron.free.fr/) -> bcron -> dcron -> at
 
