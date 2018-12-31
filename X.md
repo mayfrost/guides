@@ -44,11 +44,11 @@ Or you can create specific configuration files under the _"/etc/X11/xorg.conf.d/
 
 ### SCREEN RESOLUTION
 To make changes you generally don't need to know supported resolutions but it helps using defaults.
-* List supported resolutions  
+* List currently supported resolutions (optional):  
 `xrandr`  
-* Generate a modeline  
+* Generate a modeline:  
 `cvt <WIDTH> <HEIGHT> <REFRESH_RATE>`  
-* Use that ouput to add changes on the configuration file  _"/etc/X11/xorg.conf"_  
+* Use that ouput to add changes on the configuration file  _"/etc/X11/xorg.conf"_:  
 ```
 Section "Device"
         Identifier   "<DEVICE_NAME>"
