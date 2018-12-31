@@ -141,7 +141,7 @@ __STEP 1__: Create a font directory with font files and index files.
 `mkfontscale ~/.fonts`  
 * To properly create a font index file:  
 `mkfontdir ~/.fonts`  
-Some files are creat with this:
+Some files are then created:
 * The _fonts.dir_ lists the available fonts in this directory.
 * The _fonts.alias_ provides aliases.
 
