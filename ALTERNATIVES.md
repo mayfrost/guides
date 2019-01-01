@@ -549,7 +549,7 @@ Most apps are from F-Droid, we are just starting.
 ### Containment
 * __Access Control (Kernel Patches)__: grsecurity + gradm -> Linux Intrusion Detection System -> SecurelLevel -> PaX -> [RSBAC](https://www.rsbac.org/)
 * __Access Control (Linux Security Modules (LSM))__: SELinux -> TOMOYO Linux -> Smack -> AppArmor
-* __Authentication__: Polkit -> ConsoleKit -> Sudo (visudo) -> Linux PAM -> checkpassword
+* __Authentication__: Polkit -> ConsoleKit -> Sudo (visudo) -> Linux PAM -> checkpassword -> shadow
 * __Extended File Attributes__: EVM -> IMA -> inotify
 * __Resource Usage Control__: [cpulimit](https://github.com/opsengine/cpulimit) -> ulimit (Bash) -> [Disk Quota](https://sourceforge.net/projects/linuxquota/) -> [quotatool](https://github.com/ekenberg/quotatool)
 * __Sandbox__: Arkose -> [Firejail](https://github.com/netblue30/firejail) -> nsjail -> [Bubblewrap](https://github.com/projectatomic/bubblewrap)
