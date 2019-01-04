@@ -178,12 +178,52 @@ You can add fonts temporarily.
 * Temporarily add fonts last on the list:  
 `xset fp+ /path/to/fonts`  
 
-* To enable TrueType® fonts enable Freetype by adding the following line to _"/etc/X11/xorg.conf"_ or in the separate file _"/etc/X11/xorg.conf.d/fonts.conf"_:  
+__TRUETYPE FONTS__  
+* To enable TrueType® fonts enable Freetype by adding the following line either to _"/etc/X11/xorg.conf"_ or in the separate file _"/etc/X11/xorg.conf.d/fonts.conf"_:  
 ```
 Section "Module"
 	Load  "freetype"
 EndSection
 ```  
+
+### FONTCONFIG
+The next deals with __Fontconfig__.
+
+__ADDING FONTS__  
+* Fonts added under:  
+`/usr/share/fonts/`  
+* or:  
+`/usr/local/share/fonts/`  
+* or locally under:  
+`~/.fonts/`  
+* are automatically added after updating __Fontconfig__.
+
+__GLOBAL CONFIGURATION__  
+* User generated system-wide changes are in:  
+`/etc/fonts/local.conf`  
+* or by replacing files under the directory:  
+`/etc/fonts/conf.d/`  
+* with symbolic links to files from:  
+`/etc/fonts/conf.avail/`  
+
+The system-wide configuration file _/etc/fonts/fonts.conf_ is generally not touched by the user.  
+
+__LOCAL CONFIGURATION__  
+* User-specific configuration file (can be overridden with the "FONTCONFIG_FILE" environment variable):  
+`~/.fonts.conf`  
+* or:  
+`~/.config/fontconfig/fonts.conf`  
+* or putting symbolic links to files from:  
+`/etc/fonts/conf.avail/`  
+* to:  
+`~/.config/fontconfig/conf.d`  
+
+__BITMAP FONTS__
+The bitmap fonts may not be enabled by default on __FONTCONFIG__.  
+* Remove current configuration:  
+`rm /etc/fonts/conf.d/70-no-bitmaps.conf`  
+* Create symbolic link to configuration enabling it:  
+`ln -s /etc/fonts/conf.avail/70-yes-bitmaps.conf /etc/fonts/conf.d/70-yes-bitmaps.conf`  
 
 ## THEME
 To tweak the theme of your terminal emulator you need to tweak the _".Xresources"_ file.
