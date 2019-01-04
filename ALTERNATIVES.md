@@ -499,6 +499,7 @@ Most apps are from F-Droid, we are just starting.
 * __Parser Generators__: ANTLR -> Ragel-> [AutoGen](https://directory.fsf.org/wiki/Autogen) -> [GNU bison](https://directory.fsf.org/wiki/Bison) and [Flex](https://directory.fsf.org/wiki/Flex) -> re2c + lemon -> [GNU m4](https://directory.fsf.org/wiki/M4)
 * __[Program Transformation](https://en.wikipedia.org/wiki/Program_transformation)__: [FermaT](http://www.gkc.org.uk/fermat.html), [Coccinelle](http://coccinelle.lip6.fr/), [CIL](https://people.eecs.berkeley.edu/~necula/cil/), [Stratego/XT](http://strategoxt.org/)
 * __Random Hacks__: patchelf, elfhacks, SWIG, Gengetopt
+* __Source Code Count__: [Unified Code Count (UCC)](https://github.com/RMax2015/Unified_Code_Count) -> [CLOC](http://cloc.sourceforge.net/)
 * __Source Code Navigation__: GNU idutils, cflow (+ cflow2dot), [LXR: The Linux Cross Referencer](http://lxr.sourceforge.net/en/index.php) -> [GNU GLOBAL](https://www.gnu.org/software/global/) -> [cscope](http://cscope.sourceforge.net/) -> [Ctags](https://github.com/universal-ctags/ctags) -> [cgvg](https://github.com/uzi/cgvg) -> [ack](https://beyondgrep.com/) -> [ag](https://github.com/ggreer/the_silver_searcher)
 * __[Source-to-Source Compiler](https://en.wikipedia.org/wiki/Source-to-source_compiler)__: [ROSE](https://github.com/rose-compiler/rose)
 * __System Query__: [sysconftool](https://github.com/svarshavchik/courier/tree/master/sysconftool), [Installwatch](https://github.com/ruxkor/checkinstall/tree/master/installwatch), [pkgconf](https://github.com/pkgconf/pkgconf)
