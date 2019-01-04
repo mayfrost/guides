@@ -203,7 +203,7 @@ __COMMANDS__
 `fc-list`  
 * To show an ordered list of fonts matching a certain name or pattern:  
 `fc-match -s <NAME>`  
-* To update fontconfig cached list of fonts:  
+* To update the list of fonts:  
 `fc-cache -fv`  
 * To update an specific directory:  
 `fc-cache /path/to/fonts/`  
