@@ -5,20 +5,22 @@ Set __X__ and a desktop environment fast.
 2. [CONFIGURING X](#configuring-x)  
 2.1. [SCREEN RESOLUTION](#screen-resolution)  
 2.2. [SCREEN TEARING](#screen-tearing)  
-2.3. [FONTS (WITH CORE FONTS)](#fonts-with-core-fonts)  
-3. [THEME](theme)  
-4. [NO DE](#no-de)  
-4.1. [XINITRC CONFIGURATION FILE](#xinitrc-configuration-file)  
-4.2. [LAUNCH X](#launch-x)  
-4.3. [LAUNCH X AT LOGIN](#launch-x-at-login)  
-5. [KEY BINDINGS](#key-bindings)  
-5.1. [GETTING KEYS INFORMATION](#getting-keys-information)  
-5.2. [XBINDKEYSRC CONFIGURATION FILE](#xbindkeysrc-configuration-file)  
-6. [CLIPBOARD](#clipboard)  
-6.1. [CLIPBOARD BINDINGS](#clipboard-bindings)  
-7. [WINDOW MANAGER](#window-manager)  
-7.1. [BASIC SHORTCUTS](#basic-shortcuts)  
-7.2. [RATPOISONRC CONFIGURATION FILE](#ratpoisonrc-configuration-file)  
+3. [FONTS](#fonts)  
+3.1. [CORE FONTS](#core-fonts)  
+3.2. [FONTCONFIG](#fontconfig)  
+4. [THEME](theme)  
+5. [NO DE](#no-de)  
+5.1. [XINITRC CONFIGURATION FILE](#xinitrc-configuration-file)  
+5.2. [LAUNCH X](#launch-x)  
+5.3. [LAUNCH X AT LOGIN](#launch-x-at-login)  
+6. [KEY BINDINGS](#key-bindings)  
+6.1. [GETTING KEYS INFORMATION](#getting-keys-information)  
+6.2. [XBINDKEYSRC CONFIGURATION FILE](#xbindkeysrc-configuration-file)  
+7. [CLIPBOARD](#clipboard)  
+7.1. [CLIPBOARD BINDINGS](#clipboard-bindings)  
+8. [WINDOW MANAGER](#window-manager)  
+8.1. [BASIC SHORTCUTS](#basic-shortcuts)  
+8.2. [RATPOISONRC CONFIGURATION FILE](#ratpoisonrc-configuration-file)  
 
 ## INSTALLING X
 Generally it can be installed from the live _CD or DVD_ or afterwards with the package manager. For example on __CRUX__:
@@ -128,45 +130,60 @@ Section "Device"
 EndSection
 ```  
 
-### FONTS (WITH CORE FONTS)
-There are two ways of adding fonts, with __Fontconfig__ or with __X__ core fonts. The next deals with core fonts.
+## FONTS
+There are two ways of adding fonts, with __Fontconfig__ or with __X__ core fonts. Make sure the fonts and the directory (and all of its parents) are world-readable:
+* The directory needs appropriate permissions.  
+`chmod 755 /path/to/fonts/`  
+* The fonts need appropriate permissions.  
+`chmod 644 /path/to/fonts/*`  
+* If the fonts are global they need to be owned by root.  
+`chown root:root /path/to/fonts/*`  
+
+### CORE FONTS
+The next deals with core fonts.
 * Fonts can be added to the database on _"/etc/X11/xorg.conf"_ or in the separate file _"/etc/X11/xorg.conf.d/fonts.conf_".
 * Supported font formats are _BDF_, binary _PCF_, and _SNF_.
 * Scalable fonts must appear in the font path before the bitmap fonts when possible.
 * You can query the current _font paths_ (along with other information) by using __xset__:  
 `xset q`  
+* To see the list of installed fonts:  
+`xlsfonts`  
 * All this works for cursors too.
 
 __STEP 1__: Create a font directory with font files and index files.
 * First you might need to correctly name scalable fonts by creating a _fonts.scale_ file in the directory:  
-`mkfontscale ~/.fonts`  
+`mkfontscale /path/to/fonts/`  
 * Next create a proper font index file _fonts.dir_ to list available fonts in this directory:  
-`mkfontdir ~/.fonts`  
+`mkfontdir /path/to/fonts/`  
 * The _fonts.alias_ provides aliases you can use and is manually created.
-* Make sure the files have the appropriate permissions:  
-`chown root.root *`  
-`chmod 644 *`  
 
 __STEP 2__: Inform __X__ where to look for font directories.
-* Edit _"/etc/X11/xorg.conf"_ or in the separate file _"/etc/X11/xorg.conf.d/fonts.conf"_  
+* Edit _"/etc/X11/xorg.conf"_ or in the separate file _"/etc/X11/xorg.conf.d/fonts.conf"_:  
 ```
 Section "Files"
         FontPath     "/path/to/fonts/"
-        FontPath     "/path/to/another/fonts/"
+        FontPath     "/path/to/other/fonts/"
 EndSection
 ```  
 Where _"/path/to/fonts/"_ can be the default _/usr/local/share/fonts/_, a directory under _/usr/local/share/fonts/_, or any directory of your choosing.  
 
-__STEP 3 (OPTIONAL)__: Re-scan the font directories to apply new fonts.
-* Reload _xset_ to apply changes:  
-`xset fp rehash`
+__STEP 3__: Re-scan the font directories to apply new fonts.
+* Either restart __X__ or reload using _xset_ to apply changes:  
+`xset fp rehash`  
 
 __TEMPORARY CHANGES (OPTIONAL)__  
-To add fonts for a one time you can follow either of these steps.  
+You can add fonts temporarily.  
 * Temporarily add fonts first on the list:  
 `xset +fp /path/to/fonts`  
 * Temporarily add fonts last on the list:  
 `xset fp+ /path/to/fonts`  
+
+* To enable TrueType® fonts enable Freetype by adding the following line to _"/etc/X11/xorg.conf"_ or in the separate file _"/etc/X11/xorg.conf.d/fonts.conf"_:  
+```
+Section "Module"
+	Load  "freetype"
+EndSection
+```  
 
 ## THEME
 To tweak the theme of your terminal emulator you need to tweak the _".Xresources"_ file.
