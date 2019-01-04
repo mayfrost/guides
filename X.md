@@ -198,6 +198,16 @@ __ADDING FONTS__
 `~/.fonts/`  
 * are automatically added after updating __Fontconfig__.
 
+__COMMANDS__  
+* To list fonts:  
+`fc-list`  
+* To show an ordered list of fonts matching a certain name or pattern:  
+`fc-match -s <NAME>`  
+* To update fontconfig cached list of fonts:  
+`fc-cache -fv`  
+* To update an specific directory:  
+`fc-cache /path/to/fonts/`  
+
 __GLOBAL CONFIGURATION__  
 * User generated system-wide changes are in:  
 `/etc/fonts/local.conf`  
@@ -213,10 +223,10 @@ __LOCAL CONFIGURATION__
 `~/.fonts.conf`  
 * or:  
 `~/.config/fontconfig/fonts.conf`  
-* or putting symbolic links to files from:  
+* or making symbolic links of files from:  
 `/etc/fonts/conf.avail/`  
 * to:  
-`~/.config/fontconfig/conf.d`  
+`~/.config/fontconfig/conf.d/`  
 
 __BITMAP FONTS__
 The bitmap fonts may not be enabled by default on __FONTCONFIG__.  
