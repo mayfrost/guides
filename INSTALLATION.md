@@ -1,4 +1,4 @@
-# Initiation Rite
+# Installation
 
 This guide is for those wanting one of the two most beautiful source based distros, either __CRUX__ or __Source Mage GNU/Linux__. It was written so it can be used by both, only diverging on particular details.
 * __CRUX__: A ports based, BSD style init scripts, distro following true KISS principles (Keep It Simple).  
