@@ -38,7 +38,8 @@
 * Her (2013)
 
 ## /cyb/ Documentaries:
-* The Cyberpunk Educator https://archive.org/details/cyberpunkeducator
+* [Cyberpunk (1990)](https://www.youtube.com/watch?v=hRwU9zJcT60)
+* [The Cyberpunk Educator](https://archive.org/details/cyberpunkeducator)
 * The Internet's Own Boy: The Story of Aaron Swartz (2014)
 * RiP: A Remix Manifesto (2009)
 * TPB AFK: The Pirate Bay Away from Keyboard (2013)
