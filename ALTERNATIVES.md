@@ -689,7 +689,7 @@ Most apps are from F-Droid, we are just starting.
 * __Notification (Daemon)__: dunst -> [slstatus](https://github.com/drkhsh/slstatus) -> SiND (Simple Notification Daemon)
 * __Notification (Server)__: Libcanberra + Libnotify -> xmessage
 * __Panel__: Avant Window Navigator -> Global Menu -> Tint2
-* __Screensaver__: XScreenSaver -> XLockmore -> i3lock -> [sxlock](https://github.com/lahwaacz/sxlock) -> slock
+* __Screensaver__: XScreenSaver -> XLockmore -> i3lock -> [sxlock](https://github.com/lahwaacz/sxlock) -> slock -> xset
 * __Status Bar (Client)__: Dzen -> [bevelbar](https://github.com/vain/bevelbar) -> Lemonbar
 * __Status Bar (Server)__: monky -> i3status
 * __Wallpaper Changer (Animated)__: Xphoon, xfireworks, Xsnow, xmountains, Xplanet, ImageMagick (animate)
