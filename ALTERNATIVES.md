@@ -142,7 +142,7 @@ Most apps are from F-Droid, we are just starting.
 
 ## Decentralized Networking
 * __Backbone Framework__: GNUnet -> OSF DCE (Distributed Computing Environment)
-* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> GNU Ring -> eircd -> P2PIRC -> [nircd](https://github.com/Ronsor/nircd)
+* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> [GNU Jami](https://jami.net/) -> eircd -> P2PIRC -> [nircd](https://github.com/Ronsor/nircd)
 * __Darknet__: [autovpn](https://github.com/adtac/autovpn) -> LibreVPN -> Tor -> [AnoNet](http://anonet.org/) -> i2p
 * __Digital Library__: [Aletheia](https://github.com/aletheia-foundation/aletheia-admin)
 * __Distributed File Systems__: Samba -> NFS (nfs-utils) -> davfs2 -> Upspin -> IPFS
