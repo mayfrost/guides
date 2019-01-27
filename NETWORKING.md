@@ -83,7 +83,7 @@ You can save either example in a script to activate the Wi-Fi whenever you want.
 * To flush an specific rule:  
 `iptables -F <THE_RULE_TO_FLUSH>`  
 
-### BASICS
+#### BASICS
 * The rules are read in the order you give them and also their flags:  
 _-A_: appends to previous list of rules.  
 _-I_: inserts to previous list of rules.  
@@ -106,7 +106,7 @@ _FORWARD_: Goes to a third computer.
 * To select the protocol (can be tcp, udp, etc.):  
 `-p <PROTOCOL>`  
 
-* Port:  
+* To select the port:  
 `--dport <PORT>`  
 
 * Match packet rules by state (can be used instead of ports):  
@@ -121,6 +121,50 @@ _FORWARD_: Goes to a third computer.
 
 * The action to enforce (ACCEPT, DROP, etc.):  
 `-j <ACTION>`  
+
+#### GENERAL POLICIES
+* Let pass all connections from inside the firewall:  
+`iptables -P OUTPUT ACCEPT`  
+* Drop all incoming connections by default:  
+`iptables -P INPUT DROP`  
+* Drop all forwarding connections by default:  
+`iptables -P FORWARD DROP`  
+
+* Allow all packets from loopback (your computer):  
+`iptables -A INPUT --in-interface lo -j ACCEPT`  
+
+* Allow connections from outisde to view your server:  
+`iptables -A INPUT -p tcp --dport <SERVER_PORT> -j ACCEPT`  
+
+* Allow connections to your computer through SSH (assuming the SSH server is running in port 22):  
+`iptables -A INPUT -p tcp --dport 22 -j ACCEPT`  
+
+* Allow SSH only from local IP using IP range (to be used instead of the above):  
+`iptables -A INPUT -m iprange --src-range 192.168.1.1-192.168.1.254 -p tcp --dport 22 -j ACCEPT`  
+
+* Allow connections to receive a response from the same port, for the sake of the two-way connection as in the case of web browsers:  
+`iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT`  
+
+* Drop spoofed packets simulating as coming from the same computer:  
+`iptables -A INPUT --in-interface ! lo --source 127.0.0.0/8 -j DROP`  
+
+#### CUSTOM POLICIES
+
+* To create a custom chain:  
+`-N <ANY_NAME>`  
+
+* Declaring the <ANY_NAME> chain will add the deployment of rules with this chain name where this chain is called:  
+`iptables -A INPUT -j <ANY_NAME>`  
+
+* Using the chain <ANY_NAME> for connections from outisde to your server:  
+`iptables -A <ANY_NAME> -p tcp --dport <SERVER_PORT> -j ACCEPT`  
+
+* Using the chain <ANY_NAME> for connections to the SSH server:  
+`iptables -A <ANY_NAME> -p tcp --dport 22 -j ACCEPT`  
+
+#### PORT REDIRECTION
+* Redirect port 80 to port 8080 using the NAT table:  
+`iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080`  
 
 
 ## SSH
