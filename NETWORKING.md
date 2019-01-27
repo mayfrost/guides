@@ -78,6 +78,8 @@ You can save either example in a script to activate the Wi-Fi whenever you want.
 `sudo ufw allow from IP_ADDRESS to any port PORT_NUMBER`  
 
 ### iptables
+* To list all rules:  
+`iptables -L`  
 * To flush all rules (reset to blank slate):  
 `iptables -F`  
 * To flush an specific rule:  
