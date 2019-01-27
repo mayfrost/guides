@@ -6,6 +6,7 @@
 1.2. [WiFi](#wifi)  
 2. [FIREWALL](#firewall)  
 2.1. [ufw](#ufw)  
+2.2. [iptables](#iptables)  
 3. [SSH](#ssh)  
 3.1. [CLIENT](#client)  
 3.2. [SERVER](#server)  
@@ -75,6 +76,52 @@ You can save either example in a script to activate the Wi-Fi whenever you want.
 `sudo ufw allow from IP_ADDRESS`  
 * Allow a specific port for a specific address  
 `sudo ufw allow from IP_ADDRESS to any port PORT_NUMBER`  
+
+### iptables
+* To flush all rules (reset to blank slate):  
+`iptables -F`  
+* To flush an specific rule:  
+`iptables -F <THE_RULE_TO_FLUSH>`  
+
+### BASICS
+* The rules are read in the order you give them and also their flags:  
+_-A_: appends to previous list of rules.  
+_-I_: inserts to previous list of rules.  
+
+* The rules are followed according to their type which is a chain. The three types of chains are:  
+_INPUT_: Comes from outside the firewall (commonly from another computer).  
+_OUTPUT_: Comes from behind the firewall (commonly from the same computer).  
+_FORWARD_: Goes to a third computer.  
+
+* To select the interface (can be eth0, lo, wlan0, etc.):  
+`--in-interface <INTERFACE>`  
+* or also:  
+`-i <INTERFACE>`  
+* To make the rule match all but the requested interface add an exclamation between the interface flag and the interface name:  
+`-i ! <INTERFACE>`  
+
+* To select source of connection:  
+`-s <SOURCE_IP>`  
+
+* To select the protocol (can be tcp, udp, etc.):  
+`-p <PROTOCOL>`  
+
+* Port:  
+`--dport <PORT>`  
+
+* Match packet rules by state (can be used instead of ports):  
+`-m state`  
+* Types of state (ESTABLISHED, RELATED, etc.), more than one can be selected by using a comman with no spaces, for example:  
+`--state ESTABLISHED,RELATED`  
+
+* Match packet rules by IP range (can be used instead of ports):  
+`-m iprange`  
+* To choose a range set the start IP and the end IP separated by a dash:  
+`--src-range <FIRST_IP>-<LAST_IP>`  
+
+* The action to enforce (ACCEPT, DROP, etc.):  
+`-j <ACTION>`  
+
 
 ## SSH
 ### CLIENT
