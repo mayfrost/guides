@@ -1,5 +1,20 @@
 # NETWORKING
 
+## TOC
+1. [SETUP](#setup)  
+1.1 [/etc/network/interfaces](#/etc/network/interfaces)  
+1.2. [WiFi](#wifi)  
+2. [FIREWALL](#firewall)  
+2.1. [ufw](#ufw)  
+3. [SSH](#ssh)  
+3.1. [CLIENT](#client)  
+3.2. [SERVER](#server)  
+4. [TROUBLESHOOTING](troubleshooting)  
+4.1. [tcpdump](#tcpdump)  
+4.2. [netstat](#netstat)  
+4.3. [traceroute](#traceroute)  
+4.4. [nmap](#nmap)  
+
 ## SETUP
 
 ### /etc/network/interfaces
@@ -39,7 +54,7 @@ You can save either example in a script to activate the Wi-Fi whenever you want.
 
 * Note: As an educational tip, the name of a network is also called "_SSID_" in other places.
 
-## TROUBLESHOOTING
+## FIREWALL
 
 ### ufw
 * Show status  
@@ -60,6 +75,24 @@ You can save either example in a script to activate the Wi-Fi whenever you want.
 `sudo ufw allow from IP_ADDRESS`  
 * Allow a specific port for a specific address  
 `sudo ufw allow from IP_ADDRESS to any port PORT_NUMBER`  
+
+## SSH
+### CLIENT
+* login to remote host  
+`ssh ADDRESS`  
+* login to remote host as user USER  
+`ssh USER@ADDRESS`  
+
+## SERVER
+* set ssh server configuration in /etc/ssh/sshd_config  
+```
+Port 22 # default port is 22, can be changed
+PermitRootLogin without-password # change "without-password" to "no" to forbid root login
+AllowUsers USER_NAME # by allowing a specific user it restricts the others
+```
+* restart "ssh" service to activate changes  
+
+## TROUBLESHOOTING
 
 ### tcpdump
 * dump all  
@@ -116,19 +149,3 @@ You can save either example in a script to activate the Wi-Fi whenever you want.
 `nmap --reason IP_NUMBER`  
 * show host interfaces  
 `nmap --iflist IP_NUMBER`  
-
-## REMOTE CONNECTION
-### SSH
-* login to remote host  
-`ssh ADDRESS`  
-* login to remote host as user USER  
-`ssh USER@ADDRESS`  
-
-## SERVER
-* set ssh server configuration in /etc/ssh/sshd_config  
-```
-Port 22 # default port is 22, can be changed
-PermitRootLogin without-password # change "without-password" to "no" to forbid root login
-AllowUsers USER_NAME # by allowing a specific user it restricts the others
-```
-* restart "ssh" service to activate changes  
