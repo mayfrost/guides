@@ -13,7 +13,7 @@ These addons worked excellent to cover any fingerprinting, until Mozilla decided
 * User-Agent: [Random Agent Spoofer](https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/), [User-Agent JS Fixer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-js-fixer/)
 * Plugin Enumeration: [Disable plugin enum](https://github.com/dillbyrne/random-agent-spoofer/issues/283) (see Mechazawa's script, and install with greasemonkey)
 * Content Delivery Blocker: [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
-* URI Leak: [No Resource URI Leak](https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/)
+* URI Leak: [No Resource URI Leak](https://notabug.org/desktopd/no-resource-uri-leak)
 * Canvas-Fingerprinting: [Canvas Defender](https://addons.mozilla.org/en-US/firefox/addon/no-canvas-fingerprinting/)
 * SSL (strict HTTPS): [HTTPS by default](https://addons.mozilla.org/en-US/firefox/addon/https-by-default/)
 * URL Deobfuscator: [Pure URL](https://addons.mozilla.org/en-US/firefox/addon/pure-url/)
