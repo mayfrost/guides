@@ -83,7 +83,7 @@ You can save either example in a script to activate the Wi-Fi whenever you want.
 * To flush all rules (reset to blank slate):  
 `iptables -F`  
 * To flush an specific rule:  
-`iptables -F <THE_RULE_TO_FLUSH>`  
+`iptables -D <THE_RULE_TO_FLUSH>`  
 
 #### BASICS
 * The rules are read in the order you give them and also their flags:  
