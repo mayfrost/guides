@@ -1,3 +1,15 @@
+# COMMUNICATION
+Here lies several ways to communicate through different networks.
+
+1. [BROWSER](#browser)  
+1.1. [GNU ICECAT](#gnu-icecat)  
+1.2. [ADDONS](#addons)  
+1.3. [ABOUT\:CONFIG](#about-:config)  
+2. [E-MAIL](#e\-mail)  
+2.1. [E-MAIL STORAGE FORMATS](#gnu-icecat)  
+2.2. [MUTTRC](#addons)  
+3. [USENET](#usenet)  
+
 ## BROWSER
 
 ### GNU ICECAT
