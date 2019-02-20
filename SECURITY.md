@@ -1,8 +1,6 @@
 # SECURITY
 For the security checklist refer to https://github.com/mayfrost/guides/blob/master/CHECKLIST.md
 
-## PRIVACY
-
 ## KPCLI
 Command line password manager, quite intuitive if you know the command line and designed for daily use.
 
