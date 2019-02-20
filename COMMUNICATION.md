@@ -4,11 +4,18 @@ Here lies several ways to communicate through different networks.
 1. [BROWSER](#browser)  
 1.1. [GNU ICECAT](#gnu-icecat)  
 1.2. [ADDONS](#addons)  
-1.3. [ABOUT\:CONFIG](#about-:config)  
+1.3. [ABOUT\:CONFIG](#about-config)  
 2. [E-MAIL](#e\-mail)  
 2.1. [E-MAIL STORAGE FORMATS](#gnu-icecat)  
 2.2. [MUTTRC](#addons)  
 3. [USENET](#usenet)  
+4. [I2P](#i2p)  
+4.1. [INSTALLATION](#installation)  
+4.2. [BASIC COMMANDS](#basic-commands)  
+4.3. [EEPSITEs](#eepsites)  
+4.4. [IRC](#irc)  
+4.5. [REMOTE ACCESS](#remote-access)  
+
 
 ## BROWSER
 
@@ -172,3 +179,80 @@ setkey group "set_prefix_argument(4); () = select_group();" " "
 
 * 6. Download a list of newsgroups  
 `slrn -d`  
+
+## I2P
+
+### INSTALLATION
+* Make directory that will contain I2P  
+`mkdir /path/to/.i2p`  
+
+* Go to directory  
+`cd /path/to/.i2p`  
+
+* Download (replace <VERSION> with the newest version)  
+`wget -c https://download.i2p2.de/releases/<VERSION>/i2pinstall_<VERSION>.jar`  
+
+* Run the installer (and select options like the current path)  
+`java -jar i2pinstall_<VERSION>.jar -console`  
+
+* In case you get an error use the script  
+`./runplain.sh`  
+
+To uninstall simply delete the directory.
+
+### BASIC COMMANDS
+
+* See status  
+`i2prouter status`  
+
+* Start  
+`i2prouter start`  
+
+* Stop  
+`i2prouter stop`  
+
+* Stop nicely  
+`i2prouter graceful`  
+
+### EEPSITE
+Configuration to browse I2P eepsites. To be used with GNU IceCat.
+
+* Go to "Preferences -> Advanced -> Network -> Connection (Settings)"
+* Check "Manual proxy configuration"
+* Fill with the address  
+`127.0.0.1 and port 4444 for HTTP`  
+`127.0.0.1 and port 4445 for HTTPS`  
+`127.0.0.1 and port 4444 for FTP`  
+* In the "No proxy for" add:  
+`localhost, 127.0.0.1`  
+* Mark "Proxy DNS when using SOCKS".  
+
+Address Book is a list of eepsites.
+
+* Your own eepsite is already active but invisible, the directory located at
+`~/.i2p/eepsite/docroot/`  
+
+* The I2P Tunnel Manager contains the setting of your eepsite
+
+### IRC
+
+* Add the I2P network  
+`/server add -network i2p localhost 6668`  
+* Connect  
+`/connect i2p`  
+* Save configuration  
+`/save`  
+
+* From now on, to connect simply type  
+`/connect i2p`  
+
+
+### REMOTE ACCESS
+To access your I2P router from another computer.
+
+* On /.i2p/clients.config replace  
+`clientApp.0.args=7657 ::1,127.0.0.1 ./webapps/`  
+* with  
+`clientApp.0.args=7657 ::1,127.0.0.1,<REMOTE_IP> ./webapps/`  
+* where <REMOTE_IP> is the IP of the computer running I2P.  
+* Restart I2P.  
