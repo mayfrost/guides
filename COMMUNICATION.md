@@ -4,7 +4,7 @@ Here lies several ways to communicate through different networks.
 1. [BROWSER](#browser)  
 1.1. [GNU ICECAT](#gnu-icecat)  
 1.2. [ADDONS](#addons)  
-1.3. [ABOUT\:CONFIG](#about-:config)  
+1.3. [ABOUT CONFIG](#about-config)  
 2. [E-MAIL](#e\-mail)  
 2.1. [E-MAIL STORAGE FORMATS](#gnu-icecat)  
 2.2. [MUTTRC](#addons)  
@@ -38,7 +38,7 @@ These addons worked excellent to cover any fingerprinting, until Mozilla decided
 * URL Deobfuscator: [Pure URL](https://addons.mozilla.org/en-US/firefox/addon/pure-url/)
 * Google Redirection: [Google search link fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/)
 
-### ABOUT\:CONFIG
+### ABOUT CONFIG
 These tips prevent overflow your root directory or getting constantly write and delete to try and kill your drive.
 * Go to _about\:config_
 * Put a 0 to everything that can write to the disk.
