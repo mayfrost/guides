@@ -4,7 +4,7 @@ Here lies several ways to communicate through different networks.
 1. [BROWSER](#browser)  
 1.1. [GNU ICECAT](#gnu-icecat)  
 1.2. [ADDONS](#addons)  
-1.3. [ABOUT\:CONFIG](#about-config)  
+1.3. [ABOUT\:CONFIG](#about-:config)  
 2. [E-MAIL](#e\-mail)  
 2.1. [E-MAIL STORAGE FORMATS](#gnu-icecat)  
 2.2. [MUTTRC](#addons)  
@@ -12,7 +12,7 @@ Here lies several ways to communicate through different networks.
 4. [I2P](#i2p)  
 4.1. [INSTALLATION](#installation)  
 4.2. [BASIC COMMANDS](#basic-commands)  
-4.3. [EEPSITEs](#eepsites)  
+4.3. [EEPSITES](#eepsites)  
 4.4. [IRC](#irc)  
 4.5. [REMOTE ACCESS](#remote-access)  
 
@@ -214,7 +214,7 @@ To uninstall simply delete the directory.
 * Stop nicely  
 `i2prouter graceful`  
 
-### EEPSITE
+### EEPSITES
 Configuration to browse I2P eepsites. To be used with GNU IceCat.
 
 * Go to "Preferences -> Advanced -> Network -> Connection (Settings)"
