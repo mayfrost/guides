@@ -11,10 +11,13 @@ Here lies several ways to communicate through different networks.
 3. [USENET](#usenet)  
 4. [I2P](#i2p)  
 4.1. [INSTALLATION](#installation)  
-4.2. [BASIC COMMANDS](#basic-commands)  
-4.3. [EEPSITES](#eepsites)  
-4.4. [IRC](#irc)  
-4.5. [REMOTE ACCESS](#remote-access)  
+4.2. [REMOTE ACCESS](#remote-access)  
+4.3. [BASIC COMMANDS](#basic-commands)  
+4.4. [EEPSITES](#eepsites)  
+4.5. [IRC](#irc)  
+4.5. [TORRENTS](#torrents)  
+4.5.1 [DOWNLOADING](#downloading)  
+4.5.2 [CREATING](#creating)  
 
 
 ## BROWSER
@@ -195,10 +198,22 @@ setkey group "set_prefix_argument(4); () = select_group();" " "
 * Run the installer (and select options like the current path)  
 `java -jar i2pinstall_<VERSION>.jar -console`  
 
-* In case you get an error use the script  
+* In case you get an error you'll need to use the next script to start every time  
 `./runplain.sh`  
 
 To uninstall simply delete the directory.
+
+
+### REMOTE ACCESS
+To access your I2P router from another computer.
+
+* On /.i2p/clients.config replace  
+`clientApp.0.args=7657 ::1,127.0.0.1 ./webapps/`  
+* with  
+`clientApp.0.args=7657 ::1,127.0.0.1,<REMOTE_IP> ./webapps/`  
+* where <REMOTE_IP> is the IP of the computer running I2P.  
+* Restart I2P.  
+
 
 ### BASIC COMMANDS
 
@@ -246,13 +261,31 @@ Address Book is a list of eepsites.
 * From now on, to connect simply type  
 `/connect i2p`  
 
+### TORRENTS
+Normal torrents and i2p torrents are used with different clients. Can't use a regular torrent from a normal tracker.  
 
-### REMOTE ACCESS
-To access your I2P router from another computer.
+#### DOWNLOADING
+* Visit a tracker like http://tracker2.postman.i2p and search for the torrent.
 
-* On /.i2p/clients.config replace  
-`clientApp.0.args=7657 ::1,127.0.0.1 ./webapps/`  
-* with  
-`clientApp.0.args=7657 ::1,127.0.0.1,<REMOTE_IP> ./webapps/`  
-* where <REMOTE_IP> is the IP of the computer running I2P.  
-* Restart I2P.  
+__OPTION A__
+* Place your mouse cursor over the magnet icon, right click to disply the menu and click “Copy Link Location".  
+* Go to i2psnark in browser (http://localhost:7657/i2psnark/).  
+* Paste the magnet URL on the field "From URL"  
+* Start the torrent.  
+
+__OPTION B__
+* Download the .torrent file.  
+* Move torrent file it to destination ~/.i2p/i2psnark/.  
+* Go to i2psnark in browser or refresh page (http://localhost:7657/i2psnark/).  
+* Start the torrent
+
+
+#### CREATING
+* Place data in i2psnark directory.  
+`mv <TORRENT_DATA> ~/.i2p/i2psnark/`  
+* Go to i2psnark in browser or refresh page (http://localhost:7657/i2psnark/).  
+* Fill in the fields.  
+`Data to seed: ~/.i2p/i2psnark/<TORRENT_DATA>`  
+`Tracker: <SELECT_TRACKER>`  
+* Create torrent by clicking on "Create Torrent".  
+* Start the torrent.  
