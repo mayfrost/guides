@@ -18,6 +18,7 @@ Here lies several ways to communicate through different networks.
 4.5. [TORRENTS](#torrents)  
 4.5.1 [DOWNLOADING](#downloading)  
 4.5.2 [CREATING](#creating)  
+4.5.3 [CONFIGURATION](#configuration)  
 
 
 ## BROWSER
@@ -267,13 +268,13 @@ Normal torrents and i2p torrents are used with different clients. Can't use a re
 #### DOWNLOADING
 * Visit a tracker like http://tracker2.postman.i2p and search for the torrent.
 
-_OPTION A_
+_OPTION A_:
 * Place your mouse cursor over the magnet icon, right click to disply the menu and click “Copy Link Location".  
 * Go to i2psnark in browser (http://localhost:7657/i2psnark/).  
 * Paste the magnet URL on the field "From URL"  
 * Start the torrent.  
 
-_OPTION B_
+_OPTION B_:
 * Download the .torrent file.  
 * Move torrent file it to destination ~/.i2p/i2psnark/.  
 * Go to i2psnark in browser or refresh page (http://localhost:7657/i2psnark/).  
@@ -289,3 +290,17 @@ _OPTION B_
 `Tracker: <SELECT_TRACKER>`  
 * Create torrent by clicking on "Create Torrent".  
 * Start the torrent.  
+
+#### CONFIGURATION
+To automatically start torrents once they are added:
+* Go to “Configuration”.
+* Select “Auto start”.
+* Select “Save configuration”.
+
+To change more settings, like download destination for example:  
+* Edit configuration file.  
+`vi ~/.i2p/i2psnark.config.d/i2psnark.config`  
+* Change field ("i2psnark.dir").  
+`i2psnark.dir=<DOWNLOAD_DIRECTORY>`  
+
+
