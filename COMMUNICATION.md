@@ -267,13 +267,13 @@ Normal torrents and i2p torrents are used with different clients. Can't use a re
 #### DOWNLOADING
 * Visit a tracker like http://tracker2.postman.i2p and search for the torrent.
 
-__OPTION A__
+_OPTION A_
 * Place your mouse cursor over the magnet icon, right click to disply the menu and click “Copy Link Location".  
 * Go to i2psnark in browser (http://localhost:7657/i2psnark/).  
 * Paste the magnet URL on the field "From URL"  
 * Start the torrent.  
 
-__OPTION B__
+_OPTION B_
 * Download the .torrent file.  
 * Move torrent file it to destination ~/.i2p/i2psnark/.  
 * Go to i2psnark in browser or refresh page (http://localhost:7657/i2psnark/).  
