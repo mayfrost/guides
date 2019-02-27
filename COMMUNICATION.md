@@ -11,14 +11,15 @@ Here lies several ways to communicate through different networks.
 3. [USENET](#usenet)  
 4. [I2P](#i2p)  
 4.1. [INSTALLATION](#installation)  
-4.2. [REMOTE ACCESS](#remote-access)  
-4.3. [BASIC COMMANDS](#basic-commands)  
-4.4. [EEPSITES](#eepsites)  
-4.5. [IRC](#irc)  
-4.5. [TORRENTS](#torrents)  
-4.5.1 [DOWNLOADING](#downloading)  
-4.5.2 [CREATING](#creating)  
-4.5.3 [CONFIGURATION](#configuration)  
+4.2. [I2PD](#i2pd)  
+4.3. [REMOTE ACCESS](#remote-access)  
+4.4. [BASIC COMMANDS](#basic-commands)  
+4.5. [EEPSITES](#eepsites)  
+4.6. [IRC](#irc)  
+4.7. [TORRENTS](#torrents)  
+4.7.1 [DOWNLOADING](#downloading)  
+4.7.2 [CREATING](#creating)  
+4.7.3 [CONFIGURATION](#configuration)  
 
 
 ## BROWSER
@@ -203,6 +204,42 @@ setkey group "set_prefix_argument(4); () = select_group();" " "
 `./runplain.sh`  
 
 To uninstall simply delete the directory.
+
+### I2PD
+__I2PD__ is a version of __I2P__ based on C++ instead of Java. Currently with limited support (no torrents). Therefore is __OPTIONAL__ and its funtion is separated from the rest of the guide.
+
+* Dependencies:  
+```
+libboost
+cmake
+make
+```  
+
+* Download.  
+`git clone https://github.com/PurpleI2P/i2pd.git`  
+* Go to directory.  
+`cd i2pd/build`  
+* Build.  
+```
+cmake
+make
+```  
+* Install  
+```
+mkdir $HOME/.i2pd
+cp i2pd $HOME/.i2pd
+cp -R contrib/certificates $HOME/.i2pd
+cp contrib/i2pd.conf $HOME/.i2pd
+cd $HOME/.i2pd
+ulimit -n 4096  # optional file limit
+```  
+* To run:  
+```
+cd $HOME/.i2pd
+./i2pd --datadir .
+```  
+* To stop:  
+`kill -INT $( cat /var/run/i2pd/i2pd.pid )`  
 
 
 ### REMOTE ACCESS
