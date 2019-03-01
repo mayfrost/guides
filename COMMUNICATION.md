@@ -263,8 +263,10 @@ To access your I2P router from another computer.
 * Stop nicely  
 `~/.i2p/i2prouter graceful`  
 
-* __NOTE__: In case you get an error, instead of all the above commands, you'll need to use the next:  
+* __NOTE__: In case you get an error, instead of all the above commands, you'll be able to start I2P using the next:  
 `~/.i2p/runplain.sh`  
+
+You can stop the program from inside the web interface.
 
 ### EEPSITES
 Configuration to browse I2P eepsites. To be used with GNU IceCat.
