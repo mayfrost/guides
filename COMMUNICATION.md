@@ -186,6 +186,8 @@ setkey group "set_prefix_argument(4); () = select_group();" " "
 `slrn -d`  
 
 ## I2P
+__I2P__ is a darknet like __Tor__ but with more services like e-mail, IRC, torrents, and others. Once you install it you can configure it by its web interface at http://localhost:7657/home.
+
 
 ### INSTALLATION
 * Make directory that will contain I2P  
@@ -266,7 +268,7 @@ To access your I2P router from another computer.
 * __NOTE__: In case you get an error, instead of all the above commands, you'll be able to start I2P using the next:  
 `~/.i2p/runplain.sh`  
 
-You can stop the program from inside the web interface.
+You can stop the program from inside the [web interface](http://localhost:7657/home).
 
 ### EEPSITES
 Configuration to browse I2P eepsites. To be used with GNU IceCat.
