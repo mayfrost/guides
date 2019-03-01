@@ -14,12 +14,13 @@ Here lies several ways to communicate through different networks.
 4.2. [I2PD](#i2pd)  
 4.3. [REMOTE ACCESS](#remote-access)  
 4.4. [BASIC COMMANDS](#basic-commands)  
-4.5. [EEPSITES](#eepsites)  
-4.6. [IRC](#irc)  
-4.7. [TORRENTS](#torrents)  
-4.7.1 [DOWNLOADING](#downloading)  
-4.7.2 [CREATING](#creating)  
-4.7.3 [CONFIGURATION](#configuration)  
+4.5. [BROWSING I2P EEPSITES](#browsing-i2p-eepsites)  
+4.6. [YOUR OWN EEPSITE](#your-own-eepsite)  
+4.7. [IRC](#irc)  
+4.8. [TORRENTS](#torrents)  
+4.8.1 [DOWNLOADING](#downloading)  
+4.8.2 [CREATING](#creating)  
+4.8.3 [CONFIGURATION](#configuration)  
 
 
 ## BROWSER
@@ -270,9 +271,10 @@ To access your I2P router from another computer.
 
 You can stop the program from inside the [web interface](http://localhost:7657/home).
 
-### EEPSITES
-Configuration to browse I2P eepsites. To be used with GNU IceCat.
+### BROWSING I2P EEPSITES
+Configuration to browse I2P eepsites. To be used with GNU IceCat. Make sure your list of peers is seeded on the web interface configuration page.  _Address Book_ is a list of eepsites.
 
+_OPTION A_
 * Go to "Preferences -> Advanced -> Network -> Connection (Settings)"
 * Check "Manual proxy configuration"
 * Fill with the address  
@@ -283,12 +285,26 @@ Configuration to browse I2P eepsites. To be used with GNU IceCat.
 `localhost, 127.0.0.1`  
 * Mark "Proxy DNS when using SOCKS".  
 
-Address Book is a list of eepsites.
+_OPTION B_
+* Download FoxyProxy.
+* Click on the FoxyProxy icon.
+* Click on "Add New Proxy".
+* On the "General" tab add I2P as the name.
+* Go to "Proxy Details" tab.
+* In "Host or IP Address" field add _127.0.0.1_.
+* In the "Port" field _4444_.
+* Click on the "URL Patterns" tab.
+* In the "Pattern Name" field add as I2P.
+* In the "URL pattern" field enter _\*.i2p\*_.
+* Click "OK".
+* Right click on the FoxyProxy icon.
+* Select "Use proxies baed on their predefined patterns".
 
-* Your own eepsite is already active but invisible, the directory located at
+### YOUR OWN EEPSITE
+* Your own eepsite is already active but invisible, the directory located at:  
 `~/.i2p/eepsite/docroot/`  
 
-* The I2P Tunnel Manager contains the setting of your eepsite
+* The I2P Tunnel Manager contains the setting of your eepsite.
 
 ### IRC
 
