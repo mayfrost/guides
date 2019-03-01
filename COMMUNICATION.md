@@ -189,19 +189,16 @@ setkey group "set_prefix_argument(4); () = select_group();" " "
 
 ### INSTALLATION
 * Make directory that will contain I2P  
-`mkdir /path/to/.i2p`  
+`mkdir ~/.i2p`  
 
 * Go to directory  
-`cd /path/to/.i2p`  
+`cd ~/.i2p`  
 
 * Download (replace <VERSION> with the newest version)  
 `wget -c https://download.i2p2.de/releases/<VERSION>/i2pinstall_<VERSION>.jar`  
 
 * Run the installer (and select options like the current path)  
 `java -jar i2pinstall_<VERSION>.jar -console`  
-
-* In case you get an error you'll need to use the next script to start every time  
-`./runplain.sh`  
 
 To uninstall simply delete the directory.
 
@@ -245,7 +242,7 @@ cd $HOME/.i2pd
 ### REMOTE ACCESS
 To access your I2P router from another computer.
 
-* On /.i2p/clients.config replace  
+* On ~/.i2p/clients.config replace  
 `clientApp.0.args=7657 ::1,127.0.0.1 ./webapps/`  
 * with  
 `clientApp.0.args=7657 ::1,127.0.0.1,<REMOTE_IP> ./webapps/`  
@@ -254,18 +251,20 @@ To access your I2P router from another computer.
 
 
 ### BASIC COMMANDS
-
 * See status  
-`i2prouter status`  
+`~/.i2p/i2prouter status`  
 
 * Start  
-`i2prouter start`  
+`~/.i2p/i2prouter start`  
 
 * Stop  
-`i2prouter stop`  
+`~/.i2p/i2prouter stop`  
 
 * Stop nicely  
-`i2prouter graceful`  
+`~/.i2p/i2prouter graceful`  
+
+* __NOTE__: In case you get an error, instead of all the above commands, you'll need to use the next:  
+`~/.i2p/runplain.sh`  
 
 ### EEPSITES
 Configuration to browse I2P eepsites. To be used with GNU IceCat.
@@ -339,5 +338,3 @@ To change more settings, like download destination for example:
 `vi ~/.i2p/i2psnark.config.d/i2psnark.config`  
 * Change field ("i2psnark.dir").  
 `i2psnark.dir=<DOWNLOAD_DIRECTORY>`  
-
-
