@@ -53,7 +53,6 @@ These tips prevent overflow your root directory or getting constantly write and 
 * If you need to save things have a seperate chroot with a seperate physical drive and make that your downloads folder.
 
 ## E-MAIL
-
 TODO:
 * Set cock.li
 * Configure mutt
@@ -275,9 +274,9 @@ You can stop the program from inside the [web interface](http://localhost:7657/h
 Configuration to browse I2P eepsites. To be used with GNU IceCat. Make sure your list of peers is seeded on the web interface configuration page.  _Address Book_ is a list of eepsites.
 
 _OPTION A_
-* Go to "Preferences -> Advanced -> Network -> Connection (Settings)"
-* Check "Manual proxy configuration"
-* Fill with the address  
+* Go to "Preferences -> Advanced -> Network -> Connection (Settings)".
+* Check "Manual proxy configuration".
+* Fill with the address:  
 `127.0.0.1 and port 4444 for HTTP`  
 `127.0.0.1 and port 4445 for HTTPS`  
 `127.0.0.1 and port 4444 for FTP`  
@@ -301,13 +300,12 @@ _OPTION B_
 * Select "Use proxies baed on their predefined patterns".
 
 ### YOUR OWN EEPSITE
-* Your own eepsite is already active but invisible, the directory located at:  
+* Your own eepsite is already active but invisible, the directory is located at:  
 `~/.i2p/eepsite/docroot/`  
 
 * The I2P Tunnel Manager contains the setting of your eepsite.
 
 ### IRC
-
 * Add the I2P network  
 `/server add -network i2p localhost 6668`  
 * Connect  
