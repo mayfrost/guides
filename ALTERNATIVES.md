@@ -406,7 +406,7 @@ Most apps are from F-Droid, we are just starting.
 * __Text-To-Speech__: Orca -> Gespeaker -> [eBook-speaker](https://directory.fsf.org/wiki/EBook-speaker) (+ pandoc) -> [eSpeak](https://github.com/espeak-ng/espeak-ng/)
 * __Typesetting__: LaTeX -> Texinfo + Pinfo -> Discount (Markdown) -> AFT -> [groff (tbl, pic, eqn, chem, music, dpic, grohtml)](https://www.troff.org/prog.html)
 * __Typing Training__: Klavaro -> nlkt -> [GNU Typist](https://www.gnu.org/software/gtypist/)
-* __Word Processor__: Libreoffice Writter -> Abiword -> MinEd -> [WordGrinder](http://cowlark.com/wordgrinder/)
+* __Word Processor__: LibreOffice Writer -> Abiword -> MinEd -> [WordGrinder](http://cowlark.com/wordgrinder/)
 
 ## Package Management
 * __CD/USB (Custom Installer)__: Respin -> Remastersys -> Distroshare -> PinguyBuilder -> Customizer -> Ubuntu Customization Kit -> Mklivecd
