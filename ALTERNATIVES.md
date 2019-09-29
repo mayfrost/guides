@@ -105,7 +105,7 @@ Most apps are from F-Droid, we are just starting.
 * __Media Center__: Plex -> Kodi ("XBMC", + Sonarr) -> Emby -> Popcorn Time -> [LittleWeeb](https://littleweeb.github.io/)
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master) -> Wget
 * __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
-* __RSS Feed and Podcast__: gPodder -> Raggle -> Liferea -> Newsbeuter (+ Podbeuter) -> Newsboat -> [sfeed](https://codemadness.org/git/sfeed/file/README.html)
+* __RSS Feed and Podcast__: gPodder -> Raggle -> Liferea -> Newsboat (+ Podboat) -> [sfeed](https://codemadness.org/git/sfeed/file/README.html)
 * __Search Engine Scraper__: Googler -> [Surfraw](http://surfraw.alioth.debian.org/) (+ [dmenu](https://bbs.archlinux.org/viewtopic.php?id=228706) or slmenu)
 * __Streams Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [RTMPDump](https://github.com/mstorsjo/rtmpdump) -> [quvi](https://github.com/mogaal/quvi)
 * __UPnP (DLNA) Client__: [djmount](https://github.com/Boxee/djmount)
@@ -145,7 +145,7 @@ Most apps are from F-Droid, we are just starting.
 * __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> [GNU Jami](https://jami.net/) -> eircd -> P2PIRC -> [nircd](https://github.com/Ronsor/nircd)
 * __Darknet__: [autovpn](https://github.com/adtac/autovpn) -> LibreVPN -> Tor -> [AnoNet](http://anonet.org/) -> i2p
 * __Digital Library__: [Aletheia](https://github.com/aletheia-foundation/aletheia-admin)
-* __Distributed File Systems__: Samba -> NFS (nfs-utils) -> davfs2 -> Upspin -> IPFS
+* __Distributed File Systems__: Samba -> NFS (nfs-utils) -> davfs2 -> Upspin -> IPFS -> 9p
 * __Distributed File Systems (Samba)__: SMB for FUSE (FuseSmb) -> SMBNetFS -> CIFS (cifs-utils)
 * __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
 * __E-Commerce__: [OpenBazaar](https://github.com/OpenBazaar) + [FIX Agora](http://fixagora.sourceforge.net/) + [Bitnation](https://github.com/Bit-Nation) + [GNU Taler](https://taler.net/en/)
@@ -162,7 +162,7 @@ Most apps are from F-Droid, we are just starting.
 * __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
 * __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
 * __Search Engine (Torrents)__: Magnetissimo -> [magnetico](https://github.com/boramalper/magnetico)
-* __Streaming__: [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [PeerTube](https://instances.joinpeertube.org/instances)
+* __Streaming__: [LBRY](https://lbry.com) -> [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [PeerTube](https://instances.joinpeertube.org/instances)
 * __Version Control (Decentralized Github)__: [git-annex](https://git-annex.branchable.com/) (+ git-annex assistant) -> [GitTorrent](https://github.com/mfyuce/GitTorrent)
 * __VPN__:  n2n -> [PeerVPN](https://github.com/peervpn/peervpn)
 * __Wiki__: [ikiwiki](https://ikiwiki.info/tips/distributed_wikis/)
@@ -416,7 +416,7 @@ Most apps are from F-Droid, we are just starting.
 * __Package Creation__: [OBS](http://openbuildservice.org/) (Open Build Service) -> src2pkg -> CheckInstall -> [GNU Stow](https://directory.fsf.org/wiki/Stow) -> lt
 * __Portable Apps__: Flatpak -> Snappy -> [AppImage](https://github.com/AppImage)
 * __System Backup__: [Systemback](https://sourceforge.net/projects/systemback/) -> [Bacula](https://blog.bacula.org/) -> [FSArchiver](http://www.fsarchiver.org/) -> [CYA](https://www.cyberws.com/bash/cya/)
-* __Universal Package Managers__: [Alien](https://joeyh.name/code/alien/) -> LinuxBrew -> pkgsrc -> GNU Guix
+* __Universal Package Managers__: [Alien](https://joeyh.name/code/alien/) -> LinuxBrew -> GNU Guix -> pkgsrc
 
 ## Pentesting
 ### Exploitables
