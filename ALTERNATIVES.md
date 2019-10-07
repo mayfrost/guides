@@ -399,7 +399,7 @@ Most apps are from F-Droid, we are just starting.
 * __Speed Reading__: Flinks -> WordFlashReader -> GnomeRSVP -> spread0r -> [speedread](https://github.com/pasky/speedread)
 * __Spell Check__: Ispell -> [Aspell](https://directory.fsf.org/wiki/Aspell)
 * __Spreadsheets__: Libreoffice Calc -> Gnumeric -> Oleo -> [SC-IM](https://github.com/andmarti1424/sc-im)
-* __Text Editor__: Vim -> Nano -> Neovim -> Kakoune -> vile -> mg -> [GNU Zile](https://directory.fsf.org/wiki/GNU_Zile) (minimalist Emacs clone) -> nvi -> [Elvis](https://github.com/mbert/elvis) (minimalist Vi clone) -> ed
+* __Text Editor__: Vim -> Nano -> Neovim -> Kakoune -> vile -> mg -> [GNU Zile](https://directory.fsf.org/wiki/GNU_Zile) (minimalist Emacs clone) -> nvi -> [Elvis](https://github.com/mbert/elvis) (minimalist Vi clone) -> ed -> [kilo](https://github.com/antirez/kilo)
 * __Text Editor (IDE)__: Atom -> NetBeans -> Code Blocks -> Emacs (nox) -> Vim -> [xwpe](https://github.com/amagnasco/xwpe) (full IDE in the terminal)
 * __Text Encoding__: fuse-convmvfs, Dos2Unix, ASCII
 * __Text Formatting and Pretty Printing__: par -> fmt (Textutils) -> MSORT
