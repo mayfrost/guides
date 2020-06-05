@@ -54,11 +54,11 @@ TL;DR: is about the unix principle, having a fully functional system pretty damn
 
 ## ANDROID APPS
 * __Launcher__: [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) (1,6 MB) -> [Slim Launcher](https://github.com/sduduzog/slim-launcher) (1,5 MB) -> [T-UI](https://github.com/Andre1299/TUI-ConsoleLauncher) (1,5 MB) -> [Search Based Launcher](https://github.com/vackosar/search-based-launcher/) (622 KB) -> [KISS](http://kisslauncher.com/) (0,6 MB) -> [Light Android Launcher](https://github.com/light-launcher/Light-Android-Launcher/blob/HEAD/README.md) (241 KB) -> [Emerald Launcher](https://github.com/HenriDellal/emerald) (177 KB) -> [Last Launcher](https://github.com/SubhamTyagi/Last-Launcher) (94 KB) -> [Keikai Launcher](https://github.com/KeikaiLauncher/KeikaiLauncher) (87 KB) -> [Fast](https://github.com/ligi/FAST) (76 KB) -> [Essential Launcher](https://clemensbartz.de/essential-launcher/) (49 KB) -> [T4 Launcher](https://github.com/rsteube/t4-launcher) (37 KB)
-* __Facebook__: [FaceSlim](https://github.com/indywidualny/FaceSlim) (1,3 MB) -> [Tinfoil for Facebook](https://github.com/velazcod/Tinfoil-Facebook) (525 KB) -> [SlimSocial](https://github.com/rignaneseleo/SlimSocial-for-Facebook) (313 KB)
-* __Twitter__: Tinfoil for Twitter -> [SlimSocial for Twitter](https://github.com/rignaneseleo/SlimSocial-for-Twitter) (699 KB)
-* __YouTube__: [NewPipe](https://newpipe.schabi.org/) (5,0 MB) -> [SkyTube](http://skytube-app.com/) (4,9 MB) -> [WebTube](https://github.com/martykan/webTube/blob/HEAD/README.md) (2,1 MB) -> [MinTube](https://github.com/imshyam/mintube) (981 KB)
-* __Photo Gallery__: [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) (12 MB) -> [LeafPic](https://gitlab.com/HoraApps/LeafPic) (10/2016: 4.3 MB) -> [Cameraroll](https://github.com/kollerlukas/Camera-Roll-Android-App) (2.4 MB) -> [A Photo Manager](https://github.com/k3b/APhotoManager) (1.3MB)
-* __E-Books__: [Document Viewer](https://f-droid.org/en/packages/org.sufficientlysecure.viewer/) (8.5 MB)
+* __Facebook__: [FaceSlim](https://github.com/indywidualny/FaceSlim) (1,3 MB) -> [SlimSocial](https://github.com/rignaneseleo/SlimSocial-for-Facebook) (345 KB)
+* __Twitter__: [SlimSocial for Twitter](https://github.com/rignaneseleo/SlimSocial-for-Twitter) (699 KB)
+* __YouTube__: [SkyTube](http://skytube-app.com/) (9 MB) -> [NewPipe](https://newpipe.schabi.org/) (7,2 MB) -> [WebTube](https://github.com/martykan/webTube/blob/HEAD/README.md) (1,9 MB)
+* __Photo Gallery__: [LeafPic Revived](https://github.com/apcro/leafpicrevived) (7,7 MB) -> [Camera Roll](https://github.com/kollerlukas/Camera-Roll-Android-App) (2.4 MB) -> [A Photo Manager](https://github.com/k3b/APhotoManager) (1.42 MB)
+* __E-Books__: [MuPDF mini](https://mupdf.com/) (11 MB) -> [Document Viewer](https://f-droid.org/en/packages/org.sufficientlysecure.viewer/) (8.9 MB)
 * __Notes__: [Orgzly](https://github.com/orgzly/orgzly-android) (3.9 MB) -> [Markor](https://github.com/gsantner/markor) (3 MB) -> [miniNoteViewer](https://github.com/monolifed/mininoteview) (452 KB)
 * __Keyboards__: Hacker's Keyboard (1,2 MB) -> [Simple Keyboard](https://f-droid.org/en/packages/rkr.simplekeyboard.inputmethod/) (835 KB)
 * __File Manager__: Amaze -> OI File Manager
