@@ -60,7 +60,7 @@ TL;DR: is about the unix principle, having a fully functional system pretty damn
 * __Photo Gallery__: [LeafPic Revived](https://github.com/apcro/leafpicrevived) (7,7 MB) -> [Camera Roll](https://github.com/kollerlukas/Camera-Roll-Android-App) (2,4 MB) -> [A Photo Manager](https://github.com/k3b/APhotoManager) (1,42 MB)
 * __E-Books__: [MuPDF mini](https://mupdf.com/) (11 MB) -> [Document Viewer](https://f-droid.org/en/packages/org.sufficientlysecure.viewer/) (8,9 MB)
 * __Notes__: [[Markor](https://github.com/gsantner/markor) (7 MB) -> [Simple Notes Pro](https://www.simplemobiletools.com/) (5,5 MB) -> [Orgzly](https://github.com/orgzly/orgzly-android) (5 MB) -> [Omni Notes](http://omninotes.app/) (4,6 MB) -> [Just Notes](https://f-droid.org/en/packages/com.alaskalinuxuser.justnotes/) (1,8 MB) -> [Notepad](https://github.com/farmerbb/Notepad) (1,5 MB) -> [My Notes](https://github.com/Abdallah-Abdelazim/mynotes) (1,4 MB) -> [Notes](https://github.com/billthefarmer/notes) (200 KB) -> [uNote](https://gitlab.com/Varlorg/uNote) (71 KB)
-* __Keyboards__: Hacker's Keyboard (1,2 MB) -> [Simple Keyboard](https://f-droid.org/en/packages/rkr.simplekeyboard.inputmethod/) (835 KB)
+* __Keyboards__: [Hacker's Keyboard](https://github.com/klausw/hackerskeyboard) (2,7 MB) -> [BeHe Keyboard](https://github.com/VladThodo/behe-keyboard) (1 MB) -> [Simple Keyboard](https://f-droid.org/en/packages/rkr.simplekeyboard.inputmethod/) (835 KB)
 * __File Manager__: Amaze -> OI File Manager
 * __Dictionary__: Quickdic
 * __Firewall__: NetGuard -> AFWall+
