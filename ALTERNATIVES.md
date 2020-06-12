@@ -63,8 +63,9 @@ TL;DR: is about the unix principle, having a fully functional system pretty damn
 * __Keyboards__: [Hacker's Keyboard](https://github.com/klausw/hackerskeyboard) (2,7 MB) -> [BeHe Keyboard](https://github.com/VladThodo/behe-keyboard) (1 MB) -> [Simple Keyboard](https://f-droid.org/en/packages/rkr.simplekeyboard.inputmethod/) (835 KB)
 * __File Manager__: [Simple File Manager Pro](https://www.simplemobiletools.com/) (5,5 MB) -> [Material Files](https://github.com/zhanghai/MaterialFiles) (4,2 MB) -> [File Manager](https://gitlab.com/axet/android-file-manager) (2,4 MB) -> [OI File Manager](http://www.openintents.org/filemanager/) (2,2 MB) -> [Ghost Commander](https://sites.google.com/site/ghostcommander1/) (1,3 MB) -> [Dir](https://veniosg.github.io/Dir/) (1,1 MB)
 * __Dictionary__: [Quickdic](https://github.com/rdoeffinger/Dictionary) (4,7 MB) -> [Aard 2](http://aarddict.org/) (3,1 MB) -> [DictionaryForMIDs](http://dictionarymid.sourceforge.net/android.html) (1 MB)
-* __Firewall__: NetGuard -> AFWall+
-* __E-Mail__: K-9 Mail
+* __Firewall__: [AFWall+](https://github.com/ukanth/afwall/wiki) (6,6 MB) -> [NetGuard](https://www.netguard.me/) (2,5 MB)
+* __E-Mail__: [Inbox Pager](https://github.com/itprojects/InboxPager) (8 MB) -> [K-9 Mail](https://k9mail.app/) (7,7 MB) -> [SimpleEmail](https://framagit.org/dystopia-project/simple-email) (2,8 MB)
+* __Browser__: [Privacy Browser](https://www.stoutner.com/privacy-browser/) (11 MB) -> [Midori Next](https://astian.org/midori/2020/05/23/migrate-to-astian-ecosystem/) (4 MB) -> [jQuarks](https://gitlab.com/oF2pks/jelly) -> [Lightning](http://acrdevelopment.org/) (3,3 MB) -> [FOSS Browser](https://github.com/scoute-dich/browser) (3 MB)
 
 Most apps are from F-Droid, we are just starting.
 
