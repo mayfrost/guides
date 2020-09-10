@@ -101,7 +101,7 @@ Most apps are from F-Droid, we are just starting.
 * __E-Mail MIME__: TNEF -> metamail
 * __E-Mail SMTP Client__: nullmailer -> msmtp -> esmtp -> SSMTP
 * __IPTV__: FreetuxTV -> iptvx
-* __IRC Client__: HexChat -> BitchX -> Weechat -> Irssi -> ii -> sic
+* __IRC Client__: HexChat -> BitchX -> Weechat -> Irssi -> ii -> [kirc](https://github.com/mcpcpc/kirc) -> sic
 * __Media Center__: Plex -> Kodi ("XBMC", + Sonarr) -> Emby -> Popcorn Time -> [LittleWeeb](https://littleweeb.github.io/)
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master) -> Wget
 * __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
