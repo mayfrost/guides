@@ -99,11 +99,11 @@ Note: All this terminals are compatible with wayland
 * __Chat Client__: [Finch (Pidgin)](https://developer.pidgin.im/wiki/Using%20Finch) in [irssi mode](https://askubuntu.com/questions/442345/how-can-i-simplify-the-finch-interface) -> [Centerim](http://www.centerim.org/index.php/Main_Page) -> [Bitlbee](https://wiki.bitlbee.org/)
 * __E-Mail Archiver__: [Hypermail](https://github.com/hypermail-project/hypermail) -> [Lurker](http://lurker.sourceforge.net/)
 * __E-Mail Client (MUA)__: [Thunderbird](https://www.thunderbird.net/en-US/) (+ [Enigmail](https://enigmail.net/index.php/en/)) -> [Mailspring](https://github.com/Foundry376/Mailspring) -> [Emacs](https://www.emacswiki.org/emacs/CategoryMail) (Gnus) -> [Alpine](http://alpine.x10host.com/alpine/) -> [Mutt](http://www.mutt.org/) -> mailutils ("mailx") -> [S-nail ("mailx")](https://www.sdaoden.eu/code.html) + Muttprint
-* __E-Mail Fetcher__: [Fetchmail](http://www.fetchmail.info/) -> fdm -> [isync (mbsync)](http://isync.sourceforge.net/)
-* __E-Mail MIME__: TNEF -> metamail
-* __E-Mail SMTP Client__: nullmailer -> msmtp -> esmtp -> SSMTP
-* __IPTV__: FreetuxTV -> iptvx
-* __IRC Client__: HexChat -> BitchX -> Weechat -> Irssi -> ii -> sic
+* __E-Mail Fetcher__: [Fetchmail](http://www.fetchmail.info/) -> [fdm](https://wiki.archlinux.org/index.php/Fdm) -> [isync (mbsync)](http://isync.sourceforge.net/)
+* __E-Mail MIME__: [TNEF](https://github.com/verdammelt/tnef) 
+* __E-Mail SMTP Client__: [nullmailer](https://wiki.archlinux.org/index.php/Nullmailer) -> [msmtp](https://marlam.de/msmtp/) 
+* __IPTV__: [FreetuxTV](https://github.com/freetuxtv/freetuxtv) 
+* __IRC Client__: [HexChat](https://hexchat.github.io/) -> [Weechat](https://weechat.org/) -> [Irssi](https://irssi.org/) -> [ii](https://tools.suckless.org/ii/) -> sic
 * __Media Center__: Plex -> Kodi ("XBMC", + Sonarr) -> Emby -> Popcorn Time -> [LittleWeeb](https://littleweeb.github.io/)
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master) -> Wget
 * __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
