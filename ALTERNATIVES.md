@@ -103,11 +103,11 @@ Note: All this terminals are compatible with wayland
 * __E-Mail MIME__: [TNEF](https://github.com/verdammelt/tnef) 
 * __E-Mail SMTP Client__: [nullmailer](https://wiki.archlinux.org/index.php/Nullmailer) -> [msmtp](https://marlam.de/msmtp/) 
 * __IPTV__: [FreetuxTV](https://github.com/freetuxtv/freetuxtv) 
-* __IRC Client__: [HexChat](https://hexchat.github.io/) -> [Weechat](https://weechat.org/) -> [Irssi](https://irssi.org/) -> [ii](https://tools.suckless.org/ii/) -> sic
-* __Media Center__: Plex -> Kodi ("XBMC", + Sonarr) -> Emby -> Popcorn Time -> [LittleWeeb](https://littleweeb.github.io/)
-* __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> Darcy Ripper -> HTTrack -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master) -> Wget
+* __IRC Client__: [HexChat](https://hexchat.github.io/) -> [Weechat](https://weechat.org/) -> [Irssi](https://irssi.org/) -> [ii](https://tools.suckless.org/ii/) -> [sic](https://tools.suckless.org/sic/)
+* __Media Center__: [Plex](https://www.plex.tv/) -> [Jellyfin](https://jellyfin.org/) -> [Kodi](https://kodi.tv/) -> [Emby](https://emby.media/) -> [LittleWeeb](https://littleweeb.github.io/)
+* __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> [HTTrack](https://www.httrack.com/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master) -> Wget
 * __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
-* __RSS Feed and Podcast__: gPodder -> Raggle -> Liferea -> Newsbeuter (+ Podbeuter) -> Newsboat -> [sfeed](https://codemadness.org/git/sfeed/file/README.html)
+* __RSS Feed and Podcast__: [gPodder](https://gpodder.github.io/) -> [Liferea](https://lzone.de/liferea/) -> [Newsbeuter](https://newsbeuter.org/) (+ Podbeuter) -> [Newsboat](https://newsboat.org/) -> [sfeed](https://codemadness.org/git/sfeed/file/README.html)
 * __Search Engine Scraper__: Googler -> [Surfraw](http://surfraw.alioth.debian.org/) (+ [dmenu](https://bbs.archlinux.org/viewtopic.php?id=228706) or slmenu)
 * __Streams Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [RTMPDump](https://github.com/mstorsjo/rtmpdump) -> [quvi](https://github.com/mogaal/quvi)
 * __UPnP (DLNA) Client__: [djmount](https://github.com/Boxee/djmount)
