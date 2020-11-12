@@ -108,17 +108,16 @@ Note: All this terminals are compatible with wayland
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> [HTTrack](https://www.httrack.com/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master) -> Wget
 * __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
 * __RSS Feed and Podcast__: [gPodder](https://gpodder.github.io/) -> [Liferea](https://lzone.de/liferea/) -> [Newsbeuter](https://newsbeuter.org/) (+ Podbeuter) -> [Newsboat](https://newsboat.org/) -> [sfeed](https://codemadness.org/git/sfeed/file/README.html)
-* __Search Engine Scraper__: Googler -> [Surfraw](http://surfraw.alioth.debian.org/) (+ [dmenu](https://bbs.archlinux.org/viewtopic.php?id=228706) or slmenu)
-* __Streams Catcher__: Streamripper -> youtube-dl -> [cclive](https://github.com/legatvs/cclive) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [RTMPDump](https://github.com/mstorsjo/rtmpdump) -> [quvi](https://github.com/mogaal/quvi)
-* __UPnP (DLNA) Client__: [djmount](https://github.com/Boxee/djmount)
-* __Usenet Client (Newsreader)__: Pan -> [slrn](http://www.slrn.org/) ( + slrnpull + slrnface) -> Trn
-* __VoIP Client__: Empathy -> [Jitsi](https://jitsi.org/) -> [Finch (Pidgin)](https://developer.pidgin.im/wiki/vv)
-* __XMPP Client__: Profanity
+* __Search Engine Scraper__: [Googler](https://github.com/jarun/googler) / [ddgr](https://github.com/jarun/ddgr) -> [Surfraw](http://surfraw.org/) 
+* __Streams Catcher__: [youtube-dl](https://youtube-dl.org/) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [RTMPDump](https://github.com/mstorsjo/rtmpdump) -> [quvi](https://github.com/mogaal/quvi)
+* __UPnP (DLNA) Client__: [djmount](https://github.com/mwilck/djmount)
+* __Usenet Client (Newsreader)__: [Pan](https://pan.rebelbase.com/) -> [slrn](http://www.slrn.org/) ( + slrnpull + slrnface) 
+* __VoIP Client__: [Matrix](https://matrix.org/docs/projects/try-matrix-now) -> [Jami](https://jami.net/) -> [Jitsi](https://jitsi.org/) -> [Tox](https://tox.chat/) -> [Finch (Pidgin)](https://developer.pidgin.im/wiki/vv)
+* __XMPP Client__: [Profanity](https://profanity-im.github.io/)
 
 ### Desktop Client
 * __4chan__: [ANSIchan](https://github.com/qqueue/ANSICHAN) / [yottu](https://github.com/yottu/yottu)
 * __Booru__: [ahoviewer](https://github.com/ahodesuka/ahoviewer)
-* __Facebook__: facy - > [FBCMD](https://github.com/dtompkins/fbcmd) (unmaintained) -> FBCLI -> [Facebook CLI](https://github.com/specious/facebook-cli)
 * __General__: Weboob -> [Rambox](https://github.com/saenzramiro/rambox) -> [Gwibber](http://gwibber.com/)
 * __Pastebin__: [pastebinit](https://github.com/skorokithakis/pastebinit)
 * __Reddit__: Reddit Comment Finder -> Cortex -> PRAW -> [cReddit](https://github.com/Cotix/cReddit) -> rtv
