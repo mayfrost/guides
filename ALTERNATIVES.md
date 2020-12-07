@@ -118,19 +118,17 @@ Note: All this terminals are compatible with wayland
 ### Desktop Client
 * __4chan__: [ANSIchan](https://github.com/qqueue/ANSICHAN) / [yottu](https://github.com/yottu/yottu)
 * __Booru__: [ahoviewer](https://github.com/ahodesuka/ahoviewer)
-* __General__: Weboob -> [Rambox](https://github.com/saenzramiro/rambox) -> [Gwibber](http://gwibber.com/)
-* __Pastebin__: [pastebinit](https://github.com/skorokithakis/pastebinit)
-* __Reddit__: Reddit Comment Finder -> Cortex -> PRAW -> [cReddit](https://github.com/Cotix/cReddit) -> rtv
-* __Slack__: [ScudCloud](https://github.com/raelgc/scudcloud) -> [slackterm](https://github.com/rob05c/slackterm)
-* __Telegram__: Telegram Desktop -> ncTelegram -> telegram-cli -> Telegram-Purple
-* __Twitter__: [Hotot](https://github.com/lyricat/Hotot) -> turses -> [oysttyer](https://github.com/oysttyer/oysttyer)
-* __Youtube__: mps-youtube -> [youtube-viewer](https://github.com/trizen/youtube-viewer)
+* __General__: [Weboob](https://weboob.org/) -> [Rambox](https://github.com/saenzramiro/rambox)
+* __Reddit__: [PRAW](https://praw.readthedocs.io/en/latest/) -> [cReddit](https://github.com/Cotix/cReddit) -> [tuir](https://gitlab.com/ajak/tuir) -> [ttrv](https://github.com/tildeclub/ttrv) -> [reddio](https://gitlab.com/aaronNG/reddio)
+* __Telegram__: [Telegram Desktop](https://desktop.telegram.org/) -> [ncTelegram](https://github.com/Nanoseb/ncTelegram) -> [Telegram-Purple](https://github.com/majn/telegram-purple)
+* __Twitter__: [turses](https://turses.readthedocs.io/en/latest/) -> [oysttyer](https://github.com/oysttyer/oysttyer)
+* __Youtube__: [mps-youtube](https://github.com/mps-youtube/mps-youtube) -> [youtube-viewer](https://github.com/trizen/youtube-viewer)
 
 ## Data
-* __Data Mining and Business Intelligence__: [JasperReports](https://sourceforge.net/projects/jasperserver/) -> [KNIME](https://directory.fsf.org/wiki/KNIME) -> [GNU Ferret](https://directory.fsf.org/wiki/Ferret) -> [GURGLE](https://directory.fsf.org/wiki/Gurgle)
-* __Data Parsing__: intltool -> XMLStarlet -> Flat file extractor (ffe)
+* __Data Mining and Business Intelligence__: [JasperReports](https://sourceforge.net/projects/jasperserver/) -> [KNIME](https://www.knime.com/) 
+* __Data Parsing__: [XMLStarlet](http://xmlstar.sourceforge.net/) -> [Flat file extractor (ffe)](http://ff-extractor.sourceforge.net/)
 * __Database (Datalog)__: [Datalog Educational System](http://des.sourceforge.net/), [Datalog](http://datalog.sourceforge.net/)
-* __Database (Middleware)__: MySQL Workbench -> [Virtuoso Universal Server](https://virtuoso.openlinksw.com/) -> [Orbada](http://orbada.sourceforge.net/html/www_orbada_doc.html) -> [Autotable](https://directory.fsf.org/wiki/Autotable)
+* __Database (Middleware)__: [MySQL Workbench](https://www.mysql.com/products/workbench/) -> [Virtuoso Universal Server](https://virtuoso.openlinksw.com/) -> [Orbada](http://orbada.sourceforge.net/html/www_orbada_doc.html) 
 * __Database (NoSQL)__: [GZigZag](http://www.nongnu.org/gzz/), [RRDtool](https://oss.oetiker.ch/rrdtool/), [Dgraph](https://github.com/dgraph-io/dgraph), [Redis](https://directory.fsf.org/wiki/Redis), [GNU Recutils](https://directory.fsf.org/wiki/Recutils)
 * __Database (SQL)__: MySQL -> Percona -> [MariaDB](https://directory.fsf.org/wiki/MariaDB) -> [CUBRID](https://github.com/CUBRID/cubrid) -> [Ingres II](https://github.com/fosslc/Ingres) -> ShellSQL
 * __Enterprise Resource Planning (ERP)__: [IDempiere](http://www.idempiere.org/) -> [LedgerSMB](https://directory.fsf.org/wiki/LedgerSMB) -> [SQL-Ledger](http://www.sql-ledger.com/)
