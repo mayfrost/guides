@@ -129,9 +129,9 @@ Note: All this terminals are compatible with wayland
 * __Data Parsing__: [XMLStarlet](http://xmlstar.sourceforge.net/) -> [Flat file extractor (ffe)](http://ff-extractor.sourceforge.net/)
 * __Database (Datalog)__: [Datalog Educational System](http://des.sourceforge.net/), [Datalog](http://datalog.sourceforge.net/)
 * __Database (Middleware)__: [MySQL Workbench](https://www.mysql.com/products/workbench/) -> [Virtuoso Universal Server](https://virtuoso.openlinksw.com/) -> [Orbada](http://orbada.sourceforge.net/html/www_orbada_doc.html) 
-* __Database (NoSQL)__: [GZigZag](http://www.nongnu.org/gzz/), [RRDtool](https://oss.oetiker.ch/rrdtool/), [Dgraph](https://github.com/dgraph-io/dgraph), [Redis](https://directory.fsf.org/wiki/Redis), [GNU Recutils](https://directory.fsf.org/wiki/Recutils)
-* __Database (SQL)__: MySQL -> Percona -> [MariaDB](https://directory.fsf.org/wiki/MariaDB) -> [CUBRID](https://github.com/CUBRID/cubrid) -> [Ingres II](https://github.com/fosslc/Ingres) -> ShellSQL
-* __Enterprise Resource Planning (ERP)__: [IDempiere](http://www.idempiere.org/) -> [LedgerSMB](https://directory.fsf.org/wiki/LedgerSMB) -> [SQL-Ledger](http://www.sql-ledger.com/)
+* __Database (NoSQL)__: [RRDtool](https://github.com/oetiker/rrdtool-1.x), [Dgraph](https://github.com/dgraph-io/dgraph), [Redis](https://redis.io/), [GNU Recutils](https://www.gnu.org/software/recutils/)
+* __Database (SQL)__: [MySQL](https://www.mysql.com/) -> [Percona](https://www.percona.com/) -> [MariaDB](https://mariadb.org/) -> [PostgreSQL](https://www.postgresql.org/) ->[CUBRID](https://github.com/CUBRID/cubrid) 
+* __Enterprise Resource Planning (ERP)__: [odoo](https://www.odoo.com/) -> [IDempiere](http://www.idempiere.org/) -> [LedgerSMB](https://directory.fsf.org/wiki/LedgerSMB) -> [SQL-Ledger](http://www.sql-ledger.com/)
 * __Expert System__: [CLIPS](http://clipsrules.sourceforge.net/) -> [Flora-2](http://flora.sourceforge.net/)
 * __Financial Markets Monitoring__: [JStock](https://github.com/yccheok/jstock) -> [QtTrader](https://github.com/e99majo/qttrader) -> [Qtstalker](http://qtstalker.sourceforge.net/)
 * __Full-Text Search__: Xapian -> Tokyo Dystopia -> Groonga
