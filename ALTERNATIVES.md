@@ -133,16 +133,16 @@ Note: All this terminals are compatible with wayland
 * __Database (SQL)__: [MySQL](https://www.mysql.com/) -> [Percona](https://www.percona.com/) -> [MariaDB](https://mariadb.org/) -> [PostgreSQL](https://www.postgresql.org/) ->[CUBRID](https://github.com/CUBRID/cubrid) 
 * __Enterprise Resource Planning (ERP)__: [odoo](https://www.odoo.com/) -> [IDempiere](http://www.idempiere.org/) -> [LedgerSMB](https://directory.fsf.org/wiki/LedgerSMB) -> [SQL-Ledger](http://www.sql-ledger.com/)
 * __Expert System__: [CLIPS](http://clipsrules.sourceforge.net/) -> [Flora-2](http://flora.sourceforge.net/)
-* __Financial Markets Monitoring__: [JStock](https://github.com/yccheok/jstock) -> [QtTrader](https://github.com/e99majo/qttrader) -> [Qtstalker](http://qtstalker.sourceforge.net/)
-* __Full-Text Search__: Xapian -> Tokyo Dystopia -> Groonga
+* __Financial Markets Monitoring__: [JStock](https://github.com/yccheok/jstock) 
+* __Full-Text Search__: [Xapian](https://xapian.org/) -> [Groonga](https://groonga.org/)
 * __Human Resource Management__: [OrangeHRM](https://github.com/turnkeylinux-apps/orangehrm)
 * __Invoicing__: [Simple Invoices](https://github.com/simpleinvoices/simpleinvoices)
 * __Project Management__: [GanttProject](http://www.ganttproject.biz/)
 
 ## Decentralized Networking
-* __Backbone Framework__: GNUnet -> OSF DCE (Distributed Computing Environment)
-* __Chat__: Tox -> Matrix (Matrix-Ircd, Riot) -> [GNU Jami](https://jami.net/) -> eircd -> P2PIRC -> [nircd](https://github.com/Ronsor/nircd)
-* __Darknet__: [autovpn](https://github.com/adtac/autovpn) -> LibreVPN -> Tor -> [AnoNet](http://anonet.org/) -> i2p
+* __Backbone Framework__: [GNUnet](https://gnunet.org/en/) 
+* __Chat__: [Tox](https://tox.chat/) -> [Matrix](https://matrix.org/) -> [GNU Jami](https://jami.net/) -> [nircd](https://github.com/Ronsor/nircd)
+* __Darknet__: [Tor](https://www.torproject.org/) -> [ZeroNet](https://zeronet.io/) -> [i2p](https://geti2p.net/en/) -> [Freenet](https://freenetproject.org/)
 * __Digital Library__: [Aletheia](https://github.com/aletheia-foundation/aletheia-admin)
 * __Distributed File Systems__: Samba -> NFS (nfs-utils) -> davfs2 -> Upspin -> IPFS
 * __Distributed File Systems (Samba)__: SMB for FUSE (FuseSmb) -> SMBNetFS -> CIFS (cifs-utils)
