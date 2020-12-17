@@ -144,10 +144,10 @@ Note: All this terminals are compatible with wayland
 * __Chat__: [Tox](https://tox.chat/) -> [Matrix](https://matrix.org/) -> [GNU Jami](https://jami.net/) -> [nircd](https://github.com/Ronsor/nircd)
 * __Darknet__: [Tor](https://www.torproject.org/) -> [ZeroNet](https://zeronet.io/) -> [i2p](https://geti2p.net/en/) -> [Freenet](https://freenetproject.org/)
 * __Digital Library__: [Aletheia](https://github.com/aletheia-foundation/aletheia-admin)
-* __Distributed File Systems__: Samba -> NFS (nfs-utils) -> davfs2 -> Upspin -> IPFS
-* __Distributed File Systems (Samba)__: SMB for FUSE (FuseSmb) -> SMBNetFS -> CIFS (cifs-utils)
+* __Distributed File Systems__: [Samba](https://www.samba.org/) -> NFS (nfs-utils) -> [davfs2](https://savannah.nongnu.org/projects/davfs2) -> [Upspin](https://upspin.io/) -> [IPFS](https://ipfs.io/)
+* __Distributed File Systems (Samba)__: SMB for [FUSE](https://github.com/libfuse/libfuse) (FuseSmb) -> SMBNetFS -> CIFS ([cifs-utils](https://wiki.samba.org/index.php/LinuxCIFS_utils))
 * __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
-* __E-Commerce__: [OpenBazaar](https://github.com/OpenBazaar) + [FIX Agora](http://fixagora.sourceforge.net/) + [Bitnation](https://github.com/Bit-Nation) + [GNU Taler](https://taler.net/en/)
+* __E-Commerce__: [OpenBazaar](https://www.openbazaar.org/) + [Bitnation](https://tse.bitnation.co/) + [GNU Taler](https://taler.net/en/)
 * __E-Commerce (Bitcoin)__: Qt Bitcoin Trader (Bitcoin Trader), Abe (Block Chain Browser)
 * __E-Commerce (Bitcoin Wallet)__: Armory -> Bitcoin Core -> Monero
 * __E-Mail__: Notbit (Bitmessage)
