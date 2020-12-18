@@ -148,13 +148,12 @@ Note: All this terminals are compatible with wayland
 * __Distributed File Systems (Samba)__: SMB for [FUSE](https://github.com/libfuse/libfuse) (FuseSmb) -> SMBNetFS -> CIFS ([cifs-utils](https://wiki.samba.org/index.php/LinuxCIFS_utils))
 * __DNS Resolution__:  [OpenNIC](https://www.opennic.org/) -> [Namecoin](https://namecoin.org/) -> [KadNode](https://github.com/mwarning/KadNode)
 * __E-Commerce__: [OpenBazaar](https://www.openbazaar.org/) + [Bitnation](https://tse.bitnation.co/) + [GNU Taler](https://taler.net/en/)
-* __E-Commerce (Bitcoin)__: Qt Bitcoin Trader (Bitcoin Trader), Abe (Block Chain Browser)
-* __E-Commerce (Bitcoin Wallet)__: Armory -> Bitcoin Core -> Monero
-* __E-Mail__: Notbit (Bitmessage)
-* __Forum__: [Decentraland](https://decentraland.org/) -> GNU Social (Pleroma, Mastodon) -> Syndie -> [NNTPChan](https://github.com/majestrate/nntpchan)
-* __Gossip Network (Network Service Discovery)__: [peernet](https://github.com/substack/peernet)
+* __E-Commerce (Bitcoin)__: [Qt Bitcoin Trader (Bitcoin Trader)](https://github.com/JulyIghor/QtBitcoinTrader), [Abe (Block Chain Browser)](https://github.com/bitcoin-abe/bitcoin-abe)
+* __E-Commerce (Bitcoin Wallet)__: [Armory](https://btcarmory.com/) -> [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) -> [Monero](https://www.getmonero.org/)
+* __E-Mail__: [Notbit](https://github.com/bpeel/notbit) (Bitmessage)
+* __Forum__: [Decentraland](https://decentraland.org/) -> [GNU Social](https://gnu.io/social/) ([Pleroma](https://pleroma.social/), [Mastodon](https://joinmastodon.org/)) -> [Syndie](https://syndie.de/) -> [NNTPChan](https://github.com/majestrate/nntpchan)
 * __Grid Computing__: traceroute@home -> [BOINC](https://github.com/BOINC/boinc) (+ [boinctui](https://github.com/suleman1971/boinctui))
-* __Media Hosting__: [MediaGoblin](https://mediagoblin.org/) -> [Alexandria](http://www.alexandria.io/) (not ready yet but [this how it works](https://www.youtube.com/watch?v=So4n2ZBSMxg)) -> [ipfs.pics](https://github.com/ipfspics/ipfspics-server)
+* __Media Hosting__: [BitChute](https://www.bitchute.com/) -> [DTube](https://d.tube/) -> [MediaGoblin](https://mediagoblin.org/) -> [Alexandria](http://www.alexandria.io/) (not ready yet but [this how it works](https://www.youtube.com/watch?v=So4n2ZBSMxg)) -> [IPFS Companion](https://github.com/ipfs-shipyard/ipfs-companion) -> [IPFSTube](https://ipfstube.erindachtler.me/)
 * __Mesh Network__: Tinc -> cjdns -> BMX6 -> open80211s (802.11s) -> [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki)
 * __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://github.com/streamproject/stream-chrome)
 * __Network Block Device__: Usbredir -> nbd
