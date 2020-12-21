@@ -154,16 +154,14 @@ Note: All this terminals are compatible with wayland
 * __Forum__: [Decentraland](https://decentraland.org/) -> [GNU Social](https://gnu.io/social/) ([Pleroma](https://pleroma.social/), [Mastodon](https://joinmastodon.org/)) -> [Syndie](https://syndie.de/) -> [NNTPChan](https://github.com/majestrate/nntpchan)
 * __Grid Computing__: traceroute@home -> [BOINC](https://github.com/BOINC/boinc) (+ [boinctui](https://github.com/suleman1971/boinctui))
 * __Media Hosting__: [BitChute](https://www.bitchute.com/) -> [DTube](https://d.tube/) -> [MediaGoblin](https://mediagoblin.org/) -> [Alexandria](http://www.alexandria.io/) (not ready yet but [this how it works](https://www.youtube.com/watch?v=So4n2ZBSMxg)) -> [IPFS Companion](https://github.com/ipfs-shipyard/ipfs-companion) -> [IPFSTube](https://ipfstube.erindachtler.me/)
-* __Mesh Network__: Tinc -> cjdns -> BMX6 -> open80211s (802.11s) -> [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki)
+* __Mesh Network__: [Tinc](https://www.tinc-vpn.org/) -> [cjdns](https://github.com/cjdelisle/cjdns) -> [BMX6](https://github.com/bmx-routing/bmx6) -> [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki)
 * __Monetary Incentives__: [Storj](https://storj.io/) + [Gridcoin](https://gridcoin.us/) + [Stream Token](https://github.com/streamproject/stream-chrome)
-* __Network Block Device__: Usbredir -> nbd
-* __Search Engine__: searx -> [Seeks](https://beniz.github.io/seeks/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
-* __Search Engine (Gopher)__: [Jugtail](http://www.nongnu.org/jugtail/)
-* __Search Engine (Torrents)__: Magnetissimo -> [magnetico](https://github.com/boramalper/magnetico)
-* __Streaming__: [Butter Project](http://butterproject.org/) -> [Livepeer](https://livepeer.org/) -> [PeerTube](https://instances.joinpeertube.org/instances)
+* __Network Block Device__: [Usbredir](https://github.com/freedesktop/spice-usbredir) -> [nbd](https://github.com/NetworkBlockDevice/nbd)
+* __Search Engine__: [searx](https://searx.me/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
+* __Search Engine (Torrents)__: [Magnetissimo](https://github.com/sergiotapia/magnetissimo) -> [magnetico](https://github.com/boramalper/magnetico) -> [Torrentinim](https://github.com/sergiotapia/torrentinim)
+* __Streaming__: [Livepeer](https://livepeer.org/) -> [PeerTube](https://instances.joinpeertube.org/instances)
 * __Version Control (Decentralized Github)__: [git-annex](https://git-annex.branchable.com/) (+ git-annex assistant) -> [GitTorrent](https://github.com/mfyuce/GitTorrent)
-* __VPN__:  n2n -> [PeerVPN](https://github.com/peervpn/peervpn)
-* __Wiki__: [ikiwiki](https://ikiwiki.info/tips/distributed_wikis/)
+* __VPN__:  [n2n](https://www.ntop.org/products/n2n/) -> [PeerVPN](https://github.com/peervpn/peervpn)
 
 ## Emulation And Virtualization
 * __Containers__: sandbox -> fakechroot -> FakeRoot -> PRoot -> chroot -> containerd -> OpenVZ -> User-mode Linux (UML) -> LXC -> [Linux-VServer](http://linux-vserver.org/Welcome_to_Linux-VServer.org) -> containers
