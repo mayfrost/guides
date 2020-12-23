@@ -164,8 +164,8 @@ Note: All this terminals are compatible with wayland
 * __VPN__:  [n2n](https://www.ntop.org/products/n2n/) -> [PeerVPN](https://github.com/peervpn/peervpn)
 
 ## Emulation And Virtualization
-* __Containers__: sandbox -> fakechroot -> FakeRoot -> PRoot -> chroot -> containerd -> OpenVZ -> User-mode Linux (UML) -> LXC -> [Linux-VServer](http://linux-vserver.org/Welcome_to_Linux-VServer.org) -> containers
-* __Emulators__: Systemd/Linux: [systemd-shim](https://directory.fsf.org/wiki/Systemd-shim), Windows: Wine (+ [Wine Staging](https://github.com/wine-compholio/wine-staging)), Android: [Anbox](https://github.com/anbox/anbox), OS X: [Darling](https://www.darlinghq.org/), Atari: [Hatari](http://hatari.tuxfamily.org/) (16/32-bit) and [Atari800](https://atari800.github.io/) (8-bit), CP/M: cpm (+ cpmtool), Spectrum: FBZX, Commodore: [VICE](http://vice-emu.sourceforge.net/), DOS: DOSBox
+* __Containers__: [fakechroot](https://github.com/dex4er/fakechroot) -> [FakeRoot](https://salsa.debian.org/clint/fakeroot) -> [PRoot](https://proot-me.github.io/) -> [containerd](https://containerd.io/) -> [OpenVZ](https://openvz.org/) -> User-mode Linux (UML) -> [LXC](https://linuxcontainers.org/lxc/introduction/) -> [Linux-VServer](http://linux-vserver.org/Welcome_to_Linux-VServer.org)
+* __Emulators__: Systemd/Linux: [systemd-shim](https://directory.fsf.org/wiki/Systemd-shim) | Windows: [Wine](https://www.winehq.org/) + [Wine Staging](https://github.com/wine-staging/wine-staging) | Android: [Anbox](https://github.com/anbox/anbox) | OS X: [Darling](https://www.darlinghq.org/) | Atari: [Hatari](http://hatari.tuxfamily.org/) (16/32-bit) and [Atari800](https://atari800.github.io/) (8-bit) | CP/M: [cpm](https://github.com/jhallen/cpm) + cpmtool | Spectrum: [FBZX](https://gitlab.com/rastersoft/fbzx) | Commodore: [VICE](http://vice-emu.sourceforge.net/) | DOS: [DOSBox](https://www.dosbox.com/)
 * __Hypervisors__: Xen -> [NOVA](http://hypervisor.org/) -> KVM
 * __Network Virtualization__: GNS3 -> [nsnam](https://github.com/nsnam/ns-3-dev-git)
 * __Video Game Console Emulation (ATARI)__: [Stella](https://stella-emu.github.io/)
