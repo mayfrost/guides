@@ -166,14 +166,14 @@ Note: All this terminals are compatible with wayland
 ## Emulation And Virtualization
 * __Containers__: [fakechroot](https://github.com/dex4er/fakechroot) -> [FakeRoot](https://salsa.debian.org/clint/fakeroot) -> [PRoot](https://proot-me.github.io/) -> [containerd](https://containerd.io/) -> [OpenVZ](https://openvz.org/) -> User-mode Linux (UML) -> [LXC](https://linuxcontainers.org/lxc/introduction/) -> [Linux-VServer](http://linux-vserver.org/Welcome_to_Linux-VServer.org)
 * __Emulators__: Systemd/Linux: [systemd-shim](https://directory.fsf.org/wiki/Systemd-shim) | Windows: [Wine](https://www.winehq.org/) + [Wine Staging](https://github.com/wine-staging/wine-staging) | Android: [Anbox](https://github.com/anbox/anbox) | OS X: [Darling](https://www.darlinghq.org/) | Atari: [Hatari](http://hatari.tuxfamily.org/) (16/32-bit) and [Atari800](https://atari800.github.io/) (8-bit) | CP/M: [cpm](https://github.com/jhallen/cpm) + cpmtool | Spectrum: [FBZX](https://gitlab.com/rastersoft/fbzx) | Commodore: [VICE](http://vice-emu.sourceforge.net/) | DOS: [DOSBox](https://www.dosbox.com/)
-* __Hypervisors__: Xen -> [NOVA](http://hypervisor.org/) -> KVM
-* __Network Virtualization__: GNS3 -> [nsnam](https://github.com/nsnam/ns-3-dev-git)
+* __Hypervisors__: [Xen](https://xenproject.org/) -> [NOVA](http://hypervisor.org/) -> [KVM](https://www.linux-kvm.org/page/Main_Page)
+* __Network Virtualization__: [GNS3](https://gns3.com/) -> [nsnam](https://github.com/nsnam/ns-3-dev-git)
 * __Video Game Console Emulation (ATARI)__: [Stella](https://stella-emu.github.io/)
 * __Video Game Console Emulation (XBOX)__: [XQEMU](https://github.com/espes/xqemu)
-* __Video Game Console Emulation (MULTIPLE)__: Higan -> Mednafen -> RetroArch -> [MAME](https://github.com/mamedev/mame) -> [AdvanceMAME](https://github.com/amadvance/advancemame) [(framebuffer support)](https://forum.odroid.com/viewtopic.php?f=116&t=11662)
-* __Video Game Console Emulation (NINTENDO)__: FCEUX/Citra, [DeSmuME (Nintendo DS)](https://github.com/TASVideos/desmume/), [Mupen64Plus (Nintendo 64)](https://github.com/mupen64plus/mupen64plus-core), [Dolphin (GameCube and Wii)](https://dolphin-emu.org/)
-* __Video Game Console Emulation (SCUMM)__: ScummVM
-* __Video Game Console Emulation (SEGA)__: Gens/GS, Exodus, [Yabause (Sega Saturn)](https://github.com/Yabause/yabause), Lxdream, [Reicast (Dreamcast)](https://github.com/reicast/reicast-emulator)
+* __Video Game Console Emulation (MULTIPLE)__: [Higan](https://byuu.org/higan/) -> [Mednafen](https://mednafen.github.io/) -> [RetroArch](https://www.retroarch.com/) -> [MAME](https://github.com/mamedev/mame) -> [AdvanceMAME](https://github.com/amadvance/advancemame) [(framebuffer support)](https://forum.odroid.com/viewtopic.php?f=116&t=11662)
+* __Video Game Console Emulation (NINTENDO)__: [FCEUX](http://fceux.com/web/home.html)/[Citra](https://citra-emu.org/), [DeSmuME (Nintendo DS)](https://github.com/TASVideos/desmume/), [Mupen64Plus (Nintendo 64)](https://github.com/mupen64plus/mupen64plus-core), [Dolphin (GameCube and Wii)](https://dolphin-emu.org/)
+* __Video Game Console Emulation (SCUMM)__: [ScummVM](https://www.scummvm.org/)
+* __Video Game Console Emulation (SEGA)__: [Gens/GS](https://segaretro.org/Gens/GS), [Exodus](https://segaretro.org/Exodus), [Yabause (Sega Saturn)](https://github.com/Yabause/yabause), [Lxdream](http://www.lxdream.org/news/), [Reicast (Dreamcast)](https://github.com/reicast/reicast-emulator)
 * __Video Game Console Emulation (PLAYSTATION)__: [PPSSPP](https://github.com/hrydgard/ppsspp), [RPCS3](https://github.com/rpcs3/rpcs3/), [PCSX2](https://github.com/PCSX2/pcsx2)
 * __Virtual Assembler__: [GNUSim8085](http://pages.cs.wisc.edu/~larus/spim.html), [spim](http://pages.cs.wisc.edu/~larus/spim.html)
 * __Virtual Machine__: VirtualBox -> [AQEMU](https://github.com/tobimensch/aqemu) + kvm -> Qemu + kvm -> Bochs
@@ -335,7 +335,7 @@ Note: All this terminals are compatible with wayland
 * __Fractals and Random Computer Artwork__: [Mandelbulber](https://github.com/buddhi1980/mandelbulber2) -> Fyre -> Wassily
 * __Image Editing__: RawTherapee -> darktable -> Gimp -> Netpbm -> [G'MIC](https://github.com/dtschump/gmic) -> GraphicsMagick -> ImageMagick (display, import) -> Gifsicle
 * __Image Optimizing__: OptiPNG -> pngcrush -> pngquant
-* __Image Viewer__: Feh -> sxiv -> zgv -> lsix -> sdump -> display (ImageMagick) -> [fim](http://www.nongnu.org/fbi-improved/) / [fbi (fbida)](https://github.com/fcarlier/fbida) -> idump
+* __Image Viewer__: pqiv -> Feh -> imv -> sxiv -> [lsix](https://github.com/hackerb9/lsix) -> display (ImageMagick) -> [fim](http://www.nongnu.org/fbi-improved/) / [fbi (fbida)](https://github.com/fcarlier/fbida) -> idump
 * __Plotting__: Gnuplot -> Ngraph-gtk -> ygraph -> [PLplot](http://plplot.sourceforge.net/) -> FRTPLOT -> Picviz
 * __Screenshots__: Shutter -> scrot -> maim -> shot.sh -> import (ImageMagick) -> [fbcat](https://github.com/jwilk/fbcat) (FBGrab)
 
