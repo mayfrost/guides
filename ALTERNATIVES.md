@@ -175,14 +175,13 @@ Note: All this terminals are compatible with wayland
 * __Video Game Console Emulation (SCUMM)__: [ScummVM](https://www.scummvm.org/)
 * __Video Game Console Emulation (SEGA)__: [Gens/GS](https://segaretro.org/Gens/GS), [Exodus](https://segaretro.org/Exodus), [Yabause (Sega Saturn)](https://github.com/Yabause/yabause), [Lxdream](http://www.lxdream.org/news/), [Reicast (Dreamcast)](https://github.com/reicast/reicast-emulator)
 * __Video Game Console Emulation (PLAYSTATION)__: [PPSSPP](https://github.com/hrydgard/ppsspp), [RPCS3](https://github.com/rpcs3/rpcs3/), [PCSX2](https://github.com/PCSX2/pcsx2)
-* __Virtual Assembler__: [GNUSim8085](http://pages.cs.wisc.edu/~larus/spim.html), [spim](http://pages.cs.wisc.edu/~larus/spim.html)
-* __Virtual Machine__: VirtualBox -> [AQEMU](https://github.com/tobimensch/aqemu) + kvm -> Qemu + kvm -> Bochs
-* __Virtual Machine (IBM Mainframes)__: [Hercules](http://www.hercules-390.org/)
+* __Virtual Assembler__: [GNUSim8085](https://github.com/GNUSim8085/GNUSim8085), [spim](http://pages.cs.wisc.edu/~larus/spim.html)
+* __Virtual Machine__: [VirtualBox](https://www.virtualbox.org/) -> [AQEMU](https://github.com/tobimensch/aqemu) + kvm -> [Qemu](https://www.qemu.org/) + kvm -> [Bochs](http://bochs.sourceforge.net/)
 * __Virtual Machine (DEC)__: [SIMH](http://simh.trailing-edge.com/)
 
 ## File Utilities
-* __Batch Renamer__: Metamorphose -> [GPRename](http://gprename.sourceforge.net/) -> vidir -> [qmv (renameutils)](http://www.nongnu.org/renameutils/) -> mmv
-* __Duplicate Files Removal__: [dupeGuru](https://github.com/hsoft/dupeguru) -> FSlint -> freedup -> fdmf -> dupmerge -> duff -> [Fdupes](https://github.com/adrianlopezroche/fdupes) -> jdupes -> rmlint
+* __Batch Renamer__: [Metamorphose2](https://github.com/metamorphose/metamorphose2) -> [GPRename](http://gprename.sourceforge.net/) -> vidir -> [qmv (renameutils)](http://www.nongnu.org/renameutils/) -> mmv
+* __Duplicate Files Removal__: [dupeGuru](https://github.com/hsoft/dupeguru) -> [FSlint](https://www.pixelbeat.org/fslint/) -> [dupmerge2](https://sourceforge.net/projects/dupmerge/) -> [duff](https://github.com/elmindreda/duff) -> [Fdupes](https://github.com/adrianlopezroche/fdupes) -> [jdupes](https://github.com/jbruchon/jdupes) -> [rmlint](https://github.com/sahib/rmlint)
 * __File Archiver__: PeaZip -> Xarchiver -> Patool -> dtrx -> [Atool](http://www.nongnu.org/atool/) -> dar -> tar -> pax
 * __File Compression__: arj, Zstandard (Zstd), Zip, lzop, Plzip, pxz, ECM (Error Code Modeler), p7zip, lbzip2, lrzip, pigz
 * __File Conversion__: nrg2iso, dmg2iso (dmg to iso), mdf2iso (mdf to iso), daa2iso (daa to iso), UIF2ISO (uif to iso), ccd2iso (img to iso), bin2iso (bin-cue to iso), [bchunk](http://he.fi/bchunk/) (bin-cue to iso), mpq-tools (MPQ or MoPaQ), Macutils
