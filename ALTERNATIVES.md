@@ -186,10 +186,10 @@ Note: All this terminals are compatible with wayland
 * __File Compression__: [Zstandard](https://facebook.github.io/zstd/) (Zstd), Zip, [lzop](https://www.lzop.org/), [Plzip](https://www.nongnu.org/lzip/plzip.html), [p7zip](https://sourceforge.net/projects/p7zip/), [lbzip2](https://github.com/kjn/lbzip2/), [lrzip](https://github.com/ckolivas/lrzip), [pigz](https://github.com/madler/pigz)
 * __File De-Compression Only__: unace, [cabextract](https://www.cabextract.org.uk/), unrar, [Lunzip](https://www.nongnu.org/lzip/lunzip.html), UnZip
 * __File Manager__: [PCManFM](https://wiki.lxde.org/en/PCManFM) -> [Xfe](http://roland65.free.fr/xfe/) -> [SpaceFM](https://github.com/IgnorantGuru/spacefm) -> [worker](http://www.boomerangsworld.de/cms/worker/) -> [Ranger](https://ranger.github.io/) -> [Midnight Commander](https://midnight-commander.org/) -> [Thunar](https://docs.xfce.org/xfce/thunar/start) -> [vifm](https://vifm.info/) -> [FDclone](http://hp.vector.co.jp/authors/VA012337/soft/fd/) -> [Ytree](https://www.han.de/~werner/ytree.html) -> [rover](http://lecram.github.io/p/rover/) -> [CLEX](http://www.clex.sk/) -> [nnn](https://github.com/jarun/nnn)
-* __File Search__: Beagle -> [Puggle](http://puggle.sourceforge.net/) -> [ANGRYsearch](https://github.com/DoTheEvo/ANGRYsearch) -> Tracker -> [DocFetcher](http://docfetcher.sourceforge.net/en/index.html) -> [regain](http://regain.sourceforge.net/index.php) -> lightmediascanner -> find
-* __File Synchronization__: [Unison](https://github.com/bcpierce00/unison) -> duplicity -> synk -> Rsync
-* __Pictures Organizer__: hydrus network -> Shotwell -> GTKRawGallery -> digiKam -> gThumb (+ gphoto) -> [Mapivi](http://mapivi.sourceforge.net/mapivi.shtml) -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
-* __RegEx Builder__: [regexxer](https://directory.fsf.org/wiki/Regexxer) -> [Visual REGEXP](http://laurent.riesterer.free.fr/regexp/) -> [txt2regex](https://github.com/aureliojargas/txt2regex)
+* __File Search__: [ANGRYsearch](https://github.com/DoTheEvo/ANGRYsearch) -> [Tracker](https://gnome.pages.gitlab.gnome.org/tracker/) -> [DocFetcher](http://docfetcher.sourceforge.net/en/index.html) -> [lightmediascanner](https://github.com/profusion/lightmediascanner) -> find
+* __File Synchronization__: [Unison](https://github.com/bcpierce00/unison) -> [duplicity](http://duplicity.nongnu.org/) -> [Rsync](https://rsync.samba.org/)
+* __Pictures Organizer__: [hydrus network](http://hydrusnetwork.github.io/hydrus/) -> [Shotwell](https://gitlab.gnome.org/GNOME/shotwell) -> [digiKam](https://www.digikam.org/) -> [gThumb](https://wiki.gnome.org/Apps/Gthumb) (+ [gphoto](https://github.com/gphoto/gphoto2)) -> [BASH-Booru](https://github.com/ChristianSilvermoon/BASH-Booru)
+* __RegEx Builder__: [txt2regex](https://github.com/aureliojargas/txt2regex)
 
 ## Filesharing
 * __Direct Connect__: LinuxDC++ -> [ncdc](https://github.com/srijan/ncdc) -> [microdc2](http://corsair626.no-ip.org/microdc/)
