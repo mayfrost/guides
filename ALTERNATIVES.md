@@ -192,17 +192,16 @@ Note: All this terminals are compatible with wayland
 * __RegEx Builder__: [txt2regex](https://github.com/aureliojargas/txt2regex)
 
 ## Filesharing
-* __Direct Connect__: LinuxDC++ -> [ncdc](https://github.com/srijan/ncdc) -> [microdc2](http://corsair626.no-ip.org/microdc/)
-* __Download Manager__: [JDownloader](https://github.com/Bobmk/JDownloader) -> [giFT](https://sourceforge.net/projects/gift/) (+ [giFTcurs](http://www.nongnu.org/giftcurs/)) -> [aria2](https://aria2.github.io/) -> cURL -> Wget -> snarf -> Axel
-* __File Scraper__: [Grive2](https://github.com/vitalif/grive2) (Google Drive) -> megatools (Mega) -> [Rclone](https://github.com/ncw/rclone) -> [Plowshare](https://github.com/mcrapet/plowshare)
-* __FTP Client__: FileZilla -> [lftp](https://github.com/lavv17/lftp) -> NcFTP
-* __LAN Sharing__: NitroShare -> Dukto
-* __Media Miner__: FlexGet -> [Sonarr](https://github.com/Sonarr/Sonarr)
-* __Soulseek__: Nicotine Plus -> [Museek (mucous)](https://museek-plus.org/)
-* __Torrent Client__: qBittorrent -> RTorrent -> transmission-daemon ([web interface](https://github.com/transmission/transmission/wiki/Web-Interface) by default, [other frontends](https://github.com/fagga/transmission-remote-cli) optional) -> CTorrent -> btpd + mktorrent
-* __Torrent Tracker Scraper__: [Torrtux](https://github.com/l333k0/torrtux) -> [Torrench](https://github.com/kryptxy/torrench) -> [Jackett](https://github.com/Jackett/Jackett)
-* __Usenet (File Grabber)__: LottaNZB -> SABnzbd -> [NZBGet](https://github.com/nzbget/nzbget) -> [nzb](https://directory.fsf.org/wiki/Nzb) -> [nzbperl](https://github.com/eghm/nzbperl)
-* __x-y-zmodem__: lrzsz
+* __Download Manager__: [aria2](https://aria2.github.io/) -> [cURL](https://curl.se/) -> Wget -> [Axel](https://github.com/axel-download-accelerator/axel)
+* __File Scraper__: [Grive2](https://github.com/vitalif/grive2) (Google Drive) -> [megatools](https://megatools.megous.com/) (Mega) -> [Rclone](https://github.com/ncw/rclone) -> [Plowshare](https://github.com/mcrapet/plowshare)
+* __FTP Client__: [FileZilla](https://filezilla-project.org/) -> [lftp](https://github.com/lavv17/lftp) -> [NcFTP](https://www.ncftp.com/)
+* __LAN Sharing__: [NitroShare](https://nitroshare.net/) -> [ShareDrop](https://www.sharedrop.io/)
+* __Media Miner__: [FlexGet](https://flexget.com/) -> [Sonarr](https://github.com/Sonarr/Sonarr)
+* __Soulseek__: [Nicotine+](https://nicotine-plus.github.io/nicotine-plus/) -> [Museek (mucous)](https://museek-plus.org/)
+* __Torrent Client__: [qBittorrent](https://www.qbittorrent.org/) -> [RTorrent](https://rakshasa.github.io/rtorrent/) -> transmission-daemon ([web interface](https://github.com/transmission/transmission/wiki/Web-Interface) by default, [other frontends](https://github.com/fagga/transmission-remote-cli) optional) -> [btpd](https://github.com/btpd/btpd) + [mktorrent](https://github.com/pobrn/mktorrent)
+* __Torrent Tracker Scraper__: [Torrench](https://github.com/kryptxy/torrench) -> [Jackett](https://github.com/Jackett/Jackett)
+* __Usenet (File Grabber)__: [SABnzbd](https://sabnzbd.org/) -> [NZBGet](https://github.com/nzbget/nzbget)
+* __File Share__: [OnionShare](https://onionshare.org/) -> [Blaze](https://blaze.now.sh/) -> [BlackHole](https://blackhole.run/) -> [Envelop](https://envelop.app/) -> [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole) -> [croc](https://github.com/schollz/croc)
 
 ## Forensics
 * __Application Profiling__: CGprof -> Valgrind (+ Callgrind)
