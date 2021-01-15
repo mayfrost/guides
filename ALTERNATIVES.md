@@ -201,7 +201,7 @@ Note: All this terminals are compatible with wayland
 * __Torrent Client__: [qBittorrent](https://www.qbittorrent.org/) -> [RTorrent](https://rakshasa.github.io/rtorrent/) -> transmission-daemon ([web interface](https://github.com/transmission/transmission/wiki/Web-Interface) by default, [other frontends](https://github.com/fagga/transmission-remote-cli) optional) -> [btpd](https://github.com/btpd/btpd) + [mktorrent](https://github.com/pobrn/mktorrent)
 * __Torrent Tracker Scraper__: [Torrench](https://github.com/kryptxy/torrench) -> [Jackett](https://github.com/Jackett/Jackett)
 * __Usenet (File Grabber)__: [SABnzbd](https://sabnzbd.org/) -> [NZBGet](https://github.com/nzbget/nzbget)
-* __File Share__: [OnionShare](https://onionshare.org/) -> [Blaze](https://blaze.now.sh/) -> [BlackHole](https://blackhole.run/) -> [Envelop](https://envelop.app/) -> [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole) -> [croc](https://github.com/schollz/croc)
+* __File Share__: [OnionShare](https://onionshare.org/), [Blaze](https://blaze.now.sh/), [BlackHole](https://blackhole.run/), [Envelop](https://envelop.app/), [ToffeeShare](https://toffeeshare.com/), [FilePizza](https://file.pizza/), [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole), [croc](https://github.com/schollz/croc)
 
 ## Forensics
 * __Application Profiling__: CGprof -> Valgrind (+ Callgrind)
