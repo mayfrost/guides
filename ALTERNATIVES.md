@@ -66,6 +66,7 @@ TL;DR: is about the unix principle, having a fully functional system pretty damn
 * __Firewall__: [AFWall+](https://github.com/ukanth/afwall/wiki) (6,6 MB) -> [NetGuard](https://www.netguard.me/) (2,5 MB)
 * __E-Mail__: [Inbox Pager](https://github.com/itprojects/InboxPager) (8 MB) -> [K-9 Mail](https://k9mail.app/) (7,7 MB) -> [SimpleEmail](https://framagit.org/dystopia-project/simple-email) (2,8 MB)
 * __Browser__: [Privacy Browser](https://www.stoutner.com/privacy-browser/) (11 MB) -> [Midori Next](https://astian.org/midori/2020/05/23/migrate-to-astian-ecosystem/) (4 MB) -> [jQuarks](https://gitlab.com/oF2pks/jelly) -> [Lightning](http://acrdevelopment.org/) (3,3 MB) -> [FOSS Browser](https://github.com/scoute-dich/browser) (3 MB)
+* __Calendar__: [SimpleCalendar](https://www.simplemobiletools.com/calendar/) (7,3 MB) -> [Etar](https://github.com/Etar-Group/Etar-Calendar) (5,3 MB)
 
 Most apps are from F-Droid, we are just starting.
 
@@ -204,16 +205,14 @@ Note: All this terminals are compatible with wayland
 * __File Share__: [OnionShare](https://onionshare.org/), [Blaze](https://blaze.now.sh/), [BlackHole](https://blackhole.run/), [Envelop](https://envelop.app/), [ToffeeShare](https://toffeeshare.com/), [FilePizza](https://file.pizza/), [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole), [croc](https://github.com/schollz/croc)
 
 ## Forensics
-* __Application Profiling__: CGprof -> Valgrind (+ Callgrind)
-* __Browser Debugger__: Firebug
-* __Debugger__: DDD -> [CGDB](https://cgdb.github.io/) -> OpenOCD -> GDB
-* __Delta Encoding__: xdelta -> Bsdiff
-* __Forensic Analysis Framework__: The Sleuth Kit -> DFF -> Radare
-* __Hex Editors__: [HT Editor](http://hte.sourceforge.net/) -> biew -> [dhex](https://directory.fsf.org/wiki/DHEX) -> hexedit
-* __Java Profiling__: VisualVM -> Quilt
-* __Memory Scanner (Cheat Engine)__: scanmem & Gameconqueror -> [varedit](https://github.com/asherlie/varedit)
+* __Application Profiling__: CGprof -> [Valgrind](https://www.valgrind.org/) (+ [Callgrind](https://wiki.openoffice.org/wiki/Callgrind))
+* __Debugger__: [CGDB](https://cgdb.github.io/) -> [OpenOCD](http://openocd.org/) -> [GDB](https://www.gnu.org/software/gdb/)
+* __Delta Encoding__: [xdelta](http://xdelta.org/) -> [Bsdiff](https://github.com/mendsley/bsdiff)
+* __Forensic Analysis Framework__: [The Sleuth Kit](https://github.com/sleuthkit/sleuthkit) -> [DFF](https://github.com/arxsys/dff) -> [Radare](https://www.radare.org/r/index.html)
+* __Hex Editors__: [HT Editor](http://hte.sourceforge.net/) -> [dhex](https://directory.fsf.org/wiki/DHEX) -> [hexedit](http://www.dettus.net/dhex/)
+* __Java Profiling__: [VisualVM](https://visualvm.github.io/)
+* __Memory Scanner (Cheat Engine)__: [scanmem & Gameconqueror](https://github.com/scanmem/scanmem) -> [varedit](https://github.com/asherlie/varedit)
 * __Sandbox__: [Cuckoo Sandbox](https://cuckoosandbox.org/)
-* __Steganalysis__: [Virtual Steganographic Laboratory](http://vsl.sourceforge.net/) -> [Stegdetect](https://github.com/abeluck/stegdetect)
 
 ## Hardware
 * __Cameras__: ZoneMinder (CCTV), Motion (motion detection), gPhoto (connecting digital cameras), ccdciel
