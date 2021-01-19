@@ -54,7 +54,6 @@ TL;DR: is about the unix principle, having a fully functional system pretty damn
 
 ## ANDROID APPS
 * __Launcher__: [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) (1,6 MB) -> [Slim Launcher](https://github.com/sduduzog/slim-launcher) (1,5 MB) -> [T-UI](https://github.com/Andre1299/TUI-ConsoleLauncher) (1,5 MB) -> [Search Based Launcher](https://github.com/vackosar/search-based-launcher/) (622 KB) -> [KISS](http://kisslauncher.com/) (0,6 MB) -> [Light Android Launcher](https://github.com/light-launcher/Light-Android-Launcher/blob/HEAD/README.md) (241 KB) -> [Emerald Launcher](https://github.com/HenriDellal/emerald) (177 KB) -> [Last Launcher](https://github.com/SubhamTyagi/Last-Launcher) (94 KB) -> [Keikai Launcher](https://github.com/KeikaiLauncher/KeikaiLauncher) (87 KB) -> [Fast](https://github.com/ligi/FAST) (76 KB) -> [Essential Launcher](https://clemensbartz.de/essential-launcher/) (49 KB) -> [T4 Launcher](https://github.com/rsteube/t4-launcher) (37 KB)
-* __Facebook__: [FaceSlim](https://github.com/indywidualny/FaceSlim) (1,3 MB) -> [SlimSocial](https://github.com/rignaneseleo/SlimSocial-for-Facebook) (345 KB)
 * __Twitter__: [SlimSocial for Twitter](https://github.com/rignaneseleo/SlimSocial-for-Twitter) (699 KB)
 * __YouTube__: [SkyTube](http://skytube-app.com/) (9 MB) -> [NewPipe](https://newpipe.schabi.org/) (7,2 MB) -> [WebTube](https://github.com/martykan/webTube/blob/HEAD/README.md) (1,9 MB)
 * __Photo Gallery__: [LeafPic Revived](https://github.com/apcro/leafpicrevived) (7,7 MB) -> [Camera Roll](https://github.com/kollerlukas/Camera-Roll-Android-App) (2,4 MB) -> [A Photo Manager](https://github.com/k3b/APhotoManager) (1,42 MB)
@@ -67,6 +66,7 @@ TL;DR: is about the unix principle, having a fully functional system pretty damn
 * __E-Mail__: [Inbox Pager](https://github.com/itprojects/InboxPager) (8 MB) -> [K-9 Mail](https://k9mail.app/) (7,7 MB) -> [SimpleEmail](https://framagit.org/dystopia-project/simple-email) (2,8 MB)
 * __Browser__: [Privacy Browser](https://www.stoutner.com/privacy-browser/) (11 MB) -> [Midori Next](https://astian.org/midori/2020/05/23/migrate-to-astian-ecosystem/) (4 MB) -> [jQuarks](https://gitlab.com/oF2pks/jelly) -> [Lightning](http://acrdevelopment.org/) (3,3 MB) -> [FOSS Browser](https://github.com/scoute-dich/browser) (3 MB)
 * __Calendar__: [SimpleCalendar](https://www.simplemobiletools.com/calendar/) (7,3 MB) -> [Etar](https://github.com/Etar-Group/Etar-Calendar) (5,3 MB)
+* __Messaging (centralized)__: [QKSMS](https://github.com/moezbhatti/qksms) (13 MB) -> [Dib2Qm](https://gitlab.com/gxworks/Dib2Qm) (0,6 MB)
 
 Most apps are from F-Droid, we are just starting.
 
@@ -215,11 +215,11 @@ Note: All this terminals are compatible with wayland
 * __Sandbox__: [Cuckoo Sandbox](https://cuckoosandbox.org/)
 
 ## Hardware
-* __Cameras__: ZoneMinder (CCTV), Motion (motion detection), gPhoto (connecting digital cameras), ccdciel
-* __Car (as in automobile)__: can-utils
-* __CD-DVD Burn and Copy (Backends)__: cdrtools -> cdrkit -> [cdrskin](https://dev.lovelyhq.com/libburnia/web/wikis/cdrskin)
-* __CD-DVD Burn and Copy (Frontends)__: K3b -> Brasero -> dvd+rw-tools -> xorriso -> [cdw](http://cdw.sourceforge.net/)
-* __CD-DVD Cue Files__: cuetools -> cuecmd
+* __Cameras__: [ZoneMinder](https://zoneminder.com/) (CCTV), [Motion](https://motion-project.github.io/) (motion detection), [gPhoto](http://www.gphoto.com/) (connecting digital cameras), [ccdciel](https://github.com/pchev/ccdciel)
+* __Car (as in automobile)__: [can-utils](https://github.com/carloop/can-utils-osx)
+* __CD-DVD Burn and Copy (Backends)__: [cdrtools](http://cdrtools.sourceforge.net/private/cdrecord.html) -> cdrkit -> [cdrskin](http://scdbackup.sourceforge.net/cdrskin_eng.html)
+* __CD-DVD Burn and Copy (Frontends)__: [K3b](https://apps.kde.org/en/k3b) -> [Brasero](https://wiki.gnome.org/Apps/Brasero/) -> [xorriso](https://www.gnu.org/software/xorriso/) -> [cdw](http://cdw.sourceforge.net/)
+* __CD-DVD Cue Files__: [cuetools](http://cue.tools/wiki/Main_Page)
 * __CD-DVD Information__: cd-discid -> cdstatus
 * __CD-DVD Ripping__: Sound Juicer -> fre ac -> [cdparanoia](https://www.xiph.org/paranoia/) (+ [ABCDE](http://lly.org/~rcw/abcde/page/))
 * __Data Recovery__: fatcat -> ext3grep -> giis (gET iT i sAY) -> extundelete -> Magic Rescue -> dvdisaster -> TestDisk (PhotoRec) -> ddrescue 
