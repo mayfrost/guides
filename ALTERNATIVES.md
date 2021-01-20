@@ -67,6 +67,7 @@ TL;DR: is about the unix principle, having a fully functional system pretty damn
 * __Browser__: [Privacy Browser](https://www.stoutner.com/privacy-browser/) (11 MB) -> [Midori Next](https://astian.org/midori/2020/05/23/migrate-to-astian-ecosystem/) (4 MB) -> [jQuarks](https://gitlab.com/oF2pks/jelly) -> [Lightning](http://acrdevelopment.org/) (3,3 MB) -> [FOSS Browser](https://github.com/scoute-dich/browser) (3 MB)
 * __Calendar__: [SimpleCalendar](https://www.simplemobiletools.com/calendar/) (7,3 MB) -> [Etar](https://github.com/Etar-Group/Etar-Calendar) (5,3 MB)
 * __Messaging (centralized)__: [QKSMS](https://github.com/moezbhatti/qksms) (13 MB) -> [Dib2Qm](https://gitlab.com/gxworks/Dib2Qm) (0,6 MB)
+* __Messaging (Federated)__: (Matrix): [Element (Riot.im)](https://element.io/) (52 MB) -> [Syphon](https://syphon.org/) (33 MB) -> [Tensor](https://github.com/davidar/tensor) (9 MB) | (XMPP): [blabber.im](https://blabber.im/en/) (29 MB) -> [Conversations](https://conversations.im/) (28 MB) -> [Conv6ations](https://dev.sum7.eu/sum7/Conversations) (28 MB) -> [Xabber](https://www.xabber.com/) (17 MB) -> [Kontalk](https://www.kontalk.org/) (12 MB) -> [yaxim](https://yaxim.org/) (1,9 MB)
 
 Most apps are from F-Droid, we are just starting.
 
@@ -220,12 +221,12 @@ Note: All this terminals are compatible with wayland
 * __CD-DVD Burn and Copy (Backends)__: [cdrtools](http://cdrtools.sourceforge.net/private/cdrecord.html) -> cdrkit -> [cdrskin](http://scdbackup.sourceforge.net/cdrskin_eng.html)
 * __CD-DVD Burn and Copy (Frontends)__: [K3b](https://apps.kde.org/en/k3b) -> [Brasero](https://wiki.gnome.org/Apps/Brasero/) -> [xorriso](https://www.gnu.org/software/xorriso/) -> [cdw](http://cdw.sourceforge.net/)
 * __CD-DVD Cue Files__: [cuetools](http://cue.tools/wiki/Main_Page)
-* __CD-DVD Information__: cd-discid -> cdstatus
-* __CD-DVD Ripping__: Sound Juicer -> fre ac -> [cdparanoia](https://www.xiph.org/paranoia/) (+ [ABCDE](http://lly.org/~rcw/abcde/page/))
-* __Data Recovery__: fatcat -> ext3grep -> giis (gET iT i sAY) -> extundelete -> Magic Rescue -> dvdisaster -> TestDisk (PhotoRec) -> ddrescue 
-* __Device Management (and module autoloader)__: evdev -> udev -> vdev
-* __Disk Cloning and Writing__: devio -> dd -> dcfldd -> [dc3dd](https://sourceforge.net/projects/dc3dd/)
-* __Display Color Temperature__: Redshift -> [sct](https://github.com/mgudemann/sct) -> luminous
+* __CD-DVD Information__: [cd-discid](http://linukz.org/cd-discid.shtml)
+* __CD-DVD Ripping__: [Sound Juicer](https://wiki.gnome.org/Apps/SoundJuicer) -> [fre ac](https://www.freac.org/)
+* __Data Recovery__: [fatcat](https://github.com/Gregwar/fatcat) -> [TestDisk](https://www.cgsecurity.org/wiki/TestDisk) ([PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec)) -> [ddrescue](https://www.gnu.org/software/ddrescue/) 
+* __Device Management (and module autoloader)__: evdev -> [vdev](https://github.com/jcnelson/vdev)
+* __Disk Cloning and Writing__: dd -> [dc3dd](https://sourceforge.net/projects/dc3dd/)
+* __Display Color Temperature__: [Redshift](http://jonls.dk/redshift/) -> [sct](https://github.com/mgudemann/sct), [gammastep](https://gitlab.com/chinstrap/gammastep) (wayland) -> [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) (wayland)
 * __Display Settings__: xrandr -> DDCcontrol -> fbset
 * __Displays (Miracast)__: MiracleCast
 * __Hardware Bus__: multipath-tools, I2C Tools (i2c-tools), IPMI Tool (ipmitool, ipmiutil) (IPMI DANGEROUS IF ENABLED)
