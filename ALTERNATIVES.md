@@ -68,6 +68,7 @@ TL;DR: is about the unix principle, having a fully functional system pretty damn
 * __Calendar__: [SimpleCalendar](https://www.simplemobiletools.com/calendar/) (7,3 MB) -> [Etar](https://github.com/Etar-Group/Etar-Calendar) (5,3 MB)
 * __Messaging (centralized)__: [QKSMS](https://github.com/moezbhatti/qksms) (13 MB) -> [Dib2Qm](https://gitlab.com/gxworks/Dib2Qm) (0,6 MB)
 * __Messaging (Federated)__: (Matrix): [Element (Riot.im)](https://element.io/) (52 MB) -> [Syphon](https://syphon.org/) (33 MB) -> [Tensor](https://github.com/davidar/tensor) (9 MB) | (XMPP): [blabber.im](https://blabber.im/en/) (29 MB) -> [Conversations](https://conversations.im/) (28 MB) -> [Conv6ations](https://dev.sum7.eu/sum7/Conversations) (28 MB) -> [Xabber](https://www.xabber.com/) (17 MB) -> [Kontalk](https://www.kontalk.org/) (12 MB) -> [yaxim](https://yaxim.org/) (1,9 MB)
+* __Messaging (P2P)__: [Jami](https://jami.net/) (40 MB) -> [Briar](https://briarproject.org/) (30 MB)
 
 Most apps are from F-Droid, we are just starting.
 
@@ -226,15 +227,13 @@ Note: All this terminals are compatible with wayland
 * __Data Recovery__: [fatcat](https://github.com/Gregwar/fatcat) -> [TestDisk](https://www.cgsecurity.org/wiki/TestDisk) ([PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec)) -> [ddrescue](https://www.gnu.org/software/ddrescue/) 
 * __Device Management (and module autoloader)__: evdev -> [vdev](https://github.com/jcnelson/vdev)
 * __Disk Cloning and Writing__: dd -> [dc3dd](https://sourceforge.net/projects/dc3dd/)
-* __Display Color Temperature__: [Redshift](http://jonls.dk/redshift/) -> [sct](https://github.com/mgudemann/sct), [gammastep](https://gitlab.com/chinstrap/gammastep) (wayland) -> [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) (wayland)
-* __Display Settings__: xrandr -> DDCcontrol -> fbset
-* __Displays (Miracast)__: MiracleCast
-* __Hardware Bus__: multipath-tools, I2C Tools (i2c-tools), IPMI Tool (ipmitool, ipmiutil) (IPMI DANGEROUS IF ENABLED)
-* __Hardware RAID__: mdadm -> dmraid
-* __Hibernation__: [TuxOnIce](https://github.com/NigelCunningham/tuxonice-kernel) -> [uswsusp](http://suspend.sourceforge.net/) -> pm-utils -> shutdownasap -> watchdog
-* __Home Automation__: LinuxMCE
-* __Keyboard Bindings__: Xbindkeys -> sxhkd -> bind (readline) -> loadkeys (+ keymaps)
-* __Keyboard Input Language__: iBus -> SCIM -> Fcitx -> uim (+ Anthy)
+* __Display Color Temperature__: [Redshift](http://jonls.dk/redshift/) -> [sct](https://github.com/mgudemann/sct) | [gammastep](https://gitlab.com/chinstrap/gammastep) (wayland) -> [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) (wayland)
+* __Display Settings__: xrandr -> fbset | [wlr-randr](https://github.com/emersion/wlr-randr) (wayland)
+* __Displays (Miracast)__: [MiracleCast](https://github.com/albfan/miraclecast)
+* __Hardware Bus__: [multipath-tools](https://github.com/opensvc/multipath-tools), [I2C Tools](https://i2c.wiki.kernel.org/index.php/I2C_Tools), [IPMI Tool](https://github.com/ipmitool/ipmitool) (ipmitool, ipmiutil) (IPMI DANGEROUS IF ENABLED)
+* __Hardware RAID__: [mdadm](https://git.kernel.org/pub/scm/utils/mdadm/mdadm.git/) -> dmraid
+* __Keyboard Bindings__: Xbindkeys -> [sxhkd](https://github.com/baskerville/sxhkd) -> loadkeys (+ keymaps)
+* __Keyboard Input Language__: [iBus](https://github.com/ibus/ibus) -> [SCIM](https://github.com/scim-im/scim) -> [Fcitx](https://fcitx-im.org/wiki/Fcitx) -> [uim](https://github.com/uim/uim) (+ Anthy)
 * __Keyboard Layout__: XKB -> xmodmap -> KBD
 * __Media Transfer Protocol (MTP)__: MTPfs -> jmtpfs -> simple-mtpfs
 * __Microcontrollers__: AVRDUDE
