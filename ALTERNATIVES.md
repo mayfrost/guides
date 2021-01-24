@@ -234,10 +234,9 @@ Note: All this terminals are compatible with wayland
 * __Hardware RAID__: [mdadm](https://git.kernel.org/pub/scm/utils/mdadm/mdadm.git/) -> dmraid
 * __Keyboard Bindings__: Xbindkeys -> [sxhkd](https://github.com/baskerville/sxhkd) -> loadkeys (+ keymaps)
 * __Keyboard Input Language__: [iBus](https://github.com/ibus/ibus) -> [SCIM](https://github.com/scim-im/scim) -> [Fcitx](https://fcitx-im.org/wiki/Fcitx) -> [uim](https://github.com/uim/uim) (+ Anthy)
-* __Keyboard Layout__: XKB -> xmodmap -> KBD
-* __Media Transfer Protocol (MTP)__: MTPfs -> jmtpfs -> simple-mtpfs
-* __Microcontrollers__: AVRDUDE
-* __Mounting__: AcetoneISO -> Udisks (+ udevil) -> Lightweight Device Mounter (ldm) -> USBmount -> pmount -> [bashmount](https://github.com/jamielinux/bashmount/blob/master/INSTALL) -> mount (.ISO files too) -> udev rules
+* __Keyboard Layout__: [XKB](https://www.x.org/wiki/XKB/) -> xmodmap -> KBD
+* __Media Transfer Protocol (MTP)__: [MTPfs](https://www.adebenham.com/mtpfs/) -> [jmtpfs](https://github.com/kiorky/jmtpfs) -> [simple-mtpfs](https://github.com/phatina/simple-mtpfs)
+* __Mounting__: [AcetoneISO](https://launchpad.net/ubuntu/+source/acetoneiso) -> [Udisks](https://github.com/storaged-project/udisks) (+ udevil) -> [Lightweight Device Mounter (ldm)](https://github.com/LemonBoy/ldm) -> [USBmount](https://github.com/rbrito/usbmount) -> [pmount](https://github.com/MisterDA/pmount) -> [bashmount](https://github.com/jamielinux/bashmount) -> mount 
 * __Mouse__: xbanish -> [keynav](https://github.com/jordansissel/keynav) -> GPM
 * __Power Management__: tpfancontrol -> tpacpi-bat -> thinkfan -> [TLP](https://github.com/linrunner/TLP) -> [PowerTOP](https://github.com/fenrus75/powertop) -> [Powertweak](https://directory.fsf.org/wiki/Powertweak-Linux)
 * __Printers__: CUPS -> [LPR](http://www.lprng.com/)
