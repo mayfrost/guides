@@ -237,11 +237,11 @@ Note: All this terminals are compatible with wayland
 * __Keyboard Layout__: [XKB](https://www.x.org/wiki/XKB/) -> xmodmap -> KBD
 * __Media Transfer Protocol (MTP)__: [MTPfs](https://www.adebenham.com/mtpfs/) -> [jmtpfs](https://github.com/kiorky/jmtpfs) -> [simple-mtpfs](https://github.com/phatina/simple-mtpfs)
 * __Mounting__: [AcetoneISO](https://launchpad.net/ubuntu/+source/acetoneiso) -> [Udisks](https://github.com/storaged-project/udisks) (+ udevil) -> [Lightweight Device Mounter (ldm)](https://github.com/LemonBoy/ldm) -> [USBmount](https://github.com/rbrito/usbmount) -> [pmount](https://github.com/MisterDA/pmount) -> [bashmount](https://github.com/jamielinux/bashmount) -> mount 
-* __Mouse__: xbanish -> [keynav](https://github.com/jordansissel/keynav) -> GPM
-* __Power Management__: tpfancontrol -> tpacpi-bat -> thinkfan -> [TLP](https://github.com/linrunner/TLP) -> [PowerTOP](https://github.com/fenrus75/powertop) -> [Powertweak](https://directory.fsf.org/wiki/Powertweak-Linux)
-* __Printers__: CUPS -> [LPR](http://www.lprng.com/)
-* __Scanners__: Scanner Access Now Easy (SANE)
-* __Software-defined radio (SDR)__: [GNU Radio](https://github.com/gnuradio) (+ [Gqrx](https://github.com/csete/gqrx)) -> [rtl-sdr](https://github.com/osmocom/rtl-sdr)
+* __Mouse__: [xbanish](https://github.com/jcs/xbanish) -> [keynav](https://github.com/jordansissel/keynav) -> [GPM](https://github.com/telmich/gpm)
+* __Power Management__: [tpacpi-bat](https://github.com/teleshoes/tpacpi-bat) -> [thinkfan](https://github.com/vmatare/thinkfan) -> [TLP](https://github.com/linrunner/TLP) -> [PowerTOP](https://github.com/fenrus75/powertop)
+* __Printers__: [CUPS](https://www.cups.org/)
+* __Scanners__: [Scanner Access Now Easy (SANE)](http://www.sane-project.org/)
+* __Software-defined radio (SDR)__: [Gqrx](https://github.com/csete/gqrx) -> [rtl-sdr](https://github.com/osmocom/rtl-sdr)
 * __Telescope__: Talon
 * __Tv (DVR)__: xawtv -> tvtime
 * __Tv (Multicast)__: udpxy -> IGMPproxy
