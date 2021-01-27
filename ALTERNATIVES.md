@@ -242,15 +242,14 @@ Note: All this terminals are compatible with wayland
 * __Printers__: [CUPS](https://www.cups.org/)
 * __Scanners__: [Scanner Access Now Easy (SANE)](http://www.sane-project.org/)
 * __Software-defined radio (SDR)__: [Gqrx](https://github.com/csete/gqrx) -> [rtl-sdr](https://github.com/osmocom/rtl-sdr)
-* __Telescope__: Talon
-* __Tv (DVR)__: xawtv -> tvtime
-* __Tv (Multicast)__: udpxy -> IGMPproxy
-* __Undevolting and Power Saving__: [TurionPowerControl](https://code.google.com/archive/p/turionpowercontrol/) -> [Linux-PHC](http://www.linux-phc.org/forum/) -> [cpufrequtils](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/cpufreq/) -> [cpupower](https://github.com/torvalds/linux/tree/master/tools/power/cpupower) -> schedtool
-* __UPS__: egctl -> Network UPS Tools (NUT) -> [apcupsd](http://www.apcupsd.org/)
+* __Tv (DVR)__: [xawtv](https://www.kraxel.org/blog/linux/xawtv/)
+* __Tv (Multicast)__: [udpxy](http://www.udpxy.com/) -> [IGMPproxy](https://github.com/pali/igmpproxy)
+* __Undevolting and Power Saving__: [TurionPowerControl](https://github.com/turionpowercontrol/tpc) -> [cpufrequtils](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/cpufreq/) -> [cpupower](https://github.com/torvalds/linux/tree/master/tools/power/cpupower) -> [schedtool](https://github.com/freequaos/schedtool)
+* __UPS__: [egctl](https://github.com/unterwulf/egctl) -> [Network UPS Tools (NUT)](https://networkupstools.org/) -> [apcupsd](http://www.apcupsd.org/)
 
 ## Monitoring
 ### Benchmarking
-* __Drive Profiling__: Smartmontools -> fio -> sdparm -> hdparm
+* __Drive Profiling__: [Smartmontools](https://www.smartmontools.org/) -> [fio](https://fio.readthedocs.io/en/latest/index.html) -> [sdparm](http://sg.danny.cz/sg/sdparm.html#mozTocId166213) -> [hdparm](https://sourceforge.net/projects/hdparm/)
 * __Filesystem Benchmark__: IOzone -> [Bonnie++](https://www.coker.com.au/bonnie++/) -> [MBW](https://github.com/raas/mbw)
 * __General Benchmarking__: collectd -> Phoronix Test Suite -> [HPC Challenge Benchmark (hpcc)](http://icl.cs.utk.edu/hpcc/) -> mcelog -> ProcBench -> [Sysbench](https://github.com/akopytov/sysbench)
 * __Network Data Visualization__: [weathermap4rrd](http://weathermap4rrd.tropicalex.net/) (rrd) -> [Xtract](https://sourceforge.net/projects/netxtract/) (pcap)
