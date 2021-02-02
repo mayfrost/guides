@@ -252,15 +252,13 @@ Note: All this terminals are compatible with wayland
 * __Drive Profiling__: [Smartmontools](https://www.smartmontools.org/) -> [fio](https://fio.readthedocs.io/en/latest/index.html) -> [sdparm](http://sg.danny.cz/sg/sdparm.html#mozTocId166213) -> [hdparm](https://sourceforge.net/projects/hdparm/)
 * __Filesystem Benchmark__: [IOzone](http://www.iozone.org/) -> [Bonnie++](https://www.coker.com.au/bonnie++/) -> [MBW](https://github.com/raas/mbw)
 * __General Benchmarking__: [collectd](https://collectd.org/) -> [Phoronix Test Suite](https://www.phoronix-test-suite.com/) -> [HPC Challenge Benchmark (hpcc)](http://icl.cs.utk.edu/hpcc/) -> [mcelog](https://mcelog.org/) -> [Sysbench](https://github.com/akopytov/sysbench)
-* __Network Data Visualization__: [weathermap4rrd](http://weathermap4rrd.tropicalex.net/) (rrd) -> [Xtract](https://sourceforge.net/projects/netxtract/) (pcap)
-* __Network Profiling__: [net-snmp](http://net-snmp.sourceforge.net/) -> [vnStat](https://github.com/vergoh/vnstat) -> [iperf](http://software.es.net/iperf/) -> bing
+* __Network Profiling__: [net-snmp](http://net-snmp.sourceforge.net/) -> [vnStat](https://github.com/vergoh/vnstat) -> [iperf](http://software.es.net/iperf/)
 * __Server Benchmark__: [Siege](https://github.com/JoeDog/siege)
-* __Sort Benchmark__: gensort
-* __System Tracing__: SystemTap -> LTTng -> OProfile -> Sysdig -> dtrace -> [strace](https://github.com/strace/strace) -> [trace-cmd](https://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git) (ftrace) -> perf + FlameGraph
+* __System Tracing__: [SystemTap](https://sourceware.org/systemtap/) -> [LTTng](https://lttng.org/) -> [OProfile](https://oprofile.sourceforge.io/news/) -> [Sysdig](https://sysdig.com/) -> [dtrace](https://github.com/opendtrace/opendtrace) -> [strace](https://github.com/strace/strace) -> [trace-cmd](https://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git) (ftrace) -> [perf](https://perf.wiki.kernel.org/index.php/Main_Page) + [FlameGraph](http://www.brendangregg.com/flamegraphs.html)
 
 ### System Information
-* __General Information__: zCI -> [inxi](https://smxi.org/docs/inxi.htm)
-* __Hardware Information__: vdpauinfo -> [lshw](https://github.com/lyonel/lshw) -> [hwloc](https://www.open-mpi.org/projects/hwloc/) -> lsscsi -> edac-utils -> [usbutils (lsusb)](https://github.com/gregkh/usbutils) -> [pciutils (lspci)](http://mj.ucw.cz/sw/pciutils/) -> util-linux (lsblk, blkid, dmesg) -> [acpitool](https://directory.fsf.org/wiki/AcpiTool) [dmidecode](http://dmidecode.nongnu.org/)
+* __General Information__: [inxi](https://smxi.org/docs/inxi.htm)
+* __Hardware Information__: [vdpauinfo](https://tracker.debian.org/pkg/vdpauinfo) -> [lshw](https://github.com/lyonel/lshw) -> [hwloc](https://www.open-mpi.org/projects/hwloc/) -> [lsscsi](http://sg.danny.cz/scsi/lsscsi.html#__RefHeading___Toc160_4141254284) -> [edac-utils](https://github.com/grondo/edac-utils) -> [usbutils (lsusb)](https://github.com/gregkh/usbutils) -> [pciutils (lspci)](http://mj.ucw.cz/sw/pciutils/) -> util-linux (lsblk, blkid, dmesg) -> [dmidecode](http://dmidecode.nongnu.org/)
 * __Screenshot Information (Bash)__: [Neofetch](https://github.com/dylanaraps/neofetch) -> [screenFetch](https://github.com/KittyKatt/screenFetch) -> envee
 * __Screenshot Information (C)__: [Linux_Logo](https://github.com/deater/linux_logo)
 * __Screenshot Information (Perl)__: screenfo -> alsi
