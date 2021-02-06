@@ -259,9 +259,9 @@ Note: All this terminals are compatible with wayland
 ### System Information
 * __General Information__: [inxi](https://smxi.org/docs/inxi.htm)
 * __Hardware Information__: [vdpauinfo](https://tracker.debian.org/pkg/vdpauinfo) -> [lshw](https://github.com/lyonel/lshw) -> [hwloc](https://www.open-mpi.org/projects/hwloc/) -> [lsscsi](http://sg.danny.cz/scsi/lsscsi.html#__RefHeading___Toc160_4141254284) -> [edac-utils](https://github.com/grondo/edac-utils) -> [usbutils (lsusb)](https://github.com/gregkh/usbutils) -> [pciutils (lspci)](http://mj.ucw.cz/sw/pciutils/) -> util-linux (lsblk, blkid, dmesg) -> [dmidecode](http://dmidecode.nongnu.org/)
-* __Screenshot Information (Bash)__: [Neofetch](https://github.com/dylanaraps/neofetch) -> [screenFetch](https://github.com/KittyKatt/screenFetch) -> envee
+* __Screenshot Information (Bash)__: [Neofetch](https://github.com/dylanaraps/neofetch) -> [screenFetch](https://github.com/KittyKatt/screenFetch)
 * __Screenshot Information (C)__: [Linux_Logo](https://github.com/deater/linux_logo)
-* __Screenshot Information (Perl)__: screenfo -> alsi
+* __Screenshot Information (Perl)__: [screenfo](https://github.com/trapd00r/screenfo) -> [alsi](https://github.com/trizen/alsi)
 * __Software Information__: [vrms](https://github.com/z411/vrms-gentoo) -> file -> ldd -> lsb_release -> os-prober -> uname (GNU Coreutils)
 
 ### System Monitoring
