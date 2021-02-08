@@ -265,8 +265,7 @@ Note: All this terminals are compatible with wayland
 * __Software Information__: [vrms](https://github.com/z411/vrms-gentoo) -> file -> ldd -> lsb_release -> os-prober -> uname (GNU Coreutils)
 
 ### System Monitoring
-* __Database Monitoring__: [Mytop](https://github.com/jzawodn/mytop)
-* __Disk Usage__: QDirStat -> [Baobab](http://www.marzocca.net/linux/baobab/) -> xdiskusage -> XDU -> dfc -> [Ncdu](https://dev.yorhel.nl/ncdu) -> ls++ -> tdu -> ncdt -> du + df (GNU coreutils)
+* __Disk Usage__: [QDirStat](https://github.com/shundhammer/qdirstat) -> [Baobab](http://www.marzocca.net/linux/baobab/) -> [xdiskusage](http://xdiskusage.sourceforge.net/) -> [Duc](http://duc.zevv.nl/) ->  [dfc](https://github.com/Rolinh/dfc) -> [tdu](https://bitbucket.org/josephpaul0/tdu/src/master/) -> [Ncdu](https://dev.yorhel.nl/ncdu) ->  du + df (GNU coreutils)
 * __Geolocation__: [Prey](https://github.com/prey/prey-bash-client)
 * __Hardware Monitoring__: lm-sensors (psensor for a GUI) -> [CrazyDiskInfo](https://github.com/otakuto/crazydiskinfo) -> Hddtemp
 * __Log Monitoring__: Webalizer -> lnav -> [Logcheck](http://logcheck.org/) -> [multiTail](https://github.com/flok99/multitail)
