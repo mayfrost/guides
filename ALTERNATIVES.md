@@ -285,12 +285,10 @@ Note: All this terminals are compatible with wayland
 
 ## Multimedia
 ### ASCii Art
-* __ANSI Drawing__: [MysticDraw](https://archive.org/details/tucows_8499_Mystic_Draw) -> [SHPaint](http://bruxy.regnet.cz/web/linux/EN/ansi-art-sh-paint/)
-* __ANSi Viewer__: [ANSiMat](https://sourceforge.net/projects/ansimat/)
-* __ASCii Animation__: blessed -> Durdraw -> drawille
-* __ASCii Banner__: shellpic -> TOIlet -> FIGlet -> sysvbanner
-* __ASCii Drawing__: JavE -> Aewan -> cadubi -> [CAVE WALL](http://www-users.mat.umk.pl/~mckuk/cavewall/) -> textdraw
-* __ASCii Presentations__: wopr -> blessed-contrib
+* __ASCii Animation__: [blessed](https://github.com/chjj/blessed) -> [Durdraw](http://cmang.org/durdraw/) -> [drawille](https://github.com/asciimoo/drawille)
+* __ASCii Banner__: [shellpic](https://github.com/larsjsol/shellpic) -> [TOIlet](https://github.com/cacalabs/toilet)
+* __ASCii Drawing__: [cadubi](https://github.com/statico/cadubi) -> [CAVE WALL](http://www-users.mat.umk.pl/~mckuk/cavewall/) -> [textdraw](https://qb40.github.io/textdraw/)
+* __ASCii Presentations__: [wopr](https://github.com/yaronn/wopr) -> [blessed-contrib](https://github.com/yaronn/blessed-contrib)
 * __Image to ASCii__: jp2a
 * __Video to ASCii__: libcaca -> AAlib
 
