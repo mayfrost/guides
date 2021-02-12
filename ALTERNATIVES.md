@@ -278,10 +278,10 @@ Note: All this terminals are compatible with wayland
 * __Serial Monitoring__: [slsnif](https://github.com/aeruder/slsnif) -> [interceptty](https://github.com/geoffmeyers/interceptty) -> [ttylog](https://github.com/rocasa/ttylog)
 * __System Latency__: [LatencyTOP](https://github.com/namhyung/latencytop)
 * __System Monitor__: [HardInfo](https://github.com/lpereira/hardinfo) -> [dool](https://github.com/scottchiefbaker/dool) -> [XFCE4-TaskManager](https://docs.xfce.org/apps/xfce4-taskmanager/start) -> [atop](https://github.com/Atoptool/atop) -> [LxTask](https://wiki.lxde.org/en/LXTask) -> [xosview](http://xosview.sourceforge.net/#) -> [BashTop](https://github.com/aristocratos/bashtop) -> [htop](https://htop.dev/) -> [nmon](http://nmon.sourceforge.net/pmwiki.php) -> [px](https://github.com/walles/px) 
-* __User Monitoring__: [wuzzah](https://www.cs.swarthmore.edu/~finney/proj/wuzzah/) -> [Whowatch](https://github.com/mtsuszycki/whowatch/) -> [acct](http://savannah.gnu.org/projects/acct/)
-* __Web Log Analytics__: [AWStats](http://www.awstats.org/) -> [W3Perl](http://www.w3perl.com/) -> [Analog](http://www.web42.com/analog/) -> [pmacct](https://github.com/pmacct/pmacct)
-* __Web State Monitor__: Nagios (+ NagVis) -> Sysmond -> [sysmon](https://web.archive.org/web/20070602050243/http://pubpages.unh.edu/~pas/hacks/sysmon/)
-* __Wi-Fi Network Monitor__: wavemon
+* __User Monitoring__: [Whowatch](https://github.com/mtsuszycki/whowatch/) -> [acct](http://savannah.gnu.org/projects/acct/)
+* __Web Log Analytics__: [AWStats](http://www.awstats.org/) -> [pmacct](https://github.com/pmacct/pmacct)
+* __Web State Monitor__: [Nagios](https://www.nagios.org/) (+ NagVis) 
+* __Wi-Fi Network Monitor__: [wavemon](https://github.com/uoaerg/wavemon)
 
 ## Multimedia
 ### ASCii Art
