@@ -289,11 +289,11 @@ Note: All this terminals are compatible with wayland
 * __ASCii Banner__: [shellpic](https://github.com/larsjsol/shellpic) -> [TOIlet](https://github.com/cacalabs/toilet)
 * __ASCii Drawing__: [cadubi](https://github.com/statico/cadubi) -> [CAVE WALL](http://www-users.mat.umk.pl/~mckuk/cavewall/) -> [textdraw](https://qb40.github.io/textdraw/)
 * __ASCii Presentations__: [wopr](https://github.com/yaronn/wopr) -> [blessed-contrib](https://github.com/yaronn/blessed-contrib)
-* __Image to ASCii__: jp2a
-* __Video to ASCii__: libcaca -> AAlib
+* __Image to ASCii__: [jp2a](https://github.com/cslarsen/jp2a)
+* __Video to ASCii__: [libcaca](https://github.com/cacalabs/libcaca)
 
 ### Audio
-* __Audio Editing__: Audacity -> Snd -> [Ecasound](https://directory.fsf.org/wiki/Ecasound) -> [SoX](http://sox.sourceforge.net/)
+* __Audio Editing__: [Audacity](https://www.audacityteam.org/) -> [Kwave](https://sourceforge.net/projects/kwave/) -> [Snd](https://ccrma.stanford.edu/software/snd/) -> [Ecasound](http://eca.cx/ecasound/) -> [Gnome Wave Cleaner](https://sourceforge.net/projects/gwc/) -> [EKO](http://semiletov.org/eko/) -> [SoX](http://sox.sourceforge.net/)
 * __Audio Effect Plugins__: awesfx (SoundFont), Vamp, [zam-plugins](http://www.zamaudio.com/?p=870) (LADSPA/LV2/VST/JACK), [LV2](http://lv2plug.in/) (x42-plugins), [LADSPA](http://ccrma.stanford.edu/planetccrma/software/ladspaworld.html) (tap-plugins), [DSSI](http://dssi.sourceforge.net/) (dssi-utils, dssi-vst), ALSA plugins (alsa-plugins)
 * __Background Sound__: GNU GTick -> Ambient Noise -> ctronome
 * __Digital Audio Workstation__: Rosegarden -> Ardour -> LMMS
