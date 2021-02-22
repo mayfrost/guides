@@ -294,10 +294,10 @@ Note: All this terminals are compatible with wayland
 
 ### Audio
 * __Audio Editing__: [Audacity](https://www.audacityteam.org/) -> [Kwave](https://sourceforge.net/projects/kwave/) -> [Snd](https://ccrma.stanford.edu/software/snd/) -> [Ecasound](http://eca.cx/ecasound/) -> [Gnome Wave Cleaner](https://sourceforge.net/projects/gwc/) -> [EKO](http://semiletov.org/eko/) -> [SoX](http://sox.sourceforge.net/)
-* __Audio Effect Plugins__: awesfx (SoundFont), Vamp, [zam-plugins](http://www.zamaudio.com/?p=870) (LADSPA/LV2/VST/JACK), [LV2](http://lv2plug.in/) (x42-plugins), [LADSPA](http://ccrma.stanford.edu/planetccrma/software/ladspaworld.html) (tap-plugins), [DSSI](http://dssi.sourceforge.net/) (dssi-utils, dssi-vst), ALSA plugins (alsa-plugins)
-* __Background Sound__: GNU GTick -> Ambient Noise -> ctronome
-* __Digital Audio Workstation__: Rosegarden -> Ardour -> LMMS
-* __DJing__: Mixxx
+* __Audio Effect Plugins__: [awesfx](https://github.com/tiwai/awesfx) (SoundFont), [Vamp](https://www.vamp-plugins.org/), [zam-plugins](http://www.zamaudio.com/?p=976) (LADSPA/LV2/VST/JACK), [LV2](http://lv2plug.in/) (x42-plugins), [LADSPA](http://www.ladspa.org/) (tap-plugins), ALSA plugins (alsa-plugins)
+* __Background Sound__: [GNU GTick](https://www.antcom.de/gtick/)
+* __Digital Audio Workstation__: [Rosegarden](https://www.rosegardenmusic.com/) -> [Ardour](https://ardour.org/) -> [LMMS](https://lmms.io/)
+* __DJing__: [Mixxx](https://mixxx.org/)
 * __Ear Training__: LenMus -> GNU Solfege
 * __Multiple Audio Streams__: pulseaudio -> [apulse](https://github.com/i-rinat/apulse) -> ALSA (aloop, Softvol, Dmix)
 * __Music Player__: Audacious (+ [Winamp Classic skin](https://www.gnome-look.org/content/show.php/Winamp+Classic+skin+for+Audacious?content=135799) + GJay) -> Clementine -> [Open Cubic Player](http://stian.cubic.org/project-ocp.php) -> MPD (vimus/ncmpcpp) -> cmus -> [mp3blaster](http://www.mp3blaster.org/) (runs with "aoss mp3blaster" or compiled with ALSA) -> MikMod -> [MOC](http://moc.daper.net/) (+ moc-ffmpeg-plugin, [dmenu_mocp](https://github.com/pscha/dmenu_mocp)) -> simple audio daemon (sad)
