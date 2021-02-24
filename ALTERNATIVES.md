@@ -298,9 +298,9 @@ Note: All this terminals are compatible with wayland
 * __Background Sound__: [GNU GTick](https://www.antcom.de/gtick/)
 * __Digital Audio Workstation__: [Rosegarden](https://www.rosegardenmusic.com/) -> [Ardour](https://ardour.org/) -> [LMMS](https://lmms.io/)
 * __DJing__: [Mixxx](https://mixxx.org/)
-* __Ear Training__: LenMus -> GNU Solfege
-* __Multiple Audio Streams__: pulseaudio -> [apulse](https://github.com/i-rinat/apulse) -> ALSA (aloop, Softvol, Dmix)
-* __Music Player__: Audacious (+ [Winamp Classic skin](https://www.gnome-look.org/content/show.php/Winamp+Classic+skin+for+Audacious?content=135799) + GJay) -> Clementine -> [Open Cubic Player](http://stian.cubic.org/project-ocp.php) -> MPD (vimus/ncmpcpp) -> cmus -> [mp3blaster](http://www.mp3blaster.org/) (runs with "aoss mp3blaster" or compiled with ALSA) -> MikMod -> [MOC](http://moc.daper.net/) (+ moc-ffmpeg-plugin, [dmenu_mocp](https://github.com/pscha/dmenu_mocp)) -> simple audio daemon (sad)
+* __Ear Training__: [LenMus](http://www.lenmus.org/mws/noticias)
+* __Multiple Audio Streams__: [pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) -> [apulse](https://github.com/i-rinat/apulse) -> [ALSA](https://alsa-project.org/wiki/Main_Page) (aloop, Softvol, Dmix)
+* __Music Player__: [Nulloy](https://nulloy.com/) ->  [Audacious](https://audacious-media-player.org/) -> [MOC](http://moc.daper.net/) (+ moc-ffmpeg-plugin) -> [cmus](https://cmus.github.io/) -> [mp3blaster](http://www.mp3blaster.org/) (runs with "aoss mp3blaster" or compiled with ALSA) -> [Potamus](https://offog.org/code/potamus/) -> [MikMod](https://github.com/sezero/mikmod) -> [Quod Libet](https://quodlibet.readthedocs.io/en/latest/)
 * __Music Visualization__: [Spectrum3d](http://spectrum3d.sourceforge.net/) -> [Le Biniou](https://directory.fsf.org/wiki/Lebiniou) -> [projectM](http://projectm.sourceforge.net/) -> cava -> [cli-visualizer](https://github.com/dpayne/cli-visualizer)
 * __Scorewriter__: MuseScore -> LilyPond -> eTktab -> Emacs (lyqi) -> Philip's Music Writer (pmw) -> ABCmidi (abcpp + abc2prt + abcm2ps)
 * __Software Sampler__: LinuxSampler -> orDrumbox -> [Hydrogen](http://www.hydrogen-music.org/hcms/)
