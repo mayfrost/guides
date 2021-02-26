@@ -305,9 +305,9 @@ Note: All this terminals are compatible with wayland
 * __Scorewriter__: [MuseScore](https://musescore.org/en) -> [LilyPond](http://lilypond.org/) -> Emacs ([lyqi](https://github.com/nsceaux/lyqi)) -> [Philip's Music Writer (pmw)](http://quercite.dx.am/pmw.html) -> [abcMIDI](https://ifdo.ca/~seymour/runabc/top.html) (abcpp + abc2prt + abcm2ps)
 * __Software Sampler__: [LinuxSampler](http://www.linuxsampler.org/) -> [orDrumbox](https://www.ordrumbox.com/) -> [Hydrogen](http://hydrogen-music.org/)
 * __Synthesizer__: [AlsaModularSynth](http://alsamodular.sourceforge.net/) -> [ZynAddSubFX](http://zynaddsubfx.sourceforge.net/) -> [FluidSynth](https://www.fluidsynth.org/) (+ SoundFonts)
-* __System Sound Compatibility__: [WineASIO](https://sourceforge.net/projects/wineasio/), oss2jack, oss-compat, alsa-oss
-* __System Sound Extensions__: pulseaudio -> Jack (jack, jack-audio-connection-kit) -> ESound (esound-common)
-* __System Sound Utilities__: pavucontrol (pulseaudio) -> JACK Rack (for Jack) -> JAMin (for Jack) -> Qastools -> gnome-alsamixer -> aumix -> Rexima -> ALSA tools (alsa-tools, alsa-tools-gui) -> [Alsaequal](https://directory.fsf.org/wiki/Alsaequal) -> [alsa-utils](https://github.com/gittup/alsa-utils) (alsamixer, amixer, aplay, arecord)
+* __System Sound Compatibility__: oss-compat, alsa-oss
+* __System Sound Extensions__: [pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) -> [Jack](https://jackaudio.org/) (jack, jack-audio-connection-kit)
+* __System Sound Utilities__: [pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/) (pulseaudio) -> [Qastools](https://gitlab.com/sebholt/qastools) -> [ALSA tools](https://github.com/alsa-project/alsa-tools) (alsa-tools, alsa-tools-gui) -> [Alsaequal](https://github.com/raedwulf/alsaequal) -> [alsa-utils](https://github.com/alsa-project/alsa-utils) (alsamixer, amixer, aplay, arecord)
 * __Tonal Feature Analysis__: [CLAM Chordata](http://clam-project.org/) -> Sonic-> Spek -> Pause
 * __Tracker Editors__: [MilkyTracker](https://github.com/milkytracker/milkytracker) -> [Schism](https://github.com/schismtracker/schismtracker)
 * __Trackers__: [SID-Wizard](http://csdb.dk/release/?id=131846) -> [GoatTracker](https://sourceforge.net/projects/goattracker2/)
