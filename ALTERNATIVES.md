@@ -315,9 +315,9 @@ Note: All this terminals are compatible with wayland
 ### Image
 * __Bitmaps to Vector Conversion__: [AutoTrace](https://www.autotracer.org/) (webpage) -> [Potrace](https://directory.fsf.org/wiki/Potrace)
 * __Diagram Editor__: [Pencil Project](https://pencil.evolus.vn/) -> [Dia](https://gitlab.gnome.org/GNOME/dia/) -> [Graphviz](https://graphviz.org/)
-* __Digital Drawing (Bitmap Graphics)__: Krita -> MyPaint -> Xournal -> [XPaint](https://directory.fsf.org/wiki/Xpaint) -> [GrafX2](http://grafx2.chez.com/) / [uberpaint](https://github.com/trapd00r/uberpaint)
-* __Digital Drawing (Coloring)__: OpenColorIO -> deepcolor -> STYLE2PAINTS
-* __Digital Drawing (Fonts)__: FontForge
+* __Digital Drawing (Bitmap Graphics)__: [Krita](https://krita.org/en/) -> [MyPaint](http://mypaint.org/) -> [Xournal](http://xournal.sourceforge.net/) -> [XPaint](https://sourceforge.net/projects/sf-xpaint/) -> [GrafX2](http://grafx2.chez.com/)
+* __Digital Drawing (Coloring)__: [OpenColorIO](https://opencolorio.org/) -> [deepcolor](https://github.com/kvfrans/deepcolor) -> [Style2Paints](https://github.com/lllyasviel/style2paints)
+* __Digital Drawing (Fonts)__: [FontForge](https://fontforge.org/en-US/)
 * __Digital Drawing (Vector)__: Inkscape -> [Xfig](http://mcj.sourceforge.net/) -> gozer -> ImageMagick
 * __Fonts Conversion__: bdftopcf, PSF Tools, pcf2bdf, otf2bdf, bdf2psf
 * __Fractals and Random Computer Artwork__: [Mandelbulber](https://github.com/buddhi1980/mandelbulber2) -> Fyre -> Wassily
