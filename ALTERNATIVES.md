@@ -308,14 +308,13 @@ Note: All this terminals are compatible with wayland
 * __System Sound Compatibility__: oss-compat, alsa-oss
 * __System Sound Extensions__: [pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) -> [Jack](https://jackaudio.org/) (jack, jack-audio-connection-kit)
 * __System Sound Utilities__: [pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/) (pulseaudio) -> [Qastools](https://gitlab.com/sebholt/qastools) -> [ALSA tools](https://github.com/alsa-project/alsa-tools) (alsa-tools, alsa-tools-gui) -> [Alsaequal](https://github.com/raedwulf/alsaequal) -> [alsa-utils](https://github.com/alsa-project/alsa-utils) (alsamixer, amixer, aplay, arecord)
-* __Tonal Feature Analysis__: [CLAM Chordata](http://clam-project.org/) -> Sonic-> Spek -> Pause
 * __Tracker Editors__: [MilkyTracker](https://github.com/milkytracker/milkytracker) -> [Schism](https://github.com/schismtracker/schismtracker)
-* __Trackers__: [SID-Wizard](http://csdb.dk/release/?id=131846) -> [GoatTracker](https://sourceforge.net/projects/goattracker2/)
-* __Tray Icon__: Volume Icon -> Volti
+* __Trackers__: [SID-Wizard](https://csdb.dk/release/?id=165302) -> [GoatTracker](https://sourceforge.net/projects/goattracker2/)
+* __Tray Icon__: [Volume Icon](https://github.com/Maato/volumeicon) -> [Volti](https://github.com/gen2brain/volti)
 
 ### Image
-* __Bitmaps to Vector Conversion__: AutoTrace -> [Potrace](https://directory.fsf.org/wiki/Potrace)
-* __Diagram Editor__: Pencil Project -> Dia -> Graphviz
+* __Bitmaps to Vector Conversion__: [AutoTrace](https://www.autotracer.org/) (webpage) -> [Potrace](https://directory.fsf.org/wiki/Potrace)
+* __Diagram Editor__: [Pencil Project](https://pencil.evolus.vn/) -> [Dia](https://gitlab.gnome.org/GNOME/dia/) -> [Graphviz](https://graphviz.org/)
 * __Digital Drawing (Bitmap Graphics)__: Krita -> MyPaint -> Xournal -> [XPaint](https://directory.fsf.org/wiki/Xpaint) -> [GrafX2](http://grafx2.chez.com/) / [uberpaint](https://github.com/trapd00r/uberpaint)
 * __Digital Drawing (Coloring)__: OpenColorIO -> deepcolor -> STYLE2PAINTS
 * __Digital Drawing (Fonts)__: FontForge
