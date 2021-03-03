@@ -318,10 +318,10 @@ Note: All this terminals are compatible with wayland
 * __Digital Drawing (Bitmap Graphics)__: [Krita](https://krita.org/en/) -> [MyPaint](http://mypaint.org/) -> [Xournal](http://xournal.sourceforge.net/) -> [XPaint](https://sourceforge.net/projects/sf-xpaint/) -> [GrafX2](http://grafx2.chez.com/)
 * __Digital Drawing (Coloring)__: [OpenColorIO](https://opencolorio.org/) -> [deepcolor](https://github.com/kvfrans/deepcolor) -> [Style2Paints](https://github.com/lllyasviel/style2paints)
 * __Digital Drawing (Fonts)__: [FontForge](https://fontforge.org/en-US/)
-* __Digital Drawing (Vector)__: Inkscape -> [Xfig](http://mcj.sourceforge.net/) -> gozer -> ImageMagick
-* __Fonts Conversion__: bdftopcf, PSF Tools, pcf2bdf, otf2bdf, bdf2psf
-* __Fractals and Random Computer Artwork__: [Mandelbulber](https://github.com/buddhi1980/mandelbulber2) -> Fyre -> Wassily
-* __Image Editing__: RawTherapee -> darktable -> Gimp -> Netpbm -> [G'MIC](https://github.com/dtschump/gmic) -> GraphicsMagick -> ImageMagick (display, import) -> Gifsicle
+* __Digital Drawing (Vector)__: [Inkscape](https://inkscape.org/) -> [Xfig](http://mcj.sourceforge.net/) -> [ImageMagick](https://imagemagick.org/index.php)
+* __Fonts Conversion__: bdftopcf, [PSF Tools](https://www.seasip.info/Unix/PSF/), [pcf2bdf](https://github.com/ganaware/pcf2bdf), bdf2psf
+* __Fractals and Random Computer Artwork__: [Mandelbulber](https://github.com/buddhi1980/mandelbulber2)
+* __Image Editing__: [RawTherapee](https://www.rawtherapee.com/) -> [GraphicsMagick](http://www.graphicsmagick.org/) -> [Netpbm](https://sourceforge.net/projects/netpbm/) -> [Photoflare](https://photoflare.io/) -> [G'MIC](https://github.com/dtschump/gmic) -> [Gifsicle](https://github.com/kohler/gifsicle) -> [ImageMagick](https://imagemagick.org/index.php) (display, import)
 * __Image Optimizing__: OptiPNG -> pngcrush -> pngquant
 * __Image Viewer__: pqiv -> Feh -> imv -> sxiv -> [lsix](https://github.com/hackerb9/lsix) -> display (ImageMagick) -> [fim](http://www.nongnu.org/fbi-improved/) / [fbi (fbida)](https://github.com/fcarlier/fbida) -> idump
 * __Plotting__: Gnuplot -> Ngraph-gtk -> ygraph -> [PLplot](http://plplot.sourceforge.net/) -> FRTPLOT -> Picviz
