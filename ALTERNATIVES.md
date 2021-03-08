@@ -322,7 +322,7 @@ Note: All this terminals are compatible with wayland
 * __Fonts Conversion__: bdftopcf, [PSF Tools](https://www.seasip.info/Unix/PSF/), [pcf2bdf](https://github.com/ganaware/pcf2bdf), bdf2psf
 * __Fractals and Random Computer Artwork__: [Mandelbulber](https://github.com/buddhi1980/mandelbulber2)
 * __Image Editing__: [RawTherapee](https://www.rawtherapee.com/) -> [GraphicsMagick](http://www.graphicsmagick.org/) -> [Netpbm](https://sourceforge.net/projects/netpbm/) -> [Photoflare](https://photoflare.io/) -> [G'MIC](https://github.com/dtschump/gmic) -> [Gifsicle](https://github.com/kohler/gifsicle) -> [ImageMagick](https://imagemagick.org/index.php) (display, import)
-* __Image Optimizing__: OptiPNG -> pngcrush -> pngquant
+* __Image Optimizing__: [OptiPNG](http://optipng.sourceforge.net/) -> [pngcrush](https://pmt.sourceforge.io/pngcrush/) -> [pngquant](https://pngquant.org/)
 * __Image Viewer__: pqiv -> Feh -> imv -> sxiv -> [lsix](https://github.com/hackerb9/lsix) -> display (ImageMagick) -> [fim](http://www.nongnu.org/fbi-improved/) / [fbi (fbida)](https://github.com/fcarlier/fbida) -> idump
 * __Plotting__: Gnuplot -> Ngraph-gtk -> ygraph -> [PLplot](http://plplot.sourceforge.net/) -> FRTPLOT -> Picviz
 * __Screenshots__: Shutter -> scrot -> maim -> shot.sh -> import (ImageMagick) -> [fbcat](https://github.com/jwilk/fbcat) (FBGrab)
