@@ -328,7 +328,7 @@ Note: All this terminals are compatible with wayland
 * __Screenshots__: [Shutter](https://shutter-project.org/) -> [scrot](https://github.com/resurrecting-open-source-projects/scrot) -> [maim](https://github.com/naelstrof/maim) -> import (ImageMagick) -> [fbcat](https://github.com/jwilk/fbcat) (FBGrab) | [grim](https://github.com/emersion/grim) (for wayland)
 
 ### Metadata
-* __Metadata__: [Easytag](https://wiki.gnome.org/Apps/EasyTAG) -> [Beets](https://github.com/beetbox/beets) -> MAT -> Exiv2 -> MediaInfo -> viexif -> [ExifTool](http://exiftool.sourceforge.net/) -> exif
+* __Metadata__: [Easytag](https://wiki.gnome.org/Apps/EasyTAG) -> [Beets](https://github.com/beetbox/beets) -> [MAT2](https://0xacab.org/jvoisin/mat2) -> [Exiv2](https://www.exiv2.org/) -> [MediaInfo](https://github.com/MediaArea/MediaInfo) -> [viexif](https://github.com/unterwulf/viexif) -> [ExifTool](http://exiftool.sourceforge.net/) -> exif
 
 ### Video
 * __Compositing__: [CinePaint](http://www.cinepaint.org/) -> [Natron](https://github.com/MrKepzie/Natron)
