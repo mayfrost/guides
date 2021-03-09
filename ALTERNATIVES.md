@@ -323,9 +323,9 @@ Note: All this terminals are compatible with wayland
 * __Fractals and Random Computer Artwork__: [Mandelbulber](https://github.com/buddhi1980/mandelbulber2)
 * __Image Editing__: [RawTherapee](https://www.rawtherapee.com/) -> [GraphicsMagick](http://www.graphicsmagick.org/) -> [Netpbm](https://sourceforge.net/projects/netpbm/) -> [Photoflare](https://photoflare.io/) -> [G'MIC](https://github.com/dtschump/gmic) -> [Gifsicle](https://github.com/kohler/gifsicle) -> [ImageMagick](https://imagemagick.org/index.php) (display, import)
 * __Image Optimizing__: [OptiPNG](http://optipng.sourceforge.net/) -> [pngcrush](https://pmt.sourceforge.io/pngcrush/) -> [pngquant](https://pngquant.org/)
-* __Image Viewer__: pqiv -> Feh -> imv -> sxiv -> [lsix](https://github.com/hackerb9/lsix) -> display (ImageMagick) -> [fim](http://www.nongnu.org/fbi-improved/) / [fbi (fbida)](https://github.com/fcarlier/fbida) -> idump
-* __Plotting__: Gnuplot -> Ngraph-gtk -> ygraph -> [PLplot](http://plplot.sourceforge.net/) -> FRTPLOT -> Picviz
-* __Screenshots__: Shutter -> scrot -> maim -> shot.sh -> import (ImageMagick) -> [fbcat](https://github.com/jwilk/fbcat) (FBGrab)
+* __Image Viewer__: [pqiv](https://github.com/phillipberndt/pqiv) -> [Feh](https://feh.finalrewind.org/) -> [imv](https://github.com/eXeC64/imv) -> [sxiv](https://github.com/muennich/sxiv) -> [lsix](https://github.com/hackerb9/lsix) -> display (ImageMagick) -> [fim](http://www.nongnu.org/fbi-improved/) -> [idump](https://github.com/uobikiemukot/idump)
+* __Plotting__: [Gnuplot](http://www.gnuplot.info/) -> [Ngraph-gtk](https://htrb.github.io/ngraph-gtk/) -> [PLplot](http://plplot.sourceforge.net/)
+* __Screenshots__: [Shutter](https://shutter-project.org/) -> [scrot](https://github.com/resurrecting-open-source-projects/scrot) -> [maim](https://github.com/naelstrof/maim) -> import (ImageMagick) -> [fbcat](https://github.com/jwilk/fbcat) (FBGrab) | [grim](https://github.com/emersion/grim) (for wayland)
 
 ### Metadata
 * __Metadata__: [Easytag](https://wiki.gnome.org/Apps/EasyTAG) -> [Beets](https://github.com/beetbox/beets) -> MAT -> Exiv2 -> MediaInfo -> viexif -> [ExifTool](http://exiftool.sourceforge.net/) -> exif
