@@ -332,12 +332,11 @@ Note: All this terminals are compatible with wayland
 
 ### Video
 * __Compositing__: [CinePaint](http://www.cinepaint.org/) -> [Natron](https://github.com/MrKepzie/Natron)
-* __Datamoshing__: [Autodatamosh](https://github.com/grampajoe/Autodatamosh)
 * __Digital Animation (2D)__: [Synfig](https://www.synfig.org/) -> [OpenToonz](https://github.com/opentoonz/opentoonz)
-* __Digital Animation (3D)__: Blender
-* __Flash Player__: Lightspark -> Gnash
-* __HDR (High-Dynamic-Range)__: pfstools
-* __Screencasting__: Open Broadcaster Studio -> SimpleScreenRecorder -> XVidCap -> glc -> [FFmpeg](https://www.linuxquestions.org/questions/linux-general-1/record-using-framebuffer-video-grabber-4175464119/) -> [ttyrec](https://github.com/mjording/ttyrec) (+ [seq2gif](https://github.com/saitoha/seq2gif))
+* __Digital Animation (3D)__: [Blender](https://www.blender.org/)
+* __Flash Player__: [Lightspark](https://lightspark.github.io/)
+* __HDR (High-Dynamic-Range)__: [pfstools](https://github.com/Steve132/pfstools)
+* __Screencasting__: [Open Broadcaster Studio](https://obsproject.com/) -> [SimpleScreenRecorder](https://github.com/MaartenBaert/ssr) -> [FFmpeg](https://www.linuxquestions.org/questions/linux-general-1/record-using-framebuffer-video-grabber-4175464119/)
 * __Video Editing__: Kdenlive -> Avidemux -> OpenShot -> Cinelerra-cv -> [Melt](https://www.mltframework.org/docs/melt/) -> [AvxSynth](https://github.com/avxsynth/avxsynth) -> blind -> FFmpeg
 * __Video Effects Plugins__: Frei0r
 * __Video Player__: nvlc (VLC) -> MPV -> [MPlayer](https://mplayerhq.hu) -> fbff -> ffplay
