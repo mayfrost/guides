@@ -336,7 +336,7 @@ Note: All this terminals are compatible with wayland
 * __Digital Animation (3D)__: [Blender](https://www.blender.org/)
 * __Flash Player__: [Lightspark](https://lightspark.github.io/)
 * __HDR (High-Dynamic-Range)__: [pfstools](https://github.com/Steve132/pfstools)
-* __Screencasting__: [Open Broadcaster Studio](https://obsproject.com/) -> [SimpleScreenRecorder](https://github.com/MaartenBaert/ssr) -> [FFmpeg](https://www.linuxquestions.org/questions/linux-general-1/record-using-framebuffer-video-grabber-4175464119/)
+* __Screencasting__: [Open Broadcaster Studio](https://obsproject.com/) -> [SimpleScreenRecorder](https://github.com/MaartenBaert/ssr) -> [ffscreencast](https://github.com/cytopia/ffscreencast) -> [FFmpeg](https://www.linuxquestions.org/questions/linux-general-1/record-using-framebuffer-video-grabber-4175464119/)
 * __Video Editing__: Kdenlive -> Avidemux -> OpenShot -> Cinelerra-cv -> [Melt](https://www.mltframework.org/docs/melt/) -> [AvxSynth](https://github.com/avxsynth/avxsynth) -> blind -> FFmpeg
 * __Video Effects Plugins__: Frei0r
 * __Video Player__: nvlc (VLC) -> MPV -> [MPlayer](https://mplayerhq.hu) -> fbff -> ffplay
