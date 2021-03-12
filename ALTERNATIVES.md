@@ -338,10 +338,10 @@ Note: All this terminals are compatible with wayland
 * __HDR (High-Dynamic-Range)__: [pfstools](https://github.com/Steve132/pfstools)
 * __Screencasting__: [Open Broadcaster Studio](https://obsproject.com/) -> [SimpleScreenRecorder](https://github.com/MaartenBaert/ssr) -> [ffscreencast](https://github.com/cytopia/ffscreencast) -> [FFmpeg](https://www.linuxquestions.org/questions/linux-general-1/record-using-framebuffer-video-grabber-4175464119/)
 * __Video Editing__: [Avidemux](http://fixounet.free.fr/avidemux/) -> [Flowblade](https://jliljebl.github.io/flowblade/) -> [Shotcut](https://www.shotcut.org/) -> [Olive](https://www.olivevideoeditor.org/) -> [Pitivi](http://www.pitivi.org/) -> [Kdenlive](https://kdenlive.org/en/) -> [blind](https://tools.suckless.org/blind/) -> [Melt](https://www.mltframework.org/) -> FFmpeg
-* __Video Effects Plugins__: Frei0r
-* __Video Player__: nvlc (VLC) -> MPV -> [MPlayer](https://mplayerhq.hu) -> fbff -> ffplay
-* __Video to gif__: Video2Gif -> QGifer -> convert (ImageMagick) -> FFmpeg
-* __Video Transcoding__: [HandBrake](https://handbrake.fr/) -> WinFF -> FFmpeg / avconv
+* __Video Effects Plugins__: [Frei0r](https://frei0r.dyne.org/)
+* __Video Player__: [VLC](https://www.videolan.org/index.html) -> [MPV](https://mpv.io/) -> [Parole](https://docs.xfce.org/apps/parole/start) -> [Audience](https://launchpad.net/audience) -> [fbff](https://github.com/aligrudi/fbff) -> ffplay
+* __Video to gif__: [Video2Gif](https://github.com/matthewfeickert/video2gif) -> [QGifer](https://github.com/Apkawa/QGifer) -> convert (ImageMagick) -> FFmpeg
+* __Video Transcoding__: [HandBrake](https://handbrake.fr/) -> [WinFF](https://github.com/WinFF/winff) -> FFmpeg / avconv
 
 ## Network Setup
 * __Bandwidth Saver__: [Wondershaper](https://github.com/mayfrost/wondershaper)
