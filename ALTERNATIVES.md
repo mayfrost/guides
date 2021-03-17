@@ -349,10 +349,9 @@ Note: All this terminals are compatible with wayland
 * __Bluetooth__: [Bluez-tools](https://github.com/khvzak/bluez-tools)
 * __DHCP Client__: dhclient -> [dhcpcd](https://roy.marples.name/projects/dhcpcd/)
 * __DNS Encryption__: DNSSEC, DNSCrypt
-* __DNS Resolution__: dnsmasq -> Unbound + NDS -> BIND9 -> djbdns
-* __MAC Manipulation__: [GNU MAC Changer (macchanger)](https://github.com/alobbs/macchanger)
-* __Network Encryption__: OpenSSL -> [LibreSSL](https://directory.fsf.org/wiki/Libressl) -> GnuTLS -> IPsec / [SAE](https://github.com/cozybit/authsae) (802.11s)
-* __Network Manager__: Wicd -> NetworkManager -> ConnMan -> [SetNet](http://kalos.mine.nu/setnet/)
+* __DNS Resolution__: [dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) -> [Unbound](https://www.nlnetlabs.nl/projects/unbound/about/) + NDS -> [BIND9](https://www.bind9.net/download)
+* __Network Encryption__: [OpenSSL](https://www.openssl.org/) -> [LibreSSL](https://www.libressl.org/) -> [GnuTLS](https://www.gnutls.org/) -> IPsec / [SAE](https://github.com/cozybit/authsae) (802.11s)
+* __Network Manager__: [Wicd](http://wicd.sourceforge.net/) -> NetworkManager -> [ConnMan](https://git.kernel.org/pub/scm/network/connman/connman.git/) -> [SetNet](https://katolaz.net/setnet/index.html)
 * __Networking Tools__: WvDial -> [ethtool](https://mirrors.edge.kernel.org/pub/software/network/ethtool/) -> iproute2 (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (ifconfig, netstat)
 * __Point-to-Point Protocol__: Point-to-Point Protocol daemon
 * __Wireless Tools__: rfkill, iw -> [Wireless Tools for Linux](https://hewlettpackard.github.io/wireless-tools/Tools.html), iwd -> [wpa_supplicant](https://w1.fi/wpa_supplicant/)
