@@ -352,13 +352,13 @@ Note: All this terminals are compatible with wayland
 * __DNS Resolution__: [dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) -> [Unbound](https://www.nlnetlabs.nl/projects/unbound/about/) + NDS -> [BIND9](https://www.bind9.net/download)
 * __Network Encryption__: [OpenSSL](https://www.openssl.org/) -> [LibreSSL](https://www.libressl.org/) -> [GnuTLS](https://www.gnutls.org/) -> IPsec / [SAE](https://github.com/cozybit/authsae) (802.11s)
 * __Network Manager__: [Wicd](http://wicd.sourceforge.net/) -> NetworkManager -> [ConnMan](https://git.kernel.org/pub/scm/network/connman/connman.git/) -> [SetNet](https://katolaz.net/setnet/index.html)
-* __Networking Tools__: WvDial -> [ethtool](https://mirrors.edge.kernel.org/pub/software/network/ethtool/) -> iproute2 (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (ifconfig, netstat)
-* __Point-to-Point Protocol__: Point-to-Point Protocol daemon
-* __Wireless Tools__: rfkill, iw -> [Wireless Tools for Linux](https://hewlettpackard.github.io/wireless-tools/Tools.html), iwd -> [wpa_supplicant](https://w1.fi/wpa_supplicant/)
+* __Networking Tools__: [ethtool](https://mirrors.edge.kernel.org/pub/software/network/ethtool/) -> [iproute2](https://github.com/shemminger/iproute2) (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (ifconfig, netstat)
+* __Point-to-Point Protocol__: Point-to-Point Protocol daemon ([ppp](https://ppp.samba.org/))
+* __Wireless Tools__: rfkill, iw -> [wpa_supplicant](https://w1.fi/wpa_supplicant/)
 
 ## Office
-* __Address book__: abook
-* __Desktop Publishing__: Scribus
+* __Address book__: [abook](https://github.com/hhirsch/abook)
+* __Desktop Publishing__: [Scribus](https://www.scribus.net/)
 * __Dictionary__: Goldendict -> Artha -> [Dico](https://directory.fsf.org/wiki/Dico), [dict](http://www.dict.org/w/software/software) -> wtf
 * __Document Format Conversion__: unoconv -> Pandoc -> Yodl -> GNU a2ps -> inf2manp
 * __Document Processor__: Emacs (AUCTeX) -> LyX -> [GNU TeXmacs](http://texmacs.org/tmweb/home/welcome.en.html)
