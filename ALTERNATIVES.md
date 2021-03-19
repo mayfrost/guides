@@ -359,8 +359,8 @@ Note: All this terminals are compatible with wayland
 ## Office
 * __Address book__: [abook](https://github.com/hhirsch/abook)
 * __Desktop Publishing__: [Scribus](https://www.scribus.net/)
-* __Dictionary__: Goldendict -> Artha -> [Dico](https://directory.fsf.org/wiki/Dico), [dict](http://www.dict.org/w/software/software) -> wtf
-* __Document Format Conversion__: unoconv -> Pandoc -> Yodl -> GNU a2ps -> inf2manp
+* __Dictionary__: [Goldendict](https://github.com/goldendict/goldendict) -> [Artha](https://sourceforge.net/projects/artha/) -> [Dico](https://puszcza.gnu.org.ua/software/dico/)
+* __Document Format Conversion__: [unoconv](https://github.com/unoconv/unoconv) -> [Pandoc](https://pandoc.org/) -> [inf2manp](https://gitlab.com/darfo/inf2manp)
 * __Document Processor__: Emacs (AUCTeX) -> LyX -> [GNU TeXmacs](http://texmacs.org/tmweb/home/welcome.en.html)
 * __Ebook Utilities__: DeDRM_tools
 * __Ebook Utilities (CHM)__: xCHM -> [CHMLib](http://www.jedrea.com/chmlib/) (extract_chmLib)
