@@ -361,9 +361,9 @@ Note: All this terminals are compatible with wayland
 * __Desktop Publishing__: [Scribus](https://www.scribus.net/)
 * __Dictionary__: [Goldendict](https://github.com/goldendict/goldendict) -> [Artha](https://sourceforge.net/projects/artha/) -> [Dico](https://puszcza.gnu.org.ua/software/dico/)
 * __Document Format Conversion__: [unoconv](https://github.com/unoconv/unoconv) -> [Pandoc](https://pandoc.org/) -> [inf2manp](https://gitlab.com/darfo/inf2manp)
-* __Document Processor__: Emacs (AUCTeX) -> LyX -> [GNU TeXmacs](http://texmacs.org/tmweb/home/welcome.en.html)
-* __Ebook Utilities__: DeDRM_tools
-* __Ebook Utilities (CHM)__: xCHM -> [CHMLib](http://www.jedrea.com/chmlib/) (extract_chmLib)
+* __Document Processor__: Emacs ([AUCTeX](https://www.gnu.org/software/auctex/)) -> [LyX](https://www.lyx.org/) -> [GNU TeXmacs](http://texmacs.org/tmweb/home/welcome.en.html)
+* __Ebook Utilities__: [DeDRM tools](https://github.com/apprenticeharper/DeDRM_tools)
+* __Ebook Utilities (CHM)__: [xCHM](https://xchm.sourceforge.io/)
 * __Ebook Utilities (Epub)__: Ebook Tools (ebook-tools)
 * __Ebook Utilities (PDF)__: [PDF SaM](https://github.com/torakiki/pdfsam) -> Poppler -> PDFtk
 * __Ebook Utilities (PostScript)__: PSUtils -> ghostscript
