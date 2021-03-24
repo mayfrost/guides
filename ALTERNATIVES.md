@@ -364,8 +364,8 @@ Note: All this terminals are compatible with wayland
 * __Document Processor__: Emacs ([AUCTeX](https://www.gnu.org/software/auctex/)) -> [LyX](https://www.lyx.org/) -> [GNU TeXmacs](http://texmacs.org/tmweb/home/welcome.en.html)
 * __Ebook Utilities__: [DeDRM tools](https://github.com/apprenticeharper/DeDRM_tools)
 * __Ebook Utilities (CHM)__: [xCHM](https://xchm.sourceforge.io/)
-* __Ebook Utilities (Epub)__: Ebook Tools (ebook-tools)
-* __Ebook Utilities (PDF)__: [PDF SaM](https://github.com/torakiki/pdfsam) -> Poppler -> PDFtk
+* __Ebook Utilities (Epub)__: Ebook Tools ([ebook-tools](https://github.com/na--/ebook-tools))
+* __Ebook Utilities (PDF)__: [PDF SaM](https://github.com/torakiki/pdfsam) -> [PDFtk-java](https://gitlab.com/pdftk-java/pdftk) -> [PDF Mix Tool](https://scarpetta.eu/pdfmixtool/) -> [PDFarranger](https://github.com/pdfarranger/pdfarranger) -> [PyPDF2](https://github.com/mstamy2/PyPDF2) -> [stapler](https://github.com/hellerbarde/stapler) -> [krop](https://arminstraub.com/software/krop-screenshots)
 * __Ebook Utilities (PostScript)__: PSUtils -> ghostscript
 * __Ebook Viewer__: Calibre -> Okular -> Zathura -> JFBView / [fimgs (fim)](http://www.nongnu.org/fbi-improved/) / [fbgs (fbida)](https://www.kraxel.org/blog/linux/fbida/) / fbpdf
 * __Flashcards__: awk flashcards -> Anki
