@@ -366,9 +366,9 @@ Note: All this terminals are compatible with wayland
 * __Ebook Utilities (CHM)__: [xCHM](https://xchm.sourceforge.io/)
 * __Ebook Utilities (Epub)__: Ebook Tools ([ebook-tools](https://github.com/na--/ebook-tools))
 * __Ebook Utilities (PDF)__: [PDF SaM](https://github.com/torakiki/pdfsam) -> [PDFtk-java](https://gitlab.com/pdftk-java/pdftk) -> [PDF Mix Tool](https://scarpetta.eu/pdfmixtool/) -> [PDFarranger](https://github.com/pdfarranger/pdfarranger) -> [PyPDF2](https://github.com/mstamy2/PyPDF2) -> [stapler](https://github.com/hellerbarde/stapler) -> [krop](https://arminstraub.com/software/krop-screenshots)
-* __Ebook Utilities (PostScript)__: PSUtils -> ghostscript
-* __Ebook Viewer__: Calibre -> Okular -> Zathura -> JFBView / [fimgs (fim)](http://www.nongnu.org/fbi-improved/) / [fbgs (fbida)](https://www.kraxel.org/blog/linux/fbida/) / fbpdf
-* __Flashcards__: awk flashcards -> Anki
+* __Ebook Utilities (PostScript)__: [ghostscript](https://www.ghostscript.com/)
+* __Ebook Viewer__: [Calibre](https://calibre-ebook.com/) -> [Okular](https://okular.kde.org/) -> [Zathura](https://pwmt.org/projects/zathura/) -> [JFBView](https://github.com/jichu4n/jfbview) / [fimgs (fim)](http://www.nongnu.org/fbi-improved/) / [fbgs (fbida)](https://www.kraxel.org/blog/linux/fbida/) / fbpdf
+* __Flashcards__: [Anki](https://apps.ankiweb.net/) -> [iGNUit](https://trmusson.dreamhosters.com/programs.html#ignuit) -> [The Mnemosyne Project](https://mnemosyne-proj.org/)
 * __Gamification__: HabitRPG -> Habitica
 * __Mind Mapping__: FreeMind
 * __Office Suites__: LibreOffice -> [Siag Office](http://siag.nu/) -> [catdoc](https://github.com/petewarden/catdoc) (xls2csv, catppt, wordview)
