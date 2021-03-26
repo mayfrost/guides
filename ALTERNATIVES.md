@@ -369,9 +369,9 @@ Note: All this terminals are compatible with wayland
 * __Ebook Utilities (PostScript)__: [ghostscript](https://www.ghostscript.com/)
 * __Ebook Viewer__: [Calibre](https://calibre-ebook.com/) -> [Okular](https://okular.kde.org/) -> [Zathura](https://pwmt.org/projects/zathura/) -> [JFBView](https://github.com/jichu4n/jfbview) / [fimgs (fim)](http://www.nongnu.org/fbi-improved/) / [fbgs (fbida)](https://www.kraxel.org/blog/linux/fbida/) / fbpdf
 * __Flashcards__: [Anki](https://apps.ankiweb.net/) -> [iGNUit](https://trmusson.dreamhosters.com/programs.html#ignuit) -> [The Mnemosyne Project](https://mnemosyne-proj.org/)
-* __Gamification__: HabitRPG -> Habitica
-* __Mind Mapping__: FreeMind
-* __Office Suites__: LibreOffice -> [Siag Office](http://siag.nu/) -> [catdoc](https://github.com/petewarden/catdoc) (xls2csv, catppt, wordview)
+* __Gamification__: [Habitica](https://habitica.com/static/home)
+* __Mind Mapping__: [VYM](https://www.insilmaril.de/vym/#mc:0,bo:4,bo:0) -> [Semantik](https://waf.io/semantik.html) -> [Minder](https://github.com/phase1geo/Minder) -> [Heimer](https://github.com/juzzlin/Heimer) 
+* __Office Suites__: [ONLYOFFICE](https://www.onlyoffice.com/) -> [LibreOffice](https://www.libreoffice.org/) -> [OpenOffice](https://www.openoffice.org/) -> [Calligra](https://calligra.org/)
 * __Outliner__: [TreeSheets](https://github.com/aardappel/treesheets) -> Vault 3 -> GJots2 -> TuDu -> Emacs (Org-mode) -> Vim (Vimoutliner or Vim-orgmode) -> [hnb](http://hnb.sourceforge.net/Screen-shots/) -> snb
 * __Personal Accounting__: GnuCash -> Ledger -> [GNU Pem](https://www.gnu.org/software/pem/)
 * __Personal Assistant__: [Mycroft](https://mycroft.ai/) -> Lucida (aka Sirius) -> [betty](https://github.com/pickhardt/betty)
