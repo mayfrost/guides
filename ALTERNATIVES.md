@@ -372,10 +372,10 @@ Note: All this terminals are compatible with wayland
 * __Gamification__: [Habitica](https://habitica.com/static/home)
 * __Mind Mapping__: [VYM](https://www.insilmaril.de/vym/#mc:0,bo:4,bo:0) -> [Semantik](https://waf.io/semantik.html) -> [Minder](https://github.com/phase1geo/Minder) -> [Heimer](https://github.com/juzzlin/Heimer) 
 * __Office Suites__: [ONLYOFFICE](https://www.onlyoffice.com/) -> [LibreOffice](https://www.libreoffice.org/) -> [OpenOffice](https://www.openoffice.org/) -> [Calligra](https://calligra.org/)
-* __Outliner__: [TreeSheets](https://github.com/aardappel/treesheets) -> Vault 3 -> GJots2 -> TuDu -> Emacs (Org-mode) -> Vim (Vimoutliner or Vim-orgmode) -> [hnb](http://hnb.sourceforge.net/Screen-shots/) -> snb
-* __Personal Accounting__: GnuCash -> Ledger -> [GNU Pem](https://www.gnu.org/software/pem/)
-* __Personal Assistant__: [Mycroft](https://mycroft.ai/) -> Lucida (aka Sirius) -> [betty](https://github.com/pickhardt/betty)
-* __Personal Organizer__: Task Coach -> Wyrd -> wtf -> Taskwarrior -> [calcurse](https://directory.fsf.org/wiki/Calcurse) -> todo.txt-cli -> when -> cal
+* __Outliner__: [TreeSheets](https://github.com/aardappel/treesheets) -> [Vault 3](https://www.ericbt.com/vault3) -> [GJots2](http://bhepple.freeshell.org/gjots/) -> Emacs (Org-mode) -> Vim (Vimoutliner or Vim-orgmode) -> [snb](https://github.com/drbig/snb)
+* __Personal Accounting__: [GnuCash](https://www.gnucash.org/) -> [Ledger](https://www.ledger-cli.org/)
+* __Personal Assistant__: [Mycroft](https://mycroft.ai/) -> [Lucida](https://github.com/claritylab/lucida) (aka Sirius) -> [betty](https://github.com/pickhardt/betty)
+* __Personal Organizer__: [Task Coach](https://www.taskcoach.org/) -> [Taskwarrior](https://taskwarrior.org/) -> [calcurse](https://calcurse.org/) -> [todo.txt-cli](https://github.com/todotxt/todo.txt-cli)
 * __Presentation__: Beamer -> Sozi -> [Text Presentation Program](https://github.com/akrennmair/tpp)
 * __Repetitive Strain Injury__: [Workrave](https://directory.fsf.org/wiki/Workrave)
 * __Speed Reading__: Flinks -> WordFlashReader -> GnomeRSVP -> spread0r -> [speedread](https://github.com/pasky/speedread)
