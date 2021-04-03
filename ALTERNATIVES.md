@@ -383,11 +383,11 @@ Note: All this terminals are compatible with wayland
 * __Spreadsheets__: [Libreoffice Calc](https://www.libreoffice.org/discover/calc/) -> [Gnumeric](http://www.gnumeric.org/) -> [SC-IM](https://github.com/andmarti1424/sc-im)
 * __Text Editor__: [Neovim](https://neovim.io/) -> [Vim](https://www.vim.org/) -> [wxMEdit](https://wxmedit.github.io/) -> [yi](https://github.com/yi-editor/yi) -> [vy](https://github.com/vyapp/vy) -> [JOE](https://joe-editor.sourceforge.io/) -> [AMP](https://github.com/jmacdonald/amp) -> [gedit](https://wiki.gnome.org/Apps/Gedit) -> [TEA](http://semiletov.org/tea/) -> [nvi](https://repo.or.cz/nvi.git) -> [mousepad](https://gitlab.xfce.org/apps/mousepad) -> [vis](https://github.com/martanne/vis) -> [kwrite](https://apps.kde.org/en/kwrite) -> [Bluefish](https://sourceforge.net/projects/bluefish/) -> [jove](https://github.com/jonmacs/jove) -> [ne](https://ne.di.unimi.it/) -> [Nano](https://www.nano-editor.org/) -> [GNU Zile](https://git.savannah.gnu.org/cgit/zile.git) -> [mg](https://github.com/troglobit/mg) -> [ox](https://github.com/curlpipe/ox) -> [mle](https://github.com/adsr/mle) -> [Elvis](https://github.com/mbert/elvis) -> [ed](https://www.gnu.org/software/ed/)
 * __Text Editor (IDE)__: [Aptana](https://www.aptana.com/) -> [Atom](https://atom.io/) -> [Eclipse](https://www.eclipse.org/ide/) -> [VSCodium](https://github.com/VSCodium/vscodium) -> [Emacs](https://www.gnu.org/software/emacs/) ([nox)](https://github.com/manateelazycat/nox)) -> [DrJava](https://sourceforge.net/projects/drjava/) -> [ZinjaI](http://zinjai.sourceforge.net/) -> [Eric](http://eric-ide.python-projects.org/) -> [KDevelop](https://apps.kde.org/en/kdevelop) -> [Vim](https://www.vim.org/) -> [xwpe](https://github.com/amagnasco/xwpe) (full IDE in the terminal)
-* __Text Encoding__: fuse-convmvfs, Dos2Unix, ASCII
-* __Text Formatting and Pretty Printing__: par -> fmt (Textutils) -> MSORT
-* __Text-To-Speech__: Orca -> Gespeaker -> [eBook-speaker](https://directory.fsf.org/wiki/EBook-speaker) (+ pandoc) -> [eSpeak](https://github.com/espeak-ng/espeak-ng/)
-* __Typesetting__: LaTeX -> Texinfo + Pinfo -> Discount (Markdown) -> AFT -> [groff (tbl, pic, eqn, chem, music, dpic, grohtml)](https://www.troff.org/prog.html)
-* __Typing Training__: Klavaro -> nlkt -> [GNU Typist](https://www.gnu.org/software/gtypist/)
+* __Text Encoding__: [fuse-convmvfs](https://github.com/knu/fuse-convmvfs), [Dos2Unix](https://sourceforge.net/projects/dos2unix/)
+* __Text Formatting and Pretty Printing__: [par](http://www.nicemice.net/par/) -> fmt (Textutils)
+* __Text-To-Speech__: [Orca](https://wiki.gnome.org/action/show/Projects/Orca) -> [Gespeaker](https://github.com/muflone/gespeaker) -> [eBook-speaker](http://jlemmens.nl/) (+ pandoc) -> [eSpeak](https://github.com/espeak-ng/espeak-ng/)
+* __Typesetting__: [LaTeX](https://www.latex-project.org/) -> [Texinfo](https://www.gnu.org/software/texinfo/) -> [Discount](https://www.pell.portland.or.us/~orc/Code/discount/) (Markdown) -> [groff (tbl, pic, eqn, chem, music, dpic, grohtml)](https://www.gnu.org/software/groff/)
+* __Typing Training__: [Klavaro](https://klavaro.sourceforge.io/en/) -> [GNU Typist](https://www.gnu.org/software/gtypist/)
 * __Word Processor__: LibreOffice Writer -> Abiword -> MinEd -> [WordGrinder](http://cowlark.com/wordgrinder/)
 
 ## Package Management
