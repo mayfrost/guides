@@ -5,7 +5,7 @@ The list is built pointing to software that has alternatives with less dependenc
 TL;DR: is about the unix principle, having a fully functional system pretty damn minimal with that.
 
 ## TOC
-1. [ANDROID APPS](#android-apps)  
+1. [Android Apps](#android-apps)  
 2. [Command Line](#command-line)  
 3. [Communication](#communication)  
 3.1. [Desktop Client](#desktop-client)  
@@ -388,12 +388,12 @@ Note: All this terminals are compatible with wayland
 * __Text-To-Speech__: [Orca](https://wiki.gnome.org/action/show/Projects/Orca) -> [Gespeaker](https://github.com/muflone/gespeaker) -> [eBook-speaker](http://jlemmens.nl/) (+ pandoc) -> [eSpeak](https://github.com/espeak-ng/espeak-ng/)
 * __Typesetting__: [LaTeX](https://www.latex-project.org/) -> [Texinfo](https://www.gnu.org/software/texinfo/) -> [Discount](https://www.pell.portland.or.us/~orc/Code/discount/) (Markdown) -> [groff (tbl, pic, eqn, chem, music, dpic, grohtml)](https://www.gnu.org/software/groff/)
 * __Typing Training__: [Klavaro](https://klavaro.sourceforge.io/en/) -> [GNU Typist](https://www.gnu.org/software/gtypist/)
-* __Word Processor__: LibreOffice Writer -> Abiword -> MinEd -> [WordGrinder](http://cowlark.com/wordgrinder/)
+* __Word Processor__: [LibreOffice Writer](https://www.libreoffice.org/discover/writer/) -> [Abiword](https://www.abisource.com/) -> [WordGrinder](http://cowlark.com/wordgrinder/)
 
 ## Package Management
-* __CD/USB (Custom Installer)__: Respin -> Remastersys -> Distroshare -> PinguyBuilder -> Customizer -> Ubuntu Customization Kit -> Mklivecd
-* __CD/USB (Live)__: UNetbootin -> [MultiCD](https://multicd.us/)
-* __Gaming Platform__: [LGOGDownloader](https://github.com/Sude-/lgogdownloader) (GOG.com), [SteamCMD](https://linode.com/docs/game-servers/install-steamcmd-for-a-steam-game-server/) (Steam), [Lutris](https://github.com/lutris/lutris), Gelide
+* __CD/USB (Custom Installer)__: [LinuxRespin](https://gitlab.com/remastersys/LinuxRespin) -> [PinguyBuilder](https://sourceforge.net/projects/pinguy-os/files/ISO_Builder/) -> [Mklivecd](https://github.com/unity-linux/mklivecd)
+* __CD/USB (Live)__: [UNetbootin](https://unetbootin.github.io/) -> [MultiCD](https://github.com/IsaacSchemm/MultiCD)
+* __Gaming Platform__: [LGOGDownloader](https://github.com/Sude-/lgogdownloader) (GOG.com), [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) (Steam), [Lutris](https://github.com/lutris/lutris)
 * __Language Specific__: [bpkg](https://www.bpkg.sh/) (Bash scripts) -> CPAN (+ [Pinto](https://metacpan.org/release/Pinto)) (Perl) -> [clib](https://github.com/clibs/clib) (C)
 * __Package Creation__: [OBS](http://openbuildservice.org/) (Open Build Service) -> src2pkg -> CheckInstall -> [GNU Stow](https://directory.fsf.org/wiki/Stow) -> lt
 * __Portable Apps__: Flatpak -> Snappy -> [AppImage](https://github.com/AppImage)
