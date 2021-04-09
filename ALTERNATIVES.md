@@ -395,10 +395,10 @@ Note: All this terminals are compatible with wayland
 * __CD/USB (Live)__: [UNetbootin](https://unetbootin.github.io/) -> [MultiCD](https://github.com/IsaacSchemm/MultiCD)
 * __Gaming Platform__: [LGOGDownloader](https://github.com/Sude-/lgogdownloader) (GOG.com), [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) (Steam), [Lutris](https://github.com/lutris/lutris)
 * __Language Specific__: [bpkg](https://www.bpkg.sh/) (Bash scripts) -> CPAN (+ [Pinto](https://metacpan.org/release/Pinto)) (Perl) -> [clib](https://github.com/clibs/clib) (C)
-* __Package Creation__: [OBS](http://openbuildservice.org/) (Open Build Service) -> src2pkg -> CheckInstall -> [GNU Stow](https://directory.fsf.org/wiki/Stow) -> lt
-* __Portable Apps__: Flatpak -> Snappy -> [AppImage](https://github.com/AppImage)
+* __Package Creation__: [OBS](http://openbuildservice.org/) (Open Build Service) -> [CheckInstall](https://asic-linux.com.mx/~izto/checkinstall/) -> [GNU Stow](https://www.gnu.org/software/stow/)
+* __Portable Apps__: [Flatpak](https://flatpak.org/) -> [Snap](https://snapcraft.io/about) -> [AppImage](https://appimage.github.io/)
 * __System Backup__: [Systemback](https://sourceforge.net/projects/systemback/) -> [Bacula](https://blog.bacula.org/) -> [FSArchiver](http://www.fsarchiver.org/) -> [CYA](https://www.cyberws.com/bash/cya/)
-* __Universal Package Managers__: [Alien](https://joeyh.name/code/alien/) -> LinuxBrew -> pkgsrc -> GNU Guix
+* __Universal Package Managers__: [Alien](https://joeyh.name/code/alien/) -> [LinuxBrew](https://github.com/Linuxbrew) -> [pkgsrc](https://www.pkgsrc.org/) -> [GNU Guix](https://guix.gnu.org/)
 
 ## Pentesting
 ### Exploitables
