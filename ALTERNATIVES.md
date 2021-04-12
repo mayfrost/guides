@@ -402,12 +402,12 @@ Note: All this terminals are compatible with wayland
 
 ## Pentesting
 ### Exploitables
-* __Distros__: [Security Scenario Generator (SecGen)](https://github.com/cliffe/SecGen) -> [Damn Vulnerable Linux](https://sourceforge.net/projects/virtualhacking/files/os/dvl/) -> [Metasploitable](https://www.offensive-security.com/metasploit-unleashed/Requirements/) -> [Kioptrix](http://www.kioptrix.com/blog/)
+* __Distros__: [Security Scenario Generator (SecGen)](https://github.com/cliffe/SecGen) -> [Metasploitable](https://www.offensive-security.com/metasploit-unleashed/Requirements/)
 * __Web Apps__: [Mutillidae](https://sourceforge.net/projects/mutillidae/) -> [hackxor](http://hackxor.net/) -> [WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
 
 ### Network Scan
-* __Bluetooth__: btscanner -> bluesniff
-* __DNS Client__: [whois](https://github.com/rfc1036/whois), [dnsenum](https://github.com/fwaeytens/dnsenum), [dnstracer](https://directory.fsf.org/wiki/Dnstracer), slookup, bind-tools (nslookup, host, dig)
+* __Bluetooth__: [bluesniff](https://github.com/0x646e78/bluesniff)
+* __DNS Client__: [whois](https://github.com/rfc1036/whois), [dnsenum](https://github.com/fwaeytens/dnsenum), [bind-tools](https://www.isc.org/bind/) (nslookup, host, dig)
 * __Link Scanner__: [Metagoofil](https://github.com/laramies/metagoofil) -> LinkChecker -> [Linklint](http://www.linklint.org/) (+ [linklint2dot](http://www.deltadevelopment.de/users/christoph/linklint2dot/))
 * __Network Enumeration__: [SSLScan](https://github.com/rbsec/sslscan), xprobe2, [p0f](https://github.com/p0f/p0f), WhatWeb, [PRADS](https://gamelinux.github.io/prads/)
 * __Network File Retrieval__: [Driftnet](https://github.com/deiv/driftnet) -> VoIPong -> [tcpxtract](http://tcpxtract.sourceforge.net/)
