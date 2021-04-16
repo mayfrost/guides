@@ -405,17 +405,17 @@ Note: All this terminals are compatible with wayland
 * __Distros__: [Security Scenario Generator (SecGen)](https://github.com/cliffe/SecGen) -> [Metasploitable](https://www.offensive-security.com/metasploit-unleashed/Requirements/)
 * __Web Apps__: [Mutillidae](https://sourceforge.net/projects/mutillidae/) -> [hackxor](http://hackxor.net/) -> [WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
 
-### Network Scan
+### Network Scanner
 * __Bluetooth__: [bluesniff](https://github.com/0x646e78/bluesniff)
 * __DNS Client__: [whois](https://github.com/rfc1036/whois), [dnsenum](https://github.com/fwaeytens/dnsenum), [bind-tools](https://www.isc.org/bind/) (nslookup, host, dig)
 * __Link Scanner__: [Metagoofil](https://github.com/laramies/metagoofil) -> [LinkChecker](https://github.com/wummel/linkchecker) ->
 * __Network Enumeration__: [SSLScan](https://github.com/rbsec/sslscan), [xprobe2](https://github.com/binarytrails/xprobe2), [p0f](https://github.com/p0f/p0f), [WhatWeb](https://github.com/urbanadventurer/WhatWeb), [PRADS](https://gamelinux.github.io/prads/)
 * __Network File Retrieval__: [Driftnet](https://github.com/deiv/driftnet) -> [VoIPong](https://github.com/EnderUNIX/VoIPong)
 * __Network Mapping__: [Open Visual Traceroute](http://visualtraceroute.net/) -> [EtherApe](http://etherape.sourceforge.net/) -> [Paris Traceroute](https://github.com/libparistraceroute/libparistraceroute) -> [Dublin Traceroute](https://github.com/insomniacslk/dublin-traceroute) -> [MTR](https://www.bitwizard.nl/mtr/) -> [Layer Four Traceroute (LFT)](https://pwhois.org/lft/index.who) -> [tcptraceroute](https://github.com/mct/tcptraceroute) -> [iputils](https://github.com/iputils/iputils) (Ping, traceroute, tracepath, arping)
-* __OSINT__: SpiderFoot -> TheHarvester -> [Creepy](https://github.com/ilektrojohn/creepy) -> [Netglub](http://www.netglub.org/)
-* __Packet Sniffer__: [Tshark (Wireshark TUI)](https://github.com/wireshark/wireshark) -> [tcpflow](https://directory.fsf.org/wiki/Tcpflow) -> [tcpdump](https://directory.fsf.org/wiki/Tcpdump) + tcpick
-* __Reconnaissance Framework__: Recon-ng -> DMitry -> [dsniff](https://www.monkey.org/~dugsong/dsniff/) (urlsnarf, filesnarf, webspy, Tcpkill, macof, arpspoof) -> [Nmap](https://nmap.org/) -> [ngrep](https://github.com/jpr5/ngrep/)
-* __WiFi Scanner__: [FLUXION](https://github.com/wi-fi-analyzer/fluxion) -> [Kismet](https://www.kismetwireless.net/)
+* __OSINT__: [SpiderFoot](https://www.spiderfoot.net/) -> [TheHarvester](https://github.com/laramies/theHarvester)
+* __Packet Sniffer__: [Wireshark](https://gitlab.com/wireshark/wireshark) -> [tcpflow](https://github.com/simsong/tcpflow) -> [tcpdump](http://www.tcpdump.org/index.html)
+* __Reconnaissance Framework__: [Recon-ng](https://github.com/lanmaster53/recon-ng) -> [DMitry](https://github.com/jaygreig86/dmitry/) -> [Nmap](https://nmap.org/) -> [ngrep](https://github.com/jpr5/ngrep/)
+* __WiFi Scanner__: [FLUXION](https://github.com/FluxionNetwork/fluxion) -> [Kismet](https://www.kismetwireless.net/)
 
 ### Network Tampering
 * __General__: netcat -> ncat (nmap) -> [cryptcat](http://cryptcat.sourceforge.net/) (Netcat) -> [socat](https://github.com/craSH/socat) -> [Netsed](https://github.com/xlab/netsed)
