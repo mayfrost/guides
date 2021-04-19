@@ -418,8 +418,8 @@ Note: All this terminals are compatible with wayland
 * __WiFi Scanner__: [FLUXION](https://github.com/FluxionNetwork/fluxion) -> [Kismet](https://www.kismetwireless.net/)
 
 ### Network Tampering
-* __General__: netcat -> ncat (nmap) -> [cryptcat](http://cryptcat.sourceforge.net/) (Netcat) -> [socat](https://github.com/craSH/socat) -> [Netsed](https://github.com/xlab/netsed)
-* __Man-in-the-middle Attack__: [sslstrip](https://github.com/moxie0/sslstrip) -> [Morpheus](https://github.com/r00t-3xp10it/morpheus) -> evilginx2 -> bettercap -> [Ettercap](https://github.com/Ettercap/ettercap)
+* __General__: [netcat](https://sourceforge.net/projects/nc110/) -> ncat (nmap) -> [socat](http://www.dest-unreach.org/socat/) -> [Netsed](https://github.com/xlab/netsed)
+* __Man-in-the-middle Attack__: [Morpheus](https://github.com/r00t-3xp10it/morpheus) -> [evilginx2](https://github.com/kgretzky/evilginx2) -> [bettercap](https://www.bettercap.org/) -> [Ettercap](https://github.com/Ettercap/ettercap)
 * __Packet Crafting__: [Ostinato](https://github.com/pstavirs/ostinato) -> [hping](https://github.com/antirez/hping)
 * __Traffic Generator__: [Mausezahn](https://github.com/uweber/mausezahn)
 * __Traffic Replay__: [Tcpreplay](https://github.com/appneta/tcpreplay)
