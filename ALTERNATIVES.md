@@ -420,25 +420,23 @@ Note: All this terminals are compatible with wayland
 ### Network Tampering
 * __General__: [netcat](https://sourceforge.net/projects/nc110/) -> ncat (nmap) -> [socat](http://www.dest-unreach.org/socat/) -> [Netsed](https://github.com/xlab/netsed)
 * __Man-in-the-middle Attack__: [Morpheus](https://github.com/r00t-3xp10it/morpheus) -> [evilginx2](https://github.com/kgretzky/evilginx2) -> [bettercap](https://www.bettercap.org/) -> [Ettercap](https://github.com/Ettercap/ettercap)
-* __Packet Crafting__: [Ostinato](https://github.com/pstavirs/ostinato) -> [hping](https://github.com/antirez/hping)
-* __Traffic Generator__: [Mausezahn](https://github.com/uweber/mausezahn)
+* __Packet Crafting__: [Ostinato](https://github.com/pstavirs/ostinato)
 * __Traffic Replay__: [Tcpreplay](https://github.com/appneta/tcpreplay)
 
 ### Password Cracking
 * __BIOS__: [CmosPwd](https://www.cgsecurity.org/wiki/CmosPwd)
-* __Compressed Files__: [RarCrack](http://rarcrack.sourceforge.net/)
 * __General__: [John the Ripper](https://github.com/magnumripper/JohnTheRipper) / [Hashcat](https://github.com/hashcat/hashcat)
-* __PDF__: [pdfcrack](https://github.com/x2q/pdfcrack-ng)
+* __PDF__: [pdfcrack](https://sourceforge.net/projects/pdfcrack/)
 * __Remote__: [THC Hydra](https://github.com/vanhauser-thc/thc-hydra)
-* __WiFi__: [Reaver](https://code.google.com/archive/p/reaver-wps/) -> [Aircrack-ng](https://github.com/aircrack-ng/aircrack-ng)
+* __WiFi__: [Aircrack-ng](https://github.com/aircrack-ng/aircrack-ng)
 * __Windows__: [Ophcrack](http://ophcrack.sourceforge.net/)
-* __Wordlist Generator__: [CUPP](https://github.com/Mebus/cupp) -> [crunch](https://github.com/crunchsec/crunch)
+* __Wordlist Generator__: [CUPP](https://github.com/Mebus/cupp)
 
 ### Vulnerability Scanner
-* __Application Vulnerability__: Fuzz -> [BCCF](https://github.com/joxeankoret/nightmare/blob/master/doc/blind_code_coverage_fuzzer.txt) -> [afl-fuzz](http://lcamtuf.coredump.cx/afl/)
-* __Backdooring__: [Veil](https://github.com/Veil-Framework/Veil) -> [Cymothoa](http://cymothoa.sourceforge.net/) -> [Backdoor Factory](https://github.com/secretsquirrel/the-backdoor-factory) -> [Evilgrade](https://github.com/infobyte/evilgrade) -> [EvilAbigail](https://github.com/GDSSecurity/EvilAbigail)
+* __Application Vulnerability__: [BCCF](https://github.com/joxeankoret/nightmare/blob/master/doc/blind_code_coverage_fuzzer.txt) -> [afl-fuzz](http://lcamtuf.coredump.cx/afl/)
+* __Backdooring__: [Veil](https://github.com/Veil-Framework/Veil) -> [Backdoor Factory](https://github.com/secretsquirrel/the-backdoor-factory) -> [Evilgrade](https://github.com/infobyte/evilgrade)
 * __Cross-Scripting__: [xsser](https://github.com/epsylon/xsser)
-* __Exploit Famework__: Metasploit -> [Metasploit](https://github.com/metasploit/framework2) (Perl), [WebSploit](https://github.com/websploit/websploit) -> [w3af](https://github.com/andresriancho/w3af)
+* __Exploit Famework__: [Metasploit](https://www.metasploit.com/) -> [WebSploit](https://github.com/websploit/websploit) -> [w3af](https://github.com/andresriancho/w3af)
 * __Network Vulnerability__: [pytbull](http://pytbull.sourceforge.net/) -> [Yersinia](https://github.com/tomac/yersinia)
 * __Post Exploitation__: [Empire](https://github.com/EmpireProject/Empire) -> [Post Exploitation Collection](https://github.com/mubix/post-exploitation) (Windows) -> [mimikatz](https://github.com/gentilkiwi/mimikatz) (Windows) -> [Post Exploitation Linux Toolkit](https://github.com/cys3c/PELT) -> [poet](https://github.com/mossberg/poet)
 * __SIP__: Sippts
