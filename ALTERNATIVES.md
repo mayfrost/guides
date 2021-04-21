@@ -438,17 +438,14 @@ Note: All this terminals are compatible with wayland
 * __Cross-Scripting__: [xsser](https://github.com/epsylon/xsser)
 * __Exploit Famework__: [Metasploit](https://www.metasploit.com/) -> [WebSploit](https://github.com/websploit/websploit) -> [w3af](https://github.com/andresriancho/w3af)
 * __Network Vulnerability__: [pytbull](http://pytbull.sourceforge.net/) -> [Yersinia](https://github.com/tomac/yersinia)
-* __Post Exploitation__: [Empire](https://github.com/EmpireProject/Empire) -> [Post Exploitation Collection](https://github.com/mubix/post-exploitation) (Windows) -> [mimikatz](https://github.com/gentilkiwi/mimikatz) (Windows) -> [Post Exploitation Linux Toolkit](https://github.com/cys3c/PELT) -> [poet](https://github.com/mossberg/poet)
-* __SIP__: Sippts
+* __Post Exploitation__: [Post Exploitation Collection](https://github.com/mubix/post-exploitation) (Windows) -> [mimikatz](https://github.com/gentilkiwi/mimikatz) (Windows) -> [Post Exploitation Linux Toolkit](https://github.com/cys3c/PELT)
+* __SIP__: [Sippts](https://github.com/Pepelux/sippts)
 * __Social Engineering__: [SET (Social Engineering Toolkit)](https://github.com/trustedsec/social-engineer-toolkit), [BeEF (The Browser Exploitation Framework Project)](https://github.com/beefproject/beef)
 * __SQL Injection__: [sqlmap](https://github.com/sqlmapproject/sqlmap)
-* __SSH Denial__: [screwSSH](https://github.com/isislab/screwSSH)
 * __Web Application Vulnerability__: [Nikto](https://github.com/sullo/nikto)
-* __Windows Registry Editor__: [Offline NT Password & Registry Editor (chntpw)](http://pogostick.net/~pnh/ntpasswd/)
 
 ## Privacy
-* __Anti Stylometry__: [Anonymouth](https://github.com/psal/anonymouth)
-* __Data Erasure__: [Dban](https://sourceforge.net/projects/dban/) -> bleachbit_cli ([BleachBit](https://github.com/bleachbit/bleachbit)) -> shred (GNU Coreutils)
+* __Data Erasure__: [BleachBit](https://github.com/bleachbit/bleachbit) -> [shred](https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html) (GNU Coreutils)
 * __Boot Encryption__: [cryptboot](https://github.com/xmikos/cryptboot)
 * __Disk Encryption__: dislocker -> [cryptsetup (dm-crypt)](https://gitlab.com/cryptsetup/cryptsetup/wikis/DMCrypt)
 * __File Encryption__: [GNU Privacy Assistant](https://www.gnupg.org/related_software/gpa/) -> MCrypt -> ccrypt -> [GNU Privacy Guard](https://www.gnupg.org/)
