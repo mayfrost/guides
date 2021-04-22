@@ -447,13 +447,12 @@ Note: All this terminals are compatible with wayland
 ## Privacy
 * __Data Erasure__: [BleachBit](https://github.com/bleachbit/bleachbit) -> [shred](https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html) (GNU Coreutils)
 * __Boot Encryption__: [cryptboot](https://github.com/xmikos/cryptboot)
-* __Disk Encryption__: dislocker -> [cryptsetup (dm-crypt)](https://gitlab.com/cryptsetup/cryptsetup/wikis/DMCrypt)
-* __File Encryption__: [GNU Privacy Assistant](https://www.gnupg.org/related_software/gpa/) -> MCrypt -> ccrypt -> [GNU Privacy Guard](https://www.gnupg.org/)
-* __Filesystem Encryption__: eCryptfs -> EncFS -> [StegFS](https://github.com/albinoloverats/stegfs)
-* __Folder Encryption__: VeraCrypt -> [Tomb](https://github.com/dyne/Tomb) -> [tcplay](https://github.com/bwalex/tc-play) (full TrueCrypt implementation and still minimalist)
-* __Encrypted Version Control__: [Keyringer](https://github.com/quarkslab/keyringer)
-* __Identity Generator__: [The Random Identity Generator (rig)](http://rig.sourceforge.net/)
-* __Password Generator__: [pwgen](https://github.com/jbernard/pwgen) -> [apg](https://github.com/Distrotech/apg) -> upwgen -> randstr
+* __Disk Encryption__: [dislocker](https://github.com/Aorimn/dislocker) -> [cryptsetup (dm-crypt)](https://gitlab.com/cryptsetup/cryptsetup/wikis/DMCrypt)
+* __File Encryption__: [GNU Privacy Assistant](https://www.gnupg.org/related_software/gpa/) -> [ccrypt](http://ccrypt.sourceforge.net/) -> [GNU Privacy Guard](https://www.gnupg.org/)
+* __Filesystem Encryption__: [EncFS](https://github.com/vgough/encfs) -> [StegFS](https://github.com/albinoloverats/stegfs)
+* __Folder Encryption__: [VeraCrypt](https://www.veracrypt.fr/en/Home.html) -> [Tomb](https://github.com/dyne/Tomb) -> [tcplay](https://github.com/bwalex/tc-play) (full TrueCrypt implementation and still minimalist)
+* __Encrypted Version Control__: [Keyringer](https://keyringer.pw/)
+* __Password Generator__: [pwgen](https://sourceforge.net/projects/pwgen/) -> randstr
 * __Password Manager__: KeePassX / KeePassXC -> [pass](https://www.passwordstore.org/) (+ [pass-tomb](https://github.com/roddhjav/pass-tomb), + [passmenu](https://github.com/cdown/passmenu)) -> [kpcli](https://github.com/alecsammon/kpcli)
 * __Password Sync__: KeySync
 * __Steganography__: [StegoShare](http://stegoshare.sourceforge.net/) -> [Steghide](https://github.com/StefanoDeVuono/steghide) -> [SNOW (stegsnow)](http://www.darkside.com.au/snow/) -> UUDeview -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
