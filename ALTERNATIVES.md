@@ -453,9 +453,8 @@ Note: All this terminals are compatible with wayland
 * __Folder Encryption__: [VeraCrypt](https://www.veracrypt.fr/en/Home.html) -> [Tomb](https://github.com/dyne/Tomb) -> [tcplay](https://github.com/bwalex/tc-play) (full TrueCrypt implementation and still minimalist)
 * __Encrypted Version Control__: [Keyringer](https://keyringer.pw/)
 * __Password Generator__: [pwgen](https://sourceforge.net/projects/pwgen/) -> randstr
-* __Password Manager__: KeePassX / KeePassXC -> [pass](https://www.passwordstore.org/) (+ [pass-tomb](https://github.com/roddhjav/pass-tomb), + [passmenu](https://github.com/cdown/passmenu)) -> [kpcli](https://github.com/alecsammon/kpcli)
-* __Password Sync__: KeySync
-* __Steganography__: [StegoShare](http://stegoshare.sourceforge.net/) -> [Steghide](https://github.com/StefanoDeVuono/steghide) -> [SNOW (stegsnow)](http://www.darkside.com.au/snow/) -> UUDeview -> [Steganoroute](https://sourceforge.net/projects/steganoroute/)
+* __Password Manager__: [KeePassX](https://www.keepassx.org/) / [KeePassXC](https://keepassxc.org/) -> [pass](https://www.passwordstore.org/) (+ [pass-tomb](https://github.com/roddhjav/pass-tomb)) -> [kpcli](https://sourceforge.net/projects/kpcli/)
+* __Steganography__: [Steghide](https://github.com/StefanoDeVuono/steghide)
 
 ## Programming
 * __Build Automation__: Ninja -> mk -> [GNU make](https://directory.fsf.org/wiki/Make) -> bmake -> Icmake -> Jam, [Gnulib](https://www.gnu.org/software/gnulib/)
