@@ -457,10 +457,10 @@ Note: All this terminals are compatible with wayland
 * __Steganography__: [Steghide](https://github.com/StefanoDeVuono/steghide)
 
 ## Programming
-* __Build Automation__: Ninja -> mk -> [GNU make](https://directory.fsf.org/wiki/Make) -> bmake -> Icmake -> Jam, [Gnulib](https://www.gnu.org/software/gnulib/)
-* __Build Script Generation__: [Gradle](https://github.com/gradle/gradle) -> Cmake (+ cmocka + ECM) -> Autotools ([Automake](https://directory.fsf.org/wiki/Automake), [Autoconf](https://directory.fsf.org/wiki/Autoconf) + GNU Autoconf Archive, [Libtool](https://directory.fsf.org/wiki/Libtool)) -> mk-configure
-* __Code Beautifier__: TagSoup -> [UniversalIndentGUI](https://github.com/danblakemore/universal-indent-gui) -> HTML Tidy -> tidyp -> Indent
-* __Compilers (Assembly)__: NASM -> Yasm -> as (GNU binutils)
+* __Build Automation__: [Ninja](https://ninja-build.org/) -> [GNU make](https://directory.fsf.org/wiki/Make) -> [bmake](https://github.com/arichardson/bmake) -> [Icmake](https://gitlab.com/fbb-git/icmake)
+* __Build Script Generation__: [Gradle](https://github.com/gradle/gradle) -> [Cmake](https://cmake.org/) (+ [cmocka](https://cmocka.org/)) -> [Autotools](https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html) ([Automake](https://www.gnu.org/software/automake/), [Autoconf](https://www.gnu.org/software/autoconf/)) -> [mk-configure](https://github.com/cheusov/mk-configure)
+* __Code Beautifier__: [HTML Tidy](https://www.html-tidy.org/) -> Indent
+* __Compilers (Assembly)__: [NASM](https://nasm.us/) -> [Yasm](https://github.com/yasm/yasm) -> as (GNU binutils)
 * __Compilers (C)__: clang -> Tiny C Compiler (tcc)
 * __Compilers (Java)__: Java SE (JDK) -> [IcedTea](https://icedtea.classpath.org/wiki/Main_Page) (OpenJDK) -> [GraalVM](https://www.graalvm.org/) (compile multiple languages into JVM) -> JamVM (JVM) -> FastJar (Compiler)
 * __Compilers (Multiple languages)__: [GCC](https://directory.fsf.org/wiki/Gcc) ([GNU -native- Compiler for Java](https://gcc.gnu.org/wiki/GCJ), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), [GNU Fortran](https://gcc.gnu.org/wiki/GFortran)) + [colorgcc](https://github.com/colorgcc/colorgcc)
