@@ -461,11 +461,11 @@ Note: All this terminals are compatible with wayland
 * __Build Script Generation__: [Gradle](https://github.com/gradle/gradle) -> [Cmake](https://cmake.org/) (+ [cmocka](https://cmocka.org/)) -> [Autotools](https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html) ([Automake](https://www.gnu.org/software/automake/), [Autoconf](https://www.gnu.org/software/autoconf/)) -> [mk-configure](https://github.com/cheusov/mk-configure)
 * __Code Beautifier__: [HTML Tidy](https://www.html-tidy.org/) -> Indent
 * __Compilers (Assembly)__: [NASM](https://nasm.us/) -> [Yasm](https://github.com/yasm/yasm) -> as (GNU binutils)
-* __Compilers (C)__: clang -> Tiny C Compiler (tcc)
-* __Compilers (Java)__: Java SE (JDK) -> [IcedTea](https://icedtea.classpath.org/wiki/Main_Page) (OpenJDK) -> [GraalVM](https://www.graalvm.org/) (compile multiple languages into JVM) -> JamVM (JVM) -> FastJar (Compiler)
+* __Compilers (C)__: [clang](https://github.com/llvm/llvm-project/tree/main/clang/)
+* __Compilers (Java)__: [Java SE (JDK)](https://www.oracle.com/java/technologies/java-se-glance.html) -> [GraalVM](https://www.graalvm.org/) (compile multiple languages into JVM)
 * __Compilers (Multiple languages)__: [GCC](https://directory.fsf.org/wiki/Gcc) ([GNU -native- Compiler for Java](https://gcc.gnu.org/wiki/GCJ), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), [GNU Fortran](https://gcc.gnu.org/wiki/GFortran)) + [colorgcc](https://github.com/colorgcc/colorgcc)
 * __Compiling Speeding Up__: [distcc](https://github.com/distcc/distcc), [ccache](https://github.com/ccache/ccache)
-* __Cross-compiler__: [Buildroot](https://github.com/buildroot/buildroot) -> Crosstool-NG -> dev86
+* __Cross-compiler__: [Buildroot](https://git.busybox.net/buildroot/) -> [Crosstool-NG](https://github.com/crosstool-ng/crosstool-ng)
 * __Documentation Browser__: Devhelp -> [Zeal](https://github.com/zealdocs/zeal)
 * __Documentation Generator__: perlpod, [bashdoc](https://github.com/ajdiaz/bashdoc), Doxygen, GNU help2man
 * __Issue Tracking System__: Bugzilla -> [GNATS](https://www.gnu.org/software/gnats/)
