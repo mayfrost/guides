@@ -466,11 +466,11 @@ Note: All this terminals are compatible with wayland
 * __Compilers (Multiple languages)__: [GCC](https://directory.fsf.org/wiki/Gcc) ([GNU -native- Compiler for Java](https://gcc.gnu.org/wiki/GCJ), [GnuCOBOL](https://sourceforge.net/projects/open-cobol/), [GNU Fortran](https://gcc.gnu.org/wiki/GFortran)) + [colorgcc](https://github.com/colorgcc/colorgcc)
 * __Compiling Speeding Up__: [distcc](https://github.com/distcc/distcc), [ccache](https://github.com/ccache/ccache)
 * __Cross-compiler__: [Buildroot](https://git.busybox.net/buildroot/) -> [Crosstool-NG](https://github.com/crosstool-ng/crosstool-ng)
-* __Documentation Browser__: Devhelp -> [Zeal](https://github.com/zealdocs/zeal)
-* __Documentation Generator__: perlpod, [bashdoc](https://github.com/ajdiaz/bashdoc), Doxygen, GNU help2man
-* __Issue Tracking System__: Bugzilla -> [GNATS](https://www.gnu.org/software/gnats/)
+* __Documentation Browser__: [Devhelp](https://gitlab.gnome.org/GNOME/devhelp) -> [Zeal](https://github.com/zealdocs/zeal)
+* __Documentation Generator__: [perlpod](https://perldoc.perl.org/perlpod), [bashdoc](https://github.com/ajdiaz/bashdoc), [Doxygen](https://github.com/doxygen/doxygen), [GNU help2man](https://www.gnu.org/software/help2man/)
+* __Issue Tracking System__: [Bugzilla](https://www.bugzilla.org/)
 * __Linting__: [ShellCheck](https://github.com/koalaman/shellcheck), [GNU Source-highlight](https://www.gnu.org/software/src-highlite/)
-* __Memory Allocation__: jemalloc -> boehm-gc
+* __Memory Allocation__: [jemalloc](http://jemalloc.net/) -> [boehm-gc](https://github.com/ivmai/bdwgc)
 * __Parser Generators__: ANTLR -> Ragel-> [AutoGen](https://directory.fsf.org/wiki/Autogen) -> [GNU bison](https://directory.fsf.org/wiki/Bison) and [Flex](https://directory.fsf.org/wiki/Flex) -> re2c + lemon -> [GNU m4](https://directory.fsf.org/wiki/M4)
 * __[Program Transformation](https://en.wikipedia.org/wiki/Program_transformation)__: [FermaT](http://www.gkc.org.uk/fermat.html), [Coccinelle](http://coccinelle.lip6.fr/), [CIL](https://people.eecs.berkeley.edu/~necula/cil/), [Stratego/XT](http://strategoxt.org/)
 * __Random Hacks__: patchelf, elfhacks, SWIG, Gengetopt
