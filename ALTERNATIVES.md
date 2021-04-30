@@ -367,7 +367,7 @@ Note: All this terminals are compatible with wayland
 * __Ebook Utilities (Epub)__: Ebook Tools ([ebook-tools](https://github.com/na--/ebook-tools))
 * __Ebook Utilities (PDF)__: [PDF SaM](https://github.com/torakiki/pdfsam) -> [PDFtk-java](https://gitlab.com/pdftk-java/pdftk) -> [PDF Mix Tool](https://scarpetta.eu/pdfmixtool/) -> [PDFarranger](https://github.com/pdfarranger/pdfarranger) -> [PyPDF2](https://github.com/mstamy2/PyPDF2) -> [stapler](https://github.com/hellerbarde/stapler) -> [krop](https://arminstraub.com/software/krop-screenshots)
 * __Ebook Utilities (PostScript)__: [ghostscript](https://www.ghostscript.com/)
-* __Ebook Viewer__: [Calibre](https://calibre-ebook.com/) -> [Okular](https://okular.kde.org/) -> [Zathura](https://pwmt.org/projects/zathura/) -> [JFBView](https://github.com/jichu4n/jfbview) / [fimgs (fim)](http://www.nongnu.org/fbi-improved/) / [fbgs (fbida)](https://www.kraxel.org/blog/linux/fbida/) / fbpdf
+* __Ebook Viewer__: [Okular](https://okular.kde.org/) -> [Zathura](https://pwmt.org/projects/zathura/) -> [JFBView](https://github.com/jichu4n/jfbview) / [fimgs (fim)](http://www.nongnu.org/fbi-improved/) / [fbgs (fbida)](https://www.kraxel.org/blog/linux/fbida/) / fbpdf
 * __Flashcards__: [Anki](https://apps.ankiweb.net/) -> [iGNUit](https://trmusson.dreamhosters.com/programs.html#ignuit) -> [The Mnemosyne Project](https://mnemosyne-proj.org/)
 * __Gamification__: [Habitica](https://habitica.com/static/home)
 * __Mind Mapping__: [VYM](https://www.insilmaril.de/vym/#mc:0,bo:4,bo:0) -> [Semantik](https://waf.io/semantik.html) -> [Minder](https://github.com/phase1geo/Minder) -> [Heimer](https://github.com/juzzlin/Heimer) 
@@ -473,11 +473,11 @@ Note: All this terminals are compatible with wayland
 * __Memory Allocation__: [jemalloc](http://jemalloc.net/) -> [boehm-gc](https://github.com/ivmai/bdwgc)
 * __Parser Generators__: [ANTLR](https://www.antlr.org/) -> [Ragel](http://www.colm.net/open-source/ragel/) -> [GNU bison](https://www.gnu.org/software/bison/) and [Flex](https://github.com/westes/flex/) -> [re2c](https://re2c.org/) -> [GNU m4](https://www.gnu.org/software/m4/)
 * __[Program Transformation](https://en.wikipedia.org/wiki/Program_transformation)__: [FermaT](http://www.gkc.org.uk/fermat.html), [Coccinelle](http://coccinelle.lip6.fr/)
-* __Random Hacks__: patchelf, elfhacks, SWIG, Gengetopt
-* __Source Code Count__: [Unified Code Count (UCC)](https://github.com/RMax2015/Unified_Code_Count) -> [CLOC](http://cloc.sourceforge.net/)
-* __Source Code Navigation__: GNU idutils, cflow (+ cflow2dot), [LXR: The Linux Cross Referencer](http://lxr.sourceforge.net/en/index.php) -> [GNU GLOBAL](https://www.gnu.org/software/global/) -> [cscope](http://cscope.sourceforge.net/) -> [Ctags](https://github.com/universal-ctags/ctags) -> [cgvg](https://github.com/uzi/cgvg) -> [ack](https://beyondgrep.com/) -> [ag](https://github.com/ggreer/the_silver_searcher)
+* __Random Hacks__: [patchelf](https://github.com/NixOS/patchelf), [SWIG](http://swig.org/), [Gengetopt](https://www.gnu.org/software/gengetopt/gengetopt.html)
+* __Source Code Count__: [CLOC](https://github.com/AlDanial/cloc)
+* __Source Code Navigation__: [cflow](https://www.gnu.org/software/cflow/) (+ [pycflow2dot](https://github.com/johnyf/pycflow2dot)), [LXR: The Linux Cross Referencer](http://lxr.sourceforge.net/en/index.php) -> [GNU GLOBAL](https://www.gnu.org/software/global/) -> [cscope](http://cscope.sourceforge.net/) -> [Ctags](https://github.com/universal-ctags/ctags) -> [ack](https://beyondgrep.com/) -> [ag](https://github.com/ggreer/the_silver_searcher)
 * __[Source-to-Source Compiler](https://en.wikipedia.org/wiki/Source-to-source_compiler)__: [ROSE](https://github.com/rose-compiler/rose)
-* __System Query__: [sysconftool](https://github.com/svarshavchik/courier/tree/master/sysconftool), [Installwatch](https://github.com/ruxkor/checkinstall/tree/master/installwatch), [pkgconf](https://github.com/pkgconf/pkgconf)
+* __System Query__: [sysconftool](https://github.com/svarshavchik/courier/tree/master/sysconftool), [pkgconf](https://github.com/pkgconf/pkgconf)
 * __Version Control__: Git (+ [tig](https://github.com/jonas/tig)) -> [CVS](https://directory.fsf.org/wiki/CVS) (+ [CVSGraph](https://directory.fsf.org/wiki/CVSGraph)) -> [Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) -> [tla (GNU Arch)](https://directory.fsf.org/wiki/Gnu-arch) -> [RCS](https://www.gnu.org/software/rcs/) + mr + quilt
 
 ## Remote Access
