@@ -478,12 +478,12 @@ Note: All this terminals are compatible with wayland
 * __Source Code Navigation__: [cflow](https://www.gnu.org/software/cflow/) (+ [pycflow2dot](https://github.com/johnyf/pycflow2dot)), [LXR: The Linux Cross Referencer](http://lxr.sourceforge.net/en/index.php) -> [GNU GLOBAL](https://www.gnu.org/software/global/) -> [cscope](http://cscope.sourceforge.net/) -> [Ctags](https://github.com/universal-ctags/ctags) -> [ack](https://beyondgrep.com/) -> [ag](https://github.com/ggreer/the_silver_searcher)
 * __[Source-to-Source Compiler](https://en.wikipedia.org/wiki/Source-to-source_compiler)__: [ROSE](https://github.com/rose-compiler/rose)
 * __System Query__: [sysconftool](https://github.com/svarshavchik/courier/tree/master/sysconftool), [pkgconf](https://github.com/pkgconf/pkgconf)
-* __Version Control__: Git (+ [tig](https://github.com/jonas/tig)) -> [CVS](https://directory.fsf.org/wiki/CVS) (+ [CVSGraph](https://directory.fsf.org/wiki/CVSGraph)) -> [Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) -> [tla (GNU Arch)](https://directory.fsf.org/wiki/Gnu-arch) -> [RCS](https://www.gnu.org/software/rcs/) + mr + quilt
+* __Version Control__: [Git](https://git-scm.com/) (+ [tig](https://github.com/jonas/tig)) -> [Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) -> [Bazaar](http://bazaar.canonical.com/en/) -> [RCS](https://www.gnu.org/software/rcs/) + mr + quilt
 
 ## Remote Access
-* __Configuration Management__: Puppet -> LCFG -> CFEngine -> [cdist](https://github.com/ungleich/cdist)
-* __Control Panel__: ZPanel -> Vesta Control Panel -> [Webmin](https://github.com/webmin/webmin)
-* __Diskless Booting__: iPXE -> [netboot](http://netboot.sourceforge.net/)
+* __Configuration Management__: [Puppet](https://puppet.com/) -> [LCFG](https://www.lcfg.org/) -> [CFEngine](https://cfengine.com/) -> [cdist](https://github.com/ungleich/cdist)
+* __Control Panel__: [Vesta Control Panel](https://github.com/serghey-rodin/vesta) -> [Webmin](https://github.com/webmin/webmin)
+* __Diskless Booting__: [iPXE](https://github.com/ipxe/ipxe/)
 * __PC-Mobile Connection__: KDE Connect -> Wammu -> BitPim -> AndroidTools
 * __Remote Desktop (Client)__: rdesktop -> Remmina -> [fbvnc](https://github.com/zohead/fbvnc)
 * __Remote Desktop (Client and Server)__: X2Go
