@@ -484,13 +484,13 @@ Note: All this terminals are compatible with wayland
 * __Configuration Management__: [Puppet](https://puppet.com/) -> [LCFG](https://www.lcfg.org/) -> [CFEngine](https://cfengine.com/) -> [cdist](https://github.com/ungleich/cdist)
 * __Control Panel__: [Vesta Control Panel](https://github.com/serghey-rodin/vesta) -> [Webmin](https://github.com/webmin/webmin)
 * __Diskless Booting__: [iPXE](https://github.com/ipxe/ipxe/)
-* __PC-Mobile Connection__: KDE Connect -> Wammu -> BitPim -> AndroidTools
-* __Remote Desktop (Client)__: rdesktop -> Remmina -> [fbvnc](https://github.com/zohead/fbvnc)
-* __Remote Desktop (Client and Server)__: X2Go
+* __PC-Mobile Connection__: [KDE Connect](https://kdeconnect.kde.org/) -> [Wammu](https://wammu.eu/wammu/) -> [AndroidTools](https://sourceforge.net/projects/android-tools/)
+* __Remote Desktop (Client)__: [Remmina](https://remmina.org/)
+* __Remote Desktop (Client and Server)__: [X2Go](https://wiki.x2go.org/doku.php/start)
 * __Remote Desktop (Server)__: [xrdp](https://github.com/neutrinolabs/xrdp)
-* __Remote Execution__: PSSH -> [pconsole](https://github.com/walterdejong/pconsole) -> [DSH](https://www.netfort.gr.jp/~dancer/software/dsh.html.en)
+* __Remote Execution__: [pconsole](https://github.com/walterdejong/pconsole)
 * __Remote File Manager__: [KodExplorer](https://github.com/kalcaddle/KodExplorer)
-* __Remote Login__: Mosh -> OpenSSH -> [lsh](https://directory.fsf.org/wiki/Lsh) -> Dropbear
+* __Remote Login__: [Mosh](https://mosh.org/) -> [OpenSSH](https://www.openssh.com/) -> [Dropbear](https://matt.ucc.asn.au/dropbear/dropbear.html)
 * __Remote X Apps__: Xpra > X11 forwarding
 * __Reverse Shell__: [icmpsh](http://inquisb.github.io/icmpsh/) -> [RevSh](https://directory.fsf.org/wiki/Reverse_Shell)
 * __Serial Console__: Minicom -> [Picocom](https://directory.fsf.org/wiki/Picocom) -> Qodem -> [GNU Screen](http://www.noah.org/wiki/Screen_notes#using_screen_as_a_serial_terminal)
