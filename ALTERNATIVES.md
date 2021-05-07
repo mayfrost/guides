@@ -491,11 +491,9 @@ Note: All this terminals are compatible with wayland
 * __Remote Execution__: [pconsole](https://github.com/walterdejong/pconsole)
 * __Remote File Manager__: [KodExplorer](https://github.com/kalcaddle/KodExplorer)
 * __Remote Login__: [Mosh](https://mosh.org/) -> [OpenSSH](https://www.openssh.com/) -> [Dropbear](https://matt.ucc.asn.au/dropbear/dropbear.html)
-* __Remote X Apps__: Xpra > X11 forwarding
-* __Reverse Shell__: [icmpsh](http://inquisb.github.io/icmpsh/) -> [RevSh](https://directory.fsf.org/wiki/Reverse_Shell)
-* __Serial Console__: Minicom -> [Picocom](https://directory.fsf.org/wiki/Picocom) -> Qodem -> [GNU Screen](http://www.noah.org/wiki/Screen_notes#using_screen_as_a_serial_terminal)
+* __Remote X Apps__: [Xpra](https://www.xpra.org/) > X11 forwarding
+* __Serial Console__: [Minicom](https://salsa.debian.org/minicom-team/minicom) -> [Picocom](https://directory.fsf.org/wiki/Picocom) -> [Qodem](http://qodem.sourceforge.net/) -> [GNU Screen](http://www.noah.org/wiki/Screen_notes#using_screen_as_a_serial_terminal)
 * __Server Provisioning__: [FAI](http://fai-project.org/)
-* __Wake-on-LAN__: [wakeonlan](https://github.com/jpoliv/wakeonlan)
 
 ## Science And Engineering
 * __Artificial Intelligence__: [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment), [ETHNOS](http://ethnos.sourceforge.net/), [Conscious Artificial Intelligence](https://sourceforge.net/projects/cai/), [OpenCog](https://github.com/opencog/opencog), [OpenAI](https://github.com/openai)
