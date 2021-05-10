@@ -496,12 +496,12 @@ Note: All this terminals are compatible with wayland
 * __Server Provisioning__: [FAI](http://fai-project.org/)
 
 ## Science And Engineering
-* __Artificial Intelligence__: [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment), [ETHNOS](http://ethnos.sourceforge.net/), [Conscious Artificial Intelligence](https://sourceforge.net/projects/cai/), [OpenCog](https://github.com/opencog/opencog), [OpenAI](https://github.com/openai)
-* __Astronomy__: Sky Chart (Cartes du Ciel) -> astroTools + evTools -> GNU Astronomy Utilities (Gnuastro)
-* __Astronomy (Planetarium)__: Stellarium -> Celestia -> XEphem -> [SkyCat](https://github.com/Starlink/skycat)
+* __Artificial Intelligence__: [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment), [Conscious Artificial Intelligence](https://sourceforge.net/projects/cai/), [OpenCog](https://github.com/opencog/opencog), [OpenAI](https://github.com/openai)
+* __Astronomy__: [Sky Chart (Cartes du Ciel)](https://sourceforge.net/projects/skychart/) -> [astroTools](https://sourceforge.net/projects/astrotools/) + [evTools](https://sourceforge.net/projects/evtools/) -> [GNU Astronomy Utilities (Gnuastro)](http://savannah.gnu.org/projects/gnuastro/)
+* __Astronomy (Planetarium)__: [Stellarium](https://stellarium.org/) -> [Celestia](https://celestia.space/) -> [XEphem](https://github.com/XEphem/XEphem) -> [SkyCat](https://github.com/Starlink/skycat)
 * __Astronomy (Satelline Tracking)__: [SaVi satellite constellation visualizer](https://sourceforge.net/projects/savi/)
-* __Bioinformatics__: [OpenSim](https://simtk.org/projects/opensim/), [Cytoscape](http://www.cytoscape.org/), [BioJava](https://github.com/biojava/biojava) -> [UGENE](http://ugene.net/) -> [EMBOSS](https://github.com/kimrutherford/EMBOSS) -> [SAMtools](https://github.com/samtools/samtools) -> [BioPerl](http://bioperl.org/)
-* __CAD__: AutoCAD -> Blender -> FreeCAD -> LibreCAD -> [OpenSCAD](https://github.com/openscad/openscad)
+* __Bioinformatics__: [OpenSim](https://simtk.org/projects/opensim/), [Cytoscape](http://www.cytoscape.org/), [BioJava](https://github.com/biojava/biojava) -> [UGENE](http://ugene.net/) -> [SAMtools](https://github.com/samtools/samtools) -> [BioPerl](http://bioperl.org/)
+* __CAD__: [Blender](https://www.blender.org/) -> [FreeCAD](https://www.freecadweb.org/) -> [LibreCAD](https://librecad.org/) -> [OpenSCAD](https://github.com/openscad/openscad)
 * __Chemistry__: [MolComp](http://molcomp.sourceforge.net/), [RasMol](https://directory.fsf.org/wiki/RasMol), [PerlMol](http://www.perlmol.org/)
 * __Circuit Simulator__: [KiCad](http://kicad-pcb.org/) -> [ngspice](http://ngspice.sourceforge.net/) -> [Gnucap](http://www.gnucap.org/dokuwiki/doku.php?id=gnucap:start)
 * __Computational Fluid Dynamics__: [TELEMAC](http://www.opentelemac.org/) -> [FEATFLOW](http://www.featflow.de/en/index.html) -> [OpenFOAM](https://directory.fsf.org/wiki/OpenFOAM) -> [Gerris](http://gfs.sourceforge.net/wiki/index.php/Main_Page)
