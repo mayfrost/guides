@@ -502,22 +502,20 @@ Note: All this terminals are compatible with wayland
 * __Astronomy (Satelline Tracking)__: [SaVi satellite constellation visualizer](https://sourceforge.net/projects/savi/)
 * __Bioinformatics__: [OpenSim](https://simtk.org/projects/opensim/), [Cytoscape](http://www.cytoscape.org/), [BioJava](https://github.com/biojava/biojava) -> [UGENE](http://ugene.net/) -> [SAMtools](https://github.com/samtools/samtools) -> [BioPerl](http://bioperl.org/)
 * __CAD__: [Blender](https://www.blender.org/) -> [FreeCAD](https://www.freecadweb.org/) -> [LibreCAD](https://librecad.org/) -> [OpenSCAD](https://github.com/openscad/openscad)
-* __Chemistry__: [MolComp](http://molcomp.sourceforge.net/), [RasMol](https://directory.fsf.org/wiki/RasMol), [PerlMol](http://www.perlmol.org/)
 * __Circuit Simulator__: [KiCad](http://kicad-pcb.org/) -> [ngspice](http://ngspice.sourceforge.net/) -> [Gnucap](http://www.gnucap.org/dokuwiki/doku.php?id=gnucap:start)
 * __Computational Fluid Dynamics__: [TELEMAC](http://www.opentelemac.org/) -> [FEATFLOW](http://www.featflow.de/en/index.html) -> [OpenFOAM](https://directory.fsf.org/wiki/OpenFOAM) -> [Gerris](http://gfs.sourceforge.net/wiki/index.php/Main_Page)
-* __Computer Algebra System__: [Singular](http://www.singular.uni-kl.de/) -> [Axiom](http://www.axiom-developer.org/) -> [Maxima](http://maxima.sourceforge.net/) (+ PLplot) -> bc + GNU Units
+* __Computer Algebra System__: [Singular](http://www.singular.uni-kl.de/) -> [Maxima](http://maxima.sourceforge.net/) (+ [PLplot](http://plplot.sourceforge.net/)) -> bc + GNU Units
 * __Data Visualization__: [SocNetV](https://github.com/socnetv) -> [Gephi](https://github.com/gephi/gephi) -> [Tulip](http://tulip.labri.fr/TulipDrupal/)
-* __Geography (Geographic Information System)__: [qGIS](https://github.com/qgis/QGIS) -> FWTools (OGDI, PROJ.4, GDAL/OGR, MapServer, OpenEV)
+* __Geography (Geographic Information System)__: [qGIS](https://github.com/qgis/QGIS)
 * __Geography (Street Map)__: [JOSM](https://github.com/openstreetmap/josm) -> [Osmosis](https://github.com/openstreetmap/osmosis)
 * __Geography (Subway Map)__: [qMetro](http://qmetro.sourceforge.net/maps/)
 * __Geography (Virtual Globe)__: [Marble](https://github.com/KDE/marble)
-* __Graphing Calculator__: GraphMonkey -> Lybniz -> KAlgebra -> [TilEm](http://lpg.ticalc.org/prj_tilem/)
-* __Multi-Agent (MA) Simulation__: [Mobility Testbed](https://github.com/agents4its/mobilitytestbed) -> [Galatea](http://galatea.sourceforge.net/Home.htm) -> [NetLogo](https://github.com/NetLogo/NetLogo/) -> [Golly](http://golly.sourceforge.net/) (Conway's Game of Life clone)
+* __Graphing Calculator__: [Lybniz](https://github.com/thomasfuhringer/lybniz) -> [KAlgebra](https://edu.kde.org/kalgebra/)
+* __Multi-Agent (MA) Simulation__: [Galatea](http://galatea.sourceforge.net/Home.htm) -> [NetLogo](https://github.com/NetLogo/NetLogo/) -> [Golly](http://golly.sourceforge.net/) (Conway's Game of Life clone)
 * __Physics Simulation__: [OpenModelica](https://www.openmodelica.org/) -> [CalculiX](http://www.calculix.de/) -> [Elmer](https://directory.fsf.org/wiki/Elmer) -> [MCSim](https://directory.fsf.org/wiki/Mcsim)
-* __Semiconductor Modeling (TCAD)__: [GNU Archimedes](https://directory.fsf.org/wiki/Archimedes) (and [GNU Nano-Archimedes](https://directory.fsf.org/wiki/Nano-archimedes))
-* __Statistical Package__: [SageMath](http://www.sagemath.org/) -> Physics Analysis WorkStation -> ROOT -> [gretl](http://gretl.sourceforge.net/) -> [PSPP](https://directory.fsf.org/wiki/Pspp)  (+ PSPP-Perl)
-* __Theorem Prover__: Coq -> [Abella](https://github.com/abella-prover/abella) -> [Vampire](https://github.com/mayfrost/Vampire) -> [Metamath](http://metamath.org/)
-* __Weather Forecast__: XTide -> AWeather -> My Weather Indicator -> wego -> [Weather Util](http://fungi.yuggoth.org/weather/) -> [rrdweather](https://github.com/tolecnal/rrdweather) -> [curl wttr.in/YOURCITY, YOURCOUNTRY](http://wttr.in/)
+* __Statistical Package__: [SageMath](http://www.sagemath.org/) -> [ROOT](https://root.cern/) -> [gretl](http://gretl.sourceforge.net/) -> [PSPP](https://www.gnu.org/software/pspp/)  (+ PSPP-Perl)
+* __Theorem Prover__: [Coq](https://github.com/coq/coq) -> [Abella](https://github.com/abella-prover/abella) -> [Vampire](https://github.com/mayfrost/Vampire) -> [Metamath](http://metamath.org/)
+* __Weather Forecast__: [XTide](https://flaterco.com/xtide/) -> [My Weather Indicator](https://github.com/atareao/my-weather-indicator) -> [wego](https://github.com/schachmat/wego) -> [Weather Util](http://fungi.yuggoth.org/weather/) -> [curl wttr.in/YOURCITY, YOURCOUNTRY](http://wttr.in/)
 
 ## Security
 ### Containment
