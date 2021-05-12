@@ -519,12 +519,12 @@ Note: All this terminals are compatible with wayland
 
 ## Security
 ### Containment
-* __Access Control (Kernel Patches)__: grsecurity + gradm -> Linux Intrusion Detection System -> SecurelLevel -> PaX -> [RSBAC](https://www.rsbac.org/)
-* __Access Control (Linux Security Modules (LSM))__: SELinux -> TOMOYO Linux -> Smack -> AppArmor
-* __Authentication__: Polkit -> ConsoleKit -> Sudo (visudo) -> Linux PAM -> checkpassword -> shadow
-* __Extended File Attributes__: EVM -> IMA -> inotify
-* __Resource Usage Control__: [cpulimit](https://github.com/opsengine/cpulimit) -> ulimit (Bash) -> [Disk Quota](https://sourceforge.net/projects/linuxquota/) -> [quotatool](https://github.com/ekenberg/quotatool)
-* __Sandbox__: Arkose -> [Firejail](https://github.com/netblue30/firejail) -> nsjail -> [Bubblewrap](https://github.com/projectatomic/bubblewrap)
+* __Access Control (Kernel Patches)__: [grsecurity](https://www.grsecurity.net/) + gradm -> SecurelLevel -> [RSBAC](https://www.rsbac.org/)
+* __Access Control (Linux Security Modules (LSM))__: [SELinux](https://github.com/SELinuxProject/selinux) -> [TOMOYO Linux](http://tomoyo.osdn.jp/) -> [AppArmor](https://gitlab.com/apparmor)
+* __Authentication__: [Polkit](https://gitlab.freedesktop.org/polkit/polkit/) -> [ConsoleKit2](https://github.com/ConsoleKit2/ConsoleKit2) -> Sudo (visudo) -> [Linux PAM](https://github.com/linux-pam/linux-pam) -> checkpassword -> shadow
+* __Extended File Attributes__: [EVM](https://wiki.gentoo.org/wiki/Extended_Verification_Module) -> [IMA](https://sourceforge.net/projects/linux-ima/) -> inotify
+* __Resource Usage Control__: ulimit (Bash) -> [Disk Quota](https://sourceforge.net/projects/linuxquota/) -> [quotatool](https://github.com/ekenberg/quotatool)
+* __Sandbox__: [Firejail](https://github.com/netblue30/firejail) -> [nsjail](https://github.com/google/nsjail) -> [Bubblewrap](https://github.com/projectatomic/bubblewrap)
 
 ### Honeypots
 * __Client__: [HoneyC](https://projects.honeynet.org/honeyc) -> [Capture-HPC](https://projects.honeynet.org/capture-hpc)
