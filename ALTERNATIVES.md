@@ -527,20 +527,17 @@ Note: All this terminals are compatible with wayland
 * __Sandbox__: [Firejail](https://github.com/netblue30/firejail) -> [nsjail](https://github.com/google/nsjail) -> [Bubblewrap](https://github.com/projectatomic/bubblewrap)
 
 ### Honeypots
-* __Client__: [HoneyC](https://projects.honeynet.org/honeyc) -> [Capture-HPC](https://projects.honeynet.org/capture-hpc)
-* __Distro Bundle__: [HoneyDrive](https://sourceforge.net/projects/honeydrive/) -> [ADHD](https://adhdproject.github.io/#!index.md)
-* __Server__: [Honeyperl](https://sourceforge.net/projects/honeyperl/) -> [Nova](https://github.com/DataSoft/Nova) -> Honeyd -> [LaBrea](http://labrea.sourceforge.net/labrea-info.html)
-* __Web-Based__: [HIHAT](http://hihat.sourceforge.net/)
+* __Distro Bundle__: [ADHD](https://adhdproject.github.io/#!index.md)
 
 ### Host Intrusion
 * __Anti Backdoor__: [rosenbridge](https://github.com/xoreaxeaxeax/rosenbridge), [me_cleaner](https://github.com/corna/me_cleaner)
 * __Anti Juice Jacking__: [usbkill](https://github.com/hephaest0s/usbkill) -> [USBGuard](https://github.com/USBGuard/usbguard)
-* __Anti Malware__: ClamTk -> [ClamAV](https://github.com/Cisco-Talos/clamav-devel) -> [Linux Malware Detect (LMD)](https://github.com/rfxn/linux-malware-detect)
+* __Anti Malware__: [ClamTk](https://gitlab.com/dave_m/clamtk/) (clamAV UI) -> [ClamAV](https://github.com/Cisco-Talos/clamav-devel) -> [Linux Malware Detect (LMD)](https://github.com/rfxn/linux-malware-detect)
 * __Host Intrusion Detection Framework__: [OSSEC](https://ossec.github.io/) -> [Tiger](http://www.nongnu.org/tiger/)
-* __Host System Auditing__: [Bastille](http://bastille-linux.sourceforge.net/) -> [OpenVAS](http://www.openvas.org/) -> [Linux Security Auditing Tool (LSAT)](https://github.com/triode3/lsat) -> [Lynis](https://github.com/CISOfy/lynis)
-* __Integrity Check__: PaX Utilities -> AIDE -> [systraq](https://directory.fsf.org/wiki/Systraq) -> [Tripwire](https://github.com/Tripwire/tripwire-open-source) -> [Samhain](https://www.la-samhna.de/samhain/)
+* __Host System Auditing__: [OpenVAS](http://www.openvas.org/) -> [Linux Security Auditing Tool (LSAT)](https://github.com/triode3/lsat) -> [Lynis](https://github.com/CISOfy/lynis)
+* __Integrity Check__: [PaX Utilities](https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities) -> [AIDE](https://aide.github.io/) -> [Tripwire](https://github.com/Tripwire/tripwire-open-source) -> [Samhain](https://www.la-samhna.de/samhain/)
 * __Rootkit Detection__: [rkhunter](http://rkhunter.sourceforge.net/), [Chkrootkit](http://www.chkrootkit.org/), [Unhide](http://www.unhide-forensics.info/)
-* __System Logging__: socklog (runit) -> Rsyslog -> [Syslog-ng](https://github.com/balabit/syslog-ng) -> [sysklogd](http://www.infodrom.org/projects/sysklogd/)
+* __System Logging__: [socklog](https://salsa.debian.org/debian/socklog) (runit) -> [Rsyslog](https://www.rsyslog.com/) -> [Syslog-ng](https://github.com/balabit/syslog-ng)
 
 ### Network Intrusion
 * __Deep Packet Inspection (DPI) Block (Layer 7 Firewall)__: ipp2p -> l7-filter -> OpenDPI
