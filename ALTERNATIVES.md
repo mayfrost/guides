@@ -540,13 +540,12 @@ Note: All this terminals are compatible with wayland
 * __System Logging__: [socklog](https://salsa.debian.org/debian/socklog) (runit) -> [Rsyslog](https://www.rsyslog.com/) -> [Syslog-ng](https://github.com/balabit/syslog-ng)
 
 ### Network Intrusion
-* __Deep Packet Inspection (DPI) Block (Layer 7 Firewall)__: ipp2p -> l7-filter -> OpenDPI
+* __Deep Packet Inspection (DPI) Block (Layer 7 Firewall)__: ipp2p -> [OpenDPI](https://github.com/thomasbhatia/OpenDPI)
 * __Deep Packet Inspection (DPI) Circumvention__: [zapret](https://github.com/bol-van/zapret)
-* __Firewall__: ufw (Uncomplicated Firewall) + gufw (GUI) -> arptables -> ebtables -> iptables (+ [ipset](http://ipset.netfilter.org/)) -> [nftables](https://netfilter.org/projects/nftables/) + conntrack-tools
-* __Man-In-The-Middle (MITM) Detection__: arpwatch -> [ArpON](http://arpon.sourceforge.net/) -> [Arpalert](http://www.arpalert.org/arpalert.html)
-* __Network Intrusion Detection__: Snort -> [Suricata](https://github.com/OISF/suricata)
-* __Network Intrusion Prevention__: Fail2ban -> [Sshguard](https://www.sshguard.net/)
-* __Network Logging__: CoCaLoRes -> ulogd
+* __Firewall__: [ufw](https://launchpad.net/ufw) + [gufw](https://gufw.org/) (GUI) -> [arptables](https://git.netfilter.org/arptables/) -> [ebtables](http://git.netfilter.org/ebtables/) -> [iptables](https://git.netfilter.org/iptables/)  -> [nftables](https://git.netfilter.org/nftables/)
+* __Man-In-The-Middle (MITM) Detection__: [arpwatch](https://ee.lbl.gov/) -> [ArpON](http://arpon.sourceforge.net/)
+* __Network Intrusion Detection__: [Snort](https://www.snort.org/) -> [Suricata](https://github.com/OISF/suricata)
+* __Network Intrusion Prevention__: [Fail2ban](https://github.com/fail2ban/fail2ban) -> [Sshguard](https://www.sshguard.net/)
 
 ## Server
 * __BBS Server__: [Citadel](http://www.citadel.org/doku.php) -> Synchronet -> [Mystic BBS](http://www.tinysbbs.com/files/prog/MSRC20B3.ZIP) -> [BBS100](https://directory.fsf.org/wiki/Bbs100)
