@@ -548,13 +548,11 @@ Note: All this terminals are compatible with wayland
 * __Network Intrusion Prevention__: [Fail2ban](https://github.com/fail2ban/fail2ban) -> [Sshguard](https://www.sshguard.net/)
 
 ## Server
-* __BBS Server__: [Citadel](http://www.citadel.org/doku.php) -> Synchronet -> [Mystic BBS](http://www.tinysbbs.com/files/prog/MSRC20B3.ZIP) -> [BBS100](https://directory.fsf.org/wiki/Bbs100)
-* __Bitcoin Miner__: BFGMiner
-* __Blog__: finger / [cfingerd](https://github.com/pld-linux/cfingerd)
-* __Bluetooth__: BlueALSA
-* __Captcha__: [cool-php-captcha](https://github.com/josecl/cool-php-captcha)
+* __BBS Server__: [Citadel](https://www.citadel.org/index.html) -> [Synchronet](http://www.synchro.net/)
+* __Bitcoin Miner__: [BFGMiner](http://bfgminer.org/)
+* __Bluetooth__: [BlueALSA](https://github.com/Arkq/bluez-alsa)
 * __Chat__:  [sshtalk](https://2ton.com.au/sshtalk/) -> util-linux (write, wall, mesg)
-* __Cloud File Server__: Google Drive -> Nextcloud -> [Syncthing](https://github.com/syncthing/syncthing) -> sftp / [SSHFS](https://github.com/libfuse/sshfs) (SSH)
+* __Cloud File Server__: [Nextcloud](https://nextcloud.com/) -> [Syncthing](https://github.com/syncthing/syncthing) -> sftp / [SSHFS](https://github.com/libfuse/sshfs) (SSH)
 * __CMS__: WordPress -> [GetSimple CMS](https://github.com/GetSimpleCMS/GetSimpleCMS) -> [werc](http://werc.cat-v.org/)
 * __Collaborative Real-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
 * __Direct Connect Server__: [uhub](https://www.uhub.org/)
