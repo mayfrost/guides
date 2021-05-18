@@ -553,17 +553,15 @@ Note: All this terminals are compatible with wayland
 * __Bluetooth__: [BlueALSA](https://github.com/Arkq/bluez-alsa)
 * __Chat__:  [sshtalk](https://2ton.com.au/sshtalk/) -> util-linux (write, wall, mesg)
 * __Cloud File Server__: [Nextcloud](https://nextcloud.com/) -> [Syncthing](https://github.com/syncthing/syncthing) -> sftp / [SSHFS](https://github.com/libfuse/sshfs) (SSH)
-* __CMS__: WordPress -> [GetSimple CMS](https://github.com/GetSimpleCMS/GetSimpleCMS) -> [werc](http://werc.cat-v.org/)
+* __CMS__: [WordPress](https://wordpress.com/) -> [GetSimple CMS](https://github.com/GetSimpleCMS/GetSimpleCMS) -> [werc](http://werc.cat-v.org/)
 * __Collaborative Real-Time Editor__: [Gobby](https://github.com/gobby/gobby) -> [EtherCalc](https://github.com/audreyt/ethercalc) -> [Cryptpad](https://github.com/xwiki-labs/cryptpad)
-* __Direct Connect Server__: [uhub](https://www.uhub.org/)
-* __DLNA__: [Universal Media Server](https://github.com/UniversalMediaServer/UniversalMediaServer) -> [ReadyMedia](http://minidlna.sourceforge.net/) (a.k.a. MiniDLNA) -> MiniUPnP
-* __DNS Spam Detector__: DNS Flood Detector
+* __DLNA__: [Universal Media Server](https://github.com/UniversalMediaServer/UniversalMediaServer) -> [Jellyfin](https://jellyfin.org/) -> [ReadyMedia](https://sourceforge.net/projects/minidlna/) (a.k.a. MiniDLNA) -> [MiniUPnP](https://github.com/miniupnp/miniupnp)
+* __DNS Spam Detector__: [DNS Flood Detector](https://tracker.debian.org/pkg/dns-flood-detector)
 * __Document Management System__: [OpenKM](https://github.com/openkm/document-management-system) -> [LogicalDOC](https://github.com/logicaldoc/document-management-software) -> [EPrints](https://github.com/eprints/eprints)
-* __Dynamic DNS (DDNS)__: DDClient
-* __E-Mail Filtering (LDA)__: Dovecot -> [procmail](https://github.com/Distrotech/procmail)
-* __E-Mail Indexing__: Archmbox -> Chewmail -> Notmuch -> [mairix](https://github.com/rc0/mairix)
-* __E-Mail Mailing Lists__: Mailman -> [Sympa](https://github.com/sympa-community) -> [Dada Mail](https://github.com/justingit/dada-mail) -> [ezmlm](https://github.com/bruceg/ezmlm-idx) -> mlmmj
-* __E-Mail Notifier__: [mswatch](http://mswatch.sourceforge.net/)
+* __Dynamic DNS (DDNS)__: [DDClient](https://github.com/ddclient/ddclient)
+* __E-Mail Filtering (LDA)__: [Dovecot](https://www.dovecot.org/)
+* __E-Mail Indexing__: [Notmuch](https://notmuchmail.org/) -> [mairix](https://github.com/rc0/mairix)
+* __E-Mail Mailing Lists__: [Mailman](http://www.list.org/) -> [Sympa](https://github.com/sympa-community) -> [Dada Mail](https://github.com/justingit/dada-mail) -> [ezmlm](https://github.com/bruceg/ezmlm-idx) -> [mlmmj](http://mlmmj.org/)
 * __E-Mail Server (MTA)__: [Mail-in-a-Box](https://mailinabox.email/) -> Kolab -> Sendmail -> Postfix -> Exim -> [cmail](http://cmail.rocks/) -> [qpsmtpd](https://smtpd.github.io/qpsmtpd/) -> OpenSMTPD -> [qmail](https://en.wikipedia.org/wiki/Qmail)
 * __E-Mail Spam Filter__: Bogofilter -> DSPAM -> [SpamAssassin](https://github.com/apache/spamassassin) -> SpamProbe + Hashcash + rbldnsd
 * __E-Mail Validation__: [OpenDKIM](http://opendkim.org/), [SPF](http://www.openspf.org/)
