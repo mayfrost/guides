@@ -579,15 +579,15 @@ Note: All this terminals are compatible with wayland
 * __Political__: [LittleSis](https://github.com/public-accountability/littlesis-rails), [Loomio](https://github.com/loomio/loomio)
 * __Port Tunnel__: [stunnel](https://www.stunnel.org/) -> [sslh](https://github.com/yrutschle/sslh)
 * __Proxy Server__: [Tinyproxy](https://tinyproxy.github.io/)
-* __Service Manager__: [xinetd](https://github.com/xinetd-org/xinetd) -> linetd -> inetd (GNU inetutils) -> [knockd](https://github.com/jvinet/knock) -> [TCP Wrappers](https://github.com/pexip/os-tcp-wrappers) (tcpd, tcpdchk) -> ucspi-tcp
-* __Streaming__: [Syncplay](https://github.com/Syncplay/syncplay) -> [Peerflix](https://github.com/mafintosh/peerflix) (+ [Torrentflix](https://github.com/ItzBlitz98/torrentflix)) -> [Libresonic](https://github.com/Libresonic/libresonic) -> Icecast (+ DarkIce -> ezstream -> oggfwd) -> trx: Realtime audio over IP -> SRS -> [VLC](https://www.howtogeek.com/118075/how-to-stream-videos-and-music-over-the-network-using-vlc/) -> [FFmpeg](https://gist.github.com/olasd/9841772)
-* __Torrent Tracker__: [Ocelot](https://github.com/whatcd/ocelot) -> [Gazelle](https://github.com/WhatCD/Gazelle) -> hefur
-* __Tunneling__: HTTPTunnel -> VTun -> [ProxyChains](https://github.com/rofl0r/proxychains-ng) -> [VPNEncap](https://github.com/whussup/vpnencap) -> [VPNCHAINS](https://sourceforge.net/p/vpnchains/wiki/Home/)
-* __Tunneling VM__: [PIA Tunnel](https://www.privateinternetaccess.com/forum/discussion/1389/pia-tunnel-a-virtual-machine-vpn-tunnel) -> [Whonix](https://www.whonix.org/)
+* __Service Manager__: [xinetd](https://github.com/xinetd-org/xinetd) -> inetd (GNU inetutils) -> [knockd](https://github.com/jvinet/knock) -> [TCP Wrappers](https://github.com/pexip/os-tcp-wrappers) (tcpd, tcpdchk)
+* __Streaming__: [Syncplay](https://github.com/Syncplay/syncplay) -> [Peerflix](https://github.com/mafintosh/peerflix) (+ [Torrentflix](https://github.com/ItzBlitz98/torrentflix)) -> [Icecast](https://icecast.org/) (+ [DarkIce](https://github.com/rafael2k/darkice) -> [ezstream](https://icecast.org/ezstream/)) -> [trx: Realtime audio over IP](http://www.pogo.org.uk/~mark/trx/) -> [SRS](https://github.com/ossrs/srs) -> [VLC](https://www.howtogeek.com/118075/how-to-stream-videos-and-music-over-the-network-using-vlc/) -> [FFmpeg](https://gist.github.com/olasd/9841772)
+* __Torrent Tracker__: [Gazelle](https://github.com/WhatCD/Gazelle) -> [hefur](https://github.com/abique/hefur)
+* __Tunneling__: [HTTPTunnel](https://github.com/larsbrinkhoff/httptunnel) -> [VTun](http://vtun.sourceforge.net/) -> [ProxyChains](https://github.com/rofl0r/proxychains-ng)
+* __Tunneling VM__: [PIA Tunnel](https://github.com/KaiserSoft/PIA-Tunnel) -> [Whonix](https://www.whonix.org/)
 * __Usenet Server__: [InterNetNews](https://www.eyrie.org/~eagle/software/inn/) -> [Leafnode](http://www.leafnode.org/)
-* __VoIP__:  GNU SIP Witch -> GNU Gatekeeper -> Mumble -> [Linphone (linphonec)](https://www.linphone.org/) -> PJSIP -> [sscall](https://github.com/Drakevr/sscall)
-* __VPN (Overlay)__: strongSwan -> Libreswan -> OpenVPN (+ [PiVPN](http://www.pivpn.io/)) -> [WireGuard](https://github.com/WireGuard/wireguard-rs)
-* __VPN (Pseudo-wire)__: Tunneldigger -> OpenMesher
+* __VoIP__:  [GNU SIP Witch](https://www.gnu.org/software/sipwitch/) -> [GNU Gatekeeper](https://www.gnugk.org/) -> [Mumble](https://www.mumble.info/) -> [Linphone (linphonec)](https://www.linphone.org/) -> [PJSIP](https://github.com/pjsip/pjproject) -> [sscall](https://github.com/Drakevr/sscall)
+* __VPN (Overlay)__: [strongSwan](https://www.strongswan.org/) -> [Libreswan](https://github.com/libreswan/libreswan) -> [OpenVPN](https://openvpn.net/) (+ [PiVPN](http://www.pivpn.io/)) -> [WireGuard](https://git.zx2c4.com/wireguard-rs)
+* __VPN (Pseudo-wire)__: [Tunneldigger](https://github.com/wlanslovenija/tunneldigger)
 * __Web Caching__: Decentraleyes on a web browser -> [Squid](http://www.squid-cache.org/) (+ [SquidGuard](http://squidguard.org/) for Web Filtering)
 * __Web Filtering__: Ad blocker on a web browser -> [Pi-hole](https://github.com/pi-hole/pi-hole) -> DansGuardian -> [Privoxy](http://www.privoxy.org/) -> [Hostsblock](https://github.com/gaenserich/hostsblock)
 * __Web Server__: Apache -> Nginx -> lighttpd -> Hiawatha -> Monkey -> [GNU MyServer](https://directory.fsf.org/wiki/GNU_MyServer) -> webfs -> [darkhttpd](https://github.com/ryanmjacobs/darkhttpd) -> [Bucky](https://github.com/kibook/bucky) (Bucktooth HTTP exit)
