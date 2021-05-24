@@ -588,23 +588,22 @@ Note: All this terminals are compatible with wayland
 * __VoIP__:  [GNU SIP Witch](https://www.gnu.org/software/sipwitch/) -> [GNU Gatekeeper](https://www.gnugk.org/) -> [Mumble](https://www.mumble.info/) -> [Linphone (linphonec)](https://www.linphone.org/) -> [PJSIP](https://github.com/pjsip/pjproject) -> [sscall](https://github.com/Drakevr/sscall)
 * __VPN (Overlay)__: [strongSwan](https://www.strongswan.org/) -> [Libreswan](https://github.com/libreswan/libreswan) -> [OpenVPN](https://openvpn.net/) (+ [PiVPN](http://www.pivpn.io/)) -> [WireGuard](https://git.zx2c4.com/wireguard-rs)
 * __VPN (Pseudo-wire)__: [Tunneldigger](https://github.com/wlanslovenija/tunneldigger)
-* __Web Caching__: Decentraleyes on a web browser -> [Squid](http://www.squid-cache.org/) (+ [SquidGuard](http://squidguard.org/) for Web Filtering)
-* __Web Filtering__: Ad blocker on a web browser -> [Pi-hole](https://github.com/pi-hole/pi-hole) -> DansGuardian -> [Privoxy](http://www.privoxy.org/) -> [Hostsblock](https://github.com/gaenserich/hostsblock)
-* __Web Server__: Apache -> Nginx -> lighttpd -> Hiawatha -> Monkey -> [GNU MyServer](https://directory.fsf.org/wiki/GNU_MyServer) -> webfs -> [darkhttpd](https://github.com/ryanmjacobs/darkhttpd) -> [Bucky](https://github.com/kibook/bucky) (Bucktooth HTTP exit)
-* __Web Server Certificate__: Dehydrated -> acmetool
-* __Wiki__: TWiki -> DokuWiki -> [XWiki](https://github.com/xwiki/xwiki-platform) -> [ikiwiki](https://ikiwiki.info/)
+* __Web Caching__: [Decentraleyes](https://decentraleyes.org/) on a web browser -> [Squid](http://www.squid-cache.org/)
+* __Web Filtering__: Ad blocker on a web browser -> [Pi-hole](https://github.com/pi-hole/pi-hole) -> [Privoxy](http://www.privoxy.org/) -> ([Hostsblock](https://github.com/gaenserich/hostsblock) | [Hosts](https://github.com/StevenBlack/hosts))
+* __Web Server__: [Apache](https://httpd.apache.org/) -> [Nginx](https://nginx.org/) -> [lighttpd](https://www.lighttpd.net/) -> [Hiawatha](https://gitlab.com/hsleisink/hiawatha) -> [Monkey](http://monkey-project.com/) -> [darkhttpd](https://github.com/emikulic/darkhttpd) -> [Bucky](https://github.com/kibook/bucky) (Bucktooth HTTP exit)
+* __Web Server Certificate__: [Dehydrated](https://github.com/dehydrated-io/dehydrated) -> [acmetool](https://github.com/hlandau/acmetool)
+* __Wiki__: [TWiki](https://twiki.org/) -> [DokuWiki](https://github.com/splitbrain/dokuwiki) -> [XWiki](https://github.com/xwiki/xwiki-platform) -> [ikiwiki](https://ikiwiki.info/)
 * __Wireless Access Point__: [hostapd](https://github.com/OpenSecurityResearch/hostapd-wpe)
 * __XMPP Server__: [Tigase](https://github.com/kontalk/tigase-server)
 
 ### Server Authentication
-* __Directory Service__: [OpenLDAP](https://www.openldap.org/) -> [NIS](http://www.linux-nis.org/nis/)
-* __Domain Specific Authentication Server__: Ident (IRC), [SKS](https://bitbucket.org/skskeyserver/sks-keyserver/wiki/Home) (PGP)
-* __RADIUS__: [FreeRADIUS](https://github.com/FreeRADIUS) -> [GNU Radius](https://www.gnu.org/software/radius/)
-* __SSO__: krb5 (Kerberos) + keyutils -> [GNU Shishi](https://www.gnu.org/software/shishi/) (Kerberos)
+* __Directory Service__: [OpenLDAP](https://www.openldap.org/)
+* __RADIUS__: [FreeRADIUS](https://github.com/FreeRADIUS)
+* __SSO__: [krb5](https://github.com/krb5/krb5) ([Kerberos](https://web.mit.edu/Kerberos/)) + keyutils
 * __Suites__: [FreeIPA](https://github.com/freeipa/freeipa) -> [SSSD](https://github.com/SSSD/sssd)
 
 ## System Utilities
-* __BIOS__: efibootmgr -> SeaBIOS -> Coreboot -> [Libreboot](https://libreboot.org/)
+* __BIOS__: [efibootmgr](https://github.com/rhboot/efibootmgr) -> [SeaBIOS](https://review.coreboot.org/plugins/gitiles/seabios/) -> [Coreboot](https://www.coreboot.org/) -> [Libreboot](https://libreboot.org/)
 * __[Boot Loader](https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md)__: GRUB 2 -> GRUB Legacy -> [SYSLINUX](http://www.syslinux.org/wiki/index.php?title=The_Syslinux_Project) (+ Hardware Detection Tool -HDT-) -> [LILO](https://lilo.alioth.debian.org/) (or [ELILO](https://sourceforge.net/projects/elilo/) for UEFI) -> AiR-Boot -> Das U-Boot (u-boot-tools)
 * __Boot Loaders (load on running machine)__: loadlin -> Kexec (kexec-tools)
 * __Cache__: Memcached, EnhanceIO -> dm-cache -> bcache
