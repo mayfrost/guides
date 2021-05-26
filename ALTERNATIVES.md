@@ -604,9 +604,9 @@ Note: All this terminals are compatible with wayland
 
 ## System Utilities
 * __BIOS__: [efibootmgr](https://github.com/rhboot/efibootmgr) -> [SeaBIOS](https://review.coreboot.org/plugins/gitiles/seabios/) -> [Coreboot](https://www.coreboot.org/) -> [Libreboot](https://libreboot.org/)
-* __[Boot Loader](https://github.com/mayfrost/guides/blob/master/BOOTLOADER.md)__: GRUB 2 -> GRUB Legacy -> [SYSLINUX](http://www.syslinux.org/wiki/index.php?title=The_Syslinux_Project) (+ Hardware Detection Tool -HDT-) -> [LILO](https://lilo.alioth.debian.org/) (or [ELILO](https://sourceforge.net/projects/elilo/) for UEFI) -> AiR-Boot -> Das U-Boot (u-boot-tools)
-* __Boot Loaders (load on running machine)__: loadlin -> Kexec (kexec-tools)
-* __Cache__: Memcached, EnhanceIO -> dm-cache -> bcache
+* __[Boot Loader](https://github.com/naav97/guides/blob/master/BOOTLOADER.md)__: [GRUB 2](https://www.gnu.org/software/grub/) -> [SYSLINUX](https://mirrors.edge.kernel.org/pub/linux/utils/boot/syslinux/Testing/) -> [U-Boot](https://source.denx.de/u-boot/u-boot) (u-boot-tools)
+* __Boot Loaders (load on running machine)__: Kexec ([kexec-tools](https://github.com/horms/kexec-tools))
+* __Cache__: [Memcached](https://memcached.org/) -> dm-cache -> [bcache](https://bcache.evilpiepirate.org/)
 * __Core Utilities__: moreutils -> Mtools -> util-linux -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
 * __Custom Initramfs__: mkinitcpio -> dracut -> Genkernel -> [mkinitramfs](https://github.com/tokiclover/mkinitramfs-ll) -> umkinitramfs
 * __Filesystem__: CP/M (cpmtools), HFS Utilities, SquashFS (squashfs-tools), fuseflt, UnionFS (unionfs-fuse), udftools (UDF), F2FS (f2fs-tools), exFAT (exfat-utils, fuse-exfat), FAT (dosfstools), Btrfs (btrfs-progs), XFS (xfsprogs, xfsdump), Ext4, [JFS](http://jfs.sourceforge.net/), [Reiser4](https://reiser4.wiki.kernel.org/index.php/Main_Page), [Bcachefs](https://github.com/8l/Bcachefs)
