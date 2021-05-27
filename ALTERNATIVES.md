@@ -607,11 +607,11 @@ Note: All this terminals are compatible with wayland
 * __[Boot Loader](https://github.com/naav97/guides/blob/master/BOOTLOADER.md)__: [GRUB 2](https://www.gnu.org/software/grub/) -> [SYSLINUX](https://mirrors.edge.kernel.org/pub/linux/utils/boot/syslinux/Testing/) -> [U-Boot](https://source.denx.de/u-boot/u-boot) (u-boot-tools)
 * __Boot Loaders (load on running machine)__: Kexec ([kexec-tools](https://github.com/horms/kexec-tools))
 * __Cache__: [Memcached](https://memcached.org/) -> dm-cache -> [bcache](https://bcache.evilpiepirate.org/)
-* __Core Utilities__: moreutils -> Mtools -> util-linux -> GNU Coreutils -> BusyBox -> Asmutils and ARMutils
-* __Custom Initramfs__: mkinitcpio -> dracut -> Genkernel -> [mkinitramfs](https://github.com/tokiclover/mkinitramfs-ll) -> umkinitramfs
-* __Filesystem__: CP/M (cpmtools), HFS Utilities, SquashFS (squashfs-tools), fuseflt, UnionFS (unionfs-fuse), udftools (UDF), F2FS (f2fs-tools), exFAT (exfat-utils, fuse-exfat), FAT (dosfstools), Btrfs (btrfs-progs), XFS (xfsprogs, xfsdump), Ext4, [JFS](http://jfs.sourceforge.net/), [Reiser4](https://reiser4.wiki.kernel.org/index.php/Main_Page), [Bcachefs](https://github.com/8l/Bcachefs)
-* __IPC__: DBus -> [ubus](https://wiki.openwrt.org/doc/techref/ubus) -> RPCBind -> ipcs (util-linux)
-* __Kernel Modules__: NDISwrapper -> ibm-acpi-> kmod (lsmod, insmod, modprobe)
+* __Core Utilities__: [moreutils](https://joeyh.name/code/moreutils/) -> [Mtools](https://svn.savannah.gnu.org/viewvc/mtools/) -> [util-linux](https://github.com/karelzak/util-linux) -> [GNU Coreutils](https://www.gnu.org/software/coreutils/) -> [BusyBox](https://busybox.net/)
+* __Custom Initramfs__: [mkinitcpio](https://git.archlinux.org/mkinitcpio.git/) -> [dracut](https://github.com/dracutdevs/dracut) -> [mkinitramfs](https://github.com/tokiclover/mkinitramfs-ll)
+* __Filesystem__: CP/M ([cpmtools](https://github.com/lipro-cpm4l/cpmtools)), SquashFS ([squashfs-tools](https://github.com/plougher/squashfs-tools)), UnionFS ([unionfs-fuse](https://github.com/rpodgorny/unionfs-fuse)), [udftools](https://github.com/pali/udftools) (UDF), F2FS ([f2fs-tools](https://github.com/jaegeuk/f2fs-tools)), [exFAT](https://github.com/relan/exfat) (exfat-utils, fuse-exfat), FAT ([dosfstools](https://github.com/dosfstools/dosfstools)), Btrfs ([btrfs-progs](https://github.com/kdave/btrfs-progs)), [Reiser4](https://reiser4.wiki.kernel.org/index.php/Main_Page)
+* __IPC__: [DBus](https://cgit.freedesktop.org/dbus/dbus/) -> [ubus](https://wiki.openwrt.org/doc/techref/ubus) -> [RPCBind](https://sourceforge.net/projects/rpcbind/) -> ipcs (util-linux)
+* __Kernel Modules__: [NDISwrapper](https://sourceforge.net/projects/ndiswrapper/) -> kmod (lsmod, insmod, modprobe)
 * __Kernel Patches__: V86 mode support, GoboHide, Kernel_gcc_patch, Linux-ck, Liquorix, Linux-rt, GNU Linux-libre, Linux Tiny
 * __Kernels__: LUnix, Linux + Lux (kernel updater), GNU Mach, RTLinux, Muen, HiStar
 * __Load in RAM__: [E4rat](https://github.com/ShyPixie/e4rat-lite) -> readahead -> [preload](https://sourceforge.net/projects/preload/), [prelink](https://directory.fsf.org/wiki/Prelink)
