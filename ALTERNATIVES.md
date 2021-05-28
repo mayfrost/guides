@@ -612,10 +612,10 @@ Note: All this terminals are compatible with wayland
 * __Filesystem__: CP/M ([cpmtools](https://github.com/lipro-cpm4l/cpmtools)), SquashFS ([squashfs-tools](https://github.com/plougher/squashfs-tools)), UnionFS ([unionfs-fuse](https://github.com/rpodgorny/unionfs-fuse)), [udftools](https://github.com/pali/udftools) (UDF), F2FS ([f2fs-tools](https://github.com/jaegeuk/f2fs-tools)), [exFAT](https://github.com/relan/exfat) (exfat-utils, fuse-exfat), FAT ([dosfstools](https://github.com/dosfstools/dosfstools)), Btrfs ([btrfs-progs](https://github.com/kdave/btrfs-progs)), [Reiser4](https://reiser4.wiki.kernel.org/index.php/Main_Page)
 * __IPC__: [DBus](https://cgit.freedesktop.org/dbus/dbus/) -> [ubus](https://wiki.openwrt.org/doc/techref/ubus) -> [RPCBind](https://sourceforge.net/projects/rpcbind/) -> ipcs (util-linux)
 * __Kernel Modules__: [NDISwrapper](https://sourceforge.net/projects/ndiswrapper/) -> kmod (lsmod, insmod, modprobe)
-* __Kernel Patches__: V86 mode support, GoboHide, Kernel_gcc_patch, Linux-ck, Liquorix, Linux-rt, GNU Linux-libre, Linux Tiny
-* __Kernels__: LUnix, Linux + Lux (kernel updater), GNU Mach, RTLinux, Muen, HiStar
-* __Load in RAM__: [E4rat](https://github.com/ShyPixie/e4rat-lite) -> readahead -> [preload](https://sourceforge.net/projects/preload/), [prelink](https://directory.fsf.org/wiki/Prelink)
-* __Logical Volume Management__: LVM2
+* __Kernel Patches__: [GoboHide](https://github.com/gobolinux/GoboHide), [Kernel_gcc_patch](https://github.com/graysky2/kernel_gcc_patch), [Linux-ck](https://wiki.archlinux.org/title/Linux-ck), [Liquorix](https://github.com/damentz/liquorix-package), [Linux-rt](https://wiki.linuxfoundation.org/realtime/start), [GNU Linux-libre](https://jxself.org/git/?p=linux-libre.git)
+* __Kernels__: [GNU Mach](http://git.savannah.gnu.org/cgit/hurd/gnumach.git/), RTLinux, [Muen](https://github.com/jcdubois/muen), [HiStar](https://github.com/zeldovich/histar)
+* __Load in RAM__: readahead
+* __Logical Volume Management__: [LVM2](https://sourceware.org/lvm2/)
 * __Multiplexer Wrappers__: ucspi-unix, ucspi-ipc, [socket_wrapper](https://cwrap.org/socket_wrapper.html), [nss_wrapper](https://cwrap.org/nss_wrapper.html), [uid_wrapper](https://cwrap.org/uid_wrapper.html), [resolv_wrapper](https://cwrap.org/resolv_wrapper.html), [pam_wrapper](https://cwrap.org/pam_wrapper.html)
 * __Network Time Protocol__: clockspeed -> Network Time Protocol daemon (ntpd) -> chrony -> OpenNTPD
 * __OS Frameworks__: OpenStack -> Genode
