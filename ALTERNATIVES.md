@@ -616,13 +616,13 @@ Note: All this terminals are compatible with wayland
 * __Kernels__: [GNU Mach](http://git.savannah.gnu.org/cgit/hurd/gnumach.git/), RTLinux, [Muen](https://github.com/jcdubois/muen), [HiStar](https://github.com/zeldovich/histar)
 * __Load in RAM__: readahead
 * __Logical Volume Management__: [LVM2](https://sourceware.org/lvm2/)
-* __Multiplexer Wrappers__: ucspi-unix, ucspi-ipc, [socket_wrapper](https://cwrap.org/socket_wrapper.html), [nss_wrapper](https://cwrap.org/nss_wrapper.html), [uid_wrapper](https://cwrap.org/uid_wrapper.html), [resolv_wrapper](https://cwrap.org/resolv_wrapper.html), [pam_wrapper](https://cwrap.org/pam_wrapper.html)
-* __Network Time Protocol__: clockspeed -> Network Time Protocol daemon (ntpd) -> chrony -> OpenNTPD
-* __OS Frameworks__: OpenStack -> Genode
-* __Partitioning__: Gparted -> GNU Parted -> util-linux (cfdisk, fdisk, sfdisk, mkfs, mkswap, swapon, swapoff)
-* __Partitioning Fixes__: u3_tool, ms-sys
-* __Settings Manager__: Youker Assistant -> [Linux Lite Control Center](https://github.com/linuxlite/litecontrolcenter) -> [Elektra](https://github.com/ElektraInitiative/libelektra) -> [Augeas](https://github.com/hercules-team/augeas) -> Climate -> The Fuck -> Suicide Linux
-* __Virtual Filesystem__: FuseIso -> Autofs -> AVFS -> afuse -> bindfs
+* __Multiplexer Wrappers__: [ucspi-unix](https://github.com/bruceg/ucspi-unix), [socket_wrapper](https://cwrap.org/socket_wrapper.html), [nss_wrapper](https://cwrap.org/nss_wrapper.html), [uid_wrapper](https://cwrap.org/uid_wrapper.html), [resolv_wrapper](https://cwrap.org/resolv_wrapper.html), [pam_wrapper](https://cwrap.org/pam_wrapper.html)
+* __Network Time Protocol__: [chrony](https://chrony.tuxfamily.org/) -> [OpenNTPD](http://www.openntpd.org/)
+* __OS Frameworks__: [OpenStack](https://www.openstack.org/) -> [Genode](https://genode.org/)
+* __Partitioning__: [Gparted](https://gparted.org/) -> [GNU Parted](https://www.gnu.org/software/parted/) -> util-linux (cfdisk, fdisk, sfdisk, mkfs, mkswap, swapon, swapoff)
+* __Partitioning Fixes__: [ms-sys](http://ms-sys.sourceforge.net/)
+* __Settings Manager__: [Youker Assistant](https://github.com/UbuntuKylin/youker-assistant) -> [Elektra](https://github.com/ElektraInitiative/libelektra) -> [Augeas](https://github.com/hercules-team/augeas) -> [The Fuck](https://github.com/nvbn/thefuck) -> [Suicide Linux](https://github.com/tiagoad/suicide-linux)
+* __Virtual Filesystem__: Autofs -> [AVFS](https://sourceforge.net/projects/avf/) -> [bindfs](https://github.com/mpartel/bindfs)
 
 ### Init
 * __Daemon__: [Upstart](https://code.launchpad.net/upstart) -> [SysVinit](https://github.com/slicer69/sysvinit) -> [Initng](https://github.com/initng/initng) -> Finit -> [sinit](https://github.com/henrysher/sinit)
