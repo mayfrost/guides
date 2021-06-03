@@ -625,14 +625,14 @@ Note: All this terminals are compatible with wayland
 * __Virtual Filesystem__: Autofs -> [AVFS](https://sourceforge.net/projects/avf/) -> [bindfs](https://github.com/mpartel/bindfs)
 
 ### Init
-* __Daemon__: [Upstart](https://code.launchpad.net/upstart) -> [SysVinit](https://github.com/slicer69/sysvinit) -> [Initng](https://github.com/initng/initng) -> Finit -> [sinit](https://github.com/henrysher/sinit)
-* __Service Manager__: OpenRC (includes an optional own init) -> runit (includes an optional own init) -> Ignite -> [daemontools-encore](https://github.com/bruceg/daemontools-encore) -> [perp](https://github.com/jdavisp3/perp)
-* __Startup Scripts Manager__: [bum](https://launchpad.net/bum) -> [svsh](https://ido50.github.io/Svsh/) -> [sysv-rc-conf](http://sysv-rc-conf.sourceforge.net/) -> [chkconfig](https://uni.edu/~prefect/devel/chkconfig/index.shtml)
+* __Daemon__: [Upstart](https://code.launchpad.net/upstart) -> [SysVinit](https://www.nongnu.org/sysvinit/) -> [Initng](https://github.com/initng/initng) -> [Finit](https://github.com/troglobit/finit) -> [sinit](https://github.com/henrysher/sinit)
+* __Service Manager__: [OpenRC](https://github.com/OpenRC/openrc) (includes an optional own init) -> [runit](https://github.com/madscientist42/runit) (includes an optional own init) -> [daemontools-encore](https://github.com/bruceg/daemontools-encore)
+* __Startup Scripts Manager__: [chkconfig](https://uni.edu/~prefect/devel/chkconfig/index.shtml)
 
 ### Job Scheduler
-* __Event__: [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en) -> inotify-tools -> entr -> wendy -> ACPI event daemon (acpid) -> waitfordevice (w4d)
-* __Queue__:  [Slurm](https://github.com/SchedMD/slurm) -> Task Spooler
-* __Time__: Anacron -> [fcron](http://fcron.free.fr/) -> bcron -> dcron -> at
+* __Event__: [inotify-tools](https://github.com/inotify-tools/inotify-tools) -> [entr](https://github.com/eradman/entr) -> [waitfordevice](https://github.com/inflex/waitfordevice) (w4d)
+* __Queue__:  [Slurm](https://github.com/SchedMD/slurm) -> [Task Spooler](https://vicerveza.homeunix.net/~viric/soft/ts/)
+* __Time__: [fcron](http://fcron.free.fr/) -> [dcron](https://github.com/dubiousjim/dcron)
 
 ## X Desktop
 * __Application Launcher__: ratmenu -> xcmd -> [dmenu](https://github.com/stilvoid/dmenu) -> nenu
