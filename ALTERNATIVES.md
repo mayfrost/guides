@@ -635,7 +635,7 @@ Note: All this terminals are compatible with wayland
 * __Time__: [fcron](http://fcron.free.fr/) -> [dcron](https://github.com/dubiousjim/dcron)
 
 ## X Desktop
-* __Application Launcher__: ratmenu -> xcmd -> [dmenu](https://github.com/stilvoid/dmenu) -> nenu
+* __Application Launcher__: [rofi](https://github.com/davatorium/rofi) -> [xfce4-appfinder](https://gitlab.xfce.org/xfce/xfce4-appfinder) -> [bemenu](https://github.com/Cloudef/bemenu) -> [j4-dmenu-desktop](https://github.com/enkore/j4-dmenu-desktop) -> [grun](https://github.com/lrgc/grun) -> [xstarter](https://github.com/lchsk/xstarter) -> [dmenu](https://tools.suckless.org/dmenu/) -> [9menu](https://github.com/arnoldrobbins/9menu)
 * __Boot Screen__: Plymouth -> Splashy -> Fbsplash -> \<BOOTLOADERS>
 * __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> [snippy](https://github.com/gotbletu/shownotes/blob/master/snippy.sh) -> xclip -> XSel
 * __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
@@ -659,3 +659,6 @@ Note: All this terminals are compatible with wayland
 * __Window Manipulation__: QuickTile -> wmctrl -> wmutils
 * __Worskpace Pager__: [3D-Desktop](http://desk3d.sourceforge.net/) -> [Skippy-XD](https://github.com/richardgv/skippy-xd)
 * __X Event Display__: xprop -> xwininfo -> xev
+
+## Wayland
+* __Application Launcher__: [bemenu](https://github.com/Cloudef/bemenu) -> [fuzzel](https://codeberg.org/dnkl/fuzzel) -> [wofi](https://hg.sr.ht/~scoopta/wofi) -> [mauncher](https://github.com/mortie/mauncher) -> [nwg-launchers](https://github.com/nwg-piotr/nwg-launchers) -> [yofi](https://github.com/l4l/yofi) -> [dmenu-wayland](https://github.com/nyyManni/dmenu-wayland) 
