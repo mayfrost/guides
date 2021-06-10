@@ -636,8 +636,8 @@ Note: All this terminals are compatible with wayland
 
 ## X Desktop
 * __Application Launcher__: [rofi](https://github.com/davatorium/rofi) -> [xfce4-appfinder](https://gitlab.xfce.org/xfce/xfce4-appfinder) -> [bemenu](https://github.com/Cloudef/bemenu) -> [j4-dmenu-desktop](https://github.com/enkore/j4-dmenu-desktop) -> [grun](https://github.com/lrgc/grun) -> [xstarter](https://github.com/lchsk/xstarter) -> [dmenu](https://tools.suckless.org/dmenu/) -> [9menu](https://github.com/arnoldrobbins/9menu)
-* __Boot Screen__: Plymouth -> Splashy -> Fbsplash -> \<BOOTLOADERS>
-* __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/kaihendry/clipmenu) -> [snippy](https://github.com/gotbletu/shownotes/blob/master/snippy.sh) -> xclip -> XSel
+* __Boot Screen__: [Plymouth](https://gitlab.freedesktop.org/plymouth/plymouth) -> BOOTLOADER LOG
+* __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/cdown/clipmenu) -> [xclip](https://github.com/astrand/xclip) -> [XSel](https://github.com/kfish/xsel)
 * __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
 * __Desktop Animated Character__: [Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya) (for [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
 * __Desktop Automation__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke) -> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
@@ -662,3 +662,4 @@ Note: All this terminals are compatible with wayland
 
 ## Wayland
 * __Application Launcher__: [bemenu](https://github.com/Cloudef/bemenu) -> [fuzzel](https://codeberg.org/dnkl/fuzzel) -> [wofi](https://hg.sr.ht/~scoopta/wofi) -> [mauncher](https://github.com/mortie/mauncher) -> [nwg-launchers](https://github.com/nwg-piotr/nwg-launchers) -> [yofi](https://github.com/l4l/yofi) -> [dmenu-wayland](https://github.com/nyyManni/dmenu-wayland) 
+* __Clipboard__: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
