@@ -49,7 +49,8 @@ TL;DR: is about the unix principle, having a fully functional system pretty damn
 23. [System Utilities](#system-utilities)  
 23.1. [Init](#init)  
 23.2. [Job Scheduler](#job-scheduler)  
-24. [X Desktop](#x-desktop)  
+24. [X Desktop](#x-desktop)
+25. [Wayland](#wayland)  
 
 
 ## ANDROID APPS
@@ -638,9 +639,9 @@ Note: All this terminals are compatible with wayland
 * __Application Launcher__: [rofi](https://github.com/davatorium/rofi) -> [xfce4-appfinder](https://gitlab.xfce.org/xfce/xfce4-appfinder) -> [bemenu](https://github.com/Cloudef/bemenu) -> [j4-dmenu-desktop](https://github.com/enkore/j4-dmenu-desktop) -> [grun](https://github.com/lrgc/grun) -> [xstarter](https://github.com/lchsk/xstarter) -> [dmenu](https://tools.suckless.org/dmenu/) -> [9menu](https://github.com/arnoldrobbins/9menu)
 * __Boot Screen__: [Plymouth](https://gitlab.freedesktop.org/plymouth/plymouth) -> BOOTLOADER LOG
 * __Clipboard__: [CopyQ](https://github.com/hluk/CopyQ) -> [clipmenu](https://github.com/cdown/clipmenu) -> [xclip](https://github.com/astrand/xclip) -> [XSel](https://github.com/kfish/xsel)
-* __Compositing Window Manager__: Compiz -> Compton -> Xcompmgr
-* __Desktop Animated Character__: [Kawari](https://sourceforge.net/projects/kawari/) + [Ninix-aya](https://directory.fsf.org/wiki/Ninix-aya) (for [Ukagaka](https://en.wikipedia.org/wiki/Ukagaka)) -> [Gnome KiSS](http://devel.tlrmx.org/kiss/) -> [Oneko](http://www.daidouji.com/oneko/) -> [xevilteddy](https://github.com/mjg59/xevilteddy) -> [Xteddy](https://xteddy.org/)
-* __Desktop Automation__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke) -> [xdotool](http://www.semicomplete.com/blog/projects/xdotool/) -> [GNU Xnee](https://www.gnu.org/software/xnee/) 
+* __Compositing Window Manager__: [Compiz](https://launchpad.net/compiz) -> [Compton](https://github.com/chjj/compton)
+* __Desktop Animated Character__: [xevilteddy](https://github.com/mjg59/xevilteddy)
+* __Desktop Automation__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke) -> [xdotool](https://github.com/jordansissel/xdotool)
 * __Font Settings__: xfontsel + mkfontdir -> fontconfig -> /etc/X11/xorg.conf
 * __Graphics Settings__: RiceDB -> [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> dconf -> Xset -> /etc/X11/xorg.conf
 * __Login Manager__: SLiM -> [Qingy](http://qingy.sourceforge.net/)
@@ -663,3 +664,4 @@ Note: All this terminals are compatible with wayland
 ## Wayland
 * __Application Launcher__: [bemenu](https://github.com/Cloudef/bemenu) -> [fuzzel](https://codeberg.org/dnkl/fuzzel) -> [wofi](https://hg.sr.ht/~scoopta/wofi) -> [mauncher](https://github.com/mortie/mauncher) -> [nwg-launchers](https://github.com/nwg-piotr/nwg-launchers) -> [yofi](https://github.com/l4l/yofi) -> [dmenu-wayland](https://github.com/nyyManni/dmenu-wayland) 
 * __Clipboard__: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
+* __Desktop Automation__: [ydotool](https://github.com/ReimuNotMoe/ydotool) -> [wtype](https://github.com/atx/wtype) 
