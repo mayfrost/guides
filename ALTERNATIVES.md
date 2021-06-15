@@ -642,9 +642,9 @@ Note: All this terminals are compatible with wayland
 * __Compositing Window Manager__: [Compiz](https://launchpad.net/compiz) -> [Compton](https://github.com/chjj/compton)
 * __Desktop Animated Character__: [xevilteddy](https://github.com/mjg59/xevilteddy)
 * __Desktop Automation__: [Autokey](https://github.com/autokey/autokey) -> [Sikuli](https://github.com/sikuli/sikuli) -> [Easystroke](https://github.com/thjaeger/easystroke) -> [xdotool](https://github.com/jordansissel/xdotool)
-* __Font Settings__: xfontsel + mkfontdir -> fontconfig -> /etc/X11/xorg.conf
-* __Graphics Settings__: RiceDB -> [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> dconf -> Xset -> /etc/X11/xorg.conf
-* __Login Manager__: SLiM -> [Qingy](http://qingy.sourceforge.net/)
+* __Font Settings__: xfontsel + mkfontdir -> [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/) -> /etc/X11/xorg.conf
+* __Graphics Settings__: [RiceDB](https://github.com/install-logos/ricedb) -> [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> [dconf](https://wiki.gnome.org/Projects/dconf) -> [Xset](https://cgit.freedesktop.org/xorg/app/xset) -> /etc/X11/xorg.conf
+* __Login Manager__: [SDDM](https://github.com/sddm/sddm/) -> [lightDM](https://github.com/canonical/lightdm) -> [CDM](https://github.com/evertiro/cdm) -> XDM -> [nodm](https://github.com/spanezz/nodm) -> [Console-tdm](https://github.com/dopsi/console-tdm) -> [tbsm](https://loh-tar.github.io/tbsm/) -> [ly](https://github.com/nullgemm/ly)
 * __Nested Display__: Xephyr -> Xnest
 * __Notification (Daemon)__: dunst -> [slstatus](https://github.com/drkhsh/slstatus) -> SiND (Simple Notification Daemon)
 * __Notification (Server)__: Libcanberra + Libnotify -> xmessage
@@ -665,3 +665,5 @@ Note: All this terminals are compatible with wayland
 * __Application Launcher__: [bemenu](https://github.com/Cloudef/bemenu) -> [fuzzel](https://codeberg.org/dnkl/fuzzel) -> [wofi](https://hg.sr.ht/~scoopta/wofi) -> [mauncher](https://github.com/mortie/mauncher) -> [nwg-launchers](https://github.com/nwg-piotr/nwg-launchers) -> [yofi](https://github.com/l4l/yofi) -> [dmenu-wayland](https://github.com/nyyManni/dmenu-wayland) 
 * __Clipboard__: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 * __Desktop Automation__: [ydotool](https://github.com/ReimuNotMoe/ydotool) -> [wtype](https://github.com/atx/wtype) 
+* __Login Manager__: [SDDM](https://github.com/sddm/sddm/) -> [lightDM](https://github.com/canonical/lightdm) -> [tbsm](https://loh-tar.github.io/tbsm/) -> [ly](https://github.com/nullgemm/ly)
+
