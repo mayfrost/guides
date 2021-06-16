@@ -645,12 +645,12 @@ Note: All this terminals are compatible with wayland
 * __Font Settings__: xfontsel + mkfontdir -> [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/) -> /etc/X11/xorg.conf
 * __Graphics Settings__: [RiceDB](https://github.com/install-logos/ricedb) -> [Wpgtk](https://deviantfero.github.io/wpgtk/) -> LxAppearance -> [dconf](https://wiki.gnome.org/Projects/dconf) -> [Xset](https://cgit.freedesktop.org/xorg/app/xset) -> /etc/X11/xorg.conf
 * __Login Manager__: [SDDM](https://github.com/sddm/sddm/) -> [lightDM](https://github.com/canonical/lightdm) -> [CDM](https://github.com/evertiro/cdm) -> XDM -> [nodm](https://github.com/spanezz/nodm) -> [Console-tdm](https://github.com/dopsi/console-tdm) -> [tbsm](https://loh-tar.github.io/tbsm/) -> [ly](https://github.com/nullgemm/ly)
-* __Nested Display__: Xephyr -> Xnest
-* __Notification (Daemon)__: dunst -> [slstatus](https://github.com/drkhsh/slstatus) -> SiND (Simple Notification Daemon)
-* __Notification (Server)__: Libcanberra + Libnotify -> xmessage
-* __Panel__: Avant Window Navigator -> Global Menu -> Tint2
-* __Screensaver__: XScreenSaver -> XLockmore -> i3lock -> [sxlock](https://github.com/lahwaacz/sxlock) -> slock -> xset
-* __Status Bar (Client)__: Dzen -> [bevelbar](https://github.com/vain/bevelbar) -> Lemonbar
+* __Nested Display__: Xephyr
+* __Notification (Daemon)__: [dunst](https://github.com/dunst-project/dunst) -> [slstatus](https://github.com/drkhsh/slstatus)
+* __Notification (Server)__: [Libnotify](https://gitlab.gnome.org/GNOME/libnotify)
+* __Panel__: [Avant Window Navigator](https://github.com/p12tic/awn) -> [Tint2](https://gitlab.com/o9000/tint2)
+* __Screensaver__: [XScreenSaver](https://www.jwz.org/xscreensaver/) -> [XLockmore](http://sillycycle.com/xlockmore.html) -> [i3lock](https://github.com/i3/i3lock) -> [sxlock](https://github.com/lahwaacz/sxlock) -> [slock](https://tools.suckless.org/slock/)
+* __Status Bar (Client)__: [bevelbar](https://www.uninformativ.de/git/bevelbar/file/README.html) -> [Lemonbar](https://github.com/LemonBoy/bar)
 * __Status Bar (Server)__: monky -> i3status
 * __Wallpaper Changer (Animated)__: Xphoon, xfireworks, Xsnow, xmountains, Xplanet, ImageMagick (animate)
 * __Wallpaper Changer (Still)__: FEH -> xsetroot -> [hsetroot](https://github.com/elmiko/hsetroot) -> [imagemagick](https://imagemagick.org/discourse-server/viewtopic.php?t=16735) (but using 10MB more RAM than the others)
@@ -666,4 +666,7 @@ Note: All this terminals are compatible with wayland
 * __Clipboard__: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 * __Desktop Automation__: [ydotool](https://github.com/ReimuNotMoe/ydotool) -> [wtype](https://github.com/atx/wtype) 
 * __Login Manager__: [SDDM](https://github.com/sddm/sddm/) -> [lightDM](https://github.com/canonical/lightdm) -> [tbsm](https://loh-tar.github.io/tbsm/) -> [ly](https://github.com/nullgemm/ly)
-
+* __Notification (Daemon)__: [dunst](https://github.com/dunst-project/dunst) -> [mako](https://github.com/emersion/mako) 
+* __Panel__: [yambar](https://codeberg.org/dnkl/yambar) -> [sfwbar](https://github.com/LBCrion/sfwbar)
+* __Status Bar__: [rootbar](https://hg.sr.ht/~scoopta/rootbar) -> [waybar](https://github.com/Alexays/Waybar)
+* __Screensaver__: [swaylock](https://github.com/swaywm/swaylock) -> [swayidle](https://github.com/swaywm/swayidle) 
