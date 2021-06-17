@@ -651,10 +651,10 @@ Note: All this terminals are compatible with wayland
 * __Panel__: [Avant Window Navigator](https://github.com/p12tic/awn) -> [Tint2](https://gitlab.com/o9000/tint2)
 * __Screensaver__: [XScreenSaver](https://www.jwz.org/xscreensaver/) -> [XLockmore](http://sillycycle.com/xlockmore.html) -> [i3lock](https://github.com/i3/i3lock) -> [sxlock](https://github.com/lahwaacz/sxlock) -> [slock](https://tools.suckless.org/slock/)
 * __Status Bar (Client)__: [bevelbar](https://www.uninformativ.de/git/bevelbar/file/README.html) -> [Lemonbar](https://github.com/LemonBoy/bar)
-* __Status Bar (Server)__: monky -> i3status
-* __Wallpaper Changer (Animated)__: Xphoon, xfireworks, Xsnow, xmountains, Xplanet, ImageMagick (animate)
-* __Wallpaper Changer (Still)__: FEH -> xsetroot -> [hsetroot](https://github.com/elmiko/hsetroot) -> [imagemagick](https://imagemagick.org/discourse-server/viewtopic.php?t=16735) (but using 10MB more RAM than the others)
-* __Wallpaper Changer (Terminal As Wallpaper)__: xli -> [root-tail](http://oldhome.schmorp.de/marc/root-tail.html) -> [xrootconsole](http://silicone.homelinux.org/projects/xrootconsole/)
+* __Status Bar (Server)__: [i3status](https://i3wm.org/i3status/)
+* __Wallpaper Changer (Animated)__: [Xsnow](https://sourceforge.net/projects/xsnow/), [xmountains](https://github.com/spbooth/xmountains), [Xplanet](https://sourceforge.net/projects/xplanet/), ImageMagick (animate)
+* __Wallpaper Changer (Still)__: [FEH](https://feh.finalrewind.org/) -> xsetroot -> [imagemagick](https://imagemagick.org/discourse-server/viewtopic.php?t=16735) (but using 10MB more RAM than the others)
+* __Wallpaper Changer (Terminal As Wallpaper)__: [root-tail](http://oldhome.schmorp.de/marc/root-tail.html)
 * __Wallpaper Changer (Video)__: VLC (nvlc) -> mpv -> MPlayer
 * __Window Manager__: [FVWM](https://directory.fsf.org/wiki/Fvwm) (+ [FvwmTabs](http://fvwm.sourceforge.net/documentation/manpages/unstable/FvwmTabs.php) and [4dwm theme](https://github.com/tonnerre/fvwm/blob/master/sample.fvwmrc/4Dwm.fvwmrc)) -> IceWM (Windows XP-like) -> i3 -> [Amiwm](https://www.lysator.liu.se/~marcus/amiwm.html) (Amiga-like) -> [mlvwm](https://github.com/morgant/mlvwm) (Macintosh-Like) -> [MWM](https://github.com/stackfield/mwm) -> [Ratpoison](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl) -> dwm (+ dwmstatus) -> [FrankenWM](https://github.com/sulami/FrankenWM) -> [TinyWM](http://incise.org/tinywm.html) -> [s3d](http://s3d.sourceforge.net/) (+ s3dfm, it's a 3D desktop independent of X!) -> [Twin](https://github.com/cosmos72/twin) (independent of X) -> [VWM](http://vwm.sourceforge.net/) (independent of X)
 * __Window Manipulation__: QuickTile -> wmctrl -> wmutils
@@ -670,3 +670,6 @@ Note: All this terminals are compatible with wayland
 * __Panel__: [yambar](https://codeberg.org/dnkl/yambar) -> [sfwbar](https://github.com/LBCrion/sfwbar)
 * __Status Bar__: [rootbar](https://hg.sr.ht/~scoopta/rootbar) -> [waybar](https://github.com/Alexays/Waybar)
 * __Screensaver__: [swaylock](https://github.com/swaywm/swaylock) -> [swayidle](https://github.com/swaywm/swayidle) 
+* __Wallpaper Changer (Animated)__: [wallutils](https://github.com/xyproto/wallutils) -> [oguri](https://github.com/vilhalmer/oguri)
+* __Wallpaper Changer (Still)__: [swaybg](https://github.com/swaywm/swaybg)
+* __Wallpaper Changer (Video)__: [mpvpaper](https://github.com/GhostNaN/mpvpaper) 
