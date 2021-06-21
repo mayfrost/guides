@@ -657,9 +657,8 @@ Note: All this terminals are compatible with wayland
 * __Wallpaper Changer (Terminal As Wallpaper)__: [root-tail](http://oldhome.schmorp.de/marc/root-tail.html)
 * __Wallpaper Changer (Video)__: VLC (nvlc) -> mpv -> MPlayer
 * __Window Manager__: [Twin](https://github.com/cosmos72/twin) -> [Qtile](http://www.qtile.org/) -> [IceWM](https://ice-wm.org/) -> [lwm](http://www.jfc.org.uk/software/lwm.html) -> [notion](https://github.com/raboof/notion) -> [i3](https://github.com/i3/i3) -> [spectrwm](https://github.com/conformal/spectrwm) -> [herbstluftwm](https://github.com/herbstluftwm/herbstluftwm) -> [mlvwm](https://github.com/morgant/mlvwm) -> [FVWM](https://github.com/fvwmorg/fvwm3/) -> [jwm](https://github.com/joewing/jwm/) -> [Ratpoison](http://www.nongnu.org/ratpoison/) -> [bspwm](https://github.com/baskerville/bspwm) -> [twm](https://cgit.freedesktop.org/xorg/app/twm/) -> [jbwm](https://github.com/jefbed/jbwm) -> [wmfs](https://github.com/xorg62/wmfs) -> [dwm](https://dwm.suckless.org/) -> [cwm](https://github.com/leahneukirchen/cwm) -> [FrankenWM](https://github.com/sulami/FrankenWM) -> [berry](https://github.com/JLErvin/berry) -> [9wm](https://github.com/9wm/9wm) -> [xlambda](https://github.com/kori/Xlambda) -> [2bwm](https://github.com/venam/2bwm) -> [sowm](https://github.com/dylanaraps/sowm)
-* __Window Manipulation__: QuickTile -> wmctrl -> wmutils
-* __Worskpace Pager__: [3D-Desktop](http://desk3d.sourceforge.net/) -> [Skippy-XD](https://github.com/richardgv/skippy-xd)
-* __X Event Display__: xprop -> xwininfo -> xev
+* __Window Manipulation__: [QuickTile](https://github.com/ssokolow/quicktile) -> [wmutils](https://github.com/wmutils)
+* __X Event Display__: [xprop](https://gitlab.freedesktop.org/xorg/app/xprop)
 
 ## Wayland
 * __Application Launcher__: [bemenu](https://github.com/Cloudef/bemenu) -> [fuzzel](https://codeberg.org/dnkl/fuzzel) -> [wofi](https://hg.sr.ht/~scoopta/wofi) -> [mauncher](https://github.com/mortie/mauncher) -> [nwg-launchers](https://github.com/nwg-piotr/nwg-launchers) -> [yofi](https://github.com/l4l/yofi) -> [dmenu-wayland](https://github.com/nyyManni/dmenu-wayland) 
