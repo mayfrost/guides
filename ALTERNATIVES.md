@@ -111,7 +111,7 @@ Note: All this terminals are compatible with wayland
 * __Media Center__: [Plex](https://www.plex.tv/) -> [Jellyfin](https://jellyfin.org/) -> [Kodi](https://kodi.tv/) -> [Emby](https://emby.media/) -> [LittleWeeb](https://littleweeb.github.io/)
 * __Offline Reader__: [Kiwix](http://www.kiwix.org/) -> [HTTrack](https://www.httrack.com/) -> [Stallman.js](https://github.com/isdampe/Stallman.js/tree/master) -> Wget
 * __Online Radio__: [Nuvola Player](https://tiliado.eu/nuvolaplayer/)
-* __RSS Feed and Podcast__: [gPodder](https://gpodder.github.io/) -> [Liferea](https://lzone.de/liferea/) -> [Newsbeuter](https://newsbeuter.org/) (+ Podbeuter) -> [Newsboat](https://newsboat.org/) -> [sfeed](https://codemadness.org/git/sfeed/file/README.html)
+* __RSS Feed and Podcast__: [gPodder](https://gpodder.github.io/) -> [Liferea](https://lzone.de/liferea/) -> [Newsboat](https://newsboat.org/) -> [sfeed](https://codemadness.org/git/sfeed/file/README.html)
 * __Search Engine Scraper__: [Googler](https://github.com/jarun/googler) / [ddgr](https://github.com/jarun/ddgr) -> [Surfraw](http://surfraw.org/) 
 * __Streams Catcher__: [youtube-dl](https://youtube-dl.org/) -> [youtube-pl](http://ronja.twibright.com/youtube-pl.php) -> [RTMPDump](https://github.com/mstorsjo/rtmpdump) -> [quvi](https://github.com/mogaal/quvi)
 * __UPnP (DLNA) Client__: [djmount](https://github.com/mwilck/djmount)
@@ -163,7 +163,7 @@ Note: All this terminals are compatible with wayland
 * __Network Block Device__: [Usbredir](https://github.com/freedesktop/spice-usbredir) -> [nbd](https://github.com/NetworkBlockDevice/nbd)
 * __Search Engine__: [searx](https://searx.me/) -> [YaCy](https://www.yacy.net/en/) (truly decentralized, would be wonderful if searx/seeks could feed its data to YaCy)
 * __Search Engine (Torrents)__: [Magnetissimo](https://github.com/sergiotapia/magnetissimo) -> [magnetico](https://github.com/boramalper/magnetico) -> [Torrentinim](https://github.com/sergiotapia/torrentinim)
-* __Streaming__: [Livepeer](https://livepeer.org/) -> [PeerTube](https://instances.joinpeertube.org/instances)
+* __Streaming__: [LBRY](https://lbry.com/) -> [Livepeer](https://livepeer.org/) -> [PeerTube](https://instances.joinpeertube.org/instances)
 * __Version Control (Decentralized Github)__: [git-annex](https://git-annex.branchable.com/) (+ git-annex assistant) -> [GitTorrent](https://github.com/mfyuce/GitTorrent)
 * __VPN__:  [n2n](https://www.ntop.org/products/n2n/) -> [PeerVPN](https://github.com/peervpn/peervpn)
 
