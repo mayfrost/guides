@@ -629,7 +629,7 @@ Most apps are from F-Droid, we are just starting.
 * __VPN (Overlay)__: strongSwan -> Libreswan -> OpenVPN (+ [PiVPN](http://www.pivpn.io/)) -> [WireGuard](https://github.com/WireGuard/wireguard-rs)
 * __VPN (Pseudo-wire)__: Tunneldigger -> OpenMesher
 * __Web Caching__: Decentraleyes on a web browser -> [Squid](http://www.squid-cache.org/) (+ [SquidGuard](http://squidguard.org/) for Web Filtering)
-* __Web Filtering__: Ad blocker on a web browser -> [Pi-hole](https://github.com/pi-hole/pi-hole) -> DansGuardian -> [Privoxy](http://www.privoxy.org/) -> [Hostsblock](https://github.com/gaenserich/hostsblock)
+* __Web Filtering__: Ad blocker on a web browser -> [Pi-hole](https://github.com/pi-hole/pi-hole) -> DansGuardian -> [Privoxy](http://www.privoxy.org/) -> [Hostsblock](https://github.com/gaenserich/hostsblock) -> [block-list](https://github.com/OliverBrotchie/block-list)
 * __Web Server__: Apache -> Nginx -> lighttpd -> Hiawatha -> Monkey -> [GNU MyServer](https://directory.fsf.org/wiki/GNU_MyServer) -> webfs -> [darkhttpd](https://github.com/ryanmjacobs/darkhttpd) -> [Bucky](https://github.com/kibook/bucky) (Bucktooth HTTP exit)
 * __Web Server Certificate__: Dehydrated -> acmetool
 * __Wiki__: TWiki -> DokuWiki -> [XWiki](https://github.com/xwiki/xwiki-platform) -> [ikiwiki](https://ikiwiki.info/)
