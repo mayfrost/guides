@@ -369,7 +369,7 @@ Most apps are from F-Droid, we are just starting.
 * __DNS Resolution__: dnsmasq -> Unbound + NDS -> BIND9 -> djbdns
 * __MAC Manipulation__: [GNU MAC Changer (macchanger)](https://github.com/alobbs/macchanger)
 * __Network Encryption__: OpenSSL -> [LibreSSL](https://directory.fsf.org/wiki/Libressl) -> GnuTLS -> IPsec / [SAE](https://github.com/cozybit/authsae) (802.11s)
-* __Network Manager__: Wicd -> NetworkManager -> ConnMan -> [SetNet](http://kalos.mine.nu/setnet/)
+* __Network Manager__: Wicd -> NetworkManager -> ConnMan -> [SetNet](https://katolaz.net/setnet/)
 * __Networking Tools__: WvDial -> [ethtool](https://mirrors.edge.kernel.org/pub/software/network/ethtool/) -> iproute2 (ip, ss) -> [net-tools](https://github.com/ecki/net-tools) (ifconfig, netstat)
 * __Point-to-Point Protocol__: Point-to-Point Protocol daemon
 * __Wireless Tools__: rfkill, iw -> [Wireless Tools for Linux](https://hewlettpackard.github.io/wireless-tools/Tools.html), iwd -> [wpa_supplicant](https://w1.fi/wpa_supplicant/)
