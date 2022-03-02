@@ -121,7 +121,7 @@ Most apps are from F-Droid, we are just starting.
 * __Pastebin__: [pastebinit](https://github.com/skorokithakis/pastebinit)
 * __Reddit__: Reddit Comment Finder -> Cortex -> PRAW -> [cReddit](https://github.com/Cotix/cReddit) -> rtv
 * __Slack__: [ScudCloud](https://github.com/raelgc/scudcloud) -> [slackterm](https://github.com/rob05c/slackterm)
-* __Telegram__: Telegram Desktop -> ncTelegram -> telegram-cli -> Telegram-Purple
+* __Telegram__: Telegram Desktop -> ncTelegram -> telegram-cli -> [tdlib-purple](https://github.com/ars3niy/tdlib-purple/) (use with Adium/Finch/Pidgin)
 * __Twitter__: [Hotot](https://github.com/lyricat/Hotot) -> turses -> [oysttyer](https://github.com/oysttyer/oysttyer)
 * __Youtube__: mps-youtube -> [youtube-viewer](https://github.com/trizen/youtube-viewer)
 
