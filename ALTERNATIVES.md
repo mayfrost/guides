@@ -698,5 +698,5 @@ Most apps are from F-Droid, we are just starting.
 * __Wallpaper Changer (Video)__: VLC (nvlc) -> mpv -> MPlayer
 * __Window Manager__: [FVWM](https://directory.fsf.org/wiki/Fvwm) (+ [FvwmTabs](http://fvwm.sourceforge.net/documentation/manpages/unstable/FvwmTabs.php) and [4dwm theme](https://github.com/tonnerre/fvwm/blob/master/sample.fvwmrc/4Dwm.fvwmrc)) -> IceWM (Windows XP-like) -> i3 -> [Amiwm](https://www.lysator.liu.se/~marcus/amiwm.html) (Amiga-like) -> [mlvwm](https://github.com/morgant/mlvwm) (Macintosh-Like) -> [MWM](https://github.com/stackfield/mwm) -> [Ratpoison](http://ratpoison.wxcvbn.org/cgi-bin/wiki.pl) -> dwm (+ dwmstatus) -> [FrankenWM](https://github.com/sulami/FrankenWM) -> [TinyWM](http://incise.org/tinywm.html) -> [s3d](http://s3d.sourceforge.net/) (+ s3dfm, it's a 3D desktop independent of X!) -> [Twin](https://github.com/cosmos72/twin) (independent of X) -> [VWM](http://vwm.sourceforge.net/) (independent of X)
 * __Window Manipulation__: QuickTile -> wmctrl -> wmutils
-* __Worskpace Pager__: [3D-Desktop](http://desk3d.sourceforge.net/) -> [Skippy-XD](https://github.com/richardgv/skippy-xd)
+* __Workspace Pager__: [3D-Desktop](http://desk3d.sourceforge.net/) -> [Skippy-XD](https://github.com/richardgv/skippy-xd)
 * __X Event Display__: xprop -> xwininfo -> xev
